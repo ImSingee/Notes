@@ -1,0 +1,161 @@
+---
+title: W4-1 Young Sheldon《小谢尔顿》
+---
+
+- #[[看电影学单词]] #[[初级]] #[[Week 4]] [[2021-08-02]]
+-
+- 电影片段
+	- 测试官A：Okay. Are you ready?（好了，你准备好了吗？）
+	- 小谢尔顿：Will I be timed?（会给我计时吗？）
+	- 测试官A：Yes.（会的。）
+	- 小谢尔顿：Fantastic.（太棒了。）
+	- 测试官B： Okay, Missy, the first thing we're gonna do is (to) test your problem-solving ability.（好的，米希。我们首先要测试的呢，是你解决问题的能力。）
+	- 米希：Okay.（好的。）
+	- 测试官B：You ready?（你准备好了吗？）
+	- 米希：I just have one question.（我有一个问题想问。）
+	- 测试官B：What's that?（什么问题？）
+	- 米希：Do you always wear your hair up?（你平常都是把头发扎起来的吗？）
+	- 测试官B：Uh, well, usually at work, yes.（通常上班的时候都会扎。）
+	- 米希：I bet it looks cute down.（我相信放下来一定很好看。）
+	- 测试官B：Thank you. Okay, you're all set?（谢谢。好啦，你准备好了吧？）
+	- 米希：Is that camera gonna be on?（摄像机会开着吗？）
+	- 测试官B：Yes.（会。）
+	- 米希：Can you move it over that side?（那你能把它移到另一边吗？）
+	- 测试官B：Why?（为什么？）
+	- 米希：If I've learned one thing from school picture day, it's that I look better from that side.（学校的拍照日我唯一学到的一件事，那就是我的脸从另一边拍比较好看。）
+	- 测试官B：Sure, I'll move it. Okay...（行，我去移。好的......）
+	- 米希：And bring it a little closer.（再近一点。）
+	- 测试官B：How's that?（怎么样？）
+	- 米希：Great.（很好。）
+	- 测试官B：Okay. Whenever you're ready.（好了，你可以随时开始。）
+	- 米希：Wait. Do I have any Oreos in my teeth?（等等，我牙齿有沾上奥利奥吗？）
+	- 测试官B：No.（没有。）
+- 词汇讲解
+	- 测试官A：Okay. Are you ready?（好了，你准备好了吗？）
+	- 小谢尔顿：Will I be [[time]]d?（会给我计时吗？）
+		- time [taɪm] n. 时间 **v. 计时**
+		- 【例】I will [[time]] you.（我会给你计时。）
+		- 【固】[[time]] sb. 为某人计时
+	- 测试官A：Yes.（会的。）
+	- 小谢尔顿：[[Fantastic]].（太棒了。）
+	- 测试官B： Okay, Missy, the first thing we're gonna do is (to) [[test]] your [[problem-solving ability]].（好的，米希。我们首先要测试的呢，是你解决问题的能力。）
+		- 【固】problem-solving ability 问题解决能力
+			- problem-solving 来自 solve the problem
+			- [[solve]] [sɑːlv] v. 解决
+			- [[problem]] ['prɑːbləm] n. 问题；难题
+			- [[ability]] [ə'bɪləti] n. 能力
+				- 【固】[[problem]]-[[solving]] [[ability]] 解决问题的能力
+				- the [[ability]] to speak 说话的能力
+				- the [[ability]] to walk 走路的能力
+				- the [[ability]] to think 思考的能力
+				- team-working [[ability]] 团队合作能力
+				- special [[ability]] 特殊能力
+		- [[test]] [test] n. 测试，测验
+			- 【三种测试】
+				- [[quiz]] [kwɪz] 快速的小测
+				- [[test]] [test] 多指单元测试
+					- [[test]] **n.** 测试，测验；考验
+						- 【固】pass the [[test]] 通过测验/考验
+						- 【固】fail the [[test]] 没有通过测验/考验
+					- [[test]] **v.** 考验/测验某人某事
+						- 【固】[[test]] your IQ 测智商
+						- [[test]] your English ability 测试你的英语能力
+				- [[exam]] [ɪɡ'zæm] 多指大型考试，如期中考试、期末考试
+					- 【固】final [[exam]] 期末考试
+	- 米希：Okay.（好的。）
+	- 测试官B：You ready?（你准备好了吗？）
+	- 米希：I just have one [[question]].（我有一个问题想问。）
+		- [[question]] ['kwestʃən] n. 问题
+		- 【注】[[question]]是问的问题。[[problem]] 是很麻烦的，需要解决的问题。
+			- [[solve]] the [[problem]] 解决问题
+			- [[answer]] the [[question]] 回答问题
+	- 测试官B：What's that?（什么问题？）
+	- 米希：Do you always [[wear]] your hair up?（你平常都是把头发扎起来的吗？）
+		- 【注】一般单词或者句子的尾音是爆破音t/d，会读的非常弱。
+		- [[wear]] [wer] v. 穿，戴
+			- [[wear]] a hat 戴一顶帽子
+			- [[wear]] a T-shirt 穿T恤衫
+			- [[wear]] long hair 留长头发
+			- [[wear]] short hair 留短头发
+			- [[wear]] your hair up 把头发扎起来
+			- [[wear]] your hair down 把头发散下来
+			- 【固】[[wear]] perfume 抹/用香水
+	- 测试官B：Uh, well, usually [[at work]], yes.（通常上班的时候都会扎。）
+		- 【固】[[at work]] 在工作/上班时
+		- 【例】
+			- 问：Where is Tom?（Tom在哪里？）
+			- 答：He is at work.（他正在工作。）
+	- 米希：I [[bet]] it looks [[cute]] down.（我相信放下来一定很好看。）
+		- [[bet]] [bet] v. 打赌
+			- 【句式】I [[bet]]... 我打赌/我敢肯定/我相信......
+			- 【例】This is a difficult question, I [[bet]] you don’t know the answer.（这个问题很难，我打赌你不知道答案。）
+		- [[cute]] [kjuːt] adj. 可爱的，漂亮的，美丽的
+	- 测试官B：Thank you. Okay, you're [[all set]]?（谢谢。好啦，你准备好了吧？）
+		- 【固】[[all set]] 一切准备就绪
+			- 【例】
+				- -All set？（准备好了吗？）
+				- -Yes, all set.（是的，准备好了。)
+	- 米希：Is that camera [[gonna be]] on?（摄像机会开着吗？）
+		- camera ['kæmərə] n. 照相机，摄像机
+		- on [ɑːn] prep. 在......上面 adj. （某设备、机械、机器等）开机状态，运行状态
+			- 【例】The camera is on.（照相机是启动状态。）
+			- off [ɔːf] adj. （某设备、机械、机器等）关机状态
+		- 【注】[[gonna be]] = [[going to be]] 将要......
+	- 测试官B：Yes.（会。）
+	- 米希：Can you move it over that [[side]]?（那你能把它移到另一边吗？）
+		- 【固】[[move over]] 挪位置
+			- 【例】Can you [[move over]] a little bit?（你能不能挪一点位置？）
+			- move [muːv] v. 移动，使......移动
+				- Move your car, please.（请移动/挪开你的车。）
+			- [[move]] [muːv] v. **搬家**
+				- 【固】[[move]] to 搬到......
+					- 【例】I will [[move]] to Beijing.（我要搬家到北京。）
+		- [[side]] [saɪd] n. 边，侧面
+			- right side 右边
+			- left side 左边
+			- 【例】on the right [[side]] of my car 在我车的右侧
+	- 测试官B：Why?（为什么？）
+	- 米希：If I've learned one thing from school picture day, it's that I look better from that side.（学校的拍照日我唯一学到的一件事，那就是我的脸从另一边拍比较好看。）
+		- learn [lɜːrn] v. 学到
+	- 测试官B：Sure, I'll move it.（行，我去移。）
+	- 米希：Okay...And bring it a little closer.（好的......再近一点。）
+	- 测试官B：How's that?（怎么样？）
+	- 米希：Great.（很好。）
+	- 测试官B：Okay. Whenever you're ready.（好了，你可以随时开始。）
+		- 【补】Whenever you're ready, we will start.（无论什么时候你准备好了，我们就开始。）
+		- [[whenever]] [wen'evər] conj. 无论什么时候
+	- 米希：Wait. Do I have any [[Oreos]] in my teeth?（等等，我牙齿有沾上奥利奥吗？）
+		- 【注】[[Oreos]] 是奥利奥
+	- 测试官B：No.（没有。）
+- 总结
+	- time [taɪm] n. 时间 v. 计时
+	- test [test] n. 测试，测验；考验 v. 考验/测验某人某事
+		- 【固】pass the test 通过测验/考验
+		- fail the test 没有通过测验/考验
+	- 【固】problem-solving ability 解决问题的能力
+		- ability [ə'bɪləti] n. 能力
+		- 【固】the ability to speak 说话的能力
+		- the ability to walk 走路的能力
+	- question ['kwestʃən] n. 问题
+	- wear [wer] v. 穿，戴
+		- 【固】wear long hair 留长头发
+		- wear your hair up 把头发扎起来
+		- wear your hair down 把头发散下来
+		- wear perfume 抹/用香水
+	- 【固】at work 在工作/上班时
+	- cute [kjuːt] adj. 可爱的，漂亮的，美丽的
+	- 【固】all set 一切准备就绪
+	- camera ['kæmərə] n. 照相机，摄像机
+	- on [ɑːn] prep. 在......上面 adj. （某设备、机械、机器等）开机状态，运行状态
+	- off [ɔːf] adj. （某设备、机械、机器等）关机状态
+	- move [muːv] v. 移动，使......移动；搬家
+		- 【固】move to 搬到......
+	- side [saɪd] n. 边，侧面
+		- 【固】right side 右边
+		- left side 左边
+	- learn [lɜːrn] v. 学习，学到
+	- 【例】Bring it a little closer.（再近一点。）
+	- whenever [wen'evər] conj. 无论什么时候
+	- test [test] n. 测试，测验；考验 v. 考验/测验某人某事
+	- ability [ə'bɪləti] n. 能力
+	- move [muːv] v. 移动，使......移动；搬家

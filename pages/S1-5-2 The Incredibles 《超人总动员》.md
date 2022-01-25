@@ -1,0 +1,101 @@
+---
+title: S1-5-2 The Incredibles 《超人总动员》
+---
+
+- #[[看电影学单词]] #[[中级]] #[[Season 1]] [[2021-06-15]]
+-
+- https://www.notion.so/singee/S1-5-2-The-Incredibles-3cf5d52e91c74791a22528b7e5df745f
+-
+- **电影片段**
+- A: Your boy’s suit…I designed to withstand enormous friction without heating up or wearing out. (It is) a useful feature. Your daughter’s suit was tricky. But I finally created a sturdy material that will disappear completely as she does. Your suit can stretch as far as you can without injuring yourself and still retain its shape. Virtually indestructible…yet it breathes like Egyptian cotton.
+- （你儿子的外套能承受剧烈的摩擦，而且不会升温及磨损，这是非常有用的功能。你女儿的外套令人很费脑筋，可我最终发明了一种结实的材料，能在她隐形的时候随之隐形。你的外套可以像你一样伸展自如，不让你受到伤害，并且仍然能保持它的形状。实质上无坚不摧，而且像埃及棉一样透气。）
+- 【文】A 是超人制服制造专家，正在向超人世家女主人展示她设计的超人服。
+- 【注】【文化】 Egyptian cotton: 埃及棉，就是埃及长绒棉，透气性好，其在世界上久负盛名，被誉为“白金”。
+- **词汇讲解**
+- 听-原声音频
+- A: Your daughter’s suit was tricky. （你女儿的衣服很令人费脑筋。）
+- ****
+- **tricky**** **['trɪkɪ] adj. 狡猾的；复杂的
+- **Definition**: If you describe a task or problem as** **tricky, you mean that it is difficult to do or deal with.
+- （如果你描述某个任务或问题是棘手的，那么意味着这件事情是难以做到的或是很难处理的。）
+- 【例】This math problem was very tricky.
+- （这是一道很难做的数学题。）
+- 听-原声音频
+- A: But I finally created a sturdy material that will disappear completely as she does. （可我最终发明了一种结实的材料，能在她隐形的时候随之隐形。）
+- **sturdy** ['stə:di] adj. 强壮的；结实的，坚固的
+- **Definition**: Someone or something that is sturdy looks strong and is unlikely to be easily injured or damaged.
+- （如果某人或者某物是非常强壮或结实的，那么不会轻易受伤或毁坏。）
+- 【固】sturdy material 结实的材料
+- 【同】**solid** ['sɒlɪd] adj. 坚固的，实心的
+- a solid foundation  坚实的基础
+- 【同】**robust** [rə(ʊ)'bʌst] adj. 强壮的，健康的
+- a robust system  强大的系统
+- ****
+- ****跟读****
+- Your daughter’s suit was tricky. But I finally created a sturdy material that will disappear completely as she does.
+- 听-原声音频
+- A:Your suit can stretch as far as you can without injuring yourself and still retain its shape. （你的外套可以像你一样伸展自如，不让你受到伤害，并且仍然能保持它的形状。）
+- **stretch** [stretʃ] vi. 延伸，伸展   vt.（本身长度或范围的）拉长
+- 【固】stretch out  伸开，舒展身体
+- ![016d3af20dc3ffb3421b4897f5863cee_wmk_副本.jpg](http://wechatapppro-1252524126.file.myqcloud.com/appBTnjzbdm9563/image/ueditor/76914900_1572244471.jpg)
+- 【形】stretch & scratch（v. 划）
+- 【同】**extend** [ik'stend] vt. 延伸；扩展（多指附加的延伸）
+- 【引】hose [həʊz] n. 塑料管；水 管
+- extend the hose  把水管延长
+- 【引】extension [ɪk'stenʃ(ə)n] n. 延伸；延期
+- 【固】extension number  分机号码
+- ask for extension  要求延期
+- 【例】Can I ask for an extension? （我可以请 求延期吗？）
+- 【同】**expand** [ik'spænd] v. 扩大（多指规模上的）
+- expand business  扩大生意
+- **retain** [ri'tein] vt. 保持，保留（在某客观场所、条件或位置）
+- **Definition**: To retain something means to keep or continue to have something, especially a position or money, or control of something.
+- （保持一个东西就是保持或持续拥有它，尤其指位置，钱或者对某物/ 某事的控制。 ）
+- 【例】Tom will retain control of the company.
+- （Tom会保持对公司的控制。）
+- 【同】keep [kiːp] v. 保持继续
+- 【根】（tain）=to hold 抓住（re + tain）（又 + 抓住 → 保留）
+- 【引】**sustain** [sə'stein] vt. 支撑
+- sus + tain（sus = sub = 下面 + 抓→支撑）
+- **obtain** [əb'tein] vt.（努力）获得，得到
+- ob + tain（去 + 抓→ 获得）
+- 【固】obtain knowledge  获得知识
+- obtain experience  获得经验
+- 听-原声音频
+- A: Virtually indestructible…yet it breathes like Egyptian cotton.（实质上无坚不摧，而且像埃及棉一样透气。）
+- **virtually** ['vɜː(r)tʃʊəli] adv. 几乎；事实上
+- **indestructible** [indi'strʌktəbl] adj. 不可摧毁的
+- 【根】**destruct** [di'strʌkt] vt. 破坏，毁灭，消灭
+- 【形】**destruction** [di'strʌkʃən] n. 破坏，毁灭
+- **indestructible** [,ɪndɪ'strʌktəb(ə)l] adj. 不可摧毁的
+- **destructive** [di'strʌktiv] adj. 破坏性的
+- a destructive earthquake  一场毁灭性的地震
+- the most destructive fire  最具破坏性的火灾
+- 【同】**disastrous** [di'zɑ:strəs] adj. 灾难性的
+- 【形】disaster → disaster + ous
+- ****词汇快速回顾****
+- ****
+- **withstand**** **[wɪð'stænd] v. 承受；经受；抵住
+- **endure****  **[ɪn'djʊər] v. 忍受；容忍
+- **withhold **[wɪð'həʊld] v. 保留；不给；拒绝
+- **enormous**** **[ɪ'nɔ:məs] adj. 巨大的，极大的
+- **gigantic** [dʒai'gæntik] adj. 无比巨大的；巨人般的
+- **friction **['frikʃən] n. 摩擦，摩擦力
+- **tricky ******['trɪkɪ]** **adj. 狡猾的；复杂的
+- **sturdy**** **['stə:di] adj. 强壮的；结实的
+- **solid** ['sɒlɪd] adj. 坚固的，实心的
+- **robust **[rə(ʊ)'bʌst] adj. 强壮的，健康的
+- **stretch**** **[stretʃ] vi. 延伸，伸展   vt.（本身长度或范围的）拉长
+- **extend **[ik'stend] vt. 延伸；扩展（多指附加的延伸）
+- **extension number  **分机号码
+- **ask for an extension  **请求延期
+- **expend** [ik'spænd] v. 扩大（多指规模上的）
+- **retain ******[ri'tein] vt. 保持，保留
+- **sustain **[sə'stein] vt. 支撑
+- **obtain****** [əb'tein] vt.（努力）获得，得到
+- **virtually**** **['vɜː(r)tʃʊəli] adv. 几乎；事实上
+- **destruct **[di'strʌkt] vt. 破坏，毁灭，消灭
+- **destruction** [di'strʌkʃən] n. 破坏，毁灭
+- **indestructible** [,ɪndɪ'strʌktəb(ə)l] adj. 不可摧毁的
+- **destructive **[di'strʌktiv] adj. 破坏性的
+- **disastrous **[di'zɑ:strəs] adj. 灾难性的

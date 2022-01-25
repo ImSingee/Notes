@@ -1,0 +1,69 @@
+---
+title: S1-4-2 China Civilization 《中国文明》（下）
+---
+
+- #[[看电影学单词]] #[[中级]] #[[Season 1]] [[2021-06-10]]
+-
+- https://www.notion.so/singee/S1-4-2-China-Civilization-b8f9a8fe280e45a8b03703402167f742
+-
+-
+- 电影片段
+	- N: After a few days of digging, the archaeologists had to acknowledge the obvious awaiting them was an entire army in battle order. Shi Huangdi had not embarked alone on his last journey.
+	- （挖掘进行了几天以后，考古学家不得不承认，很明显的事实是，等待他们的是一整个听候战令的军队。始皇帝不是一个人踏上最后的征程的。）
+	- N: Apart from the [[slave]]s [[sacrifice]]d to [[serve]] him in the [[afterlife]], he was accompanied by a [[terracotta]] army of 8,000 [[infantrymen]], plus horses. [[Spearmen]], [[archer]]s, [[charioteer]]s and officers were keeping watch for all [[eternity]]. Each [[figure]] was different... every face had [[individual]] [[feature]]s. The [[emperor]]'s personal guards seemed to have been frozen for 2,000 years awaiting orders to [[move into battle]]. The archaeologists could only wonder, "What else might the emperor's [[tomb]] contain?"
+	- 除了**陪葬**的**来世** **侍奉**他的**奴隶**们，还有 8000 名**兵马俑**陪伴着他，此外还有战马。**持矛兵**，**弓箭手**，**驾驭二轮战车**的官员永远都在**守护**着**皇陵**。每个**形象**都是不同的，每张脸都有着**各异**的**特征**。**皇帝**的**卫士**们似乎被凝固了2000年，还在等待着战斗的号令。考古学家们只会好奇皇陵中究竟还藏着别的什么。）
+- 【注】terracotta = n. 兵马俑；infantrymen = n. 步兵；archer=n. 射手；charioteers=n. 战车的御者
+-
+- 词汇讲解
+	- N: Apart from the [[slave]]s [[sacrifice]]d to [[serve]] him in the [[afterlife]], he was accompanied by a [[terracotta]] army of 8,000 [[infantrymen]], plus horses. （除了陪葬的来世侍奉他的奴隶们，还有 8000 名 步兵和战马兵马俑陪伴着他。）
+		- [[terracotta]] [,terə'kɒtə] n. 兵马俑
+			- terracotta army 兵马俑军团
+		- [[infantryman]] ['ɪnfəntrɪmən] n. 步兵
+	- N: Spearmen, archers, charioteers and officers were keeping watch for all eternity. （持矛兵，弓箭手，驾驭二轮战车的官员永远都在守护着皇陵。）
+		- [[spearman]] ['spɪəmən] n. 拿矛的人
+		- [[archer]] ['ɑːtʃə] n. 射手
+		- [[charioteer]] [tʃærɪə'tɪə] n. 战车的御者
+		- [[eternal]] [iˈtə:nəl] a. 永恒的，永生的
+			- 【固】eternal life  永生
+			- 【名】[[eternity]] [iˈtə:niti] n. 永恒，永生
+			- 【同】[[immortal]] [ɪ'mɔːt(ə)l] a. 不朽的，永生的
+				- **Definition**: Someone or something that is [[immortal]] will live or last for ever and never die or be destroyed. （永生的人或物会一直活着或永远存在，不会死，也不会被毁灭。）
+				- 【名】immortality [ɪmɔː'tælɪtɪ] n. 不朽；不朽的声名；不灭
+			- 【同】[[perpetual]]  [pəˈpetʃuəl] a. 永久的（强调稳定且持久性）
+				- Definition: A [[perpetual]] feeling, state, or quality is one that never ends or changes. （永久的感觉、状态或质量永远不会结束或改变。）
+				- 【例】perpetual problem  永恒的问题
+			- 【同】[[permanent]] [ˈpə:mənənt] a. 固定的，永久的
+				- Definition: Something that is [[permanent]] lasts forever.（固定的或永久的事物永远存在。）
+				- 【例】permanent address 永久地址
+	- N: Each figure was different…every face had [[individual]] features.（每个形象都是不同的，每张脸都有着各异的特征。）
+		- [[individual]] [ˌindiˈvidʒuəl] a. 个体的，独特的  n. 个人
+			- 【固】individual differences/ features  个体差异 / 个体特征
+			- Definition: An individual is a person.
+			- （个体就是指一个人。）
+			- 【例】Each individual is unique.
+			- （每个人都是独一无二 的。)
+		- [[feature]] [ˈfi:tʃə] n. 特征，特色，相貌
+			- 【例】personality feature  性格特征
+	- N:  The [[emperor]]'s personal guards seemed to have been frozen for 2,000 years awaiting orders to move into battle.The archaeologists could only wonder, "What else might the emperor's [[tomb]] contain?" （皇帝的卫士们似乎被凝固了2000年，还在等待着战斗的号令。考古学家们只会好奇皇陵中究竟还藏着别的什么东西。）
+		- [[emperor]] [ˈempərə] n. 皇帝，君主
+			- [[empire]] [ˈempaiə] n. 帝国
+		- [[tomb]] [tu:m] n. 墓
+			- 【同】[[grave]] n. 坟 （更小）
+- 词汇回顾
+	- **archaeology **[ˌɑ:kiˈɔlədʒi] n. 考古学
+	- **archaeologist**** **[ˌɑ:kiˈɔlədʒist] n. 考古学家
+	- **acknowledge**** **[əkˈnɔlidʒ] vt. 承认（存在，真相）；告知收到
+	- **confess **[kənˈfes] v. 供认 ；承认
+	- **await**** **[əˈweit] vt. 等候，期待
+	- **embark**** **[imˈbɑ:k] vi. 上船（或飞机等）；着手，从事
+	- **eternal**** **[iˈtə:nəl] a. 永恒的，永生的
+	- **eternity **[iˈtə:niti] n. 永恒，永生
+	- **immortal**** **[ɪ'mɔːt(ə)l] a. 不朽的，永生的
+	- **immortality **[ɪmɔː'tælɪtɪ] n. 不朽；不朽的声名；不灭
+	- **perpetual **[pəˈpetʃuəl] a. 永久的（强调稳定且持久性）
+	- **permanent **[ˈpə:mənənt] a. 固定的，永久的
+	- **individual**** **[ˌindiˈvidʒuəl] a. 个体的，独特的 n. 个人
+	- **emperor** [ˈempərə] n. 皇帝，君主
+	- **empire**** **[ˈempaiə] n. 帝国
+	- **tomb **[tu:m] n. 墓
+-

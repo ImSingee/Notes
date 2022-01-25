@@ -1,0 +1,14 @@
+- 为了成为 Go 语言真正的专家，我们绝不能满足于表象的使用，更要对于整个 Go 的核心源码有所了解
+-
+- [[Go 语言源码组织]]
+- [[Go 语言内建指令]]
+- [[Golang Panic]]
+- [[Golang Data Race]]
+- [[Golang 垃圾回收]]
+- [[Go 工程化]]
+-
+- {{query [[golang]] }}
+-
+- # 参考资料
+- [Go 语言原本](https://golang.design/under-the-hood/)
+- [第3章 Go汇编语言 | Go 语言高级编程](https://chai2010.cn/advanced-go-programming-book/ch3-asm/readme.html)
