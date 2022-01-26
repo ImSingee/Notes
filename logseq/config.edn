@@ -172,7 +172,7 @@
  :ref/default-open-blocks-level 2
 
  :ref/linked-references-collapsed-threshold 50
- :favorites ["2022" "Journals" "TODO" "操作系统" "Algorithm" "2022 年第 5 周ARTS 打卡" "残酷刷题群" "残酷八股群"]
+ :favorites ["每日阅读" "2022" "Journals" "TODO" "操作系统" "Algorithm" "2022 年第 5 周ARTS 打卡" "残酷刷题群" "残酷八股群"]
  :publishing/all-pages-public? true
  :feature/enable-encryption? false
  :feature/enable-journals? false
