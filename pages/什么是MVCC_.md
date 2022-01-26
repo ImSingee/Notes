@@ -1,6 +1,6 @@
 title:: 什么是MVCC?
 
-- #CruelFundamental #MySQL [[2022-01-26]] [讨论](https://github.com/Monsooooon/CruelFundamental/tree/main/homework/202201/25)
+- #CruelFundamental #[[2022-01-26]] #MySQL [讨论](https://github.com/Monsooooon/CruelFundamental/tree/main/homework/202201/25)
 - 同一条记录在系统中可以存在多个版本，就是数据库的多版本并发控制（MVCC, Multiversion Concurrency control)）
 -
 - MVCC 只在 [[InnoDB]] 引擎中出现，使用了 [[视图]] 的相关技术，利用 [[undo log]] 实现
