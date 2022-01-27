@@ -11,8 +11,8 @@
  :git-push-secs 60
  :git-auto-push true
  
- ;:feature/enable-journals? false
- ;:default-home {:page "Home"}
+ :feature/enable-journals? false
+ :default-home {:page "Home"}
 
  ;; Preferred workflow style.
  ;; Value is either ":now" for NOW/LATER style,

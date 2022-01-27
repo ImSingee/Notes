@@ -12,7 +12,7 @@
  :git-auto-push true
  
  ;:feature/enable-journals? false
- ;:default-home {:page "Home"}
+ :default-home {:page "Home"}
 
  ;; Preferred workflow style.
  ;; Value is either ":now" for NOW/LATER style,

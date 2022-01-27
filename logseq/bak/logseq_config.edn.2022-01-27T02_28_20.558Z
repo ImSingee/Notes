@@ -11,8 +11,7 @@
  :git-push-secs 60
  :git-auto-push true
  
- ;:feature/enable-journals? false
- ;:default-home {:page "Home"}
+ :default-home {:page "Home"}
 
  ;; Preferred workflow style.
  ;; Value is either ":now" for NOW/LATER style,
@@ -44,7 +43,7 @@
  ;; When :all-pages-public? true, export repo would export all pages within that repo.
  ;; Regardless of whether you've set any page to public or not.
  ;; Example:
- :publishing/all-pages-public? true
+ ;; :publishing/all-pages-public? true
 
  ;; Specify default home page and sidebar status for Logseq
  ;; If not specified, Logseq default opens journals page on startup
@@ -174,7 +173,9 @@
 
  :ref/linked-references-collapsed-threshold 50
  :favorites ("2022" "Journals" "TODO" "操作系统" "Algorithm" "2022 年第 5 周ARTS 打卡" "残酷刷题群" "残酷八股群" "每日阅读")
+ :publishing/all-pages-public? true
  :feature/enable-encryption? false
+ :feature/enable-journals? false
  :journal/page-title-format "yyyy-MM-dd"
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
