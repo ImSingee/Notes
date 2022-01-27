@@ -16,7 +16,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Add Home Page
-        run: sed -i 's/;:default-home/:default-home/g' logseq/config.edn
+        run: |
+          sed -i 's/;:default-home/:default-home/g' logseq/config.edn
+          sed -i 's#:feature/enable-journals\? true#:feature/enable-journals? false#g' logseq/config.ed
       - name: Logseq Publish 🚩
         uses: pengx17/logseq-publish@main
       - name: add a nojekyll file
