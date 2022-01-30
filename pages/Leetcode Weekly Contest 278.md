@@ -1,4 +1,4 @@
 - #Algorithm #2022 #Week-6 #Leetcode-Weekly-Contest #[[2022-01-30]]
 -
--
+- [[将找到的值乘以 2]]
 -
