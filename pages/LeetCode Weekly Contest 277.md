@@ -1,4 +1,4 @@
-- #Algorithm #Week-5 #Leetcode-Weekly-Contest #[[2022-01-23]]
+- #Algorithm #2022 #Week-5 #Leetcode-Weekly-Contest #[[2022-01-23]]
 -
 - [[元素计数]]
 - [[按符号重排数组]]
