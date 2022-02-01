@@ -1,4 +1,4 @@
-retrieved:: [[2022-02-01]], 2:40:28 PM
+retrieved:: [[2022-02-01]], 2:40:29 PM
               author:: [[time.geekbang.org]]
               category:: [[articles]]
               source:: [[hypothesis]]
@@ -68,8 +68,4 @@ retrieved:: [[2022-02-01]], 2:40:28 PM
 	- 全库只读  readonly = true 还有个情况在 slave 上 如果用户有超级权限的话  readonly 是失效的
 	                link:: [null](null)
 	                on:: [[2022-01-26]]
-	                tags::
-	- 幻读指的是一个事务在前后两次查询同一个范围的时候，后一次查询看到了前一次查询没有看到的行。
-	                link:: [null](null)
-	                on:: [[2022-01-27]]
 	                tags::
