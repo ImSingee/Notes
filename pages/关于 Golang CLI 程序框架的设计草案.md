@@ -8,4 +8,5 @@
 		    Perfect bool `reverse:true`
 		  }
 		  ```
-		- 支持自定义 flag 名称，默认名称为 name -> CacelCase to camel-case
+		- 支持自定义 flag 名称，默认名称为 name -> SomeName to some-name
+		- bool 类型
