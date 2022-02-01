@@ -3,4 +3,9 @@
 - 功能点
 	- 采用声明 + go generate 的形式，保证易用性与编译期检测并存
 		- ```go
+		  struct Flag {
+		    Name string `flag:"name" shorhand:"n" default:"hello" help="The name"`
+		    Perfect bool ``
+		  }
 		  ```
+		- 支持自定义 flag 名称，默认名称为
