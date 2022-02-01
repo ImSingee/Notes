@@ -5,7 +5,7 @@
 		- ```go
 		  struct Flag {
 		    Name string `flag:"name" shorhand:"n" default:"hello" help="The name"`
-		    Perfect bool ``
+		    Perfect bool `reverse:true`
 		  }
 		  ```
 		- 支持自定义 flag 名称，默认名称为
