@@ -6,8 +6,9 @@
 		  struct Flag {
 		    Name string `flag:"name" shorhand:"n" default:"hello" help="The name"`
 		    Perfect bool `reverse:true`
-		    
+		    ComplexValue string `parser:"parse_complex"`
 		  }
 		  ```
 		- 支持自定义 flag 名称，默认名称为 name -> SomeName to some-name
 		- bool 类型支持 reverse
+		- 支持自定义 parser
