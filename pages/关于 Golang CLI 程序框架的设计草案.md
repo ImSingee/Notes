@@ -9,4 +9,4 @@
 		  }
 		  ```
 		- 支持自定义 flag 名称，默认名称为 name -> SomeName to some-name
-		- bool 类型
+		- bool 类型支持 reverse
