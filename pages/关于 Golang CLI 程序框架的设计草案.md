@@ -8,9 +8,11 @@
 		    Perfect bool `reverse:true`
 		    ComplexValue string `parser:"parse_complex"`
 		    CustomValue CustomType
+		    
+		    *xflag.Flags
 		  }
 		  ```
 		- 支持自定义 flag 名称，默认名称为 name -> SomeName to some-name
 		- bool 类型支持 reverse
 		- 支持自定义 parser
-		-
+		- 支持自定义类型
