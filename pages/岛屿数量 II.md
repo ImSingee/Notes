@@ -3,6 +3,7 @@
 - ## 解答思路
 	- 利用 #并查集 完成
 - ## 答案
+	- [利用数组并查集](https://github.com/algorithmzuo/algorithmbasic2020/blob/master/src/class15/Code03_NumberOfIslandsII.java)
 	- [利用 map 并查集](https://www.lintcode.com/submission/27797844/?action_type=1) [代码](https://github.com/singee-study/algorithm-java/blob/master/zuo-algorithm-2020/class15/Code03_NumberOfIslandsII.java)
 		- ```java
 		  /**
@@ -108,5 +109,4 @@
 		      }
 		  }
 		  ```
-		- 适合 m n 较大的情形，避免初始化
-	- [利用数组并查集](https://github.com/algorithmzuo/algorithmbasic2020/blob/master/src/class15/Code03_NumberOfIslandsII.java)
+		- 适合 m n 较大的情形，避免初始化成本过高
