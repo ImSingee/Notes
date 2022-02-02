@@ -3,4 +3,5 @@
 - ## 解答思路
 	- 利用 #并查集 完成
 - ## 答案
-	- 利用
+	- [利用 map 并查集](https://www.lintcode.com/submission/27797844/?action_type=1)
+	-
