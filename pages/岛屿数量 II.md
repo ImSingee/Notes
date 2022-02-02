@@ -108,5 +108,5 @@
 		      }
 		  }
 		  ```
-	-
+		- 适合 m n 较大的情形，避免初始化
 	- [利用数组并查集](https://github.com/algorithmzuo/algorithmbasic2020/blob/master/src/class15/Code03_NumberOfIslandsII.java)
