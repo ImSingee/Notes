@@ -1,1 +1,1 @@
-- #Algorithm #Leetcode [#Leetcode-5989](https://leetcode-cn.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) #Easy
+- #Algorithm #Leetcode [#Leetcode-5989](https://leetcode-cn.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) #Lintcode [Lintcode-434](https://www.lintcode.com/problem/434/) #Easy
