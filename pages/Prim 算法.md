@@ -5,7 +5,7 @@
 - ## 思路
 	- 从任何一个点开始
 	- 从这个点
-- ## 代码（不防森林）
+- ## 代码（无森林）
 	- ```java
 	  public static Set<Edge> primMST(Graph graph) {
 	          Set<Node> nodeSet = new HashSet<>();
@@ -32,4 +32,31 @@
 	          return result;
 	      }
 	  ```
-- ## 代码（防森林）
+- ## 代码（森林）
+	- ```java
+	  public static Set<Edge> forestPrimMST(Graph graph) {
+	          Set<Node> nodeSet = new HashSet<>(graph.nodes.size());
+	          PriorityQueue<Edge> queue = new PriorityQueue<>(graph.edges.size(), Comparator.comparingInt(e -> e.weight));
+	          Set<Edge> result = new HashSet<>(graph.nodes.size());
+	  
+	          for (Node node : graph.nodes.values()) {
+	              if (nodeSet.contains(node)) continue;
+	  
+	              nodeSet.add(node);
+	              queue.addAll(node.edges);
+	  
+	              while (!queue.isEmpty()) {
+	                  Edge edge = queue.poll();
+	                  Node toNode = edge.to;
+	  
+	                  if (nodeSet.contains(toNode)) continue;
+	  
+	                  result.add(edge);
+	                  nodeSet.add(toNode);
+	                  queue.addAll(toNode.edges);
+	              }
+	          }
+	  
+	          return result;
+	      }
+	  ```
