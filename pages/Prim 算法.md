@@ -5,7 +5,7 @@
 - ## 思路
 	- 从任何一个点开始
 	- 从这个点
-- ## 代码
+- ## 代码（不防森林）
 	- ```java
 	  public static Set<Edge> primMST(Graph graph) {
 	          Set<Node> nodeSet = new HashSet<>();
