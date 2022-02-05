@@ -3,7 +3,7 @@
 - 给定一个链表和一个 pivot
 - 将链表重新排序，要求 <pivot 的元素在 =pivot 的元素前面、=pivot 的元素在 >pivot 的元素前面，在此基础上要求尽可能保持原始的相对次序不变
 -
-- [答案]()
+- [答案](https://github.com/singee-study/algorithm-java/blob/master/zuo-algorithm-2020/class09/Code03_SmallerEqualBigger.java)
 - ## 解答
 	- ```java
 	  public static Node listPartition(Node head, int pivot) {
