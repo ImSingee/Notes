@@ -1,8 +1,9 @@
 - #链表 #链表快速排序
 -
 - 给定一个链表和一个 pivot
-- 将链表重新排序，要求 <pivot 的元素在 =pivot 的元素前面、=pivot 的元素在 >pivot 的元素前面，在此基础上要求同时保持原始的相对次序不变
+- 将链表重新排序，要求 <pivot 的元素在 =pivot 的元素前面、=pivot 的元素在 >pivot 的元素前面，在此基础上要求尽可能保持原始的相对次序不变
 -
+- [答案]()
 - ## 解答
 	- ```java
 	  public static Node listPartition(Node head, int pivot) {
