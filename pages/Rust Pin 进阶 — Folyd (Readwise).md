@@ -1,11 +1,42 @@
-retrieved:: [[2022-02-05]], 8:52:47 PM
+retrieved:: [[2022-02-07]], 11:40:59 AM
               author:: [[folyd.com]]
               category:: [[articles]]
               source:: [[hypothesis]]
-              tags::
 
 - ![book_image](https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png)
 - ## [[Readwise Highlights]]
+	- Pin 包裹的内容只能是智能指针（实现了 Deref trait 的类型都可以称为智能指针），对其他普通类型是没有意义的
+	                link:: [null](null)
+	                on:: [[2022-02-05]]
+	                tags::
+	- Pin 本质上解决的问题是在 safe Rust 下保证 Pin<P<T> 中的 T 的内存地址不会被改变（也就是不被 move），除非 T 满足 T: Unpin
+	                link:: [null](null)
+	                on:: [[2022-02-05]]
+	                tags::
+	- 保证 T 的内存地址不会被改变的本质是避免暴露T 或 &mut T（"万恶之源"）。暴露 T 的话，随随便便就能 move 掉它；暴露 &mut T 的话，开发者可以调用 std::mem::swap() 或 std::mem::replace() 这类方法来 move 掉 T
+	                link:: [null](null)
+	                on:: [[2022-02-05]]
+	                tags::
+	- 使用#[fundamental]属性标记的 trait 是不受孤儿规则约束
+	                link:: [null](null)
+	                on:: [[2022-02-05]]
+	                tags::
+	- Pin 包裹的内容只能是智能指针（实现了 Deref trait 的类型都可以称为智能指针），对其他普通类型是没有意义的
+	                link:: [null](null)
+	                on:: [[2022-02-05]]
+	                tags::
+	- Pin 本质上解决的问题是在 safe Rust 下保证 Pin<P<T> 中的 T 的内存地址不会被改变（也就是不被 move），除非 T 满足 T: Unpin
+	                link:: [null](null)
+	                on:: [[2022-02-05]]
+	                tags::
+	- 保证 T 的内存地址不会被改变的本质是避免暴露T 或 &mut T（"万恶之源"）。暴露 T 的话，随随便便就能 move 掉它；暴露 &mut T 的话，开发者可以调用 std::mem::swap() 或 std::mem::replace() 这类方法来 move 掉 T
+	                link:: [null](null)
+	                on:: [[2022-02-05]]
+	                tags::
+	- 使用#[fundamental]属性标记的 trait 是不受孤儿规则约束
+	                link:: [null](null)
+	                on:: [[2022-02-05]]
+	                tags::
 	- Pin 包裹的内容只能是智能指针（实现了 Deref trait 的类型都可以称为智能指针），对其他普通类型是没有意义的
 	                link:: [null](null)
 	                on:: [[2022-02-05]]
