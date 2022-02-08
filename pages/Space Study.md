@@ -1,7 +1,9 @@
 - Space Study 未来将归属于 [[Space TODO]]
 -
 - # MVP
-	- 前端采用
+	- ## 功能
+		- 查看今天应当学习的卡片
+		-
 	- ## Web 端
 		- Tailwind UI
 	- ## 后端
