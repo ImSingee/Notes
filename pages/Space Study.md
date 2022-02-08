@@ -10,7 +10,8 @@
 			- 稍后再学：记录今日 snnoze2，并将下一次学习时间改为 2-4 天后、重复 factor 不变
 		- 查看所有卡片
 		- 创建卡片 - 支持 markdown
-		-
+	- ## 重复 factor
+		- 1、
 	- ## Web 端
 		- Tailwind CSS
 	- ## 后端
