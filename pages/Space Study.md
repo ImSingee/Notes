@@ -27,7 +27,8 @@
 		- 创建卡片 - 支持 markdown
 			- 因为需要支持链接，因此直接采用 markdown 作为简化版本的富文本
 				- 采用前端渲染 markdown 的方案
-					- []
+					- [react-markdown](https://github.com/remarkjs/react-markdown) 进行渲染
+					- [rehype-sanitize](https://github.com/rehypejs/rehype-sanitize) 进行安全处理
 			- 创建卡片的情形一般是两种
 				- 今天刚刚学习的：应该是明天开始复习
 				- 还没有开始学习：MVP 版本竟然不支持此功能🌚
