@@ -1,1 +1,2 @@
+- The Number of USER ticks per second
 - 获取命令：`getconf CLK_TCK`，理论上固定为 100
