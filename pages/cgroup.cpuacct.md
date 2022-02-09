@@ -7,6 +7,6 @@
 	- system: Time spent by tasks of the cgroup in kernel mode
 	- 单位是 [[USER_HZ]]，即 10ms
 	- 该统计结果并不精确
-- cpuacct.usage：
-- cpuacct.usage_percpu
+- cpuacct.usage：所有 CPU 核的累加使用时间，单位为 ns
+- cpuacct.usage_percpu：针对多核，输出的是每个 CPU 的使用时间，单位为 ns
 -
