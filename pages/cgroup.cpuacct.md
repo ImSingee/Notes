@@ -5,7 +5,8 @@
 - cpuacct.stat：存储进程占用的 cpu 时间信息
 	- user: Time spent by tasks of the cgroup in user mode
 	- system: Time spent by tasks of the cgroup in kernel mode
-	- 单位是 [[USER_HZ]]
+	- 单位是 [[USER_HZ]]，即 10ms
+	- 该统计结果并不精确
 - cpuacct.usage
 - cpuacct.usage_percpu
 -
