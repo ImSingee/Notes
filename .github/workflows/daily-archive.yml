@@ -1,0 +1,16 @@
+name: Daily Archive
+
+on:
+  schedule:
+    - cron: '59 23 * * *'
+  workflow_dispatch:
+
+jobs:
+  Tag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Create Tag
+        run: git tag `date +"%Y-%m-%d"`
+      - name: Push
+        run: git push origin --tags
