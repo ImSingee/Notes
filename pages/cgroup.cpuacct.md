@@ -2,7 +2,9 @@
 - 对应 systemd CPUAccounting=yes
 - [文档](https://github.com/torvalds/linux/blob/master/Documentation/admin-guide/cgroup-v1/cpuacct.rst)
 -
-- cpuacct.stat
+- cpuacct.stat：存储进程占用的 cpu 时间信息
+	- user: Time spent by tasks of the cgroup in user mode
+	- system: Time spent by tasks of the cgroup in kernel mode
 - cpuacct.usage
 - cpuacct.usage_percpu
 -
