@@ -1,3 +1,3 @@
 - [[systemd]]
 - [[cgroup/cpuacct]]
--
+- [[cgroup/memory]]
