@@ -1,1 +1,1 @@
-- {{query (between -7d today)}}
+- {{query (between -30d today)}}
