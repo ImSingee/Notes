@@ -1,4 +1,4 @@
-- Space Study 采取 GPL 开源协议，
+- Space Study 采取 GPL 开源协议，应用相关的前后端开源，授权相关的服务不开源
 -
 -
 -
