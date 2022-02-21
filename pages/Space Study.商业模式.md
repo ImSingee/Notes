@@ -1,1 +1,2 @@
-- Space Study 采取
+- Space Study 采取 GPL 开源协议
+-
