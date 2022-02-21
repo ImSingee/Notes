@@ -1,2 +1,4 @@
 - Space Study 的数据库包括了 MySQL 数据库与 CouchDB 数据库两部分组成，前者用于存储和用户授权有关的信息，后者用于存储真正的元信息
 -
+- [[Space Study/数据库设计/CouchDB]]
+-
