@@ -6,4 +6,6 @@
 - 使用runlike工具获取容器启动命令并替换
 	- `runlike [container-id]`
 - 创建新的容器并继承原有容器配置和数据
+- 清理旧的容器
 -
+- https://notes.lzwang.ltd/Docker/update_docker_img_for_container/#3-runlike
