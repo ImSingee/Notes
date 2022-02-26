@@ -1,2 +1,6 @@
-- 1. 查看已启动的容器ID并停止运行
-  2.
+- 查看已启动的容器ID并停止运行
+	- `docker ps -a`
+	- `docker stop xxx`
+- 使用pip安装runlike工具
+	- `pip install runlike`
+-
