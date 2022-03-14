@@ -13,6 +13,7 @@ url:: http://supermemopedia.com/wiki/Element, https://help.supermemo.org/wiki/It
 	- concepts
 		- concepts represent an important idea or subject
 		- 简单粗暴一点可以理解为文件夹？
+		- 其被用于 [Neural Review]() 的过程
 	- tasks
 -
 -
