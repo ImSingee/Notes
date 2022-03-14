@@ -2,7 +2,9 @@ url:: http://supermemopedia.com/wiki/Element, https://help.supermemo.org/wiki/It
 
 - Element 有四种类型
 	- items（代表一个问答）
-	- topic（代表一个文章）
+	- topics（代表一个文章）
+	- concepts
+	- tasks
 -
 -
 -
