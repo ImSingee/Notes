@@ -11,7 +11,3 @@ title:: SuperMemo/PendingQueue
 	- [[SuperMemo/Forget]] 将元素移动到 Pending Queue 的末尾
 	-
 -
-- Pending queue is a queue of elements that are waiting to be memorized.
-	- [[SuperMemo/Remember]]
-	-
-	-
