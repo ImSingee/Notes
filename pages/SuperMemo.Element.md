@@ -15,6 +15,8 @@ url:: http://supermemopedia.com/wiki/Element, https://help.supermemo.org/wiki/It
 		- 简单粗暴一点可以理解为文件夹？
 		- 其被用于 [Neural Review](((622ecc8c-1fc8-4c58-81bf-9f351de7a1ea))) 的过程
 	- tasks
+		- tasks describe jobs that should be done
+		- It can also describe jobs that are irrelevant to learning
 -
 -
 -
