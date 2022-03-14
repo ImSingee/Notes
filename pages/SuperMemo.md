@@ -1,3 +1,4 @@
 - 将一组元素标记为「暂停学习」
 	- 使用 Forget / Dismiss
-		- Forget 会将元素加入至
+		- Forget 会将元素加入至 [[SuperMemo/PendingQueue]]
+		-
