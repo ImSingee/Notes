@@ -2,7 +2,7 @@ title:: SuperMemo/PendingQueue
 
 - http://supermemopedia.com/wiki/Pending_queue
 -
-- Pending Queue 的作用是将一系列元素标记为「等待学习」，代表着 [[SuperMemo/Status]] 中的 pending 状态
+- Pending Queue 的作用是将一系列[元素]([[SuperMemo/Element]])标记为「等待学习」，代表着 [[SuperMemo/Status]] 中的 pending 状态
 - 因为 [[SuperMemo/PriorityQueue]] 的诞生，Pending Queue 官方建议只使用在外部导入的数据
 	- Pending queue used to play an important role in SuperMemo by lining up elements in learning. Since the arrival of the priority queue, it is recommended to keep all the elements in the learning process. Pending queue is now used only for collections you receive from external sources (e.g. Advanced English).
 -
