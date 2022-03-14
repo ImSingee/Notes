@@ -2,6 +2,6 @@
 	- 使用 [[SuperMemo/Forget]] / [[SuperMemo/Dismiss]]
 		- Forget 会将元素加入至 [[SuperMemo/PendingQueue]] 的末尾
 		- Dismiss 会将元素的 [[SuperMemo/Status]] 改为 dismissed
-		- [官方对于这两种方案区别的回答](http://supermemopedia.com/wiki/Difference_between_Forget_and_Dismiss)
-		- 二者的区别在于，当 Forget 时这些元素总有一天会回来，而 Dismiss 则不会
+		- [官方对于 Forget 和 方案区别的回答](http://supermemopedia.com/wiki/Difference_between_Forget_and_Dismiss)
+		- 二者的区别在于，当 Forget 时这些元素总有一天会回来，而 Dismiss 则必须手动从解除 Dismiss 状态
 		-
