@@ -7,7 +7,7 @@ url:: http://supermemopedia.com/wiki/Element, https://help.supermemo.org/wiki/It
 	- topics（代表一个文章）
 		- pages of new information to learn
 		- they do not provide a stimulus, do not require a response, and do not expect any feedback from you
-		- article 和
+		- article 和从 article 中切分出来的片段（Alt+
 	- concepts
 	- tasks
 -
