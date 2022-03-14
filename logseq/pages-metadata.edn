@@ -1,4 +1,13 @@
-[{:block/name "-ist",
+[{:block/name "'https_",
+  :block/created-at 1647230190746,
+  :block/updated-at 1647230190746}
+ {:block/name "'https_//help.supermemo.org",
+  :block/created-at 1647230190746,
+  :block/updated-at 1647230190746}
+ {:block/name "'https_//help.supermemo.org/wiki",
+  :block/created-at 1647230356610,
+  :block/updated-at 1647230356610}
+ {:block/name "-ist",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
  {:block/name "-ology",
@@ -17,6 +26,54 @@
  {:block/name "02   日志系统：一条sql更新语句是如何执行的？极客时间 (readwise)",
   :block/created-at 1643697630487,
   :block/updated-at 1643697630593}
+ {:block/name "11_12_46 am",
+  :block/created-at 1647227566997,
+  :block/updated-at 1647227566997}
+ {:block/name "11_12_47 am",
+  :block/created-at 1647227567484,
+  :block/updated-at 1647227567484}
+ {:block/name "11_12_48 am",
+  :block/created-at 1647227568018,
+  :block/updated-at 1647227568018}
+ {:block/name "11_12_49 am",
+  :block/created-at 1647227569447,
+  :block/updated-at 1647227569447}
+ {:block/name "11_12_50 am",
+  :block/created-at 1647227570038,
+  :block/updated-at 1647227570038}
+ {:block/name "11_12_51 am",
+  :block/created-at 1647227571237,
+  :block/updated-at 1647227571237}
+ {:block/name "11_12_52 am",
+  :block/created-at 1647227572209,
+  :block/updated-at 1647227572209}
+ {:block/name "11_12_53 am",
+  :block/created-at 1647227573200,
+  :block/updated-at 1647227573200}
+ {:block/name "11_12_54 am",
+  :block/created-at 1647227574213,
+  :block/updated-at 1647227574213}
+ {:block/name "11_12_55 am",
+  :block/created-at 1647227575227,
+  :block/updated-at 1647227575227}
+ {:block/name "11_12_56 am",
+  :block/created-at 1647227576217,
+  :block/updated-at 1647227576217}
+ {:block/name "11_13_53 am",
+  :block/created-at 1647227633172,
+  :block/updated-at 1647227633172}
+ {:block/name "11_13_54 am",
+  :block/created-at 1647227634219,
+  :block/updated-at 1647227634219}
+ {:block/name "11_13_55 am",
+  :block/created-at 1647227635183,
+  :block/updated-at 1647227635183}
+ {:block/name "11_13_56 am",
+  :block/created-at 1647227636212,
+  :block/updated-at 1647227636212}
+ {:block/name "11_13_57 am",
+  :block/created-at 1647227637173,
+  :block/updated-at 1647227637173}
  {:block/name "11_40_53 am",
   :block/created-at 1645524220080,
   :block/updated-at 1645524220080}
@@ -29,12 +86,22 @@
  {:block/name "11_40_59 am",
   :block/created-at 1645524220083,
   :block/updated-at 1645524220083}
+ {:block/name
+  "13 分布式系统的抽象和实现工具（abstraction and implementation）  mit6824 (readwise)",
+  :block/created-at 1647227565082,
+  :block/updated-at 1647227566999}
  {:block/name "14 plan 9 汇编语言 (readwise)",
   :block/created-at 1643697749983,
   :block/updated-at 1643697750041}
+ {:block/name "17 mapreduce基本工作方式  mit6824 (readwise)",
+  :block/created-at 1647227567029,
+  :block/updated-at 1647227567486}
  {:block/name "18  为什么这些sql语句逻辑相同，性能却差异巨大？  极客时间 (readwise)",
   :block/created-at 1643697629073,
   :block/updated-at 1643697629735}
+ {:block/name "18 map函数和reduce函数  mit6824 (readwise)",
+  :block/created-at 1647227567513,
+  :block/updated-at 1647227568020}
  {:block/name "2. 逻辑、语义与经验：不讲道理这事，我们天天干",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
@@ -344,9 +411,6 @@
  {:block/name "2022-02-22",
   :block/created-at 1645497916816,
   :block/updated-at 1645525781594}
- {:block/name "2022-02-23",
-  :block/created-at 1645574400000,
-  :block/updated-at 1645574400000}
  {:block/name "2022-02-24",
   :block/created-at 1645690023850,
   :block/updated-at 1645699327760}
@@ -356,27 +420,27 @@
  {:block/name "2022-02-26",
   :block/created-at 1645887592436,
   :block/updated-at 1645989022549}
- {:block/name "2022-02-27",
-  :block/created-at 1645920000000,
-  :block/updated-at 1645920000000}
  {:block/name "2022-02-28",
   :block/created-at 1646006400000,
   :block/updated-at 1646006400000}
+ {:block/name "2022-03-03",
+  :block/created-at 1647227572177,
+  :block/updated-at 1647227572177}
+ {:block/name "2022-03-07",
+  :block/created-at 1647227566964,
+  :block/updated-at 1647227566964}
+ {:block/name "2022-03-08",
+  :block/created-at 1647227568927,
+  :block/updated-at 1647227568927}
  {:block/name "2022-03-09",
   :block/created-at 1646784000000,
   :block/updated-at 1646784000000}
  {:block/name "2022-03-10",
   :block/created-at 1646870400000,
   :block/updated-at 1646870400000}
- {:block/name "2022-03-12",
-  :block/created-at 1647048445216,
-  :block/updated-at 1647048445216}
- {:block/name "2022-03-13",
-  :block/created-at 1647101376344,
-  :block/updated-at 1647101376344}
  {:block/name "2022-03-14",
   :block/created-at 1647187703478,
-  :block/updated-at 1647224391499}
+  :block/updated-at 1647226769321}
  {:block/name "2022-04 周报",
   :block/created-at 1643097178019,
   :block/updated-at 1643638476231}
@@ -638,6 +702,25 @@
  {:block/name "2_48_34 pm",
   :block/created-at 1645524220083,
   :block/updated-at 1645524220083}
+ {:block/name "31分布式存储系统的难点（why hard）  mit6824 (readwise)",
+  :block/created-at 1647227568046,
+  :block/updated-at 1647227568485}
+ {:block/name "36 gfs写文件（write file）（1）  mit6824 (readwise)",
+  :block/created-at 1647227568510,
+  :block/updated-at 1647227568979}
+ {:block/name "37 gfs写文件（write file）（2）  mit6824 (readwise)",
+  :block/created-at 1647227568999,
+  :block/updated-at 1647227569449}
+ {:block/name "38 gfs的一致性  mit6824 (readwise)",
+  :block/created-at 1647227569477,
+  :block/updated-at 1647227570039}
+ {:block/name "41 复制（replication）  mit6824 (readwise)",
+  :block/created-at 1647227570062,
+  :block/updated-at 1647227570756}
+ {:block/name
+  "42 状态转移和复制状态机（state transfer and replicated state machine）  mit6824 (readwise)",
+  :block/created-at 1647227570794,
+  :block/updated-at 1647227571239}
  {:block/name "60  透明通讯的涅槃（下）：控制平面与数据平面极客时间 (readwise)",
   :block/created-at 1645524212880,
   :block/updated-at 1645524212917}
@@ -659,6 +742,9 @@
  {:block/name "6214b91a-f226-4a0f-b0ad-3103387e4da2",
   :block/created-at 1646803474766,
   :block/updated-at 1646803474766}
+ {:block/name "622eb585-4556-4efd-8dd2-8b80d7dfb8f4",
+  :block/created-at 1647229516064,
+  :block/updated-at 1647229516064}
  {:block/name "6_03_32 pm",
   :block/created-at 1645524220081,
   :block/updated-at 1645524220081}
@@ -686,6 +772,9 @@
  {:block/name "@lobatt on twitter",
   :block/created-at 1645524220084,
   :block/updated-at 1645524220084}
+ {:block/name "@mingwb on twitter",
+  :block/created-at 1647227636688,
+  :block/updated-at 1647227636688}
  {:block/name "@nekostranding on twitter",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
@@ -707,12 +796,56 @@
  {:block/name "@zhifeng4cs on twitter",
   :block/created-at 1643097178018,
   :block/updated-at 1643097178018}
+ {:block/name "[ http_",
+  :block/created-at 1647230242910,
+  :block/updated-at 1647230242910}
+ {:block/name "[ http_//supermemopedia.com",
+  :block/created-at 1647230242910,
+  :block/updated-at 1647230242910}
+ {:block/name "[ http_//supermemopedia.com/wiki",
+  :block/created-at 1647230242910,
+  :block/updated-at 1647230242910}
  {:block/name "[[hypothes.is]]，虽然都有快捷键但还是很麻烦，无形中降低了标注的欲望",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
+ {:block/name "[]http_",
+  :block/created-at 1647230241889,
+  :block/updated-at 1647230241889}
+ {:block/name "[]http_//supermemopedia.com",
+  :block/created-at 1647230241889,
+  :block/updated-at 1647230241889}
+ {:block/name "[]http_//supermemopedia.com/wiki",
+  :block/created-at 1647230241890,
+  :block/updated-at 1647230241890}
+ {:block/name "[_http_",
+  :block/created-at 1647230009623,
+  :block/updated-at 1647230009623}
+ {:block/name "[_http_//supermemopedia.com",
+  :block/created-at 1647230009624,
+  :block/updated-at 1647230009624}
  {:block/name "[dijkstra",
   :block/created-at 1645524220083,
   :block/updated-at 1645524220083}
+ {:block/name "[http_",
+  :block/created-at 1647229988709,
+  :block/updated-at 1647229988709}
+ {:block/name "[http_//supermemopedia.com",
+  :block/created-at 1647229988709,
+  :block/updated-at 1647229988709}
+ {:block/name "[http_//supermemopedia.com/wiki",
+  :block/created-at 1647229988710,
+  :block/updated-at 1647229988710}
+ {:block/name "[http_//supermemopedia.com/wiki/element https_",
+  :block/created-at 1647229988711,
+  :block/updated-at 1647229988711}
+ {:block/name
+  "[http_//supermemopedia.com/wiki/element https_//help.supermemo.org",
+  :block/created-at 1647229988712,
+  :block/updated-at 1647229988712}
+ {:block/name
+  "[http_//supermemopedia.com/wiki/element https_//help.supermemo.org/wiki",
+  :block/created-at 1647229988713,
+  :block/updated-at 1647229988713}
  {:block/name "[广度优先遍历",
   :block/created-at 1645524220082,
   :block/updated-at 1645524220082}
@@ -752,6 +885,9 @@
  {:block/name "all set",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
+ {:block/name "anki高考的20条原则—来自《有效的学习：组织知识的20条原则》 (readwise)",
+  :block/created-at 1647227633210,
+  :block/updated-at 1647227633765}
  {:block/name "answer",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
@@ -966,6 +1102,9 @@
  {:block/name "draft",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
+ {:block/name "draveness.me",
+  :block/created-at 1647227576217,
+  :block/updated-at 1647227576217}
  {:block/name "dropbox",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
@@ -1193,6 +1332,9 @@
  {:block/name "home",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "how to build a text editor like notion (readwise)",
+  :block/created-at 1647227571261,
+  :block/updated-at 1647227571729}
  {:block/name "hypothes.is",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
@@ -1280,6 +1422,9 @@
  {:block/name "juejin.cn",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "juicing.today",
+  :block/created-at 1647227572209,
+  :block/updated-at 1647227572209}
  {:block/name "jvm",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
@@ -1307,6 +1452,9 @@
  {:block/name "kenneth truyers",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "konstantin münster",
+  :block/created-at 1647227571728,
+  :block/updated-at 1647227571728}
  {:block/name "kruskal 算法",
   :block/created-at 1645524220082,
   :block/updated-at 1645524220082}
@@ -1430,6 +1578,9 @@
  {:block/name "mirrors.tuna.tsinghua.edu.cn",
   :block/created-at 1645524220079,
   :block/updated-at 1645524220079}
+ {:block/name "mit-public-courses-cn-translatio.gitbook.io",
+  :block/created-at 1647227566997,
+  :block/updated-at 1647227566997}
  {:block/name "mongodb",
   :block/created-at 1645524220079,
   :block/updated-at 1645524220079}
@@ -1526,6 +1677,9 @@
  {:block/name "prim 算法",
   :block/created-at 1645524220081,
   :block/updated-at 1645524220081}
+ {:block/name "priority queue 优先级队列 · 语雀 (readwise)",
+  :block/created-at 1647227576242,
+  :block/updated-at 1647227576760}
  {:block/name "problem",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
@@ -1754,6 +1908,39 @@
  {:block/name "sum",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "supermemo",
+  :block/created-at 1647226769010,
+  :block/updated-at 1647229054832}
+ {:block/name "supermemo/dismiss",
+  :block/created-at 1647227343622,
+  :block/updated-at 1647229909204}
+ {:block/name "supermemo/element",
+  :block/created-at 1647228093813,
+  :block/updated-at 1647230255829}
+ {:block/name "supermemo/forget",
+  :block/created-at 1647227286833,
+  :block/updated-at 1647227286833}
+ {:block/name "supermemo/memorize",
+  :block/created-at 1647227947815,
+  :block/updated-at 1647228155013}
+ {:block/name "supermemo/pendingqueue",
+  :block/created-at 1647226837064,
+  :block/updated-at 1647229619122}
+ {:block/name "supermemo/priority",
+  :block/created-at 1647228360113,
+  :block/updated-at 1647228367965}
+ {:block/name "supermemo/priorityqueue",
+  :block/created-at 1647227074965,
+  :block/updated-at 1647227074965}
+ {:block/name "supermemo/remember",
+  :block/created-at 1647226905275,
+  :block/updated-at 1647226905275}
+ {:block/name "supermemo/status",
+  :block/created-at 1647227050059,
+  :block/updated-at 1647228922730}
+ {:block/name "supermemo/statusicons",
+  :block/created-at 1647228922729,
+  :block/updated-at 1647228964191}
  {:block/name "superuser.com",
   :block/created-at 1643097178018,
   :block/updated-at 1643097178018}
@@ -1781,6 +1968,9 @@
  {:block/name "taken care of",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "tal benshahar 正向领导力 (readwise)",
+  :block/created-at 1647227571758,
+  :block/updated-at 1647227572211}
  {:block/name "tech",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
@@ -1841,6 +2031,9 @@
  {:block/name "tweets from lobatt (readwise)",
   :block/created-at 1643697755562,
   :block/updated-at 1643697755611}
+ {:block/name "tweets from ming (readwise)",
+  :block/created-at 1647227636236,
+  :block/updated-at 1647227636689}
  {:block/name "tweets from wuzhe (readwise)",
   :block/created-at 1643697754861,
   :block/updated-at 1643697754900}
@@ -1963,6 +2156,9 @@
  {:block/name "youzhiyouxing.cn",
   :block/created-at 1645524220079,
   :block/updated-at 1645524220079}
+ {:block/name "yuque.com",
+  :block/created-at 1647227576759,
+  :block/updated-at 1647227576759}
  {:block/name "zhuanlan.zhihu.com",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
@@ -1976,6 +2172,15 @@
   "【rust日报】20210205 rust 错误处理工作组计划将error trait迁移至core模块 (readwise)",
   :block/created-at 1643697957945,
   :block/updated-at 1643697958003}
+ {:block/name "【原稿】用 supermemo 打通阅读、理解与记忆 (readwise)",
+  :block/created-at 1647227635686,
+  :block/updated-at 1647227636214}
+ {:block/name "【理论】穿插练习——「乱」中取胜的秘密 (readwise)",
+  :block/created-at 1647227635207,
+  :block/updated-at 1647227635663}
+ {:block/name "【翻译】在渐进阅读中，创建摘录卡片后该做什么？ (readwise)",
+  :block/created-at 1647227634243,
+  :block/updated-at 1647227634710}
  {:block/name "【译】rust中的sizeness (readwise)",
   :block/created-at 1643697948632,
   :block/updated-at 1643697948689}
@@ -2021,6 +2226,9 @@
  {:block/name "为什么 jpg 转 png 会造成图片体积变大？",
   :block/created-at 1643528482819,
   :block/updated-at 1643529119353}
+ {:block/name "为什么比特币可以防篡改  面向信仰编程 (readwise)",
+  :block/created-at 1647227575735,
+  :block/updated-at 1647227576219}
  {:block/name "乐观锁",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
@@ -2187,12 +2395,18 @@
  {:block/name "哲学",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
+ {:block/name "商业思考系列  那些最终输给了自己的水煎包们（中篇） (readwise)",
+  :block/created-at 1647227572720,
+  :block/updated-at 1647227573202}
  {:block/name "国内高校计算机教育存在哪些问题？ (readwise)",
   :block/created-at 1643697895753,
   :block/updated-at 1643697895809}
  {:block/name "图",
   :block/created-at 1643823539940,
   :block/updated-at 1643824598416}
+ {:block/name "图像 vs 文字丨两种同样重要的思维方式 (readwise)",
+  :block/created-at 1647227574756,
+  :block/updated-at 1647227575230}
  {:block/name "图的广度优先遍历",
   :block/created-at 1643824073508,
   :block/updated-at 1643825707151}
@@ -2239,6 +2453,9 @@
  {:block/name "完美主义",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
+ {:block/name "完美主义者的渐进学习 · 语雀 (readwise)",
+  :block/created-at 1647227633789,
+  :block/updated-at 1647227634221}
  {:block/name "宽度优先遍历]",
   :block/created-at 1645524220079,
   :block/updated-at 1645524220079}
@@ -2344,6 +2561,9 @@
  {:block/name "抑郁",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
+ {:block/name "拒绝放弃  happy xiao (readwise)",
+  :block/created-at 1647227573750,
+  :block/updated-at 1647227574215}
  {:block/name "拓扑排序",
   :block/created-at 1645524220079,
   :block/updated-at 1645524220079}
@@ -2428,6 +2648,9 @@
  {:block/name "正念练习",
   :block/created-at 1646803474767,
   :block/updated-at 1646803474767}
+ {:block/name "死记硬背（填鸭式学习） (readwise)",
+  :block/created-at 1647227634733,
+  :block/updated-at 1647227635185}
  {:block/name "残酷八股群",
   :block/created-at 1643097178018,
   :block/updated-at 1643097178018}
@@ -2479,6 +2702,9 @@
  {:block/name "焦虑",
   :block/created-at 1643097178016,
   :block/updated-at 1643097178016}
+ {:block/name "爱，到底是什么呢？ (readwise)",
+  :block/created-at 1647227575253,
+  :block/updated-at 1647227575713}
  {:block/name "用 c 语言理解 linux 软件库  linux 中国 (readwise)",
   :block/created-at 1643697887468,
   :block/updated-at 1643697887561}
@@ -2566,6 +2792,9 @@
  {:block/name "聚光灯效应",
   :block/created-at 1643552754769,
   :block/updated-at 1643552782282}
+ {:block/name "胡泳  虚拟世界让我们时刻在场，但又永远缺场——重新思考数字化之十一 (readwise)",
+  :block/created-at 1647227572236,
+  :block/updated-at 1647227572701}
  {:block/name "自举",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
@@ -2603,7 +2832,10 @@
  {:block/name
   "设计理念 · kubernetes handbook  kubernetes中文指南云原生应用架构实践手册 by jimmy song (readwise)",
   :block/created-at 1645524213337,
-  :block/updated-at 1645524213361}
+  :block/updated-at 1647227637175}
+ {:block/name "误区：睡前学习是最好的 (readwise)",
+  :block/created-at 1647227576782,
+  :block/updated-at 1647227633174}
  {:block/name "贪心",
   :block/created-at 1645524220082,
   :block/updated-at 1645524220082}
@@ -2671,6 +2903,9 @@
  {:block/name "首届阅览室庙会活动正在阅览室门口支摊举行 (readwise)",
   :block/created-at 1643697624680,
   :block/updated-at 1643697624735}
+ {:block/name "首席探索官是个啥官？ (readwise)",
+  :block/created-at 1647227574242,
+  :block/updated-at 1647227574733}
  {:block/name "高尔吉亚",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
@@ -2678,5 +2913,8 @@
   :block/created-at 1643097178018,
   :block/updated-at 1643097178018}
  {:block/name "🐱079 为什么你需要习惯而不是激情 (readwise)",
-  :block/created-at 1643697620104, 
-  :block/updated-at 1643697620206}]
+  :block/created-at 1643697620104,
+  :block/updated-at 1643697620206}
+ {:block/name "🥰无关信息，而是快乐 (readwise)",
+  :block/created-at 1647227573224, 
+  :block/updated-at 1647227573726}]
