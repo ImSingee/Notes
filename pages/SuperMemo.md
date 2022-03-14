@@ -1,4 +1,5 @@
 - 将一组元素标记为「暂停学习」
-	- 使用 Forget / Dismiss
-		- Forget 会将元素加入至 [[SuperMemo/PendingQueue]]
+	- 使用 [[SuperMemo/Forget]] / [[SuperMemo/Dismiss]]
+		- Forget 会将元素加入至 [[SuperMemo/PendingQueue]] 的末尾
+		- Dismiss 会将元素的 [[SuperMemo/Status]] 改为 dismissed
 		-
