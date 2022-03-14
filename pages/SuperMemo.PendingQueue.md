@@ -9,5 +9,7 @@ title:: SuperMemo/PendingQueue
 - 将元素加入至 Pending Queue 的方式
 	- 菜单 File : Tools : Reset collection ，将整个 Collection 所有的内容标记为 Pending
 	- [[SuperMemo/Forget]] 将元素移动到 Pending Queue 的末尾
-	-
+-
+- 将元素从 Pending Queue 移出的方式：
+	- To reintroduce a Dismissed item into the learning process (1) [memorize]([[SuperMemo/Memorize]]) it, (2) set its [first interval](http://supermemopedia.com/wiki/First_interval) and (3) set its [priority](http://supermemopedia.com/wiki/Priority)
 -
