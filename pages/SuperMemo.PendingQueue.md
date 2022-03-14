@@ -1,4 +1,8 @@
 title:: SuperMemo/PendingQueue
 
-- Pending Queue 是一组学习队列
+- http://supermemopedia.com/wiki/Pending_queue
+-
+- Pending queue is a queue of elements that are waiting to be memorized.
+	- [[SuperMemo/Remember]]
+	-
 	-
