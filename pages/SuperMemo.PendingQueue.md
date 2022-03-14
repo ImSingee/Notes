@@ -13,7 +13,7 @@ title:: SuperMemo/PendingQueue
 - 将元素从 Pending Queue 移出的方式：
   id:: 622eb585-4556-4efd-8dd2-8b80d7dfb8f4
 	- To reintroduce a Dismissed item into the learning process 
-	  (1) [memorize]([[SuperMemo/Memorize]]) it, 
-	  (2) set its [first interval](http://supermemopedia.com/wiki/First_interval) and 
+	  (1) [memorize]([[SuperMemo/Memorize]]) it (with [Remember]([[SuperMemo/Remember]]) or Ctrl+M)
+	  (2) set its [first interval](http://supermemopedia.com/wiki/First_interval) (with Ctrl+J)
 	  (3) set its [priority]([[SuperMemo/Priority]])
 -
