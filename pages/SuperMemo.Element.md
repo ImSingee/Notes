@@ -11,6 +11,8 @@ url:: http://supermemopedia.com/wiki/Element, https://help.supermemo.org/wiki/It
 		- article 和从 article 中切分出来的片段（Alt+X）都属于 topics
 		- topic 的图标为 T
 	- concepts
+		- concepts represent an important idea or subject
+		- 简单粗暴一点可以理解为文件夹？
 	- tasks
 -
 -
