@@ -8,7 +8,7 @@ title:: SuperMemo/PendingQueue
 -
 - 将元素加入至 Pending Queue 的方式
 	- 菜单 File : Tools : Reset collection ，将整个 Collection 所有的内容标记为 Pending
-	-
+	- [[SuperMemo/Forget]] 将元素移动到 Pending Queue 的末尾
 	-
 -
 - Pending queue is a queue of elements that are waiting to be memorized.
