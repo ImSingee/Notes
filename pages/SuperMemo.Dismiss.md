@@ -9,4 +9,4 @@ url:: http://supermemopedia.com/wiki/Dismiss
 -
 - Dismiss 的作用是**归档**，对于想要暂时不要学而未来想要学的内容，可以采取如下替代方案
 	- 使用 [Forget]([[SuperMemo/Forget]])
-	- 将[优先级]() 调低
+	- 将[优先级]([[SuperMemo/Priority]]) 调到低（very low priorities, around 99%)
