@@ -7,4 +7,6 @@ url:: http://supermemopedia.com/wiki/Dismiss
 	- http://supermemopedia.com/wiki/What_is_the_correct_procedure_for_reintroducing_dismissed_items_into_learning%3F
 	- {{embed ((622eb585-4556-4efd-8dd2-8b80d7dfb8f4))}}
 -
-- Dismiss 的作用是**归档**，对于想要暂时不要学而未来想要学的内容，可以采取如下方案
+- Dismiss 的作用是**归档**，对于想要暂时不要学而未来想要学的内容，可以采取如下替代方案
+	- 使用 [Forget]([[SuperMemo/Forget]])
+	- 将[优先级]() 调低
