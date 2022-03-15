@@ -55,6 +55,5 @@ title:: Go/死锁检查
   }
   ```
 -
-- Go 的死锁检查是利用 [runtime.checkdead](https://github.com/golang/go/blob/go1.17.8/src/runtime/proc.go#L5206) 函数实现的，其实际上的原理只有一行
-- ``
+- Go 的死锁检查是利用 [runtime.checkdead](https://github.com/golang/go/blob/go1.17.8/src/runtime/proc.go#L5206) 函数实现的，其根本上判断的只是 `mcount() - sched.nmidle - sched.nmidlelocked - sched.nmsys` 的值是否为 0（实际上
 -
