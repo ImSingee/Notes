@@ -6,4 +6,5 @@
 		- [官方建议使用 Forget 而不是 Dismiss](http://supermemopedia.com/wiki/Change_the_default_behavior_of_Remembering_Dismissed_Items_to_maintain_the_repetition_history)
 		- 二者的区别在于，当 Forget 时这些元素总有一天会回来，而 Dismiss 则必须手动从解除 Dismiss 状态
 - 利用快捷键将元素标记为 Forget
-	- 默认添加的元素状态为
+	- 默认添加的元素状态为 [memorized](((622eb692-1fa4-4194-a516-925934f79b08)))
+	- 如果仅仅是添加没有立刻学习，可以 Forget，
