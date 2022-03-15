@@ -15,7 +15,7 @@ title:: Go/死锁检查
   }
   ```
 -
--
+- 可以看到
 -
 - Go 的死锁检查是利用 [runtime.checkdead](https://github.com/golang/go/blob/go1.17.8/src/runtime/proc.go#L5206) 函数实现的
 -
