@@ -8,4 +8,5 @@
 - 利用快捷键将元素标记为 Forget
 	- 默认添加的元素状态为 [memorized](((622eb692-1fa4-4194-a516-925934f79b08)))
 	- 如果仅仅是添加没有立刻学习，可以 [Forget]([[SuperMemo/Forget]])，以将之添加入 [Pending Queue]([[SuperMemo/PendingQueue]])
-	- 或者，可以利用 Ctrl+M
+	- 或者，可以利用 Ctrl+M 快捷键 + ESC 取消，这是利用了 [Remember]([[SuperMemo/Remember]]) 的副作用（如果取消会将状态重置，这是 bug 吧。。）
+-
