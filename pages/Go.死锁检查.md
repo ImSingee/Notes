@@ -30,13 +30,31 @@ title:: Go/死锁检查
   	go lock.Lock()
   	go lock.Lock()
   
-  	for { }
+  	for {
+  	}
   }
   ```
--
 - ```go
   // https://go.dev/play/p/QcMLrpmtWe3
+  
+  package main
+  
+  import "sync"
+  
+  var lock sync.RWMutex
+  
+  func main() {
+  	go func() {
+  		lock.RLock()
+  		lock.Lock()
+  
+  	}()
+  
+  	for {
+  	}
+  }
   ```
--
+- ```go
+  ```
 - Go 的死锁检查是利用 [runtime.checkdead](https://github.com/golang/go/blob/go1.17.8/src/runtime/proc.go#L5206) 函数实现的
 -
