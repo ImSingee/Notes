@@ -16,5 +16,5 @@
 - ## 利用 CSR 签发证书
 -
 - ```
-  step ca certificate create subject crt-file key-file --san=uri1 --san=uri2 --not-after=8888h
+  step ca sign <csr-file> <crt-file> --not-after=8888h
   ```
