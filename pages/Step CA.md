@@ -15,3 +15,6 @@
 -
 - ## 利用 CSR 签发证书
 -
+- ```
+  step certificate create subject crt-file key-file
+  ```
