@@ -7,8 +7,9 @@
 - ## 连接到 CA
 -
 - > 仅当 Step CLI 使用机器和 CA 机器不一致时需要
+  > 
+  > 相关参数来源于 CA 机器上的 `$(step path)/config/defaults.json` 文件
 - ```
   step ca bootstrap --ca-url https://<domain> --fingerprint <fingerprint>
   ```
 -
-	-
