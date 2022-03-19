@@ -14,7 +14,8 @@
   ```
 -
 - ## 利用 CSR 签发证书
--
 - ```
   step ca sign <csr-file> <crt-file> --not-after=8888h
   ```
+-
+- `--not-after` 指定了证书有效期，8888h
