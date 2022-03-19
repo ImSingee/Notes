@@ -18,4 +18,4 @@
   step ca sign <csr-file> <crt-file> --not-after=8888h
   ```
 -
-- `--not-after` 指定了证书有效期，8888h
+- `--not-after` 指定了证书有效期，8888h 约为 370 天
