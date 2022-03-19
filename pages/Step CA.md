@@ -1,0 +1,6 @@
+- ## 安装
+- https://smallstep.com/docs/step-ca/installation/
+-
+- ## systemd
+- https://smallstep.com/docs/step-ca/certificate-authority-server-production#running-step-ca-as-a-daemon
+-
