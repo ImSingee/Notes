@@ -23,4 +23,5 @@
 - ## 直接签发证书
 -
 - ```
+  step ca certificate <subject> <crt-file> <key-file> --not-after=8888h 
   ```
