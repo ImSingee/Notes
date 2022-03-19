@@ -18,13 +18,13 @@
   step ca sign <csr-file> <crt-file> --not-after=8760h
   ```
 -
-- `--not-after` 指定了证书有效期，8888h 约为 370 天
+- `--not-after` 指定了证书有效期，8760h 为 365 天
 -
 - ## 直接签发证书
 -
 - ```
-  step ca certificate <subject> <crt-file> <key-file> --not-after=8888h --san=<uri1> --san=<uri2>
+  step ca certificate <subject> <crt-file> <key-file> --not-after=8760h --san=<uri1> --san=<uri2>
   ```
 -
-- `--not-after` 指定了证书有效期，8888h 约为 370 天
+- `--not-after` 指定了证书有效期，8760h 为 365 天
 - `--san` 指定了证书作用的域名，可以是 dns / ip / email / uri
