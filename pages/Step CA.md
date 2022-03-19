@@ -23,5 +23,8 @@
 - ## 直接签发证书
 -
 - ```
-  step ca certificate <subject> <crt-file> <key-file> --not-after=8888h 
+  step ca certificate <subject> <crt-file> <key-file> --not-after=8888h --san=<uri1> --san=<uri2>
   ```
+-
+- `--not-after` 指定了证书有效期，8888h 约为 370 天
+- `--san` 指定了证书作用的域名，可以是 dns / ip / email / uri
