@@ -13,3 +13,5 @@
   step ca bootstrap --ca-url https://<domain> --fingerprint <fingerprint>
   ```
 -
+- ## 利用 CSR 签发证书
+-
