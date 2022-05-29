@@ -87,12 +87,18 @@
  {:block/name "17 mapreduce基本工作方式  mit6824 (readwise)",
   :block/created-at 1647227567029,
   :block/updated-at 1647227567486}
+ {:block/name "17 mapreduce基本工作方式 mit6824 (readwise)",
+  :block/created-at 1653839843177,
+  :block/updated-at 1653839843257}
  {:block/name "18  为什么这些sql语句逻辑相同，性能却差异巨大？  极客时间 (readwise)",
   :block/created-at 1643697629073,
   :block/updated-at 1643697629735}
  {:block/name "18 map函数和reduce函数  mit6824 (readwise)",
   :block/created-at 1647227567513,
   :block/updated-at 1647227568020}
+ {:block/name "18 map函数和reduce函数 mit6824 (readwise)",
+  :block/created-at 1653839843722,
+  :block/updated-at 1653839843821}
  {:block/name "2. 逻辑、语义与经验：不讲道理这事，我们天天干",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
@@ -474,6 +480,9 @@
  {:block/name "2022-04 周报",
   :block/created-at 1643097178019,
   :block/updated-at 1643638476231}
+ {:block/name "2022-04-08",
+  :block/created-at 1653839842737,
+  :block/updated-at 1653839842737}
  {:block/name "2022-04-12",
   :block/created-at 1649857826540,
   :block/updated-at 1649857826540}
@@ -513,6 +522,12 @@
  {:block/name "2022-05-12",
   :block/created-at 1652325262274,
   :block/updated-at 1652325262274}
+ {:block/name "2022-05-20",
+  :block/created-at 1653839834946,
+  :block/updated-at 1653839834946}
+ {:block/name "2022-05-21",
+  :block/created-at 1653839835803,
+  :block/updated-at 1653839835803}
  {:block/name "2022-05-25",
   :block/created-at 1653492046271,
   :block/updated-at 1653495520336}
@@ -528,6 +543,9 @@
  {:block/name "2022-05-29",
   :block/created-at 1653753624641,
   :block/updated-at 1653839136298}
+ {:block/name "2022-05-30",
+  :block/created-at 1653840000592,
+  :block/updated-at 1653840000592}
  {:block/name "2022-06 周报",
   :block/created-at 1644295203339,
   :block/updated-at 1644296193466}
@@ -789,22 +807,41 @@
  {:block/name "31分布式存储系统的难点（why hard）  mit6824 (readwise)",
   :block/created-at 1647227568046,
   :block/updated-at 1647227568485}
+ {:block/name "31分布式存储系统的难点（why hard） mit6824 (readwise)",
+  :block/created-at 1653839844347,
+  :block/updated-at 1653839844431}
  {:block/name "36 gfs写文件（write file）（1）  mit6824 (readwise)",
   :block/created-at 1647227568510,
   :block/updated-at 1647227568979}
+ {:block/name "36 gfs写文件（write file）（1） mit6824 (readwise)",
+  :block/created-at 1653839844885,
+  :block/updated-at 1653839844986}
  {:block/name "37 gfs写文件（write file）（2）  mit6824 (readwise)",
   :block/created-at 1647227568999,
   :block/updated-at 1647227569449}
+ {:block/name "37 gfs写文件（write file）（2） mit6824 (readwise)",
+  :block/created-at 1653839845407,
+  :block/updated-at 1653839845504}
  {:block/name "38 gfs的一致性  mit6824 (readwise)",
   :block/created-at 1647227569477,
   :block/updated-at 1647227570039}
+ {:block/name "38 gfs的一致性 mit6824 (readwise)",
+  :block/created-at 1653839899456,
+  :block/updated-at 1653839899544}
  {:block/name "41 复制（replication）  mit6824 (readwise)",
   :block/created-at 1647227570062,
   :block/updated-at 1647227570756}
+ {:block/name "41 复制（replication） mit6824 (readwise)",
+  :block/created-at 1653839899954,
+  :block/updated-at 1653839900055}
  {:block/name
   "42 状态转移和复制状态机（state transfer and replicated state machine）  mit6824 (readwise)",
   :block/created-at 1647227570794,
   :block/updated-at 1647227571239}
+ {:block/name
+  "42 状态转移和复制状态机（state transfer and replicated state machine） mit6824 (readwise)",
+  :block/created-at 1653839900460,
+  :block/updated-at 1653839900567}
  {:block/name "60  透明通讯的涅槃（下）：控制平面与数据平面极客时间 (readwise)",
   :block/created-at 1645524212880,
   :block/updated-at 1645524212917}
@@ -1058,6 +1095,9 @@
  {:block/name "cloudflare worker",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "coke.do",
+  :block/created-at 1653839842160,
+  :block/updated-at 1653839842160}
  {:block/name "command",
   :block/created-at 1645524220083,
   :block/updated-at 1645524220083}
@@ -1094,6 +1134,9 @@
  {:block/name "cruelfundamental",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "cs.umd.edu",
+  :block/created-at 1653839833336,
+  :block/updated-at 1653839833336}
  {:block/name "cute",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
@@ -1106,6 +1149,10 @@
  {:block/name "datastructure",
   :block/created-at 1645524220085,
   :block/updated-at 1645524220085}
+ {:block/name
+  "datepicker vs other elements interface elements jetbrains academy learn programming by building your own apps (readwise)",
+  :block/created-at 1653839832215,
+  :block/updated-at 1653839832709}
  {:block/name "db-engines.com",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
@@ -1387,6 +1434,13 @@
  {:block/name "how to build a text editor like notion (readwise)",
   :block/created-at 1647227571261,
   :block/updated-at 1647227571729}
+ {:block/name
+  "httpwwwcsumdedupughjavamemorymodeljsr133faqhtml (readwise)",
+  :block/created-at 1653839833175,
+  :block/updated-at 1653839833539}
+ {:block/name "hyperskill.org",
+  :block/created-at 1653839832438,
+  :block/updated-at 1653839832438}
  {:block/name "hypothes.is",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
@@ -1420,6 +1474,10 @@
  {:block/name "infoq.cn",
   :block/created-at 1645524220080,
   :block/updated-at 1645524220080}
+ {:block/name
+  "inline elements inline elements jetbrains academy learn programming by building your own apps (readwise)",
+  :block/created-at 1653839834015,
+  :block/updated-at 1653839834286}
  {:block/name "innodb",
   :block/created-at 1643097178018,
   :block/updated-at 1643097178018}
@@ -1456,6 +1514,10 @@
  {:block/name "java 工具",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
+ {:block/name
+  "jetbrains academy learn programming by building your own apps (readwise)",
+  :block/created-at 1653839836372,
+  :block/updated-at 1653839837045}
  {:block/name "jiajunhuang.com",
   :block/created-at 1643097178018,
   :block/updated-at 1643097178018}
@@ -1600,6 +1662,9 @@
  {:block/name "longest common subsequence",
   :block/created-at 1653653771123,
   :block/updated-at 1653653771123}
+ {:block/name "lorettahelson.com",
+  :block/created-at 1653839834867,
+  :block/updated-at 1653839834867}
  {:block/name "loyal",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
@@ -1744,6 +1809,9 @@
  {:block/name "perpetual",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
+ {:block/name "piotr wozniak 生产力系统 (readwise)",
+  :block/created-at 1653839841491,
+  :block/updated-at 1653839841575}
  {:block/name "pocket",
   :block/created-at 1645524220080,
   :block/updated-at 1645524220080}
@@ -1753,6 +1821,9 @@
  {:block/name "poll2  linux manual page (readwise)",
   :block/created-at 1643697759251,
   :block/updated-at 1643697759340}
+ {:block/name "postgresql 与 mysql 相比，优势何在？ 知乎 (readwise)",
+  :block/created-at 1653839838231,
+  :block/updated-at 1653839838431}
  {:block/name "prim 算法",
   :block/created-at 1645524220081,
   :block/updated-at 1645524220081}
@@ -2143,6 +2214,9 @@
  {:block/name "tweets from yihong0618 (readwise)",
   :block/created-at 1643697821507,
   :block/updated-at 1643697821580}
+ {:block/name "tweets from yufan sheng (readwise)",
+  :block/created-at 1653839842703,
+  :block/updated-at 1653839842703}
  {:block/name "tweets from zhifeng hu (readwise)",
   :block/created-at 1643697757024,
   :block/updated-at 1643697757075}
@@ -2229,6 +2303,10 @@
  {:block/name "whenever",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name
+  "which path are you on master internet marketing with loretta (readwise)",
+  :block/created-at 1653839834741,
+  :block/updated-at 1653839835024}
  {:block/name "wide column stores  dbengines encyclopedia (readwise)",
   :block/created-at 1643697814312,
   :block/updated-at 1643697814382}
@@ -2259,6 +2337,12 @@
  {:block/name "yuque.com",
   :block/created-at 1647227576759,
   :block/updated-at 1647227576759}
+ {:block/name "zerocoke.ck.page",
+  :block/created-at 1653839835706,
+  :block/updated-at 1653839835706}
+ {:block/name "zhihu.com",
+  :block/created-at 1653839838350,
+  :block/updated-at 1653839838350}
  {:block/name "zhuanlan.zhihu.com",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
@@ -2281,9 +2365,15 @@
  {:block/name "【翻译】在渐进阅读中，创建摘录卡片后该做什么？ (readwise)",
   :block/created-at 1647227634243,
   :block/updated-at 1647227634710}
+ {:block/name "【翻译】在间隔重复记忆系统中，填空卡似乎比问答卡产生更少的理解 (readwise)",
+  :block/created-at 1653839840966,
+  :block/updated-at 1653839841039}
  {:block/name "【译】rust中的sizeness (readwise)",
   :block/created-at 1643697948632,
   :block/updated-at 1643697948689}
+ {:block/name "一个人的用户型企业：我们小区家政女王的故事 (readwise)",
+  :block/created-at 1653839839612,
+  :block/updated-at 1653839901125}
  {:block/name "一个白学家眼里的 webassembly (readwise)",
   :block/created-at 1643697886627,
   :block/updated-at 1643697886705}
@@ -2356,6 +2446,9 @@
  {:block/name "什么是好的绩效度量？ (readwise)",
   :block/created-at 1643697885175,
   :block/updated-at 1643697885229}
+ {:block/name "什么是规模效应？ (readwise)",
+  :block/created-at 1653839838904,
+  :block/updated-at 1653839839169}
  {:block/name "从 go build 开始",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
@@ -2473,6 +2566,9 @@
  {:block/name "受害者有罪论",
   :block/created-at 1645524220081,
   :block/updated-at 1645524220081}
+ {:block/name "可乐 85 人生的答案，破守离，正和游戏 (readwise)",
+  :block/created-at 1653839842115,
+  :block/updated-at 1653839842223}
  {:block/name "可重复读",
   :block/created-at 1645524220083,
   :block/updated-at 1645524220083}
@@ -2886,6 +2982,9 @@
  {:block/name "稳定排序",
   :block/created-at 1645524220082,
   :block/updated-at 1645524220082}
+ {:block/name "穿梭于无限与有限之间的虫洞 (readwise)",
+  :block/created-at 1653839840415,
+  :block/updated-at 1653839840533}
  {:block/name "第185期  mysql有哪些“饮鸩止渴”提高性能的方法？极客时间 (readwise)",
   :block/created-at 1643697623500,
   :block/updated-at 1643697623541}
@@ -3069,6 +3168,9 @@
  {:block/name "隔离级别可重复读下mysql是如何解决幻读的_",
   :block/created-at 1643280265174,
   :block/updated-at 1643284512682}
+ {:block/name "零度日报 009 速度打败完美主义 (readwise)",
+  :block/created-at 1653839835561,
+  :block/updated-at 1653839835848}
  {:block/name "面试官：什么是mmap？ (readwise)",
   :block/created-at 1643697893453,
   :block/updated-at 1643697893584}
