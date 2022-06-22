@@ -18,6 +18,8 @@ title:: 算法/题目/数组中的第K个最大元素
 		- `1 <= k <= nums.length <= 104`
 		- `-104 <= nums[i] <= 104`
 - # 解法一：排序（略）
+	- ```go
+	  ```
 - # 解法二：快速排序改写
 	- ```go
 	  func findKthLargest(nums []int, k int) int { // k is 1-based    
