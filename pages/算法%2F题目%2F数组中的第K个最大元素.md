@@ -18,14 +18,16 @@ title:: 算法/题目/数组中的第K个最大元素
 		- `1 <= k <= nums.length <= 104`
 		- `-104 <= nums[i] <= 104`
 - # 解法一：排序（略）
-	- ```go
-	  ```
+	- 时间复杂度 O(NlogN)
+	- 空间复杂度 O(1)
 - # 解法二：快速排序改写
+	- 时间复杂度 O(N)
+		- 使用 #bfprt 算法是严格 O(N)，否则是概率 O(N)
+	- 空间复杂度 O(N+)
 	- ```go
 	  func findKthLargest(nums []int, k int) int { // k is 1-based    
 	      sort.Ints(nums)
-	      return nums[len(nums) - k]
-	      // return findKthMinest(nums, len(nums) - k)
+	      return findKthMinest(nums, len(nums) - k)
 	  }
 	  
 	  func findKthMinest(nums []int, k int) int { // k is 0-based
