@@ -25,7 +25,7 @@ title:: 算法/题目/数组中的第K个最大元素
 		- 使用 #bfprt 算法是严格 O(N)，否则是概率 O(N)
 	- 空间复杂度
 		- 不使用 bfprt 为 O(1)
-		- 使用 bfprt 为
+		- 使用 bfprt 为 O(logN)
 	- ```go
 	  func findKthLargest(nums []int, k int) int { // k is 1-based    
 	      sort.Ints(nums)
