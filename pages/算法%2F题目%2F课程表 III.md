@@ -30,4 +30,42 @@ title:: 算法/题目/课程表 III
 		- `1 <= courses.length <= 104`
 		- `1 <= durationi, lastDayi <= 104`
 - # 解答
-	-
+	- 贪心 + 堆
+	- https://leetcode.cn/problems/course-schedule-iii/solution/
+	- https://leetcode.com/problems/course-schedule-iii/solution/
+	- ```go
+	  func scheduleCourse(courses [][]int) int {
+	      sort.Slice(courses, func(i, j int) bool {
+	          return courses[i][1] < courses[j][1]
+	      })
+	      
+	      t := 0
+	      h := Heap{}
+	      for _, course := range courses {
+	          if t + course[0] <= course[1] {
+	              t += course[0]
+	              heap.Push(&h, course[0])
+	          } else if len(h) > 0 && h[0] > course[0] {
+	              t = t + course[0] - h[0]
+	              h[0] = course[0]
+	              heap.Fix(&h, 0)
+	          }
+	      }
+	      return len(h)
+	  }
+	  
+	  // Max Heap
+	  type Heap []int
+	  
+	  func (h Heap) Len() int            { return len(h) }
+	  func (h Heap) Less(i, j int) bool  { return h[i] > h[j] }
+	  func (h Heap) Swap(i, j int)       { h[i], h[j] = h[j], h[i] }
+	  func (h *Heap) Push(x interface{}) { *h = append(*h, x.(int)) }
+	  func (h *Heap) Pop() interface{} {
+	  	old := *h
+	  	n := len(old)
+	  	x := old[n-1]
+	  	*h = old[0 : n-1]
+	  	return x
+	  }
+	  ```
