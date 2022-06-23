@@ -34,4 +34,35 @@ title:: 算法/题目/环形链表 II
 	- **进阶：**你是否可以使用 `O(1)` 空间解决此题？
 - # 解
 	- 快慢指针
-	-
+	- ```go
+	  /**
+	   * Definition for singly-linked list.
+	   * type ListNode struct {
+	   *     Val int
+	   *     Next *ListNode
+	   * }
+	   */
+	  func detectCycle(head *ListNode) *ListNode {
+	      if head == nil {
+	          return nil
+	      }
+	      
+	      s, f := head, head
+	      for f != nil && f.Next != nil {
+	          s = s.Next
+	          f = f.Next.Next
+	          
+	          if s == f { // 有环
+	              p := head
+	              for s != p {
+	                  s = s.Next
+	                  p = p.Next
+	              }
+	              
+	              return p
+	          }
+	      }
+	      
+	      return nil // 无环
+	  }
+	  ```
