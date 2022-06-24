@@ -7,5 +7,5 @@
   "useCacheForConversion": true,
   "syncDebug": false,
   "converterDebug": false,
-  "disabled": false
+  "disabled": true
 }
