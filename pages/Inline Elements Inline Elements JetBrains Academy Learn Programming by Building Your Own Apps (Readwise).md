@@ -12,3 +12,9 @@ tags::
 	  null and undefined literally mean "no value",  but they have different data types:
 	  
 	  console.log(typeof null);       // objectconsole.log(typeof undefined);  // undefined
+	- link:: [null](null)
+	  on:: [[2022-05-29]]
+	  tags:: 
+	  null and undefined literally mean "no value",  but they have different data types:
+	  
+	  console.log(typeof null);       // objectconsole.log(typeof undefined);  // undefined
