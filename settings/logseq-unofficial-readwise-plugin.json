@@ -8,8 +8,9 @@
     "metaData": "",
     "height": "200",
     "width": "200",
-    "sectionHeader": "## [[Readwise/All Highlights]]"
+    "sectionHeader": "## Highlights"
   },
   "preferredDateFormat": "yyyy-MM-dd",
-  "orgOrMarkdown": "markdown"
+  "orgOrMarkdown": "markdown",
+  "hiding": false
 }
