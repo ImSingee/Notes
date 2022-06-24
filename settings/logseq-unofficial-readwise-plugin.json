@@ -1,0 +1,15 @@
+{
+  "disabled": false,
+  "retrievedTime": true,
+  "latestRetrieved": "1999-06-20T12:16:58.474971Z",
+  "token": "CWmaOolt3vqll1vNScUDApl8XuQiyuwq3Vedfztg9eY2XboUa8",
+  "template": {
+    "customTitle": "Readwise/Highlights/%title%",
+    "metaData": "",
+    "height": "200",
+    "width": "200",
+    "sectionHeader": "## [[Readwise/All Highlights]]"
+  },
+  "preferredDateFormat": "yyyy-MM-dd",
+  "orgOrMarkdown": "markdown"
+}

@@ -1,0 +1,11 @@
+{
+  "hideNativeFlashcard": false,
+  "breadcrumbDisplay": "Show Page name and parent blocks context",
+  "includeParentContent": false,
+  "defaultDeck": "Default",
+  "previewNotesInAnki": false,
+  "useCacheForConversion": true,
+  "syncDebug": false,
+  "converterDebug": false,
+  "disabled": false
+}
