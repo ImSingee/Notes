@@ -53,4 +53,38 @@ title:: 算法/题目/N 叉树的前序遍历
 	  }
 	  ```
 - # 解：迭代
-	- #TODO https://leetcode.cn/problems/n-ary-tree-preorder-traversal/
+	- ```go
+	  /**
+	   * Definition for a Node.
+	   * type Node struct {
+	   *     Val int
+	   *     Children []*Node
+	   * }
+	   */
+	  
+	  func preorder(root *Node) []int {
+	      if root == nil {
+	          return nil
+	      }
+	      
+	      stack := make([]*Node, 0, 10000)
+	      result := make([]int, 0, 10000)
+	      
+	      stack = append(stack, root)
+	      for len(stack) != 0 {
+	          node := stack[len(stack) - 1]
+	          stack = stack[:len(stack) - 1]
+	          
+	          result = append(result, node.Val)
+	          
+	          for i := len(node.Children) - 1; i >= 0; i-- {
+	              child := node.Children[i]
+	              if child != nil {
+	                  stack = append(stack, child)
+	              }
+	          }
+	      }
+	      
+	      return result
+	  }
+	  ```
