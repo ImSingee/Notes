@@ -46,4 +46,6 @@ title:: 算法/题目/最少移动次数使数组元素相等 II
 	- 空间复杂度 O(logN) （排序）
 	- https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/solution/by-fuxuemingzhu-13z3/
 - # 解：快速选择
+	- 直接取出第 N/2 大的数字，然后进行计算
+	- #TODO https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/solution/zui-shao-yi-dong-ci-shu-shi-shu-zu-yuan-xt3r2/ 方法二
 	-
