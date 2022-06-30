@@ -48,4 +48,4 @@ title:: 算法/题目/最少移动次数使数组元素相等 II
 - # 解：快速选择
 	- 直接取出第 N/2 大的数字，然后进行计算
 	- #TODO https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/solution/zui-shao-yi-dong-ci-shu-shi-shu-zu-yuan-xt3r2/ 方法二
-	-
+	- 参考：[[算法/题目/数组中的第K个最大元素]]
