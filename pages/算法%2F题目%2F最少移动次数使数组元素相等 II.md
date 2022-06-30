@@ -22,4 +22,28 @@ title:: 算法/题目/最少移动次数使数组元素相等 II
 		- `n == nums.length`
 		- `1 <= nums.length <= 105`
 		- `-109 <= nums[i] <= 109`
+- # 解：排序
+	- ```go
+	  func minMoves2(nums []int) int {
+	      sort.Ints(nums)
+	      
+	      return calcMoves(nums, nums[len(nums) / 2])
+	  }
+	  
+	  func calcMoves(nums []int, target int) int {
+	      count := 0
+	      for _, num := range nums {
+	          count += abs(num - target)
+	      }
+	      return count
+	  }
+	  
+	  func abs(x int) int {
+	      if x >= 0 { return x } else { return -x }
+	  }
+	  ```
+	- 时间复杂度 O(NlogN)
+	- 空间复杂度 O(logN) （排序）
+	- https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/solution/by-fuxuemingzhu-13z3/
+- # 解：快速选择
 	-
