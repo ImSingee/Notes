@@ -18,4 +18,45 @@ title:: 算法/题目/下一个更大元素 III
 	- **提示：**
 		- `1 <= n <= 231 - 1`
 - # 解
-	- 找到最后一个顺序对 (a, b)，在后面找到比这个顺序对
+	- 找到最后一个顺序对 (a, b)，在后面找到比 a 大的最小数字与 a 交换位置（这个数字一定存在，因为 b > a），然后将剩下的元素升序排序
+	- ```go
+	  func nextGreaterElement(n int) int {
+	      nString := strconv.Itoa(n)
+	      ints := make([]int, len(nString))
+	      for i, c := range nString {
+	          ints[i] = int(c - '0')
+	      }
+	  
+	      x := -1
+	      for i := 0; i < len(nString) - 1; i++ {
+	          if ints[i] < ints[i + 1] {
+	              x = i
+	          }
+	      }
+	  
+	      if x == -1 {
+	          return -1
+	      }
+	  
+	      y := x + 1
+	      for i := x + 1; i < len(nString); i++ {
+	          if ints[i] > ints[x] && ints[i] < ints[y] {
+	              y = i
+	          }
+	      }
+	  
+	      ints[x], ints[y] = ints[y], ints[x]
+	      sort.Ints(ints[x+1:])
+	  
+	      res := int64(0)
+	      for _, num := range ints {
+	          res = 10 * res + int64(num)
+	      }
+	  
+	      if res > 2147483647 {// math.MaxInt32
+	          return -1
+	      }
+	  
+	      return int(res)
+	  }
+	  ```
