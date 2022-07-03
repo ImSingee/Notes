@@ -1,0 +1,21 @@
+title:: 算法/题目/下一个更大元素 III
+
+- alias:: Next Greater Element III
+- #Algorithm #Medium #[[双指针]] #[[数学]] #[[字符串]]
+- #Leetcode #Leetcode-556 [LC国际](https://leetcode.com/problems/next-greater-element-iii/) [LC中国](https://leetcode-cn.com/problems/next-greater-element-iii/)
+- #lintcode #Lintcode-1174 [LintCode](https://www.lintcode.com/problem/1174/)
+- # 题目
+	- 给你一个正整数 `n` ，请你找出符合条件的最小整数，其由重新排列 `n`中存在的每位数字组成，并且其值大于 `n` 。如果不存在这样的正整数，则返回 `-1` 。
+	- **注意** ，返回的整数应当是一个 **32 位整数** ，如果存在满足题意的答案，但不是 **32 位整数** ，同样返回 `-1` 。
+	-
+	- **示例 1：**
+		- **输入：**n = 12
+		- **输出：**21
+	- **示例 2：**
+		- **输入：**n = 21
+		- **输出：**-1
+		-
+	- **提示：**
+		- `1 <= n <= 231 - 1`
+- # 解
+	-
