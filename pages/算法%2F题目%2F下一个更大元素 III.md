@@ -60,3 +60,6 @@ title:: 算法/题目/下一个更大元素 III
 	      return int(res)
 	  }
 	  ```
+	-
+- # 解：纯数学方法
+	- #TODO https://leetcode.cn/problems/next-greater-element-iii/solution/xia-yi-ge-geng-da-yuan-su-iii-by-leetcod-mqf1/ 方法二
