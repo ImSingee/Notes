@@ -1,0 +1,14 @@
+{
+  "disabled": false,
+  "template": {
+    "customTitle": "%title% (Readwise)",
+    "metaData": "",
+    "height": "200",
+    "width": "200",
+    "sectionHeader": "## [[Readwise Highlights]]"
+  },
+  "latestRetrieved": "1970-01-01T00:00:00Z",
+  "token": "12345",
+  "preferredDateFormat": "yyyy-MM-dd",
+  "orgOrMarkdown": "markdown"
+}
