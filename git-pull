@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-git submodule update --init --recursive.
+git submodule update --init --recursive
 git config diff.submodule log
 git config status.submodulesummary true
 git config submodule.recurse true
