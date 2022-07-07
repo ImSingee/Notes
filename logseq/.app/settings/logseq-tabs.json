@@ -1,7 +1,0 @@
-{
-  "tabs:toggle-pin": "mod+p",
-  "tabs:close": "mod+shift+w",
-  "tabs:select-next": "ctrl+tab",
-  "tabs:select-prev": "ctrl+shift+tab",
-  "disabled": false
-}
