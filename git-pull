@@ -6,3 +6,4 @@ git config status.submodulesummary true
 git config submodule.recurse true
 git config push.recurseSubmodules on-demand
 
+git pull --recurse-submodules
