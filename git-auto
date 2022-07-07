@@ -58,7 +58,7 @@ auto-commit-and-push() {
     git add .
     git commit -m '$COMMIT_MESSAGE'
 
-    git submodule foreach "(git add . && git commit -m '$COMMIT_MESSAGE)' || :"
+    git submodule foreach "(git add . && git commit -m '$COMMIT_MESSAGE') || :"
 
     if [[ 1 == "${push_to_server}" ]]; then
       git submodule foreach "git push"
