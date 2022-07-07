@@ -54,10 +54,14 @@ fi
 
 auto-commit-and-push() {
   if ! [[ $(git status) =~ "working tree clean" ]]; then
+    COMMIT_MESSAGE="Auto Commit at $(date)"
     git add .
-    git commit -m "Auto Commit at $(date)"
+    git commit -m '$COMMIT_MESSAGE'
+
+    git submodule foreach "(git add . && git commit -m '$COMMIT_MESSAGE)' || :"
 
     if [[ 1 == "${push_to_server}" ]]; then
+      git submodule foreach "git push"
       git push "${server}" "${branch}"
     fi
   fi
