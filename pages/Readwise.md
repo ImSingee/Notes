@@ -9,3 +9,4 @@ title: Readwise
 	- You can [tweak your syncing settings (and filter/add more books to sync) here](https://readwise.io/export/roam/preferences), read more about [how the Roam integration works here](https://help.readwise.io/roam), and as always feel free to reach out to us at hello@readwise.io with any questions
 - On [[2022-07-07]] at 11:30 AM Readwise synced 781 highlights from 226 books.
 - On [[2022-07-09]] at 10:05 PM Readwise synced 5 highlights from 3 books.
+- On [[2022-07-10]] at 12:44 PM Readwise synced 1 highlight from 1 book.
