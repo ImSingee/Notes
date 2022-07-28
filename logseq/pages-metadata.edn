@@ -34,6 +34,9 @@
  {:block/name "12",
   :block/created-at 1657375511092,
   :block/updated-at 1657375511092}
+ {:block/name "15",
+  :block/created-at 1658978503021,
+  :block/updated-at 1658978503021}
  {:block/name "18",
   :block/created-at 1657375511113,
   :block/updated-at 1657375511113}
@@ -568,6 +571,15 @@
  {:block/name "2022-07-25",
   :block/created-at 1658683176626,
   :block/updated-at 1658683176626}
+ {:block/name "2022-07-26",
+  :block/created-at 1658978504756,
+  :block/updated-at 1658978504756}
+ {:block/name "2022-07-27",
+  :block/created-at 1658978507863,
+  :block/updated-at 1658978507863}
+ {:block/name "2022-07-28",
+  :block/created-at 1658978489286,
+  :block/updated-at 1658978510691}
  {:block/name "2022-09 周报",
   :block/created-at 1647048445911,
   :block/updated-at 1647409968852}
@@ -577,6 +589,9 @@
  {:block/name "2022-23 周报",
   :block/created-at 1654348805495,
   :block/updated-at 1654349814939}
+ {:block/name "25",
+  :block/created-at 1658978501568,
+  :block/updated-at 1658978501568}
  {:block/name "26",
   :block/created-at 1657375511210,
   :block/updated-at 1657375511210}
@@ -589,6 +604,9 @@
  {:block/name "33｜并发处理（上）：从atomics到channel",
   :block/created-at 1657683790832,
   :block/updated-at 1657683790832}
+ {:block/name "36kr.com",
+  :block/created-at 1658978509526,
+  :block/updated-at 1658978509526}
  {:block/name "60",
   :block/created-at 1657375511368,
   :block/updated-at 1657375511368}
@@ -1042,6 +1060,9 @@
  {:block/name "gc",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
+ {:block/name "geekbang.org",
+  :block/created-at 1658978501568,
+  :block/updated-at 1658978501568}
  {:block/name "geektutu.com",
   :block/created-at 1657375511830,
   :block/updated-at 1657375511830}
@@ -1789,6 +1810,9 @@
   "readwise/highlights/12 | 连接无效：使用keep-alive还是应用心跳来检测？-极客时间",
   :block/created-at 1657375511090,
   :block/updated-at 1657375511090}
+ {:block/name "readwise/highlights/15 | 调度（上）：如何制定项目管理流程？",
+  :block/created-at 1658978501617,
+  :block/updated-at 1658978503024}
  {:block/name
   "readwise/highlights/18 | 为什么这些sql语句逻辑相同，性能却差异巨大？ | 极客时间",
   :block/created-at 1657375511110,
@@ -1799,6 +1823,9 @@
  {:block/name "readwise/highlights/2020 年度应用：这 16 款年度应用，和往年不太一样",
   :block/created-at 1657375511146,
   :block/updated-at 1657375511146}
+ {:block/name "readwise/highlights/25 | 多个活动要安排（上）：多进程如何调度？",
+  :block/created-at 1658978500675,
+  :block/updated-at 1658978501573}
  {:block/name "readwise/highlights/26 | 使用阻塞i",
   :block/created-at 1657375511207,
   :block/updated-at 1657375511207}
@@ -2275,6 +2302,12 @@
  {:block/name "readwise/highlights/you weren't meant to have a boss",
   :block/created-at 1657375513229,
   :block/updated-at 1657375513229}
+ {:block/name "readwise/highlights/《梦华录》点映礼体验后续：是变相超点还是线上路演？-36 氪",
+  :block/created-at 1658978509014,
+  :block/updated-at 1658978509528}
+ {:block/name "readwise/highlights/「空调救命」不是玩笑话，聊聊中暑的预防、发现与救治",
+  :block/created-at 1658978509563,
+  :block/updated-at 1658978510089}
  {:block/name "readwise/highlights/『浅入深出』mysql 中事务的实现",
   :block/created-at 1657853371373,
   :block/updated-at 1657853373367}
@@ -2337,6 +2370,10 @@
  {:block/name "readwise/highlights/为什么 dns 使用 udp 协议 - 面向信仰编程",
   :block/created-at 1657853373410,
   :block/updated-at 1657853375338}
+ {:block/name
+  "readwise/highlights/为什么 https 需要 7 次握手以及 9 倍时延 - 面向信仰编程",
+  :block/created-at 1658978504792,
+  :block/updated-at 1658978505711}
  {:block/name "readwise/highlights/为什么 hugepages 可以提升数据库性能 - 面向信仰编程",
   :block/created-at 1658249460993,
   :block/updated-at 1658249462605}
@@ -2355,9 +2392,15 @@
  {:block/name "readwise/highlights/为什么 numa 会影响程序的延迟 - 面向信仰编程",
   :block/created-at 1658112571844,
   :block/updated-at 1658112572705}
+ {:block/name "readwise/highlights/为什么 redis 选择单线程模型 - 面向信仰编程",
+  :block/created-at 1658978505755,
+  :block/updated-at 1658978506911}
  {:block/name "readwise/highlights/为什么 tcp",
   :block/created-at 1658717980720,
   :block/updated-at 1658717980720}
+ {:block/name "readwise/highlights/为什么 tcp 建立连接需要三次握手 - 面向信仰编程",
+  :block/created-at 1658978503111,
+  :block/updated-at 1658978504733}
  {:block/name "readwise/highlights/为什么 tcp/ip 协议会拆分数据 - 面向信仰编程",
   :block/created-at 1658717980722,
   :block/updated-at 1658717982423}
@@ -2466,12 +2509,18 @@
  {:block/name "readwise/highlights/我用 apple watch，3 个月减了 20 斤",
   :block/created-at 1657375514213,
   :block/updated-at 1657375514213}
+ {:block/name "readwise/highlights/手腕上的「心率检测」靠谱吗？智能手表能帮你了解哪些数据？",
+  :block/created-at 1658978506965,
+  :block/updated-at 1658978507765}
  {:block/name "readwise/highlights/找到最重要的事",
   :block/created-at 1657375514232,
   :block/updated-at 1657375514232}
  {:block/name "readwise/highlights/技术干货 | 关于 wkwebview 网络拦截，你想知道的都在这里",
   :block/created-at 1657375514250,
   :block/updated-at 1657375514250}
+ {:block/name "readwise/highlights/抛弃目标与计划，我发现好好读书并不难",
+  :block/created-at 1658978507923,
+  :block/updated-at 1658978508442}
  {:block/name "readwise/highlights/拉伸真的有用吗？ - 少数派",
   :block/created-at 1657727367320,
   :block/updated-at 1657727368191}
@@ -2481,6 +2530,9 @@
  {:block/name "readwise/highlights/拖拖拖拖拖延症，这老毛病该治了",
   :block/created-at 1657375514340,
   :block/updated-at 1657375514340}
+ {:block/name "readwise/highlights/数据中心的电力超售・osdi '20",
+  :block/created-at 1658978499130,
+  :block/updated-at 1658978500623}
  {:block/name "readwise/highlights/暂停实验室",
   :block/created-at 1657375514365,
   :block/updated-at 1657375514365}
@@ -2542,6 +2594,9 @@
  {:block/name "readwise/highlights/美国如果把根域名服务器封了，中国会从网络上消失？",
   :block/created-at 1657853370031,
   :block/updated-at 1657853371299}
+ {:block/name "readwise/highlights/聊聊es中api的不曾关注的小细节",
+  :block/created-at 1658978508471,
+  :block/updated-at 1658978508987}
  {:block/name "readwise/highlights/聊聊信息质量",
   :block/created-at 1657375514771,
   :block/updated-at 1657375514771}
@@ -2713,6 +2768,9 @@
  {:block/name "side projects",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
+ {:block/name "skyline",
+  :block/created-at 1658978508439,
+  :block/updated-at 1658978508439}
  {:block/name "slap",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
@@ -3031,6 +3089,9 @@
  {:block/name "zhuanlan.zhihu.com",
   :block/created-at 1657375511427,
   :block/updated-at 1657375511427}
+ {:block/name "「空调救命」不是玩笑话",
+  :block/created-at 1658978510085,
+  :block/updated-at 1658978510085}
  {:block/name "【翻译】在渐进阅读中",
   :block/created-at 1657375513451,
   :block/updated-at 1657375513451}
@@ -3343,6 +3404,9 @@
  {:block/name "复原力",
   :block/created-at 1645524220083,
   :block/updated-at 1645524220083}
+ {:block/name "多个活动要安排（上）：多进程如何调度？",
+  :block/created-at 1658978501569,
+  :block/updated-at 1658978501569}
  {:block/name "多多少少需要画图。画图有两种思...",
   :block/created-at 1658556289502,
   :block/updated-at 1658556289502}
@@ -3439,6 +3503,9 @@
  {:block/name "当前读",
   :block/created-at 1645524220079,
   :block/updated-at 1645524220079}
+ {:block/name "微信公众平台",
+  :block/created-at 1658978508986,
+  :block/updated-at 1658978508986}
  {:block/name "快照",
   :block/created-at 1645524220081,
   :block/updated-at 1645524220081}
@@ -3463,6 +3530,9 @@
  {:block/name "成长",
   :block/created-at 1645524220080,
   :block/updated-at 1645524220080}
+ {:block/name "我发现好好读书并不难",
+  :block/created-at 1658978508440,
+  :block/updated-at 1658978508440}
  {:block/name "我对 mysql 时间戳存 char(10) 还是 int(10) 有了全新的认识",
   :block/created-at 1657375513541,
   :block/updated-at 1657375513541}
@@ -3499,6 +3569,9 @@
  {:block/name "抑郁",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
+ {:block/name "抛弃目标与计划",
+  :block/created-at 1658978508439,
+  :block/updated-at 1658978508439}
  {:block/name "拒绝放弃",
   :block/created-at 1657375514297,
   :block/updated-at 1657375514297}
@@ -3904,6 +3977,9 @@
  {:block/name "而是快乐",
   :block/created-at 1657375515063,
   :block/updated-at 1657375515063}
+ {:block/name "聊聊中暑的预防、发现与救治",
+  :block/created-at 1658978510085,
+  :block/updated-at 1658978510085}
  {:block/name "聚光灯效应",
   :block/created-at 1643552754769,
   :block/updated-at 1643552782282}
@@ -3955,6 +4031,9 @@
  {:block/name "证书",
   :block/created-at 1657375515388,
   :block/updated-at 1657375515388}
+ {:block/name "调度（上）：如何制定项目管理流程？",
+  :block/created-at 1658978503021,
+  :block/updated-at 1658978503021}
  {:block/name "贪心",
   :block/created-at 1645524220082,
   :block/updated-at 1645524220082}
@@ -4024,6 +4103,9 @@
  {:block/name "队列",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
+ {:block/name "阿帅的健康笔记",
+  :block/created-at 1658978507762,
+  :block/updated-at 1658978507762}
  {:block/name "随机快排（迭代）",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
