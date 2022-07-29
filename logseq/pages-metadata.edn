@@ -579,7 +579,10 @@
   :block/updated-at 1658978507863}
  {:block/name "2022-07-28",
   :block/created-at 1658978489286,
-  :block/updated-at 1658978510691}
+  :block/updated-at 1659073271157}
+ {:block/name "2022-07-29",
+  :block/created-at 1659024024131,
+  :block/updated-at 1659073261269}
  {:block/name "2022-09 周报",
   :block/created-at 1647048445911,
   :block/updated-at 1647409968852}
@@ -682,6 +685,9 @@
  {:block/name "[dijkstra",
   :block/created-at 1645524220083,
   :block/updated-at 1645524220083}
+ {:block/name "[if !ie]>",
+  :block/created-at 1659011409532,
+  :block/updated-at 1659011409532}
  {:block/name "[广度优先遍历",
   :block/created-at 1645524220082,
   :block/updated-at 1645524220082}
@@ -757,6 +763,9 @@
  {:block/name "at work",
   :block/created-at 1643097178018,
   :block/updated-at 1643097178018}
+ {:block/name "author",
+  :block/created-at 1658983494715,
+  :block/updated-at 1658983494715}
  {:block/name "await",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
@@ -826,6 +835,9 @@
  {:block/name "cas",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
+ {:block/name "category",
+  :block/created-at 1658983494718,
+  :block/updated-at 1658983494718}
  {:block/name "cgroup",
   :block/created-at 1643097178019,
   :block/updated-at 1644472199241}
@@ -874,6 +886,12 @@
  {:block/name "course",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "coursera",
+  :block/created-at 1658983494713,
+  :block/updated-at 1658983494713}
+ {:block/name "coursera.org",
+  :block/created-at 1658983494712,
+  :block/updated-at 1658983494712}
  {:block/name "courses.joshwcomeau.com",
   :block/created-at 1657375511401,
   :block/updated-at 1657375511401}
@@ -1057,6 +1075,9 @@
  {:block/name "friction",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "full-title",
+  :block/created-at 1658983494716,
+  :block/updated-at 1658983494716}
  {:block/name "gc",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
@@ -1168,6 +1189,9 @@
  {:block/name "home",
   :block/created-at 1643097178019,
   :block/updated-at 1656561420393}
+ {:block/name "how to be successful in this course",
+  :block/created-at 1659011409533,
+  :block/updated-at 1659011409533}
  {:block/name "https",
   :block/created-at 1657375515389,
   :block/updated-at 1657375515389}
@@ -1909,6 +1933,10 @@
   :block/created-at 1657375511531,
   :block/updated-at 1657375511531}
  {:block/name
+  "readwise/highlights/browser support • css for javascript developers",
+  :block/created-at 1659069881006,
+  :block/updated-at 1659069881574}
+ {:block/name
   "readwise/highlights/build your own react • css for javascript developers",
   :block/created-at 1657375511543,
   :block/updated-at 1657375511543}
@@ -2008,6 +2036,10 @@
   :block/created-at 1657375512018,
   :block/updated-at 1657375512018}
  {:block/name
+  "readwise/highlights/grid construction • css for javascript developers",
+  :block/created-at 1659069881726,
+  :block/updated-at 1659069882276}
+ {:block/name
   "readwise/highlights/growing and shrinking • css for javascript developers",
   :block/created-at 1657375529539,
   :block/updated-at 1657375530765}
@@ -2029,6 +2061,14 @@
   "readwise/highlights/horizontal overflow • css for javascript developers",
   :block/created-at 1657375512068,
   :block/updated-at 1657375512068}
+ {:block/name
+  "readwise/highlights/how to be successful in this course",
+  :block/created-at 1659011409978,
+  :block/updated-at 1659011410560}
+ {:block/name
+  "readwise/highlights/how to be successful in this course | coursera",
+  :block/created-at 1659011408923,
+  :block/updated-at 1659011409547}
  {:block/name
   "readwise/highlights/how to build a text editor like notion",
   :block/created-at 1657375512079,
@@ -2069,6 +2109,10 @@
   "readwise/highlights/introduction to pandas – jetbrains academy — learn programming by building your own apps",
   :block/created-at 1657375512185,
   :block/updated-at 1657375512185}
+ {:block/name
+  "readwise/highlights/introduction • css for javascript developers",
+  :block/created-at 1659069880400,
+  :block/updated-at 1659069880959}
  {:block/name
   "readwise/highlights/jetbrains academy — learn programming by building your own apps",
   :block/created-at 1657375512216,
@@ -2285,6 +2329,10 @@
   :block/created-at 1657375513148,
   :block/updated-at 1657375513148}
  {:block/name
+  "readwise/highlights/version control in professional software development | coursera",
+  :block/created-at 1658983492836,
+  :block/updated-at 1658983494722}
+ {:block/name
   "readwise/highlights/which path are you on? | master internet marketing with loretta",
   :block/created-at 1657375513163,
   :block/updated-at 1657375513163}
@@ -2464,6 +2512,9 @@
  {:block/name "readwise/highlights/可乐周报 102 应对所有逆境的办法",
   :block/created-at 1658026163168,
   :block/updated-at 1658026164565}
+ {:block/name "readwise/highlights/号外：知识管理工具",
+  :block/created-at 1659069879548,
+  :block/updated-at 1659069880137}
  {:block/name
   "readwise/highlights/各个raid对比：性能和运行速度和读写方面（raid 1 读和单个磁盘无区别）_haiross的专栏-csdn博客_raid1读取速度",
   :block/created-at 1657375513952,
@@ -2497,6 +2548,9 @@
   "readwise/highlights/带入 grpc：让你的服务同时提供 http 接口 - segmentfault 思否",
   :block/created-at 1657375514129,
   :block/updated-at 1657375514129}
+ {:block/name "readwise/highlights/当 knative 遇见 webassembly : 掘金",
+  :block/created-at 1658987599837,
+  :block/updated-at 1658987601416}
  {:block/name "readwise/highlights/当产品经理开始思考做一个好人的代价",
   :block/created-at 1657375514167,
   :block/updated-at 1657375514167}
@@ -2686,6 +2740,9 @@
  {:block/name "remarkable 2",
   :block/created-at 1645524220082,
   :block/updated-at 1645524220082}
+ {:block/name "rizime.substack.com",
+  :block/created-at 1659069880132,
+  :block/updated-at 1659069880132}
  {:block/name "rss",
   :block/created-at 1645524220081,
   :block/updated-at 1645524220081}
@@ -2990,6 +3047,9 @@
  {:block/name "uphold",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
+ {:block/name "url",
+  :block/created-at 1658983494719,
+  :block/updated-at 1658983494719}
  {:block/name "use the overlayfs storage driver",
   :block/created-at 1657375513139,
   :block/updated-at 1657375513139}
@@ -3005,6 +3065,9 @@
  {:block/name "vectors",
   :block/created-at 1657375513151,
   :block/updated-at 1657375513151}
+ {:block/name "version control in professional software development",
+  :block/created-at 1658983494713,
+  :block/updated-at 1658983494713}
  {:block/name "vision",
   :block/created-at 1657375512399,
   :block/updated-at 1657375512399}
@@ -3200,6 +3263,9 @@
  {:block/name "作为副业全干工程师",
   :block/created-at 1658556291679,
   :block/updated-at 1658556291679}
+ {:block/name "作者：易立",
+  :block/created-at 1658987601398,
+  :block/updated-at 1658987601398}
  {:block/name "你想知道的都在这里",
   :block/created-at 1657375514254,
   :block/updated-at 1657375514254}
