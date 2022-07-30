@@ -26,7 +26,7 @@
  ;; When creating the new journal page, the app will use your template if there is one.
  ;; You only need to input your template name here.
  :default-templates
- {:journals ""}
+ {:journals "journal"}
 
  ;; Whether to enable hover on tooltip preview feature
  ;; Default is true, you can also toggle this via setting page
@@ -128,6 +128,22 @@
             [?p :block/journal-day ?d]
             [(>= ?d ?start)]
             [(<= ?d ?today)]]
+    :inputs [:14d :today]
+    :result-transform (fn [result]
+                        (sort-by (fn [h]
+                                   (get h :block/priority "Z")) result))
+    :collapsed? false}
+   {:title "⚠️ OVERDUE"
+    :query [:find (pull ?h [*])
+            :in $ ?start ?today
+            :where
+            [?h :block/marker ?marker]
+            [(contains? #{"TODO"} ?marker)]
+            [?h :block/page ?p]
+            [?p :block/journal? true]
+            [?p :block/journal-day ?d]
+            [(>= ?d ?start)]
+            [(< ?d ?today)]]
     :inputs [:14d :today]
     :result-transform (fn [result]
                         (sort-by (fn [h]
