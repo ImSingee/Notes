@@ -13,6 +13,9 @@
  {:block/name "01. 逻辑论证：为什么要讲道理",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "01｜cisc & risc：从何而来",
+  :block/created-at 1659320089367,
+  :block/updated-at 1659320089367}
  {:block/name "02",
   :block/created-at 1657375510802,
   :block/updated-at 1657375510802}
@@ -91,9 +94,6 @@
  {:block/name "2021-05-24",
   :block/created-at 1657375512711,
   :block/updated-at 1657375512711}
- {:block/name "2021-05-25",
-  :block/created-at 1657079452959,
-  :block/updated-at 1657079452959}
  {:block/name "2021-05-26",
   :block/created-at 1657375511633,
   :block/updated-at 1657375511633}
@@ -514,15 +514,15 @@
  {:block/name "2022-07-03",
   :block/created-at 1656777637862,
   :block/updated-at 1656855819286}
+ {:block/name "2022-07-04",
+  :block/created-at 1656864370008,
+  :block/updated-at 1656864370008}
  {:block/name "2022-07-06",
   :block/created-at 1657073774447,
   :block/updated-at 1657099624938}
  {:block/name "2022-07-07",
   :block/created-at 1657125839612,
   :block/updated-at 1657161968186}
- {:block/name "2022-07-08",
-  :block/created-at 1657210238696,
-  :block/updated-at 1657210238696}
  {:block/name "2022-07-09",
   :block/created-at 1657375510725,
   :block/updated-at 1657375533996}
@@ -591,7 +591,10 @@
   :block/updated-at 1659198446899}
  {:block/name "2022-07-31",
   :block/created-at 1659192577582,
-  :block/updated-at 1659264487860}
+  :block/updated-at 1659320417894}
+ {:block/name "2022-08-01",
+  :block/created-at 1659320402650,
+  :block/updated-at 1659320402650}
  {:block/name "2022-09 周报",
   :block/created-at 1647048445911,
   :block/updated-at 1647409968852}
@@ -772,6 +775,9 @@
  {:block/name "at work",
   :block/created-at 1643097178018,
   :block/updated-at 1643097178018}
+ {:block/name "author",
+  :block/created-at 1658983494715,
+  :block/updated-at 1658983494715}
  {:block/name "await",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
@@ -841,6 +847,9 @@
  {:block/name "cas",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
+ {:block/name "category",
+  :block/created-at 1658983494718,
+  :block/updated-at 1658983494718}
  {:block/name "cgroup",
   :block/created-at 1643097178019,
   :block/updated-at 1644472199241}
@@ -1078,6 +1087,9 @@
  {:block/name "friction",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "full-title",
+  :block/created-at 1658983494716,
+  :block/updated-at 1658983494716}
  {:block/name "gc",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
@@ -1284,7 +1296,7 @@
   :block/updated-at 1657375513196}
  {:block/name "journal 模板",
   :block/created-at 1659199143869,
-  :block/updated-at 1659199143869}
+  :block/updated-at 1659320385586}
  {:block/name "journey",
   :block/created-at 1643097178018,
   :block/updated-at 1643097178018}
@@ -1294,9 +1306,6 @@
  {:block/name "juicing.today",
   :block/created-at 1657375512776,
   :block/updated-at 1657375512776}
- {:block/name "jul 6th, 2022",
-  :block/created-at 1657084179260,
-  :block/updated-at 1657084179260}
  {:block/name "jvm",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
@@ -1741,6 +1750,9 @@
  {:block/name "perpetual",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
+ {:block/name "platyhsu",
+  :block/created-at 1659106529342,
+  :block/updated-at 1659106529342}
  {:block/name "pocket（桌面版）、",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
@@ -1750,6 +1762,9 @@
  {:block/name "postgresql.org",
   :block/created-at 1657985548788,
   :block/updated-at 1657985548788}
+ {:block/name "pouchdb.com",
+  :block/created-at 1659293221509,
+  :block/updated-at 1659293221509}
  {:block/name "ppp",
   :block/created-at 1658640294396,
   :block/updated-at 1658640294396}
@@ -1798,12 +1813,18 @@
  {:block/name "readland.substack.com",
   :block/created-at 1657375515021,
   :block/updated-at 1657375515021}
+ {:block/name "readme",
+  :block/created-at 1656594198597,
+  :block/updated-at 1656594198597}
  {:block/name "readwise",
   :block/created-at 1643097178017,
   :block/updated-at 1657679252805}
  {:block/name "readwise/highlights",
   :block/created-at 1657375510799,
   :block/updated-at 1657375510799}
+ {:block/name "readwise/highlights/01｜cisc & risc：从何而来，何至于此",
+  :block/created-at 1659320089363,
+  :block/updated-at 1659320089363}
  {:block/name "readwise/highlights/02  | 日志系统：一条sql更新语句是如何执行的？-极客时间",
   :block/created-at 1657375510798,
   :block/updated-at 1657375510798}
@@ -1904,9 +1925,16 @@
  {:block/name "readwise/highlights/anki高考的20条原则—来自《有效的学习：组织知识的20条原则》",
   :block/created-at 1657375511425,
   :block/updated-at 1657375511425}
+ {:block/name "readwise/highlights/apple car 或定位极高端车型",
+  :block/created-at 1657375511492,
+  :block/updated-at 1657375511492}
  {:block/name "readwise/highlights/apple car 或定位极高端车型 ",
   :block/created-at 1657375511475,
   :block/updated-at 1657375511475}
+ {:block/name
+  "readwise/highlights/apple car 或定位极高端车型 / ios 微信发布 8.0.2 版",
+  :block/created-at 1657375511487,
+  :block/updated-at 1657375511487}
  {:block/name
   "readwise/highlights/apple car 或定位极高端车型 / ios 微信发布 8.0.2 版 ",
   :block/created-at 1657375511476,
@@ -1936,6 +1964,9 @@
   "readwise/highlights/build your own react • css for javascript developers",
   :block/created-at 1657375511543,
   :block/updated-at 1657375511543}
+ {:block/name "readwise/highlights/conflicts",
+  :block/created-at 1659293220307,
+  :block/updated-at 1659293221525}
  {:block/name
   "readwise/highlights/constraints • css for javascript developers",
   :block/created-at 1657985550219,
@@ -2544,6 +2575,9 @@
   "readwise/highlights/带入 grpc：让你的服务同时提供 http 接口 - segmentfault 思否",
   :block/created-at 1657375514129,
   :block/updated-at 1657375514129}
+ {:block/name "readwise/highlights/开篇词｜练好基本功，优秀工程师成长第一步",
+  :block/created-at 1659320089467,
+  :block/updated-at 1659320089467}
  {:block/name "readwise/highlights/当 knative 遇见 webassembly : 掘金",
   :block/created-at 1659192223681,
   :block/updated-at 1659192223681}
@@ -2592,6 +2626,10 @@
  {:block/name "readwise/highlights/注意力使用不完全报告 - 少数派",
   :block/created-at 1657375514444,
   :block/updated-at 1657375514444}
+ {:block/name
+  "readwise/highlights/派周报 | 本周会员内容提要；跑题：裁员语文 ｜ 少数派会员 π+prime",
+  :block/created-at 1659106528029,
+  :block/updated-at 1659106529357}
  {:block/name "readwise/highlights/浅谈ioc容器",
   :block/created-at 1657375514463,
   :block/updated-at 1657375514463}
@@ -3043,6 +3081,9 @@
  {:block/name "uphold",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
+ {:block/name "url",
+  :block/created-at 1658983494719,
+  :block/updated-at 1658983494719}
  {:block/name "use the overlayfs storage driver",
   :block/created-at 1657375513139,
   :block/updated-at 1657375513139}
@@ -3247,6 +3288,9 @@
  {:block/name "优势何在？ - 知乎",
   :block/created-at 1657375512501,
   :block/updated-at 1657375512501}
+ {:block/name "优秀工程师成长第一步",
+  :block/created-at 1659320089470,
+  :block/updated-at 1659320089470}
  {:block/name "但又永远缺场——重新思考数字化之十一",
   :block/created-at 1657375514786,
   :block/updated-at 1657375514786}
@@ -3259,6 +3303,9 @@
  {:block/name "体系学习班",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
+ {:block/name "何至于此",
+  :block/created-at 1659320089368,
+  :block/updated-at 1659320089368}
  {:block/name "作为副业全干工程师",
   :block/created-at 1659192224701,
   :block/updated-at 1659192224701}
@@ -3332,8 +3379,8 @@
   :block/created-at 1657375511152,
   :block/updated-at 1657375511152}
  {:block/name "冥想",
-  :block/created-at 1659197482667,
-  :block/updated-at 1659197482667}
+  :block/created-at 1659320090107,
+  :block/updated-at 1659320090107}
  {:block/name "减肥",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
@@ -3562,6 +3609,9 @@
  {:block/name "开源",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
+ {:block/name "开篇词｜练好基本功",
+  :block/created-at 1659320089470,
+  :block/updated-at 1659320089470}
  {:block/name "异步化os：利用rustasyncawait提升10x性能-rust - rust精选",
   :block/created-at 1657375514799,
   :block/updated-at 1657375514799}
@@ -3733,6 +3783,9 @@
  {:block/name "朋友圈问题",
   :block/created-at 1645524220080,
   :block/updated-at 1645524220080}
+ {:block/name "本周会员内容提要；跑题：裁员语文 ｜ 少数派会员 π+prime",
+  :block/created-at 1659106529344,
+  :block/updated-at 1659106529344}
  {:block/name "极客兔兔",
   :block/created-at 1657375511831,
   :block/updated-at 1657375511831}
@@ -3796,6 +3849,9 @@
  {:block/name "活到死学到死",
   :block/created-at 1657375513050,
   :block/updated-at 1657375513050}
+ {:block/name "派周报",
+  :block/created-at 1659106529342,
+  :block/updated-at 1659106529342}
  {:block/name "浅谈缓存",
   :block/created-at 1657375514478,
   :block/updated-at 1657375514478}
