@@ -1,2 +1,5 @@
-- > 本文针对 Apple Silicon Mac，理论上也支持标准 Mac
--
+- > 本文针对 Apple Silicon Mac，理论上也支持 Intel Mac
+- ## 安装依赖
+	- ```bash
+	  brew install icarus-verilog
+	  ```
