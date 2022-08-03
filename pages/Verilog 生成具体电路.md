@@ -29,4 +29,6 @@
 	- **make show** 用于查看仿真波形图
 		- 注：需要在 GTKWave 中将左侧的 Signals 手动拖动到中间的 Signals 才能看到课程中的图片
 	- **make image** 用于生成逻辑电路图（生成为 alu.dot 与 alu.png 图片）
-	-
+-
+- # 划线笔记
+- {{embed [[Readwise/Highlights/04｜硬件语言筑基（二）: 我们的代码是怎么生成具体电路的？ - 计算机基础实战课]]}}
