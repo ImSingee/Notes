@@ -17,5 +17,9 @@
 	  ```
 - ## 下载代码
 	- ```bash
+	  git clone https://github.com/singee-study/geektime-computer-basic.git
+	  
+	  # 进入 04 的代码文件夹
+	  cd geektime-computer-basic/04/src
 	  ```
--
+- ##
