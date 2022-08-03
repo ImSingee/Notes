@@ -5,5 +5,5 @@
 	  brew install --cask gtkwave
 	  
 	  # https://ughe.github.io/2018/11/06/gtkwave-osx
-	  cpan install Switch # yes -> 
+	  cpan install Switch # all default
 	  ```
