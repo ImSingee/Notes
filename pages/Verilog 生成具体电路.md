@@ -1,0 +1,2 @@
+- > 本文针对 Apple Silicon Mac，理论上也支持标准 Mac
+-
