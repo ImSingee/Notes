@@ -25,5 +25,5 @@
 - ## 尝试运行查看结果
 	- **make compile** 用于编译
 	- **make show** 用于查看仿真波形图
-	- **make image** 用于查看逻辑电路图
-	- **make clean** 用于清理文件
+	- **make image** 用于生成逻辑电路图（生成为 alu.dot 与 alu.png 图片）
+	-
