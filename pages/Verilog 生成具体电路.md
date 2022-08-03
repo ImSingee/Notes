@@ -6,4 +6,5 @@
 	  
 	  # https://ughe.github.io/2018/11/06/gtkwave-osx
 	  cpan install Switch # all default
+	  xattr -d -r com.apple.quarantine /Applications/gtkwave.app
 	  ```
