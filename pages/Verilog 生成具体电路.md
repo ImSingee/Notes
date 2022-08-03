@@ -2,4 +2,5 @@
 - ## 安装依赖
 	- ```bash
 	  brew install icarus-verilog
+	  brew install --cask gtkwave
 	  ```
