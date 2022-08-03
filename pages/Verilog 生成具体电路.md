@@ -22,4 +22,7 @@
 	  # 进入 04 的代码文件夹
 	  cd geektime-computer-basic/04/src
 	  ```
-- ##
+- ## 尝试运行查看结果
+	- **make compile** 用于编译
+	- **make show** 用于查看仿真图
+	- **make image** 用于查看电路图
