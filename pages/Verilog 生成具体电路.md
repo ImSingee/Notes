@@ -26,6 +26,6 @@
 - ## 尝试运行查看结果
 	- **make compile** 用于编译
 	- **make show** 用于查看仿真波形图
-		- 注：需要在 GTKWave
+		- 注：需要在 GTKWave 中将左侧的 Signals 手动拖动到中间的 Signals 才能看到课程中的图片
 	- **make image** 用于生成逻辑电路图（生成为 alu.dot 与 alu.png 图片）
 	-
