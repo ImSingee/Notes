@@ -8,5 +8,6 @@
 	  cpan install Switch # all default
 	  xattr -d -r com.apple.quarantine /Applications/gtkwave.app
 	  rm /opt/homebrew/bin/gtkwave
-	  echo 'alias gktwave=/Applications/gtkwave.app/Contents/Resources/bin/gtkwave' >> ~/.zshrc
+	  echo 'export PATH=/Applications/gtkwave.app/Contents/Resources/bin/:$PATH' >> ~/.zshrc
 	  ```
+-
