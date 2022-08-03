@@ -24,5 +24,6 @@
 	  ```
 - ## 尝试运行查看结果
 	- **make compile** 用于编译
-	- **make show** 用于查看仿真图
-	- **make image** 用于查看电路图
+	- **make show** 用于查看仿真波形图
+	- **make image** 用于查看逻辑电路图
+	- **make clean** 用于清理文件
