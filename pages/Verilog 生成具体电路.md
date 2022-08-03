@@ -12,5 +12,7 @@
 	  echo 'export PATH=/Applications/gtkwave.app/Contents/Resources/bin/:$PATH' >> ~/.zshrc
 	  
 	  brew install yosys
+	  
+	  brew install graphviz
 	  ```
 -
