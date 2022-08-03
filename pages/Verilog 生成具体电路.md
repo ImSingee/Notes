@@ -1,3 +1,4 @@
+- > 本文为 [04｜硬件语言筑基（二）: 我们的代码是怎么生成具体电路的？](https://time.geekbang.org/column/article/543888?screen=full) 的学习笔记
 - > 本文针对 Apple Silicon Mac，理论上也支持 Intel Mac（但 Homebrew 相关路径可能有问题，请自行下面各种命令中的替换 /opt/homebrew 到适当的位置）
 - ## 安装依赖
 	- ```bash
