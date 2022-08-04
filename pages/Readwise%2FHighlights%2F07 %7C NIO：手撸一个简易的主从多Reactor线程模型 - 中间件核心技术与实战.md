@@ -8,3 +8,4 @@ url:: https://time.geekbang.org/column/article/532729
 - 基于 NIO，在业界有一种标准的线程模型 Reactor #Highlight #[[2022-08-04]]
 - BIO 领域一种经典的设计范式是每个请求对应一个线程。 #Highlight #[[2022-08-04]]
 - 在编写网络通信相关的功能模块时，建立一套线程模型是非常重要的一环，经过各位前辈不断的实践，Reactor 线程模型已成为 NIO 领域的事实标准，无论是网络编程类库 NIO，还是 Kafka、Dubbo 等主流中间件的底层网络模型都是直接或间接受到了 Reactor 模型的影响。 #Highlight #[[2022-08-04]]
+- 业内非常经典的线程模型：主从多 Reactor 模型。它的核心设计理念是让线程分工明确，相互协作。Main Reactor 线程池主要负责连接建立，SubReactor 线程池主要负责网络的读写，而编码、解码和业务执行则需要具体情况具体分析。 #Highlight #[[2022-08-04]]
