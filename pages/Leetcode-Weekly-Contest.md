@@ -1,2 +1,3 @@
 - [个人历届周赛](https://clist.by/account/imsingee/resource/leetcode.com/)
-- [竞赛积分提前预估](https://lcpredictor.herokuapp.com/contest/weekly-contest-305/ranking/search)
+- [竞赛积分提前预估](https://lcpredictor.herokuapp.com/)
+- #残酷刷题群
