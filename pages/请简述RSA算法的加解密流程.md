@@ -1,6 +1,7 @@
 - #CruelFundamental #2022-08-08 #密码学 #RSA
 -
 - ![image.png](../assets/image_1659938674558_0.png)
+- [代码实现](https://cs.opensource.google/go/go/+/refs/tags/go1.19:src/crypto/rsa/rsa.go;drc=e845f572ec6163fd3bad0267b5bb4f24d369bd93;l=258)
 -
 - [[非对称加密]] 的本质：让解密的代价与暴力破解的代价相差悬殊
 - RSA 的思想：选出两个大质数的代价很小、计算两个大质数乘积的代价也很小，而将两个大质数的乘积结果进行因式分解逆推出这两个质数（只要这两个质数都足够大）在目前是基本不可能的
