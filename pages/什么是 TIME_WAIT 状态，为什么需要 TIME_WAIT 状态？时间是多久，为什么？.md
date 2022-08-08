@@ -23,4 +23,6 @@ title:: 什么是 TIME_WAIT 状态，为什么需要 TIME_WAIT 状态？时间�
 		- 如果在前置连接中，有包延迟了但是没有丢失，且一直延迟到前一连接已经关闭了而新的连接恰好复用了前置连接的端口和 SEQ，就会导致数据错乱
 - ## 等待时间
 	- 2 * MSL
-	-
+-
+- ## 参考
+	- [network protocols - Setting TIME_WAIT TCP - Stack Overflow](https://stackoverflow.com/questions/337115/setting-time-wait-tcp)
