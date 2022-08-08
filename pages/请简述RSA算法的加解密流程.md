@@ -12,6 +12,7 @@
 -
 - 注：可以发现，根据典型的 RSA 算法（无论是加密还是签名），**使用的公私钥是相同的**，但事实上用来加解密的是不同的 —— 加密时为公钥 e 加密、解密时为私钥 d 加密。
 - 因为对称性，虽然**反过来在数学上是可以的**（即 e 作私钥、d 作公钥），但工程上是不允许的。
+	- 原因：
 -
 - 在数学上，私钥和公钥无法从一个推导出另一个；**在实践上，一般保存私钥时都会同时保存公钥**
 	- 例：[PKCS1 Private Key 结构](https://cs.opensource.google/go/go/+/refs/tags/go1.19:src/crypto/x509/pkcs1.go;drc=4b09c8ad6fb9d30b9c3417b5364809ff0006749d;l=15) 同时保存了 e 和 d 的值，而 [PKCS1 Public Key 结构](https://cs.opensource.google/go/go/+/refs/tags/go1.19:src/crypto/x509/pkcs1.go;drc=4b09c8ad6fb9d30b9c3417b5364809ff0006749d;l=39) 则只有 e
