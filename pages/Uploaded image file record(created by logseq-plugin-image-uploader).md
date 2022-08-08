@@ -39,7 +39,7 @@
           (not [(clojure.string/includes? ?page_name "created by logseq-plugin-image-uploader")])
           [?b :block/content ?content]
           (not [(clojure.string/includes? ?content "{:title \"Not uploaded images\"")])
-          (not [(clojure.string/includes? ?content "![")]
+          (not [(clojure.string/includes? ?content "loli.io")])
           [(clojure.string/includes? ?content "![")]
           (or [(clojure.string/includes? ?content ".png)")]
               [(clojure.string/includes? ?content ".jpg)")]
