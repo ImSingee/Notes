@@ -45,3 +45,4 @@
 	- ../assets/IMG_2362_1653571853371_0.jpg
 	- ../assets/image_1645696254146_0.png
 	- ../assets/image_1643862702447_0.png
+	- ../assets/IMG_2382_1653654561268_0.jpg
