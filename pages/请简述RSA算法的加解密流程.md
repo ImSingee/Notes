@@ -13,7 +13,7 @@
 - 因为对称性，虽然**反过来在数学上是可以的**（即 e 作私钥、d 作公钥），但工程上是不允许的。
 -
 - 在数学上，私钥和公钥无法从一个推导出另一个；在实践上，一般保存私钥时都会同时保存公钥
-	- 例：[PKCS1 Private Key 结构](https://cs.opensource.google/go/go/+/refs/tags/go1.19:src/crypto/x509/pkcs1.go;l=15;bpv=1;bpt=1) 同时保存了 e 和 d 的值
+	- 例：[PKCS1 Private Key 结构](https://cs.opensource.google/go/go/+/refs/tags/go1.19:src/crypto/x509/pkcs1.go;l=15;bpv=1;bpt=1) 同时保存了 e 和 d 的值，而 [PKCS1 Public Key 结构](https://cs.opensource.google/go/go/+/refs/tags/go1.19:src/crypto/x509/pkcs1.go;l=39;bpv=1;bpt=1) 则只有 e
 	-
 - ## 参考
 	- [RFC 8017: PKCS #1: RSA Cryptography Specifications Version 2.2](https://www.rfc-editor.org/rfc/rfc8017.html)
