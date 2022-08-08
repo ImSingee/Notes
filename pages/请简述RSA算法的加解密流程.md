@@ -1,4 +1,4 @@
-- #CruelFundamental #2022-08-08 #密码学 #RSA
+- #CruelFundamental #2022-08-07 #密码学 #RSA
 -
 - ![image.png](../assets/image_1659938674558_0.png)
 - [代码实现 (Go 1.18)](https://cs.opensource.google/go/go/+/refs/tags/go1.18.5:src/crypto/rsa/rsa.go;drc=9de49ae01ad332d8cbb79a3094c3fc3d6b6931e6;l=242)
