@@ -8,5 +8,5 @@ url:: https://help.supermemo.org/wiki/Glossary:Outstanding_queue
 - 其中，前两个被称为 [Outstanding]([[SuperMemo/Outstanding]]) Element
 -
 - 在学习页面的左下角（状态栏）会展示出 Outstanding Queue 的信息
-	- ![image.png](../assets/image_1647413834730_0.png)
+	- ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/08/bziuMBgwUsOaTYv.png)
 -

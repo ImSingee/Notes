@@ -30,3 +30,4 @@
         ]}
   #+END_QUERY
 	- ../assets/image_1659938674558_0.png
+	- ../assets/image_1647413834730_0.png
