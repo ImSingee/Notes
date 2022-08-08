@@ -133,9 +133,6 @@
  {:block/name "2021-05-24",
   :block/created-at 1657375512711,
   :block/updated-at 1657375512711}
- {:block/name "2021-05-25",
-  :block/created-at 1657079452959,
-  :block/updated-at 1657079452959}
  {:block/name "2021-05-26",
   :block/created-at 1657375511633,
   :block/updated-at 1657375511633}
@@ -583,15 +580,15 @@
  {:block/name "2022-07-03",
   :block/created-at 1656777637862,
   :block/updated-at 1656855819286}
+ {:block/name "2022-07-04",
+  :block/created-at 1656864370008,
+  :block/updated-at 1656864370008}
  {:block/name "2022-07-06",
   :block/created-at 1657073774447,
   :block/updated-at 1657099624938}
  {:block/name "2022-07-07",
   :block/created-at 1657125839612,
   :block/updated-at 1657161968186}
- {:block/name "2022-07-08",
-  :block/created-at 1657210238696,
-  :block/updated-at 1657210238696}
  {:block/name "2022-07-09",
   :block/created-at 1657375510725,
   :block/updated-at 1657375533996}
@@ -682,6 +679,9 @@
  {:block/name "2022-08-07",
   :block/created-at 1659806222817,
   :block/updated-at 1659870845219}
+ {:block/name "2022-08-08",
+  :block/created-at 1659888013280,
+  :block/updated-at 1659944383060}
  {:block/name "2022-09 周报",
   :block/created-at 1647048445911,
   :block/updated-at 1647409968852}
@@ -751,6 +751,12 @@
  {:block/name "85 人生的答案",
   :block/created-at 1657375513921,
   :block/updated-at 1657375513921}
+ {:block/name "@coolxiao on twitter",
+  :block/created-at 1659794907680,
+  :block/updated-at 1659794907680}
+ {:block/name "@demoi on twitter",
+  :block/created-at 1659794903647,
+  :block/updated-at 1659794903647}
  {:block/name "@ezfix_ on twitter",
   :block/created-at 1657375512925,
   :block/updated-at 1657375512925}
@@ -958,6 +964,9 @@
  {:block/name "cache与内存：程序放在哪儿？ - 操作系统实战45讲",
   :block/created-at 1659352653728,
   :block/updated-at 1659352653728}
+ {:block/name "caddy配置反向代理",
+  :block/created-at 1659930281557,
+  :block/updated-at 1659931045622}
  {:block/name "calm",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
@@ -994,6 +1003,9 @@
  {:block/name "charioteer",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
+ {:block/name "check if there is a valid partition for the array",
+  :block/created-at 1659925312975,
+  :block/updated-at 1659925312975}
  {:block/name "cjting.me",
   :block/created-at 1657375512714,
   :block/updated-at 1657375512714}
@@ -1471,9 +1483,6 @@
  {:block/name "juicing.today",
   :block/created-at 1657375512776,
   :block/updated-at 1657375512776}
- {:block/name "jul 6th, 2022",
-  :block/created-at 1657084179260,
-  :block/updated-at 1657084179260}
  {:block/name "jump to the last change in vim",
   :block/created-at 1659870174475,
   :block/updated-at 1659870174475}
@@ -1924,6 +1933,9 @@
  {:block/name "now",
   :block/created-at 1642731156669,
   :block/updated-at 1642731156669}
+ {:block/name "number of arithmetic triplets",
+  :block/created-at 1659925312924,
+  :block/updated-at 1659925312924}
  {:block/name "okr",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
@@ -2020,6 +2032,9 @@
  {:block/name "rancher labs",
   :block/created-at 1657375512352,
   :block/updated-at 1657375512352}
+ {:block/name "reachable nodes with restrictions",
+  :block/created-at 1659925313011,
+  :block/updated-at 1659925313011}
  {:block/name "read",
   :block/created-at 1657375511151,
   :block/updated-at 1657375511151}
@@ -2029,6 +2044,9 @@
  {:block/name "readland.substack.com",
   :block/created-at 1657375515021,
   :block/updated-at 1657375515021}
+ {:block/name "readme",
+  :block/created-at 1656594198597,
+  :block/updated-at 1656594198597}
  {:block/name "readwise",
   :block/created-at 1643097178017,
   :block/updated-at 1657679252805}
@@ -2164,6 +2182,10 @@
   "readwise/highlights/06 | 目录结构设计：如何组织一个可维护、可扩展的代码目录？ - go 语言项目开发实战",
   :block/created-at 1659870171721,
   :block/updated-at 1659870171721}
+ {:block/name
+  "readwise/highlights/06｜手写cpu（一）：mini cpu架构设计与取指令实现 - 计算机基础实战课",
+  :block/created-at 1659926455618,
+  :block/updated-at 1659926457183}
  {:block/name "readwise/highlights/07 | cache与内存：程序放在哪儿？ - 操作系统实战45讲",
   :block/created-at 1659352652866,
   :block/updated-at 1659352653735}
@@ -2198,6 +2220,10 @@
   :block/created-at 1659870172158,
   :block/updated-at 1659870172158}
  {:block/name
+  "readwise/highlights/08 | 一个几乎每个系统必踩的坑儿：访问数据库超时 - 后端存储实战课",
+  :block/created-at 1659925375364,
+  :block/updated-at 1659925375364}
+ {:block/name
   "readwise/highlights/08 | 异常处理：如何提高程序的稳定性？ - python核心技术与实战",
   :block/created-at 1659870172206,
   :block/updated-at 1659870172206}
@@ -2212,10 +2238,16 @@
   "readwise/highlights/09 | bigtable（二）：不认识“主人”的分布式架构 - 大数据经典论文解读",
   :block/created-at 1659352640690,
   :block/updated-at 1659352641556}
+ {:block/name "readwise/highlights/09 | 怎么能避免写出慢sql？ - 后端存储实战课",
+  :block/created-at 1659925375134,
+  :block/updated-at 1659925375134}
  {:block/name
   "readwise/highlights/09｜技术选型：如何选择微服务框架和注册中心？ - 中间件核心技术与实战",
   :block/created-at 1659415226570,
   :block/updated-at 1659415228025}
+ {:block/name "readwise/highlights/1",
+  :block/created-at 1659925375345,
+  :block/updated-at 1659925375345}
  {:block/name
   "readwise/highlights/1.3 分布式系统的抽象和实现工具（abstraction and implementation） - mit6.824",
   :block/created-at 1657375510910,
@@ -2229,6 +2261,9 @@
  {:block/name "readwise/highlights/1.8 map函数和reduce函数 - mit6.824",
   :block/created-at 1657375510979,
   :block/updated-at 1657375510979}
+ {:block/name "readwise/highlights/1/ harvard 的 cs50 是难度相对没...",
+  :block/created-at 1659925375488,
+  :block/updated-at 1659925375488}
  {:block/name
   "readwise/highlights/10 | boltdb：如何持久化存储你的key-value数据？ - etcd实战课",
   :block/created-at 1659352648799,
@@ -2240,6 +2275,10 @@
   "readwise/highlights/10 | 设置工作模式与环境（上）：建立计算机 - 操作系统实战45讲",
   :block/created-at 1659870172782,
   :block/updated-at 1659870172782}
+ {:block/name
+  "readwise/highlights/10 | 走进黑盒：sql是如何在数据库中执行的？ - 后端存储实战课",
+  :block/created-at 1659925375398,
+  :block/updated-at 1659925375398}
  {:block/name "readwise/highlights/10 款更先进的开源命令行工具",
   :block/created-at 1658640296407,
   :block/updated-at 1658640296407}
@@ -2398,9 +2437,16 @@
  {:block/name "readwise/highlights/anki高考的20条原则—来自《有效的学习：组织知识的20条原则》",
   :block/created-at 1657375511425,
   :block/updated-at 1657375511425}
+ {:block/name "readwise/highlights/apple car 或定位极高端车型",
+  :block/created-at 1657375511492,
+  :block/updated-at 1657375511492}
  {:block/name "readwise/highlights/apple car 或定位极高端车型 ",
   :block/created-at 1657375511475,
   :block/updated-at 1657375511475}
+ {:block/name
+  "readwise/highlights/apple car 或定位极高端车型 / ios 微信发布 8.0.2 版",
+  :block/created-at 1657375511487,
+  :block/updated-at 1657375511487}
  {:block/name
   "readwise/highlights/apple car 或定位极高端车型 / ios 微信发布 8.0.2 版 ",
   :block/created-at 1657375511476,
@@ -2789,6 +2835,9 @@
   "readwise/highlights/troubleshooting • css for javascript developers",
   :block/created-at 1657375512901,
   :block/updated-at 1657375512901}
+ {:block/name "readwise/highlights/tweets from chen wu",
+  :block/created-at 1659925375427,
+  :block/updated-at 1659925375427}
  {:block/name "readwise/highlights/tweets from cyandev",
   :block/created-at 1657375512912,
   :block/updated-at 1657375512912}
@@ -2798,6 +2847,9 @@
  {:block/name "readwise/highlights/tweets from glaze",
   :block/created-at 1657375512933,
   :block/updated-at 1657375512933}
+ {:block/name "readwise/highlights/tweets from jiayuan",
+  :block/created-at 1659925375455,
+  :block/updated-at 1659925375455}
  {:block/name "readwise/highlights/tweets from liam",
   :block/created-at 1659870174799,
   :block/updated-at 1659870174799}
@@ -3004,6 +3056,9 @@
  {:block/name "readwise/highlights/了解字体的基础知识 - 少数派",
   :block/created-at 1657375513804,
   :block/updated-at 1657375513804}
+ {:block/name "readwise/highlights/什么是udp flood？如何防御udp flood？",
+  :block/created-at 1659925375327,
+  :block/updated-at 1659925375327}
  {:block/name "readwise/highlights/什么是“规模效应”？",
   :block/created-at 1657375513817,
   :block/updated-at 1657375513817}
@@ -3031,6 +3086,9 @@
  {:block/name "readwise/highlights/关于猴痘病毒，你现在需要了解这些",
   :block/created-at 1657985550385,
   :block/updated-at 1657985550385}
+ {:block/name "readwise/highlights/写作是可以改变人生的超级技能 但学校从没有好好...",
+  :block/created-at 1659925375069,
+  :block/updated-at 1659925375069}
  {:block/name "readwise/highlights/别解释，解释就弱掉了 | happy xiao",
   :block/created-at 1657375513869,
   :block/updated-at 1657375513869}
@@ -3043,6 +3101,9 @@
  {:block/name "readwise/highlights/可乐周报 102 应对所有逆境的办法",
   :block/created-at 1658640295203,
   :block/updated-at 1658640295203}
+ {:block/name "readwise/highlights/可乐周报 105 选择对的牌桌",
+  :block/created-at 1659925375301,
+  :block/updated-at 1659925375301}
  {:block/name "readwise/highlights/号外：知识管理工具",
   :block/created-at 1659192224532,
   :block/updated-at 1659192224532}
@@ -3099,6 +3160,9 @@
   "readwise/highlights/开篇词 | 为什么我们要学习java虚拟机？ - 深入拆解java虚拟机",
   :block/created-at 1659870175303,
   :block/updated-at 1659870175303}
+ {:block/name "readwise/highlights/开篇词 | 从今天起，换种方式学存储 - 后端存储实战课",
+  :block/created-at 1659711946410,
+  :block/updated-at 1659711947946}
  {:block/name "readwise/highlights/开篇词｜练好基本功，优秀工程师成长第一步",
   :block/created-at 1659320089467,
   :block/updated-at 1659320089467}
@@ -3144,6 +3208,9 @@
  {:block/name "readwise/highlights/数据中心的电力超售・osdi '20",
   :block/created-at 1659192223738,
   :block/updated-at 1659192223738}
+ {:block/name "readwise/highlights/昨日到手，早上得闲翻到现在，不是通常意义上的数学...",
+  :block/created-at 1659925374923,
+  :block/updated-at 1659925374923}
  {:block/name "readwise/highlights/暂停实验室",
   :block/created-at 1657375514365,
   :block/updated-at 1657375514365}
@@ -3261,6 +3328,9 @@
  {:block/name "readwise/highlights/误区：睡前学习是最好的",
   :block/created-at 1657375514920,
   :block/updated-at 1657375514920}
+ {:block/name "readwise/highlights/课前加餐 | 电商系统是如何设计的？ - 后端存储实战课",
+  :block/created-at 1659711948039,
+  :block/updated-at 1659711949403}
  {:block/name "readwise/highlights/践行极简理念，高效数字生活 - 少数派",
   :block/created-at 1657375514930,
   :block/updated-at 1657375514930}
@@ -3325,6 +3395,9 @@
  {:block/name "rizime.substack.com",
   :block/created-at 1659192224536,
   :block/updated-at 1659192224536}
+ {:block/name "rsa",
+  :block/created-at 1659938607604,
+  :block/updated-at 1659938607604}
  {:block/name "rss",
   :block/created-at 1645524220081,
   :block/updated-at 1645524220081}
@@ -3770,6 +3843,9 @@
  {:block/name "【翻译】在间隔重复记忆系统中",
   :block/created-at 1657375513463,
   :block/updated-at 1657375513463}
+ {:block/name "一个几乎每个系统必踩的坑儿：访问数据库超时 - 后端存储实战课",
+  :block/created-at 1659769253651,
+  :block/updated-at 1659769253651}
  {:block/name "一天一点",
   :block/created-at 1647429973618,
   :block/updated-at 1647429973618}
@@ -3800,6 +3876,9 @@
  {:block/name "下载、编译、调试 go 源码",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "不是通常意义上的数学...",
+  :block/created-at 1659794906727,
+  :block/updated-at 1659794906727}
  {:block/name "不确定性",
   :block/created-at 1645524220083,
   :block/updated-at 1645524220083}
@@ -3857,6 +3936,9 @@
  {:block/name "人都是双标的",
   :block/created-at 1645524220084,
   :block/updated-at 1645524220084}
+ {:block/name "什么是 time_wait 状态，为什么需要 time_wait 状态？时间是多久，为什么？",
+  :block/created-at 1659944383058,
+  :block/updated-at 1659944383058}
  {:block/name "什么是mvcc?",
   :block/created-at 1657084047887,
   :block/updated-at 1657084047887}
@@ -3878,6 +3960,9 @@
  {:block/name "从ziplist到quicklist",
   :block/created-at 1659870171596,
   :block/updated-at 1659870171596}
+ {:block/name "从今天起",
+  :block/created-at 1659711947932,
+  :block/updated-at 1659711947932}
  {:block/name "企业邮箱",
   :block/created-at 1659870178091,
   :block/updated-at 1659870178091}
@@ -4205,6 +4290,9 @@
  {:block/name "寄存器",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "密码学",
+  :block/created-at 1659938605598,
+  :block/updated-at 1659938605598}
  {:block/name "对奇偶下标分别排序",
   :block/created-at 1644314062926,
   :block/updated-at 1644322961620}
@@ -4322,6 +4410,9 @@
  {:block/name "快速选择",
   :block/created-at 1655961701243,
   :block/updated-at 1655961701243}
+ {:block/name "怎么能避免写出慢sql？ - 后端存储实战课",
+  :block/created-at 1659769254739,
+  :block/updated-at 1659769254739}
  {:block/name "性能却差异巨大？",
   :block/created-at 1657375511113,
   :block/updated-at 1657375511113}
@@ -4397,6 +4488,9 @@
  {:block/name "按符号重排数组",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
+ {:block/name "换种方式学存储 - 后端存储实战课",
+  :block/created-at 1659711947934,
+  :block/updated-at 1659711947934}
  {:block/name "排序",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
@@ -4460,6 +4554,12 @@
  {:block/name "日志系统：一条sql更新语句是如何执行的？-极客时间",
   :block/created-at 1657375510803,
   :block/updated-at 1657375510803}
+ {:block/name "早上得闲翻到现在",
+  :block/created-at 1659794906726,
+  :block/updated-at 1659794906726}
+ {:block/name "昨日到手",
+  :block/created-at 1659794906726,
+  :block/updated-at 1659794906726}
  {:block/name "晁岳攀（鸟窝）",
   :block/created-at 1659870169134,
   :block/updated-at 1659870169134}
@@ -4508,6 +4608,9 @@
  {:block/name "李智慧",
   :block/created-at 1659361358443,
   :block/updated-at 1659361358443}
+ {:block/name "李玥",
+  :block/created-at 1659711947930,
+  :block/updated-at 1659711947930}
  {:block/name "李程远",
   :block/created-at 1659870168625,
   :block/updated-at 1659870168625}
@@ -4564,7 +4667,7 @@
   :block/updated-at 1643097178018}
  {:block/name "残酷刷题群",
   :block/created-at 1643097178017,
-  :block/updated-at 1643097178017}
+  :block/updated-at 1659929400102}
  {:block/name "每日书写",
   :block/created-at 1653492100231,
   :block/updated-at 1653492100231}
@@ -4637,6 +4740,9 @@
  {:block/name "用得上的哲学",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
+ {:block/name "电商系统是如何设计的？ - 后端存储实战课",
+  :block/created-at 1659711949397,
+  :block/updated-at 1659711949397}
  {:block/name "男生道歉的统一标准答案",
   :block/created-at 1645524220082,
   :block/updated-at 1645524220082}
@@ -4949,6 +5055,12 @@
  {:block/name "证书",
   :block/created-at 1657375515388,
   :block/updated-at 1657375515388}
+ {:block/name "请简述rsa算法的加解密流程",
+  :block/created-at 1659931098500,
+  :block/updated-at 1659944257732}
+ {:block/name "课前加餐",
+  :block/created-at 1659711949397,
+  :block/updated-at 1659711949397}
  {:block/name "调度（上）：如何制定项目管理流程？",
   :block/created-at 1659192224572,
   :block/updated-at 1659192224572}
@@ -4958,6 +5070,9 @@
  {:block/name "购买力平价",
   :block/created-at 1658640294655,
   :block/updated-at 1658640294655}
+ {:block/name "走进黑盒：sql是如何在数据库中执行的？ - 后端存储实战课",
+  :block/created-at 1659769255683,
+  :block/updated-at 1659769255683}
  {:block/name "践行极简理念",
   :block/created-at 1657375514932,
   :block/updated-at 1657375514932}
@@ -5054,6 +5169,9 @@
  {:block/name "青空之蓝",
   :block/created-at 1657375514478,
   :block/updated-at 1657375514478}
+ {:block/name "非对称加密",
+  :block/created-at 1659938698785,
+  :block/updated-at 1659938698785}
  {:block/name "高尔吉亚",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
