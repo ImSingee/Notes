@@ -24,6 +24,8 @@ title:: 什么是 TIME_WAIT 状态，为什么需要 TIME_WAIT 状态？时间�
 - ## 等待时间
 	- 2 * MSL
 		- MSL 在 RFC 中定义为 120s，而在 Linux 中被硬编码为 60s
+		- 即目前
+	- 这一等待是为了保证关闭时仍然在网络中传输的包一定已经被丢了
 -
 - ## 参考
 	- [RFC 793: Transmission Control Protocol](https://www.rfc-editor.org/rfc/rfc793.html#section-3.5)
