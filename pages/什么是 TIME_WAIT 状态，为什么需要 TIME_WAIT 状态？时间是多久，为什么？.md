@@ -25,4 +25,6 @@ title:: 什么是 TIME_WAIT 状态，为什么需要 TIME_WAIT 状态？时间�
 	- 2 * MSL
 -
 - ## 参考
+	- [RFC 793: Transmission Control Protocol](https://www.rfc-editor.org/rfc/rfc793.html#section-3.5)
 	- [network protocols - Setting TIME_WAIT TCP - Stack Overflow](https://stackoverflow.com/questions/337115/setting-time-wait-tcp)
+	- [为什么 TCP 协议有 TIME_WAIT 状态 - 面向信仰编程](https://draveness.me/whys-the-design-tcp-time-wait/#fn:5)
