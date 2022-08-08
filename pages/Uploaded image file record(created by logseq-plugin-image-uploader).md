@@ -31,3 +31,7 @@
   #+END_QUERY
 	- ../assets/image_1659938674558_0.png
 	- ../assets/image_1647413834730_0.png
+	- ../assets/image_1643552040916_0.png
+	- ../assets/image_1647228726041_0.png
+	- ../assets/image_1647228744856_0.png
+	- ../assets/image_1647228782176_0.png

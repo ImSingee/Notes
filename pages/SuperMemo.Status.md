@@ -5,7 +5,7 @@ url:: https://help.supermemo.org/wiki/Element_data#Status
 - 一个元素的状态包括
 	- pending 等待学习中
 	  id:: 622eb6bc-9773-40a5-9165-c8fbff4d856d
-		- 图标背景色为 sky blue 天蓝色，例如 ![image.png](../assets/image_1647228726041_0.png) 或 ![image.png](../assets/image_1647228744856_0.png)
+		- 图标背景色为 sky blue 天蓝色，例如 ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/08/zStLqEMYsRDXNV2.png) 或 ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/08/xvO9wJMtQWgINBp.png)
 	- memorized 正在学习中
 	  id:: 622eb692-1fa4-4194-a516-925934f79b08
 		- 图标颜色没有可能为蓝色或绿色，具体请看 [[SuperMemo/StatusIcons]]
