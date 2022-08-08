@@ -1,6 +1,7 @@
 title:: 什么是 TIME_WAIT 状态，为什么需要 TIME_WAIT 状态？时间是多久，为什么？
 
-- #CruelFundamental #date +%Y-%m-%d
+- #CruelFundamental #[[2022-08-08]]
+-
 -
 -
 -
