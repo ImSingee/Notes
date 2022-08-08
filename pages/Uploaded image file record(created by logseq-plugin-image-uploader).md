@@ -61,4 +61,4 @@
               [(clojure.string/includes? ?content ".WEBP)")])
         ]}
   #+END_QUERY
--
+- ../assets/image_1659956944357_0.png
