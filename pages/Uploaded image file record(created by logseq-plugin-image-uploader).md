@@ -46,3 +46,6 @@
 	- ../assets/image_1645696254146_0.png
 	- ../assets/image_1643862702447_0.png
 	- ../assets/IMG_2382_1653654561268_0.jpg
+	- ../assets/image_1652069699421_0.png
+	- ../assets/image_1652065454700_0.png
+	- ../assets/IMG_2361_1653569944299_0.jpg
