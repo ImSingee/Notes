@@ -1,2 +1,4 @@
 - #CruelFundamental #2022-08-08
 -
+- ![image.png](../assets/image_1659938591044_0.png)
+-
