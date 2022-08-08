@@ -13,5 +13,6 @@
 - 因为对称性，虽然**反过来在数学上是可以的**（即 e 作私钥、d 作公钥），但工程上是不允许的。
 -
 - ## 参考
+	- [RFC 8017: PKCS #1: RSA Cryptography Specifications Version 2.2](https://www.rfc-editor.org/rfc/rfc8017.html)
 	- [RSA的公钥和私钥到底哪个才是用来加密和哪个用来解密？ - 刘巍然-学酥的回答 - 知乎](https://www.zhihu.com/question/25912483/answer/31653639)
 	-
