@@ -2,6 +2,7 @@ title:: 什么是 TIME_WAIT 状态，为什么需要 TIME_WAIT 状态？时间�
 
 - #CruelFundamental #[[2022-08-08]]
 -
+- #TCP 中，在
 -
 -
 -
