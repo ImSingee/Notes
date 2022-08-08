@@ -23,7 +23,7 @@ title:: 什么是 TIME_WAIT 状态，为什么需要 TIME_WAIT 状态？时间�
 		- 如果在前置连接中，有包延迟了但是没有丢失，且一直延迟到前一连接已经关闭了而新的连接恰好复用了前置连接的端口和 SEQ，就会导致数据错乱
 - ## 等待时间
 	- 2 * MSL
-		- MSL 在 RFC 中定义为 120s，而在 Linux
+		- MSL 在 RFC 中定义为 120s，而在 Linux 中被硬编码为 60s
 -
 - ## 参考
 	- [RFC 793: Transmission Control Protocol](https://www.rfc-editor.org/rfc/rfc793.html#section-3.5)
