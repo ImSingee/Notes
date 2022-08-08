@@ -25,7 +25,7 @@ title:: 什么是 TIME_WAIT 状态，为什么需要 TIME_WAIT 状态？时间�
 	- 2 * MSL
 		- MSL 在 RFC 中定义为 120s，而在 Linux 中被硬编码为 60s
 		- 即目前 Linux 下 TIME_WAIT 时间是固定的 120s
-		- 这一时间无法修改，但可以通过 linger
+		- 这一时间无法修改，但可以通过 [[linger]] 强制不使用 TIME_WAIT 而是使用 RST，或配置 tcp_tw_reuse 允许内核重用 TIME_WAIT 状态的连接（**但都不推荐，尽量还是加机器解决**）
 	- 这一等待是为了保证关闭时仍然在网络中传输的包一定已经被丢了
 -
 - ## 参考
