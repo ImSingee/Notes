@@ -27,6 +27,7 @@ title:: 什么是 TIME_WAIT 状态，为什么需要 TIME_WAIT 状态？时间�
 		- 即目前 Linux 下 TIME_WAIT 时间是固定的 120s
 		- 这一时间无法修改，但可以通过 [[linger]] 强制不使用 TIME_WAIT 而是使用 RST，或配置 tcp_tw_reuse 允许内核重用 TIME_WAIT 状态的连接（**但都不推荐，尽量还是加机器解决**）
 	- 这一时长是为了保证关闭时仍然在网络中传输的包一定已经被丢了
+		- 1MSL 不够是因为还要考虑
 -
 - ## 参考
 	- [RFC 793: Transmission Control Protocol](https://www.rfc-editor.org/rfc/rfc793.html#section-3.5)
