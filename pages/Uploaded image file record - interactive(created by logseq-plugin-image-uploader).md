@@ -65,3 +65,4 @@
 	- ![Uploaded by Image Uploder](https://assets.leetcode.com/uploads/2019/11/08/sample_4_964.png)
 	- ![Uploaded by Image Uploder](https://assets.leetcode.com/uploads/2018/10/12/narytreeexample.png)
 	- ![Uploaded by Image Uploder](https://assets.leetcode.com/uploads/2020/12/01/tree1.jpg)
+	- ![Uploaded by Image Uploder](https://assets.leetcode.com/uploads/2022/06/15/ex1drawio.png)
