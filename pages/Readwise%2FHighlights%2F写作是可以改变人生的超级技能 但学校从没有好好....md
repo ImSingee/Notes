@@ -40,7 +40,7 @@ url:: https://twitter.com/coolXiao/status/1554667451203276801
   
   我从很多人转发过的这张图片上学到这个技巧，并一直用它 
   
-  ![](https://pbs.twimg.com/media/FZNJ0UNUUAEHWYB.jpg) ([View Tweet](https://twitter.com/coolXiao/status/1554667463853281280)) #Highlight #[[2022-08-06]]
+  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/XAtoNpnZdLaxU4f.jpg) ([View Tweet](https://twitter.com/coolXiao/status/1554667463853281280)) #Highlight #[[2022-08-06]]
 - 4. “triad”（三合音）
   
   什么是三合音？
@@ -52,7 +52,7 @@ url:: https://twitter.com/coolXiao/status/1554667451203276801
   感觉到节奏了吗？如果你看看我的 blog 和 newsletter
   我也一直这么干😄 
   
-  ![](https://pbs.twimg.com/media/FZNJ0qAVEAACCPj.jpg) ([View Tweet](https://twitter.com/coolXiao/status/1554667469591048192)) #Highlight #[[2022-08-06]]
+  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/VzDBdnHlm3WQvCI.jpg) ([View Tweet](https://twitter.com/coolXiao/status/1554667469591048192)) #Highlight #[[2022-08-06]]
 - 5. CTA = call to action
   
   这是一个广告常用术语，指的告诉读者如何行动。如果我们写的是非虚构类文字，最好包含至少一个 CTA
@@ -80,9 +80,9 @@ url:: https://twitter.com/coolXiao/status/1554667451203276801
   
   你给我一篇冗长的文章，我就可以给你一个不清楚自己想说什么的作者。简单和清晰的观点，是我从爱因斯坦这里学到的至高标准 
   
-  ![](https://pbs.twimg.com/media/FZNJ1xjVQAEGFZa.jpg) 
+  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/tyHCWDX1PBQJNnx.jpg) 
   
-  ![](https://pbs.twimg.com/media/FZNJ19OUUAAsD-m.jpg) ([View Tweet](https://twitter.com/coolXiao/status/1554667492626223104)) #Highlight #[[2022-08-06]]
+  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/iGkbVjILKNzDP7p.jpg) ([View Tweet](https://twitter.com/coolXiao/status/1554667492626223104)) #Highlight #[[2022-08-06]]
 - 8. 不说副词
   
   你可以从每一篇写作建议里找到这一条，说明专业作家有多么在意这件事😄。我也一直不断地从自己的草稿里删掉副词，或者换一个更准确的动词

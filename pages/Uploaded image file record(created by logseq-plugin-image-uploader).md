@@ -67,3 +67,7 @@
 	- https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png
 	- https://pbs.twimg.com/media/FZNJ1KjUYAA3NLB.jpg
 	- https://pbs.twimg.com/media/FZNJ1XeVsAAmsZ6.jpg
+	- https://pbs.twimg.com/media/FZNJ0UNUUAEHWYB.jpg
+	- https://pbs.twimg.com/media/FZNJ0qAVEAACCPj.jpg
+	- https://pbs.twimg.com/media/FZNJ1xjVQAEGFZa.jpg
+	- https://pbs.twimg.com/media/FZNJ19OUUAAsD-m.jpg
