@@ -92,3 +92,5 @@
 	- ![Uploaded by Image Uploder](https://pbs.twimg.com/media/FWJi2Z0WIAA2-kC.jpg)
 	- ![Uploaded by Image Uploder](https://writingexplained.org/wp-content/uploads/contiguous-v-continuous.png)
 	- ![Uploaded by Image Uploder](https://pbs.twimg.com/media/FWJi0NfWQAAfgoj.png)
+	- ![Uploaded by Image Uploder](https://assets.leetcode.com/uploads/2022/06/08/graph4drawio-5.png)
+	- ![Uploaded by Image Uploder](https://assets.leetcode.com/uploads/2022/06/07/graph4drawio-1.png)
