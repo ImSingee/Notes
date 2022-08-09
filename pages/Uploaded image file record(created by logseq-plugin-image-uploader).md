@@ -73,3 +73,4 @@
 	- https://assets.leetcode.com/uploads/2021/12/14/ex1.png
 	- https://assets.leetcode.com/uploads/2021/12/14/ex2.png
 	- ../assets/image_1660023587294_0.png
+	- ../assets/image_1660049439561_0.png

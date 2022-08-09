@@ -1,11 +1,10 @@
 - #CruelFundamental #[[2022-08-09]] #计算机网络 #TCP
 - 拥塞控制是一个网络全局的概念，担心的是网络拥堵造成包丢失而需要不停的重传。
-  
-  默认情况下 Linux 用的是基于丢包的拥塞控制算法。
+- 默认情况下 Linux 用的是基于丢包的拥塞控制算法。
   
   在不引入拥塞控制时，只存在接收窗口 rwnd 和发送窗口 swnd（swnd 随 rwnd 变化而变化）。而引入了拥塞控制后增加了一个拥塞窗口，swnd 被计算为 cwnd 与 rwnd 的最小值。
   
-  ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/023970e3-865e-41a5-9a79-29106bebb5af/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/023970e3-865e-41a5-9a79-29106bebb5af/Untitled.png)
+  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/Ns9plHFoUZVb54q.png) 
   
   拥塞控制主要由四个算法组成：慢启动（Slow Start）、拥塞避免（Congestion voidance）、快速重传 （Fast Retransmit）、快速恢复（Fast Recovery）
   

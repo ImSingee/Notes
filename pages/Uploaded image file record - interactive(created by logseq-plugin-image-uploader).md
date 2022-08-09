@@ -98,3 +98,4 @@
 	- ![Uploaded by Image Uploder](https://assets.leetcode.com/uploads/2021/12/14/ex1.png)
 	- ![Uploaded by Image Uploder](https://assets.leetcode.com/uploads/2021/12/14/ex2.png)
 	- ![Uploaded by Image Uploder](../assets/image_1660023587294_0.png)
+	- ![Uploaded by Image Uploder](../assets/image_1660049439561_0.png)
