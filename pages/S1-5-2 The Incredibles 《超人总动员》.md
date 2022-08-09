@@ -37,7 +37,7 @@ title: S1-5-2 The Incredibles 《超人总动员》
 - A:Your suit can stretch as far as you can without injuring yourself and still retain its shape. （你的外套可以像你一样伸展自如，不让你受到伤害，并且仍然能保持它的形状。）
 - **stretch** [stretʃ] vi. 延伸，伸展   vt.（本身长度或范围的）拉长
 - 【固】stretch out  伸开，舒展身体
-- ![016d3af20dc3ffb3421b4897f5863cee_wmk_副本.jpg](http://wechatapppro-1252524126.file.myqcloud.com/appBTnjzbdm9563/image/ueditor/76914900_1572244471.jpg)
+- ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/NeMyWi8VD1CdGxh.jpg)
 - 【形】stretch & scratch（v. 划）
 - 【同】**extend** [ik'stend] vt. 延伸；扩展（多指附加的延伸）
 - 【引】hose [həʊz] n. 塑料管；水 管

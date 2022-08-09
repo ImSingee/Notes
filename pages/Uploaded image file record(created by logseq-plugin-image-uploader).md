@@ -62,12 +62,5 @@
         ]}
   #+END_QUERY
 - ../assets/image_1659956944357_0.png
-	- https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/07/circularlinkedlist_test3.png
-	- https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/07/circularlinkedlist_test2.png
-	- https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png
-	- https://pbs.twimg.com/media/FZNJ1KjUYAA3NLB.jpg
-	- https://pbs.twimg.com/media/FZNJ1XeVsAAmsZ6.jpg
-	- https://pbs.twimg.com/media/FZNJ0UNUUAEHWYB.jpg
-	- https://pbs.twimg.com/media/FZNJ0qAVEAACCPj.jpg
-	- https://pbs.twimg.com/media/FZNJ1xjVQAEGFZa.jpg
-	- https://pbs.twimg.com/media/FZNJ19OUUAAsD-m.jpg
+	- http://wechatapppro-1252524126.file.myqcloud.com/appBTnjzbdm9563/image/ueditor/76914900_1572244471.jpg
+	- https://pbs.twimg.com/media/FZMg9L6WAAQznlB.png
