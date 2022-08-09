@@ -11,7 +11,7 @@ title: Contiguous vs. Continuous: What’s the Difference?
 	- In this post, I want to talk about the differences between these two words. I will cover the definitions and their functions in a sentence. Plus, I will provide examples for both words, so you can see how they look in a sentence.
 	- After reading this post, you shouldn’t ever mix up contiguous vs. continuous again.
 - When to Use Contiguous
-	- ![contiguous v continuous grammar rules](https://writingexplained.org/wp-content/uploads/contiguous-v-continuous.png)Contiguous is an [adjective](https://writingexplained.org/grammar-dictionary/adjective) that means __sharing an edge or boundary, touching; neighboring, adjacent__.
+	- ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/IElwt4Van8DYoUr.png)Contiguous is an [adjective](https://writingexplained.org/grammar-dictionary/adjective) that means __sharing an edge or boundary, touching; neighboring, adjacent__.
 		- His district is contiguous to mine.
 		- Ohio, Indiana, and Michigan are contiguous states.
 		- The United States has two contiguous neighbors: Canada and Mexico.
