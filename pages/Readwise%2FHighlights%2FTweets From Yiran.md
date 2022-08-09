@@ -11,4 +11,4 @@ url:: https://twitter.com/zdyxry
   
   还有这张经典图：多种多样的配置方式🤯🤯🤯
   
-  ![](https://pbs.twimg.com/media/FUC-3jgaIAALAKy.png) ([View Tweet](https://twitter.com/zdyxry/status/1531434485245693952)) #Highlight #[[2022-06-03]]
+  ![](https://pbs.twimg.com/media/FUC-3jgaIAAgL1d?format=png&name=large) ([View Tweet](https://twitter.com/zdyxry/status/1531434485245693952)) #Highlight #[[2022-06-03]]
