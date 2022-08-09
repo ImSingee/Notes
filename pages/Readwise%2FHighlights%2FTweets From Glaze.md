@@ -13,4 +13,4 @@ url:: https://twitter.com/glazecl
   
   🎨 先说说设计优先的画图中，我们需要精确的把控位置，字体，字号，颜色，形状。因此最好使用偏向于视觉的工具，例如 Figjam 等。 
   
-  ![](https://pbs.twimg.com/media/FWJi0NfWQAAfgoj.png) ([View Tweet](https://twitter.com/glazecl/status/1540902679500787713)) #Highlight #[[2022-06-29]]
+  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/M5CnvsJ1xEPgkVS.png) ([View Tweet](https://twitter.com/glazecl/status/1540902679500787713)) #Highlight #[[2022-06-29]]

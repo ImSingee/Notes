@@ -14,7 +14,7 @@ url:: https://draveness.me/golang/docs/part3-runtime/ch07-memory/golang-memory-a
   因为线性分配器需要与具有拷贝特性的垃圾回收算法配合，所以 C 和 C++ 等需要直接对外暴露指针的语言就无法使用该策略 ([View Highlight](https://read.readwise.io/read/01g9cjwa10hz3wmp5k97y452rz)) #Highlight #[[2022-08-01]]
 - 空闲链表分配器（Free-List Allocator）可以重用已经被释放的内存，它在内部会维护一个类似链表的数据结构。当用户程序申请内存时，空闲链表分配器会依次遍历空闲的内存块，找到足够大的内存，然后申请新的资源并修改链表：
   
-  ![free-list-allocator](https://img.draveness.me/2020-02-29-15829868066446-free-list-allocator.png)
+  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/K2UXiNW1r8wMpBm.png)
   
   **图 7-4 空闲链表分配器**
   

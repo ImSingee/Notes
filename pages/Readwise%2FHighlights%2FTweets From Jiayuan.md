@@ -10,4 +10,4 @@ url:: https://twitter.com/Tisoga
   
   https://t.co/UxCX0WhvpU 
   
-  ![](https://pbs.twimg.com/media/FZXspWeUYAA6cpS.jpg) ([View Tweet](https://twitter.com/Tisoga/status/1555409446267863044)) #Highlight #[[2022-08-06]]
+  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/O2K38GDnBmkRu5S.jpg) ([View Tweet](https://twitter.com/Tisoga/status/1555409446267863044)) #Highlight #[[2022-08-06]]
