@@ -16,8 +16,8 @@ url:: https://twitter.com/nishuang
   
   #活到死学到死 
   
-  ![](https://pbs.twimg.com/media/FJtkghqXoAcx3-o.jpg) 
+  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/Sx7pvnZoQDVrMO2.jpg) 
   
-  ![](https://pbs.twimg.com/media/FJtkghiX0AMDhxL.jpg) 
+  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/PUfHpsSZoinWa3h.jpg) 
   
-  ![](https://pbs.twimg.com/media/FJtkgiAWUAMiNtD.jpg) ([View Tweet](https://twitter.com/nishuang/status/1484891015853101066)) #Highlight #[[2022-01-23]]
+  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/5cLPzkAIaMDhO6f.jpg) ([View Tweet](https://twitter.com/nishuang/status/1484891015853101066)) #Highlight #[[2022-01-23]]
