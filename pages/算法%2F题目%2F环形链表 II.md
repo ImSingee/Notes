@@ -11,17 +11,17 @@ title:: 算法/题目/环形链表 II
 	- **不允许修改** 链表。
 	-
 	- **示例 1：**
-		- ![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png)
+		- ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/vNadK2l1cFt7D6B.png)
 		- **输入：**head = [3,2,0,-4], pos = 1
 		- **输出：**返回索引为 1 的链表节点
 		- **解释：**链表中有一个环，其尾部连接到第二个节点。
 	- **示例 2：**
-		- ![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/07/circularlinkedlist_test2.png)
+		- ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/bCjc9DBeOYUz8X5.png)
 		- **输入：**head = [1,2], pos = 0
 		- **输出：**返回索引为 0 的链表节点
 		- **解释：**链表中有一个环，其尾部连接到第一个节点。
 	- **示例 3：**
-		- ![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/07/circularlinkedlist_test3.png)
+		- ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/APn3DmeJtlCpSxK.png)
 		- **输入：**head = [1], pos = -1
 		- **输出：**返回 null
 		- **解释：**链表中没有环。
