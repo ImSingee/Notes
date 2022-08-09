@@ -63,7 +63,7 @@
   #+END_QUERY
 -
 - Links
-	- ../assets/image_1659956944357_0.png
-	- ../assets/image_1660013465463_0.png
+	-
+	-
 	-
 	-
