@@ -64,3 +64,7 @@
 - ../assets/image_1659956944357_0.png
 	- http://wechatapppro-1252524126.file.myqcloud.com/appBTnjzbdm9563/image/ueditor/76914900_1572244471.jpg
 	- https://pbs.twimg.com/media/FZMg9L6WAAQznlB.png
+	- ../assets/image_1660013465463_0.png
+	- https://assets.leetcode.com/uploads/2019/11/08/sample_4_964.png
+	- https://assets.leetcode.com/uploads/2018/10/12/narytreeexample.png
+	- https://assets.leetcode.com/uploads/2020/12/01/tree1.jpg

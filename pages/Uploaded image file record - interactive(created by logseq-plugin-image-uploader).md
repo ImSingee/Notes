@@ -61,3 +61,7 @@
 	- ![Uploaded by Image Uploder](https://pbs.twimg.com/media/FZNJ19OUUAAsD-m.jpg)
 	- ![Uploaded by Image Uploder](http://wechatapppro-1252524126.file.myqcloud.com/appBTnjzbdm9563/image/ueditor/76914900_1572244471.jpg)
 	- ![Uploaded by Image Uploder](https://pbs.twimg.com/media/FZMg9L6WAAQznlB.png)
+	- ![Uploaded by Image Uploder](../assets/image_1660013465463_0.png)
+	- ![Uploaded by Image Uploder](https://assets.leetcode.com/uploads/2019/11/08/sample_4_964.png)
+	- ![Uploaded by Image Uploder](https://assets.leetcode.com/uploads/2018/10/12/narytreeexample.png)
+	- ![Uploaded by Image Uploder](https://assets.leetcode.com/uploads/2020/12/01/tree1.jpg)
