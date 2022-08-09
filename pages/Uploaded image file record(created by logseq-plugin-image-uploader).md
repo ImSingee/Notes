@@ -65,3 +65,5 @@
 	- https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/07/circularlinkedlist_test3.png
 	- https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/07/circularlinkedlist_test2.png
 	- https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png
+	- https://pbs.twimg.com/media/FZNJ1KjUYAA3NLB.jpg
+	- https://pbs.twimg.com/media/FZNJ1XeVsAAmsZ6.jpg

@@ -69,9 +69,9 @@ url:: https://twitter.com/coolXiao/status/1554667451203276801
   
   我经常这样，一个解决办法就是，一寸相框。和我一样喜欢酗酒的 Anne Lamott 的写作建议：先写下眼前已经明确的，最想说的那个点子，不要考虑全文最后的呈现，先写下一句最想说的话，最想表达的点子，已经成型的想法。 
   
-  ![](https://pbs.twimg.com/media/FZNJ1KjUYAA3NLB.jpg) 
+  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/RFjuM9NAo15bzi7.jpg) 
   
-  ![](https://pbs.twimg.com/media/FZNJ1XeVsAAmsZ6.jpg) ([View Tweet](https://twitter.com/coolXiao/status/1554667482433986562)) #Highlight #[[2022-08-06]]
+  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/z9NGimYOPcaBAVr.jpg) ([View Tweet](https://twitter.com/coolXiao/status/1554667482433986562)) #Highlight #[[2022-08-06]]
 - 7. 简单和清晰
   
   智慧的最高形式是什么？
