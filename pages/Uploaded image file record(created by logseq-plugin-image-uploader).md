@@ -1,5 +1,5 @@
 - #+BEGIN_QUERY
-  {:title "Not uploaded images"
+  {:title "Not uploaded images (File)"
     :query [:find (pull ?b [*])
           :where
           [?b :block/page ?p]
@@ -31,7 +31,7 @@
   #+END_QUERY
 -
 - #+BEGIN_QUERY
-  {:title "Not uploaded images"
+  {:title "Not uploaded images (Network)"
     :query [:find (pull ?b [*])
           :where
           [?b :block/page ?p]
