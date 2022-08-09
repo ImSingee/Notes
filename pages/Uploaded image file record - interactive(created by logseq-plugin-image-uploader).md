@@ -97,3 +97,4 @@
 	- ![Uploaded by Image Uploder](https://pic.leetcode-cn.com/1641096462-IsWZUX-1.png)
 	- ![Uploaded by Image Uploder](https://assets.leetcode.com/uploads/2021/12/14/ex1.png)
 	- ![Uploaded by Image Uploder](https://assets.leetcode.com/uploads/2021/12/14/ex2.png)
+	- ![Uploaded by Image Uploder](../assets/image_1660023587294_0.png)
