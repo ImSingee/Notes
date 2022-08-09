@@ -7,7 +7,7 @@ url:: https://draveness.me/golang/docs/part3-runtime/ch07-memory/golang-memory-a
 - 编程语言的内存分配器一般包含两种分配方法，一种是线性分配器（ Sequential Allocator，Bump Allocator），另一种是空闲链表分配器（Free-List Allocator） ([View Highlight](https://read.readwise.io/read/01g9cjth3htkhcsczj8ev9037d)) #Highlight #[[2022-08-01]]
 - 线性分配（Bump Allocator）是一种高效的内存分配方法，但是有较大的局限性。当我们使用线性分配器时，只需要在内存中维护一个指向内存特定位置的指针，如果用户程序向分配器申请内存，分配器只需要检查剩余的空闲内存、返回分配的内存区域并修改指针在内存中的位置，即移动下图中的指针：
   
-  ![bump-allocator](https://img.draveness.me/2020-02-29-15829868066435-bump-allocator.png) ([View Highlight](https://read.readwise.io/read/01g9cjv9ney3519ghgbr02mq5d)) #Highlight #[[2022-08-01]]
+  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/F7gE9lM4VWcDtij.png) ([View Highlight](https://read.readwise.io/read/01g9cjv9ney3519ghgbr02mq5d)) #Highlight #[[2022-08-01]]
 - 虽然线性分配器实现为它带来了较快的执行速度以及较低的实现复杂度，但是线性分配器无法在内存被释放时重用内存 ([View Highlight](https://read.readwise.io/read/01g9cjvnf3bb0bws5ddmqsa893)) #Highlight #[[2022-08-01]]
 - 因为线性分配器具有上述特性，所以需要与合适的垃圾回收算法配合使用，例如：标记压缩（Mark-Compact）、复制回收（Copying GC）和分代回收（Generational GC）等算法，它们可以通过拷贝的方式整理存活对象的碎片，将空闲内存定期合并，这样就能利用线性分配器的效率提升内存分配器的性能了。
   
@@ -46,12 +46,12 @@ url:: https://draveness.me/golang/docs/part3-runtime/ch07-memory/golang-memory-a
 - 程序中的绝大多数对象的大小都在 32KB 以下 ([View Highlight](https://read.readwise.io/read/01g9cks0qe2var216bjmagfgex)) #Highlight #[[2022-08-01]]
 - 内存分配器不仅会区别对待大小不同的对象，还会将内存分成不同的级别分别管理，TCMalloc 和 Go 运行时分配器都会引入线程缓存（Thread Cache）、中心缓存（Central Cache）和页堆（Page Heap）三个组件分级管理内存：
   
-  ![multi-level-cache](https://img.draveness.me/2020-02-29-15829868066457-multi-level-cache.png) ([View Highlight](https://read.readwise.io/read/01g9cm4r0wq8ph76yepr712d07)) #Highlight #[[2022-08-01]]
+  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/Q12PnNi7dfjxTvm.png) ([View Highlight](https://read.readwise.io/read/01g9cm4r0wq8ph76yepr712d07)) #Highlight #[[2022-08-01]]
 - 线程缓存属于每一个独立的线程，它能够满足线程上绝大多数的内存分配需求，因为不涉及多线程，所以也不需要使用互斥锁来保护内存，这能够减少锁竞争带来的性能损耗。当线程缓存不能满足需求时，运行时会使用中心缓存作为补充解决小对象的内存分配，在遇到 32KB 以上的对象时，内存分配器会选择页堆直接分配大内存。 ([View Highlight](https://read.readwise.io/read/01g9cm5g9pt4wmk6397y8h4kz1)) #Highlight #[[2022-08-01]]
 - 在 Go 语言 1.10 以前的版本，堆区的内存空间都是连续的；但是在 1.11 版本，Go 团队使用稀疏的堆内存空间替代了连续的内存，解决了连续内存带来的限制以及在特殊场景下可能出现的问题 ([View Highlight](https://read.readwise.io/read/01g9cm6ce56s1714pfh76xr0q2)) #Highlight #[[2022-08-01]]
 - Go 语言程序的 1.10 版本在启动时会初始化整片虚拟内存区域，如下所示的三个区域 `spans`、`bitmap` 和 `arena` 分别预留了 512MB、16GB 以及 512GB 的内存空间，这些内存并不是真正存在的物理内存，而是虚拟内存：
   
-  ![heap-before-go-1-10](https://img.draveness.me/2020-10-19-16031147347484/heap-before-go-1-10.png) ([View Highlight](https://read.readwise.io/read/01g9cm98qb78b3fstx78x1kch5)) #Highlight #[[2022-08-01]]
+  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/Ei9dsqLwPyQhncr.png) ([View Highlight](https://read.readwise.io/read/01g9cm98qb78b3fstx78x1kch5)) #Highlight #[[2022-08-01]]
 - •   `spans` 区域存储了指向内存管理单元 [`runtime.mspan`](https://draveness.me/golang/tree/runtime.mspan) 的指针，每个内存单元会管理几页的内存空间，每页大小为 8KB；
   •   `bitmap` 用于标识 `arena` 区域中的那些地址保存了对象，位图中的每个字节都会表示堆区中的 32 字节是否空闲；
   •   `arena` 区域是真正的堆区，运行时会将 8KB 看做一页，这些内存页中存储了所有在堆上初始化的对象； ([View Highlight](https://read.readwise.io/read/01g9cmbz9bw8a7samz1ptfatyg)) #Highlight #[[2022-08-01]]
