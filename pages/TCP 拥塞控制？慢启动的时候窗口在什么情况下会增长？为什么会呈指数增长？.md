@@ -1,14 +1,9 @@
 - #CruelFundamental #[[2022-08-09]] #计算机网络 #TCP
-- 拥塞控制是一个网络全局的概念，担心的是网络拥堵造成包丢失而需要不停的重传。
-- 默认情况下 Linux 用的是基于丢包的拥塞控制算法。
-  
-  在不引入拥塞控制时，只存在接收窗口 rwnd 和发送窗口 swnd（swnd 随 rwnd 变化而变化）。而引入了拥塞控制后增加了一个拥塞窗口，swnd 被计算为 cwnd 与 rwnd 的最小值。
-  
-  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/Ns9plHFoUZVb54q.png) 
-  
-  拥塞控制主要由四个算法组成：慢启动（Slow Start）、拥塞避免（Congestion voidance）、快速重传 （Fast Retransmit）、快速恢复（Fast Recovery）
-  
-  **慢启动**：初始的 cwnd 大小（IW，Initial Window ）在现代 Linux 系统中默认为 10MSS，每当发送成功便将之翻倍，称为指数增长。
+- 拥塞控制是一个网络全局的概念，担心的是网络拥堵造成包丢失而需要不停的重传。默认情况下 Linux 用的是基于丢包的拥塞控制算法。
+- 在不引入拥塞控制时，只存在接收窗口 rwnd 和发送窗口 swnd（swnd 随 rwnd 变化而变化）。而引入了拥塞控制后增加了一个拥塞窗口，swnd 被计算为 cwnd 与 rwnd 的最小值。
+- ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/Ns9plHFoUZVb54q.png)
+- 拥塞控制主要由四个算法组成：慢启动（Slow Start）、拥塞避免（Congestion voidance）、快速重传 （Fast Retransmit）、快速恢复（Fast Recovery）
+- **慢启动**：初始的 cwnd 大小（IW，Initial Window ）在现代 Linux 系统中默认为 10MSS，每当发送成功便将之翻倍，称为指数增长。
   
   **拥塞避免**：拥塞避免包括两个部分：加法增大和乘法减小。有一个初始预定义的 ssthresh（Slow Start Thresh 慢启动阈值），当慢启动到 ssthresh 后转为线性增长（具体公式为  `cwnd+= smss*smss/cwnd` ），直到丢包以后又重新恢复至原来的慢启动，并将 ssthresh 修改为拥塞时 cwnd 的一半。
   
