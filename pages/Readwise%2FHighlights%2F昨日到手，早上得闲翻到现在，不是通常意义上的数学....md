@@ -8,5 +8,5 @@ url:: https://twitter.com/syhily/status/1554619723794460672
   
   内容上，适合数学专业的人毕业后系统性地博览数学的发展和脉路。每节后面都有习题，但保留了数学书习题没有答案的传统。完整的索引和参考文献好评。 
   
-  ![](https://pbs.twimg.com/media/FZMeZPEUUAA3tP6.jpg) ([View Tweet](https://twitter.com/syhily/status/1554619723794460672)) #Highlight #[[2022-08-06]]
+  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/uB2PDSwQnMJyE7p.jpg) ([View Tweet](https://twitter.com/syhily/status/1554619723794460672)) #Highlight #[[2022-08-06]]
 - 上一本能让我有如此阅读观感的书是《那些年你没学明白的数学》，但那本书对于知识的串联，远不如这本书一样，让我惊叹。 ([View Tweet](https://twitter.com/syhily/status/1554621214621986816)) #Highlight #[[2022-08-06]]
