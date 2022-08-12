@@ -16,4 +16,8 @@
 		- C = 国家字母缩写，例如中国 CN (Country)
 		- ST = 省份 (State / Province)
 		- L = 城市 (Locality)
-		- O
+		- O = 单位名称 (Organization Name)
+			- 对于 SSL 证书，一般为网站域名
+			- 对于代码签名证书则为申请单位名称
+			- 对于客户端单位证书则为证书申请者所在单位名称
+		-
