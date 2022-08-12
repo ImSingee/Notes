@@ -7,7 +7,7 @@
 	  openssl genrsa -out ca.key 4096
 	  
 	  # 证书
-	  export CERT_SUBJECT="/C=CN/ST=Shanghai/L=Shanghai/O=Tophant/OU=Tophant/CN=ARS"
+	  export CERT_SUBJECT="/C=CN/ST=Shanghai/L=Shanghai/O=Corp/CN=ProductName"
 	  openssl req -new -x509 -days 3650 -key ca.key -out ca.crt -subj "$CERT_SUBJECT"
 	  
 	  
@@ -24,3 +24,4 @@
 			- 对于 SSL 证书，一般为网站域名
 			- 对于代码签名证书则为申请单位名称
 			- 对于客户端证书则为证书申请者的姓名
+		- OU = 其他内容
