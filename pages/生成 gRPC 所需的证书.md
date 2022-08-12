@@ -3,4 +3,6 @@
 -
 - ## 生成 CA
 	- ```bash
+	  export CAROOT=`pwd`
+	  
 	  ```
