@@ -3,6 +3,10 @@
 -
 - ## 生成 CA
 	- ```bash
-	  export CAROOT=`pwd`
+	  # 私钥
+	  openssl genrsa -out ca.key 4096
+	  
+	  # 证书
+	  
 	  
 	  ```
