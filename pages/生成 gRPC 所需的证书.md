@@ -13,5 +13,7 @@
 	  
 	  ```
 	- 需修改上述脚本中的 CERT_SUBJECT 环境变量
-		- C = 国家字母缩写，例如中国 CN
-		- ST
+		- C = 国家字母缩写，例如中国 CN (Country)
+		- ST = 省份 (State / Province)
+		- L = 城市 (Locality)
+		- O
