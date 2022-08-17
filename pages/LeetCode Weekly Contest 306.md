@@ -1,11 +1,6 @@
 - #Algorithm #2022 #Week-34 #Leetcode-Weekly-Contest #[[2022-08-14]] [US](https://leetcode.com/contest/weekly-contest-306/) [CN](https://leetcode.cn/contest/weekly-contest-306/)
 -
 - 比赛结果
-	- 5484 / 25939
-	- 12 1:10:17
--
-- [[算术三元组的数目]]
-- [[受限条件下可到达节点的数目]]
-- [[检查数组是否存在有效划分]]
-- [[最长理想子序列]]
--
+	- 4997 / 24853
+	- 12 0:59:39
+- [[矩阵中的局部最大值]]
