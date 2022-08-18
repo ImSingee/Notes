@@ -725,6 +725,9 @@
  {:block/name "2022-08-17",
   :block/created-at 1660665640676,
   :block/updated-at 1660707531971}
+ {:block/name "2022-08-18",
+  :block/created-at 1660752041023,
+  :block/updated-at 1660801011939}
  {:block/name "2022-09 周报",
   :block/created-at 1647048445911,
   :block/updated-at 1647409968852}
@@ -914,6 +917,9 @@
  {:block/name "all set",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
+ {:block/name "and prevention",
+  :block/created-at 1660722112005,
+  :block/updated-at 1660722112005}
  {:block/name "answer",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
@@ -1046,6 +1052,9 @@
  {:block/name "category",
   :block/created-at 1658983494718,
   :block/updated-at 1658983494718}
+ {:block/name "causes",
+  :block/created-at 1660722112005,
+  :block/updated-at 1660722112005}
  {:block/name "cfs",
   :block/created-at 1660562229690,
   :block/updated-at 1660562229690}
@@ -1091,6 +1100,9 @@
  {:block/name "commend",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
+ {:block/name "commoncog",
+  :block/created-at 1660722112003,
+  :block/updated-at 1660722112003}
  {:block/name "confess",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
@@ -1544,6 +1556,9 @@
  {:block/name "jogendra.dev",
   :block/created-at 1657375513196,
   :block/updated-at 1657375513196}
+ {:block/name "joshwcomeau.com",
+  :block/created-at 1660722113261,
+  :block/updated-at 1660722113261}
  {:block/name "journal 模板",
   :block/created-at 1659199143869,
   :block/updated-at 1659320385586}
@@ -2016,6 +2031,9 @@
  {:block/name "mit-public-courses-cn-translatio.gitbook.io",
   :block/created-at 1657375510912,
   :block/updated-at 1657375510912}
+ {:block/name "modb.pro",
+  :block/created-at 1660790507299,
+  :block/updated-at 1660790507299}
  {:block/name "mongodb",
   :block/created-at 1645524220079,
   :block/updated-at 1645524220079}
@@ -2825,6 +2843,9 @@
   "readwise/highlights/how to build a text editor like notion",
   :block/created-at 1657375512079,
   :block/updated-at 1657375512079}
+ {:block/name "readwise/highlights/how to learn stuff quickly",
+  :block/created-at 1660722113314,
+  :block/updated-at 1660722114129}
  {:block/name "readwise/highlights/http:",
   :block/created-at 1657375513273,
   :block/updated-at 1657375513273}
@@ -3007,6 +3028,10 @@
   :block/created-at 1657375512845,
   :block/updated-at 1657375512845}
  {:block/name
+  "readwise/highlights/the ultimate burnout guide: symptoms, causes, and prevention",
+  :block/created-at 1660722110498,
+  :block/updated-at 1660722112029}
+ {:block/name
   "readwise/highlights/the whitespace gotcha • css for javascript developers",
   :block/created-at 1657375512857,
   :block/updated-at 1657375512857}
@@ -3110,6 +3135,9 @@
   "readwise/highlights/which path are you on? | master internet marketing with loretta",
   :block/created-at 1657375513163,
   :block/updated-at 1657375513163}
+ {:block/name "readwise/highlights/why react re-renders",
+  :block/created-at 1660722112237,
+  :block/updated-at 1660722113265}
  {:block/name
   "readwise/highlights/wide column stores - db-engines encyclopedia",
   :block/created-at 1657375513174,
@@ -3491,6 +3519,9 @@
  {:block/name "readwise/highlights/第一章：可靠性、可伸缩性和可维护性",
   :block/created-at 1659415228093,
   :block/updated-at 1659415228955}
+ {:block/name "readwise/highlights/系统设计题面试八股文背诵版 - 墨天轮",
+  :block/created-at 1660790505694,
+  :block/updated-at 1660790507305}
  {:block/name "readwise/highlights/终于知道 pdd 为何能火起来了 - v2ex",
   :block/created-at 1657375514761,
   :block/updated-at 1657375514761}
@@ -3845,6 +3876,9 @@
  {:block/name "tailwind",
   :block/created-at 1645524220081,
   :block/updated-at 1645524220081}
+ {:block/name "tailwind + nextjs 前端项目启动",
+  :block/created-at 1660717295429,
+  :block/updated-at 1660717817179}
  {:block/name "take care of",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
@@ -3887,6 +3921,9 @@
  {:block/name "the google file system （三）： 多写几次也没关系 - 大数据经典论文解读",
   :block/created-at 1659352637788,
   :block/updated-at 1659352637788}
+ {:block/name "the ultimate burnout guide: symptoms",
+  :block/created-at 1660722112004,
+  :block/updated-at 1660722112004}
  {:block/name "tim urban",
   :block/created-at 1657375514342,
   :block/updated-at 1657375514342}
@@ -5047,6 +5084,9 @@
  {:block/name "用 c 语言理解 linux 软件库",
   :block/created-at 1657375514569,
   :block/updated-at 1657375514569}
+ {:block/name "用你熟悉的语言实现生产者消费者问题",
+  :block/created-at 1660801011939,
+  :block/updated-at 1660801011939}
  {:block/name "用得上的哲学",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
