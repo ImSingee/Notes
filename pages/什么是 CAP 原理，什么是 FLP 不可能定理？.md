@@ -1,0 +1,2 @@
+- #CruelFundamental #[[2022-08-25]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202208/25)
+-
