@@ -1,4 +1,4 @@
 - #CruelFundamental #[[2022-08-25]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202208/25) #分布式 #ZooKeeper
 -
-- 原子广播是 [[ZooKeeper]] 使用的协议
-	-
+- 原子广播协议是 [[ZooKeeper]] 使用的协议
+	- [[Paxos]] 算法有点过于复杂、实现难度也比较高，所以 ZooKeeper 在编程实现的时候将其简化成了一种叫做 [[ZAB]] 的算法（Zookeeper Atomic Broadcast， Zookeeper 原子广播）。
