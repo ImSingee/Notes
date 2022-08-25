@@ -1,4 +1,4 @@
-- #CruelFundamental #[[2022-08-23]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202208/23)
+- #CruelFundamental #[[2022-08-23]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202208/23) #ZooKeeper
 -
 - 一个分布式共识服务，提供了基于 ZAB 协议（Paxos 算法实现）的分布式 KV 数据库
 -

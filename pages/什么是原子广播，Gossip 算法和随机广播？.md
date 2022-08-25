@@ -1,3 +1,4 @@
-- #CruelFundamental #[[2022-08-25]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202208/25)
+- #CruelFundamental #[[2022-08-25]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202208/25) #分布式 #ZooKeeper
 -
-- 原子广播是 [[Zookeeper]] 使用的协议
+- 原子广播是 [[ZooKeeper]] 使用的协议
+	-
