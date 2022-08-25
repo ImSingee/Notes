@@ -1,7 +1,8 @@
 - #CruelFundamental #[[2022-08-27]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202208/27) #分布式 #CAP
 -
 - CAP
-	- C - 一致性
+	- C - 一致性（特指强一致性，或被称为线性一致性）
+		- 每次读取的数据都应该是最近写入的数据或者返回一个错误
 	- A - 可用性
 	- P - 分区容错性
 	- CAP 定理属于分布式领域，而分区故障在分布式场景下一定会发生 —— 分布式下必须保证 P
