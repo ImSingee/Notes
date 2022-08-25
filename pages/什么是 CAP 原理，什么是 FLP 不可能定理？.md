@@ -1,5 +1,7 @@
-- #CruelFundamental #[[2022-08-27]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202208/27)
+- #CruelFundamental #[[2022-08-27]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202208/27) #分布式 #CAP
 -
 - CAP
-	- C - 可用性
+	- C - 一致性
+	- A - 可用性
+	- P - 分区容错性
 	-
