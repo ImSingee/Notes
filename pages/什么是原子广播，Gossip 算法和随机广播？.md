@@ -7,4 +7,7 @@
 	- ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/25/VPuzpWXig2vrsBJ.png)
 	- 如果所有 Follower 服务器都回复 Leader 服务器 ACK，即没有问题，那么 Leader 服务器会向所有 Follower 发送 Commit 命令，要求所有服务器完成写操作。这样包括 Leader 服务器在内的所有 ZooKeeper 集群服务器的数据，就都更新并保持一致了。如果有两个客户端程序同时请求修改同一个数据，因为必须要经过 Leader 的审核，而 Leader 只接受其中一个请求，数据也会保持一致。
 - [[Gossip 协议]]
-	- Cassandra
+	- Cassandra 的主要算法
+	- 在一个**有界网络**中，每个节点都**随机**地与其他节点通信，经过一番杂乱无章的通信，**最终**所有节点的状态都会达成一致。
+	- 每个节点可能知道所有其他节点，也可能仅知道几个邻居节点，只要这些节可以通过网络连通，最终他们的状态都是一致的。
+	-
