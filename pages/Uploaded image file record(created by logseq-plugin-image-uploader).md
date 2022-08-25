@@ -75,3 +75,4 @@
 	- ../assets/image_1660023587294_0.png
 	- ../assets/image_1660049439561_0.png
 	- ../assets/image_1661409347735_0.png
+	- ../assets/image_1661410454437_0.png
