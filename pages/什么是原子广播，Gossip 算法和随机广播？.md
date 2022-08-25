@@ -2,3 +2,6 @@
 -
 - 原子广播协议是 [[ZooKeeper]] 使用的协议
 	- [[Paxos]] 算法有点过于复杂、实现难度也比较高，所以 ZooKeeper 在编程实现的时候将其简化成了一种叫做 [[ZAB]] 的算法（Zookeeper Atomic Broadcast， Zookeeper 原子广播）。
+	- ZAB 算法的目的，同样是在多台服务器之间达成一致，保证这些服务器上存储的数据是一致的。
+	- ZAB 算法的主要特点在于：**需要在这些服务器中选举一个 Leader**（与之相比，Paxos 是没有 leader 的），**所有的写请求都必须提交给 Leader**。由 Leader 服务器向其他服务器（Follower）发起 Propose，通知所有服务器：我们要完成一个写操作请求，大家检查自己的数据状态，是否有问题。
+-
