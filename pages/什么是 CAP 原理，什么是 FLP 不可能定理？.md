@@ -1,2 +1,5 @@
 - #CruelFundamental #[[2022-08-27]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202208/27)
 -
+- CAP
+	- C - 可用性
+	-
