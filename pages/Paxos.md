@@ -1,2 +1,2 @@
-- ![image.png](../assets/image_1661409347735_0.png)
+- ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/25/eUYoROSJ3QruMc4.png)
 -
