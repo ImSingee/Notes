@@ -1,2 +1,6 @@
-- #CruelFundamental #[[2022-08-17]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202208/17)
+- #CruelFundamental #[[2022-08-17]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202208/17) #MySQL
 -
+- B 树：树节点数 = 存储的数据数；任一数据存在且只存在于一个树节点中；树中的每一节点都可以且一定存储数据
+- B+ 树：树节点数 > 存储的数据数，树叶子节点数 = 存储的数据数；数据只存在于叶节点中、非叶节点不存储最终数据；叶节点中额外包含了指向父节点父节点的一端叶节点的指针
+  
+  B+ 树相比于 B 树可以更简单的完成全表扫描，且支持范围查找
