@@ -64,3 +64,4 @@ category:: #books
   
   来源：https://dedao.cn ([View Highlight](https://flomoapp.com/mine/?memo_id=MzY5NDg2ODA)) #Highlight #[[2022-08-31]]
 - 压力大的时候，身体的压力激素（皮质醇激素）分泌会增加，会提高你的食欲，让你更想吃甜食或者高热量的食物 ([View Highlight](https://flomoapp.com/mine/?memo_id=MzcwMDg1MDg)) #Highlight #[[2022-09-01]]
+- 面试不应该是准备好了才去，而是时刻都准备好了。 ([View Highlight](https://flomoapp.com/mine/?memo_id=MzcxNjQxODI)) #Highlight #[[2022-09-02]]
