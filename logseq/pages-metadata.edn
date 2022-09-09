@@ -797,6 +797,9 @@
  {:block/name "2022-09-08",
   :block/created-at 1662566665265,
   :block/updated-at 1662566665265}
+ {:block/name "2022-09-09",
+  :block/created-at 1662652833212,
+  :block/updated-at 1662652833212}
  {:block/name "2022-22 周报",
   :block/created-at 1653839136298,
   :block/updated-at 1653843319366}
@@ -2262,6 +2265,12 @@
  {:block/name "paxos",
   :block/created-at 1661407932916,
   :block/updated-at 1661407932916}
+ {:block/name "paxos算法（一）：如何在多个节点间确定某变量的值？ - 分布式协议与算法实战",
+  :block/created-at 1662624873376,
+  :block/updated-at 1662624873376}
+ {:block/name "paxos算法（二）：multi-paxos不是一个算法",
+  :block/created-at 1662637407810,
+  :block/updated-at 1662637407810}
  {:block/name "permanent",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
@@ -2328,6 +2337,12 @@
  {:block/name "quiz",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "raft算法（一）：如何选举领导者？ - 分布式协议与算法实战",
+  :block/created-at 1662637408590,
+  :block/updated-at 1662637408590}
+ {:block/name "raft算法（二）：如何复制日志？ - 分布式协议与算法实战",
+  :block/created-at 1662637409796,
+  :block/updated-at 1662637409796}
  {:block/name "raindrop",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
@@ -2451,6 +2466,10 @@
   :block/created-at 1659870170992,
   :block/updated-at 1659870170992}
  {:block/name
+  "readwise/highlights/05 | paxos算法（一）：如何在多个节点间确定某变量的值？ - 分布式协议与算法实战",
+  :block/created-at 1662624872250,
+  :block/updated-at 1662624873382}
+ {:block/name
   "readwise/highlights/05 | the google file system （三）： 多写几次也没关系 - 大数据经典论文解读",
   :block/created-at 1659352636805,
   :block/updated-at 1659352637792}
@@ -2472,6 +2491,10 @@
   "readwise/highlights/06 | mapreduce（一）：源起unix的设计思想 - 大数据经典论文解读",
   :block/created-at 1659352637943,
   :block/updated-at 1659352639613}
+ {:block/name
+  "readwise/highlights/06 | paxos算法（二）：multi-paxos不是一个算法，而是统称 - 分布式协议与算法实战",
+  :block/created-at 1662637406599,
+  :block/updated-at 1662637407817}
  {:block/name
   "readwise/highlights/06 | 从ziplist到quicklist，再到listpack的启发 - redis源码剖析与实战",
   :block/created-at 1659870171590,
@@ -2503,6 +2526,10 @@
   "readwise/highlights/07 | nio：手撸一个简易的主从多reactor线程模型 - 中间件核心技术与实战",
   :block/created-at 1659870171926,
   :block/updated-at 1659870171926}
+ {:block/name
+  "readwise/highlights/07 | raft算法（一）：如何选举领导者？ - 分布式协议与算法实战",
+  :block/created-at 1662637407958,
+  :block/updated-at 1662637408593}
  {:block/name "readwise/highlights/07 | what? 还有本地套接字？",
   :block/created-at 1657375510891,
   :block/updated-at 1657375510891}
@@ -2525,6 +2552,10 @@
   "readwise/highlights/08 | netty：如何优雅地处理网络读写，制定网络通信协议？ - 中间件核心技术与实战",
   :block/created-at 1659870172158,
   :block/updated-at 1659870172158}
+ {:block/name
+  "readwise/highlights/08 | raft算法（二）：如何复制日志？ - 分布式协议与算法实战",
+  :block/created-at 1662637408635,
+  :block/updated-at 1662637409803}
  {:block/name
   "readwise/highlights/08 | 一个几乎每个系统必踩的坑儿：访问数据库超时 - 后端存储实战课",
   :block/created-at 1659925375364,
@@ -5546,6 +5577,9 @@
  {:block/name "而是快乐",
   :block/created-at 1657375515063,
   :block/updated-at 1657375515063}
+ {:block/name "而是统称 - 分布式协议与算法实战",
+  :block/created-at 1662637407811,
+  :block/updated-at 1662637407811}
  {:block/name "聊聊kafka的版本号 - kafka核心技术与实战",
   :block/created-at 1659870171230,
   :block/updated-at 1659870171230}
@@ -5756,6 +5790,9 @@
  {:block/name "非对称加密",
   :block/created-at 1659938698785,
   :block/updated-at 1659938698785}
+ {:block/name "韩健",
+  :block/created-at 1662624873375,
+  :block/updated-at 1662624873375}
  {:block/name "高尔吉亚",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
