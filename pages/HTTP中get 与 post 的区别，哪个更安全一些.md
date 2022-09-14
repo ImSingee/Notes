@@ -1,4 +1,6 @@
 - #CruelFundamental #[[2022-09-14]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202209/14)
 -
 - 原理上：没区别
-- 事实上：POST 使用 body 传递一些不便
+- 事实上：POST 使用 body 传递一些不便在地址栏展示的内容
+-
+- 所谓安全，站在协议角度一样不安全；站在浏览器历史角度
