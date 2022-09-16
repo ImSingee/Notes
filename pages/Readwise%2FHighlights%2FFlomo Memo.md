@@ -110,3 +110,5 @@ category:: #books
   
   曾经一个 Tik Tok 网红小哥说过一句话。如果你想在 Tik Tok 上成功，至少具备这三种素质之一：智慧、美貌或幽默。如果占了两条，你会非常红，如果三者兼具，你将是无敌的存在。而我觉得，幽默是更难得的素质。能讲个好故事就已经了不起，如果能以幽默的方式讲述，无论是在网上还是线下，人们都将爱上你。 ([View Highlight](https://flomoapp.com/mine/?memo_id=MzgxOTgxNTY)) #Highlight #[[2022-09-12]]
 - 放下助人情节，尊重他人命运 ([View Highlight](https://flomoapp.com/mine/?memo_id=MzgyMTUyNTA)) #Highlight #[[2022-09-12]]
+- 文案只是文案 爱你的人自然会用他的方式来爱你 遇见不容易 好好在一起 祝有爱者更有爱无爱者自由 ([View Highlight](https://flomoapp.com/mine/?memo_id=Mzg3MjQ3MzU)) #Highlight #[[2022-09-16]]
+- 每个人都有分享欲 每天都会说好多好多事 如果没跟你分享 那就是跟别人分享了 ([View Highlight](https://flomoapp.com/mine/?memo_id=Mzg3MzAxNDU)) #Highlight #[[2022-09-17]]
