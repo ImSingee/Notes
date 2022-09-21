@@ -7,5 +7,8 @@
 		- `()` 包裹的 List 列表 `(3.14 :foo [:bar :baz])` ,  `(+ 1 2 3 4)`
 		- Instants `#inst "2013-02-26"`
 		- 符号 `max` ,  `+` ,  `?title`
-	-
+	- 查询规则
+		- 是一个 Vector
+		- 以 Keyword `:find` 开头
+		- 后接一个或多个 Symbol
 		-
