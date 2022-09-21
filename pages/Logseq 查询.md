@@ -15,7 +15,7 @@
 		- 后接一个 Vector 代表限制条件
 	- Pattern Match 规则
 		- Datomic 中一条数据的格式是固定的，由四部分组成
-			- ```
-			  <e-id>  <attribute>      <value>          <tx-id>
-			  ```
-		-
+			- `<e-id>` Entity ID
+			- `<attribute>` 属性名
+			- `<value>` 属性值
+			- `<tx-id>` Transaction ID
