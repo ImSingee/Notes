@@ -27,5 +27,15 @@
 				- 不允许 0 元素是因为不允许做全表扫描
 				- 可以 1-3 元素是因为 `?e ?p` 等同于 `?e ?p _ _` 即会自动补充通配符
 			- 示例
-				- ```
+				- ```datalog
+				  # Find the entity ids of movies made in 1987
+				  [:find ?e
+				   :where
+				   [?e :movie/year 1987]]
+				  
+				  # Find the entity-id and titles of movies in the database
+				  [:find ?e ?title
+				   :where
+				   [?e _ ?title]]
+				  
 				  ```
