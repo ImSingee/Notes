@@ -12,10 +12,12 @@
 		- 以 Keyword `:find` 开头
 		- 后接一个或多个 pattern variable （以 `?` 开头的 Symbol）
 		- 接 Keyword `:where`
-		- 后接一个 Vector 代表限制条件
+		- 后接一个 Vector 代表 pattern match
 	- Pattern Match 规则
 		- Datomic 中一条数据的格式是固定的，由四部分组成
 			- `<e-id>` Entity ID
 			- `<attribute>` 属性名
 			- `<value>` 属性值
 			- `<tx-id>` Transaction ID
+		- 同一 Entity ID 的多条数据相当于合并了属性
+		-
