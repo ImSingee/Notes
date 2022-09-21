@@ -1,8 +1,10 @@
 - # Datomic & Datalog
 	- 查询语法使用 [EDN](http://edn-format.org/)
-		- `:` 开头关键字 Keyword
-		- 字符串
+		- `:` 开头关键字 Keyword `:kw` ,  `:namespaced/keyword` ,  `:foo.bar/baz`
+		- 字符串 `"This is a string"`
 		- 数字
 		- `[]` 包裹的 Vector 向量
 		- `()` 包裹的 List 列表
+		- Instants `#inst "2013-02-26"`
+		- 符号 `max` ,  `+` ,  `?title`
 		-
