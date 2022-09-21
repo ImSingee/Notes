@@ -2,9 +2,9 @@
 	- 查询语法使用 [EDN](http://edn-format.org/)
 		- `:` 开头关键字 Keyword `:kw` ,  `:namespaced/keyword` ,  `:foo.bar/baz`
 		- 字符串 `"This is a string"`
-		- 数字
-		- `[]` 包裹的 Vector 向量
-		- `()` 包裹的 List 列表
+		- 数字 `42` ,  `3.14159`
+		- `[]` 包裹的 Vector 向量 `[1 2 3]`   `[:find ?foo ...]`
+		- `()` 包裹的 List 列表 `(3.14 :foo [:bar :baz])` ,  `(+ 1 2 3 4)`
 		- Instants `#inst "2013-02-26"`
 		- 符号 `max` ,  `+` ,  `?title`
 		-
