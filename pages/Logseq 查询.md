@@ -38,6 +38,8 @@
 				   :where
 				   [?e _ ?title]]
 				  
-				  
-				  
+				  # Find the name of all people in the database
+				  [:find ?name
+				   :where
+				   [_ :person/name ?name]]
 				  ```
