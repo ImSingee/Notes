@@ -10,5 +10,7 @@
 	- 查询规则
 		- 是一个 Vector
 		- 以 Keyword `:find` 开头
-		- 后接一个或多个 Symbol
+		- 后接一个或多个 pattern variable （以 `?` 开头的 Symbol）
+		- 接 Keyword `:where`
+		-
 		-
