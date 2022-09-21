@@ -21,4 +21,5 @@
 			- `<tx-id>` Transaction ID
 		- 同一 Entity ID 的多条数据相当于合并了属性
 		- Pattern Match 时会依次进行这四个元素的匹配，并忽略最后的字段；如果想做通配可以使用符号 `_`
-		-
+			- 因此 Pattern Match Vector 中接收的是 1-4 个元素
+				- 不允许 0 元素是因为不允许做
