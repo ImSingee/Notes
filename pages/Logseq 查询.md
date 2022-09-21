@@ -12,5 +12,5 @@
 		- 以 Keyword `:find` 开头
 		- 后接一个或多个 pattern variable （以 `?` 开头的 Symbol）
 		- 接 Keyword `:where`
-		-
+		- 后接一个 Vector 代表限制条件
 		-
