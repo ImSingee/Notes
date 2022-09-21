@@ -13,7 +13,7 @@
 		- 以 Keyword `:find` 开头
 		- 后接一个或多个 pattern variable （以 `?` 开头的 Symbol）
 		- 接 Keyword `:where`
-		- 后接一个 Vector 代表 pattern match
+		- 后接一个 Vector 代表 data patterns
 	- Pattern Match 规则
 		- Datomic 中一条数据的格式是固定的，由四部分组成
 			- `<e-id>` Entity ID
@@ -21,7 +21,7 @@
 			- `<value>` 属性值
 			- `<tx-id>` Transaction ID
 		- 同一 Entity ID 的多条数据相当于合并了属性
-		- Pattern Match 时会依次进行这四个元素的匹配，并忽略最后的字段；如果想做通配可以使用符号 `_`
+		- Pattern Match 时会依次对进行这四个元素的匹配，并忽略最后的字段；如果想做通配可以使用符号 `_`
 			- 使用 `?` 开头的符号代表绑定元素到值
 			- 使用相关值代表进行相等匹配
 			- 因此 Pattern Match Vector 中接收的是 1-4 个元素
