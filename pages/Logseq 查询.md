@@ -1,4 +1,5 @@
 - # Datomic & Datalog
+	- > [Learn Datalog Today](http://www.learndatalogtoday.org/)
 	- 查询语法使用 [EDN](http://edn-format.org/)
 		- `:` 开头关键字 Keyword `:kw` ,  `:namespaced/keyword` ,  `:foo.bar/baz`
 		- 字符串 `"This is a string"`
