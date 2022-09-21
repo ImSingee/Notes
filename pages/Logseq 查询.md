@@ -13,4 +13,9 @@
 		- 后接一个或多个 pattern variable （以 `?` 开头的 Symbol）
 		- 接 Keyword `:where`
 		- 后接一个 Vector 代表限制条件
+	- Pattern Match 规则
+		- Datomic 中一条数据的格式是固定的，由四部分组成
+			- ```
+			  <e-id>  <attribute>      <value>          <tx-id>
+			  ```
 		-
