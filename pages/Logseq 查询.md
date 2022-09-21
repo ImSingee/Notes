@@ -1,3 +1,8 @@
 - # Datomic & Datalog
 	- 查询语法使用 [EDN](http://edn-format.org/)
-		- `:` k
+		- `:` 开头关键字 Keyword
+		- 字符串
+		- 数字
+		- `[]` 包裹的 Vector 向量
+		- `()` 包裹的 List 列表
+		-
