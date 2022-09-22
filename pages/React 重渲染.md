@@ -1,7 +1,7 @@
 - #前端 #React
 -
 - ## 重新渲染的时机
-	- props / state / context/ reduce 改变
+	- props / state  (context/ reduce) 改变
 	- 一旦触发重新渲染，所有的子组件都会重新渲染（无论子组件的 props 是否变化）
 		- 可以使用 [React.memo](https://reactjs.org/docs/react-api.html#reactmemo) 来避免子组件的 props 未变化时的重渲染
 			- React.memo 会在仅上层 props 改变时忽略渲染
