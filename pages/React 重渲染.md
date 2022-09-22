@@ -3,6 +3,7 @@
 - ## 重新渲染的时机
 	- props / state  (含 context/ reduce) 改变
 	- 一旦触发重新渲染，所有的子组件都会重新渲染（无论子组件的 props 是否变化）
+		- When a component re-renders, it tries to re-render all descendants, regardless of whether they're being passed a particular state variable through props or not.
 		- 可以使用 [React.memo](https://reactjs.org/docs/react-api.html#reactmemo) 来避免子组件的 props 未变化时的重渲染
 			- React.memo 会在仅上层 props 改变时忽略渲染
 				- `React.memo`  only checks for prop changes. If your function component wrapped in  `React.memo`  has a [ `useState` ](https://reactjs.org/docs/hooks-state.html), [ `useReducer` ](https://reactjs.org/docs/hooks-reference.html#usereducer) or [ `useContext` ](https://reactjs.org/docs/hooks-reference.html#usecontext) Hook in its implementation, it will still rerender when state or context change.
