@@ -28,7 +28,7 @@
 	    );
 	  };
 	  ```
-- ## useAsync
+- ## 异步获取数据
 	- ```js
 	  
 	  import { useState } from 'react';
@@ -81,4 +81,5 @@
 	    );
 	  }
 	  ```
-	- 更建议：React Query
+	- 更建议：[React Query](https://react-query-v3.tanstack.com/)
+		- 原因可参考
