@@ -5,8 +5,9 @@
 	- 一旦触发重新渲染，所有的子组件都会重新渲染（无论子组件的 props 是否变化）
 		- 可以使用 [React.memo](https://reactjs.org/docs/react-api.html#reactmemo) 来避免子组件的 props 未变化时的重渲染
 			- React.memo 会在仅上层 props 改变时忽略渲染
-			- 绝大多数情况下无需使用，特别是 props 包含大对象时，可能做比较性能更差
-				- This method only exists as a **[performance optimization](https://reactjs.org/docs/optimizing-performance.html).** Do not rely on it to “prevent” a render, as this can lead to bugs.
 				-
+			- 绝大多数情况下无需使用，特别是对于一些简单组件，可能做比较和存储性能更差
+				- This method only exists as a **[performance optimization](https://reactjs.org/docs/optimizing-performance.html).** Do not rely on it to “prevent” a render, as this can lead to bugs.
+				- By default it will only shallowly compare complex objects in the props object. If you want control over the comparison, you can also provide a custom comparison function as the second argument.
 - # 参考
 	- [Why React Re-Renders](https://www.joshwcomeau.com/react/why-react-re-renders/)
