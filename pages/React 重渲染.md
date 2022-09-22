@@ -3,6 +3,6 @@
 - ## 重新渲染的时机
 	- State 或 Props 改变
 	- 一旦触发重新渲染，所有的子组件都会重新渲染（无论子组件的 props/state 是否变化）
-		- 可以使用 `React.memo` `useMemo` 来避免子组件的 props 未变化时的重渲染
+		- 可以使用 `React.memo` 来避免子组件的 props 未变化时的重渲染
 - # 参考
 	- [Why React Re-Renders](https://www.joshwcomeau.com/react/why-react-re-renders/)
