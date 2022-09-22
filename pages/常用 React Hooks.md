@@ -81,6 +81,6 @@
 	    );
 	  }
 	  ```
-	- 更建议：[React Query](https://react-query-v3.tanstack.com/)
-		- [为什么你不应该在 React 中直接使用 useEffect 从 API 获取数据](https://blog.skk.moe/post/why-you-should-not-fetch-data-directly-in-use-effect/)
-		-
+	- 更建议：[[React Query]]
+-
+-
