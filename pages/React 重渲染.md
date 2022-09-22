@@ -1,2 +1,4 @@
 - #前端 #React
 -
+- # 参考
+	- [Why React Re-Renders](https://www.joshwcomeau.com/react/why-react-re-renders/)
