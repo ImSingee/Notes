@@ -81,6 +81,7 @@
 	    );
 	  }
 	  ```
+	- 第三方实现 [useAsync](https://github.com/streamich/react-use/blob/master/docs/useAsync.md) [useAsyncFn](https://github.com/streamich/react-use/blob/master/docs/useAsyncFn.md)
 	- 更建议：[[React Query]]
 - ## 监听滚动条
 	- ```js
