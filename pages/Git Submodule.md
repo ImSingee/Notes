@@ -1,0 +1,15 @@
+-
+- https://git-scm.com/docs/git-submodule
+- 初次 clone
+	- `git clone --recurse-submodules  xxx`
+	- 或普通 clone 后执行 `git submodule update --init --recursive`
+		- `--init` 为初始化本地 submodule 映射（等同于 `git submodule init`）
+		- `--recursive` 为递归拉取 submodule 的 submodule
+		- `update` 为将本地的 submodule 内容更新
+- 后续 pull
+	- `git pull --recurse-submodules`
+	- 或普通 pull 后执行 `git submodule update --init --recursive`
+		- 这里也加上 `init` 和 `recursive` 主要是为了处理本次更新新增了 submodule 的情况
+	- 如果上游的 submodule 引用地址变更，则 update 可能会失败（同时 `pull --recurse-submodules` 也会失败），因为 update 的过程不会去更新上游仓库的链接（即使加了 `--init`，也只会创建未存在的新仓库而不会更新已有仓库的链接），如果原仓库已经不存在了或使用了原仓库不存在的 commit，则会导致 update 报错
+		- 解决方案：普通的 `git pull` + `git submodule sync` + `git submodule update --init --recursive`
+	-
