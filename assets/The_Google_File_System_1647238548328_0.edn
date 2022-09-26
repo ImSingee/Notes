@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7a699264a02d33c339c4c1d5b7f37f4e49b26c1db0270b7918df4d2cc5d3e30e
-size 755
+{:highlights [{:id #uuid "622ede45-80b9-4b8f-aae4-6f454d3df6a4", :page 3, :position {:bounding {:x1 443.09375, :y1 700.3125, :x2 777.81787109375, :y2 743.671875, :width 856, :height 1107.764705882353}, :rects ({:x1 455.6875, :y1 700.3125, :x2 777.5427856445312, :y2 714.3125, :width 856, :height 1107.764705882353} {:x1 443.09375, :y1 715.078125, :x2 777.81787109375, :y2 729.078125, :width 856, :height 1107.764705882353} {:x1 443.09375, :y1 729.671875, :x2 682.9849243164062, :y2 743.671875, :width 856, :height 1107.764705882353}), :page 3}, :content {:text "The master stores three major types of metadata: the fileand chun knamespaces, the mapping from files to chun ks,and the locations of each chunk’s replicas"}, :properties {:color "yellow"}}]}
