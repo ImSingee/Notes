@@ -1,0 +1,31 @@
+import{s as h}from"./vendor.838c88d3.js";const y=function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const o of document.querySelectorAll('link[rel="modulepreload"]'))n(o);new MutationObserver(o=>{for(const i of o)if(i.type==="childList")for(const l of i.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&n(l)}).observe(document,{childList:!0,subtree:!0});function r(o){const i={};return o.integrity&&(i.integrity=o.integrity),o.referrerpolicy&&(i.referrerPolicy=o.referrerpolicy),o.crossorigin==="use-credentials"?i.credentials="include":o.crossorigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function n(o){if(o.ep)return;o.ep=!0;const i=r(o);fetch(o.href,i)}};y();const w="logseq-plugin-image-uploader",q="0.0.11",k="dist/index.html",b={dev:"vite",build:"tsc && vite build"},j={"@logseq/libs":"^0.0.1-alpha.33",react:"^17.0.2","react-dom":"^17.0.2",semver:"^7.3.5"},v={"@types/react":"^17.0.33","@types/react-dom":"^17.0.10","@types/semver":"^7.3.9","@vitejs/plugin-react":"1.1.3",typescript:"4.5.4",vite:"2.7.10"},E={id:"_jjaychen-logseq-image-uploader",title:"Image Uploader",icon:"./icon.png"};var I={name:w,version:q,main:k,scripts:b,dependencies:j,devDependencies:v,logseq:E};const U=I.version;async function P(){await fetch("https://api.github.com/repos/jjaychen1e/logseq-plugin-image-uploader/releases/latest").then(t=>t.json()).then(t=>{const e=t.tag_name.replace("v","");h.gt(e,U)&&logseq.App.showMsg(`New version ${e} is available(logseq-plugin-image-uploader).`,"warning")})}const g="Uploaded image file record(created by logseq-plugin-image-uploader)",u="Uploaded image file record - interactive(created by logseq-plugin-image-uploader)";async function c(t){const e=await logseq.Editor.getPageBlocksTree(t.name);return e.length===0?null:e[e.length-1]}async function d(t,e){t.content?await logseq.Editor.insertBlock(t.uuid,e):await logseq.Editor.updateBlock(t.uuid,e)}async function B(){await logseq.Editor.deletePage(g),await logseq.Editor.deletePage(u)}async function p(t){let e=await logseq.Editor.createPage(t,{},{createFirstBlock:!0,redirect:!1});if(e){let r=await c(e);r&&(d(r,"Here I've listed all the not uploaded images."),d(r,`#+BEGIN_QUERY
+{:title "Not uploaded images"
+  :query [:find (pull ?b [*])
+        :where
+        [?b :block/page ?p]
+        [?p :block/name ?page_name]
+        (not [(clojure.string/includes? ?page_name "created by logseq-plugin-image-uploader")])
+        [?b :block/content ?content]
+        (not [(clojure.string/includes? ?content "{:title \\"Not uploaded images\\"")])
+        [(clojure.string/includes? ?content "](../assets")]
+        [(clojure.string/includes? ?content "![")]
+        (or [(clojure.string/includes? ?content ".png)")]
+            [(clojure.string/includes? ?content ".jpg)")]
+            [(clojure.string/includes? ?content ".jpeg)")]
+            [(clojure.string/includes? ?content ".gif)")]
+            [(clojure.string/includes? ?content ".tiff)")]
+            [(clojure.string/includes? ?content ".tif)")]
+            [(clojure.string/includes? ?content ".bmp)")]
+            [(clojure.string/includes? ?content ".svg)")]
+            [(clojure.string/includes? ?content ".webp)")]
+            [(clojure.string/includes? ?content ".PNG)")]
+            [(clojure.string/includes? ?content ".JPG)")]
+            [(clojure.string/includes? ?content ".JPEG)")]
+            [(clojure.string/includes? ?content ".GIF)")]
+            [(clojure.string/includes? ?content ".TIGG)")]
+            [(clojure.string/includes? ?content ".TIF)")]
+            [(clojure.string/includes? ?content ".VMP)")]
+            [(clojure.string/includes? ?content ".SVG)")]
+            [(clojure.string/includes? ?content ".WEBP)")])
+      ]}
+#+END_QUERY`))}return e}async function m(t){let e=await logseq.Editor.getPage(t);return e?await c(e)||(await B(),e=await p(t)):e=await p(t),e}async function R(t){let e=await m(g),r=await m(u);if(e&&r){let n=await c(e),o=await c(r);if(n&&o)d(n,t),d(o,`![Uploaded by Image Uploder](${t})`);else{const i=`Failed to save uploaded image name: ${t}.`;console.error("Error:",i),logseq.App.showMsg(i,"error")}}else{const n="Failed to create uploaded image record page.";console.error("Error:",n),logseq.App.showMsg(n,"error")}}async function F(t){return await fetch("http://localhost:36677/upload",{method:"POST",body:JSON.stringify({list:[t]})}).then(e=>e.text()).then(e=>(console.log("[logseq-plugin-image-uploader]: "+e),JSON.parse(e))).then(e=>{if(e.success)return e.result[0];throw new Error("Upload failed.")}).catch(e=>{console.error("Error:",e),logseq.App.showMsg("Error: "+e.message,"error"),logseq.App.showMsg("Please check if PicGo is running. Check out more details in the developer tool's console.","error")})}const L=[".png",".jpg",".jpeg",".gif",".tiff",".tif",".bmp",".svg",".webp"];async function f(t,e){let r=t.content,n;for(;n=/\!\[.*?\]\((.*?)\)/g.exec(r);){r=r.replace(n[0],"");const o=n[1];if(n[0].startsWith("![Replaced by Image Uploader]")||n[0].startsWith("![Replaced by Image Uploder]")||!L.some(l=>o.toLowerCase().endsWith(l)))continue;let i=logseq.settings?.uploadNetworkImage??!1;if(o.startsWith("../")||i){const l=o.startsWith("../")?e+n[1].replace("../","/"):n[1],a=await F(l);if(a!=""&&a!=null&&a!=null){const s=await logseq.Editor.getBlock(t.uuid);s&&s.content&&(await logseq.Editor.updateBlock(s.uuid,s.content.replace(n[0],`![Replaced by Image Uploader](${a})`)),await R(n[1]))}}}}async function M(){setTimeout(()=>{P()},5e3);const e=(await logseq.App.getCurrentGraph())?.path;if(e)logseq.Editor.registerBlockContextMenuItem("Upload image",async r=>{const n=await logseq.Editor.getBlock(r.uuid);n&&n.content&&f(n,e)}),parent.document.addEventListener("keydown",async r=>{if(!!(logseq.settings?.autoUploading??!0)&&(r.ctrlKey||r.metaKey)&&r.code==="KeyV"){let o=await logseq.Editor.getCurrentBlock();if(o){let i=o.uuid,l=function(){setTimeout(async()=>{let a=await logseq.Editor.checkEditing();if(typeof a=="string"&&a===i)l();else{let s=await logseq.Editor.getBlock(i);s&&s.content&&f(s,e)}},1e3)};l()}}});else{const r="Failed to get graph root path.";console.error("Error:",r),logseq.App.showMsg(r,"error");return}}logseq.ready(M).catch(console.error);
