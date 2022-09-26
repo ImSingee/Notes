@@ -19,9 +19,15 @@
  {:block/name "01｜cisc & risc：从何而来",
   :block/created-at 1659320089367,
   :block/updated-at 1659320089367}
+ {:block/name "01｜如何减少对学习的排斥和厌恶心理",
+  :block/created-at 1664097189362,
+  :block/updated-at 1664097189362}
  {:block/name "02",
   :block/created-at 1657375510802,
   :block/updated-at 1657375510802}
+ {:block/name "02｜学会这 4 点",
+  :block/created-at 1664097189746,
+  :block/updated-at 1664097189746}
  {:block/name "03",
   :block/created-at 1659352636742,
   :block/updated-at 1659352636742}
@@ -31,12 +37,18 @@
  {:block/name "05",
   :block/created-at 1659352637788,
   :block/updated-at 1659352637788}
+ {:block/name "05｜教你全面提升专注力",
+  :block/created-at 1664097191006,
+  :block/updated-at 1664097191006}
  {:block/name "06",
   :block/created-at 1659352634809,
   :block/updated-at 1659352634809}
  {:block/name "07",
   :block/created-at 1657375510874,
   :block/updated-at 1657375510874}
+ {:block/name "07｜我考北大中文系时",
+  :block/created-at 1664158264394,
+  :block/updated-at 1664158264394}
  {:block/name "08",
   :block/created-at 1659870172164,
   :block/updated-at 1659870172164}
@@ -65,18 +77,33 @@
  {:block/name "11",
   :block/created-at 1657375511064,
   :block/updated-at 1657375511064}
+ {:block/name "11｜如何快速完成学习和工作任务",
+  :block/created-at 1664158266127,
+  :block/updated-at 1664158266127}
  {:block/name "12",
   :block/created-at 1657375511092,
   :block/updated-at 1657375511092}
  {:block/name "13",
   :block/created-at 1660247584115,
   :block/updated-at 1660247584115}
+ {:block/name "13｜3 个思路",
+  :block/created-at 1664097191881,
+  :block/updated-at 1664097191881}
  {:block/name "14",
   :block/created-at 1660247585386,
   :block/updated-at 1660247585386}
+ {:block/name "14｜通过选择环境",
+  :block/created-at 1664097192183,
+  :block/updated-at 1664097192183}
  {:block/name "15",
   :block/created-at 1659192224571,
   :block/updated-at 1659192224571}
+ {:block/name "15 天背下 10 门专业课的连点成线法 - 如何成为学习高手",
+  :block/created-at 1664158264394,
+  :block/updated-at 1664158264394}
+ {:block/name "16",
+  :block/created-at 1664097192717,
+  :block/updated-at 1664097192717}
  {:block/name "17",
   :block/created-at 1660247582320,
   :block/updated-at 1660247582320}
@@ -800,6 +827,54 @@
  {:block/name "2022-09-09",
   :block/created-at 1662652833212,
   :block/updated-at 1662652833212}
+ {:block/name "2022-09-10",
+  :block/created-at 1664097196076,
+  :block/updated-at 1664097196076}
+ {:block/name "2022-09-12",
+  :block/created-at 1664097194743,
+  :block/updated-at 1664097194743}
+ {:block/name "2022-09-13",
+  :block/created-at 1664097188626,
+  :block/updated-at 1664097188626}
+ {:block/name "2022-09-14",
+  :block/created-at 1664097188681,
+  :block/updated-at 1664097188681}
+ {:block/name "2022-09-15",
+  :block/created-at 1664097196170,
+  :block/updated-at 1664097196170}
+ {:block/name "2022-09-16",
+  :block/created-at 1664097194845,
+  :block/updated-at 1664097194845}
+ {:block/name "2022-09-17",
+  :block/created-at 1664097194616,
+  :block/updated-at 1664097194616}
+ {:block/name "2022-09-18",
+  :block/created-at 1664097196230,
+  :block/updated-at 1664097196230}
+ {:block/name "2022-09-19",
+  :block/created-at 1664097196245,
+  :block/updated-at 1664097196245}
+ {:block/name "2022-09-20",
+  :block/created-at 1664097196283,
+  :block/updated-at 1664097196283}
+ {:block/name "2022-09-21",
+  :block/created-at 1664097196309,
+  :block/updated-at 1664097196309}
+ {:block/name "2022-09-22",
+  :block/created-at 1664097189232,
+  :block/updated-at 1664097189232}
+ {:block/name "2022-09-23",
+  :block/created-at 1664097189344,
+  :block/updated-at 1664097189344}
+ {:block/name "2022-09-24",
+  :block/created-at 1664158263838,
+  :block/updated-at 1664158263838}
+ {:block/name "2022-09-25",
+  :block/created-at 1664097188258,
+  :block/updated-at 1664097188258}
+ {:block/name "2022-09-26",
+  :block/created-at 1664158248071,
+  :block/updated-at 1664160135972}
  {:block/name "2022-22 周报",
   :block/created-at 1653839136298,
   :block/updated-at 1653843319366}
@@ -809,9 +884,15 @@
  {:block/name "22",
   :block/created-at 1659870173350,
   :block/updated-at 1659870173350}
+ {:block/name "22｜如何通过练习",
+  :block/created-at 1664158267308,
+  :block/updated-at 1664158267308}
  {:block/name "23",
   :block/created-at 1659870173453,
   :block/updated-at 1659870173453}
+ {:block/name "23｜教你利用“双加工理论”",
+  :block/created-at 1664158267893,
+  :block/updated-at 1664158267893}
  {:block/name "25",
   :block/created-at 1659192223993,
   :block/updated-at 1659192223993}
@@ -932,6 +1013,9 @@
  {:block/name "@unixzii on twitter",
   :block/created-at 1657375512915,
   :block/updated-at 1657375512915}
+ {:block/name "@voltarch on twitter",
+  :block/created-at 1664097195037,
+  :block/updated-at 1664097195037}
  {:block/name "@wanglei001 on twitter",
   :block/created-at 1662204450743,
   :block/updated-at 1662204450743}
@@ -998,6 +1082,9 @@
  {:block/name "and prevention",
   :block/created-at 1660722112005,
   :block/updated-at 1660722112005}
+ {:block/name "android 安装 busybox",
+  :block/created-at 1664097188566,
+  :block/updated-at 1664097188566}
  {:block/name "answer",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
@@ -1532,6 +1619,9 @@
  {:block/name "hard",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
+ {:block/name "hexo",
+  :block/created-at 1664097194858,
+  :block/updated-at 1664097194858}
  {:block/name "highlight",
   :block/created-at 1657375510797,
   :block/updated-at 1657375510797}
@@ -1547,12 +1637,18 @@
  {:block/name "how to be successful in this course",
   :block/created-at 1659192223826,
   :block/updated-at 1659192223826}
+ {:block/name "http301和302的区别",
+  :block/created-at 1664097188639,
+  :block/updated-at 1664097188639}
  {:block/name "https",
   :block/created-at 1657375515389,
   :block/updated-at 1657375515389}
  {:block/name "https和http的区别？",
   :block/created-at 1662552592483,
   :block/updated-at 1662552655668}
+ {:block/name "http中get 与 post 的区别，哪个更安全一些",
+  :block/created-at 1664097188685,
+  :block/updated-at 1664097188685}
  {:block/name "hyperskill.org",
   :block/created-at 1657375511609,
   :block/updated-at 1657375511609}
@@ -2082,6 +2178,9 @@
  {:block/name "logseq",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "logseq 查询",
+  :block/created-at 1664097188940,
+  :block/updated-at 1664097188940}
  {:block/name "longest common subsequence",
   :block/created-at 1653653771123,
   :block/updated-at 1653653771123}
@@ -2352,6 +2451,18 @@
  {:block/name "reachable nodes with restrictions",
   :block/created-at 1659925313011,
   :block/updated-at 1659925313011}
+ {:block/name "react",
+  :block/created-at 1664097189054,
+  :block/updated-at 1664097189054}
+ {:block/name "react query",
+  :block/created-at 1664097189060,
+  :block/updated-at 1664097189060}
+ {:block/name "react 的未来：什么是服务器端组件？ - react hooks 核心原理与实战",
+  :block/created-at 1664097194368,
+  :block/updated-at 1664097194368}
+ {:block/name "react 重渲染",
+  :block/created-at 1664097189144,
+  :block/updated-at 1664097189144}
  {:block/name "read",
   :block/created-at 1657375511151,
   :block/updated-at 1657375511151}
@@ -2382,6 +2493,9 @@
  {:block/name "readwise/highlights/01 | 程序的运行过程：从代码到机器运行 - 操作系统实战45讲",
   :block/created-at 1659870168532,
   :block/updated-at 1659870168532}
+ {:block/name "readwise/highlights/01 | 职级体系：你意识到级别鸿沟了吗？ - 大厂晋升指南",
+  :block/created-at 1664158270216,
+  :block/updated-at 1664158270748}
  {:block/name "readwise/highlights/01 | 认识容器：容器的基本操作和实现原理 - 容器实战高手课",
   :block/created-at 1659870168617,
   :block/updated-at 1659870168617}
@@ -2396,6 +2510,18 @@
   "readwise/highlights/01｜cisc & risc：从何而来，何至于此 - 计算机基础实战课",
   :block/created-at 1659352653774,
   :block/updated-at 1659352654778}
+ {:block/name
+  "readwise/highlights/01｜tdd演示（1）：任务分解法与整体工作流程 - 徐昊 · tdd项目实战70讲",
+  :block/created-at 1664097189234,
+  :block/updated-at 1664097189234}
+ {:block/name
+  "readwise/highlights/01｜如何减少对学习的排斥和厌恶心理，使其变得相对愉悦？ - 如何成为学习高手",
+  :block/created-at 1664097189349,
+  :block/updated-at 1664097189349}
+ {:block/name
+  "readwise/highlights/01｜认识 react：如何创建你的第一个 react 应用？ - react hooks 核心原理与实战",
+  :block/created-at 1664097189510,
+  :block/updated-at 1664097189510}
  {:block/name
   "readwise/highlights/02  | 日志系统：一条sql更新语句是如何执行的？ - mysql实战45讲",
   :block/created-at 1659352631464,
@@ -2425,6 +2551,9 @@
   "readwise/highlights/02｜基本概念和基础命令：应对简单的编辑任务 - vim 实用技巧必知必会",
   :block/created-at 1659870169552,
   :block/updated-at 1659870169552}
+ {:block/name "readwise/highlights/02｜学会这 4 点，你也可以告别伪勤奋 - 如何成为学习高手",
+  :block/created-at 1664097189735,
+  :block/updated-at 1664097189735}
  {:block/name
   "readwise/highlights/03 | java虚拟机是如何加载java类的? - 深入拆解java虚拟机",
   :block/created-at 1659870169605,
@@ -2444,9 +2573,19 @@
  {:block/name "readwise/highlights/03 | 序列化：对象怎么在网络中传输？ - rpc实战与核心原理",
   :block/created-at 1659870169965,
   :block/updated-at 1659870169965}
+ {:block/name "readwise/highlights/03 | 晋升原则：什么样的人更容易晋升？ - 大厂晋升指南",
+  :block/created-at 1664158270779,
+  :block/updated-at 1664158271308}
  {:block/name "readwise/highlights/03 | 黑盒之中有什么：内核结构与设计 - 操作系统实战45讲",
   :block/created-at 1659870170020,
   :block/updated-at 1659870170020}
+ {:block/name
+  "readwise/highlights/03｜内置 hooks（1）：如何保存组件状态和使用生命周期？ - react hooks 核心原理与实战",
+  :block/created-at 1664097190025,
+  :block/updated-at 1664097190025}
+ {:block/name "readwise/highlights/03｜掌握考试思维：成为一个特别会考试的人 - 如何成为学习高手",
+  :block/created-at 1664097190138,
+  :block/updated-at 1664097190138}
  {:block/name
   "readwise/highlights/03｜硬件语言筑基（一）：从硬件语言开启手写cpu之旅 - 计算机基础实战课",
   :block/created-at 1659352654834,
@@ -2458,6 +2597,13 @@
  {:block/name "readwise/highlights/04 | 我应该选择哪种kafka？ - kafka核心技术与实战",
   :block/created-at 1659870170381,
   :block/updated-at 1659870170381}
+ {:block/name
+  "readwise/highlights/04｜内置 hooks（2）：为什么要避免重复定义回调函数？ - react hooks 核心原理与实战",
+  :block/created-at 1664097190431,
+  :block/updated-at 1664097190431}
+ {:block/name "readwise/highlights/04｜用科学原理告诉你如何在考场上超常发挥 - 如何成为学习高手",
+  :block/created-at 1664097190538,
+  :block/updated-at 1664097190538}
  {:block/name
   "readwise/highlights/04｜硬件语言筑基（二）: 我们的代码是怎么生成具体电路的？ - 计算机基础实战课",
   :block/created-at 1659496369125,
@@ -2483,6 +2629,13 @@
   "readwise/highlights/05｜指令架构：risc-v到底在cpu设计上有哪些优势？ - 计算机基础实战课",
   :block/created-at 1659870171368,
   :block/updated-at 1659870171368}
+ {:block/name "readwise/highlights/05｜教你全面提升专注力，学习时不再走神 - 如何成为学习高手",
+  :block/created-at 1664097190989,
+  :block/updated-at 1664097190989}
+ {:block/name
+  "readwise/highlights/05｜进一步认识 hooks ：如何正确理解函数组件的生命周期？ - react hooks 核心原理与实战",
+  :block/created-at 1664097191095,
+  :block/updated-at 1664097191095}
  {:block/name
   "readwise/highlights/06 | kafka线上集群部署方案怎么做？ - kafka核心技术与实战",
   :block/created-at 1659870171431,
@@ -2515,6 +2668,13 @@
   "readwise/highlights/06｜手写cpu（一）：迷你cpu架构设计与取指令实现 - 计算机基础实战课",
   :block/created-at 1660290684728,
   :block/updated-at 1660290686097}
+ {:block/name "readwise/highlights/06｜教你高效复习：巧用学习神器取得好成绩 - 如何成为学习高手",
+  :block/created-at 1664158263262,
+  :block/updated-at 1664158263810}
+ {:block/name
+  "readwise/highlights/06｜自定义hooks ：四个典型的使用场景 - react hooks 核心原理与实战",
+  :block/created-at 1664097191162,
+  :block/updated-at 1664097191162}
  {:block/name "readwise/highlights/07 | cache与内存：程序放在哪儿？ - 操作系统实战45讲",
   :block/created-at 1659352652866,
   :block/updated-at 1659352653735}
@@ -2549,6 +2709,14 @@
   :block/created-at 1659870172112,
   :block/updated-at 1659870172112}
  {:block/name
+  "readwise/highlights/07｜全局状态管理：如何在函数组件中使用 redux？ - react hooks 核心原理与实战",
+  :block/created-at 1664097191247,
+  :block/updated-at 1664097191247}
+ {:block/name
+  "readwise/highlights/07｜我考北大中文系时，15 天背下 10 门专业课的连点成线法 - 如何成为学习高手",
+  :block/created-at 1664158263864,
+  :block/updated-at 1664158264398}
+ {:block/name
   "readwise/highlights/08 | netty：如何优雅地处理网络读写，制定网络通信协议？ - 中间件核心技术与实战",
   :block/created-at 1659870172158,
   :block/updated-at 1659870172158}
@@ -2568,6 +2736,10 @@
   "readwise/highlights/08 | 最最最重要的集群参数配置（下） - kafka核心技术与实战",
   :block/created-at 1659870172312,
   :block/updated-at 1659870172312}
+ {:block/name
+  "readwise/highlights/08｜复杂状态处理：如何保证状态一致性？ - react hooks 核心原理与实战",
+  :block/created-at 1664097191346,
+  :block/updated-at 1664097191346}
  {:block/name "readwise/highlights/09 |  生产者消息分区机制原理剖析 - kafka核心技术与实战",
   :block/created-at 1659870172366,
   :block/updated-at 1659870172366}
@@ -2578,6 +2750,13 @@
  {:block/name "readwise/highlights/09 | 怎么能避免写出慢sql？ - 后端存储实战课",
   :block/created-at 1659925375134,
   :block/updated-at 1659925375134}
+ {:block/name "readwise/highlights/09｜如何高效读书？如何记住读过的每一本书？ - 如何成为学习高手",
+  :block/created-at 1664158264440,
+  :block/updated-at 1664158264963}
+ {:block/name
+  "readwise/highlights/09｜异步处理：如何向服务器端发送请求？ - react hooks 核心原理与实战",
+  :block/created-at 1664097191406,
+  :block/updated-at 1664097191406}
  {:block/name
   "readwise/highlights/09｜技术选型：如何选择微服务框架和注册中心？ - 中间件核心技术与实战",
   :block/created-at 1659415226570,
@@ -2620,6 +2799,13 @@
   :block/created-at 1658640296407,
   :block/updated-at 1658640296407}
  {:block/name
+  "readwise/highlights/10｜函数组件设计模式：如何应对复杂条件渲染场景？ - react hooks 核心原理与实战",
+  :block/created-at 1664097191487,
+  :block/updated-at 1664097191487}
+ {:block/name "readwise/highlights/10｜如何快速入门新领域？论述题如何答出高分？ - 如何成为学习高手",
+  :block/created-at 1664158265010,
+  :block/updated-at 1664158265540}
+ {:block/name
   "readwise/highlights/11 | 从0到1：搭建一个完整的kubernetes集群 | 极客时间",
   :block/created-at 1657375511061,
   :block/updated-at 1657375511061}
@@ -2630,6 +2816,14 @@
   :block/created-at 1659870172868,
   :block/updated-at 1659870172868}
  {:block/name
+  "readwise/highlights/11｜事件处理：如何创建自定义事件？ - react hooks 核心原理与实战",
+  :block/created-at 1664097191571,
+  :block/updated-at 1664097191571}
+ {:block/name
+  "readwise/highlights/11｜如何快速完成学习和工作任务，以及快速学会新技能？ - 如何成为学习高手",
+  :block/created-at 1664158265596,
+  :block/updated-at 1664158266134}
+ {:block/name
   "readwise/highlights/12 | 异常重试：在约定时间内安全可靠地重试 - rpc实战与核心原理",
   :block/created-at 1659352647785,
   :block/updated-at 1659352648757}
@@ -2637,31 +2831,87 @@
   "readwise/highlights/12 | 连接无效：使用keep-alive还是应用心跳来检测？-极客时间",
   :block/created-at 1657375511090,
   :block/updated-at 1657375511090}
+ {:block/name "readwise/highlights/12｜每个人都能学会：5 分钟克服拖延症的方法 - 如何成为学习高手",
+  :block/created-at 1664097191670,
+  :block/updated-at 1664097191670}
+ {:block/name
+  "readwise/highlights/12｜项目结构：为什么要按领域组织文件夹结构？ - react hooks 核心原理与实战",
+  :block/created-at 1664097191733,
+  :block/updated-at 1664097191733}
  {:block/name "readwise/highlights/13 | 为什么我们需要pod？ - 深入剖析kubernetes",
   :block/created-at 1660247582920,
   :block/updated-at 1660247584121}
+ {:block/name "readwise/highlights/13｜3 个思路，让你成为一个真正自律的人 - 如何成为学习高手",
+  :block/created-at 1664097191847,
+  :block/updated-at 1664097191847}
+ {:block/name
+  "readwise/highlights/13｜form：hooks 给 form 处理带来了哪些新变化？ - react hooks 核心原理与实战",
+  :block/created-at 1664097191996,
+  :block/updated-at 1664097191996}
+ {:block/name
+  "readwise/highlights/14 | 使用浮动层：如何展示对话框，并给对话框传递参数？ - react hooks 核心原理与实战",
+  :block/created-at 1664097192078,
+  :block/updated-at 1664097192078}
  {:block/name
   "readwise/highlights/14 | 深入解析pod对象（一）：基本概念 - 深入剖析kubernetes",
   :block/created-at 1660247584287,
   :block/updated-at 1660247585390}
+ {:block/name "readwise/highlights/14｜通过选择环境，来提高学习和工作效率 - 如何成为学习高手",
+  :block/created-at 1664097192169,
+  :block/updated-at 1664097192169}
  {:block/name "readwise/highlights/15 | 调度（上）：如何制定项目管理流程？",
   :block/created-at 1659192224565,
   :block/updated-at 1659192224565}
+ {:block/name
+  "readwise/highlights/15 | 路由管理：为什么每一个前端应用都需要使用路由机制？ - react hooks 核心原理与实战",
+  :block/created-at 1664097192254,
+  :block/updated-at 1664097192254}
  {:block/name "readwise/highlights/15 张图带你深入理解浮点数",
   :block/created-at 1660301598533,
   :block/updated-at 1660301599343}
+ {:block/name "readwise/highlights/15｜一个人在家如何做到高度自律？ - 如何成为学习高手",
+  :block/created-at 1664097192408,
+  :block/updated-at 1664097192408}
+ {:block/name
+  "readwise/highlights/16 | 按需加载：如何提升应用打开速度？ - react hooks 核心原理与实战",
+  :block/created-at 1664097192607,
+  :block/updated-at 1664097192607}
+ {:block/name "readwise/highlights/16｜一玩手机就停不下来？教你如何戒手机 - 如何成为学习高手",
+  :block/created-at 1664097193586,
+  :block/updated-at 1664097193586}
+ {:block/name
+  "readwise/highlights/17 | 打包部署：你的应用是如何上线的？ - react hooks 核心原理与实战",
+  :block/created-at 1664097193659,
+  :block/updated-at 1664097193659}
  {:block/name
   "readwise/highlights/17 | 经典paas的记忆：作业副本与水平扩展 - 深入剖析kubernetes",
   :block/created-at 1660247580362,
   :block/updated-at 1660247582332}
+ {:block/name "readwise/highlights/17｜如何合理地制订计划？ - 如何成为学习高手",
+  :block/created-at 1664097193733,
+  :block/updated-at 1664097193733}
  {:block/name
   "readwise/highlights/18 | 为什么这些sql语句逻辑相同，性能却差异巨大？ | 极客时间",
   :block/created-at 1657375511110,
   :block/updated-at 1657375511110}
  {:block/name
+  "readwise/highlights/18 | 单元测试：自定义 hooks 应该如何进行单元测试？ - react hooks 核心原理与实战",
+  :block/created-at 1664097193912,
+  :block/updated-at 1664097193912}
+ {:block/name "readwise/highlights/18｜如何保证100%完成你制订的计划？ - 如何成为学习高手",
+  :block/created-at 1664097193995,
+  :block/updated-at 1664097193995}
+ {:block/name
   "readwise/highlights/19 | 单服务器高性能模式：reactor与proactor - 从0开始学架构",
   :block/created-at 1659352649838,
   :block/updated-at 1659352650739}
+ {:block/name "readwise/highlights/19｜如何高效完成复杂艰难的、不喜欢的任务？ - 如何成为学习高手",
+  :block/created-at 1664097194054,
+  :block/updated-at 1664097194054}
+ {:block/name
+  "readwise/highlights/19｜第三方工具库：最常用的第三方工具库有哪些？ - react hooks 核心原理与实战",
+  :block/created-at 1664097194305,
+  :block/updated-at 1664097194305}
  {:block/name "readwise/highlights/2.1. introduction to replication",
   :block/created-at 1659339520553,
   :block/updated-at 1659339521360}
@@ -2669,6 +2919,10 @@
   "readwise/highlights/2.1. introduction to replication — apache couchdb® 3.2 documentation",
   :block/created-at 1659339519205,
   :block/updated-at 1659339520414}
+ {:block/name
+  "readwise/highlights/20 | react 的未来：什么是服务器端组件？ - react hooks 核心原理与实战",
+  :block/created-at 1664097194359,
+  :block/updated-at 1664097194359}
  {:block/name "readwise/highlights/20 | 幻读是什么，幻读有什么问题？ | 极客时间",
   :block/created-at 1657375511128,
   :block/updated-at 1657375511128}
@@ -2682,18 +2936,38 @@
   "readwise/highlights/20｜4 steps ：如何更好地阅读rust源码？ - 陈天 · rust 编程第一课",
   :block/created-at 1659352650770,
   :block/updated-at 1659352651763}
+ {:block/name "readwise/highlights/20｜如何做到每天高效学习 12 小时？ - 如何成为学习高手",
+  :block/created-at 1664158262695,
+  :block/updated-at 1664158263224}
  {:block/name
   "readwise/highlights/21丨分布式架构：如何应对高并发的用户请求 - 后端技术面试 38 讲",
   :block/created-at 1659870173287,
   :block/updated-at 1659870173287}
  {:block/name
+  "readwise/highlights/21｜学霸为什么学什么都快？有哪些可以借鉴的方法论？ - 如何成为学习高手",
+  :block/created-at 1664158266225,
+  :block/updated-at 1664158266747}
+ {:block/name
+  "readwise/highlights/22 | 理论八：如何用迪米特法则（lod）实现“高内聚、松耦合”？ - 设计模式之美",
+  :block/created-at 1664097194626,
+  :block/updated-at 1664097194626}
+ {:block/name
   "readwise/highlights/22 | 缓存架构：如何减少不必要的计算？ - 后端技术面试 38 讲",
   :block/created-at 1659870173344,
   :block/updated-at 1659870173344}
+ {:block/name "readwise/highlights/22｜如何通过练习，让自己变得更聪明？ - 如何成为学习高手",
+  :block/created-at 1664158266779,
+  :block/updated-at 1664158267315}
  {:block/name
   "readwise/highlights/23 | 异步架构：如何避免互相依赖的系统间耦合？ - 后端技术面试 38 讲",
   :block/created-at 1659870173447,
   :block/updated-at 1659870173447}
+ {:block/name "readwise/highlights/23｜教你利用“双加工理论”，有效提高学习能力 - 如何成为学习高手",
+  :block/created-at 1664158267379,
+  :block/updated-at 1664158267896}
+ {:block/name "readwise/highlights/24｜重要：别再去找更好的学习方法了 - 如何成为学习高手",
+  :block/created-at 1664158267939,
+  :block/updated-at 1664158268460}
  {:block/name "readwise/highlights/25 | 多个活动要安排（上）：多进程如何调度？",
   :block/created-at 1659192223987,
   :block/updated-at 1659192223987}
@@ -2853,6 +3127,9 @@
   "readwise/highlights/containing blocks • css for javascript developers",
   :block/created-at 1657375511566,
   :block/updated-at 1657375511566}
+ {:block/name "readwise/highlights/copy from above or below",
+  :block/created-at 1664097194753,
+  :block/updated-at 1664097194753}
  {:block/name
   "readwise/highlights/css backgrounds and borders module level 3",
   :block/created-at 1657375511554,
@@ -3137,6 +3414,9 @@
  {:block/name "readwise/highlights/rust 中 trait 的使用及实现分析",
   :block/created-at 1657375512647,
   :block/updated-at 1657375512647}
+ {:block/name "readwise/highlights/rust 类型系统图灵完备的证明",
+  :block/created-at 1664097194849,
+  :block/updated-at 1664097194849}
  {:block/name "readwise/highlights/select(2) - linux manual page",
   :block/created-at 1657375512668,
   :block/updated-at 1657375512668}
@@ -3285,6 +3565,9 @@
   "readwise/highlights/version control in professional software development | coursera",
   :block/created-at 1659192224064,
   :block/updated-at 1659192224064}
+ {:block/name "readwise/highlights/vim search ignore case - vimtricks",
+  :block/created-at 1664097194894,
+  :block/updated-at 1664097194894}
  {:block/name
   "readwise/highlights/which path are you on? | master internet marketing with loretta",
   :block/created-at 1657375513163,
@@ -3303,6 +3586,9 @@
  {:block/name "readwise/highlights/writing maintainable go code",
   :block/created-at 1657375513194,
   :block/updated-at 1657375513194}
+ {:block/name "readwise/highlights/yesterday was my last da...",
+  :block/created-at 1664097195030,
+  :block/updated-at 1664097195030}
  {:block/name "readwise/highlights/you weren't meant to have a boss",
   :block/created-at 1657375513229,
   :block/updated-at 1657375513229}
@@ -3548,6 +3834,13 @@
  {:block/name "readwise/highlights/开篇词 | 从今天起，换种方式学存储 - 后端存储实战课",
   :block/created-at 1659711946410,
   :block/updated-at 1659711947946}
+ {:block/name "readwise/highlights/开篇词 | 重新理解晋升 - 大厂晋升指南",
+  :block/created-at 1664158269089,
+  :block/updated-at 1664158269611}
+ {:block/name
+  "readwise/highlights/开篇词｜为什么tdd是当前最具工程效能的研发流程？ - 徐昊 · tdd项目实战70讲",
+  :block/created-at 1664097195147,
+  :block/updated-at 1664097195147}
  {:block/name "readwise/highlights/开篇词｜练好基本功，优秀工程师成长第一步",
   :block/created-at 1659320089467,
   :block/updated-at 1659320089467}
@@ -3667,12 +3960,25 @@
   "readwise/highlights/第185期 | mysql有哪些“饮鸩止渴”提高性能的方法？-极客时间",
   :block/created-at 1657375514750,
   :block/updated-at 1657375514750}
+ {:block/name "readwise/highlights/第一封信 | 去无方向的信 - 去无方向的信",
+  :block/created-at 1664158268522,
+  :block/updated-at 1664158269056}
  {:block/name "readwise/highlights/第一次独居？我们为你准备了一份「租房攻略合订本」",
   :block/created-at 1658640294964,
   :block/updated-at 1658640294964}
  {:block/name "readwise/highlights/第一章：可靠性、可伸缩性和可维护性",
   :block/created-at 1659415228093,
   :block/updated-at 1659415228955}
+ {:block/name "readwise/highlights/第二封信 | 能拍清楚就已经很好了 - 去无方向的信",
+  :block/created-at 1664158269640,
+  :block/updated-at 1664158270165}
+ {:block/name
+  "readwise/highlights/答疑解惑01｜如何转换应用react hooks 的思路？ - react hooks 核心原理与实战",
+  :block/created-at 1664097195203,
+  :block/updated-at 1664097195203}
+ {:block/name "readwise/highlights/答疑解惑02 - react hooks 核心原理与实战",
+  :block/created-at 1664097195258,
+  :block/updated-at 1664097195258}
  {:block/name "readwise/highlights/系统设计题面试八股文背诵版 - 墨天轮",
   :block/created-at 1660790505694,
   :block/updated-at 1660790507305}
@@ -3722,6 +4028,10 @@
  {:block/name "readwise/highlights/课前加餐 | 电商系统是如何设计的？ - 后端存储实战课",
   :block/created-at 1659711948039,
   :block/updated-at 1659711949403}
+ {:block/name
+  "readwise/highlights/课前必读｜20年前的“老古董”技术，为什么还值得开个课？ - 徐昊 · tdd项目实战70讲",
+  :block/created-at 1664097195329,
+  :block/updated-at 1664097195329}
  {:block/name "readwise/highlights/践行极简理念，高效数字生活 - 少数派",
   :block/created-at 1657375514930,
   :block/updated-at 1657375514930}
@@ -4114,6 +4424,9 @@
  {:block/name "tweets",
   :block/created-at 1657375512916,
   :block/updated-at 1657375512916}
+ {:block/name "typescript",
+  :block/created-at 1664160135971,
+  :block/updated-at 1664160135971}
  {:block/name "typical",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
@@ -4170,6 +4483,9 @@
  {:block/name "version control in professional software development",
   :block/created-at 1659192224072,
   :block/updated-at 1659192224072}
+ {:block/name "vimtricks.com",
+  :block/created-at 1664097194899,
+  :block/updated-at 1664097194899}
  {:block/name "vision",
   :block/created-at 1657375512399,
   :block/updated-at 1657375512399}
@@ -4341,6 +4657,9 @@
  {:block/name "为什么我们需要pod？ - 深入剖析kubernetes",
   :block/created-at 1660247584115,
   :block/updated-at 1660247584115}
+ {:block/name "为什么还值得开个课？ - 徐昊 · tdd项目实战70讲",
+  :block/created-at 1664097195345,
+  :block/updated-at 1664097195345}
  {:block/name "为什么这些sql语句逻辑相同",
   :block/created-at 1657375511113,
   :block/updated-at 1657375511113}
@@ -4431,6 +4750,9 @@
  {:block/name "从今天起",
   :block/created-at 1659711947932,
   :block/updated-at 1659711947932}
+ {:block/name "以及快速学会新技能？ - 如何成为学习高手",
+  :block/created-at 1664158266128,
+  :block/updated-at 1664158266128}
  {:block/name "企业邮箱",
   :block/created-at 1659870178091,
   :block/updated-at 1659870178091}
@@ -4467,6 +4789,9 @@
  {:block/name "作者：易立",
   :block/created-at 1659192223691,
   :block/updated-at 1659192223691}
+ {:block/name "你也可以告别伪勤奋 - 如何成为学习高手",
+  :block/created-at 1664097189749,
+  :block/updated-at 1664097189749}
  {:block/name "你想知道的都在这里",
   :block/created-at 1657375514254,
   :block/updated-at 1657375514254}
@@ -4476,6 +4801,9 @@
  {:block/name "你管这破玩意叫操作系统源码",
   :block/created-at 1657375513860,
   :block/updated-at 1657375513860}
+ {:block/name "使其变得相对愉悦？ - 如何成为学习高手",
+  :block/created-at 1664097189363,
+  :block/updated-at 1664097189363}
  {:block/name "使用 rust 完成逻辑开发",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
@@ -4494,6 +4822,9 @@
  {:block/name "使用栈实现队列",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "使用浮动层：如何展示对话框",
+  :block/created-at 1664097192098,
+  :block/updated-at 1664097192098}
  {:block/name "使用队列实现栈",
   :block/created-at 1643097178018,
   :block/updated-at 1643097178018}
@@ -4620,6 +4951,9 @@
  {:block/name "协程的实现原理？无栈协程和有栈协程？独立栈和共享栈？",
   :block/created-at 1660195695440,
   :block/updated-at 1660232585599}
+ {:block/name "单元测试：自定义 hooks 应该如何进行单元测试？ - react hooks 核心原理与实战",
+  :block/created-at 1664097193924,
+  :block/updated-at 1664097193924}
  {:block/name "单服务器高性能模式：reactor与proactor - 从0开始学架构",
   :block/created-at 1659352650735,
   :block/updated-at 1659352650735}
@@ -4638,6 +4972,9 @@
  {:block/name "原子操作",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
+ {:block/name "去无方向的信 - 去无方向的信",
+  :block/created-at 1664158269049,
+  :block/updated-at 1664158269049}
  {:block/name "参加会议的最多员工数",
   :block/created-at 1660022055231,
   :block/updated-at 1660194392762}
@@ -4779,6 +5116,9 @@
  {:block/name "字符串",
   :block/created-at 1653653714913,
   :block/updated-at 1653653714913}
+ {:block/name "学习时不再走神 - 如何成为学习高手",
+  :block/created-at 1664097191007,
+  :block/updated-at 1664097191007}
  {:block/name "完全二叉树",
   :block/created-at 1643097178018,
   :block/updated-at 1643097178018}
@@ -4809,6 +5149,9 @@
  {:block/name "将机器配置为仅限从 cloudflare 访问",
   :block/created-at 1649857826536,
   :block/updated-at 1649857826536}
+ {:block/name "小麥",
+  :block/created-at 1664158269048,
+  :block/updated-at 1664158269048}
  {:block/name "少数派",
   :block/created-at 1657375511153,
   :block/updated-at 1657375511153}
@@ -4830,9 +5173,15 @@
  {:block/name "工作流",
   :block/created-at 1659193128207,
   :block/updated-at 1659193143140}
+ {:block/name "工作流自动化工具",
+  :block/created-at 1664097195430,
+  :block/updated-at 1664097195430}
  {:block/name "希尔排序",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
+ {:block/name "常用 react hooks",
+  :block/created-at 1664097195470,
+  :block/updated-at 1664097195470}
  {:block/name "常见数据结构（链表结构、栈、队列、递归行为、哈希表和有序表）",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
@@ -4842,6 +5191,9 @@
  {:block/name "并查集",
   :block/created-at 1643806245326,
   :block/updated-at 1643815056154}
+ {:block/name "并给对话框传递参数？ - react hooks 核心原理与实战",
+  :block/created-at 1664097192099,
+  :block/updated-at 1664097192099}
  {:block/name "并行算法",
   :block/created-at 1645524220083,
   :block/updated-at 1645524220083}
@@ -4905,6 +5257,9 @@
  {:block/name "徐文浩",
   :block/created-at 1659352636742,
   :block/updated-at 1659352636742}
+ {:block/name "徐昊",
+  :block/created-at 1664097189243,
+  :block/updated-at 1664097189243}
  {:block/name "得到",
   :block/created-at 1662204450415,
   :block/updated-at 1662204450415}
@@ -4974,6 +5329,9 @@
  {:block/name "我觉得以下三本书大幅提升了我...",
   :block/created-at 1659192224702,
   :block/updated-at 1659192224702}
+ {:block/name "打包部署：你的应用是如何上线的？ - react hooks 核心原理与实战",
+  :block/created-at 1664097193670,
+  :block/updated-at 1664097193670}
  {:block/name "找出数组中的所有孤独数字",
   :block/created-at 1643097178018,
   :block/updated-at 1643097178018}
@@ -5007,6 +5365,9 @@
  {:block/name "按符号重排数组",
   :block/created-at 1643097178017,
   :block/updated-at 1643097178017}
+ {:block/name "按需加载：如何提升应用打开速度？ - react hooks 核心原理与实战",
+  :block/created-at 1664097192718,
+  :block/updated-at 1664097192718}
  {:block/name "换种方式学存储 - 后端存储实战课",
   :block/created-at 1659711947934,
   :block/updated-at 1659711947934}
@@ -5088,6 +5449,9 @@
  {:block/name "晁岳攀（鸟窝）",
   :block/created-at 1659870169134,
   :block/updated-at 1659870169134}
+ {:block/name "晋升原则：什么样的人更容易晋升？ - 大厂晋升指南",
+  :block/created-at 1664158271303,
+  :block/updated-at 1664158271303}
  {:block/name "景霄",
   :block/created-at 1659870172211,
   :block/updated-at 1659870172211}
@@ -5121,6 +5485,9 @@
  {:block/name "有序表",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
+ {:block/name "有效提高学习能力 - 如何成为学习高手",
+  :block/created-at 1664158267893,
+  :block/updated-at 1664158267893}
  {:block/name "有活儿老板自己上 - 趣谈linux操作系统",
   :block/created-at 1659870172025,
   :block/updated-at 1659870172025}
@@ -5151,6 +5518,9 @@
  {:block/name "来一场义工旅行",
   :block/created-at 1659496371039,
   :block/updated-at 1659496371039}
+ {:block/name "来提高学习和工作效率 - 如何成为学习高手",
+  :block/created-at 1664097192184,
+  :block/updated-at 1664097192184}
  {:block/name "极客兔兔",
   :block/created-at 1657375511831,
   :block/updated-at 1657375511831}
@@ -5274,9 +5644,18 @@
  {:block/name "状态压缩",
   :block/created-at 1653653714914,
   :block/updated-at 1653653714914}
+ {:block/name "王争",
+  :block/created-at 1664097194677,
+  :block/updated-at 1664097194677}
+ {:block/name "王沛",
+  :block/created-at 1664097189529,
+  :block/updated-at 1664097189529}
  {:block/name "理解disruptor（上）：带你体会cpu高速缓存的风驰电掣 - 深入浅出计算机组成原理",
   :block/created-at 1659352647738,
   :block/updated-at 1659352647738}
+ {:block/name "理论八：如何用迪米特法则（lod）实现“高内聚、松耦合”？ - 设计模式之美",
+  :block/created-at 1664097194681,
+  :block/updated-at 1664097194681}
  {:block/name "生产者压缩算法面面观 - kafka核心技术与实战",
   :block/created-at 1659870172694,
   :block/updated-at 1659870172694}
@@ -5370,6 +5749,12 @@
  {:block/name "第一回 最开始的两行代码",
   :block/created-at 1657375513860,
   :block/updated-at 1657375513860}
+ {:block/name "第一封信",
+  :block/created-at 1664158269048,
+  :block/updated-at 1664158269048}
+ {:block/name "第二封信",
+  :block/created-at 1664158270160,
+  :block/updated-at 1664158270160}
  {:block/name "简悦",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
@@ -5586,6 +5971,9 @@
  {:block/name "聊聊中暑的预防、发现与救治",
   :block/created-at 1659192223915,
   :block/updated-at 1659192223915}
+ {:block/name "职级体系：你意识到级别鸿沟了吗？ - 大厂晋升指南",
+  :block/created-at 1664158270745,
+  :block/updated-at 1664158270745}
  {:block/name "联合索引",
   :block/created-at 1660628923050,
   :block/updated-at 1660628923050}
@@ -5601,6 +5989,9 @@
  {:block/name "胡泳",
   :block/created-at 1657375514786,
   :block/updated-at 1657375514786}
+ {:block/name "能拍清楚就已经很好了 - 去无方向的信",
+  :block/created-at 1664158270160,
+  :block/updated-at 1664158270160}
  {:block/name "自举",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
@@ -5649,9 +6040,18 @@
  {:block/name "认识容器：容器的基本操作和实现原理 - 容器实战高手课",
   :block/created-at 1659870168626,
   :block/updated-at 1659870168626}
+ {:block/name "让你成为一个真正自律的人 - 如何成为学习高手",
+  :block/created-at 1664097191882,
+  :block/updated-at 1664097191882}
+ {:block/name "让自己变得更聪明？ - 如何成为学习高手",
+  :block/created-at 1664158267309,
+  :block/updated-at 1664158267309}
  {:block/name "记忆化搜索",
   :block/created-at 1656602223167,
   :block/updated-at 1656602223167}
+ {:block/name "讲讲 http 状态码",
+  :block/created-at 1664097195533,
+  :block/updated-at 1664097195533}
  {:block/name "论证：ios安全性",
   :block/created-at 1657375514823,
   :block/updated-at 1657375514823}
@@ -5670,6 +6070,9 @@
  {:block/name "课前加餐",
   :block/created-at 1659711949397,
   :block/updated-at 1659711949397}
+ {:block/name "课前必读｜20年前的“老古董”技术",
+  :block/created-at 1664097195344,
+  :block/updated-at 1664097195344}
  {:block/name "调度（上）：如何制定项目管理流程？",
   :block/created-at 1659192224572,
   :block/updated-at 1659192224572}
@@ -5682,6 +6085,9 @@
  {:block/name "走进黑盒：sql是如何在数据库中执行的？ - 后端存储实战课",
   :block/created-at 1659769255683,
   :block/updated-at 1659769255683}
+ {:block/name "路由管理：为什么每一个前端应用都需要使用路由机制？ - react hooks 核心原理与实战",
+  :block/created-at 1664097192284,
+  :block/updated-at 1664097192284}
  {:block/name "跳表",
   :block/created-at 1660562240161,
   :block/updated-at 1660562240161}
@@ -5736,6 +6142,9 @@
  {:block/name "重复",
   :block/created-at 1646803474766,
   :block/updated-at 1646803474766}
+ {:block/name "重新理解晋升 - 大厂晋升指南",
+  :block/created-at 1664158269608,
+  :block/updated-at 1664158269608}
  {:block/name "链表",
   :block/created-at 1643097178017,
   :block/updated-at 1655986442907}
@@ -5793,6 +6202,9 @@
  {:block/name "韩健",
   :block/created-at 1662624873375,
   :block/updated-at 1662624873375}
+ {:block/name "高冷冷",
+  :block/created-at 1664097189361,
+  :block/updated-at 1664097189361}
  {:block/name "高尔吉亚",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
