@@ -1,2 +1,4 @@
-- 方案一：Keybase Git
-- 方案二：
+- 方案一：[Keybase Git](https://keybase.io/blog/encrypted-git-for-everyone)
+- 方案二：[git-remote-gcrypt](https://spwhitton.name/tech/code/git-remote-gcrypt/)
+-
+-
