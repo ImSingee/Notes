@@ -1,4 +1,0 @@
-[submodule "logseq/.app"]
-	path = logseq/.app
-	url = git@github.com:ImSingee/Notes-Plugins.git
-	branch = master
