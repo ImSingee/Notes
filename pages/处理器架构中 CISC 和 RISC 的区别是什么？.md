@@ -1,0 +1,3 @@
+- #CruelFundamental #[[2022-09-30]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202209/30)
+-
+- CISC:
