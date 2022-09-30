@@ -7,4 +7,5 @@
 -
 -
 - ## 关联阅读
-	- [[01｜cisc & Risc：从何而来]]
+	- [[Readwise/Highlights/01｜CISC & RISC：从何而来，何至于此 - 计算机基础实战课]]
+-
