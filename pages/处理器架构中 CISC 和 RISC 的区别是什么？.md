@@ -1,3 +1,6 @@
 - #CruelFundamental #[[2022-09-30]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202209/30)
 -
-- CISC:
+- CISC：复杂指令集
+- RISC：精简指令集
+-
+- 理论上来说，CISC 要比 RISC「臃肿」，RISC 要求只完成操作系统所必要的功能（）
