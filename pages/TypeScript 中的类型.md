@@ -1,8 +1,11 @@
-- ## JS 中的类型
+- ### JS 中的类型
 	- null
 	- undefined
-	- Number
-	- String
-	- Boolean
-	- Symbol
+	- number
+	- bigint
+	- string
+	- boolean
+	- symbol
+	- object（包含 Array, Function, Date ...）
+- ## TS
 	-
