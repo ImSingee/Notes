@@ -80,9 +80,9 @@
 	- 对外 API 尽量用 interface（方便扩展）
 	- 对内则尽量用 type
 - ## 类型区分 （[类型收窄](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)）
-	- js 方案：typeof 判断大类型
+	- js 方案：[typeof](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#typeof-type-guards) 判断大类型
 	- js 方案：instanceof 判断是否为类实例
-	- js 方案：in 判断实例成员
-	- TS 方案（类型收窄）：[is](https://stackoverflow.com/questions/40081332/what-does-the-is-keyword-do-in-typescript)
+	- js 方案：[in](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#the-in-operator-narrowing) 判断实例成员
+	- TS 方案：[is](https://stackoverflow.com/questions/40081332/what-does-the-is-keyword-do-in-typescript)
 		- 本质上其实是 boolean，但告知 TS 其特用于类型收窄
 		- 仅用于函数签名，需自行撰写判断的实现逻辑
