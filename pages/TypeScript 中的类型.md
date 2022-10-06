@@ -44,7 +44,8 @@
 	- 与 TS 中的其他大写类型（`Number` `String` `Boolean` `Symbol`）代表着对应的 JS 小写类型不同，TS 中的 Object 和 object 并不同
 		- `object` 代表所有非原始类型，即与 JS 中的语义相同
 		- `Object` 几乎相当于 unknown（但可以调用所有公共方法），其实际上的定义为
-			- ```ts
+			- id:: 633f202f-822e-4a5f-b0c7-5e86e8adabb7
+			  ```ts
 			  interface Object {
 			    constructor: Function;
 			    toString(): string;
@@ -96,4 +97,6 @@
 	- TS 方案：[is](https://stackoverflow.com/questions/40081332/what-does-the-is-keyword-do-in-typescript)
 		- 本质上其实是 boolean，但告知 TS 其特用于类型收窄
 		- 仅用于函数签名，需自行撰写判断的实现逻辑
-- ## Object.create(null)
+- ## Object.create(null) 与 {}
+	- `Object.create(null)` 用于创建一个「真正空的对象」
+	- 因为默认使用 `{}` 创建出来的其实含有一定的成员（参考 ((633f202f-822e-4a5f-b0c7-5e86e8adabb7))
