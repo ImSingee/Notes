@@ -13,6 +13,8 @@
 		- [deno](https://deno.land/) （[可关闭](https://deno.land/manual@v1.4.1/getting_started/typescript#--no-check-option)）
 	- **解释执行的（不会执行类型检查）**
 		- [swc-node](https://github.com/swc-project/swc-node)
+		- [@esbuild-kit/esm-loader
+		  ](https://www.npmjs.com/package/%40esbuild-kit%2Fesm-loader)
 	- ## 编译目标
 		- 编译是由 TS 转换为 JS 的过程，编译目标支持 ESNext、ES5、ES6 等多个版本，详情可见[tsconfig 中的 target 配置](https://www.typescriptlang.org/tsconfig#target)
 - # 运行
