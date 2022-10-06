@@ -43,4 +43,6 @@
 - ## TS 中的 Object
 	- 与 TS 中的其他大写类型（`Number` `String` `Boolean` `Symbol`）代表着对应的 JS 小写类型不同，TS 中的 Object 和 object 并不同
 		- `object` 代表所有非原始类型，即与 JS 中的语义相同
-		- `Object`
+		- `Object` 几乎相当于 unknown（但可以调用所有公共方法），其实际上的定义为
+			- ```ts
+			  ```
