@@ -23,7 +23,12 @@
 	- 不推荐自行使用包装类型，因为
 		- typeof 会将包装类型认为是 object
 			- ```js
-			  typeof
+			  typeof 123 // number
+			  typeof new Number(123) // object
+			  typeof Number(123) // number
 			  ```
 		- `new Number(0)` 的布尔断言为 true（因为所有对象都是 true）
+	- 包装类型是一次性发生的
+		- ```js
+		  ```
 	-
