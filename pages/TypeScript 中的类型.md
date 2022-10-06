@@ -60,7 +60,8 @@
 	- 关联阅读：[一文读懂 TS 中 Object, object, {} 类型之间的区别](http://www.semlinker.com/ts-object-type/)
 - ## any 和 unknwon
 	- 二者同属 TS 中的[顶级类型](https://2ality.com/2020/06/any-unknown-typescript.html)
-	- any 约等于关闭类型检查（除
+	- any 约等于关闭类型检查（除不能赋值给 never）
+	- unknown 为表示类型未知，使用前需做类型检查或类型断言
 - ## 类型兼容
 	- https://www.typescriptlang.org/docs/handbook/type-compatibility.html#any-unknown-object-void-undefined-null-and-never-assignability
 -
