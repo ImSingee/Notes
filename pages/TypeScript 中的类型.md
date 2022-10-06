@@ -35,7 +35,8 @@
 		  s.aaa // 无法访问
 		  ```
 - ## typeof
-	- `typeof x` 与
+	- `typeof x` 与 `typeof(x)` 等价
+	- `typeof` 针对 `null` `number` `string` `boolean`
 	- ```js
 	  typeof null // object
 	  
