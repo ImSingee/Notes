@@ -36,7 +36,9 @@
 		  ```
 - ## typeof
 	- `typeof x` 与 `typeof(x)` 等价
-	- `typeof` 针对 `null` `number` `string` `boolean`
+	- `typeof` 针对 `undefined` `number` `string` `boolean` `symbol` 返回对应的类型名
+	- `typeof null === 'object'`
+	- `typeof alert === 'function`
 	- ```js
 	  typeof null // object
 	  
