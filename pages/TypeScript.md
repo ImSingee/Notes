@@ -1,4 +1,4 @@
 - [[如何运行 TypeScript]]
 - [[TypeScript 中的类型]]
 -
-- 推荐阅读：
+- 推荐阅读：[TypeScript 入门教程](https://ts.xcatliu.com/)
