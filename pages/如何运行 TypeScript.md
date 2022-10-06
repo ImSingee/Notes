@@ -4,13 +4,15 @@
 	- 因为类型检查比较「复杂」，因此很多新的编译器为了速度都是跳过这步的，而是交由 [eslint](https://typescript-eslint.io/) 进行检查
 	- **会执行类型检查的**
 		- [tsc](https://github.com/microsoft/TypeScript) TypeScript 的官方编译器
-	- **解释执行的**（会执行类型检查）
-		- [ts-node](https://www.npmjs.com/package/ts-node)
-		- [deno](https://deno.land/) （[可关闭](https://deno.land/manual@v1.4.1/getting_started/typescript#--no-check-option)）
 	- **不会执行类型检查的**
 		- [esbuild](https://esbuild.github.io/)
 		- [swc](https://swc.rs/)
 		- [Babel](https://www.typescriptlang.org/docs/handbook/babel-with-typescript.html#babel-for-transpiling-tsc-for-types)
+	- **解释执行的（会执行类型检查）**
+		- [ts-node](https://www.npmjs.com/package/ts-node)
+		- [deno](https://deno.land/) （[可关闭](https://deno.land/manual@v1.4.1/getting_started/typescript#--no-check-option)）
+	- **解释执行的（不会执行类型检查）**
+		- [swc-node](https://github.com/swc-project/swc-node)
 	- ## 编译目标
 		- 编译是由 TS 转换为 JS 的过程，编译目标支持 ESNext、ES5、ES6 等多个版本，详情可见[tsconfig 中的 target 配置](https://www.typescriptlang.org/tsconfig#target)
 - # 运行
