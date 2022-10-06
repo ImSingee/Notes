@@ -1,2 +1,5 @@
 - #CruelFundamental #[[2022-10-06]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202210/06)
 -
+- ## BIOS 到 Kernel 的启动过程
+	- 启动时为实模式
+	-
