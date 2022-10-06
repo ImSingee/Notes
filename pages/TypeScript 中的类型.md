@@ -70,4 +70,6 @@
 	- 通常仅用于数字，使用字符串时不如不用 enum
 - ## type 和 interface
 	- 几乎一致
-	- interface 可以被多重扩展（同 namespace 且同名的
+	- type 支持原始类型和 object，而 interface 仅用于 object
+	-
+	- interface 可以被多重扩展（同 namespace 且同名的 interface 会被自动融合）
