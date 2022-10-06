@@ -100,5 +100,6 @@
 - ## Object.create(null) 与 {}
 	- `Object.create(null)` 用于创建一个「真正空的对象」
 	- 因为默认使用 `{}` 创建出来的其实含有一定的成员（参考 [Object](((633f202f-822e-4a5f-b0c7-5e86e8adabb7))) 定义）
-	- 使用 `Object.create(null)` 创建出来的对象不包含任何方法，因此
+	- 使用 `Object.create(null)` 创建出来的对象不包含任何方法，因此 toString、valueOf 等均无法使用（也因此无法被 console.log）
+	- `Object.create(null)` 创建出来的对象通常被用于当作 map，然而 ES6 新增了
 	-
