@@ -1,13 +1,16 @@
 - TS 不能被浏览器（或 Node）直接执行，因此通常需要「编译」成 JavaScript 来运行
-- 这一编译过程分为两步：类型检查 + 类型擦除输出 JS
-- 因为类型检查比较「复杂」，因此很多新的编译器为了速度都是跳过这步的，而是交由 [eslint](https://typescript-eslint.io/) 进行检查
-- **会执行类型检查的**
-	- [tsc](https://github.com/microsoft/TypeScript) TypeScript 的官方编译器
-	- [ts-node](https://www.npmjs.com/package/ts-node)
-	- [deno](https://deno.land/) （[可关闭](https://deno.land/manual@v1.4.1/getting_started/typescript#--no-check-option)）
+- # 编译
+	- 这一编译过程分为两步：类型检查 + 类型擦除输出 JS
+	- 因为类型检查比较「复杂」，因此很多新的编译器为了速度都是跳过这步的，而是交由 [eslint](https://typescript-eslint.io/) 进行检查
+	- **会执行类型检查的**
+		- [tsc](https://github.com/microsoft/TypeScript) TypeScript 的官方编译器
+		- [ts-node](https://www.npmjs.com/package/ts-node)
+		- [deno](https://deno.land/) （[可关闭](https://deno.land/manual@v1.4.1/getting_started/typescript#--no-check-option)）
+		-
+	- **不会执行类型检查的**
+		- [esbuild](https://esbuild.github.io/)
+		- [swc](https://swc.rs/)
+		- [Babel](https://www.typescriptlang.org/docs/handbook/babel-with-typescript.html#babel-for-transpiling-tsc-for-types)
+- # 运行
+	- [TypeScript Playground](https://www.typescriptlang.org/play)
 	-
-- **不会执行类型检查的**
-	- [esbuild](https://esbuild.github.io/)
-	- [swc](https://swc.rs/)
-	- [Babel](https://www.typescriptlang.org/docs/handbook/babel-with-typescript.html#babel-for-transpiling-tsc-for-types)
--
