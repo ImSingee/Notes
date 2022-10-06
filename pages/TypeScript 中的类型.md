@@ -15,5 +15,6 @@
 		- enum
 		- unknown
 		- any
-		- 自定义的 type
-			-
+		- 自定义的 type / interface / namespace
+	-
+		-
