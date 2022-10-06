@@ -7,3 +7,4 @@
 	- [deno](https://deno.land/) （[可关闭](https://deno.land/manual@v1.4.1/getting_started/typescript#--no-check-option)）
 - **不会执行类型检查的**
 	- [esbuild](https://esbuild.github.io/)
+	- [swc](https://swc.rs/)
