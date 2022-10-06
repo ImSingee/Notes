@@ -64,4 +64,7 @@
 	- unknown 为表示类型未知，使用前需做类型检查或类型断言
 - ## 类型兼容
 	- https://www.typescriptlang.org/docs/handbook/type-compatibility.html#any-unknown-object-void-undefined-null-and-never-assignability
--
+- ## enum 类型
+	- enum 类型只能为数字或字符串
+	- 其本质相当于别名
+	- 通常仅用于数字，使用字符串时不如不用 enum
