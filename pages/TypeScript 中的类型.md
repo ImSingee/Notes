@@ -16,5 +16,8 @@
 		- unknown
 		- any
 		- 自定义的 type / interface / namespace
+- ## 包装类型
+	- JS 中存在基本类型 number string boolean
+	- 也存在包装类型 Number String Boolean
+	- 在调用
 	-
-		-
