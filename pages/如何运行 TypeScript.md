@@ -9,5 +9,5 @@
 - **不会执行类型检查的**
 	- [esbuild](https://esbuild.github.io/)
 	- [swc](https://swc.rs/)
-	- [Babel](https://babeljs.io/docs/en/babel-preset-typescript)
+	- [Babel](https://www.typescriptlang.org/docs/handbook/babel-with-typescript.html#babel-for-transpiling-tsc-for-types)
 -
