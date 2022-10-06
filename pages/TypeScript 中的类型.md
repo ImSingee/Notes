@@ -78,4 +78,7 @@
 			- 而 interface 会展示出引用的 interface 的名字
 	- interface 可以被多重扩展（同 namespace 且同名的 interface 会被自动融合）
 	- 对外 API 尽量用 interface（方便扩展）
-	- 对内
+	- 对内则尽量用 type
+- ## 类型区分
+	- typeof
+	- instanceof
