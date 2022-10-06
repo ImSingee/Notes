@@ -68,3 +68,6 @@
 	- enum 类型只能为数字或字符串
 	- 其本质相当于别名
 	- 通常仅用于数字，使用字符串时不如不用 enum
+- ## type 和 interface
+	- 几乎一致
+	- interface 可以被多重扩展（同 namespace 且同名的
