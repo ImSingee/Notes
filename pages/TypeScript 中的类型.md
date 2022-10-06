@@ -34,4 +34,9 @@
 		  s.aaa = 'x' // 定义方法
 		  s.aaa // 无法访问
 		  ```
-	-
+- ## typeof
+	- `typeof x` 与
+	- ```js
+	  typeof null // object
+	  
+	  ```
