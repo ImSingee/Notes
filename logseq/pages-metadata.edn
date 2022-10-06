@@ -3857,6 +3857,9 @@
  {:block/name "readwise/highlights/女朋友问小灰：什么是数据仓库？什么是数据湖？什么是智能湖仓？",
   :block/created-at 1657375514105,
   :block/updated-at 1657375514105}
+ {:block/name "readwise/highlights/如何高效地阅读英文长文？ 使用到的工具：mat...",
+  :block/created-at 1665078627811,
+  :block/updated-at 1665078628817}
  {:block/name "readwise/highlights/完美主义者的渐进学习 · 语雀",
   :block/created-at 1657375514119,
   :block/updated-at 1657375514119}
@@ -4471,7 +4474,7 @@
   :block/updated-at 1657375512916}
  {:block/name "typescript",
   :block/created-at 1664160135971,
-  :block/updated-at 1664160135971}
+  :block/updated-at 1665078907530}
  {:block/name "typical",
   :block/created-at 1643097178020,
   :block/updated-at 1643097178020}
@@ -5161,6 +5164,9 @@
  {:block/name "如何使用redis实现分布式锁？ - redis核心技术与实战",
   :block/created-at 1660157581553,
   :block/updated-at 1660157581553}
+ {:block/name "如何运行 typescript",
+  :block/created-at 1665078931090,
+  :block/updated-at 1665079065444}
  {:block/name "孔令飞",
   :block/created-at 1659870171726,
   :block/updated-at 1659870171726}
