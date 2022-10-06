@@ -71,5 +71,8 @@
 - ## type 和 interface
 	- 几乎一致
 	- type 支持原始类型和 object，而 interface 仅用于 object
-	-
+	- type 本质只是别名，而 interface 为类型声明
+		- 该区分点一般意义不大
+		- 但在 IDE 中提示时可以看到
+			-
 	- interface 可以被多重扩展（同 namespace 且同名的 interface 会被自动融合）
