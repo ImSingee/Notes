@@ -1,11 +1,19 @@
-- ### JS 中的类型
-	- null
-	- undefined
-	- number
-	- bigint
-	- string
-	- boolean
-	- symbol
-	- object（包含 Array, Function, Date ...）
-- ## TS
-	-
+- ## 类型
+	- ### JS 中的类型
+		- null
+		- undefined
+		- number
+		- bigint
+		- string
+		- boolean
+		- symbol
+		- object（包含 Array, Function, Date ...）
+	- ### TS 中的类型
+		- JS 中的所有类型 +
+		- void
+		- never
+		- enum
+		- unknown
+		- any
+		- 自定义的 type
+			-
