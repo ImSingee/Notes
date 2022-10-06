@@ -80,5 +80,6 @@
 	- 对外 API 尽量用 interface（方便扩展）
 	- 对内则尽量用 type
 - ## 类型区分
-	- typeof
-	- instanceof
+	- js 方案：typeof
+	- js 方案：instanceof
+	- TS 方案（类型收窄）：in
