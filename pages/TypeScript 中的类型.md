@@ -57,4 +57,5 @@
 			  ```
 			- 其定义相当于 `object` 的公共方法
 			- 但同样可以通过基本类型访问（因为自动装箱）
+	- 关联阅读：[一文读懂 TS 中 Object, object, {} 类型之间的区别](http://www.semlinker.com/ts-object-type/)
 -
