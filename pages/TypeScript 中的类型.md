@@ -64,7 +64,7 @@
 	- unknown 为表示类型未知，使用前需做类型检查或类型断言
 - ## void
 	- 在 JS 中，[void 为运算符](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/void)
-		-
+		- void 会计算给定的表达式，并返回真正的 undefined
 	- 在 TS 类型系统中，void 代表函数不返回任何值
 		- 如果开启 [strictNullChecks](https://www.typescriptlang.org/tsconfig#strictNullChecks) （通常），禁止在函数中返回任何内容（包括 undefined）
 		- 否则，允许不返回任何内容，或可返回 `any` ,  `unknown` ,  `never` ,  `undefined` , and  `null`
