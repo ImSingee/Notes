@@ -28,7 +28,10 @@
 			  typeof Number(123) // number
 			  ```
 		- `new Number(0)` 的布尔断言为 true（因为所有对象都是 true）
-	- 包装类型是一次性发生的
+	- 包装类型是一次性发生的，产生的是临时对象
 		- ```js
+		  var s = "something"
+		  s.aaa = 'x' // 定义方法
+		  s.aaa // 无法访问
 		  ```
 	-
