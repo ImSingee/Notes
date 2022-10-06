@@ -45,4 +45,16 @@
 		- `object` 代表所有非原始类型，即与 JS 中的语义相同
 		- `Object` 几乎相当于 unknown（但可以调用所有公共方法），其实际上的定义为
 			- ```ts
+			  interface Object {
+			    constructor: Function;
+			    toString(): string;
+			    toLocaleString(): string;
+			    valueOf(): Object;
+			    hasOwnProperty(v: PropertyKey): boolean;
+			    isPrototypeOf(v: Object): boolean;
+			    propertyIsEnumerable(v: PropertyKey): boolean;
+			  }
 			  ```
+			- 其定义相当于 `object` 的公共方法
+			- 但同样可以通过基本类型访问（因为自动装箱）
+-
