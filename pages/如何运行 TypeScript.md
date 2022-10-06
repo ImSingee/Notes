@@ -2,4 +2,5 @@
 - 这一编译过程分为两步：类型检查 + 类型擦除输出 JS
 - 因为类型检查比较「复杂」，因此很多新的编译器为了速度都是跳过这步的，而是交由 [eslint](https://typescript-eslint.io/) 进行检查
 - **会执行类型检查的**
+	- [tsc](https://github.com/microsoft/TypeScript) TypeScript 的官方编译器
 	-
