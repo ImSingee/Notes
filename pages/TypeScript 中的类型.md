@@ -20,5 +20,5 @@
 	- JS 中存在基本类型 number string boolean
 	- 也存在包装类型 Number String Boolean
 	- JS 并非一切皆对象，能对基本类型调用方法仅因为进行了自动装箱，可进一步阅读[原始类型的方法](https://zh.javascript.info/primitives-methods)
-	-
+	- 不推荐自行使用包装类型，因为 typeof 会将包装类型认为是 object
 	-
