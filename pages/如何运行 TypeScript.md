@@ -12,7 +12,7 @@
 		- [swc](https://swc.rs/)
 		- [Babel](https://www.typescriptlang.org/docs/handbook/babel-with-typescript.html#babel-for-transpiling-tsc-for-types)
 	- ## 编译目标
-		- 编译是由
+		- 编译是由 TS 转换为 JS 的过程
 - # 运行
 	- [TypeScript Playground](https://www.typescriptlang.org/play)
 	- [playcode.io](https://playcode.io/typescript) 十分快，但免费只能8行代码
