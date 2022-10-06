@@ -1,0 +1,8 @@
+- ## JS 中的类型
+	- null
+	- undefined
+	- Number
+	- String
+	- Boolean
+	- Symbol
+	-
