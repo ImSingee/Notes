@@ -88,4 +88,6 @@
 		- 本质上其实是 boolean，但告知 TS 其特用于类型收窄
 		- 仅用于函数签名，需自行撰写判断的实现逻辑
 - ## void
--
+	- 在 JS 中，[void 为运算符](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/void)
+	- 在 TS 类型系统中，void 代表函数不返回任何值
+		- 如果开启
