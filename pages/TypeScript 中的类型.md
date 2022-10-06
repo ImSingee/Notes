@@ -82,5 +82,6 @@
 - ## 类型区分
 	- js 方案：typeof 判断大类型
 	- js 方案：instanceof 判断是否为类实例
-	- js 方案：in
-	- TS 方案（类型收窄）：in
+	- js 方案：in 判断实例成员
+	- TS 方案（类型收窄）：is
+		- 本质上其实是 bool
