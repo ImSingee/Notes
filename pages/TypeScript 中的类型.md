@@ -60,4 +60,4 @@
 	- 关联阅读：[一文读懂 TS 中 Object, object, {} 类型之间的区别](http://www.semlinker.com/ts-object-type/)
 - ## any 和 unknwon
 	- 二者同属 TS 中的顶级类型
-	- any 约等于关闭类型检查
+	- any 约等于关闭类型检查（除
