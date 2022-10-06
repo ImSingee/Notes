@@ -38,7 +38,8 @@
 	- `typeof x` 与 `typeof(x)` 等价
 	- `typeof` 针对 `undefined` `number` `string` `boolean` `symbol` 返回对应的类型名
 	- `typeof null === 'object'`
-	- `typeof alert === 'function`
+	- `typeof` 对于函数会特殊处理，尽管函数也属于 object，但它会返回特殊的 function `typeof alert === 'function'`
+	- `typeof` 对于 Array、Date 等均无特殊处理，仅会返回 object
 	- ```js
 	  typeof null // object
 	  
