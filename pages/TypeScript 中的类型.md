@@ -67,7 +67,7 @@
 		- `void x` 与 `void(x)` 相同
 		- void 会计算给定的表达式，并返回真正的 undefined
 			- `void`  运算符通常只用于获取  `undefined`  的原始值，一般使用  `void(0)` （等同于  `void 0` ）
-			- 部分情况会使用 `void 0` 代替 `undefined`
+			- 部分情况会使用 `void 0` 代替 `undefined`，因为 undefined 本质是全局变量而非关键字
 	- 在 TS 类型系统中，void 代表函数不返回任何值
 		- 如果开启 [strictNullChecks](https://www.typescriptlang.org/tsconfig#strictNullChecks) （通常），禁止在函数中返回任何内容（包括 undefined）
 		- 否则，允许不返回任何内容，或可返回 `any` ,  `unknown` ,  `never` ,  `undefined` , and  `null`
@@ -96,3 +96,4 @@
 	- TS 方案：[is](https://stackoverflow.com/questions/40081332/what-does-the-is-keyword-do-in-typescript)
 		- 本质上其实是 boolean，但告知 TS 其特用于类型收窄
 		- 仅用于函数签名，需自行撰写判断的实现逻辑
+- ## Object.create(null)
