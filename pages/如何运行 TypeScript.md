@@ -5,6 +5,7 @@
 	- [tsc](https://github.com/microsoft/TypeScript) TypeScript 的官方编译器
 	- [ts-node](https://www.npmjs.com/package/ts-node)
 	- [deno](https://deno.land/) （[可关闭](https://deno.land/manual@v1.4.1/getting_started/typescript#--no-check-option)）
+	- [Babel](https://babeljs.io/docs/en/babel-preset-typescript)
 - **不会执行类型检查的**
 	- [esbuild](https://esbuild.github.io/)
 	- [swc](https://swc.rs/)
