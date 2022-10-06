@@ -87,3 +87,5 @@
 	- TS 方案：[is](https://stackoverflow.com/questions/40081332/what-does-the-is-keyword-do-in-typescript)
 		- 本质上其实是 boolean，但告知 TS 其特用于类型收窄
 		- 仅用于函数签名，需自行撰写判断的实现逻辑
+- ## void
+-
