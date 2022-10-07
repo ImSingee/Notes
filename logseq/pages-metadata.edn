@@ -3849,6 +3849,10 @@
   :block/created-at 1665092873576,
   :block/updated-at 1665092874649}
  {:block/name
+  "readwise/highlights/基本的数据处理指令 - 在 apple silicon mac 上入门汇编语言",
+  :block/created-at 1665122107820,
+  :block/updated-at 1665122108765}
+ {:block/name
   "readwise/highlights/大咖助阵｜徐祥曦：从销售到分布式存储工程师，我与 go  的故事 - tony bai · go语言第一课",
   :block/created-at 1659870174975,
   :block/updated-at 1659870174975}
@@ -3955,6 +3959,10 @@
  {:block/name "readwise/highlights/死记硬背（填鸭式学习）",
   :block/created-at 1657375514381,
   :block/updated-at 1657375514381}
+ {:block/name
+  "readwise/highlights/汇编指令与寄存器 - 在 apple silicon mac 上入门汇编语言",
+  :block/created-at 1665122106832,
+  :block/updated-at 1665122107775}
  {:block/name
   "readwise/highlights/汇编语言初识 - 在 apple silicon mac 上入门汇编语言",
   :block/created-at 1665092875621,
