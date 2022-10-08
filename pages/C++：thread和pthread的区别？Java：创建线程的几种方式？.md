@@ -1,7 +1,7 @@
 - #CruelFundamental #[[2022-10-08]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202210/08) #多线程
 -
 - # Java：创建线程的几种方式？
-	- 创建继承 Thread 的类，重写 run 方法；实例化该类，调用 start 方法
-	- 创建实现 Runnable 接口的类，实现 run 方法；实例化该类，调用 start 方法
+	- 方法一：创建继承 Thread 的类，重写 run 方法；实例化该类，调用 start 方法
+	- 方法二：创建实现 Runnable 接口的类，实现 run 方法；实例化该类，调用 start 方法
 	- **以上二者的问题：无法获得执行结果（返回值）**
-	-
+	- 方法三：创建实现 Callable 接口的类，
