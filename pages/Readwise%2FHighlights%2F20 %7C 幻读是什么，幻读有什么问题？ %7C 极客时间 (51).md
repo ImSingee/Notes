@@ -1,6 +1,6 @@
-title:: Readwise/Highlights/18 | 为什么这些sql语句逻辑相同，性能却差异巨大？ | 极客时间 (33)
+title:: Readwise/Highlights/20 | 幻读是什么，幻读有什么问题？ | 极客时间 (51)
 author:: [[time.geekbang.org]]
-full-title:: 18 | 为什么这些sql语句逻辑相同，性能却差异巨大？ | 极客时间
+full-title:: 20 | 幻读是什么，幻读有什么问题？ | 极客时间
 category:: #articles
 url:: https://time.geekbang.org/column/article/70848
 
