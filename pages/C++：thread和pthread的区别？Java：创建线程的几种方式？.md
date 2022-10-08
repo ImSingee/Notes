@@ -1,4 +1,5 @@
 - #CruelFundamental #[[2022-10-08]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202210/08)
 -
 - # Java：创建线程的几种方式？
-	- 创建类
+	- 创建继承 Thread 类，重写 run 方法
+	-
