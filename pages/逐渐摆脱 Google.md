@@ -4,4 +4,4 @@
 	- 计划于 2023-3-31 前完成非网盘数据的停用
 	- 计划逐渐将网盘切换至 Mega / ProtonDrive
 - # Gmail
-	- 所有新的邮箱使用 ProtonMail
+	- 所有新的注册邮箱使用 ProtonMail
