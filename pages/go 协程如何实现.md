@@ -24,4 +24,5 @@
 		- 执行时间过长 [ref](https://github.com/golang/go/blob/go1.19.2/src/runtime/proc.go#L5308)
 			- （对于非系统调用情况）利用信号抢占 M
 	- ### Go 的抢占式调度是怎么实现的
-		- 监控抢占条件：系统存在
+		- 监控抢占条件：Go 存在一个全局的监控循环
+		- 抢占 M 实现原理：信号机制（SIGU
