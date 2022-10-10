@@ -1,0 +1,4 @@
+- #CruelFundamental #[[2022-10-10]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202210/10) #Go
+-
+- Go 的 [[协程]] 名为 Goroutine
+-
