@@ -23,3 +23,5 @@
 			- 抢占 P：即保留原来 G 和 M 的绑定关系，而解绑 M 和 P
 		- 执行时间过长 [ref](https://github.com/golang/go/blob/go1.19.2/src/runtime/proc.go#L5308)
 			- （对于非系统调用情况）利用信号抢占 M
+	- ### Go 的抢占式调度是怎么实现的
+		- 监控抢占条件：系统存在
