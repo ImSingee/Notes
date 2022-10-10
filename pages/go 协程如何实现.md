@@ -8,7 +8,7 @@
 	- Go 的调度模型为 GMP
 		- G Goroutine
 		- M Machine 指的是真实的操作系统中的线程
-		- P Processor 可以理解为一个「调度器」
+		- P Processor 可以理解为一个「管理员」，用于处理 G 和 M 的关系
 	- G 是在 M 上执行的
 	-
 		-
