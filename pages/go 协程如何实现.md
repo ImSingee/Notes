@@ -1,6 +1,6 @@
 - #CruelFundamental #[[2022-10-10]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202210/10) #Go
 -
 - Go 的 [[协程]] 名为 Goroutine，是 Go + Coroutine 的融合词
-- Goroutine 是 Go 中
+- Goroutine 是 Go 中的核心组成，Go 有意的弱化了（甚至可以说无法使用）多进程和多线程的编程模型，利用支持抢占式调度的 Goroutine 来实现了基于
 -
 -
