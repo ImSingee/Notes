@@ -10,11 +10,12 @@
 		- M Machine 指的是真实的操作系统中的线程
 		- P Processor 可以理解为一个「管理员」，用于处理 G 和 M 的关系
 		- M 与 P 为 1:1，二者为「绑定」关系
+		-
 		- M 与 G 的比例关系不定，通常称之为 1:N 模型
 	- G 是在 M 上执行的，如果 G 创建了一个新的 G，那么该 G 会被放于与 G 所位于的 M 相绑定的 P 所拥有的一个队列中（称为 local queue）等待执行
 		- local queue 有一定的容量，如果容量到了会改为放于全局队列（称为 global queue）中
 	- 当 G 执行完时（或超时被暂停时），M 会去 P 的 local queue 中查找 Goroutine 去执行
-		- 如果 P 的 local queue 为空，其会从全局或
+		- 如果 P 的 local queue 为空，其会从全局或其他 M 的 P 的 local queue 中抢占
 			-
 -
 -
