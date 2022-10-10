@@ -2804,6 +2804,10 @@
   :block/created-at 1665387016539,
   :block/updated-at 1665387017117}
  {:block/name
+  "readwise/highlights/02  | 日志系统：一条sql更新语句是如何执行的？-极客时间 (62)",
+  :block/created-at 1665388388187,
+  :block/updated-at 1665388388836}
+ {:block/name
   "readwise/highlights/02  | 日志系统：一条sql更新语句是如何执行的？-极客时间 (7)",
   :block/created-at 1665177463431,
   :block/updated-at 1665177464199}
@@ -3259,6 +3263,10 @@
   :block/created-at 1665387088705,
   :block/updated-at 1665387089305}
  {:block/name
+  "readwise/highlights/1.3 分布式系统的抽象和实现工具（abstraction and implementation） - mit6.824 (62)",
+  :block/created-at 1665388444889,
+  :block/updated-at 1665388446565}
+ {:block/name
   "readwise/highlights/1.3 分布式系统的抽象和实现工具（abstraction and implementation） - mit6.824 (7)",
   :block/created-at 1665177511257,
   :block/updated-at 1665177512386}
@@ -3429,6 +3437,9 @@
  {:block/name "readwise/highlights/1.4 plan 9 汇编语言 (61)",
   :block/created-at 1665387004967,
   :block/updated-at 1665387005646}
+ {:block/name "readwise/highlights/1.4 plan 9 汇编语言 (62)",
+  :block/created-at 1665388376766,
+  :block/updated-at 1665388377356}
  {:block/name "readwise/highlights/1.4 plan 9 汇编语言 (7)",
   :block/created-at 1665177450293,
   :block/updated-at 1665177451276}
@@ -3639,6 +3650,10 @@
   "readwise/highlights/1.7 mapreduce基本工作方式 - mit6.824 (61)",
   :block/created-at 1665387087904,
   :block/updated-at 1665387088541}
+ {:block/name
+  "readwise/highlights/1.7 mapreduce基本工作方式 - mit6.824 (62)",
+  :block/created-at 1665388443079,
+  :block/updated-at 1665388444696}
  {:block/name "readwise/highlights/1.7 mapreduce基本工作方式 - mit6.824 (7)",
   :block/created-at 1665177510434,
   :block/updated-at 1665177511210}
@@ -3804,6 +3819,9 @@
  {:block/name "readwise/highlights/1.8 map函数和reduce函数 - mit6.824 (61)",
   :block/created-at 1665387086217,
   :block/updated-at 1665387087575}
+ {:block/name "readwise/highlights/1.8 map函数和reduce函数 - mit6.824 (62)",
+  :block/created-at 1665388441223,
+  :block/updated-at 1665388442806}
  {:block/name "readwise/highlights/1.8 map函数和reduce函数 - mit6.824 (7)",
   :block/created-at 1665177509279,
   :block/updated-at 1665177510377}
@@ -4006,6 +4024,14 @@
   "readwise/highlights/18 | 为什么这些sql语句逻辑相同，性能却差异巨大？ | 极客时间 (122)",
   :block/created-at 1665387023780,
   :block/updated-at 1665387024380}
+ {:block/name
+  "readwise/highlights/18 | 为什么这些sql语句逻辑相同，性能却差异巨大？ | 极客时间 (123)",
+  :block/created-at 1665388389849,
+  :block/updated-at 1665388390439}
+ {:block/name
+  "readwise/highlights/18 | 为什么这些sql语句逻辑相同，性能却差异巨大？ | 极客时间 (124)",
+  :block/created-at 1665388395418,
+  :block/updated-at 1665388395996}
  {:block/name
   "readwise/highlights/18 | 为什么这些sql语句逻辑相同，性能却差异巨大？ | 极客时间 (13)",
   :block/created-at 1665177465431,
@@ -4639,6 +4665,15 @@
  {:block/name "readwise/highlights/20 | 幻读是什么，幻读有什么问题？ | 极客时间 (183)",
   :block/created-at 1665387026361,
   :block/updated-at 1665387026955}
+ {:block/name "readwise/highlights/20 | 幻读是什么，幻读有什么问题？ | 极客时间 (184)",
+  :block/created-at 1665388396215,
+  :block/updated-at 1665388396887}
+ {:block/name "readwise/highlights/20 | 幻读是什么，幻读有什么问题？ | 极客时间 (185)",
+  :block/created-at 1665388397066,
+  :block/updated-at 1665388397653}
+ {:block/name "readwise/highlights/20 | 幻读是什么，幻读有什么问题？ | 极客时间 (186)",
+  :block/created-at 1665388398034,
+  :block/updated-at 1665388398638}
  {:block/name "readwise/highlights/20 | 幻读是什么，幻读有什么问题？ | 极客时间 (19)",
   :block/created-at 1665177473433,
   :block/updated-at 1665177474256}
@@ -5053,6 +5088,9 @@
  {:block/name "readwise/highlights/2020 年度应用：这 16 款年度应用，和往年不太一样 (61)",
   :block/created-at 1665386930755,
   :block/updated-at 1665386931361}
+ {:block/name "readwise/highlights/2020 年度应用：这 16 款年度应用，和往年不太一样 (62)",
+  :block/created-at 1665388284912,
+  :block/updated-at 1665388285769}
  {:block/name "readwise/highlights/2020 年度应用：这 16 款年度应用，和往年不太一样 (7)",
   :block/created-at 1665177368349,
   :block/updated-at 1665177369349}
@@ -5333,6 +5371,10 @@
   :block/created-at 1665387084280,
   :block/updated-at 1665387086038}
  {:block/name
+  "readwise/highlights/3.1分布式存储系统的难点（why hard） - mit6.824 (62)",
+  :block/created-at 1665388439121,
+  :block/updated-at 1665388440877}
+ {:block/name
   "readwise/highlights/3.1分布式存储系统的难点（why hard） - mit6.824 (7)",
   :block/created-at 1665177508418,
   :block/updated-at 1665177509241}
@@ -5552,6 +5594,10 @@
   "readwise/highlights/3.6 gfs写文件（write file）（1） - mit6.824 (61)",
   :block/created-at 1665387093639,
   :block/updated-at 1665387094225}
+ {:block/name
+  "readwise/highlights/3.6 gfs写文件（write file）（1） - mit6.824 (62)",
+  :block/created-at 1665388456188,
+  :block/updated-at 1665388457864}
  {:block/name
   "readwise/highlights/3.6 gfs写文件（write file）（1） - mit6.824 (7)",
   :block/created-at 1665177517266,
@@ -5773,6 +5819,10 @@
   :block/created-at 1665387092806,
   :block/updated-at 1665387093400}
  {:block/name
+  "readwise/highlights/3.7 gfs写文件（write file）（2） - mit6.824 (62)",
+  :block/created-at 1665388454240,
+  :block/updated-at 1665388455948}
+ {:block/name
   "readwise/highlights/3.7 gfs写文件（write file）（2） - mit6.824 (7)",
   :block/created-at 1665177516429,
   :block/updated-at 1665177517219}
@@ -5940,6 +5990,9 @@
  {:block/name "readwise/highlights/3.8 gfs的一致性 - mit6.824 (61)",
   :block/created-at 1665387091952,
   :block/updated-at 1665387092623}
+ {:block/name "readwise/highlights/3.8 gfs的一致性 - mit6.824 (62)",
+  :block/created-at 1665388452052,
+  :block/updated-at 1665388454013}
  {:block/name "readwise/highlights/3.8 gfs的一致性 - mit6.824 (7)",
   :block/created-at 1665177515264,
   :block/updated-at 1665177516379}
@@ -6180,6 +6233,10 @@
   "readwise/highlights/4.1 复制（replication） - mit6.824 (61)",
   :block/created-at 1665387091167,
   :block/updated-at 1665387091759}
+ {:block/name
+  "readwise/highlights/4.1 复制（replication） - mit6.824 (62)",
+  :block/created-at 1665388449949,
+  :block/updated-at 1665388451810}
  {:block/name "readwise/highlights/4.1 复制（replication） - mit6.824 (7)",
   :block/created-at 1665177514403,
   :block/updated-at 1665177515213}
@@ -6397,6 +6454,10 @@
   "readwise/highlights/4.2 状态转移和复制状态机（state transfer and replicated state machine） - mit6.824 (61)",
   :block/created-at 1665387090425,
   :block/updated-at 1665387091009}
+ {:block/name
+  "readwise/highlights/4.2 状态转移和复制状态机（state transfer and replicated state machine） - mit6.824 (62)",
+  :block/created-at 1665388447887,
+  :block/updated-at 1665388449769}
  {:block/name
   "readwise/highlights/4.2 状态转移和复制状态机（state transfer and replicated state machine） - mit6.824 (7)",
   :block/created-at 1665177513255,
@@ -6618,6 +6679,10 @@
   "readwise/highlights/60 | 透明通讯的涅槃（下）：控制平面与数据平面-极客时间 (61)",
   :block/created-at 1665387047241,
   :block/updated-at 1665387049004}
+ {:block/name
+  "readwise/highlights/60 | 透明通讯的涅槃（下）：控制平面与数据平面-极客时间 (62)",
+  :block/created-at 1665388409522,
+  :block/updated-at 1665388410108}
  {:block/name "readwise/highlights/60 | 透明通讯的涅槃（下）：控制平面与数据平面-极客时间 (7)",
   :block/created-at 1665177489342,
   :block/updated-at 1665177490279}
@@ -6792,6 +6857,9 @@
  {:block/name "readwise/highlights/@suppresswarnings 用法-吴师兄学编程 (61)",
   :block/created-at 1665386995353,
   :block/updated-at 1665386996003}
+ {:block/name "readwise/highlights/@suppresswarnings 用法-吴师兄学编程 (62)",
+  :block/created-at 1665388368729,
+  :block/updated-at 1665388369328}
  {:block/name "readwise/highlights/@suppresswarnings 用法-吴师兄学编程 (7)",
   :block/created-at 1665177440381,
   :block/updated-at 1665177441229}
@@ -7022,6 +7090,10 @@
   :block/created-at 1665386975870,
   :block/updated-at 1665386976568}
  {:block/name
+  "readwise/highlights/addchild(_:) | apple developer documentation (62)",
+  :block/created-at 1665388355774,
+  :block/updated-at 1665388356360}
+ {:block/name
   "readwise/highlights/addchild(_:) | apple developer documentation (7)",
   :block/created-at 1665177424353,
   :block/updated-at 1665177425138}
@@ -7240,6 +7312,10 @@
   "readwise/highlights/anki高考的20条原则—来自《有效的学习：组织知识的20条原则》 (61)",
   :block/created-at 1665387061273,
   :block/updated-at 1665387063006}
+ {:block/name
+  "readwise/highlights/anki高考的20条原则—来自《有效的学习：组织知识的20条原则》 (62)",
+  :block/created-at 1665388415145,
+  :block/updated-at 1665388415719}
  {:block/name
   "readwise/highlights/anki高考的20条原则—来自《有效的学习：组织知识的20条原则》 (7)",
   :block/created-at 1665177496292,
@@ -7483,6 +7559,10 @@
   :block/created-at 1665386929927,
   :block/updated-at 1665386930578}
  {:block/name
+  "readwise/highlights/apple car 或定位极高端车型 / ios 微信发布 8.0.2 版 / 北京上线防商家卷款跑路平台 (62)",
+  :block/created-at 1665388282949,
+  :block/updated-at 1665388284662}
+ {:block/name
   "readwise/highlights/apple car 或定位极高端车型 / ios 微信发布 8.0.2 版 / 北京上线防商家卷款跑路平台 (7)",
   :block/created-at 1665177367384,
   :block/updated-at 1665177368312}
@@ -7656,6 +7736,9 @@
  {:block/name "readwise/highlights/apple id密码规则 - google 搜尋 (61)",
   :block/created-at 1665386997556,
   :block/updated-at 1665386998179}
+ {:block/name "readwise/highlights/apple id密码规则 - google 搜尋 (62)",
+  :block/created-at 1665388370405,
+  :block/updated-at 1665388370983}
  {:block/name "readwise/highlights/apple id密码规则 - google 搜尋 (7)",
   :block/created-at 1665177442401,
   :block/updated-at 1665177443259}
@@ -7827,6 +7910,9 @@
  {:block/name "readwise/highlights/bminor/glibc (61)",
   :block/created-at 1665386991231,
   :block/updated-at 1665386991826}
+ {:block/name "readwise/highlights/bminor/glibc (62)",
+  :block/created-at 1665388364623,
+  :block/updated-at 1665388365219}
  {:block/name "readwise/highlights/bminor/glibc (7)",
   :block/created-at 1665177435283,
   :block/updated-at 1665177436342}
@@ -8046,6 +8132,9 @@
  {:block/name "readwise/highlights/dnspeep - v2ex (61)",
   :block/created-at 1665386943528,
   :block/updated-at 1665386944120}
+ {:block/name "readwise/highlights/dnspeep - v2ex (62)",
+  :block/created-at 1665388311715,
+  :block/updated-at 1665388312308}
  {:block/name "readwise/highlights/dnspeep - v2ex (7)",
   :block/created-at 1665177384300,
   :block/updated-at 1665177385288}
@@ -8217,6 +8306,9 @@
  {:block/name "readwise/highlights/dup(2) - linux manual page (61)",
   :block/created-at 1665386984817,
   :block/updated-at 1665386986649}
+ {:block/name "readwise/highlights/dup(2) - linux manual page (62)",
+  :block/created-at 1665388361420,
+  :block/updated-at 1665388361996}
  {:block/name "readwise/highlights/dup(2) - linux manual page (7)",
   :block/created-at 1665177431292,
   :block/updated-at 1665177432374}
@@ -8435,6 +8527,10 @@
   :block/created-at 1665387040975,
   :block/updated-at 1665387042756}
  {:block/name
+  "readwise/highlights/ebpf 核心技术与实战_k8s_kubernetes_云计算_倪朋飞_linux_运维_内核_性能优化_网络观测_安全控制-极客时间 (62)",
+  :block/created-at 1665388407130,
+  :block/updated-at 1665388407726}
+ {:block/name
   "readwise/highlights/ebpf 核心技术与实战_k8s_kubernetes_云计算_倪朋飞_linux_运维_内核_性能优化_网络观测_安全控制-极客时间 (7)",
   :block/created-at 1665177486331,
   :block/updated-at 1665177487299}
@@ -8605,6 +8701,9 @@
  {:block/name "readwise/highlights/epoll 能监听普通文件吗？ (61)",
   :block/created-at 1665386947421,
   :block/updated-at 1665386948009}
+ {:block/name "readwise/highlights/epoll 能监听普通文件吗？ (62)",
+  :block/created-at 1665388315842,
+  :block/updated-at 1665388316419}
  {:block/name "readwise/highlights/epoll 能监听普通文件吗？ (7)",
   :block/created-at 1665177389359,
   :block/updated-at 1665177390084}
@@ -8773,6 +8872,9 @@
  {:block/name "readwise/highlights/epoll(7) - linux manual page (61)",
   :block/created-at 1665386989130,
   :block/updated-at 1665386989805}
+ {:block/name "readwise/highlights/epoll(7) - linux manual page (62)",
+  :block/created-at 1665388363022,
+  :block/updated-at 1665388363610}
  {:block/name "readwise/highlights/epoll(7) - linux manual page (7)",
   :block/created-at 1665177433278,
   :block/updated-at 1665177434373}
@@ -8999,6 +9101,10 @@
   :block/created-at 1665386975131,
   :block/updated-at 1665386975706}
  {:block/name
+  "readwise/highlights/experiment on your code freely with git worktree (62)",
+  :block/created-at 1665388354992,
+  :block/updated-at 1665388355589}
+ {:block/name
   "readwise/highlights/experiment on your code freely with git worktree (7)",
   :block/created-at 1665177423058,
   :block/updated-at 1665177424314}
@@ -9179,6 +9285,9 @@
  {:block/name "readwise/highlights/git - git 对象 (61)",
   :block/created-at 1665386957980,
   :block/updated-at 1665386958571}
+ {:block/name "readwise/highlights/git - git 对象 (62)",
+  :block/created-at 1665388329081,
+  :block/updated-at 1665388331003}
  {:block/name "readwise/highlights/git - git 对象 (7)",
   :block/created-at 1665177402320,
   :block/updated-at 1665177403361}
@@ -9350,6 +9459,9 @@
  {:block/name "readwise/highlights/git - 底层命令与上层命令 (61)",
   :block/created-at 1665386958777,
   :block/updated-at 1665386959424}
+ {:block/name "readwise/highlights/git - 底层命令与上层命令 (62)",
+  :block/created-at 1665388331219,
+  :block/updated-at 1665388333024}
  {:block/name "readwise/highlights/git - 底层命令与上层命令 (7)",
   :block/created-at 1665177403400,
   :block/updated-at 1665177404231}
@@ -9518,6 +9630,9 @@
  {:block/name "readwise/highlights/git as a nosql database (61)",
   :block/created-at 1665386968634,
   :block/updated-at 1665386969235}
+ {:block/name "readwise/highlights/git as a nosql database (62)",
+  :block/created-at 1665388346776,
+  :block/updated-at 1665388347587}
  {:block/name "readwise/highlights/git as a nosql database (7)",
   :block/created-at 1665177415345,
   :block/updated-at 1665177416269}
@@ -9686,6 +9801,9 @@
  {:block/name "readwise/highlights/go 1.13 中值得关注的几个变化 (61)",
   :block/created-at 1665386970267,
   :block/updated-at 1665386970949}
+ {:block/name "readwise/highlights/go 1.13 中值得关注的几个变化 (62)",
+  :block/created-at 1665388350003,
+  :block/updated-at 1665388350610}
  {:block/name "readwise/highlights/go 1.13 中值得关注的几个变化 (7)",
   :block/created-at 1665177417305,
   :block/updated-at 1665177418278}
@@ -9854,6 +9972,9 @@
  {:block/name "readwise/highlights/go 平滑重启 (61)",
   :block/created-at 1665386963760,
   :block/updated-at 1665386964377}
+ {:block/name "readwise/highlights/go 平滑重启 (62)",
+  :block/created-at 1665388341735,
+  :block/updated-at 1665388342333}
  {:block/name "readwise/highlights/go 平滑重启 (7)",
   :block/created-at 1665177409396,
   :block/updated-at 1665177410275}
@@ -10025,6 +10146,9 @@
  {:block/name "readwise/highlights/go 逃逸分析 | go 语言高性能编程 | 极客兔兔 (61)",
   :block/created-at 1665387030880,
   :block/updated-at 1665387032649}
+ {:block/name "readwise/highlights/go 逃逸分析 | go 语言高性能编程 | 极客兔兔 (62)",
+  :block/created-at 1665388402156,
+  :block/updated-at 1665388402759}
  {:block/name "readwise/highlights/go 逃逸分析 | go 语言高性能编程 | 极客兔兔 (7)",
   :block/created-at 1665177480282,
   :block/updated-at 1665177481346}
@@ -10190,6 +10314,9 @@
  {:block/name "readwise/highlights/golang mgp 调度器 (61)",
   :block/created-at 1665387037790,
   :block/updated-at 1665387038778}
+ {:block/name "readwise/highlights/golang mgp 调度器 (62)",
+  :block/created-at 1665388405452,
+  :block/updated-at 1665388406032}
  {:block/name "readwise/highlights/golang mgp 调度器 (7)",
   :block/created-at 1665177484321,
   :block/updated-at 1665177485131}
@@ -10410,6 +10537,10 @@
   "readwise/highlights/goroutine是如何处理栈的？ - jiajun的编程随想 (61)",
   :block/created-at 1665386957107,
   :block/updated-at 1665386957711}
+ {:block/name
+  "readwise/highlights/goroutine是如何处理栈的？ - jiajun的编程随想 (62)",
+  :block/created-at 1665388327044,
+  :block/updated-at 1665388328892}
  {:block/name
   "readwise/highlights/goroutine是如何处理栈的？ - jiajun的编程随想 (7)",
   :block/created-at 1665177401395,
@@ -10641,6 +10772,10 @@
   :block/created-at 1665386933986,
   :block/updated-at 1665386934584}
  {:block/name
+  "readwise/highlights/go工程化(三) 依赖注入框架 wire - mohuishou (62)",
+  :block/created-at 1665388292211,
+  :block/updated-at 1665388293979}
+ {:block/name
   "readwise/highlights/go工程化(三) 依赖注入框架 wire - mohuishou (7)",
   :block/created-at 1665177372322,
   :block/updated-at 1665177373358}
@@ -10814,6 +10949,9 @@
  {:block/name "readwise/highlights/go工程化(八) 单元测试 - mohuishou (61)",
   :block/created-at 1665386933197,
   :block/updated-at 1665386933797}
+ {:block/name "readwise/highlights/go工程化(八) 单元测试 - mohuishou (62)",
+  :block/created-at 1665388290213,
+  :block/updated-at 1665388291984}
  {:block/name "readwise/highlights/go工程化(八) 单元测试 - mohuishou (7)",
   :block/created-at 1665177371424,
   :block/updated-at 1665177372280}
@@ -10982,6 +11120,9 @@
  {:block/name "readwise/highlights/go微服务全链路跟踪详解 (61)",
   :block/created-at 1665386945075,
   :block/updated-at 1665386945645}
+ {:block/name "readwise/highlights/go微服务全链路跟踪详解 (62)",
+  :block/created-at 1665388313364,
+  :block/updated-at 1665388313956}
  {:block/name "readwise/highlights/go微服务全链路跟踪详解 (7)",
   :block/created-at 1665177386267,
   :block/updated-at 1665177387278}
@@ -11153,6 +11294,9 @@
  {:block/name "readwise/highlights/go语言中kill子进程的正确姿势 (61)",
   :block/created-at 1665386942704,
   :block/updated-at 1665386943298}
+ {:block/name "readwise/highlights/go语言中kill子进程的正确姿势 (62)",
+  :block/created-at 1665388310893,
+  :block/updated-at 1665388311547}
  {:block/name "readwise/highlights/go语言中kill子进程的正确姿势 (7)",
   :block/created-at 1665177383401,
   :block/updated-at 1665177384268}
@@ -11321,6 +11465,9 @@
  {:block/name "readwise/highlights/go语言如何实现可重入锁？ (61)",
   :block/created-at 1665386979024,
   :block/updated-at 1665386980792}
+ {:block/name "readwise/highlights/go语言如何实现可重入锁？ (62)",
+  :block/created-at 1665388358183,
+  :block/updated-at 1665388358779}
  {:block/name "readwise/highlights/go语言如何实现可重入锁？ (7)",
   :block/created-at 1665177427319,
   :block/updated-at 1665177428357}
@@ -11551,6 +11698,10 @@
   :block/created-at 1665386982781,
   :block/updated-at 1665386983687}
  {:block/name
+  "readwise/highlights/habitify：可能是习惯管理工具的最终形态 ｜ 少数派会员  π+prime (62)",
+  :block/created-at 1665388359729,
+  :block/updated-at 1665388360365}
+ {:block/name
   "readwise/highlights/habitify：可能是习惯管理工具的最终形态 ｜ 少数派会员  π+prime (7)",
   :block/created-at 1665177429281,
   :block/updated-at 1665177430358}
@@ -11721,6 +11872,9 @@
  {:block/name "readwise/highlights/harmonyos到底是不是android套皮？ (61)",
   :block/created-at 1665386974375,
   :block/updated-at 1665386974960}
+ {:block/name "readwise/highlights/harmonyos到底是不是android套皮？ (62)",
+  :block/created-at 1665388354198,
+  :block/updated-at 1665388354815}
  {:block/name "readwise/highlights/harmonyos到底是不是android套皮？ (7)",
   :block/created-at 1665177422249,
   :block/updated-at 1665177423021}
@@ -11957,6 +12111,10 @@
   "readwise/highlights/how to build a text editor like notion (61)",
   :block/created-at 1665387089578,
   :block/updated-at 1665387090186}
+ {:block/name
+  "readwise/highlights/how to build a text editor like notion (62)",
+  :block/created-at 1665388446741,
+  :block/updated-at 1665388447714}
  {:block/name
   "readwise/highlights/how to build a text editor like notion (7)",
   :block/created-at 1665177512419,
@@ -12235,6 +12393,10 @@
   :block/created-at 1665386959601,
   :block/updated-at 1665386960281}
  {:block/name
+  "readwise/highlights/jvm的内存模型 - 乐心湖's blog | 技术小白的技术博客 (62)",
+  :block/created-at 1665388333340,
+  :block/updated-at 1665388334781}
+ {:block/name
   "readwise/highlights/jvm的内存模型 - 乐心湖's blog | 技术小白的技术博客 (7)",
   :block/created-at 1665177404268,
   :block/updated-at 1665177405343}
@@ -12405,6 +12567,9 @@
  {:block/name "readwise/highlights/k8s 在有赞 paas 测试环境中的实践-infoq (61)",
   :block/created-at 1665387002925,
   :block/updated-at 1665387003531}
+ {:block/name "readwise/highlights/k8s 在有赞 paas 测试环境中的实践-infoq (62)",
+  :block/created-at 1665388375148,
+  :block/updated-at 1665388375740}
  {:block/name "readwise/highlights/k8s 在有赞 paas 测试环境中的实践-infoq (7)",
   :block/created-at 1665177448337,
   :block/updated-at 1665177449294}
@@ -12576,6 +12741,9 @@
  {:block/name "readwise/highlights/linux入门的基础知识点，有这篇就够了（持续更新） (61)",
   :block/created-at 1665386948177,
   :block/updated-at 1665386948760}
+ {:block/name "readwise/highlights/linux入门的基础知识点，有这篇就够了（持续更新） (62)",
+  :block/created-at 1665388316589,
+  :block/updated-at 1665388317176}
  {:block/name "readwise/highlights/linux入门的基础知识点，有这篇就够了（持续更新） (7)",
   :block/created-at 1665177390119,
   :block/updated-at 1665177391368}
@@ -12814,6 +12982,10 @@
   :block/created-at 1665386932368,
   :block/updated-at 1665386932968}
  {:block/name
+  "readwise/highlights/matrix 周报 034｜vivaldi、arcade 和理想的数字生活 (62)",
+  :block/created-at 1665388288204,
+  :block/updated-at 1665388289954}
+ {:block/name
   "readwise/highlights/matrix 周报 034｜vivaldi、arcade 和理想的数字生活 (7)",
   :block/created-at 1665177370349,
   :block/updated-at 1665177371357}
@@ -12991,6 +13163,9 @@
  {:block/name "readwise/highlights/mysql-不能忽略的 collation (61)",
   :block/created-at 1665386939562,
   :block/updated-at 1665386940163}
+ {:block/name "readwise/highlights/mysql-不能忽略的 collation (62)",
+  :block/created-at 1665388306203,
+  :block/updated-at 1665388307978}
  {:block/name "readwise/highlights/mysql-不能忽略的 collation (7)",
   :block/created-at 1665177379377,
   :block/updated-at 1665177380247}
@@ -13212,6 +13387,10 @@
   "readwise/highlights/okr + gtd + note -- logseq · 构建我的被动收入 (61)",
   :block/created-at 1665387013214,
   :block/updated-at 1665387013810}
+ {:block/name
+  "readwise/highlights/okr + gtd + note -- logseq · 构建我的被动收入 (62)",
+  :block/created-at 1665388384920,
+  :block/updated-at 1665388385565}
  {:block/name
   "readwise/highlights/okr + gtd + note -- logseq · 构建我的被动收入 (7)",
   :block/created-at 1665177459437,
@@ -13653,6 +13832,18 @@
  {:block/name "readwise/highlights/okr 介绍 | vision (244)",
   :block/created-at 1665387012353,
   :block/updated-at 1665387012933}
+ {:block/name "readwise/highlights/okr 介绍 | vision (245)",
+  :block/created-at 1665388381214,
+  :block/updated-at 1665388382160}
+ {:block/name "readwise/highlights/okr 介绍 | vision (246)",
+  :block/created-at 1665388382501,
+  :block/updated-at 1665388383083}
+ {:block/name "readwise/highlights/okr 介绍 | vision (247)",
+  :block/created-at 1665388383280,
+  :block/updated-at 1665388383959}
+ {:block/name "readwise/highlights/okr 介绍 | vision (248)",
+  :block/created-at 1665388384148,
+  :block/updated-at 1665388384733}
  {:block/name "readwise/highlights/okr 介绍 | vision (25)",
   :block/created-at 1665177455433,
   :block/updated-at 1665177456101}
@@ -14046,6 +14237,9 @@
  {:block/name "readwise/highlights/open(2) - linux manual page (61)",
   :block/created-at 1665386986854,
   :block/updated-at 1665386988902}
+ {:block/name "readwise/highlights/open(2) - linux manual page (62)",
+  :block/created-at 1665388362161,
+  :block/updated-at 1665388362757}
  {:block/name "readwise/highlights/open(2) - linux manual page (7)",
   :block/created-at 1665177432411,
   :block/updated-at 1665177433238}
@@ -14221,6 +14415,9 @@
  {:block/name "readwise/highlights/poll(2) - linux manual page (61)",
   :block/created-at 1665386990178,
   :block/updated-at 1665386990916}
+ {:block/name "readwise/highlights/poll(2) - linux manual page (62)",
+  :block/created-at 1665388363785,
+  :block/updated-at 1665388364373}
  {:block/name "readwise/highlights/poll(2) - linux manual page (7)",
   :block/created-at 1665177434420,
   :block/updated-at 1665177435236}
@@ -14393,6 +14590,9 @@
  {:block/name "readwise/highlights/priority queue 优先级队列 · 语雀 (61)",
   :block/created-at 1665387055275,
   :block/updated-at 1665387057011}
+ {:block/name "readwise/highlights/priority queue 优先级队列 · 语雀 (62)",
+  :block/created-at 1665388412769,
+  :block/updated-at 1665388413351}
  {:block/name "readwise/highlights/priority queue 优先级队列 · 语雀 (7)",
   :block/created-at 1665177493370,
   :block/updated-at 1665177494182}
@@ -14615,6 +14815,10 @@
   :block/created-at 1665387000139,
   :block/updated-at 1665387000801}
  {:block/name
+  "readwise/highlights/pypi | 镜像站使用帮助 | 清华大学开源软件镜像站 | tsinghua open source mirror (62)",
+  :block/created-at 1665388372820,
+  :block/updated-at 1665388373414}
+ {:block/name
   "readwise/highlights/pypi | 镜像站使用帮助 | 清华大学开源软件镜像站 | tsinghua open source mirror (7)",
   :block/created-at 1665177445274,
   :block/updated-at 1665177446300}
@@ -14788,6 +14992,9 @@
  {:block/name "readwise/highlights/quick passages (61)",
   :block/created-at 1665386937166,
   :block/updated-at 1665386937767}
+ {:block/name "readwise/highlights/quick passages (62)",
+  :block/created-at 1665388299848,
+  :block/updated-at 1665388301645}
  {:block/name "readwise/highlights/quick passages (7)",
   :block/created-at 1665177376303,
   :block/updated-at 1665177377345}
@@ -15010,6 +15217,10 @@
   :block/created-at 1665386996195,
   :block/updated-at 1665386997159}
  {:block/name
+  "readwise/highlights/redis源码剖析与实战_redis_redis源码_数据结构_主从复制_缓存_集群_分布式数据库_键值数据库_事件驱动框架-极客时间 (62)",
+  :block/created-at 1665388369513,
+  :block/updated-at 1665388370103}
+ {:block/name
   "readwise/highlights/redis源码剖析与实战_redis_redis源码_数据结构_主从复制_缓存_集群_分布式数据库_键值数据库_事件驱动框架-极客时间 (7)",
   :block/created-at 1665177441278,
   :block/updated-at 1665177442339}
@@ -15190,6 +15401,9 @@
  {:block/name "readwise/highlights/roam research 到底好在哪儿？ - 少数派 (61)",
   :block/created-at 1665386938732,
   :block/updated-at 1665386939404}
+ {:block/name "readwise/highlights/roam research 到底好在哪儿？ - 少数派 (62)",
+  :block/created-at 1665388304144,
+  :block/updated-at 1665388306006}
  {:block/name "readwise/highlights/roam research 到底好在哪儿？ - 少数派 (7)",
   :block/created-at 1665177378284,
   :block/updated-at 1665177379342}
@@ -15359,6 +15573,9 @@
  {:block/name "readwise/highlights/rust pin 进阶 — folyd (61)",
   :block/created-at 1665387039126,
   :block/updated-at 1665387040535}
+ {:block/name "readwise/highlights/rust pin 进阶 — folyd (62)",
+  :block/created-at 1665388406331,
+  :block/updated-at 1665388406928}
  {:block/name "readwise/highlights/rust pin 进阶 — folyd (7)",
   :block/created-at 1665177485211,
   :block/updated-at 1665177486280}
@@ -15527,6 +15744,9 @@
  {:block/name "readwise/highlights/rust 中 trait 的使用及实现分析 (61)",
   :block/created-at 1665386948974,
   :block/updated-at 1665386949568}
+ {:block/name "readwise/highlights/rust 中 trait 的使用及实现分析 (62)",
+  :block/created-at 1665388317468,
+  :block/updated-at 1665388318043}
  {:block/name "readwise/highlights/rust 中 trait 的使用及实现分析 (7)",
   :block/created-at 1665177391487,
   :block/updated-at 1665177392111}
@@ -15698,6 +15918,9 @@
  {:block/name "readwise/highlights/select(2) - linux manual page (61)",
   :block/created-at 1665386992032,
   :block/updated-at 1665386992636}
+ {:block/name "readwise/highlights/select(2) - linux manual page (62)",
+  :block/created-at 1665388365407,
+  :block/updated-at 1665388366044}
  {:block/name "readwise/highlights/select(2) - linux manual page (7)",
   :block/created-at 1665177436433,
   :block/updated-at 1665177437261}
@@ -15920,6 +16143,10 @@
   :block/created-at 1665386941953,
   :block/updated-at 1665386942527}
  {:block/name
+  "readwise/highlights/shell 启动类型探究 ── login && interactive - cj ting's blog (62)",
+  :block/created-at 1665388310077,
+  :block/updated-at 1665388310683}
+ {:block/name
   "readwise/highlights/shell 启动类型探究 ── login && interactive - cj ting's blog (7)",
   :block/created-at 1665177382320,
   :block/updated-at 1665177383341}
@@ -16096,6 +16323,9 @@
  {:block/name "readwise/highlights/spring cloud 注册中心之eureka (61)",
   :block/created-at 1665386951381,
   :block/updated-at 1665386951954}
+ {:block/name "readwise/highlights/spring cloud 注册中心之eureka (62)",
+  :block/created-at 1665388319825,
+  :block/updated-at 1665388320488}
  {:block/name "readwise/highlights/spring cloud 注册中心之eureka (7)",
   :block/created-at 1665177394295,
   :block/updated-at 1665177395357}
@@ -16275,6 +16505,9 @@
  {:block/name "readwise/highlights/systemd.unit (61)",
   :block/created-at 1665386980963,
   :block/updated-at 1665386982587}
+ {:block/name "readwise/highlights/systemd.unit (62)",
+  :block/created-at 1665388358952,
+  :block/updated-at 1665388359545}
  {:block/name "readwise/highlights/systemd.unit (7)",
   :block/created-at 1665177428391,
   :block/updated-at 1665177429229}
@@ -16443,6 +16676,9 @@
  {:block/name "readwise/highlights/tal ben-shahar: 正向领导力 (61)",
   :block/created-at 1665387071968,
   :block/updated-at 1665387073756}
+ {:block/name "readwise/highlights/tal ben-shahar: 正向领导力 (62)",
+  :block/created-at 1665388424198,
+  :block/updated-at 1665388426046}
  {:block/name "readwise/highlights/tal ben-shahar: 正向领导力 (7)",
   :block/created-at 1665177501122,
   :block/updated-at 1665177502380}
@@ -16619,6 +16855,9 @@
  {:block/name "readwise/highlights/the c10k problem (61)",
   :block/created-at 1665386992877,
   :block/updated-at 1665386993551}
+ {:block/name "readwise/highlights/the c10k problem (62)",
+  :block/created-at 1665388366247,
+  :block/updated-at 1665388366818}
  {:block/name "readwise/highlights/the c10k problem (7)",
   :block/created-at 1665177437331,
   :block/updated-at 1665177438354}
@@ -16823,6 +17062,9 @@
  {:block/name "readwise/highlights/tweets from cyandev (61)",
   :block/created-at 1665387003899,
   :block/updated-at 1665387004493}
+ {:block/name "readwise/highlights/tweets from cyandev (62)",
+  :block/created-at 1665388375986,
+  :block/updated-at 1665388376581}
  {:block/name "readwise/highlights/tweets from cyandev (7)",
   :block/created-at 1665177449332,
   :block/updated-at 1665177450259}
@@ -16994,6 +17236,9 @@
  {:block/name "readwise/highlights/tweets from ez fix (61)",
   :block/created-at 1665386976795,
   :block/updated-at 1665386977476}
+ {:block/name "readwise/highlights/tweets from ez fix (62)",
+  :block/created-at 1665388356524,
+  :block/updated-at 1665388357122}
  {:block/name "readwise/highlights/tweets from ez fix (7)",
   :block/created-at 1665177425170,
   :block/updated-at 1665177426382}
@@ -17174,6 +17419,9 @@
  {:block/name "readwise/highlights/tweets from lobatt (61)",
   :block/created-at 1665387001354,
   :block/updated-at 1665387001950}
+ {:block/name "readwise/highlights/tweets from lobatt (62)",
+  :block/created-at 1665388373585,
+  :block/updated-at 1665388374171}
  {:block/name "readwise/highlights/tweets from lobatt (7)",
   :block/created-at 1665177446334,
   :block/updated-at 1665177447259}
@@ -17339,6 +17587,9 @@
  {:block/name "readwise/highlights/tweets from ming (61)",
   :block/created-at 1665387051278,
   :block/updated-at 1665387052857}
+ {:block/name "readwise/highlights/tweets from ming (62)",
+  :block/created-at 1665388411116,
+  :block/updated-at 1665388411689}
  {:block/name "readwise/highlights/tweets from ming (7)",
   :block/created-at 1665177491318,
   :block/updated-at 1665177492276}
@@ -17513,6 +17764,9 @@
  {:block/name "readwise/highlights/tweets from wuzhe (61)",
   :block/created-at 1665387002142,
   :block/updated-at 1665387002736}
+ {:block/name "readwise/highlights/tweets from wuzhe (62)",
+  :block/created-at 1665388374338,
+  :block/updated-at 1665388374908}
  {:block/name "readwise/highlights/tweets from wuzhe (7)",
   :block/created-at 1665177447300,
   :block/updated-at 1665177448276}
@@ -17687,6 +17941,9 @@
  {:block/name "readwise/highlights/tweets from xa技术不宅 (61)",
   :block/created-at 1665386937966,
   :block/updated-at 1665386938548}
+ {:block/name "readwise/highlights/tweets from xa技术不宅 (62)",
+  :block/created-at 1665388301841,
+  :block/updated-at 1665388303945}
  {:block/name "readwise/highlights/tweets from xa技术不宅 (7)",
   :block/created-at 1665177377388,
   :block/updated-at 1665177378242}
@@ -17855,6 +18112,9 @@
  {:block/name "readwise/highlights/tweets from yihong0618 (61)",
   :block/created-at 1665386977665,
   :block/updated-at 1665386978834}
+ {:block/name "readwise/highlights/tweets from yihong0618 (62)",
+  :block/created-at 1665388357356,
+  :block/updated-at 1665388357948}
  {:block/name "readwise/highlights/tweets from yihong0618 (7)",
   :block/created-at 1665177426419,
   :block/updated-at 1665177427279}
@@ -18029,6 +18289,9 @@
  {:block/name "readwise/highlights/tweets from zhifeng hu (61)",
   :block/created-at 1665386998546,
   :block/updated-at 1665386999127}
+ {:block/name "readwise/highlights/tweets from zhifeng hu (62)",
+  :block/created-at 1665388371143,
+  :block/updated-at 1665388371744}
  {:block/name "readwise/highlights/tweets from zhifeng hu (7)",
   :block/created-at 1665177443298,
   :block/updated-at 1665177444336}
@@ -18197,6 +18460,9 @@
  {:block/name "readwise/highlights/tweets from 倪爽 (61)",
   :block/created-at 1665387015676,
   :block/updated-at 1665387016266}
+ {:block/name "readwise/highlights/tweets from 倪爽 (62)",
+  :block/created-at 1665388387435,
+  :block/updated-at 1665388388013}
  {:block/name "readwise/highlights/tweets from 倪爽 (7)",
   :block/created-at 1665177462258,
   :block/updated-at 1665177463393}
@@ -18365,6 +18631,9 @@
  {:block/name "readwise/highlights/tweets from 毒猫鸡汤简称毒鸡汤🤔 (61)",
   :block/created-at 1665386944291,
   :block/updated-at 1665386944891}
+ {:block/name "readwise/highlights/tweets from 毒猫鸡汤简称毒鸡汤🤔 (62)",
+  :block/created-at 1665388312483,
+  :block/updated-at 1665388313154}
  {:block/name "readwise/highlights/tweets from 毒猫鸡汤简称毒鸡汤🤔 (7)",
   :block/created-at 1665177385320,
   :block/updated-at 1665177386229}
@@ -18597,6 +18866,10 @@
   :block/created-at 1665386941155,
   :block/updated-at 1665386941752}
  {:block/name
+  "readwise/highlights/use custom ssh authentication mechanism (openssh) - super user (62)",
+  :block/created-at 1665388309195,
+  :block/updated-at 1665388309797}
+ {:block/name
   "readwise/highlights/use custom ssh authentication mechanism (openssh) - super user (7)",
   :block/created-at 1665177381270,
   :block/updated-at 1665177382265}
@@ -18820,6 +19093,10 @@
   "readwise/highlights/use the overlayfs storage driver | docker documentation (61)",
   :block/created-at 1665386994490,
   :block/updated-at 1665386995073}
+ {:block/name
+  "readwise/highlights/use the overlayfs storage driver | docker documentation (62)",
+  :block/created-at 1665388367885,
+  :block/updated-at 1665388368485}
  {:block/name
   "readwise/highlights/use the overlayfs storage driver | docker documentation (7)",
   :block/created-at 1665177439267,
@@ -19063,6 +19340,10 @@
   :block/created-at 1665386983890,
   :block/updated-at 1665386984544}
  {:block/name
+  "readwise/highlights/wide column stores - db-engines encyclopedia (62)",
+  :block/created-at 1665388360588,
+  :block/updated-at 1665388361185}
+ {:block/name
   "readwise/highlights/wide column stores - db-engines encyclopedia (7)",
   :block/created-at 1665177430391,
   :block/updated-at 1665177431252}
@@ -19237,6 +19518,9 @@
  {:block/name "readwise/highlights/writing maintainable go code (61)",
   :block/created-at 1665387036006,
   :block/updated-at 1665387037513}
+ {:block/name "readwise/highlights/writing maintainable go code (62)",
+  :block/created-at 1665388404589,
+  :block/updated-at 1665388405225}
  {:block/name "readwise/highlights/writing maintainable go code (7)",
   :block/created-at 1665177483395,
   :block/updated-at 1665177484258}
@@ -19460,6 +19744,10 @@
   "readwise/highlights/you weren't meant to have a boss (61)",
   :block/created-at 1665387032820,
   :block/updated-at 1665387033557}
+ {:block/name
+  "readwise/highlights/you weren't meant to have a boss (62)",
+  :block/created-at 1665388403014,
+  :block/updated-at 1665388403619}
  {:block/name
   "readwise/highlights/you weren't meant to have a boss (7)",
   :block/created-at 1665177481382,
@@ -19697,6 +19985,10 @@
   :block/created-at 1665386952128,
   :block/updated-at 1665386952822}
  {:block/name
+  "readwise/highlights/【rust 日报】2021-02-26 《rust用于web开发的2年后感悟》 (62)",
+  :block/created-at 1665388320707,
+  :block/updated-at 1665388321307}
+ {:block/name
   "readwise/highlights/【rust 日报】2021-02-26 《rust用于web开发的2年后感悟》 (7)",
   :block/created-at 1665177395390,
   :block/updated-at 1665177396181}
@@ -19924,6 +20216,10 @@
   "readwise/highlights/【rust日报】 2020-12-10 超越r和python：面向科学的rust (61)",
   :block/created-at 1665386931538,
   :block/updated-at 1665386932199}
+ {:block/name
+  "readwise/highlights/【rust日报】 2020-12-10 超越r和python：面向科学的rust (62)",
+  :block/created-at 1665388286060,
+  :block/updated-at 1665388287924}
  {:block/name
   "readwise/highlights/【rust日报】 2020-12-10 超越r和python：面向科学的rust (7)",
   :block/created-at 1665177369381,
@@ -20153,6 +20449,10 @@
   :block/created-at 1665386929011,
   :block/updated-at 1665386929711}
  {:block/name
+  "readwise/highlights/【rust日报】2021-02-05 rust 错误处理工作组计划将error trait迁移至core模块 (62)",
+  :block/created-at 1665388281167,
+  :block/updated-at 1665388282651}
+ {:block/name
   "readwise/highlights/【rust日报】2021-02-05 rust 错误处理工作组计划将error trait迁移至core模块 (7)",
   :block/created-at 1665177366335,
   :block/updated-at 1665177367344}
@@ -20324,6 +20624,9 @@
  {:block/name "readwise/highlights/【原稿】用 supermemo 打通阅读、理解与记忆 (61)",
   :block/created-at 1665387053107,
   :block/updated-at 1665387054999}
+ {:block/name "readwise/highlights/【原稿】用 supermemo 打通阅读、理解与记忆 (62)",
+  :block/created-at 1665388411853,
+  :block/updated-at 1665388412444}
  {:block/name "readwise/highlights/【原稿】用 supermemo 打通阅读、理解与记忆 (7)",
   :block/created-at 1665177492319,
   :block/updated-at 1665177493298}
@@ -20492,6 +20795,9 @@
  {:block/name "readwise/highlights/【理论】穿插练习——「乱」中取胜的秘密 (61)",
   :block/created-at 1665387049248,
   :block/updated-at 1665387051015}
+ {:block/name "readwise/highlights/【理论】穿插练习——「乱」中取胜的秘密 (62)",
+  :block/created-at 1665388410348,
+  :block/updated-at 1665388410938}
  {:block/name "readwise/highlights/【理论】穿插练习——「乱」中取胜的秘密 (7)",
   :block/created-at 1665177490319,
   :block/updated-at 1665177491284}
@@ -20657,6 +20963,9 @@
  {:block/name "readwise/highlights/【翻译】在渐进阅读中，创建摘录卡片后该做什么？ (61)",
   :block/created-at 1665387057365,
   :block/updated-at 1665387059029}
+ {:block/name "readwise/highlights/【翻译】在渐进阅读中，创建摘录卡片后该做什么？ (62)",
+  :block/created-at 1665388413620,
+  :block/updated-at 1665388414212}
  {:block/name "readwise/highlights/【翻译】在渐进阅读中，创建摘录卡片后该做什么？ (7)",
   :block/created-at 1665177494261,
   :block/updated-at 1665177495236}
@@ -20831,6 +21140,9 @@
  {:block/name "readwise/highlights/【译】rust中的sizeness (61)",
   :block/created-at 1665386940411,
   :block/updated-at 1665386940993}
+ {:block/name "readwise/highlights/【译】rust中的sizeness (62)",
+  :block/created-at 1665388308293,
+  :block/updated-at 1665388309002}
  {:block/name "readwise/highlights/【译】rust中的sizeness (7)",
   :block/created-at 1665177380312,
   :block/updated-at 1665177381227}
@@ -21002,6 +21314,9 @@
  {:block/name "readwise/highlights/一个白学家眼里的 webassembly (61)",
   :block/created-at 1665386956231,
   :block/updated-at 1665386956900}
+ {:block/name "readwise/highlights/一个白学家眼里的 webassembly (62)",
+  :block/created-at 1665388325823,
+  :block/updated-at 1665388326766}
  {:block/name "readwise/highlights/一个白学家眼里的 webassembly (7)",
   :block/created-at 1665177400311,
   :block/updated-at 1665177401346}
@@ -21224,6 +21539,10 @@
   :block/created-at 1665386961242,
   :block/updated-at 1665386961843}
  {:block/name
+  "readwise/highlights/一次事故，我对 mysql 时间戳存 char(10) 还是 int(10) 有了全新的认识 (62)",
+  :block/created-at 1665388337264,
+  :block/updated-at 1665388338981}
+ {:block/name
   "readwise/highlights/一次事故，我对 mysql 时间戳存 char(10) 还是 int(10) 有了全新的认识 (7)",
   :block/created-at 1665177406272,
   :block/updated-at 1665177407336}
@@ -21391,6 +21710,9 @@
  {:block/name "readwise/highlights/一篇文章说清楚我们和金钱的关系 (61)",
   :block/created-at 1665387028795,
   :block/updated-at 1665387029396}
+ {:block/name "readwise/highlights/一篇文章说清楚我们和金钱的关系 (62)",
+  :block/created-at 1665388400397,
+  :block/updated-at 1665388401034}
  {:block/name "readwise/highlights/一篇文章说清楚我们和金钱的关系 (7)",
   :block/created-at 1665177478300,
   :block/updated-at 1665177479344}
@@ -21556,6 +21878,9 @@
  {:block/name "readwise/highlights/万字长文说透什么是 web 3.0，为什么它需要区块链 (61)",
   :block/created-at 1665387033755,
   :block/updated-at 1665387034834}
+ {:block/name "readwise/highlights/万字长文说透什么是 web 3.0，为什么它需要区块链 (62)",
+  :block/created-at 1665388403792,
+  :block/updated-at 1665388404369}
  {:block/name "readwise/highlights/万字长文说透什么是 web 3.0，为什么它需要区块链 (7)",
   :block/created-at 1665177482289,
   :block/updated-at 1665177483317}
@@ -21724,6 +22049,9 @@
  {:block/name "readwise/highlights/三万人年度报告|改善情绪困扰的最关键因素 (61)",
   :block/created-at 1665387007883,
   :block/updated-at 1665387008468}
+ {:block/name "readwise/highlights/三万人年度报告|改善情绪困扰的最关键因素 (62)",
+  :block/created-at 1665388379377,
+  :block/updated-at 1665388380049}
  {:block/name "readwise/highlights/三万人年度报告|改善情绪困扰的最关键因素 (7)",
   :block/created-at 1665177453406,
   :block/updated-at 1665177454162}
@@ -21895,6 +22223,9 @@
  {:block/name "readwise/highlights/东西我都装好了｜由极致性价比打造的宿舍收纳系统 - 少数派 (61)",
   :block/created-at 1665386973604,
   :block/updated-at 1665386974191}
+ {:block/name "readwise/highlights/东西我都装好了｜由极致性价比打造的宿舍收纳系统 - 少数派 (62)",
+  :block/created-at 1665388353364,
+  :block/updated-at 1665388353952}
  {:block/name "readwise/highlights/东西我都装好了｜由极致性价比打造的宿舍收纳系统 - 少数派 (7)",
   :block/created-at 1665177421226,
   :block/updated-at 1665177422194}
@@ -22112,6 +22443,9 @@
  {:block/name "readwise/highlights/为什么比特币可以防篡改 - 面向信仰编程 (61)",
   :block/created-at 1665387067338,
   :block/updated-at 1665387069246}
+ {:block/name "readwise/highlights/为什么比特币可以防篡改 - 面向信仰编程 (62)",
+  :block/created-at 1665388420118,
+  :block/updated-at 1665388422027}
  {:block/name "readwise/highlights/为什么比特币可以防篡改 - 面向信仰编程 (7)",
   :block/created-at 1665177499121,
   :block/updated-at 1665177500352}
@@ -22298,6 +22632,9 @@
  {:block/name "readwise/highlights/什么是好的绩效度量？ (61)",
   :block/created-at 1665386960490,
   :block/updated-at 1665386961070}
+ {:block/name "readwise/highlights/什么是好的绩效度量？ (62)",
+  :block/created-at 1665388335056,
+  :block/updated-at 1665388337004}
  {:block/name "readwise/highlights/什么是好的绩效度量？ (7)",
   :block/created-at 1665177405386,
   :block/updated-at 1665177406231}
@@ -22472,6 +22809,9 @@
  {:block/name "readwise/highlights/从linux5.9看网络层的设计 (61)",
   :block/created-at 1665386954678,
   :block/updated-at 1665386955275}
+ {:block/name "readwise/highlights/从linux5.9看网络层的设计 (62)",
+  :block/created-at 1665388323221,
+  :block/updated-at 1665388323824}
  {:block/name "readwise/highlights/从linux5.9看网络层的设计 (7)",
   :block/created-at 1665177398332,
   :block/updated-at 1665177399355}
@@ -22646,6 +22986,9 @@
  {:block/name "readwise/highlights/你管这破玩意叫操作系统源码 | 第一回 最开始的两行代码 (61)",
   :block/created-at 1665387014884,
   :block/updated-at 1665387015486}
+ {:block/name "readwise/highlights/你管这破玩意叫操作系统源码 | 第一回 最开始的两行代码 (62)",
+  :block/created-at 1665388386658,
+  :block/updated-at 1665388387255}
  {:block/name "readwise/highlights/你管这破玩意叫操作系统源码 | 第一回 最开始的两行代码 (7)",
   :block/created-at 1665177461418,
   :block/updated-at 1665177462209}
@@ -22823,6 +23166,9 @@
  {:block/name "readwise/highlights/别解释，解释就弱掉了 | happy xiao (61)",
   :block/created-at 1665387027135,
   :block/updated-at 1665387027713}
+ {:block/name "readwise/highlights/别解释，解释就弱掉了 | happy xiao (62)",
+  :block/created-at 1665388398815,
+  :block/updated-at 1665388399408}
  {:block/name "readwise/highlights/别解释，解释就弱掉了 | happy xiao (7)",
   :block/created-at 1665177476238,
   :block/updated-at 1665177477349}
@@ -22991,6 +23337,9 @@
  {:block/name "readwise/highlights/双向链接笔记的局限性 (61)",
   :block/created-at 1665387029859,
   :block/updated-at 1665387030584}
+ {:block/name "readwise/highlights/双向链接笔记的局限性 (62)",
+  :block/created-at 1665388401307,
+  :block/updated-at 1665388401900}
  {:block/name "readwise/highlights/双向链接笔记的局限性 (7)",
   :block/created-at 1665177479460,
   :block/updated-at 1665177480243}
@@ -23159,6 +23508,9 @@
  {:block/name "readwise/highlights/可乐 #85 人生的答案，破守离，正和游戏 (61)",
   :block/created-at 1665387094418,
   :block/updated-at 1665387095068}
+ {:block/name "readwise/highlights/可乐 #85 人生的答案，破守离，正和游戏 (62)",
+  :block/created-at 1665388458071,
+  :block/updated-at 1665388459935}
  {:block/name "readwise/highlights/可乐 #85 人生的答案，破守离，正和游戏 (7)",
   :block/created-at 1665177518423,
   :block/updated-at 1665177519231}
@@ -23394,6 +23746,10 @@
   :block/created-at 1665386935504,
   :block/updated-at 1665386936118}
  {:block/name
+  "readwise/highlights/各个raid对比：性能和运行速度和读写方面（raid 1 读和单个磁盘无区别）_haiross的专栏-csdn博客_raid1读取速度 (62)",
+  :block/created-at 1665388296104,
+  :block/updated-at 1665388297853}
+ {:block/name
   "readwise/highlights/各个raid对比：性能和运行速度和读写方面（raid 1 读和单个磁盘无区别）_haiross的专栏-csdn博客_raid1读取速度 (7)",
   :block/created-at 1665177374300,
   :block/updated-at 1665177375369}
@@ -23564,6 +23920,9 @@
  {:block/name "readwise/highlights/各色dna (61)",
   :block/created-at 1665387008695,
   :block/updated-at 1665387009359}
+ {:block/name "readwise/highlights/各色dna (62)",
+  :block/created-at 1665388380283,
+  :block/updated-at 1665388380875}
  {:block/name "readwise/highlights/各色dna (7)",
   :block/created-at 1665177454199,
   :block/updated-at 1665177455319}
@@ -23732,6 +24091,9 @@
  {:block/name "readwise/highlights/和衡水中学在一起的2557天 (61)",
   :block/created-at 1665387020538,
   :block/updated-at 1665387021119}
+ {:block/name "readwise/highlights/和衡水中学在一起的2557天 (62)",
+  :block/created-at 1665388392282,
+  :block/updated-at 1665388392865}
  {:block/name "readwise/highlights/和衡水中学在一起的2557天 (7)",
   :block/created-at 1665177468266,
   :block/updated-at 1665177469376}
@@ -23897,6 +24259,9 @@
  {:block/name "readwise/highlights/商业思考系列 | 那些最终输给了自己的水煎包们（中篇） (61)",
   :block/created-at 1665387082062,
   :block/updated-at 1665387084052}
+ {:block/name "readwise/highlights/商业思考系列 | 那些最终输给了自己的水煎包们（中篇） (62)",
+  :block/created-at 1665388437144,
+  :block/updated-at 1665388438905}
  {:block/name "readwise/highlights/商业思考系列 | 那些最终输给了自己的水煎包们（中篇） (7)",
   :block/created-at 1665177507281,
   :block/updated-at 1665177508371}
@@ -24065,6 +24430,9 @@
  {:block/name "readwise/highlights/国内高校计算机教育存在哪些问题？ (61)",
   :block/created-at 1665386946644,
   :block/updated-at 1665386947243}
+ {:block/name "readwise/highlights/国内高校计算机教育存在哪些问题？ (62)",
+  :block/created-at 1665388315011,
+  :block/updated-at 1665388315608}
  {:block/name "readwise/highlights/国内高校计算机教育存在哪些问题？ (7)",
   :block/created-at 1665177388190,
   :block/updated-at 1665177389320}
@@ -24230,6 +24598,9 @@
  {:block/name "readwise/highlights/图像 vs 文字丨两种同样重要的思维方式 (61)",
   :block/created-at 1665387075883,
   :block/updated-at 1665387076792}
+ {:block/name "readwise/highlights/图像 vs 文字丨两种同样重要的思维方式 (62)",
+  :block/created-at 1665388428456,
+  :block/updated-at 1665388430705}
  {:block/name "readwise/highlights/图像 vs 文字丨两种同样重要的思维方式 (7)",
   :block/created-at 1665177503263,
   :block/updated-at 1665177504390}
@@ -24470,6 +24841,10 @@
   :block/created-at 1665387019013,
   :block/updated-at 1665387019611}
  {:block/name
+  "readwise/highlights/大多数人一辈子都接触不到淘宝双 11 流量冲击？那么我们怎么去锻炼这样的能力？ - v2ex (62)",
+  :block/created-at 1665388390687,
+  :block/updated-at 1665388391338}
+ {:block/name
   "readwise/highlights/大多数人一辈子都接触不到淘宝双 11 流量冲击？那么我们怎么去锻炼这样的能力？ - v2ex (7)",
   :block/created-at 1665177466281,
   :block/updated-at 1665177467365}
@@ -24686,6 +25061,10 @@
   "readwise/highlights/女朋友问小灰：什么是数据仓库？什么是数据湖？什么是智能湖仓？ (61)",
   :block/created-at 1665386967056,
   :block/updated-at 1665386967660}
+ {:block/name
+  "readwise/highlights/女朋友问小灰：什么是数据仓库？什么是数据湖？什么是智能湖仓？ (62)",
+  :block/created-at 1665388345079,
+  :block/updated-at 1665388345718}
  {:block/name "readwise/highlights/女朋友问小灰：什么是数据仓库？什么是数据湖？什么是智能湖仓？ (7)",
   :block/created-at 1665177413381,
   :block/updated-at 1665177414257}
@@ -24854,6 +25233,9 @@
  {:block/name "readwise/highlights/完美主义者的渐进学习 · 语雀 (61)",
   :block/created-at 1665387059273,
   :block/updated-at 1665387061026}
+ {:block/name "readwise/highlights/完美主义者的渐进学习 · 语雀 (62)",
+  :block/created-at 1665388414389,
+  :block/updated-at 1665388414976}
  {:block/name "readwise/highlights/完美主义者的渐进学习 · 语雀 (7)",
   :block/created-at 1665177495276,
   :block/updated-at 1665177496250}
@@ -25080,6 +25462,10 @@
   :block/created-at 1665386972767,
   :block/updated-at 1665386973354}
  {:block/name
+  "readwise/highlights/带入 grpc：让你的服务同时提供 http 接口 - segmentfault 思否 (62)",
+  :block/created-at 1665388352520,
+  :block/updated-at 1665388353139}
+ {:block/name
   "readwise/highlights/带入 grpc：让你的服务同时提供 http 接口 - segmentfault 思否 (7)",
   :block/created-at 1665177420348,
   :block/updated-at 1665177421191}
@@ -25278,6 +25664,9 @@
  {:block/name "readwise/highlights/当产品经理开始思考做一个好人的代价 (61)",
   :block/created-at 1665387022185,
   :block/updated-at 1665387022777}
+ {:block/name "readwise/highlights/当产品经理开始思考做一个好人的代价 (62)",
+  :block/created-at 1665388393858,
+  :block/updated-at 1665388394455}
  {:block/name "readwise/highlights/当产品经理开始思考做一个好人的代价 (7)",
   :block/created-at 1665177470299,
   :block/updated-at 1665177471351}
@@ -25449,6 +25838,9 @@
  {:block/name "readwise/highlights/我是一名女性主义者，我想成为更好的父亲 (61)",
   :block/created-at 1665387021436,
   :block/updated-at 1665387022015}
+ {:block/name "readwise/highlights/我是一名女性主义者，我想成为更好的父亲 (62)",
+  :block/created-at 1665388393041,
+  :block/updated-at 1665388393624}
  {:block/name "readwise/highlights/我是一名女性主义者，我想成为更好的父亲 (7)",
   :block/created-at 1665177469411,
   :block/updated-at 1665177470260}
@@ -25617,6 +26009,9 @@
  {:block/name "readwise/highlights/我用 apple watch，3 个月减了 20 斤 (61)",
   :block/created-at 1665386969480,
   :block/updated-at 1665386970077}
+ {:block/name "readwise/highlights/我用 apple watch，3 个月减了 20 斤 (62)",
+  :block/created-at 1665388347802,
+  :block/updated-at 1665388349654}
  {:block/name "readwise/highlights/我用 apple watch，3 个月减了 20 斤 (7)",
   :block/created-at 1665177416313,
   :block/updated-at 1665177417258}
@@ -25788,6 +26183,9 @@
  {:block/name "readwise/highlights/找到最重要的事 (61)",
   :block/created-at 1665387014027,
   :block/updated-at 1665387014683}
+ {:block/name "readwise/highlights/找到最重要的事 (62)",
+  :block/created-at 1665388385805,
+  :block/updated-at 1665388386403}
  {:block/name "readwise/highlights/找到最重要的事 (7)",
   :block/created-at 1665177460328,
   :block/updated-at 1665177461349}
@@ -26009,6 +26407,10 @@
   :block/created-at 1665386967873,
   :block/updated-at 1665386968456}
  {:block/name
+  "readwise/highlights/技术干货 | 关于 wkwebview 网络拦截，你想知道的都在这里 (62)",
+  :block/created-at 1665388345923,
+  :block/updated-at 1665388346511}
+ {:block/name
   "readwise/highlights/技术干货 | 关于 wkwebview 网络拦截，你想知道的都在这里 (7)",
   :block/created-at 1665177414322,
   :block/updated-at 1665177415298}
@@ -26185,6 +26587,9 @@
  {:block/name "readwise/highlights/拒绝放弃 | happy xiao (61)",
   :block/created-at 1665387078873,
   :block/updated-at 1665387080476}
+ {:block/name "readwise/highlights/拒绝放弃 | happy xiao (62)",
+  :block/created-at 1665388433032,
+  :block/updated-at 1665388434907}
  {:block/name "readwise/highlights/拒绝放弃 | happy xiao (7)",
   :block/created-at 1665177505300,
   :block/updated-at 1665177506395}
@@ -26353,6 +26758,9 @@
  {:block/name "readwise/highlights/拖拖拖拖拖延症，这老毛病该治了 (61)",
   :block/created-at 1665386953819,
   :block/updated-at 1665386954413}
+ {:block/name "readwise/highlights/拖拖拖拖拖延症，这老毛病该治了 (62)",
+  :block/created-at 1665388322304,
+  :block/updated-at 1665388322896}
  {:block/name "readwise/highlights/拖拖拖拖拖延症，这老毛病该治了 (7)",
   :block/created-at 1665177397437,
   :block/updated-at 1665177398237}
@@ -26536,6 +26944,9 @@
  {:block/name "readwise/highlights/死记硬背（填鸭式学习） (61)",
   :block/created-at 1665387063340,
   :block/updated-at 1665387065063}
+ {:block/name "readwise/highlights/死记硬背（填鸭式学习） (62)",
+  :block/created-at 1665388415927,
+  :block/updated-at 1665388417770}
  {:block/name "readwise/highlights/死记硬背（填鸭式学习） (7)",
   :block/created-at 1665177497236,
   :block/updated-at 1665177498317}
@@ -26712,6 +27123,9 @@
  {:block/name "readwise/highlights/注意力使用不完全报告 - 少数派 (61)",
   :block/created-at 1665387007029,
   :block/updated-at 1665387007626}
+ {:block/name "readwise/highlights/注意力使用不完全报告 - 少数派 (62)",
+  :block/created-at 1665388378499,
+  :block/updated-at 1665388379071}
  {:block/name "readwise/highlights/注意力使用不完全报告 - 少数派 (7)",
   :block/created-at 1665177452336,
   :block/updated-at 1665177453275}
@@ -26887,6 +27301,9 @@
  {:block/name "readwise/highlights/浅谈ioc容器 (61)",
   :block/created-at 1665386952991,
   :block/updated-at 1665386953584}
+ {:block/name "readwise/highlights/浅谈ioc容器 (62)",
+  :block/created-at 1665388321549,
+  :block/updated-at 1665388322133}
  {:block/name "readwise/highlights/浅谈ioc容器 (7)",
   :block/created-at 1665177396223,
   :block/updated-at 1665177397403}
@@ -27055,6 +27472,9 @@
  {:block/name "readwise/highlights/浅谈缓存 | 青空之蓝 (61)",
   :block/created-at 1665386950605,
   :block/updated-at 1665386951202}
+ {:block/name "readwise/highlights/浅谈缓存 | 青空之蓝 (62)",
+  :block/created-at 1665388319062,
+  :block/updated-at 1665388319644}
  {:block/name "readwise/highlights/浅谈缓存 | 青空之蓝 (7)",
   :block/created-at 1665177393458,
   :block/updated-at 1665177394247}
@@ -27223,6 +27643,9 @@
  {:block/name "readwise/highlights/浏览器的执行机制 (61)",
   :block/created-at 1665386945818,
   :block/updated-at 1665386946405}
+ {:block/name "readwise/highlights/浏览器的执行机制 (62)",
+  :block/created-at 1665388314208,
+  :block/updated-at 1665388314801}
  {:block/name "readwise/highlights/浏览器的执行机制 (7)",
   :block/created-at 1665177387330,
   :block/updated-at 1665177388157}
@@ -27391,6 +27814,9 @@
  {:block/name "readwise/highlights/灾后郑州：当一座都市忽然失去了互联网  |  故事硬核 (61)",
   :block/created-at 1665387022968,
   :block/updated-at 1665387023544}
+ {:block/name "readwise/highlights/灾后郑州：当一座都市忽然失去了互联网  |  故事硬核 (62)",
+  :block/created-at 1665388394645,
+  :block/updated-at 1665388395235}
  {:block/name "readwise/highlights/灾后郑州：当一座都市忽然失去了互联网  |  故事硬核 (7)",
   :block/created-at 1665177471399,
   :block/updated-at 1665177472252}
@@ -27559,6 +27985,9 @@
  {:block/name "readwise/highlights/爱，到底是什么呢？ (61)",
   :block/created-at 1665387073993,
   :block/updated-at 1665387075717}
+ {:block/name "readwise/highlights/爱，到底是什么呢？ (62)",
+  :block/created-at 1665388426737,
+  :block/updated-at 1665388427844}
  {:block/name "readwise/highlights/爱，到底是什么呢？ (7)",
   :block/created-at 1665177502419,
   :block/updated-at 1665177503222}
@@ -27727,6 +28156,9 @@
  {:block/name "readwise/highlights/用 c 语言理解 linux 软件库 | linux 中国 (61)",
   :block/created-at 1665386955447,
   :block/updated-at 1665386956023}
+ {:block/name "readwise/highlights/用 c 语言理解 linux 软件库 | linux 中国 (62)",
+  :block/created-at 1665388324027,
+  :block/updated-at 1665388325599}
  {:block/name "readwise/highlights/用 c 语言理解 linux 软件库 | linux 中国 (7)",
   :block/created-at 1665177399388,
   :block/updated-at 1665177400236}
@@ -27898,6 +28330,9 @@
  {:block/name "readwise/highlights/白卫生纸和黄卫生纸到底哪个好？今天终于知道了_凤凰网 (61)",
   :block/created-at 1665386962107,
   :block/updated-at 1665386962708}
+ {:block/name "readwise/highlights/白卫生纸和黄卫生纸到底哪个好？今天终于知道了_凤凰网 (62)",
+  :block/created-at 1665388339292,
+  :block/updated-at 1665388340548}
  {:block/name "readwise/highlights/白卫生纸和黄卫生纸到底哪个好？今天终于知道了_凤凰网 (7)",
   :block/created-at 1665177407372,
   :block/updated-at 1665177408232}
@@ -28066,6 +28501,9 @@
  {:block/name "readwise/highlights/监听风云 | inotify 实现原理 (61)",
   :block/created-at 1665386964558,
   :block/updated-at 1665386965189}
+ {:block/name "readwise/highlights/监听风云 | inotify 实现原理 (62)",
+  :block/created-at 1665388342585,
+  :block/updated-at 1665388343171}
  {:block/name "readwise/highlights/监听风云 | inotify 实现原理 (7)",
   :block/created-at 1665177410320,
   :block/updated-at 1665177411321}
@@ -28237,6 +28675,9 @@
  {:block/name "readwise/highlights/看书 vs 看视频 vs 自学 (61)",
   :block/created-at 1665386936372,
   :block/updated-at 1665386936985}
+ {:block/name "readwise/highlights/看书 vs 看视频 vs 自学 (62)",
+  :block/created-at 1665388298054,
+  :block/updated-at 1665388299668}
  {:block/name "readwise/highlights/看书 vs 看视频 vs 自学 (7)",
   :block/created-at 1665177375410,
   :block/updated-at 1665177376261}
@@ -28414,6 +28855,9 @@
  {:block/name "readwise/highlights/硬派健身：极简、实用的新手健身指导 (61)",
   :block/created-at 1665387005916,
   :block/updated-at 1665387006516}
+ {:block/name "readwise/highlights/硬派健身：极简、实用的新手健身指导 (62)",
+  :block/created-at 1665388377554,
+  :block/updated-at 1665388378208}
  {:block/name "readwise/highlights/硬派健身：极简、实用的新手健身指导 (7)",
   :block/created-at 1665177451323,
   :block/updated-at 1665177452203}
@@ -28585,6 +29029,9 @@
  {:block/name "readwise/highlights/程序员需要知道的raid基本原理 (61)",
   :block/created-at 1665386934760,
   :block/updated-at 1665386935333}
+ {:block/name "readwise/highlights/程序员需要知道的raid基本原理 (62)",
+  :block/created-at 1665388294157,
+  :block/updated-at 1665388295921}
  {:block/name "readwise/highlights/程序员需要知道的raid基本原理 (7)",
   :block/created-at 1665177373393,
   :block/updated-at 1665177374259}
@@ -28810,6 +29257,10 @@
   :block/created-at 1665387017369,
   :block/updated-at 1665387017962}
  {:block/name
+  "readwise/highlights/第185期 | mysql有哪些“饮鸩止渴”提高性能的方法？-极客时间 (62)",
+  :block/created-at 1665388389033,
+  :block/updated-at 1665388389677}
+ {:block/name
   "readwise/highlights/第185期 | mysql有哪些“饮鸩止渴”提高性能的方法？-极客时间 (7)",
   :block/created-at 1665177464252,
   :block/updated-at 1665177465392}
@@ -29005,6 +29456,9 @@
  {:block/name "readwise/highlights/终于知道 pdd 为何能火起来了 - v2ex (61)",
   :block/created-at 1665386999304,
   :block/updated-at 1665386999886}
+ {:block/name "readwise/highlights/终于知道 pdd 为何能火起来了 - v2ex (62)",
+  :block/created-at 1665388371913,
+  :block/updated-at 1665388372516}
  {:block/name "readwise/highlights/终于知道 pdd 为何能火起来了 - v2ex (7)",
   :block/created-at 1665177444373,
   :block/updated-at 1665177445237}
@@ -29232,6 +29686,10 @@
   :block/created-at 1665387070018,
   :block/updated-at 1665387071782}
  {:block/name
+  "readwise/highlights/胡泳 | 虚拟世界让我们时刻在场，但又永远缺场——重新思考数字化之十一 (62)",
+  :block/created-at 1665388422346,
+  :block/updated-at 1665388423932}
+ {:block/name
   "readwise/highlights/胡泳 | 虚拟世界让我们时刻在场，但又永远缺场——重新思考数字化之十一 (7)",
   :block/created-at 1665177500403,
   :block/updated-at 1665177501083}
@@ -29456,6 +29914,10 @@
   :block/created-at 1665386993752,
   :block/updated-at 1665386994325}
  {:block/name
+  "readwise/highlights/蚂蚁集团 | 异步化os：利用rustasyncawait提升10x性能-rust - rust精选 (62)",
+  :block/created-at 1665388366999,
+  :block/updated-at 1665388367664}
+ {:block/name
   "readwise/highlights/蚂蚁集团 | 异步化os：利用rustasyncawait提升10x性能-rust - rust精选 (7)",
   :block/created-at 1665177438395,
   :block/updated-at 1665177439227}
@@ -29626,6 +30088,9 @@
  {:block/name "readwise/highlights/论证：ios安全性，为什么需要审核？ (61)",
   :block/created-at 1665386962883,
   :block/updated-at 1665386963465}
+ {:block/name "readwise/highlights/论证：ios安全性，为什么需要审核？ (62)",
+  :block/created-at 1665388340861,
+  :block/updated-at 1665388341497}
  {:block/name "readwise/highlights/论证：ios安全性，为什么需要审核？ (7)",
   :block/created-at 1665177408269,
   :block/updated-at 1665177409323}
@@ -29794,6 +30259,9 @@
  {:block/name "readwise/highlights/设计模式六大原则(一)----单一职责原则 (61)",
   :block/created-at 1665386966230,
   :block/updated-at 1665386966818}
+ {:block/name "readwise/highlights/设计模式六大原则(一)----单一职责原则 (62)",
+  :block/created-at 1665388344277,
+  :block/updated-at 1665388344871}
  {:block/name "readwise/highlights/设计模式六大原则(一)----单一职责原则 (7)",
   :block/created-at 1665177412367,
   :block/updated-at 1665177413319}
@@ -29962,6 +30430,9 @@
  {:block/name "readwise/highlights/设计模式六大原则(二)----里式替换原则 (61)",
   :block/created-at 1665386965351,
   :block/updated-at 1665386965942}
+ {:block/name "readwise/highlights/设计模式六大原则(二)----里式替换原则 (62)",
+  :block/created-at 1665388343419,
+  :block/updated-at 1665388343997}
  {:block/name "readwise/highlights/设计模式六大原则(二)----里式替换原则 (7)",
   :block/created-at 1665177411357,
   :block/updated-at 1665177412273}
@@ -30184,6 +30655,10 @@
   :block/created-at 1665387045255,
   :block/updated-at 1665387047010}
  {:block/name
+  "readwise/highlights/设计理念 · kubernetes handbook - kubernetes中文指南/云原生应用架构实践手册 by jimmy song (62)",
+  :block/created-at 1665388408660,
+  :block/updated-at 1665388409262}
+ {:block/name
   "readwise/highlights/设计理念 · kubernetes handbook - kubernetes中文指南/云原生应用架构实践手册 by jimmy song (7)",
   :block/created-at 1665177488366,
   :block/updated-at 1665177489308}
@@ -30354,6 +30829,9 @@
  {:block/name "readwise/highlights/误区：睡前学习是最好的 (61)",
   :block/created-at 1665387065294,
   :block/updated-at 1665387067093}
+ {:block/name "readwise/highlights/误区：睡前学习是最好的 (62)",
+  :block/created-at 1665388417945,
+  :block/updated-at 1665388419917}
  {:block/name "readwise/highlights/误区：睡前学习是最好的 (7)",
   :block/created-at 1665177498361,
   :block/updated-at 1665177499083}
@@ -30529,6 +31007,9 @@
  {:block/name "readwise/highlights/践行极简理念，高效数字生活 - 少数派 (61)",
   :block/created-at 1665387043018,
   :block/updated-at 1665387044998}
+ {:block/name "readwise/highlights/践行极简理念，高效数字生活 - 少数派 (62)",
+  :block/created-at 1665388407910,
+  :block/updated-at 1665388408497}
  {:block/name "readwise/highlights/践行极简理念，高效数字生活 - 少数派 (7)",
   :block/created-at 1665177487338,
   :block/updated-at 1665177488325}
@@ -30754,6 +31235,10 @@
   :block/created-at 1665386971987,
   :block/updated-at 1665386972570}
  {:block/name
+  "readwise/highlights/连续栈     3.5 连续栈 results matching \"\"no results matching\"\" (62)",
+  :block/created-at 1665388351744,
+  :block/updated-at 1665388352338}
+ {:block/name
   "readwise/highlights/连续栈     3.5 连续栈 results matching \"\"no results matching\"\" (7)",
   :block/created-at 1665177419271,
   :block/updated-at 1665177420299}
@@ -30927,6 +31412,9 @@
  {:block/name "readwise/highlights/通过实例理解go逃逸分析 | tony bai (61)",
   :block/created-at 1665386971187,
   :block/updated-at 1665386971774}
+ {:block/name "readwise/highlights/通过实例理解go逃逸分析 | tony bai (62)",
+  :block/created-at 1665388350852,
+  :block/updated-at 1665388351551}
  {:block/name "readwise/highlights/通过实例理解go逃逸分析 | tony bai (7)",
   :block/created-at 1665177418324,
   :block/updated-at 1665177419221}
@@ -31098,6 +31586,9 @@
  {:block/name "readwise/highlights/面试官：什么是mmap？ (61)",
   :block/created-at 1665386949823,
   :block/updated-at 1665386950420}
+ {:block/name "readwise/highlights/面试官：什么是mmap？ (62)",
+  :block/created-at 1665388318227,
+  :block/updated-at 1665388318877}
  {:block/name "readwise/highlights/面试官：什么是mmap？ (7)",
   :block/created-at 1665177392152,
   :block/updated-at 1665177393413}
@@ -31266,6 +31757,9 @@
  {:block/name "readwise/highlights/首届阅览室庙会活动正在阅览室门口支摊举行 (61)",
   :block/created-at 1665387019789,
   :block/updated-at 1665387020359}
+ {:block/name "readwise/highlights/首届阅览室庙会活动正在阅览室门口支摊举行 (62)",
+  :block/created-at 1665388391512,
+  :block/updated-at 1665388392106}
  {:block/name "readwise/highlights/首届阅览室庙会活动正在阅览室门口支摊举行 (7)",
   :block/created-at 1665177467402,
   :block/updated-at 1665177468223}
@@ -31431,6 +31925,9 @@
  {:block/name "readwise/highlights/首席探索官是个啥官？ (61)",
   :block/created-at 1665387077031,
   :block/updated-at 1665387078656}
+ {:block/name "readwise/highlights/首席探索官是个啥官？ (62)",
+  :block/created-at 1665388430972,
+  :block/updated-at 1665388432819}
  {:block/name "readwise/highlights/首席探索官是个啥官？ (7)",
   :block/created-at 1665177504430,
   :block/updated-at 1665177505257}
@@ -31599,6 +32096,9 @@
  {:block/name "readwise/highlights/🐱079 为什么你需要习惯而不是激情 (61)",
   :block/created-at 1665387027879,
   :block/updated-at 1665387028479}
+ {:block/name "readwise/highlights/🐱079 为什么你需要习惯而不是激情 (62)",
+  :block/created-at 1665388399580,
+  :block/updated-at 1665388400165}
  {:block/name "readwise/highlights/🐱079 为什么你需要习惯而不是激情 (7)",
   :block/created-at 1665177477383,
   :block/updated-at 1665177478260}
@@ -31773,6 +32273,9 @@
  {:block/name "readwise/highlights/🥰无关信息，而是快乐 (61)",
   :block/created-at 1665387080648,
   :block/updated-at 1665387081831}
+ {:block/name "readwise/highlights/🥰无关信息，而是快乐 (62)",
+  :block/created-at 1665388435094,
+  :block/updated-at 1665388436950}
  {:block/name "readwise/highlights/🥰无关信息，而是快乐 (7)",
   :block/created-at 1665177506441,
   :block/updated-at 1665177507238}
