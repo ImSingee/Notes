@@ -17,5 +17,5 @@
 	- 当 G 执行完时（或超时被暂停时），M 会去 P 的 local queue 中查找 Goroutine 去执行
 		- 如果 P 的 local queue 为空，其会从全局或其他 M 的 P 的 local queue 中抢占
 			-
--
+- ## FAQ
 -
