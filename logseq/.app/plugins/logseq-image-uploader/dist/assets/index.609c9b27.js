@@ -1,0 +1,31 @@
+import{s as w}from"./vendor.838c88d3.js";const y=function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const o of document.querySelectorAll('link[rel="modulepreload"]'))r(o);new MutationObserver(o=>{for(const i of o)if(i.type==="childList")for(const a of i.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&r(a)}).observe(document,{childList:!0,subtree:!0});function n(o){const i={};return o.integrity&&(i.integrity=o.integrity),o.referrerpolicy&&(i.referrerPolicy=o.referrerpolicy),o.crossorigin==="use-credentials"?i.credentials="include":o.crossorigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function r(o){if(o.ep)return;o.ep=!0;const i=n(o);fetch(o.href,i)}};y();const q="logseq-plugin-image-uploader",k="0.0.12",b="dist/index.html",j={dev:"vite",build:"tsc && vite build"},v={"@logseq/libs":"^0.0.1-alpha.33",react:"^17.0.2","react-dom":"^17.0.2",semver:"^7.3.5"},E={"@types/react":"^17.0.33","@types/react-dom":"^17.0.10","@types/semver":"^7.3.9","@vitejs/plugin-react":"1.1.3",typescript:"4.5.4",vite:"2.7.10"},I={id:"_jjaychen-logseq-image-uploader",title:"Image Uploader",icon:"./icon.png"};var U={name:q,version:k,main:b,scripts:j,dependencies:v,devDependencies:E,logseq:I};const P=U.version;async function B(){await fetch("https://api.github.com/repos/jjaychen1e/logseq-plugin-image-uploader/releases/latest").then(t=>t.json()).then(t=>{const e=t.tag_name.replace("v","");w.gt(e,P)&&logseq.App.showMsg(`New version ${e} is available(logseq-plugin-image-uploader).`,"warning")})}const g="Uploaded image file record(created by logseq-plugin-image-uploader)",u="Uploaded image file record - interactive(created by logseq-plugin-image-uploader)";async function c(t){const e=await logseq.Editor.getPageBlocksTree(t.name);return e.length===0?null:e[e.length-1]}async function d(t,e){t.content?await logseq.Editor.insertBlock(t.uuid,e):await logseq.Editor.updateBlock(t.uuid,e)}async function R(){await logseq.Editor.deletePage(g),await logseq.Editor.deletePage(u)}async function p(t){let e=await logseq.Editor.createPage(t,{},{createFirstBlock:!0,redirect:!1});if(e){let n=await c(e);n&&(d(n,"Here I've listed all the not uploaded images."),d(n,`#+BEGIN_QUERY
+{:title "Not uploaded images"
+  :query [:find (pull ?b [*])
+        :where
+        [?b :block/page ?p]
+        [?p :block/name ?page_name]
+        (not [(clojure.string/includes? ?page_name "created by logseq-plugin-image-uploader")])
+        [?b :block/content ?content]
+        (not [(clojure.string/includes? ?content "{:title \\"Not uploaded images\\"")])
+        [(clojure.string/includes? ?content "](../assets")]
+        [(clojure.string/includes? ?content "![")]
+        (or [(clojure.string/includes? ?content ".png)")]
+            [(clojure.string/includes? ?content ".jpg)")]
+            [(clojure.string/includes? ?content ".jpeg)")]
+            [(clojure.string/includes? ?content ".gif)")]
+            [(clojure.string/includes? ?content ".tiff)")]
+            [(clojure.string/includes? ?content ".tif)")]
+            [(clojure.string/includes? ?content ".bmp)")]
+            [(clojure.string/includes? ?content ".svg)")]
+            [(clojure.string/includes? ?content ".webp)")]
+            [(clojure.string/includes? ?content ".PNG)")]
+            [(clojure.string/includes? ?content ".JPG)")]
+            [(clojure.string/includes? ?content ".JPEG)")]
+            [(clojure.string/includes? ?content ".GIF)")]
+            [(clojure.string/includes? ?content ".TIGG)")]
+            [(clojure.string/includes? ?content ".TIF)")]
+            [(clojure.string/includes? ?content ".VMP)")]
+            [(clojure.string/includes? ?content ".SVG)")]
+            [(clojure.string/includes? ?content ".WEBP)")])
+      ]}
+#+END_QUERY`))}return e}async function f(t){let e=await logseq.Editor.getPage(t);return e?await c(e)||(await R(),e=await p(t)):e=await p(t),e}async function F(t){let e=await f(g),n=await f(u);if(e&&n){let r=await c(e),o=await c(n);if(r&&o)d(r,t),d(o,`![Uploaded by Image Uploder](${t})`);else{const i=`Failed to save uploaded image name: ${t}.`;console.error("Error:",i),logseq.App.showMsg(i,"error")}}else{const r="Failed to create uploaded image record page.";console.error("Error:",r),logseq.App.showMsg(r,"error")}}async function L(t){return await fetch("http://localhost:36677/upload",{method:"POST",body:JSON.stringify({list:[t]})}).then(e=>e.text()).then(e=>(console.log("[logseq-plugin-image-uploader]: "+e),JSON.parse(e))).then(e=>{if(e.success)return e.result[0];throw new Error("Upload failed.")}).catch(e=>{console.error("Error:",e),logseq.App.showMsg("Error: "+e.message,"error"),logseq.App.showMsg("Please check if PicGo is running. Check out more details in the developer tool's console.","error")})}const M=[".png",".jpg",".jpeg",".gif",".tiff",".tif",".bmp",".svg",".webp"];async function m(t,e){let n=t.content,r;for(;r=/\!\[.*?\]\((.*?)\)/g.exec(n);){n=n.replace(r[0],"");const o=r[1];if(r[0].startsWith("![Replaced by Image Uploader]")||r[0].startsWith("![Replaced by Image Uploder]")||!M.some(a=>o.toLowerCase().endsWith(a)))continue;let i=logseq.settings?.uploadNetworkImage??!1;if(o.startsWith("../")||i){const a=o.startsWith("../")?e+r[1].replace("../","/"):r[1],s=await L(a);if(s!=""&&s!=null&&s!=null){const l=await logseq.Editor.getBlock(t.uuid);l&&l.content&&(await logseq.Editor.updateBlock(l.uuid,l.content.replace(r[0],`![Replaced by Image Uploader](${s})`)),await F(r[1]))}}}}async function h(){const e=(await logseq.App.getCurrentGraph())?.path;if(!e){const n="Failed to get graph root path.";console.error("Error:",n),logseq.App.showMsg(n,"error");return}return e}async function N(){setTimeout(()=>{B()},5e3),logseq.Editor.registerBlockContextMenuItem("Upload image",async t=>{const e=await logseq.Editor.getBlock(t.uuid);if(e&&e.content){const n=await h();n&&m(e,n)}}),parent.document.addEventListener("keydown",async t=>{if(!!(logseq.settings?.autoUploading??!0)&&(t.ctrlKey||t.metaKey)&&t.code==="KeyV"){let n=await logseq.Editor.getCurrentBlock();if(n){let r=n.uuid,o=function(){setTimeout(async()=>{let i=await logseq.Editor.checkEditing();if(typeof i=="string"&&i===r)o();else{let a=await logseq.Editor.getBlock(r);if(a&&a.content){const s=await h();s&&m(a,s)}}},1e3)};o()}}})}logseq.ready(N).catch(console.error);
