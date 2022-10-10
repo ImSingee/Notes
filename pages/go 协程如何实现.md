@@ -9,7 +9,8 @@
 		- G Goroutine
 		- M Machine 指的是真实的操作系统中的线程
 		- P Processor 可以理解为一个「调度器」
-	- 在
+	- G 是在 M 上执行的
+	-
 		-
 -
 -
