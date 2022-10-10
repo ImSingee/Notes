@@ -22,6 +22,7 @@
 		- 阻塞在系统调用 [ref1](https://github.com/golang/go/blob/go1.19.2/src/runtime/proc.go#L5308) [ref2](https://github.com/golang/go/blob/go1.19.2/src/runtime/proc.go#L5315)
 			- 抢占 P：即保留原来 G 和 M 的绑定关系，而解绑 M 和 P
 		- 执行时间过长 [ref](https://github.com/golang/go/blob/go1.19.2/src/runtime/proc.go#L5308)
+			- （对于非系统调用情况）利用信号抢占 M
 	- ### Go 如何实现抢占式调度
 		- Go 中存在监控循环
 		-
