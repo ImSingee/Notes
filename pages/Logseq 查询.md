@@ -51,3 +51,6 @@
 				   [?e :movie/title ?title]
 				   [?e :movie/year 1985]]
 				  ```
+-
+- # 学习 / 参考资料
+	- ## Take a deep dive into Logseq queries
