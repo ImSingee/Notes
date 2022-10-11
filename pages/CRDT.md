@@ -1,7 +1,12 @@
-- CRDT 含义为 **Conflict-free Replicated Data Type**，用于提供在分布式系统实现数据同步的数据结构，可用于构建 #local-first 的应用
+- CRDT 含义为 **Conflict-free Replicated Data Type**，用于提供在分布式系统实现数据同步的数据结构（或解决方案），可用于构建 #local-first 的应用
 - 官网：https://crdt.tech/
 - 官网推荐实现：https://crdt.tech/implementations
 -
 - ### 个人推荐实现
 	- [Automerge](https://automerge.org/)
-	-
+	- [Logux](https://logux.io/)
+	- [CouchDB](https://couchdb.apache.org/) | [PouchDB](https://pouchdb.com/)
+-
+- ## Ref
+	- [[logseq]] 实现
+		- Ideally, we'd like to have conflicts-free resolve, we tried both diff-match-patch and crdt, diff-match-patch doesn't work well because Logseq is an outliner, there're some cases that can result in broken outliner structures, crdt(text) has the same problem with diff-match-patch for breaking the outliner structures. crdt (list) might work, but it relies on something that's not yet available in Logseq (it requires each block has a persistent ID).
