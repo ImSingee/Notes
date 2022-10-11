@@ -1,1 +1,2 @@
 logseq/.app/settings/** filter=git-crypt diff=git-crypt
+logseq/app-settings/** filter=git-crypt diff=git-crypt
