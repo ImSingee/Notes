@@ -121,8 +121,7 @@
     :query [:find (pull ?h [*])
             :where
             [?h :block/marker ?marker]
-            [(contains? #{"NOW" "DOING"} ?marker)]
-            [?h :block/page ?p]]
+            [(contains? #{"NOW" "DOING"} ?marker)]]
     :result-transform (fn [result]
                         (sort-by (fn [h]
                                    (get h :block/priority "Z")) result))
