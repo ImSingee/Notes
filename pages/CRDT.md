@@ -1,3 +1,7 @@
-- CRDT 含义为 **Conflict-free Replicated Data Type**，用于提供在分布式系统实现数据同步的数据结构
+- CRDT 含义为 **Conflict-free Replicated Data Type**，用于提供在分布式系统实现数据同步的数据结构，可用于构建 #local-first 的应用
 - 官网：https://crdt.tech/
+- 官网推荐实现：https://crdt.tech/implementations
 -
+- ### 个人推荐实现
+	- [Automerge](https://automerge.org/)
+	-
