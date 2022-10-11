@@ -1,0 +1,3 @@
+- 1Password 7 是最后一个支持本地密码库的版本，在官方已经「下架」，但通过网址还能访问到
+- iOS: https://apps.apple.com/us/app/1password-7-password-manager/id568903335
+-
