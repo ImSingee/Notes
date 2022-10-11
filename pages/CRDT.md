@@ -9,4 +9,5 @@
 -
 - ## Ref
 	- [[logseq]] 实现
+		- https://discord.com/channels/725182569297215569/1015034075058286682/1016524073129488424
 		- Ideally, we'd like to have conflicts-free resolve, we tried both diff-match-patch and crdt, diff-match-patch doesn't work well because Logseq is an outliner, there're some cases that can result in broken outliner structures, crdt(text) has the same problem with diff-match-patch for breaking the outliner structures. crdt (list) might work, but it relies on something that's not yet available in Logseq (it requires each block has a persistent ID).
