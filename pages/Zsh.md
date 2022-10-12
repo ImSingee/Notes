@@ -27,7 +27,8 @@
 		- 选用 Solarized Dark 主题
 		- Solarized Dark 主题 iTerm 2 已内置，也可从 [https://ethanschoonover.com/solarized/](https://ethanschoonover.com/solarized/) 下载
 	- **字体**
-		-
+		- Preference → Profile → Default → Text
+		- Font 设定为 「Dejavu」
 	- **光标快速移动**
 		- Preference → Profile → Default → Keys → Key Mappings 右下角添加
 			- `Option + <-`  ：Send Escape Sequence - b
