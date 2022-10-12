@@ -66,7 +66,7 @@
 			  brew install autojump
 			  ```
 			- 按照 brew 安装完成后的提示信息操作，目前版本是修改 `~/.zshrc` 文件，添加`[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh`  一行
-	- zsh-syntax-highlighting
+	- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 		- Fig：直接安装同名插件
 		- 手动
 			- ```shell
