@@ -30,12 +30,13 @@
 		- Preference → Profile → Default → Text
 		- Font 设定为 「Dejavu Sans Mono for Powerline」
 		- 设定相应的粗细、大小即可（我习惯设定为大小 14 行间距 120）
-	- **光标快速移动**
+	- **Natual Key Bindings**
 		- Preference → Profile → Default → Keys → Key Mappings 右下角添加
-			- `⌥ + <-`  ：Send Escape Sequence - b
-			- `⌥ + ->`  ：Send Escape Sequence - f
-			- `⌘ + delete`: Send Hex Code - 0x15
-			- `\option `
+			- `⌥ ←`  ：Send Escape Sequence - b
+			- `⌥ →`  ：Send Escape Sequence - f
+			- `⌘ delete`: Send Hex Code - 0x15
+			- `⌥ delete`: Send Hex Code - 0x17
+			-
 		-
 - ## Fig 配置
 	- ### oh-my-zsh
