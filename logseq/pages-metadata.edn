@@ -826,7 +826,7 @@
   :block/updated-at 1665490957185}
  {:block/name "2022-10-12",
   :block/created-at 1665504017554,
-  :block/updated-at 1665544306745}
+  :block/updated-at 1665550908284}
  {:block/name "2022-22 周报",
   :block/created-at 1653839136298,
   :block/updated-at 1653843319366}
@@ -1489,7 +1489,7 @@
   :block/updated-at 1665419169611}
  {:block/name "git",
   :block/created-at 1665419034712,
-  :block/updated-at 1665419034712}
+  :block/updated-at 1665550856440}
  {:block/name "git submodule",
   :block/created-at 1664166414063,
   :block/updated-at 1664166516222}
@@ -2157,6 +2157,9 @@
  {:block/name "mac 下安装 bochs",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "makefile",
+  :block/created-at 1665550908284,
+  :block/updated-at 1665550908284}
  {:block/name "man7.org",
   :block/created-at 1665419035527,
   :block/updated-at 1665419035527}
