@@ -27,8 +27,10 @@
 		- 选用 Solarized Dark 主题
 		- Solarized Dark 主题 iTerm 2 已内置，也可从 [https://ethanschoonover.com/solarized/](https://ethanschoonover.com/solarized/) 下载
 	- 光标快速移动
+		- Preference → Profile → Default → Keys → Key Mappings 右下角添加
+			- `Option + <-`  ：Send Escape Sequence - b
+			- `Option + ->`  ：Send Escape Sequence - f
+		- 然后就可以利用 Option + 左右键来以单词为单位移动了
 - ## Fig 配置
-	- Preference → Profile → Default → Keys
-	- 找到  `Option + <-`  和  `Option + ->`  两个 快捷键，分别设置为
-	- `Option + <-`  ：Send Escape Sequence b
-	- `Option + ->`  ：Send Escape Sequence f
+	- ### oh-my-zsh
+	-
