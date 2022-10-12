@@ -7,5 +7,11 @@
 		- ```shell
 		  brew install --cask iterm2
 		  ```
-	-
+	- [Fig](https://fig.io/)
+		- ```shell
+		  brew install fig
+		  ```
+- ## 字体
+	- ```shell
+	  ```
 -
