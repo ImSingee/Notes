@@ -14,6 +14,13 @@
 - ## 字体
 	- [Powerline fonts](https://github.com/powerline/fonts)
 		- ```shell
-		  
+		  git clone --depth=1  https://github.com/powerline/fonts.git /tmp/powerline-fonts
+		  cd /tmp/powerline-fonts && ./install.sh
 		  ```
--
+	- [Powerline-status](https://pypi.org/project/powerline-status/)
+		- ```shell
+		  pip install powerline-status
+		  ```
+- ## iTerm 2 配置
+- ## Fig 配置
+	-
