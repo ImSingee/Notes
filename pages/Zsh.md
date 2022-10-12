@@ -22,5 +22,13 @@
 		  pip install powerline-status
 		  ```
 - ## iTerm 2 配置
+	- **主题**
+		- Preference → Profile → Default → Colors → （右下角）Color Presets
+		- 选用 Solarized Dark 主题
+		- Solarized Dark 主题 iTerm 2 已内置，也可从 [https://ethanschoonover.com/solarized/](https://ethanschoonover.com/solarized/) 下载
+	- 光标快速移动
 - ## Fig 配置
-	-
+	- Preference → Profile → Default → Keys
+	- 找到  `Option + <-`  和  `Option + ->`  两个 快捷键，分别设置为
+	- `Option + <-`  ：Send Escape Sequence b
+	- `Option + ->`  ：Send Escape Sequence f
