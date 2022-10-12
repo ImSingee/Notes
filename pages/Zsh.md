@@ -34,7 +34,9 @@
 		- Preference → Profile → Default → Keys → Key Mappings 右下角添加
 			- `Option + <-`  ：Send Escape Sequence - b
 			- `Option + ->`  ：Send Escape Sequence - f
-		- 然后就可以利用 Option + 左右键来以单词为单位移动了
+			- `Command + delete`: Send Hex Code - 0x15
+			- ``
+		-
 - ## Fig 配置
 	- ### oh-my-zsh
 		- 直接安装 Fig 插件 ohmyzsh，或手动安装
