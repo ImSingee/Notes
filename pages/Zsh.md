@@ -49,4 +49,18 @@
 - ## 插件安装
 	- zsh-autosuggestion
 		- Fig：直接安装同名插件
+		- 手动
+			- ```shell
+			  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+			  ```
+			- 修改 `~/.zshrc` 文件，在 plugins 中添加 `zsh-autosuggestions`
+	- autojump
+		- Fig：直接安装同名插件
+		- 手动
+			- ```shell
+			  brew install autojump
+			  ```
+			- 按照 brew 安装完成后的提示信息操作，目前版本是修改 `~/.zshrc` 文件，添加`[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh`  一行
+	- zsh-syntax-highlighting
+		- Fig：直接安装同名插件
 		-
