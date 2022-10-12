@@ -32,10 +32,10 @@
 		- 设定相应的粗细、大小即可（我习惯设定为大小 14 行间距 120）
 	- **光标快速移动**
 		- Preference → Profile → Default → Keys → Key Mappings 右下角添加
-			- `Option + <-`  ：Send Escape Sequence - b
-			- `Option + ->`  ：Send Escape Sequence - f
-			- `Command + delete`: Send Hex Code - 0x15
-			- ``
+			- `⌥ + <-`  ：Send Escape Sequence - b
+			- `⌥ + ->`  ：Send Escape Sequence - f
+			- `⌘ + delete`: Send Hex Code - 0x15
+			- `\option `
 		-
 - ## Fig 配置
 	- ### oh-my-zsh
