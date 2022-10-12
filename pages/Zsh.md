@@ -45,3 +45,8 @@
 			- 直接在 Fig 插件设置中修改，或修改 .zshrc 的 THEME
 			- 可能需要额外配置环境变量 `DEFAULT_USER=$(whoami)`
 		- 开启插件 `git` `docker` `docker-compose`
+			- 当前在 Fig 中插件可能无效
+- ## 插件安装
+	- zsh-autosuggestion
+		- Fig：直接安装同名插件
+		-
