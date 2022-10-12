@@ -26,11 +26,17 @@
 		- Preference → Profile → Default → Colors → （右下角）Color Presets
 		- 选用 Solarized Dark 主题
 		- Solarized Dark 主题 iTerm 2 已内置，也可从 [https://ethanschoonover.com/solarized/](https://ethanschoonover.com/solarized/) 下载
-	- 光标快速移动
+	- **字体**
+		-
+	- **光标快速移动**
 		- Preference → Profile → Default → Keys → Key Mappings 右下角添加
 			- `Option + <-`  ：Send Escape Sequence - b
 			- `Option + ->`  ：Send Escape Sequence - f
 		- 然后就可以利用 Option + 左右键来以单词为单位移动了
 - ## Fig 配置
 	- ### oh-my-zsh
+		- 直接安装 Fig 插件 ohmyzsh，或手动安装
+			- ```shell
+			  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+			  ```
 	-
