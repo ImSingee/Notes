@@ -73,4 +73,8 @@
 			  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 			  ```
 			- 修改 `~/.zshrc` 文件，在 plugins 中添加 `zsh-syntax-highlighting`，需要注意，**必须保证此项在 plugins 中位于最后**
-		-
+	- Thin blinking cursor
+		- 添加下面一行到 Fig Scripts Config 或 `~/.zshrc`
+			- ```shell
+			  echo '\e[5 q'
+			  ```
