@@ -47,7 +47,7 @@
 		- 开启插件 `git` `docker` `docker-compose`
 			- 当前在 Fig 中插件可能无效
 - ## 插件安装
-	- zsh-autosuggestion
+	- [zsh-autosuggestion](https://github.com/zsh-users/zsh-autosuggestions)
 		- Fig：直接安装同名插件
 		- 手动
 			- ```shell
@@ -55,10 +55,11 @@
 			  ```
 			- 修改 `~/.zshrc` 文件，在 plugins 中添加 `zsh-autosuggestions`
 		- **Solarized Dark 与 zsh-autosuggestions 颜色冲突**
-			- Fig：
+			- Fig
+				- 将配置中的 Highlight Style 改成 `fg=60`
 			- 手动
-				-
-	- autojump
+				- 执行 `echo ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=\'fg=60\' >> $ZSH_CUSTOM/zsh-autosuggestions_custom.zsh` 修改提示文本的颜色
+	- [autojump](https://github.com/wting/autojump)
 		- Fig：直接安装同名插件
 		- 手动
 			- ```shell
