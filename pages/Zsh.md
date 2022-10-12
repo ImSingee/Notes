@@ -12,6 +12,8 @@
 		  brew install fig
 		  ```
 - ## 字体
-	- ```shell
-	  ```
+	- [Powerline fonts](https://github.com/powerline/fonts)
+		- ```shell
+		  
+		  ```
 -
