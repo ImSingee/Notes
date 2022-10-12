@@ -33,10 +33,14 @@
 	- **Natual Key Bindings**
 		- Preference → Profile → Default → Keys → Key Mappings 右下角添加
 			- `⌥ ←`  ：Send Escape Sequence - b
+				- Delete entire line
 			- `⌥ →`  ：Send Escape Sequence - f
 			- `⌘ delete`: Send Hex Code - 0x15
+				- Delete entire line
 			- `⌥ delete`: Send Hex Code - 0x17
-			-
+				- Delete single word
+			- `⌘ ←`: Send Hex Code - 0x01
+			- `⌘ →`: Send Hex Code - 0x05
 		-
 - ## Fig 配置
 	- ### oh-my-zsh
