@@ -54,6 +54,10 @@
 			  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 			  ```
 			- 修改 `~/.zshrc` 文件，在 plugins 中添加 `zsh-autosuggestions`
+		- **Solarized Dark 与 zsh-autosuggestions 颜色冲突**
+			- Fig：
+			- 手动
+				-
 	- autojump
 		- Fig：直接安装同名插件
 		- 手动
@@ -63,4 +67,9 @@
 			- 按照 brew 安装完成后的提示信息操作，目前版本是修改 `~/.zshrc` 文件，添加`[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh`  一行
 	- zsh-syntax-highlighting
 		- Fig：直接安装同名插件
+		- 手动
+			- ```shell
+			  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+			  ```
+			- 修改 `~/.zshrc` 文件，在 plugins 中添加 `zsh-syntax-highlighting`，需要注意，**必须保证此项在 plugins 中位于最后**
 		-
