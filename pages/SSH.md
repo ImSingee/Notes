@@ -1,0 +1,17 @@
+- ## SSH 多路复用
+	- 如果开启多路复用（`ControlMaster yes`），第一个发起连接的为 master ，剩余的实质上是连接到了第一个连接上
+		- 后续连接无需输入密码
+		- 第一个连接断开会导致其他连接也断开
+		- 其他连接未断开，即使第一个连接 exit 了也会在前台阻塞
+		- 似乎多路复用已经成为了默认行为
+	- 如果进一步开启了多路复用保持（`ControlPersist 4h`）
+		- 连接保持在后台
+		- 即使所有活跃连接都断开了，在超时前实际上的连接也不会断开
+			- 如果不指定时间而是指定 `yes` 则连接将永远不停
+	- 多路复用的「文件」可通过 `ControlPath` 配置
+		- 通常类似 `ControlPath ~/.ssh/controlmasters/%C`
+			- 该目录必须预先存在（默认为 `~/.ssh/%C`）
+			- `%C` 是描述变量，为基于 `%l%h%p%r` 生成的哈希
+				- 这些变量可参考 [sshd_config TOKENS](https://man.openbsd.org/sshd_config.5#TOKENS)
+	- Reference: https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Multiplexing
+-
