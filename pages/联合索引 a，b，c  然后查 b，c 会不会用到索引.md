@@ -1,2 +1,3 @@
 - #CruelFundamental #[[2022-10-13]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202210/13)
 -
+- 不会，联合索引是有序的，仅当查询包含 a 时才会用到此联合索引
