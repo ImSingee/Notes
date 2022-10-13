@@ -7,3 +7,4 @@ title:: 单列索引 a和b select *  where a= and b= 先查哪个
 - SQL 语句使用索引的过程会由优化器处理，优化器会选择最小代价执行
 -
 - 关联阅读：[《Mysql - 优化器是如何选择索引的？》](https://www.cnblogs.com/25-lH/p/10973309.html)
+-
