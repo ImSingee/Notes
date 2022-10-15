@@ -204,3 +204,4 @@ title: Readwise
 - On [[2022-10-15]] at 7:49 AM Readwise synced 1303 highlights from 349 books.
 - On [[2022-10-15]] at 8:49 AM Readwise synced 1303 highlights from 349 books.
 - On [[2022-10-15]] at 9:49 AM Readwise synced 1303 highlights from 349 books.
+- On [[2022-10-15]] at 10:50 AM Readwise synced 1303 highlights from 349 books.
