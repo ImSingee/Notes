@@ -1,2 +1,5 @@
-- #CruelFundamental #[[2022-10-17]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202210/17)
+- #CruelFundamental #[[2022-10-17]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202210/17) #HTTP
 -
+- > 感觉本文实际考察的是无状态
+- ## 无连接
+	- 早期 HTTP 是无连接的。
