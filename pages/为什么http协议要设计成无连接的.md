@@ -3,3 +3,4 @@
 - > 感觉本文实际考察的是无状态
 - ## 无连接
 	- 早期 HTTP 是无连接的。HTTP/1.1 增加了 Connection 头可以指定 [Keep-Alive](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Keep-Alive) 来保持连接
+	- 早期主要是因为当时的 HTTP 很简单，没有太多资源，而服务器资源紧张存储连接信息会耗费大量
