@@ -2,9 +2,9 @@
 -
 - > 感觉本文实际考察的是无状态
 - ## 无连接
-	- 早期 HTTP 是无连接的。HTTP/1.1 增加了 Connection 头可以指定 [Keep-Alive](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Keep-Alive) 来保持连接
+	- 早期 HTTP 是无连接的。HTTP/1.1 增加了 Connection 头可以指定 [Keep-Alive](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Keep-Alive) 来保持连接；HTTP/2 将 Keep-Alive 作为了默认行为（并在实现上实质性的移除了 Connection 头）
 	- 早期主要是因为当时的 HTTP 很简单，没有太多资源，而服务器资源紧张存储连接信息会耗费大量存储空间影响性能
 	- 该问题在现在已经不存在了，绝大多数实现都已经是共享连接了（也因此引出了 HTTP 多路复用技术）
 - ## 无状态
 	- 无状态指的是服务器不记录与这一连接有关的状态（而是交由客户端记录）
-	-
+	- 主要目的是为了简化代码编写，
