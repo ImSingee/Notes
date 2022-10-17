@@ -2,4 +2,4 @@
 -
 - > 感觉本文实际考察的是无状态
 - ## 无连接
-	- 早期 HTTP 是无连接的。
+	- 早期 HTTP 是无连接的。HTTP/1.1 增加了 Connection 头可以指定 [Keep-Alive](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Keep-Alive) 来保持连接
