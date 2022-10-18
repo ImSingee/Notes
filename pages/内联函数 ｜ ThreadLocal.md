@@ -1,7 +1,8 @@
-title:: 内联函数 / ThreadLocal
-
-- C++：
-  谈一下你对内联函数的认识
-  为什么要使用内联函数，内联函数比普通函数性能好吗，为什么好，好在哪里
-  内联函数和macro有什么区别
+- #CruelFundamental #[[2022-10-18]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202210/18)
 -
+- C++：谈一下你对内联函数的认识；为什么要使用内联函数，内联函数比普通函数性能好吗，为什么好，好在哪里；内联函数和macro有什么区别
+- JAVA： 说说ThreadLocal原理
+-
+- ## 内联函数
+	- 在调用函数时不会出现独立的栈，而是将代码直接拷贝至调用处中执行
+	-
