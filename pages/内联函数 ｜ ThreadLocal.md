@@ -11,4 +11,4 @@
 - ## ThreadLocal
 	- ThreadLocal 是一个保存在线程中的变量，用于避免竞态条件
 	- ThreadLocal 本质是对 Thread 类中的 threadLocals 的变量（类型为 ThreadLocal.ThreadLocalMap）的引用，其真正的存在于线程中的保证是 Thread 实现的
-	- 对 ThreadLocal 的访问
+	- 对 ThreadLocal 的访问实质上是访问了所在 thread 的 threadLocals，可以理解为它只是一个获取 ThreadLocalMap + 辅助获取 ThreadLocalMap 中的值的封装
