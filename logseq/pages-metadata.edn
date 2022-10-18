@@ -856,7 +856,7 @@
   :block/updated-at 1665991923944}
  {:block/name "2022-10-18",
   :block/created-at 1666027358448,
-  :block/updated-at 1666069137710}
+  :block/updated-at 1666070416785}
  {:block/name "2022-22 周报",
   :block/created-at 1653839136298,
   :block/updated-at 1653843319366}
@@ -1298,6 +1298,9 @@
  {:block/name "cruelfundamental",
   :block/created-at 1643097178019,
   :block/updated-at 1643097178019}
+ {:block/name "cruelsystem",
+  :block/created-at 1666070422475,
+  :block/updated-at 1666070422475}
  {:block/name "cs.umd.edu",
   :block/created-at 1665419128673,
   :block/updated-at 1665419128673}
@@ -5410,6 +5413,9 @@
  {:block/name "残酷刷题群",
   :block/created-at 1665419035842,
   :block/updated-at 1665658601444}
+ {:block/name "残酷系统群",
+  :block/created-at 1666070416784,
+  :block/updated-at 1666070500511}
  {:block/name "每日书写",
   :block/created-at 1665419168612,
   :block/updated-at 1665419168612}
