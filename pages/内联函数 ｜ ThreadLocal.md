@@ -10,4 +10,5 @@
 	- macro 仅仅是普通的文本替换，实现一些复杂逻辑时比较困难
 - ## ThreadLocal
 	- ThreadLocal 是一个保存在线程中的变量，用于避免竞态条件
-	- ThreadLocal 本质是 ThreadLocalMap 的封装，每个
+	- ThreadLocal 本质是对 Thread 类中的 threadLocals 的变量（类型为 ThreadLocal.ThreadLocalMap）的引用，其真正的存在于线程中的保证是 Thread 实现的
+	- 对 ThreadLocal 的访问
