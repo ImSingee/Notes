@@ -213,4 +213,5 @@
  ;; :editor/extra-codemirror-options {:keyMap "emacs" :lineWrapping true}
 
  :file/name-format :triple-lowbar
+ :feature/enable-whiteboards? true
  }
