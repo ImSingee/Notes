@@ -10,6 +10,18 @@
  {:block/name "0,0,0],[0,0,0",
   :block/created-at 1665419169885,
   :block/updated-at 1665419169885}
+ {:block/name "0,1,10],[1,2,5],[2,3,9],[3,4,13",
+  :block/created-at 1666180943081,
+  :block/updated-at 1666180943081}
+ {:block/name "0,1,2],[0,2,5",
+  :block/created-at 1666180943079,
+  :block/updated-at 1666180943079}
+ {:block/name "0,1,2],[1,2,4],[2,0,8],[1,0,16",
+  :block/created-at 1666180943080,
+  :block/updated-at 1666180943080}
+ {:block/name "0,4,14],[1,4,13",
+  :block/created-at 1666180943080,
+  :block/updated-at 1666180943080}
  {:block/name "00. 用得上的哲学 简介、发刊词",
   :block/created-at 1665419033193,
   :block/updated-at 1665419033193}
@@ -856,10 +868,10 @@
   :block/updated-at 1665991923944}
  {:block/name "2022-10-18",
   :block/created-at 1666027358448,
-  :block/updated-at 1666070416785}
+  :block/updated-at 1666180938340}
  {:block/name "2022-10-19",
   :block/created-at 1666112346797,
-  :block/updated-at 1666166275819}
+  :block/updated-at 1666180899019}
  {:block/name "2022-22 周报",
   :block/created-at 1653839136298,
   :block/updated-at 1653843319366}
@@ -1217,6 +1229,9 @@
  {:block/name "check if there is a valid partition for the array",
   :block/created-at 1665419136968,
   :block/updated-at 1665419136968}
+ {:block/name "checking existence of edge length limited paths",
+  :block/created-at 1666180943075,
+  :block/updated-at 1666180943075}
  {:block/name "cjting.me",
   :block/created-at 1665419137848,
   :block/updated-at 1665419137848}
@@ -1883,6 +1898,9 @@
  {:block/name "leetcode-1647",
   :block/created-at 1665419142222,
   :block/updated-at 1665419142222}
+ {:block/name "leetcode-1697",
+  :block/created-at 1666180943078,
+  :block/updated-at 1666180943078}
  {:block/name "leetcode-1970",
   :block/created-at 1666012381579,
   :block/updated-at 1666012381579}
@@ -1943,6 +1961,9 @@
  {:block/name "leetcode-2376",
   :block/created-at 1665419093769,
   :block/updated-at 1665419093769}
+ {:block/name "leetcode-2421",
+  :block/created-at 1666180889383,
+  :block/updated-at 1666180889383}
  {:block/name "leetcode-299",
   :block/created-at 1665419154864,
   :block/updated-at 1665419154864}
@@ -2352,6 +2373,9 @@
  {:block/name "number of arithmetic triplets",
   :block/created-at 1665419114429,
   :block/updated-at 1665419114429}
+ {:block/name "number of good paths",
+  :block/created-at 1666180889378,
+  :block/updated-at 1666180889378}
  {:block/name "number of increasing paths in a grid",
   :block/created-at 1665419114081,
   :block/updated-at 1665419114081}
@@ -2361,6 +2385,9 @@
  {:block/name "number of matching subsequences",
   :block/created-at 1665419152270,
   :block/updated-at 1665419152270}
+ {:block/name "off-line querying",
+  :block/created-at 1666180943075,
+  :block/updated-at 1666180943075}
  {:block/name "okr",
   :block/created-at 1665419104370,
   :block/updated-at 1665419104370}
@@ -2397,6 +2424,9 @@
  {:block/name "pandas",
   :block/created-at 1665419112992,
   :block/updated-at 1665419112992}
+ {:block/name "path in a tree",
+  :block/created-at 1666180889379,
+  :block/updated-at 1666180889379}
  {:block/name "paulgraham.com",
   :block/created-at 1665419038372,
   :block/updated-at 1665419038372}
@@ -5071,6 +5101,9 @@
  {:block/name "多线程",
   :block/created-at 1665419064690,
   :block/updated-at 1665419064690}
+ {:block/name "好路径的数目",
+  :block/created-at 1666180884639,
+  :block/updated-at 1666180884639}
  {:block/name "如何下载私有 go module",
   :block/created-at 1665419034989,
   :block/updated-at 1665419034989}
@@ -5404,6 +5437,9 @@
  {:block/name "检查数组是否存在有效划分",
   :block/created-at 1665419041620,
   :block/updated-at 1665419041620}
+ {:block/name "检查边长度限制的路径是否存在",
+  :block/created-at 1666180938339,
+  :block/updated-at 1666180938339}
  {:block/name "模拟",
   :block/created-at 1665419155599,
   :block/updated-at 1665419155599}
@@ -5542,6 +5578,9 @@
  {:block/name "稳定排序",
   :block/created-at 1665419166159,
   :block/updated-at 1665419166159}
+ {:block/name "简单说一个自己熟悉的设计模式。再说一个你项目中实际使用过的其他设计模式。",
+  :block/created-at 1666180899019,
+  :block/updated-at 1666180901497}
  {:block/name "简悦",
   :block/created-at 1665419034018,
   :block/updated-at 1665419034018}
