@@ -40,6 +40,6 @@
 	  | /dev/cdrom | => /dev/hdc |
 	  | /dev/modem | => /dev/ttyS[0-9] |
 	  | /dev/pilot | => /dev/ttyS[0-9] |
-	  | /dev/random | 随机数设备 |
-	  | /dev/urandom | 随机数设备 |
+	  | /dev/random | 随机数设备 ([deprecated](https://lkml.org/lkml/2017/7/20/993)) |
+	  | /dev/urandom | 随机数设备 ([通常使用](https://unix.stackexchange.com/questions/324209/when-to-use-dev-random-vs-dev-urandom)) |
 - Ref: [linux 重要的目录之 proc 和 dev 目录](https://rumenz.com/rumenbiji/linux-proc-dev.html)
