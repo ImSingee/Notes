@@ -1,2 +1,7 @@
 - #CruelFundamental #2022-10-23 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202210/23)
 -
+- 不能。
+-
+- ping 利用的是 ICMP 协议，无法获取端口信息
+- 如需了解 UDP 信息或可用 [tcping](https://github.com/cloverstd/tcping)
+-
