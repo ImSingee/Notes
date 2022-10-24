@@ -1,2 +1,6 @@
 - #CruelFundamental #2022-10-21 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202210/21)
 -
+- ## `/dev` 存储物理设备信息
+-
+- ## `/proc` 存储内核中的相关信息
+-
