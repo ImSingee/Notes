@@ -4039,6 +4039,9 @@
  {:block/name "readwise/highlights/用 c 语言理解 linux 软件库 | linux 中国",
   :block/created-at 1666153982547,
   :block/updated-at 1666153982547}
+ {:block/name "readwise/highlights/用「功能性训练」来升级你的训练计划",
+  :block/created-at 1666582162834,
+  :block/updated-at 1666582164537}
  {:block/name "readwise/highlights/登录",
   :block/created-at 1666153982557,
   :block/updated-at 1666153982557}
@@ -4769,6 +4772,9 @@
  {:block/name "为什么http协议要设计成无连接的",
   :block/created-at 1666010008660,
   :block/updated-at 1666010008660}
+ {:block/name "举铁的马里奥",
+  :block/created-at 1666582164535,
+  :block/updated-at 1666582164535}
  {:block/name "乐观锁",
   :block/created-at 1665419061462,
   :block/updated-at 1665419061462}
