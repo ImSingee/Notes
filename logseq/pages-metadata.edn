@@ -886,7 +886,7 @@
   :block/updated-at 1666454450325}
  {:block/name "2022-10-24",
   :block/created-at 1666540815495,
-  :block/updated-at 1666540815495}
+  :block/updated-at 1666578216836}
  {:block/name "2022-22 周报",
   :block/created-at 1653839136298,
   :block/updated-at 1653843319366}
@@ -2617,6 +2617,10 @@
  {:block/name "readwise/highlights/02｜学会这 4 点，你也可以告别伪勤奋 - 如何成为学习高手",
   :block/created-at 1666153975460,
   :block/updated-at 1666153975460}
+ {:block/name
+  "readwise/highlights/02｜聊聊x86体系架构中的实模式和保护模式 - 编程高手必学的内存知识",
+  :block/created-at 1666578457021,
+  :block/updated-at 1666578458288}
  {:block/name
   "readwise/highlights/03 | java虚拟机是如何加载java类的? - 深入拆解java虚拟机",
   :block/created-at 1665419116381,
@@ -4626,7 +4630,7 @@
   :block/updated-at 1665419033606}
  {:block/name "vim",
   :block/created-at 1665578146306,
-  :block/updated-at 1665578146306}
+  :block/updated-at 1666578258428}
  {:block/name "vimtricks.com",
   :block/created-at 1665419070447,
   :block/updated-at 1665419070447}
