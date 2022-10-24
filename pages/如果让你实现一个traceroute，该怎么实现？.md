@@ -1,0 +1,5 @@
+- #CruelFundamental #2022-10-22 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202210/22)
+-
+- 客户端发送一个 TTL 为 1，端口号大于 30000 的 UDP 数据包，到达第一站路由器之后 TTL 被减去 1，返回了一个超时的 ICMP 数据包，客户端得到第一跳路由器的地址。
+- 客户端发送一个 TTL 为 2 的数据包，在第二跳的路由器节点处超时，得到第二跳路由器的地址。
+- 客户端发送一个 TTL 为 3 的数据包，数据包成功到达目标主机，返回一个端口不可达错误，traceroute 结束。

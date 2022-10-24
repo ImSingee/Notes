@@ -3,5 +3,6 @@
 - 不能。
 -
 - ping 利用的是 ICMP 协议，无法获取端口信息
-- 如需了解 UDP 信息或可用 [tcping](https://github.com/cloverstd/tcping)
+- 如需了解 TCP 信息或可用 [tcping](https://github.com/cloverstd/tcping) 等工具完成
+-
 -
