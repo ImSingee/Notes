@@ -59,9 +59,19 @@
  {:block/name "1,2",
   :block/created-at 1665419156408,
   :block/updated-at 1665419156408}
+ {:block/name
+  "1,2,1,1,1],[1,2,1,2,1],[1,2,1,2,1],[1,2,1,2,1],[1,1,1,2,1",
+  :block/created-at 1666705459351,
+  :block/updated-at 1666705459351}
+ {:block/name "1,2,2],[3,8,2],[5,3,5",
+  :block/created-at 1666705459350,
+  :block/updated-at 1666705459350}
  {:block/name "1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1",
   :block/created-at 1666688055683,
   :block/updated-at 1666688055683}
+ {:block/name "1,2,3],[3,8,4],[5,3,5",
+  :block/created-at 1666705459351,
+  :block/updated-at 1666705459351}
  {:block/name "1,4],[2,5],[3,6",
   :block/created-at 1666604706050,
   :block/updated-at 1666604706050}
@@ -874,7 +884,7 @@
   :block/updated-at 1665758383184}
  {:block/name "2022-10-15",
   :block/created-at 1665799221496,
-  :block/updated-at 1665861147234}
+  :block/updated-at 1666705453271}
  {:block/name "2022-10-16",
   :block/created-at 1665860824397,
   :block/updated-at 1665924861695}
@@ -895,7 +905,7 @@
   :block/updated-at 1666701990318}
  {:block/name "2022-10-22",
   :block/created-at 1666369058364,
-  :block/updated-at 1666619539602}
+  :block/updated-at 1666705041178}
  {:block/name "2022-10-23",
   :block/created-at 1666454450325,
   :block/updated-at 1666619512871}
@@ -1294,7 +1304,7 @@
   :block/updated-at 1665419089759}
  {:block/name "combinatorics",
   :block/created-at 1666604626844,
-  :block/updated-at 1666604626844}
+  :block/updated-at 1666705176788}
  {:block/name "commend",
   :block/created-at 1665419170270,
   :block/updated-at 1665419170270}
@@ -1958,6 +1968,9 @@
  {:block/name "leetcode-1627",
   :block/created-at 1666604706049,
   :block/updated-at 1666604706049}
+ {:block/name "leetcode-1631",
+  :block/created-at 1666705459349,
+  :block/updated-at 1666705459349}
  {:block/name "leetcode-1642",
   :block/created-at 1665419172939,
   :block/updated-at 1665419172939}
@@ -2535,6 +2548,9 @@
  {:block/name "path in a tree",
   :block/created-at 1666180889379,
   :block/updated-at 1666180889379}
+ {:block/name "path with minimum effort",
+  :block/created-at 1666705459344,
+  :block/updated-at 1666705459344}
  {:block/name "paulgraham.com",
   :block/created-at 1665419038372,
   :block/updated-at 1665419038372}
@@ -5491,7 +5507,7 @@
   :block/updated-at 1665419028015}
  {:block/name "数组的最大公因数排序",
   :block/created-at 1666604648300,
-  :block/updated-at 1666704826263}
+  :block/updated-at 1666704963012}
  {:block/name "数论",
   :block/created-at 1665578144197,
   :block/updated-at 1665578144197}
@@ -5528,6 +5544,9 @@
  {:block/name "替换数组中的非互质数",
   :block/created-at 1665578144232,
   :block/updated-at 1665579108722}
+ {:block/name "最小体力消耗路径",
+  :block/created-at 1666705453269,
+  :block/updated-at 1666705453269}
  {:block/name "最小栈",
   :block/created-at 1665419029233,
   :block/updated-at 1665419029233}
@@ -5626,7 +5645,7 @@
   :block/updated-at 1665419032880}
  {:block/name "残酷刷题群",
   :block/created-at 1665419035842,
-  :block/updated-at 1665658601444}
+  :block/updated-at 1666705419192}
  {:block/name "残酷系统群",
   :block/created-at 1666083014243,
   :block/updated-at 1666083014243}
@@ -6043,7 +6062,7 @@
   :block/updated-at 1665419029682}
  {:block/name "质数",
   :block/created-at 1666704332507,
-  :block/updated-at 1666704692225}
+  :block/updated-at 1666704943493}
  {:block/name "贪心",
   :block/created-at 1665419087972,
   :block/updated-at 1665419087972}
