@@ -19,6 +19,9 @@
  {:block/name "0,1,2],[1,2,4],[2,0,8],[1,0,16",
   :block/created-at 1666180943080,
   :block/updated-at 1666180943080}
+ {:block/name "0,1],[1,0",
+  :block/created-at 1666688055684,
+  :block/updated-at 1666688055684}
  {:block/name "0,4,14],[1,4,13",
   :block/created-at 1666180943080,
   :block/updated-at 1666180943080}
@@ -56,6 +59,9 @@
  {:block/name "1,2",
   :block/created-at 1665419156408,
   :block/updated-at 1665419156408}
+ {:block/name "1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1",
+  :block/created-at 1666688055683,
+  :block/updated-at 1666688055683}
  {:block/name "1,4],[2,5],[3,6",
   :block/created-at 1666604706050,
   :block/updated-at 1666604706050}
@@ -883,10 +889,10 @@
   :block/updated-at 1666180899019}
  {:block/name "2022-10-20",
   :block/created-at 1666195237985,
-  :block/updated-at 1666619551050}
+  :block/updated-at 1666698459491}
  {:block/name "2022-10-21",
   :block/created-at 1666282577424,
-  :block/updated-at 1666619545349}
+  :block/updated-at 1666701990318}
  {:block/name "2022-10-22",
   :block/created-at 1666369058364,
   :block/updated-at 1666619539602}
@@ -898,7 +904,7 @@
   :block/updated-at 1666618562619}
  {:block/name "2022-10-25",
   :block/created-at 1666627250521,
-  :block/updated-at 1666627250521}
+  :block/updated-at 1666695771406}
  {:block/name "2022-22 周报",
   :block/created-at 1653839136298,
   :block/updated-at 1653843319366}
@@ -1580,6 +1586,9 @@
  {:block/name "gc",
   :block/created-at 1665419084776,
   :block/updated-at 1665419084776}
+ {:block/name "gcd",
+  :block/created-at 1666697171468,
+  :block/updated-at 1666702490321}
  {:block/name "gcd sort of an array",
   :block/created-at 1666604652412,
   :block/updated-at 1666604652412}
@@ -1613,6 +1622,9 @@
  {:block/name "github.com",
   :block/created-at 1665419044462,
   :block/updated-at 1665419044462}
+ {:block/name "git中merge和rebase区别",
+  :block/created-at 1666695754746,
+  :block/updated-at 1666695904980}
  {:block/name "go",
   :block/created-at 1643097178018,
   :block/updated-at 1643097178018}
@@ -1958,6 +1970,9 @@
  {:block/name "leetcode-1735",
   :block/created-at 1666604626847,
   :block/updated-at 1666604626847}
+ {:block/name "leetcode-1819",
+  :block/created-at 1666702462417,
+  :block/updated-at 1666702462417}
  {:block/name "leetcode-1970",
   :block/created-at 1666012381579,
   :block/updated-at 1666012381579}
@@ -2060,6 +2075,9 @@
  {:block/name "leetcode-438",
   :block/created-at 1665419134508,
   :block/updated-at 1665419134508}
+ {:block/name "leetcode-46",
+  :block/created-at 1666688055681,
+  :block/updated-at 1666688055681}
  {:block/name "leetcode-462",
   :block/created-at 1665419130284,
   :block/updated-at 1665419130284}
@@ -2132,6 +2150,9 @@
  {:block/name "leetcode-weekly-contest",
   :block/created-at 1643515037392,
   :block/updated-at 1660020738426}
+ {:block/name "leetcode-全排列",
+  :block/created-at 1666688053921,
+  :block/updated-at 1666688053921}
  {:block/name "leetcode.com",
   :block/created-at 1665419048056,
   :block/updated-at 1665419048056}
@@ -2228,6 +2249,9 @@
  {:block/name "lintcode-149",
   :block/created-at 1665419129556,
   :block/updated-at 1665419129556}
+ {:block/name "lintcode-15",
+  :block/created-at 1666688055682,
+  :block/updated-at 1666688055682}
  {:block/name "lintcode-1526",
   :block/created-at 1665419156895,
   :block/updated-at 1665419156895}
@@ -2454,6 +2478,9 @@
  {:block/name "number of arithmetic triplets",
   :block/created-at 1665419114429,
   :block/updated-at 1665419114429}
+ {:block/name "number of different subsequences gcds",
+  :block/created-at 1666702462409,
+  :block/updated-at 1666702462409}
  {:block/name "number of good paths",
   :block/created-at 1666180889378,
   :block/updated-at 1666180889378}
@@ -2517,6 +2544,9 @@
  {:block/name "permanent",
   :block/created-at 1665419175021,
   :block/updated-at 1665419175021}
+ {:block/name "permutations",
+  :block/created-at 1666688055679,
+  :block/updated-at 1666688055679}
  {:block/name "perpetual",
   :block/created-at 1665419175019,
   :block/updated-at 1665419175019}
@@ -2555,7 +2585,7 @@
   :block/updated-at 1665419028305}
  {:block/name "prime factors",
   :block/created-at 1666604610501,
-  :block/updated-at 1666604610501}
+  :block/updated-at 1666702193614}
  {:block/name "problem",
   :block/created-at 1665419168259,
   :block/updated-at 1665419168259}
@@ -4982,6 +5012,9 @@
  {:block/name "元素计数",
   :block/created-at 1665419028420,
   :block/updated-at 1665419028420}
+ {:block/name "全排列",
+  :block/created-at 1666687901500,
+  :block/updated-at 1666688116287}
  {:block/name "全相联 组相联 直接映射的区别",
   :block/created-at 1666592579492,
   :block/updated-at 1666593186254}
@@ -5296,7 +5329,7 @@
   :block/updated-at 1665419174294}
  {:block/name "带阈值的图连通性",
   :block/created-at 1666604696408,
-  :block/updated-at 1666604696408}
+  :block/updated-at 1666701981352}
  {:block/name "常用 react hooks",
   :block/created-at 1665419029211,
   :block/updated-at 1665419029211}
@@ -5318,6 +5351,9 @@
  {:block/name "广度优先搜索",
   :block/created-at 1665419114071,
   :block/updated-at 1665419114071}
+ {:block/name "序列中不同最大公约数的数目",
+  :block/created-at 1666695771406,
+  :block/updated-at 1666695771406}
  {:block/name "开放式审核系统设计",
   :block/created-at 1649857819193,
   :block/updated-at 1649857819193}
@@ -5410,7 +5446,7 @@
   :block/updated-at 1665419102906}
  {:block/name "按公因数计算最大组件大小",
   :block/created-at 1666604732348,
-  :block/updated-at 1666619430345}
+  :block/updated-at 1666698450173}
  {:block/name "按符号重排数组",
   :block/created-at 1665419028421,
   :block/updated-at 1665419028421}
@@ -5593,7 +5629,7 @@
   :block/updated-at 1666083014243}
  {:block/name "每天学一点",
   :block/created-at 1666676761146,
-  :block/updated-at 1666677401938}
+  :block/updated-at 1666689098524}
  {:block/name "每日书写",
   :block/created-at 1665419168612,
   :block/updated-at 1665419168612}
@@ -5762,6 +5798,12 @@
  {:block/name "算法/左神/体系学习班/19 - 暴力递归到动态规划（二）",
   :block/created-at 1666153987739,
   :block/updated-at 1666153987739}
+ {:block/name "算法/搜索",
+  :block/created-at 1666687831271,
+  :block/updated-at 1666687831271}
+ {:block/name "算法/搜索/dfs",
+  :block/created-at 1666687831272,
+  :block/updated-at 1666689027505}
  {:block/name "算法/题目",
   :block/created-at 1666153973183,
   :block/updated-at 1666153973183}
