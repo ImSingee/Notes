@@ -156,13 +156,6 @@
     :inputs [:today :7d-after]
     :collapsed? false}]}
 
- ;; Add your own commands to speedup.
- ;; E.g. [["js" "Javascript"]]
- :commands
- [
-   ["cf" "#CruelFundamental {{{TODAY}}}"]
- ]
-
  ;; Macros replace texts and will make you more productive.
  ;; For example:
  ;; Add this to the macros below:
