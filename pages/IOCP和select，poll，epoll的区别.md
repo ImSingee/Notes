@@ -1,0 +1,4 @@
+- #CruelFundamental #2022-10-26 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202210/26) #IO
+-
+- 同步和异步 IO 的区别在于 IO 数据写入应用内存是在应用程序还是内核中完成的
+- ![](https://img-blog.csdn.net/20161028200140849)

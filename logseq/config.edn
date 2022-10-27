@@ -135,7 +135,6 @@
             [?h :block/page ?p]
             [?p :block/journal? true]
             [?p :block/journal-day ?d]
-            [(>= ?d ?start)]
             [(< ?d ?today)]]
     :inputs [:14d :today]
     :result-transform (fn [result]
@@ -177,7 +176,7 @@
  :ref/default-open-blocks-level 2
 
  :ref/linked-references-collapsed-threshold 3
- :favorites ("当下" "2022" "Recent Journals" "TODO" "操作系统" "Algorithm" "残酷刷题群" "残酷八股群" "每日阅读" "每天学一点" "周报")
+ :favorites ("当下" "2022" "Recent Journals" "TODO" "操作系统" "Algorithm" "残酷刷题群" "残酷八股群" "残酷系统群" "每日阅读" "每天学一点" "周报")
  :feature/enable-encryption? false
  :journal/page-title-format "yyyy-MM-dd"
 

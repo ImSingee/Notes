@@ -1,3 +1,3 @@
-- TODO  当日日记制卡
+- LATER  当日日记制卡
   template:: journal
 -
