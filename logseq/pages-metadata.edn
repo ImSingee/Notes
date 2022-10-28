@@ -1889,6 +1889,9 @@
  {:block/name "launchctl",
   :block/created-at 1665419029461,
   :block/updated-at 1665419029461}
+ {:block/name "learnwithjohn  ​    英国拉夫堡大学 体育管理硕士",
+  :block/created-at 1666943779039,
+  :block/updated-at 1666943779039}
  {:block/name "leetcode",
   :block/created-at 1665419027964,
   :block/updated-at 1665419027964}
@@ -2156,6 +2159,9 @@
  {:block/name "linger",
   :block/created-at 1665419163794,
   :block/updated-at 1665419163794}
+ {:block/name "link: 别上语法课",
+  :block/created-at 1666943777725,
+  :block/updated-at 1666943777725}
  {:block/name "linked list",
   :block/created-at 1665419168694,
   :block/updated-at 1665419168694}
@@ -3363,6 +3369,14 @@
  {:block/name "readwise/highlights/git as a nosql database",
   :block/created-at 1666153978616,
   :block/updated-at 1666153978616}
+ {:block/name
+  "readwise/highlights/glossika: 我终于开始用这个多语言学家们都推荐的软件，它真有用吗？",
+  :block/created-at 1666943777762,
+  :block/updated-at 1666943779041}
+ {:block/name
+  "readwise/highlights/glossika: 我终于开始用这个多语言学家们都推荐的软件，它真有用吗？ - 知乎",
+  :block/created-at 1666943776917,
+  :block/updated-at 1666943777727}
  {:block/name "readwise/highlights/go 1.13 中值得关注的几个变化",
   :block/created-at 1666153978627,
   :block/updated-at 1666153978627}
