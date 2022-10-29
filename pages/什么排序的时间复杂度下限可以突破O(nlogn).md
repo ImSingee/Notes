@@ -1,0 +1,5 @@
+- #CruelFundamental #2022-10-28 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202210/28)
+-
+- 桶排序 基数排序 计数排序
+- 经过优化的希尔排序
+- bfprt 优化快速排序
