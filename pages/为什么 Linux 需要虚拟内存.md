@@ -1,3 +1,5 @@
 - #CruelFundamental #2022-10-29 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202210/29)
 -
+- 虚拟内存可以利用内存起到缓存的作用，提高进程访问磁盘的速度
 -
+- 虚拟内存可以控制进程对物理内存的访问，隔离不同进程的访问权限，提高系统的安全性
