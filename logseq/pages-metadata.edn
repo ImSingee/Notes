@@ -862,7 +862,7 @@
   :block/updated-at 1666878306347}
  {:block/name "2022-10-27",
   :block/created-at 1666800062730,
-  :block/updated-at 1666877751401}
+  :block/updated-at 1667068653975}
  {:block/name "2022-10-28",
   :block/created-at 1666886483114,
   :block/updated-at 1667067797622}
@@ -871,7 +871,7 @@
   :block/updated-at 1667068115781}
  {:block/name "2022-10-30",
   :block/created-at 1667059239992,
-  :block/updated-at 1667063646272}
+  :block/updated-at 1667068937381}
  {:block/name "2022-22 周报",
   :block/created-at 1653839136298,
   :block/updated-at 1653843319366}
@@ -2042,6 +2042,9 @@
  {:block/name "leetcode-2421",
   :block/created-at 1666180889383,
   :block/updated-at 1666180889383}
+ {:block/name "leetcode-2448",
+  :block/created-at 1667068941022,
+  :block/updated-at 1667068941022}
  {:block/name "leetcode-296",
   :block/created-at 1667045886486,
   :block/updated-at 1667045886486}
@@ -2409,6 +2412,9 @@
  {:block/name "min cost climbing stairs",
   :block/created-at 1665419134681,
   :block/updated-at 1665419134681}
+ {:block/name "minimum cost to make array equal",
+  :block/created-at 1667068941018,
+  :block/updated-at 1667068941018}
  {:block/name "minimum deletions to make array divisible",
   :block/created-at 1666877744839,
   :block/updated-at 1666877744839}
@@ -5041,7 +5047,10 @@
   :block/updated-at 1666011625419}
  {:block/name "使数组可以被整除的最少删除次数",
   :block/created-at 1666877722508,
-  :block/updated-at 1667068497873}
+  :block/updated-at 1667068621678}
+ {:block/name "使数组相等的最小开销",
+  :block/created-at 1667068937380,
+  :block/updated-at 1667068937380}
  {:block/name "使用 rust 完成逻辑开发",
   :block/created-at 1665419028621,
   :block/updated-at 1665419028621}
@@ -5713,7 +5722,7 @@
   :block/updated-at 1665419032880}
  {:block/name "残酷刷题群",
   :block/created-at 1665419035842,
-  :block/updated-at 1667068103430}
+  :block/updated-at 1667068774050}
  {:block/name "残酷系统群",
   :block/created-at 1666083014243,
   :block/updated-at 1666083014243}
