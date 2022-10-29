@@ -22,3 +22,20 @@ alias:: Minimum Moves to Equal Array Elements II
 		- `n == nums.length`
 		- `1 <= nums.length <= 105`
 		- `-109 <= nums[i] <= 109`
+- # 解
+	- ```go
+	  func minMoves2(nums []int) int {
+	      sort.Ints(nums)
+	      n := nums[len(nums)/2]
+	      
+	      count := 0
+	      for _, num := range nums {
+	          count += abs(num - n)
+	      }
+	      return count
+	  }
+	  
+	  func abs(x int) int {
+	      if x >= 0 { return x } else { return -x }
+	  }
+	  ```
