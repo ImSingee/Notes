@@ -11,8 +11,9 @@
 	- 假设有 A、B、C 三台机器，期望 A 可以通过 B 的 6666 端口访问到 C 的 7777 端口
 	- 在 B 上进行如下配置
 	- ```bash
-	  iptables -t nat -A PREROUTING -p tcp --dport 6666 -j DNAT --to-destination 192.168.1.8:7777
-	  iptables -t nat -A POSTROUTING -p tcp -d 192.168.1.8 --dport 7777 -j SNAT --to-source 192.168.1.168
+	  iptables -t nat -A PREROUTING -p tcp --dport 6666 -j DNAT --to-destination C:7777
+	  iptables -t nat -A POSTROUTING -p tcp -d C --dport 7777 -j SNAT --to-source B
 	  ```
-	-
+-
+-
 - Reference: [iptables 做 TCP/UDP 端口转发【转】 ](https://www.cnblogs.com/paul8339/p/14688156.html)
