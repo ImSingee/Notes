@@ -1,0 +1,4 @@
+- ## 确保内核开启了 ip 端口
+-
+-
+- Reference: [iptables 做 TCP/UDP 端口转发【转】 ](https://www.cnblogs.com/paul8339/p/14688156.html)
