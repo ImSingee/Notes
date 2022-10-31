@@ -1709,6 +1709,9 @@
  {:block/name "hls__the_google_file_system_1647238548328_0",
   :block/created-at 1665419029503,
   :block/updated-at 1665419029503}
+ {:block/name "hls__vm-ft_1667223237327_0",
+  :block/created-at 1667223260495,
+  :block/updated-at 1667223644398}
  {:block/name "home",
   :block/created-at 1665419117204,
   :block/updated-at 1665419117204}
@@ -4722,6 +4725,10 @@
  {:block/name "the bucket list",
   :block/created-at 1665419161973,
   :block/updated-at 1665419161973}
+ {:block/name
+  "the design of a practical system for fault-tolerant virtual machines",
+  :block/created-at 1667223379521,
+  :block/updated-at 1667223379521}
  {:block/name "the google file system",
   :block/created-at 1665419029030,
   :block/updated-at 1665419029030}
