@@ -7,7 +7,13 @@
 	  # 下次启动后也生效
 	  sysctl -w net.ipv4.ip_forward=1
 	  ```
-- ##
+	- ```bash
+	  # 打开 iptables 的路由转发功能
+	  # eth0 修改为相关网卡
+	  iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+	  
+	  iptables-save
+	  ```
 ## 将本机的端口转发到其他机器
 	- 假设有 A、B、C 三台机器，期望 A 可以通过 B 的 6666 端口访问到 C 的 7777 端口
 	- 在 B 上进行如下配置
