@@ -14,6 +14,9 @@
 	- ```bash
 	  iptables -t nat -A PREROUTING -p tcp --dport 6666 -j DNAT --to-destination C:7777
 	  iptables -t nat -A POSTROUTING -p tcp -d C --dport 7777 -j SNAT --to-source B
+	  
+	  # 存储变更
+	  iptables-save
 	  ```
 -
 - ## 参考
