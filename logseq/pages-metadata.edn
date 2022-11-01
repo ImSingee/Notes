@@ -1988,6 +1988,9 @@
  {:block/name "leetcode-1697",
   :block/created-at 1666180943078,
   :block/updated-at 1666180943078}
+ {:block/name "leetcode-1703",
+  :block/created-at 1667308367097,
+  :block/updated-at 1667308367097}
  {:block/name "leetcode-1735",
   :block/created-at 1666604626847,
   :block/updated-at 1666604626847}
@@ -2442,9 +2445,12 @@
  {:block/name "min cost climbing stairs",
   :block/created-at 1665419134681,
   :block/updated-at 1665419134681}
+ {:block/name "minimum adjacent swaps for k consecutive ones",
+  :block/created-at 1667308367093,
+  :block/updated-at 1667308367093}
  {:block/name "minimum cost to make array equal",
-  :block/created-at 1667068941018,
-  :block/updated-at 1667068941018}
+  :block/created-at 1667308964677,
+  :block/updated-at 1667308964677}
  {:block/name "minimum deletions to make array divisible",
   :block/created-at 1666877744839,
   :block/updated-at 1666877744839}
@@ -5526,6 +5532,9 @@
  {:block/name "得到/电子书/薛兆丰经济学讲义（仅限购买纸书用户兑换）",
   :block/created-at 1665419173920,
   :block/updated-at 1665419173920}
+ {:block/name "得到连续 k 个 1 的最少相邻交换次数",
+  :block/created-at 1667308359607,
+  :block/updated-at 1667308359607}
  {:block/name "微信公众平台",
   :block/created-at 1665419102665,
   :block/updated-at 1665419102665}
@@ -5765,10 +5774,10 @@
   :block/updated-at 1665419032880}
  {:block/name "残酷刷题群",
   :block/created-at 1665419035842,
-  :block/updated-at 1667068774050}
+  :block/updated-at 1667308928314}
  {:block/name "残酷系统群",
   :block/created-at 1666083014243,
-  :block/updated-at 1667294570003}
+  :block/updated-at 1667308444813}
  {:block/name "每天学一点",
   :block/created-at 1666676761146,
   :block/updated-at 1667063533323}
