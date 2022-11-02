@@ -7,7 +7,7 @@
 -
 - ## 配置 Lint
 	- ### Prettier
-		- ```bash
+		- ```shell
 		  npm install -D prettier 
 		  ```
 		- **package.json**
@@ -25,6 +25,9 @@
 			  dist
 			  ```
 	- ### ESLint
+		- ```shell
+		  npm install -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+		  ```
 		- **.eslintignore**
 		- ```ignore
 		  node_modules
