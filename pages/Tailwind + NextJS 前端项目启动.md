@@ -42,7 +42,10 @@
 		- **.eslintrc**
 			- ```json
 			  {
-			    "extends": ["airbnb", "airbnb/hooks", "airbnb-typescript"]
+			    "extends": ["airbnb", "airbnb/hooks", "airbnb-typescript"],
+			    "parserOptions": {
+			      "project": "./tsconfig.json"
+			    }
 			  }
 			  ```
 		- **.eslintignore**
