@@ -26,7 +26,7 @@
 			  ```
 	- ### ESLint
 		- ```shell
-		  npm install -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+		  npm install -D eslint eslint-config-react-app @typescript-eslint/parser @typescript-eslint/eslint-plugin
 		  ```
 		- **.eslintignore**
 		- ```ignore
