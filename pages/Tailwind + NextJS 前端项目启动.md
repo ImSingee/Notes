@@ -6,6 +6,7 @@
   ```
 -
 - ## 配置 Lint
-	-
+	- ### Prettier
+		-
 - ## 增加 Docker
 	-
