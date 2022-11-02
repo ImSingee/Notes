@@ -10,6 +10,15 @@
 		- ```bash
 		  npm install -D prettier 
 		  ```
+		- **package.json**
+			- ```json
+			  {
+			    "scripts": {
+			      "prettier": "prettier --list-different .",
+			      "prettier:fix": "prettier --write .",
+			    }
+			  }
+			  ```
 		- **.prettierignore**
 			- ```ignore
 			  node_modules
