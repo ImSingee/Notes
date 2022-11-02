@@ -48,6 +48,8 @@
 		  ```
 		- **.lintstagedrc.js**
 			- ```js
+			  
+			  
 			  module.exports = {
 			    "*.(js|mjs|jsx|css|json|html|d.ts|ts|tsx)": "prettier --write",
 			    "*.(js|mjs|jsx|ts|tsx)": ["eslint --fix"],
@@ -67,6 +69,5 @@
 			    }
 			  }
 			  ```
-		-
 - ## 增加 Docker
 	-
