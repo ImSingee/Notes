@@ -62,7 +62,8 @@
 	- ### Husky
 		- ```shell
 		  npm install -D husky
-		  
+		  npx husky install
+		  npx husky add .husky/pre-commit "npx lint-staged"
 		  ```
 		- **package.json**
 			- ```json
