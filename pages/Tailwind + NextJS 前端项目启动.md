@@ -49,12 +49,16 @@
 			  out
 			  ```
 	- ### Lint-Staged
-		- **.lintstagedrc.js**
-		- ```js
-		  module.exports = {
-		    "*.(js|mjs|jsx|css|json|html|d.ts|ts|tsx)": "prettier --write",
-		    "*.(js|mjs|jsx|ts|tsx)": ["eslint --fix"],
-		  };
+		- ```shell
 		  ```
+		- **.lintstagedrc.js**
+			- ```js
+			  module.exports = {
+			    "*.(js|mjs|jsx|css|json|html|d.ts|ts|tsx)": "prettier --write",
+			    "*.(js|mjs|jsx|ts|tsx)": ["eslint --fix"],
+			  };
+			  ```
+	- ### Husky
+		-
 - ## 增加 Docker
 	-
