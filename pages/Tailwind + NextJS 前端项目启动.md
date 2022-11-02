@@ -39,8 +39,8 @@
 			- ```json
 			  {
 			    "scripts": {
-			      "lint": "eslint .",
-			      "lint:fix": "eslint . --fix",
+			      "lint": "next lint .",
+			      "lint:fix": "next lint . --fix",
 			    }
 			  }
 			  ```
