@@ -7,17 +7,27 @@
 -
 - ## 配置 Lint
 	- ### Prettier
-		- **.prettierignore**
-		- ```ignore
-		  node_modules
-		  dist
+		- ```bash
+		  npm install -D prettier 
 		  ```
+		- **.prettierignore**
+			- ```ignore
+			  node_modules
+			  dist
+			  ```
 	- ### ESLint
 		- **.eslintignore**
 		- ```ignore
 		  node_modules
 		  dist
 		  ```
-	-
+	- ### Lint-Staged
+		- **.lintstagedrc.js**
+		- ```js
+		  module.exports = {
+		    "*.(js|mjs|jsx|css|json|html|d.ts|ts|tsx)": "prettier --write",
+		    "*.(js|mjs|jsx|ts|tsx)": ["eslint --fix"],
+		  };
+		  ```
 - ## 增加 Docker
 	-
