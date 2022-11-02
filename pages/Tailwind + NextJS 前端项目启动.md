@@ -29,11 +29,17 @@
 		  npx install-peerdeps --dev eslint-config-airbnb
 		  npm install -D eslint eslint-config-react-app @typescript-eslint/parser @typescript-eslint/eslint-plugin
 		  ```
+		- **.eslintrc**
+			- ```json
+			  {
+			    
+			  }
+			  ```
 		- **.eslintignore**
-		- ```ignore
-		  node_modules
-		  dist
-		  ```
+			- ```ignore
+			  node_modules
+			  dist
+			  ```
 	- ### Lint-Staged
 		- **.lintstagedrc.js**
 		- ```js
