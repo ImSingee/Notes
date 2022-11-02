@@ -27,6 +27,7 @@
 	- ### ESLint
 		- ```shell
 		  npx next lint --strict
+		  npm install -D eslint-config-prettier
 		  ```
 		- **package.json**
 			- ```json
@@ -48,11 +49,16 @@
 		  ```
 		- **.lintstagedrc.js**
 			- ```js
+			  const path = require('path')
 			  
+			  const buildEslintCommand = (filenames) =>
+			    `next lint --fix --file ${filenames
+			      .map((f) => path.relative(process.cwd(), f))
+			      .join(' --file ')}`
 			  
 			  module.exports = {
 			    "*.(js|mjs|jsx|css|json|html|d.ts|ts|tsx)": "prettier --write",
-			    "*.(js|mjs|jsx|ts|tsx)": ["eslint --fix"],
+			    "*.(js|mjs|jsx|ts|tsx)": [buildEslintCommand],
 			  };
 			  ```
 	- ### Husky
