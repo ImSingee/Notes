@@ -50,6 +50,7 @@
 			  ```
 	- ### Lint-Staged
 		- ```shell
+		  npm install -D lint-staged
 		  ```
 		- **.lintstagedrc.js**
 			- ```js
