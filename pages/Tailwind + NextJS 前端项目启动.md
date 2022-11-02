@@ -29,6 +29,12 @@
 		  npx next lint --strict
 		  npm install -D eslint-config-prettier
 		  ```
+		- **.eslintrc.json**
+			- ```json
+			  {
+			    "extends": ["next/core-web-vitals", "prettier"]
+			  }
+			  ```
 		- **package.json**
 			- ```json
 			  {
