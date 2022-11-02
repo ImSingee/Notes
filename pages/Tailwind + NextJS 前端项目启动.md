@@ -26,7 +26,7 @@
 			  ```
 	- ### ESLint
 		- ```shell
-		  npx next lint
+		  npx next lint --strict
 		  ```
 		- **package.json**
 			- ```json
@@ -34,15 +34,6 @@
 			    "scripts": {
 			      "lint": "eslint .",
 			      "lint:fix": "eslint . --fix",
-			    }
-			  }
-			  ```
-		- **.eslintrc**
-			- ```json
-			  {
-			    "extends": ["airbnb", "airbnb/hooks", "airbnb-typescript"],
-			    "parserOptions": {
-			      "project": "./tsconfig.json"
 			    }
 			  }
 			  ```
