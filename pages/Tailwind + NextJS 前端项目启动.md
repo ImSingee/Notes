@@ -28,6 +28,9 @@
 		- ```shell
 		  npx install-peerdeps --dev eslint-config-airbnb
 		  ```
+		- **package.json**
+			- ```json
+			  ```
 		- **.eslintrc**
 			- ```json
 			  {
