@@ -1,3 +1,3 @@
 - #CruelFundamental #2022-11-02 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202211/02)
 -
-- TFO 本质
+- TFO 本质上是在发送第一个 SYN 包时带上了之前已经连接过的证明（Cookies），并且直接发送了本次请求；服务端在收到时便直接确认建立连接并将响应和 ACK 一同发送
