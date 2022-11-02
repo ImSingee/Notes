@@ -26,6 +26,7 @@
 			  ```
 	- ### ESLint
 		- ```shell
+		  npx install-peerdeps --dev eslint-config-airbnb
 		  npm install -D eslint eslint-config-react-app @typescript-eslint/parser @typescript-eslint/eslint-plugin
 		  ```
 		- **.eslintignore**
