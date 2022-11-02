@@ -22,7 +22,7 @@
 		- **.prettierignore**
 			- ```ignore
 			  node_modules
-			  dist
+			  out
 			  ```
 	- ### ESLint
 		- ```shell
@@ -30,6 +30,12 @@
 		  ```
 		- **package.json**
 			- ```json
+			  {
+			    "scripts": {
+			      "lint": "eslint .",
+			      "lint:fix": "eslint . --fix",
+			    }
+			  }
 			  ```
 		- **.eslintrc**
 			- ```json
@@ -40,7 +46,7 @@
 		- **.eslintignore**
 			- ```ignore
 			  node_modules
-			  dist
+			  out
 			  ```
 	- ### Lint-Staged
 		- **.lintstagedrc.js**
