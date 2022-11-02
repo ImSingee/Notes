@@ -82,4 +82,10 @@
 			  }
 			  ```
 - ## 增加 Docker
-	-
+	- ### 修改为 [standalone output](https://nextjs.org/docs/advanced-features/output-file-tracing#automatically-copying-traced-files)
+		- **next.config.js** 增加
+			- ```js
+			  module.exports = {
+			    output: 'standalone',
+			  }
+			  ```
