@@ -7,6 +7,17 @@
 -
 - ## 配置 Lint
 	- ### Prettier
-		-
+		- **.prettierignore**
+		- ```ignore
+		  node_modules
+		  dist
+		  ```
+	- ### ESLint
+		- **.eslintignore**
+		- ```ignore
+		  node_modules
+		  dist
+		  ```
+	-
 - ## 增加 Docker
 	-
