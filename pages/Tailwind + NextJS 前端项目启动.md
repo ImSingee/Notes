@@ -27,6 +27,7 @@
 	- ### ESLint
 		- ```shell
 		  npx install-peerdeps --dev eslint-config-airbnb
+		  npm install -D 
 		  ```
 		- **package.json**
 			- ```json
