@@ -60,6 +60,17 @@
 			  };
 			  ```
 	- ### Husky
+		- ```shell
+		  npm install -D husky
+		  ```
+		- **package.json**
+			- ```json
+			  {
+			    "scripts": {
+			      "prepare": "husky install",
+			    }
+			  }
+			  ```
 		-
 - ## 增加 Docker
 	-
