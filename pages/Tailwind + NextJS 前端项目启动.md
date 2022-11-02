@@ -62,6 +62,7 @@
 	- ### Husky
 		- ```shell
 		  npm install -D husky
+		  
 		  ```
 		- **package.json**
 			- ```json
