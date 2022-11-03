@@ -723,14 +723,14 @@
   :block/created-at 1667413997556,
   :block/updated-at 1667413997556}
  {:block/name "2022-09-04",
-  :block/created-at 1667452528774,
-  :block/updated-at 1667452528774}
+  :block/created-at 1667477893069,
+  :block/updated-at 1667477893069}
  {:block/name "2022-09-05",
-  :block/created-at 1667452528777,
-  :block/updated-at 1667452528777}
+  :block/created-at 1667477893081,
+  :block/updated-at 1667477893081}
  {:block/name "2022-09-06",
-  :block/created-at 1667452528799,
-  :block/updated-at 1667452528799}
+  :block/created-at 1667477893646,
+  :block/updated-at 1667477893646}
  {:block/name "2022-09-07",
   :block/created-at 1667413997572,
   :block/updated-at 1667413997572}
@@ -2695,8 +2695,8 @@
   :block/created-at 1667413955791,
   :block/updated-at 1667413955791}
  {:block/name "protobuf",
-  :block/created-at 1667458521850,
-  :block/updated-at 1667458521850}
+  :block/created-at 1667477883475,
+  :block/updated-at 1667477883475}
  {:block/name "pseudotree",
   :block/created-at 1667413964419,
   :block/updated-at 1667413964419}
@@ -3356,9 +3356,16 @@
  {:block/name "readwise/highlights/anki高考的20条原则—来自《有效的学习：组织知识的20条原则》",
   :block/created-at 1667452333323,
   :block/updated-at 1667452333844}
+ {:block/name "readwise/highlights/apple car 或定位极高端车型",
+  :block/created-at 1667414034114,
+  :block/updated-at 1667414034114}
  {:block/name "readwise/highlights/apple car 或定位极高端车型 ",
   :block/created-at 1667413869548,
   :block/updated-at 1667413869548}
+ {:block/name
+  "readwise/highlights/apple car 或定位极高端车型 / ios 微信发布 8.0.2 版",
+  :block/created-at 1667414037181,
+  :block/updated-at 1667414037181}
  {:block/name
   "readwise/highlights/apple car 或定位极高端车型 / ios 微信发布 8.0.2 版 ",
   :block/created-at 1667413869549,
@@ -5020,8 +5027,8 @@
   :block/created-at 1667413850172,
   :block/updated-at 1667413850172}
  {:block/name "不完美世界的博弈：契约经济学35讲",
-  :block/created-at 1667452528798,
-  :block/updated-at 1667452528798}
+  :block/created-at 1667477893645,
+  :block/updated-at 1667477893645}
  {:block/name "不确定性",
   :block/created-at 1667413847883,
   :block/updated-at 1667413847883}
@@ -5131,8 +5138,8 @@
   :block/created-at 1667413891728,
   :block/updated-at 1667413891728}
  {:block/name "体检",
-  :block/created-at 1667452528770,
-  :block/updated-at 1667452528770}
+  :block/created-at 1667477893045,
+  :block/updated-at 1667477893045}
  {:block/name "体系学习班",
   :block/created-at 1667413963405,
   :block/updated-at 1667413963405}
@@ -5818,8 +5825,8 @@
   :block/created-at 1667413871138,
   :block/updated-at 1667413871138}
  {:block/name "正义的实现：法律系统40讲",
-  :block/created-at 1667452528851,
-  :block/updated-at 1667452528851}
+  :block/created-at 1667477894493,
+  :block/updated-at 1667477894493}
  {:block/name "正念",
   :block/created-at 1667413847880,
   :block/updated-at 1667413847880}
@@ -5836,8 +5843,8 @@
   :block/created-at 1667413973004,
   :block/updated-at 1667413973004}
  {:block/name "每个人的疾病课",
-  :block/created-at 1667452528772,
-  :block/updated-at 1667452528772}
+  :block/created-at 1667477893064,
+  :block/updated-at 1667477893064}
  {:block/name "每天学一点",
   :block/created-at 1667413973226,
   :block/updated-at 1667413973226}
