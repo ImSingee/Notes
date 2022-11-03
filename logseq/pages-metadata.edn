@@ -3963,6 +3963,13 @@
  {:block/name "readwise/highlights/中高端医疗险能报销看牙费用吗？",
   :block/created-at 1667452402997,
   :block/updated-at 1667452403512}
+ {:block/name "readwise/highlights/为什么 dns 使用 udp 协议 - 面向信仰编程",
+  :block/created-at 1667456193788,
+  :block/updated-at 1667456195081}
+ {:block/name
+  "readwise/highlights/为什么 https 需要 7 次握手以及 9 倍时延 - 面向信仰编程",
+  :block/created-at 1667456195204,
+  :block/updated-at 1667456196241}
  {:block/name "readwise/highlights/为什么 hugepages 可以提升数据库性能 - 面向信仰编程",
   :block/created-at 1667452419453,
   :block/updated-at 1667452419968}
