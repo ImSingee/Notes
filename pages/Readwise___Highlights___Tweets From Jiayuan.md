@@ -10,4 +10,9 @@ url:: https://twitter.com/Tisoga
   
   https://t.co/UxCX0WhvpU 
   
-  ![Replaced by Image Uploader](https://vip2.loli.io/2022/08/09/O2K38GDnBmkRu5S.jpg) ([View Tweet](https://twitter.com/Tisoga/status/1555409446267863044)) #Highlight #[[2022-08-06]]
+  ![](https://pbs.twimg.com/media/FZXspWeUYAA6cpS.jpg) ([View Tweet](https://twitter.com/Tisoga/status/1555409446267863044)) #Highlight #[[2022-08-06]]
+- Slack 是如何设计通知系统的？
+  
+  收到消息 -> 发送通知这样简单的逻辑背后是非常复杂的通知系统设计。 
+  
+  ![](https://pbs.twimg.com/media/FfqtKZ5UoAAIU0Y.jpg) ([View Tweet](https://twitter.com/Tisoga/status/1583768799177605121)) #Highlight #[[2022-10-23]]
