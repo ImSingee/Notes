@@ -15,7 +15,7 @@
 - ## Lib
 	- ### 回滚最近一次提交并将内容保存在工作区
 		- ```shell
-		  git reset --soft HEAD
+		  git reset --soft HEAD~1
 		  ```
 	- ### Git status 等命令中文路径乱码
 		- ```
