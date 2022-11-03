@@ -1,6 +1,6 @@
-title:: Readwise/Highlights/终于知道 Pdd 为何能火起来了 - V2ex
+title:: Readwise/Highlights/终于知道 PDD 为何能火起来了 - V2ex
 author:: [[v2ex.com]]
-full-title:: 终于知道 Pdd 为何能火起来了 - V2ex
+full-title:: 终于知道 PDD 为何能火起来了 - V2ex
 category:: #articles
 url:: https://v2ex.com/t/803909
 
