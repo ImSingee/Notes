@@ -13,6 +13,10 @@
 		- Note that not all diffs can feature all types. For instance, copied and renamed entries cannot appear if detection for those types is disabled.
 		-
 - ## Lib
+	- ### 回滚最近一次提交并将内容保存在工作区
+		- ```shell
+		  git reset --soft HEAD
+		  ```
 	- ### Git status 等命令中文路径乱码
 		- ```
 		  git config --global core.quotepath false
