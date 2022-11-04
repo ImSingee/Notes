@@ -28,4 +28,5 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 - 复制状态机 replicated state machine
 	- 被广泛用于分布式系统中实现 Fault Tolerance
 	- ((6364d5c2-48c8-4123-b89d-26c7ed3bd39e))
-	- ff
+	- 分布式算法的作用：保证集群中各个机器看到的 replicated log 一致(consistent)
+	-
