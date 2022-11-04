@@ -14,6 +14,8 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 		- 安全性safety
 	- Raft 执行了更强的一致性，以减少必须考虑的状态的数量
 - 介绍
-	- 共识算法
+	- [[共识算法]] 允许一组机器作为一个共识组（consensus group）
+		- 可以 survive the failures of some of its members
+		- 常用于
 	-
 -
