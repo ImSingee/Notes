@@ -1,0 +1,3 @@
+- #CruelFundamental #2022-11-03 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202211/03)
+-
+- 答案：事实上没有解决，TFO 要求了首请求必须幂等，对于 HTTP 而言通常意味着 GET 请求
