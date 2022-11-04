@@ -25,4 +25,6 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 		- Membership changes
 			- Raft 在修改集群中的服务器时使用 joint consensus 算法
 			- 这可以让配置修改过程中集群可以正常提供服务
--
+- 复制状态机 replicated state machine
+	- 被广泛用于分布式系统中实现 Fault Tolerance
+	-
