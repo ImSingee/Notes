@@ -36,5 +36,5 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 		- 可用性：只要集群中的大多数（过半）机器存活就可以正常提供服务；异常的机器恢复时可以自动恢复状态并重新加入集群
 		- 不依赖时钟
 		- 只要集群中的大部分（过半）机器响应了就可以回复给客户端，性能不受少量机器的影响
-- Paxos 的问题
+-
 	-
