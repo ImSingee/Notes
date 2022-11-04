@@ -1,6 +1,6 @@
 file-path:: ../assets/raft-extended_1654411095297_0.pdf
 file:: [raft-extended_1654411095297_0.pdf](../assets/raft-extended_1654411095297_0.pdf)
-title:: hls__raft-extended_1654411095297_0
+title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Version)
 
 - Raft separates the key elements of consensus, such asleader election, log replication, and safety, and it enforcesa stronger degree of coherency to reduce the number ofstates that must be considered.
   ls-type:: annotation
