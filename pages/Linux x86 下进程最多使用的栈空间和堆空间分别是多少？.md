@@ -1,0 +1,4 @@
+- #CruelFundamental #2022-11-04 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202211/04)
+-
+- See [[堆的大小有没有上限，请以32机器为例子来说一下，堆最大可以有多大]]
+-
