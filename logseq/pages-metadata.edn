@@ -1751,9 +1751,6 @@
  {:block/name "highlight",
   :block/created-at 1667413852351,
   :block/updated-at 1667413852351}
- {:block/name "hls__raft-extended_1654411095297_0",
-  :block/created-at 1667413961203,
-  :block/updated-at 1667413961203}
  {:block/name "hls__the_google_file_system_1647238548328_0",
   :block/created-at 1667413961170,
   :block/updated-at 1667413961170}
@@ -2763,6 +2760,10 @@
  {:block/name "quiz",
   :block/created-at 1667413959430,
   :block/updated-at 1667413959430}
+ {:block/name
+  "raft - in search of an understandable consensus algorithm (extended version)",
+  :block/created-at 1667413961203,
+  :block/updated-at 1667551956350}
  {:block/name "raindrop",
   :block/created-at 1667413866822,
   :block/updated-at 1667413866822}
@@ -5904,7 +5905,7 @@
   :block/updated-at 1667413849130}
  {:block/name "残酷系统群",
   :block/created-at 1667413973004,
-  :block/updated-at 1667413973004}
+  :block/updated-at 1667551707339}
  {:block/name "每个人的疾病课",
   :block/created-at 1667477893064,
   :block/updated-at 1667477893064}

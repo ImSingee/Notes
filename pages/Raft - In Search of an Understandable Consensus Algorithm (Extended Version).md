@@ -12,5 +12,7 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 		- 领导者选举 leader election
 		- 日志同步 log replication
 		- 安全性safety
+	- Raft 执行了更强的一致性，以减少必须考虑的状态的数量
+-
 	-
 -
