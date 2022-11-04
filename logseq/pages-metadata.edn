@@ -1313,6 +1313,9 @@
  {:block/name "confess",
   :block/created-at 1667413954140,
   :block/updated-at 1667413954140}
+ {:block/name "consensus algorithm",
+  :block/created-at 1667552189191,
+  :block/updated-at 1667552189191}
  {:block/name "construct smallest number from di string",
   :block/created-at 1667413972488,
   :block/updated-at 1667413972488}
@@ -2763,7 +2766,7 @@
  {:block/name
   "raft - in search of an understandable consensus algorithm (extended version)",
   :block/created-at 1667413961203,
-  :block/updated-at 1667551956350}
+  :block/updated-at 1667552571195}
  {:block/name "raindrop",
   :block/created-at 1667413866822,
   :block/updated-at 1667413866822}
@@ -5264,6 +5267,9 @@
  {:block/name "公平",
   :block/created-at 1667413847887,
   :block/updated-at 1667413847887}
+ {:block/name "共识算法",
+  :block/created-at 1667552180730,
+  :block/updated-at 1667552189191}
  {:block/name "关于 golang cli 程序框架的设计草案",
   :block/created-at 1667413964258,
   :block/updated-at 1667413964258}

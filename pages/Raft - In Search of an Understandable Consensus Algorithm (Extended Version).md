@@ -23,5 +23,6 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 		- Leader Election
 			- Raft 使用随机计时器 randomized timer 来选举 leader
 		- Membership changes
-			-
+			- Raft 在修改集群中的服务器时使用 joint consensus 算法
+			- 这可以让配置修改过程中集群可以正常提供服务
 -
