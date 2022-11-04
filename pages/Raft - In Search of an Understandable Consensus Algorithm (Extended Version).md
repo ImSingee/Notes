@@ -27,4 +27,5 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 			- 这可以让配置修改过程中集群可以正常提供服务
 - 复制状态机 replicated state machine
 	- 被广泛用于分布式系统中实现 Fault Tolerance
-	-
+	- ((6364d5c2-48c8-4123-b89d-26c7ed3bd39e))
+	- ff
