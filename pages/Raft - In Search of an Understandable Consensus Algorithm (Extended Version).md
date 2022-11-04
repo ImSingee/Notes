@@ -19,6 +19,9 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 		- 常用于 build reliable large-scale software systems
 	- Raft 的 novel feature（新奇的功能点）
 		- Strong leader
-			- 所有 log entry 仅会从 leader
-	-
+			- 所有 log entry 仅会从 leader 流向其他机器
+		- Leader Election
+			- Raft 使用随机计时器 randomized timer 来选举 leader
+		- Membership changes
+			-
 -
