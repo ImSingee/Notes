@@ -16,6 +16,7 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 - 介绍
 	- [[共识算法]] 允许一组机器作为一个共识组（consensus group）
 		- 可以 survive the failures of some of its members
-		- 常用于
+		- 常用于 build reliable large-scale software systems
+	- Raft 的值得关注的功能点
 	-
 -
