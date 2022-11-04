@@ -32,4 +32,4 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 	- 分布式算法的需求
 		- 安全性
 			- 在任何情况（不考虑拜占庭问题）下，保证返回数据的正确性
-			- 异常情况可能为网络延迟、网络分区、丢包、网络包重复、
+			- 异常情况可能为网络延迟、网络分区、丢包、网络包重复、网络包乱序
