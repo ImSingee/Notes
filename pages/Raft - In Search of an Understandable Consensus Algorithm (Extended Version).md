@@ -36,5 +36,20 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 		- 可用性：只要集群中的大多数（过半）机器存活就可以正常提供服务；异常的机器恢复时可以自动恢复状态并重新加入集群
 		- 不依赖时钟
 		- 只要集群中的大部分（过半）机器响应了就可以回复给客户端，性能不受少量机器的影响
--
+- Raft 共识算法
+	- 实现
+		- 首先选举 Leader
+		- 由 Leader 进行完全的 replicated log 管理
+			- Leader 从客户端接受 log entries
+			- 将其同步到其他服务器
+			- 在合适时机告知其他服务器将日志加入至自己的状态机
+	- Raft 将共识问题分为
+		- Leader 选举
+		- 日志同步
+		- 状态机安全性：日志一旦进入服务器的状态机就不会修改
+	- Raft 基础
+		- 一个 Raft 集群
+		-
+		-
+		-
 	-
