@@ -65,6 +65,9 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 				- 如果发现了旧的 term，直接 reject
 		- Raft 服务期间通信使用 RPC，且仅需两个典型的 RPC
 			- RequestVote 由  Candidate 发送
+			- AppendEntries 由 Leader 发往 Follower
+				- 空的 entries 列表被认为是心跳，如果一段时间内 Leader 并未向 Follower 发过消息则进行心跳
+			-
 			-
 		-
 	-
