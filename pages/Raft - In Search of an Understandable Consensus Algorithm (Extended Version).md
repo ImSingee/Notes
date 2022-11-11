@@ -69,7 +69,9 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 				- 空的 entries 列表被认为是心跳，如果一段时间内 Leader 并未向 Follower 发过消息则进行心跳
 			- （非必要）（暂时未知）用于在服务器之间传输 snapshot
 			- 如果在一段时间内服务期间 RPC 没有收到回复会超时重试
-				-
+				- Server 向不同目标 Servers 发送消息时是平行发送的
+		- Leader 选举
+			-
 			-
 		-
 	-
