@@ -90,7 +90,9 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 			- 防止短时间多台机器无限被多次选举：随机超时时间
 				- 在 150-300ms 之间随机选择
 					- 因此理论上同一时间只会有一个（或少量）服务器超时
-					-
+					- 这一超时时间在每次选举前重置
+			- Log Replication 日志副本
+				-
 			-
 		-
 	-
