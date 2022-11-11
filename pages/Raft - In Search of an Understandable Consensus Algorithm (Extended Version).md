@@ -51,7 +51,8 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 		- 一个 Raft 集群包括多台机器，可以容忍不过半的异常
 			- 典型的 Raft 集群包括 5 台机器、可以容忍 2 台异常
 		- 任何一刻一台服务器必处于 Leader、Follower、Candidate 中的一种状态
-			- 在通常时刻（非选举时候）
+			- 在通常时刻（非选举时）存在 1 个 Leader、其他均为 Follower
+		- Follower 是 passive 的：他们不自己发送请求，而是回复 Leader/Follower；对于客户端请求会将请求转发给 Leader
 			-
 		-
 		-
