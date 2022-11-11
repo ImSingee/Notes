@@ -55,7 +55,11 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 		- Follower 是 passive 的：他们不自己发送请求，而是回复 Leader/Follower；对于客户端请求会将请求转发给 Leader
 		- Raft 将时段用 term 做划分，一个 term 的时间是尽可能长的
 			- term 是一个连续递增整数
-			- 一个 Term 开始于选举（一个或多个 Candidate 试图
+			- 一个 Term 开始于选举（一个或多个 Candidate 试图称为 Leader）
+				- 如果一个 Candidate 得到多数票，那么其称为 Leader
+				- 如果存在平票，启动新一轮选举
+				- 一个 Term 至多只存在一个 Leader
+			-
 		-
 		-
 	-
