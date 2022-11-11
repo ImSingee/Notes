@@ -87,7 +87,10 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 					- 先到先得
 						- 会有筛选机制，在后文
 				- 赢得选举时会向其他所有服务器发送心跳（空 AppendEntries）
-			- 防止短时间
+			- 防止短时间多台机器无限被多次选举：随机超时时间
+				- 在 150-300ms 之间随机选择
+					- 因此理论上同一时间只会有一个（或少量）服务器超时
+					-
 			-
 		-
 	-
