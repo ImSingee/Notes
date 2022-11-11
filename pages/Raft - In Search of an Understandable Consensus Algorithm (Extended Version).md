@@ -92,7 +92,8 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 					- 因此理论上同一时间只会有一个（或少量）服务器超时
 					- 这一超时时间在每次选举前重置
 			- Log Replication 日志副本
-				-
+				- 客户端向 Leader 请求时，Leader 将日志记录到本地并发送 AppendEntries 到其他服务器
+					- 当 entry 呗安全 replicated，Leader 将日志加入至其
 			-
 		-
 	-
