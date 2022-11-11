@@ -74,7 +74,12 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 			- Raft 使用心跳来触发 Leader 重选举
 			- 当 Server 启动时为 Follower
 				- Server 会一直为 Follower，只要它收到过来自其他 Leader/Candidate 的 RPC
-				- 如果超时没收到，
+				- 如果超时没收到（election timeout），它认为当前没有 Leader 并且自己成为 Leader
+			- 开始选举
+				- Follower 增加自己本地的 term 值并转换为 Candidate 状态
+				- 给自己先投一票，然后发送 RequestVote RPC 给集群中的其他机器
+				- 会等待，直到下面三种情况之一发生
+					-
 			-
 		-
 	-
