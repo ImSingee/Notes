@@ -105,6 +105,8 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 					- 如果两个 entry 拥有同样的 term+index 则其内容一致
 					- 如果两个 entry 拥有同样的 term+index 则其之前的所有内容也一致
 				- 可能导致不一致！
-					- Leader 通过要求 Follower 必须是自己的日志副本
-		-
+					- Leader 通过强制要求 Follower 必须是自己的日志副本来解决不一致
+						- 对于不一致的会被 Leader 的覆盖
+						- 安全性在后文阐述
+					-
 	-
