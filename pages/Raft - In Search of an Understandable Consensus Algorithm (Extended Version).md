@@ -98,6 +98,8 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 						- Raft 保证一个 committed 的日志会最终被应用于所有状态机
 						- 当 entry 被大多服务器接受时，其状态为 committed
 							- 一个 entry 被 committed，则其之前的所有 entry 都已经被 committed 了（包括被其他 Leader 创建的）
+							- Leader 会记录最后 committed 的日志 index，并在后续 AppendEntries 中发送
+							- Follower 发现 log entry 被 committed 了会将其应用至本地状态机
 					- 如果 AppendEntries 无法发送到指定服务器，会**无限重试**直至成功（即使已经返回给客户端结果了）
 				- 日志 = 日志内容 + 当前 term + index
 			-
