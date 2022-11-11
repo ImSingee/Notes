@@ -116,6 +116,7 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 							- 如果被拒绝（未通过一致性验证），index-1 重发
 							- 重复直至一致
 							- 最终时 Leader 会为 Follower 的副本（并在 term 的剩余时间内持续为副本）
-							-
-						-
+					- Leader 永远不会修改/覆盖/删除自己的 entry
+				- Safety 安全性
+					-
 	-
