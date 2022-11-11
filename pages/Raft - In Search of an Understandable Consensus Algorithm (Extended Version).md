@@ -108,7 +108,8 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 					- Leader 通过强制要求 Follower 必须是自己的日志副本来解决不一致
 						- 对于不一致的会被 Leader 的覆盖
 						- 安全性在后文阐述
-					- Leader 会记录所有 Follower 的 nextIndex
+					- Leader 会记录所有 Follower 的 nextIndex，并在 AppendEntries 中发送
+						- Follower 处理 AppendEntries 时会做一致性检查，如果发现不一致会报错
 					- 当 Leader 成为 Leader 时
 						-
 	-
