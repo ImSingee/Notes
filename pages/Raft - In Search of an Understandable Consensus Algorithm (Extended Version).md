@@ -83,7 +83,11 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 					- 另一个服务器成为了 Leader
 					- 再次超时而没有任何 Leader 被选举出
 				- 当收到 RequestVote 时
-					- 同一 term 只会为一个
+					- 同一 term 只会为一个 Candidate 投票
+					- 先到先得
+						- 会有筛选机制，在后文
+				- 赢得选举时会向其他所有服务器发送心跳（空 AppendEntries）
+			- 防止短时间
 			-
 		-
 	-
