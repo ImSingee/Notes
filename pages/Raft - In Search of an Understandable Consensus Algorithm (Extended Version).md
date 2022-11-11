@@ -102,6 +102,8 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 							- Follower 发现 log entry 被 committed 了会将其应用至本地状态机
 					- 如果 AppendEntries 无法发送到指定服务器，会**无限重试**直至成功（即使已经返回给客户端结果了）
 				- 日志 = 日志内容 + 当前 term + index
+					- 如果两个 entry 拥有同样的 term+index 则其内容一致
+					- 如果两个 entry 拥有同样的 term+index 则其之前的所有内容也一致
 			-
 		-
 	-
