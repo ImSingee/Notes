@@ -71,7 +71,10 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 			- 如果在一段时间内服务期间 RPC 没有收到回复会超时重试
 				- Server 向不同目标 Servers 发送消息时是平行发送的
 		- Leader 选举
-			-
+			- Raft 使用心跳来触发 Leader 重选举
+			- 当 Server 启动时为 Follower
+				- Server 会一直为 Follower，只要它收到过来自其他 Leader/Candidate 的 RPC
+				- 如果超时没收到，
 			-
 		-
 	-
