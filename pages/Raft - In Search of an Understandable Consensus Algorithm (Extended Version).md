@@ -111,5 +111,11 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 					- Leader 会记录所有 Follower 的 nextIndex，并在 AppendEntries 中发送
 						- Follower 处理 AppendEntries 时会做一致性检查，如果发现不一致会报错
 					- 当 Leader 成为 Leader 时
+						- 初始化所有的 nextIndex 为自己的
+						- 尝试向所有 Follower 发送 AppendEntries
+							- 如果被拒绝（未通过一致性验证），index-1 重发
+							- 重复直至一致
+							- 最终时
+							-
 						-
 	-
