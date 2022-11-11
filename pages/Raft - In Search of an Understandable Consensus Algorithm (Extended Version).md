@@ -59,7 +59,9 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 				- 如果一个 Candidate 得到多数票，那么其称为 Leader
 				- 如果存在平票，启动新一轮选举
 				- 一个 Term 至多只存在一个 Leader
-			-
+			- 任何一个服务器均存储当前的 term，在发送/响应任何请求时均会带上当前 term
+				- 如果
+				- 如果 Leader 或 Candidate 发现了更新的 term，
 		-
 		-
 	-
