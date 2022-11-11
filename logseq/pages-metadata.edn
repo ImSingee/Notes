@@ -2823,7 +2823,7 @@
  {:block/name
   "raft - in search of an understandable consensus algorithm (extended version)",
   :block/created-at 1667413961203,
-  :block/updated-at 1667836765193}
+  :block/updated-at 1668157291126}
  {:block/name "raindrop",
   :block/created-at 1667413866822,
   :block/updated-at 1667413866822}
