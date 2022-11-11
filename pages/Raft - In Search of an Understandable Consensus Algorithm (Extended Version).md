@@ -96,7 +96,8 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 					- 当 entry 被安全 replicated，Leader 将日志加入至其状态机并将结果返回给客户端
 						- committed = entry 被安全 replicated
 						- Raft 保证一个 committed 的日志会最终被应用于所有状态机
-						- 当 entry 被大多数
+						- 当 entry 被大多服务器接受时，其状态为 committed
+							- 一个 entry 被 committed，则其之前的所有 entry 都已经被 committed 了（包括被其他 Leader 创建的）
 					- 如果 AppendEntries 无法发送到指定服务器，会**无限重试**直至成功（即使已经返回给客户端结果了）
 				- 日志 = 日志内容 + 当前 term + index
 			-
