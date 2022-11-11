@@ -48,7 +48,10 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 		- 日志同步
 		- 状态机安全性：日志一旦进入服务器的状态机就不会修改
 	- Raft 基础
-		- 一个 Raft 集群
+		- 一个 Raft 集群包括多台机器，可以容忍不过半的异常
+			- 典型的 Raft 集群包括 5 台机器、可以容忍 2 台异常
+		- 任何一刻一台服务器必处于 Leader、Follower、Candidate 中的一种状态
+			- 在通常时刻（非选举时候）
 			-
 		-
 		-
