@@ -49,7 +49,7 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 		- 状态机安全性：日志一旦进入服务器的状态机就不会修改
 	- Raft 基础
 		- 一个 Raft 集群
-		-
+			-
 		-
 		-
 	-
