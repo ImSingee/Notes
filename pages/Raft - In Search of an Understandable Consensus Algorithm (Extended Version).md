@@ -79,7 +79,11 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 				- Follower 增加自己本地的 term 值并转换为 Candidate 状态
 				- 给自己先投一票，然后发送 RequestVote RPC 给集群中的其他机器
 				- 会等待，直到下面三种情况之一发生
-					-
+					- 赢得选举（获得过半投票）
+					- 另一个服务器成为了 Leader
+					- 再次超时而没有任何 Leader 被选举出
+				- 当收到 RequestVote 时
+					- 同一 term 只会为一个
 			-
 		-
 	-
