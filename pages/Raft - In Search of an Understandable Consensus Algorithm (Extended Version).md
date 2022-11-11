@@ -93,7 +93,8 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 					- 这一超时时间在每次选举前重置
 			- Log Replication 日志副本
 				- 客户端向 Leader 请求时，Leader 将日志记录到本地并发送 AppendEntries 到其他服务器
-					- 当 entry 呗安全 replicated，Leader 将日志加入至其
+					- 当 entry 被安全 replicated，Leader 将日志加入至其状态机并将结果返回给客户端
+					- 如果 AppendEntries 无法发送到指定服务器，会**无限重试**直至成功（）
 			-
 		-
 	-
