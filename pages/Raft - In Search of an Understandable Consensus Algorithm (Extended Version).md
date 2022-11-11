@@ -60,8 +60,11 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 				- 如果存在平票，启动新一轮选举
 				- 一个 Term 至多只存在一个 Leader
 			- 任何一个服务器均存储当前的 term，在发送/响应任何请求时均会带上当前 term
-				- 如果
-				- 如果 Leader 或 Candidate 发现了更新的 term，
-		-
+				- 如果服务器发现了更新的 term，将自己本地存储的 term 更新
+					- 特别的，如果 Leader 或 Candidate 发现了更新的 term，则其成为 Follower
+				- 如果发现了旧的 term，直接 reject
+		- Raft 服务期间通信使用 RPC，且仅需两个典型的 RPC
+			- RequestVote 由  Candidate 发送
+			-
 		-
 	-
