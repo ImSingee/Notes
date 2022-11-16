@@ -7,7 +7,7 @@
 	- [Logux](https://logux.io/)
 	- [CouchDB](https://couchdb.apache.org/) | [PouchDB](https://pouchdb.com/)
 	- [DataScript](https://github.com/tonsky/datascript)
-	-
+	- [Parse](https://parseplatform.org/)
 -
 - ## Ref
 	- [[logseq]] 实现

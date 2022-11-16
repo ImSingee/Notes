@@ -1420,7 +1420,7 @@
   :block/updated-at 1667413960638}
  {:block/name "crdt",
   :block/created-at 1667413849624,
-  :block/updated-at 1667413849624}
+  :block/updated-at 1668565575824}
  {:block/name "create sorted array through instructions",
   :block/created-at 1667550886603,
   :block/updated-at 1667550886603}
