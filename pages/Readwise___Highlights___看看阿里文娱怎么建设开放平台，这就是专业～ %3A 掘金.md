@@ -3,7 +3,7 @@ author:: [[juejin.cn]]
 full-title:: 看看阿里文娱怎么建设开放平台，这就是专业～ : 掘金
 category:: #articles
 url:: https://juejin.cn/post/7114652983006068743
-tags:: #[[inoreader]] #[[star]] #[[read]]
+tags:: #[[inoreader]] #[[read]] #[[star]]
 
 - api 管理
   
