@@ -1,2 +1,4 @@
+- [proc(5)](https://man7.org/linux/man-pages/man5/proc.5.html)
+-
 - /proc/{pid}/maps 文件各字段含义：地址范围、访问权限、文件等中的偏移量、设备、inode、支持映射的文件路径名；
-  /proc/{pid}/smaps 文件记录的是内存映射的详细信息：第一行同 maps 文件，其余行表示：内存大小、Rss、Pss、Shared_Clean、Shared_Dirty、Private_Clean、Private_Dirty、Referenced、Anonymous、AnonHugePages、ShmemHugePages、ShmemPmdMapped、Swap、KernelPageSize、MMUPageSize、Locked、ProtectionKey、VmFlags 等。
+- /proc/{pid}/smaps 文件记录的是内存映射的详细信息：第一行同 maps 文件，其余行表示：内存大小、Rss、Pss、Shared_Clean、Shared_Dirty、Private_Clean、Private_Dirty、Referenced、Anonymous、AnonHugePages、ShmemHugePages、ShmemPmdMapped、Swap、KernelPageSize、MMUPageSize、Locked、ProtectionKey、VmFlags 等。
