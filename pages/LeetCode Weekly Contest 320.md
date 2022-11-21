@@ -1,6 +1,6 @@
 - #Leetcode-Weekly-Contest
 -
-- number-of-unequal-triplets-in-array
+- [[数组中不等三元组的数目]]
 - closest-nodes-queries-in-a-binary-search-tree
 - minimum-fuel-cost-to-report-to-the-capital
 - number-of-beautiful-partitions
