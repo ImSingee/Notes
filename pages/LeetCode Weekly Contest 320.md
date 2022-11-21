@@ -1,7 +1,7 @@
 - #Leetcode-Weekly-Contest
 -
 - [[数组中不等三元组的数目]]
-- closest-nodes-queries-in-a-binary-search-tree
-- minimum-fuel-cost-to-report-to-the-capital
-- number-of-beautiful-partitions
+- [[二叉搜索树最近节点查询]]
+- [[到达首都的最少油耗]]
+- [[完美分割的方案数]]
 -
