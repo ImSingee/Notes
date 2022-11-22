@@ -21,6 +21,7 @@ alias:: 组合数学
 	  func init() {
 	      N := 10000
 	      combs = new2dSlice(N, N)
+	      combs[0][0] = 1
 	      for n := 1; n < N; n++ {
 	          combs[n][0] = 1
 	          combs[n][n] = 1
