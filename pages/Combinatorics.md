@@ -39,5 +39,7 @@ alias:: 组合数学
 	      return matrix
 	  }
 	  ```
+	- ```go
+	  ```
 - ### 插排法
 	-
