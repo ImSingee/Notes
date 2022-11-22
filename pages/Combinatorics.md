@@ -40,6 +40,25 @@ alias:: 组合数学
 	  }
 	  ```
 	- ```go
+	  var combs [][]int
+	  
+	  func init() {
+	      N := 1005
+	      combs = make([][]int, N)
+	      
+	      combs[0] = []int{1}
+	      
+	      for i := 1; i < N; i++ {
+	          combs[i] = make([]int, i+1)
+	          
+	          combs[i][0] = 1
+	          for j := 1; j < i; j++ {
+	              combs[i][j] = combs[i-1][j-1] + combs[i-1][j]
+	          }
+	          combs[i][i] = 1        
+	      }
+	  }
+	  
 	  ```
 - ### 插排法
 	-
