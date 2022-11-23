@@ -1,3 +1,8 @@
 - #CruelFundamental #2022-11-23 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202211/23)
 -
--
+- MVC - 最经典的，Model View Controller
+	- Model 处理数据库
+	- View 处理显示
+	- Controller 处理逻辑
+- MVP - Presenter 替换 Controller
+	-
