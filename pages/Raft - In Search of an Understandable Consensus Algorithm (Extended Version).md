@@ -125,4 +125,6 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 						- Committed Entry 要求被过半的机器保存
 						- Leader 选举成果也要求被过半的机器保存
 						- 因此，在选举时保证不选举拥有的条目比自己少的机器即可保证不会有日志不完整的机器错误的成为 Leader
+				- Follower 和 Candidate 异常
+					-
 	-
