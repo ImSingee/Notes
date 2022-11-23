@@ -130,4 +130,4 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 						- 无限重试
 				- 时间和可用性
 					- Raft 的设计点之一：[安全性不依赖于时间](((637e1f26-6a3e-4dcd-a7ea-605e92f9834b)))
-	-
+					- 要求：broadcastTime ≪ electionTimeout ≪ MTBF
