@@ -128,4 +128,6 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 				- Follower 和 Candidate 异常
 					- ((637e1ec6-7990-40b5-8696-0074a16d2897))
 						- 无限重试
+				- 时间和可用性
+					- Raft 的设计点之一：[安全性不依赖于时间](((637e1f26-6a3e-4dcd-a7ea-605e92f9834b)))
 	-

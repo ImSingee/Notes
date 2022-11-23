@@ -16,3 +16,8 @@ file-path:: ../assets/raft-extended_1654411095297_0.pdf
   hl-page:: 10
   hl-color:: blue
   id:: 637e1ec6-7990-40b5-8696-0074a16d2897
+- safety must not depend on timing
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: blue
+  id:: 637e1f26-6a3e-4dcd-a7ea-605e92f9834b
