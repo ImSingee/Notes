@@ -18,8 +18,8 @@
 	- 附加轴的排列使用 [align-items](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items) 完成
 		- stretch
 		- center
-		- start
-		- en
+		- flex-start
+		- flex-end
 	-
 -
 - # Ref
