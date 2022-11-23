@@ -65,3 +65,45 @@ alias:: Number of Ways to Reach a Position After Exactly k Steps
 		      if x >= 0 { return x } else { return -x }
 		  }
 		  ```
+	- ## 组合数
+		- ```go
+		  const M = 1000000007
+		  
+		  func numberOfWays(startPos int, endPos int, k int) int {
+		      d := abs(endPos-startPos)
+		      
+		      // 求 k 步从 0 走到 d 的方案数
+		      if d > k {
+		          return 0
+		      }
+		      
+		      if (d+k) % 2 == 1 {
+		          return 0
+		      }
+		      
+		      return combs[k][(d+k)/2] % M
+		  }
+		  
+		  var combs [][]int
+		  
+		  func init() {
+		      N := 1005
+		      combs = make([][]int, N)
+		      
+		      combs[0] = []int{1}
+		      
+		      for i := 1; i < N; i++ {
+		          combs[i] = make([]int, i+1)
+		          
+		          combs[i][0] = 1
+		          for j := 1; j < i; j++ {
+		              combs[i][j] = (combs[i-1][j-1] + combs[i-1][j]) % M
+		          }
+		          combs[i][i] = 1        
+		      }
+		  }
+		  
+		  func abs(x int) int {
+		      if x >= 0 { return x } else { return -x }
+		  }
+		  ```
