@@ -2,7 +2,11 @@
 -
 - # 核心
 	- flex 布局中，重要的不是横竖，而是主轴 Primary Axis 和附加轴 Cross Axis
-	- 利用 flex-
+	- 利用 [flex-direction](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction) 进行主轴和附加轴的决策
+		- row - 横轴为主轴、纵轴为附加轴（默认）
+		- column - 纵轴为主轴、横轴为附加轴
+-
+	-
 -
 - # Ref
 	- https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
