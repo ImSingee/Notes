@@ -120,4 +120,6 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 				- Safety 安全性
 					- 如果仅应用之前的要求，暂时不足以保证每个状态机都以相同的顺序运行相同的命令
 					- 本章节用于阐述对于可成为 Leader 的服务器的限制
+					- 选举限制
+						-
 	-
