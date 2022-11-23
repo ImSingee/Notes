@@ -68,7 +68,9 @@ alias:: Number of Ways to Reach a Position After Exactly k Steps
 	- ## 组合数
 		- d = abs(endPos - startPos)
 		- 从原点开始，向右走 a 步、向左走 b 步，则有
-			- a - b = d    即最终走到了
+			- a - b = d    即最终走到了 d
+			- a + b = k   即共走了 k
+		- 最终求 C(k, a) 即一共走 k 步，
 		- ```go
 		  const M = 1000000007
 		  
