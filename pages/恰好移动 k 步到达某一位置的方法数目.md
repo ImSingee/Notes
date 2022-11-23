@@ -26,4 +26,42 @@ alias:: Number of Ways to Reach a Position After Exactly k Steps
 	- **提示：**
 		- `1 <= startPos, endPos, k <= 1000`
 - # 解
-	- #TODO
+	- ## 动态规划
+		- ```go
+		  const M = 1000000007
+		  
+		  func numberOfWays(startPos int, endPos int, k int) int {
+		      d := abs(endPos-startPos)
+		      
+		      // 求 k 步从 0 走到 d 的方案数
+		      if d > k {
+		          return 0
+		      }
+		      
+		      OFF := k+1
+		      dp := new2dSlice(k+1, 2*k+5) // i 步从 0 走到 j-offset 的方案数
+		      
+		      dp[0][OFF] = 1
+		      
+		      for i := 1; i <= k; i++ {
+		          for j := -k; j <= k; j++ {
+		              dp[i][j+OFF] = (dp[i-1][j-1+OFF] + dp[i-1][j+1+OFF]) % M
+		          }
+		      }
+		      
+		      return dp[k][d+OFF]
+		  }
+		  
+		  // generate a m*n grid slice
+		  func new2dSlice(m, n int) [][]int {
+		      matrix := make([][]int, m)
+		      for i := range matrix {
+		          matrix[i] = make([]int, n)
+		      }
+		      return matrix
+		  }
+		  
+		  func abs(x int) int {
+		      if x >= 0 { return x } else { return -x }
+		  }
+		  ```
