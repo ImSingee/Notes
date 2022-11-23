@@ -82,9 +82,9 @@ alias:: Number of Ways to Reach a Position After Exactly k Steps
 		          return 0
 		      }
 		    
-		      a := (d+k)/2
+		      a := (d+k) / 2
 		      
-		      if (d+k) % 2 == 1 {
+		      if (d+k) % 2 == 1 { // d+k 必须为偶数，不然没有可能解
 		          return 0
 		      }
 		    
