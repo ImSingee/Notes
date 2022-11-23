@@ -7,7 +7,8 @@
 			- row-reverse - 另外的，主轴排列方式为从右到左（row 为从左到右）
 		- column - 纵轴为主轴、横轴为附加轴
 			- column-reverse - 另外的，主轴排列方式为从下到上（column 为从上到下）
--
+- # 排列
+	- 主轴的排列使用 `just`
 	-
 -
 - # Ref
