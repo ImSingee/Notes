@@ -132,4 +132,8 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 					- Raft 的设计点之一：[安全性不依赖于时间](((637e1f26-6a3e-4dcd-a7ea-605e92f9834b)))
 					- 要求：broadcastTime ≪ electionTimeout ≪ MTBF
 						- broadcastTime：Leader 向所有其他服务器发送消息并得到回复的平均时间
+							- 通常 0.5-20ms
+						- electionTimeout
+							- 通常 10-500ms
 						- MTBF：两台机器异常的平均时间间隔
+							- 通常数月
