@@ -5,7 +5,7 @@ alias:: Number of Ways to Reach a Position After Exactly k Steps
 - #Leetcode #Leetcode-2400 [LC国际](https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/) [LC中国](https://leetcode.cn/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/)
 - # 题目
 	- 给你两个 **正** 整数 `startPos` 和 `endPos` 。最初，你站在 **无限** 数轴上位置 `startPos` 处。在一步移动中，你可以向左或者向右移动一个位置。
-	- 给你一个正整数 `k` ，返回从 `startPos` 出发、**恰好** 移动 `k` 步并到达 `endPos` 的 **不同** 方法数目。由于答案可能会很大，返回对 `109 + 7` **取余** 的结果。
+	- 给你一个正整数 `k` ，返回从 `startPos` 出发、**恰好** 移动 `k` 步并到达 `endPos` 的 **不同** 方法数目。由于答案可能会很大，返回对 `10^9 + 7` **取余** 的结果。
 	- 如果所执行移动的顺序不完全相同，则认为两种方法不同。
 	- **注意：**数轴包含负整数**。**
 		-
