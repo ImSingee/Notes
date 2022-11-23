@@ -9,7 +9,17 @@
 			- column-reverse - 另外的，主轴排列方式为从下到上（column 为从上到下）
 - # 排列
 	- 主轴的排列使用 [justify-content](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) 完成
-		- start - 从主轴开始处排列
+		- start
+		- end
+		- center
+		- space-between
+		- space-around
+		- space-evenly
+	- 附加轴的排列使用 [align-items](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items) 完成
+		- stretch
+		- center
+		- start
+		- en
 	-
 -
 - # Ref
