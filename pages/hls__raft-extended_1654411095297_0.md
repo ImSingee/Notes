@@ -11,3 +11,8 @@ file-path:: ../assets/raft-extended_1654411095297_0.pdf
   hl-page:: 8
   hl-color:: blue
   id:: 637e1a32-07d4-4a81-bc67-b749f8442c29
+- If a follower or candidate crashes, then future RequestVote and AppendEntries RPCs sent to it will fail.
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: blue
+  id:: 637e1ec6-7990-40b5-8696-0074a16d2897
