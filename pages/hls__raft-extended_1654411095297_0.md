@@ -6,3 +6,8 @@ file-path:: ../assets/raft-extended_1654411095297_0.pdf
   hl-page:: 2
   hl-color:: blue
   id:: 6364d5c2-48c8-4123-b89d-26c7ed3bd39e
+- Raft uses the voting process to prevent a candidate from winning an election unless its log contains all committed entries.
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: blue
+  id:: 637e1a32-07d4-4a81-bc67-b749f8442c29
