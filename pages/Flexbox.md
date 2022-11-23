@@ -1,0 +1,8 @@
+- #前端 #CSS
+-
+- # 核心
+	- flex 布局中，重要的不是横竖，而是主轴 Primary Axis 和附加轴 Cross Axis
+	- 利用 flex-
+-
+- # Ref
+	- https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
