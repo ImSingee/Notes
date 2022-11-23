@@ -39,7 +39,7 @@ alias:: Number of Ways to Reach a Position After Exactly k Steps
 		      }
 		      
 		      OFF := k+1
-		      dp := new2dSlice(k+1, 2*k+5) // i 步从 0 走到 j-offset 的方案数
+		      dp := new2dSlice(k+1, 2*k+5) // i 步从 0 走到 j 的方案数
 		      
 		      dp[0][OFF] = 1
 		      
