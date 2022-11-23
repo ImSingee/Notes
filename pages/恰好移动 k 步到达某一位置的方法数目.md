@@ -66,6 +66,7 @@ alias:: Number of Ways to Reach a Position After Exactly k Steps
 		  }
 		  ```
 	- ## 组合数
+		- d = endPos - startPos
 		- ```go
 		  const M = 1000000007
 		  
