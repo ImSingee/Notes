@@ -118,5 +118,6 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 							- 最终时 Leader 会为 Follower 的副本（并在 term 的剩余时间内持续为副本）
 					- Leader 永远不会修改/覆盖/删除自己的 entry
 				- Safety 安全性
-					-
+					- 如果仅应用之前的要求，暂时不足以保证每个状态机都以相同的顺序运行相同的命令
+					- 本章节用于阐述对于可成为 Leader 的服务器的限制
 	-
