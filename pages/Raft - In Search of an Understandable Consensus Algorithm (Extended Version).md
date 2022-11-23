@@ -122,5 +122,7 @@ title:: Raft - In Search of an Understandable Consensus Algorithm (Extended Vers
 					- 本章节用于阐述对于可成为 Leader 的服务器的限制
 					- 选举限制
 						- ((637e1a32-07d4-4a81-bc67-b749f8442c29))
-						-
+						- Committed Entry 要求被过半的机器保存
+						- Leader 选举成果也要求被过半的机器保存
+						- 因此，在选举时保证不选举拥有的条目比自己少的机器即可保证不会有日志不完整的机器错误的成为 Leader
 	-
