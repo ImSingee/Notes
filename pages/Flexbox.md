@@ -4,7 +4,9 @@
 	- flex 布局中，重要的不是横竖，而是主轴 Primary Axis 和附加轴 Cross Axis
 	- 利用 [flex-direction](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction) 进行主轴和附加轴的决策
 		- row - 横轴为主轴、纵轴为附加轴（默认）
+			- row-reverse - 另外的，主轴排列方式为从右到左（row 为从左到右）
 		- column - 纵轴为主轴、横轴为附加轴
+			- column-reverse - 另外的，主轴排列方式为从下到上（column 为从上到下）
 -
 	-
 -
