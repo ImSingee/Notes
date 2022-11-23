@@ -8,7 +8,8 @@
 		- column - 纵轴为主轴、横轴为附加轴
 			- column-reverse - 另外的，主轴排列方式为从下到上（column 为从上到下）
 - # 排列
-	- 主轴的排列使用 `just`
+	- 主轴的排列使用 [justify-content](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) 完成
+		- start -
 	-
 -
 - # Ref
