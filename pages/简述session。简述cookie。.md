@@ -1,4 +1,4 @@
 - #CruelFundamental #2022-11-24 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202211/24)
 -
 - Cookie: 一个或多个存储在客户端的 K-V 值，在请求相应域时会被浏览器自动带上
-- Session：
+- Session：一个或多个存储在服务器的 K-V 值，客户端不可见，通常通过客户端 Cookie 来标识服务端 Session 的归属
