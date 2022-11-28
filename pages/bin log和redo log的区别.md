@@ -1,0 +1,3 @@
+- #CruelFundamental #2022-11-26 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202211/26) #MySQL
+-
+- [[binlog 和 redo log 的区别]]
