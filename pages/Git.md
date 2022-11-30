@@ -1,4 +1,19 @@
+- ## Lib
+	- ### 创建一个空的新分支
+		- ```shell
+		  git checkout --orphant newbranch
+		  ```
+	- ### 回滚最近一次提交并将内容保存在工作区
+		- ```shell
+		  git reset --soft HEAD~1
+		  ```
+	- ### Git status 等命令中文路径乱码
+		- ```
+		  git config --global core.quotepath false
+		  ```
+	-
 - ## Git diff
+  collapsed:: true
 	- 目标
 		- 比较工作目录和 staged：默认（无需额外参数）
 		- 比较 staged 和 latest commit：`--staged`
@@ -12,13 +27,3 @@
 		- Also, these upper-case letters can be downcased to exclude. E.g.  `--diff-filter=ad`  excludes added and deleted paths.
 		- Note that not all diffs can feature all types. For instance, copied and renamed entries cannot appear if detection for those types is disabled.
 		-
-- ## Lib
-	- ### 回滚最近一次提交并将内容保存在工作区
-		- ```shell
-		  git reset --soft HEAD~1
-		  ```
-	- ### Git status 等命令中文路径乱码
-		- ```
-		  git config --global core.quotepath false
-		  ```
-	-
