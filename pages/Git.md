@@ -1,7 +1,8 @@
 - ## Lib
 	- ### 创建一个空的新分支
 		- ```shell
-		  git checkout --orphant newbranch
+		  git checkout --orphan newbranch
+		  git rm -rf . # 默认
 		  ```
 	- ### 回滚最近一次提交并将内容保存在工作区
 		- ```shell
