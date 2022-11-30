@@ -2,7 +2,7 @@
 	- ### 创建一个空的新分支
 		- ```shell
 		  git checkout --orphan newbranch
-		  git rm -rf . # 默认
+		  git rm -rf . # 新分支会包含父分支的所有文件（但不提交），利用这一命令删除；注意删除完可能还会存在其他 .* 的文件，可利用 git rm -rf .* 再删除一次
 		  ```
 	- ### 回滚最近一次提交并将内容保存在工作区
 		- ```shell
