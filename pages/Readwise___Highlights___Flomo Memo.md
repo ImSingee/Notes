@@ -164,3 +164,6 @@ category:: #books
   
   
   Intel语法是在Windows上进行汇编语言编程时主要使用的，而GAS语法，又称为AT&T语法，则主要是在Linux和类Unix上进行汇编语言时会用到。这里并不是说在不同操作系统上必须用不同的语法，在类Unix的macOS上也能用Intel语法，只不过是大家都偏好这么用罢了。 ([View Highlight](https://flomoapp.com/mine/?memo_id=NDEwODExNTE)) #Highlight #[[2022-10-09]]
+- Most of the pleasure in a dessert comes in the first three bites. After that, you should stop eating it. As a reward, you can eat dessert more often because you don’t binge it ([View Highlight](https://flomoapp.com/mine/?memo_id=NDg1OTU2MjI)) #Highlight #[[2022-12-12]]
+- To judge a book, open to a random page in the middle and see how you like it. I recommend page 87. Close enough to the beginning that it’s still written for a beginner, but deep enough that you’re well past the introduction. ([View Highlight](https://flomoapp.com/mine/?memo_id=NDg1OTU1NDU)) #Highlight #[[2022-12-12]]
+- Don’t choose what to read based on what was published recently. People have been writing for hundreds of years. Unless you need to for work, why prioritize the past 24 hours? ([View Highlight](https://flomoapp.com/mine/?memo_id=NDg1OTU0ODk)) #Highlight #[[2022-12-12]]
