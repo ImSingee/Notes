@@ -30,4 +30,5 @@ alias:: 算法/左神/体系学习班/27, KMP
 	- **判断 str1 和 str2 是否互为旋转字符串**
 		- 思路：在二者长度相同的情况下，判断 str2 是否为 str1+str1 的子串
 		- [代码](https://github.com/algorithmzuo/algorithmbasic2020/blob/master/src/class27/Code03_IsRotation.java)
-	-
+	- **给定两个非空二叉树 `s` 和 `t`，检验 `s` 中是否包含和 `t` 具有相同结构和节点值的子树。`s` 的一个子树包括 `s` 的一个节点和这个节点的所有子孙。`s` 也可以看做它自身的一棵子树。**
+		- 思路：将两棵二叉树进行序列化，再判断 t 序列化结果是否为 s 序列化结果的子
