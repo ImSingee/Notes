@@ -1,4 +1,4 @@
-alias:: [Dijkstra, 单源最短路径算法]
+alias:: Dijkstra, 单源最短路径算法
 
 - #图
 - ## 算法前提
