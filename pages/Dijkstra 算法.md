@@ -62,6 +62,7 @@ alias:: Dijkstra, 单源最短路径算法
 - ## 模板题
 	- [[网络延迟时间]]
 - ## 时间复杂度分析
+	- [参考](https://oi-wiki.org/graph/shortest-path/#%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6)
 	- 暴力：O(N^2 + E)
 	- 二叉堆：O((N+E)logN)
 	- 优先队列：O(ElogE)
