@@ -32,7 +32,7 @@ alias:: Two Sum II - Input Array Is Sorted
 		- `-1000 <= target <= 1000`
 		- **仅存在一个有效答案**
 - # 解
-	- 双指针
+	- 双指针（标准模板，可用于 [[3Sum]]）
 	- ```go
 	  func twoSum(nums []int, target int) []int {
 	      i, j := 0, len(nums) - 1
@@ -50,6 +50,24 @@ alias:: Two Sum II - Input Array Is Sorted
 	          if a+b >= target {
 	              j--
 	              for i < j && nums[j] == nums[j+1] { j-- }
+	          }
+	      }
+	      return nil
+	  }
+	  ```
+	- 因为题目确认只有一个解法，因此简化成
+	- ```go
+	  func twoSum(nums []int, target int) []int {
+	      i, j := 0, len(nums) - 1
+	      for i < j {
+	          a, b := nums[i], nums[j]
+	          
+	          if a + b == target {
+	              return []int{i+1, j+1}
+	          } else if a + b > target {
+	              j--
+	          } else {
+	              i++
 	          }
 	      }
 	      return nil
