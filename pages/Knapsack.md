@@ -8,7 +8,8 @@ alias:: 背包问题
 	      dp[i][c] = max(dp[i-1][c], val[i] + dp[i-1][c - cost[i]])
 	  return max([dp[n][c] for c in capacity])
 	  ```
-- ## 无穷背包问题
+- ## 多重背包问题
+- ## 完全背包问题
 	- ```python
 	  for c in capacity:
 	    for i in obj:
