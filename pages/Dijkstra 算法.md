@@ -1,6 +1,6 @@
 alias:: Dijkstra, 单源最短路径算法
 
-- #图
+- #图 [读音](https://www.google.com/search?q=dijkstra+pronunciation)
 - ## 算法前提
 	- 权重均为正数
 	- 有向图、可以有环
