@@ -32,4 +32,26 @@ alias:: Two Sum II - Input Array Is Sorted
 		- `-1000 <= target <= 1000`
 		- **仅存在一个有效答案**
 - # 解
-	- #TODO
+	- 双指针
+	- ```go
+	  func twoSum(nums []int, target int) []int {
+	      i, j := 0, len(nums) - 1
+	      for i < j {
+	          a, b := nums[i], nums[j]
+	          
+	          if a + b == target {
+	              return []int{i+1, j+1}
+	          }
+	          
+	          if a+b <= target {
+	              i++
+	              for i < j && nums[i] == nums[i-1] { i++ }
+	          }
+	          if a+b >= target {
+	              j--
+	              for i < j && nums[j] == nums[j+1] { j-- }
+	          }
+	      }
+	      return nil
+	  }
+	  ```
