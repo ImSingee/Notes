@@ -1,6 +1,5 @@
 alias:: Count Subarrays With Median K
 
-- #CruelCoding #2022-11-28 #Medium #[[indexing sort]] [讲解](https://youtu.be/lnAQB4__FDg)
 - #Algorithm #Hard #[[前缀和]] #[[数组]] #[[哈希表]]
 - #Leetcode #Leetcode-2488 [LC国际](https://leetcode.com/problems/count-subarrays-with-median-k/) [LC中国](https://leetcode.cn/problems/count-subarrays-with-median-k/)
 - # 题目
