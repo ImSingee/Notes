@@ -96,12 +96,13 @@ alias:: Maximum Sum of Distinct Subarrays With Length K
 		          i := j-k
 		          
 		          curSum = curSum - nums[i] + nums[j]
-		          curCount[nums[i]]--
-		          curCount[nums[j]]++
 		          
+		          curCount[nums[i]]--
 		          if curCount[nums[i]] == 0 {
 		              uniqueCount--
 		          }
+		          
+		          curCount[nums[j]]++
 		          if curCount[nums[j]] == 1 {
 		              uniqueCount++
 		          }
@@ -118,6 +119,6 @@ alias:: Maximum Sum of Distinct Subarrays With Length K
 		      if a > b { return a } else { return b }
 		  }
 		  ```
-	- ## 滑动窗口
+	- ## 哈希表
 		- ```go
 		  ```
