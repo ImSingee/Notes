@@ -121,4 +121,65 @@ alias:: Maximum Sum of Distinct Subarrays With Length K
 		  ```
 	- ## 哈希表
 		- ```go
+		  type MultiSet struct {
+		      values map[int]int
+		  }
+		  
+		  func New() *MultiSet {
+		      return &MultiSet{map[int]int{}}
+		  }
+		  
+		  func (s *MultiSet) Add(x int) {
+		      s.values[x]++
+		  }
+		  
+		  func (s *MultiSet) Remove(x int) {
+		      s.values[x]--
+		      if s.values[x] == 0 {
+		          delete(s.values, x)
+		      }
+		  }
+		  
+		  func (s *MultiSet) UniqueCount() int {
+		      return len(s.values)
+		  }
+		  
+		  func maximumSubarraySum(nums []int, k int) int64 {
+		      n := len(nums)
+		      sum := int64(0)
+		      maxSum := int64(0)
+		      set := New()
+		      
+		      for i := 0; i < k; i++ {
+		          sum += int64(nums[i])
+		          set.Add(nums[i])
+		      }
+		      if set.UniqueCount() == k {
+		          maxSum = sum
+		      }
+		      
+		      
+		      for i := k; i < n; i++ {
+		          sum += int64(nums[i]) - int64(nums[i-k])
+		          set.Add(nums[i])
+		          set.Remove(nums[i-k])
+		          
+		          // fmt.Println("sum to", i, "is", sum)
+		          // fmt.Println(i, set.values, set.UniqueCount() )
+		                  
+		          if set.UniqueCount() == k {
+		              maxSum = max(maxSum, sum)
+		          }
+		      }
+		      
+		      return maxSum
+		  }
+		  
+		  func max(a, b int64) int64 {
+		      if a > b {
+		          return a
+		      } else {
+		          return b
+		      }
+		  }
 		  ```
