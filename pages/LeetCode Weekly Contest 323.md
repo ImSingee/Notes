@@ -1,6 +1,7 @@
 - #Leetcode-Weekly-Contest
 -
 - [[删除每行中的最大值]]
-- TODO [[数组中最长的方波]]
-- design-memory-allocator
-- maximum-number-of-points-from-grid-queries
+- [[数组中最长的方波]]
+- [[设计内存分配器]]
+- [[矩阵查询可获得的最大分数]]
+-
