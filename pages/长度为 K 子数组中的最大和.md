@@ -29,4 +29,49 @@ alias:: Maximum Sum of Distinct Subarrays With Length K
 		- `1 <= k <= nums.length <= 105`
 		- `1 <= nums[i] <= 105`
 - # 解
-	- #TODO
+	- ## 暴力
+		- ```go
+		  func maximumSubarraySum(nums []int, k int) int64 {
+		      curSum := 0
+		      curCount := make([]int, 100005)
+		      for i := 0; i < k; i++ {
+		          curSum += nums[i]
+		          curCount[nums[i]]++
+		      }
+		      
+		      var maxSum int
+		      if isUnique(curCount) {
+		          maxSum = curSum
+		      }
+		      
+		      for j := k; j < len(nums); j++ {
+		          i := j-k
+		          
+		          curSum = curSum - nums[i] + nums[j]
+		          curCount[nums[i]]--
+		          curCount[nums[j]]++
+		          
+		          if isUnique(curCount) {
+		              maxSum = max(maxSum, curSum)
+		          }
+		      }
+		      
+		      return int64(maxSum)
+		  }
+		  
+		  func isUnique(curCount []int) bool {
+		      for _, v := range curCount {
+		          if v > 1 {
+		              return false
+		          }
+		      }
+		      return true
+		  }
+		  
+		  func max(a, b int) int {
+		      if a > b { return a } else { return b }
+		  }
+		  ```
+	- ## 滑动窗口
+		- ```go
+		  ```
