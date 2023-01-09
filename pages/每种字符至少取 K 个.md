@@ -25,6 +25,8 @@ alias:: Take K of Each Character From Left and Right
 		- `s` 仅由字母 `'a'`、`'b'`、`'c'` 组成
 		- `0 <= k <= s.length`
 - # 解
+	- 逆向思维
+	- 即寻找 [i, j) 中的最长部分
 	- ```go
 	  func takeCharacters(s string, k int) int {
 	      var M []int = make([]int, 3)
