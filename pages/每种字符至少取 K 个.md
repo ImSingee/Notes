@@ -25,4 +25,56 @@ alias:: Take K of Each Character From Left and Right
 		- `s` 仅由字母 `'a'`、`'b'`、`'c'` 组成
 		- `0 <= k <= s.length`
 - # 解
-	- #TODO
+	- ```go
+	  func takeCharacters(s string, k int) int {
+	      var M []int = make([]int, 3)
+	      for _, c := range s {
+	          M[c-'a']++
+	      }
+	      for i := range M {
+	          M[i] -= k
+	      }
+	      var m []int = make([]int, 3)
+	      yes := func() bool {
+	          for i, v := range m {
+	              if v > M[i] {
+	                  return false
+	              }
+	          }
+	          return true
+	      }
+	      if !yes() {
+	          return -1
+	      }
+	      
+	      add := func(c byte) {
+	          m[c-'a']++
+	      }
+	      minus := func(c byte) {
+	          m[c-'a']--
+	      }
+	      
+	      maxlen := 0
+	      j := 0
+	  
+	      for i := range s {
+	          for yes() { // [i, j)
+	              maxlen = max(maxlen, j-i)
+	              if j == len(s) {
+	                  break
+	              }
+	              
+	              add(s[j])
+	              j++
+	          }
+	          
+	          minus(s[i])
+	      }
+	  
+	      return len(s)-maxlen
+	  }
+	  
+	  func max(a, b int) int {
+	      if a > b { return a } else { return b }
+	  }
+	  ```
