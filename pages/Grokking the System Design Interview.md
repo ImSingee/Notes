@@ -40,5 +40,7 @@
 			- **How do we detect and prevent abuse?**
 		- **5. Database Design**
 			- Defining the DB schema in the early stages of the interview would help to understand the data flow among various components and later would guide towards data partitioning.
-			-
+			- **Database Schema**
+			- **What kind of database should we use?**
+				- [SQL vs. NoSQL](https://designgurus.org/path-player?courseid=grokking-the-system-design-interview&unit=grokking-the-system-design-interview_1627054379423_8Unit)
 -
