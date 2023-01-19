@@ -19,4 +19,11 @@
 			- Dig deeper into two or three major components; the interviewer’s feedback should always guide us to what parts of the system need further discussion.
 			- We should present different approaches, their pros and cons, and explain why we will prefer one approach over the other.
 				- Remember, there is no single answer; the only important thing is to consider tradeoffs between different options while keeping system constraints in mind.
+		- **Step 7: Identifying and resolving bottlenecks**
+			- Try to discuss as many bottlenecks as possible and different approaches to mitigate them.
+				- single point of failure
+				- replicas of the data
+				- enough copies of different services
+				- monitoring the performance, get alerts whenever critical components fail or their performance degrades
+		-
 			-
