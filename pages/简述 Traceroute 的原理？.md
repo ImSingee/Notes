@@ -1,2 +1,5 @@
 - #CruelFundamental #[[2022-08-22]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202208/22)
 -
+- Traceroute 利用给数据包增加存活时间（TTL）值来实现其功能。
+- 每当数据包经过一个路由器，其存活时间就会减 1。 当其 TTL 是 0 时，路由器便丢弃数据包，并传送一个 ICMP TTL 数据包给原数据包的发出者。
+- 程序发出的首 3 个数据包 TTL 值是 1，之后 3 个是 2，如此类推，它便得到一连串数据包路径。
