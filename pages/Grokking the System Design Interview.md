@@ -13,4 +13,6 @@
 			- Defining the data model in the early part of the interview will clarify how data will flow between different system components.
 			- Later, it will guide for data partitioning and management.
 				- storage, transportation, encryption
+		- **Step 5: High-level design**
+			- Draw a block diagram with 5-6 boxes representing the core components of our system. We should identify enough components that are needed to solve the actual problem from end to end.
 		-
