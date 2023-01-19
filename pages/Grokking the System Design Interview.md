@@ -47,4 +47,7 @@
 			- Hash or **Key Generation Service (KGS)**
 		- **7. Data Partitioning and Replication**
 			- **Range Based Partitioning** or **Hash-Based Partitioning**
+				- [Consistent Hashing](https://designgurus.org/path-player?courseid=grokking-the-system-design-interview&unit=grokking-the-system-design-interview_1627054411532_11Unit)
+		- **8. Cache**
+			- **cache memory**, **cache eviction policy **
 -
