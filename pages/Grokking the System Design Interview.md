@@ -34,4 +34,7 @@
 			- Functional Requirements, Non-Functional Requirements, Extended Requirements
 		- **3. Capacity Estimation and Constraints**
 			- **Traffic estimates**, **Storage estimates**, **Bandwidth estimates**, **Memory estimates**
+			- **High-level estimates** (Summary)
+		- **4. System APIs**
+			- Once we've finalized the requirements, it's always a good idea to define the system APIs. This should explicitly state what is expected from the system.
 -
