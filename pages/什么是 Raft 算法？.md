@@ -1,3 +1,4 @@
 - #CruelFundamental #[[2022-08-29]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202208/29)
 -
--
+- 一种日志同步算法。
+- Raft 算法基于 Multi-Paxos 算法进行重新简化设计和实现，提高了工程实践性。Raft 算法的主要设计思想与 ZAB 类似，通过先选出领导节点来简化流程和提高效率。实现上解耦了领导者选举、日志复制和安全方面的需求，并通过约束减少了不确定性的状态空间。
