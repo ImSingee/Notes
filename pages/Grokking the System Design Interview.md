@@ -14,5 +14,9 @@
 			- Later, it will guide for data partitioning and management.
 				- storage, transportation, encryption
 		- **Step 5: High-level design**
-			- Draw a block diagram with 5-6 boxes representing the core components of our system. We should identify enough components that are needed to solve the actual problem from end to end.
-		-
+			- Draw a block diagram with **5-6 boxes** representing the core components of our system. We should identify enough components that are needed to solve the actual problem from end to end.
+		- **Step 6: Detailed design**
+			- Dig deeper into two or three major components; the interviewer’s feedback should always guide us to what parts of the system need further discussion.
+			- We should present different approaches, their pros and cons, and explain why we will prefer one approach over the other.
+				- Remember, there is no single answer; the only important thing is to consider tradeoffs between different options while keeping system constraints in mind.
+			-
