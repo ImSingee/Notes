@@ -43,4 +43,6 @@
 			- **Database Schema**
 			- **What kind of database should we use?**
 				- [SQL vs. NoSQL](https://designgurus.org/path-player?courseid=grokking-the-system-design-interview&unit=grokking-the-system-design-interview_1627054379423_8Unit)
+		- **6. Basic System Design and Algorithm**
+			-
 -
