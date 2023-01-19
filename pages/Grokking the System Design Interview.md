@@ -37,4 +37,8 @@
 			- **High-level estimates** (Summary)
 		- **4. System APIs**
 			- Once we've finalized the requirements, it's always a good idea to define the system APIs. This should explicitly state what is expected from the system.
+			- **How do we detect and prevent abuse?**
+		- **5. Database Design**
+			- Defining the DB schema in the early stages of the interview would help to understand the data flow among various components and later would guide towards data partitioning.
+			-
 -
