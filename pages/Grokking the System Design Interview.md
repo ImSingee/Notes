@@ -1,3 +1,5 @@
 - [课程链接](https://designgurus.org/path-player?courseid=grokking-the-system-design-interview)
 -
--
+- ## System Design Guide
+	- ### System Design Interviews: A step by step guide
+		- It is always a good idea to ask questions about the exact scope of the problem we are trying to solve. Candidates who spend enough time to define the end goals of the system always have a better chance to be successful in the interview.
