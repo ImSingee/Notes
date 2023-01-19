@@ -30,4 +30,8 @@
 	- ### Designing a URL Shortening service like TinyURL
 		- **1. Why do we need URL shortening?**
 		- **2. Requirements and Goals of the System**
-		-
+			- You should always clarify requirements at the beginning of the interview. Be sure to ask questions to find the exact scope of the system that the interviewer has in mind.
+			- Functional Requirements, Non-Functional Requirements, Extended Requirements
+		- **3. Capacity Estimation and Constraints**
+			-
+-
