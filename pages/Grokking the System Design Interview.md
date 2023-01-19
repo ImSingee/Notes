@@ -2,6 +2,12 @@
 -
 - ## System Design Guide
 	- ### System Design Interviews: A step by step guide
-		- It is always a good idea to ask questions about the exact scope of the problem we are trying to solve. Candidates who spend enough time to define the end goals of the system always have a better chance to be successful in the interview.
-		- Back-of-the-envelope estimation: It is always a good idea to estimate the scale of the system we’re going to design. This will also help later when we focus on scaling, partitioning, load balancing, and caching.
-			-
+		- **Step 1: Requirements clarifications**
+			- It is always a good idea to ask questions about the exact scope of the problem we are trying to solve. Candidates who spend enough time to define the end goals of the system always have a better chance to be successful in the interview.
+		- **Step 2: Back-of-the-envelope estimation**
+			- It is always a good idea to estimate the scale of the system we’re going to design. This will also help later when we focus on scaling, partitioning, load balancing, and caching.
+			- scale, storage, network bandwidth
+		- **Step 3: System interface definition**
+			- Define what APIs are expected from the system. This will establish the exact contract expected from the system and ensure if we haven’t gotten any requirements wrong.
+		-
+		-
