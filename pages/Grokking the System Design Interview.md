@@ -2,7 +2,6 @@
 -
 - ## System Design Guide
 	- ### System Design Interviews: A step by step guide
-	  collapsed:: true
 		- **Step 1: Requirements clarifications**
 			- It is always a good idea to ask questions about the exact scope of the problem we are trying to solve. Candidates who spend enough time to define the end goals of the system always have a better chance to be successful in the interview.
 		- **Step 2: Back-of-the-envelope estimation**
@@ -52,5 +51,7 @@
 			- **cache memory**, **cache eviction policy **
 		- **9. Load Balancer (LB)**
 		- **10. Purging or DB cleanup**
-		-
+		- **11. Telemetry**
+		- **12. Security and Permissions**
+			- permission level (public/private)
 -
