@@ -9,5 +9,8 @@
 			- scale, storage, network bandwidth
 		- **Step 3: System interface definition**
 			- Define what APIs are expected from the system. This will establish the exact contract expected from the system and ensure if we haven’t gotten any requirements wrong.
-		-
+		- **Step 4: Defining data model**
+			- Defining the data model in the early part of the interview will clarify how data will flow between different system components.
+			- Later, it will guide for data partitioning and management.
+				- storage, transportation, encryption
 		-
