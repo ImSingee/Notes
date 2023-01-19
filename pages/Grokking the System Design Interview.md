@@ -50,4 +50,7 @@
 				- [Consistent Hashing](https://designgurus.org/path-player?courseid=grokking-the-system-design-interview&unit=grokking-the-system-design-interview_1627054411532_11Unit)
 		- **8. Cache**
 			- **cache memory**, **cache eviction policy **
+		- **9. Load Balancer (LB)**
+		- **10. Purging or DB cleanup**
+		-
 -
