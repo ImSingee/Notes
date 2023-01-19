@@ -2,6 +2,7 @@
 -
 - ## System Design Guide
 	- ### System Design Interviews: A step by step guide
+	  collapsed:: true
 		- **Step 1: Requirements clarifications**
 			- It is always a good idea to ask questions about the exact scope of the problem we are trying to solve. Candidates who spend enough time to define the end goals of the system always have a better chance to be successful in the interview.
 		- **Step 2: Back-of-the-envelope estimation**
@@ -25,5 +26,8 @@
 				- replicas of the data
 				- enough copies of different services
 				- monitoring the performance, get alerts whenever critical components fail or their performance degrades
+		- Preparation and being organized during the interview are the keys to success in system design interviews.
+	- ### Designing a URL Shortening service like TinyURL
+		- **1. Why do we need URL shortening?**
+		- **2. Requirements and Goals of the System**
 		-
-			-
