@@ -45,5 +45,6 @@
 				- [SQL vs. NoSQL](https://designgurus.org/path-player?courseid=grokking-the-system-design-interview&unit=grokking-the-system-design-interview_1627054379423_8Unit)
 		- **6. Basic System Design and Algorithm**
 			- Hash or **Key Generation Service (KGS)**
-			-
+		- **7. Data Partitioning and Replication**
+			- **Range Based Partitioning** or **Hash-Based Partitioning**
 -
