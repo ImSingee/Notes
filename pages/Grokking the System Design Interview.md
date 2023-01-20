@@ -27,7 +27,6 @@
 				- monitoring the performance, get alerts whenever critical components fail or their performance degrades
 		- Preparation and being organized during the interview are the keys to success in system design interviews.
 	- ### Designing a URL Shortening service like TinyURL
-	  collapsed:: true
 		- **1. Why do we need URL shortening?**
 		- **2. Requirements and Goals of the System**
 			- You should always clarify requirements at the beginning of the interview. Be sure to ask questions to find the exact scope of the system that the interviewer has in mind.
