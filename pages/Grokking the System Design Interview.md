@@ -58,5 +58,6 @@
 			- permission level (public/private)
 - ## System Design Problems
 	- ### Designing Pastebin
-		-
+		- We can assume a 5:1 ratio between the read and write.
+		- Users can upload maximum 10MB of data; commonly Pastebin like services are used to share source code, configs, or logs. Such texts are not huge, so let’s assume that each paste on average contains 10KB.
 -
