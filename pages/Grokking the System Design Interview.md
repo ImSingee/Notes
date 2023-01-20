@@ -68,6 +68,7 @@
 			- What are the different architectural pieces that can be used?
 			- How do these pieces work with each other?
 			- How can we best utilize these pieces: what are the right tradeoffs?
+		- Investing in scaling before it is needed is generally not a smart business proposition
 	- ### SQL vs. NoSQL
 		- Relational databases are structured and have predefined schemas like phone books that store phone numbers and addresses.
 		- Non-relational databases are unstructured, distributed, and have a dynamic schema like file folders that hold everything from a person’s address and phone number to their Facebook ‘likes’ and online shopping preferences.
