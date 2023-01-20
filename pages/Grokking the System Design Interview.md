@@ -86,4 +86,9 @@
 			- **Schema**
 			- **Querying**
 			- **Scalability**
-				-
+				- In most common situations, SQL databases are vertically scalable, NoSQL databases are horizontally scalable.
+			- **Reliability or ACID Compliancy (Atomicity, Consistency, Isolation, Durability)**
+				- The vast majority of relational databases are ACID compliant.
+				- Most of the NoSQL solutions sacrifice ACID compliance for performance and scalability.
+		- **Which one to use?**
+			-
