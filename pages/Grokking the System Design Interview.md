@@ -83,3 +83,7 @@
 				- Examples of graph database include Neo4J and InfiniteGraph.
 		- **High level differences between SQL and NoSQL**
 			- **Storage**
+			- **Schema**
+			- **Querying**
+			- **Scalability**
+				-
