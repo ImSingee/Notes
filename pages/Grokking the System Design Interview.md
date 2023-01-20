@@ -91,4 +91,12 @@
 				- The vast majority of relational databases are ACID compliant.
 				- Most of the NoSQL solutions sacrifice ACID compliance for performance and scalability.
 		- **Which one to use?**
-			-
+			- When it comes to database technology, there’s no one-size-fits-all solution.
+			- Many businesses rely on both relational and non-relational databases for different needs
+			- **Reasons to use SQL database**
+				- We need to ensure ACID compliance.
+				- Your data is structured and unchanging.
+			- **Reasons to use NoSQL database**
+				- Storing large volumes of data that often have little to no structure.
+				- Making the most of cloud computing and storage.
+				- Rapid development.
