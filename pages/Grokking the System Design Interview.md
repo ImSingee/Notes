@@ -71,6 +71,7 @@
 		- Losing files is not an option for our service. Therefore, we will store multiple copies of each file so that if one storage server dies, we can retrieve the photo from the other copy present on a different storage server.
 		- KGS single point of failure: A workaround for that could be to define two such databases, one generating even-numbered IDs and the other odd-numbered. (load balancer)
 		- **Pre-generating the News Feed:** We can have dedicated servers that are continuously generating users’ News Feeds and storing them in a ‘UserNewsFeed’ table. So whenever any user needs the latest photos for their News-Feed, we will simply query this table and return the results to the user.
+			- **Pull
 - ## Glossary of System Design Basics
   collapsed:: true
 	- ### System Design Basics
