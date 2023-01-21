@@ -118,4 +118,8 @@
 				- Making the most of cloud computing and storage.
 				- Rapid development.
 	- ### Consistent Hashing
-		- David Karger et al. first introduced Consistent Hashing in their  and suggested its use in distributed caching.
+		- David Karger et al. first introduced Consistent Hashing in their [1997 paper](https://dl.acm.org/doi/10.1145/258533.258660) and suggested its use in distributed caching.
+		- The act of distributing data across a set of nodes is called data partitioning.
+			- How do we know on which node a particular piece of data will be stored?
+			- When we add or remove nodes, how do we know what data will be moved from existing nodes to the new nodes? Additionally, how can we minimize data movement when nodes join or leave?
+		-
