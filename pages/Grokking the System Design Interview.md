@@ -63,7 +63,8 @@
 		- ‘ContentKey’ is a reference to an external object storing the contents of the paste
 		- Since we are generating a random key, there is a possibility that the newly generated key could match an existing one. In that case, we should regenerate a new key and try again. We should keep retrying until we don’t see failure due to the duplicate key.
 	- ### Designing Instagram
-		-
+		- High Availability
+		- The acceptable latency of the system is 200ms for News Feed generation.
 - ## Glossary of System Design Basics
   collapsed:: true
 	- ### System Design Basics
