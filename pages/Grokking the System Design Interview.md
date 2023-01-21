@@ -62,7 +62,9 @@
 		- Following the 80-20 rule, meaning 20% of hot pastes generate 80% of traffic, we would like to cache these 20% pastes.
 		- ‘ContentKey’ is a reference to an external object storing the contents of the paste
 		- Since we are generating a random key, there is a possibility that the newly generated key could match an existing one. In that case, we should regenerate a new key and try again. We should keep retrying until we don’t see failure due to the duplicate key.
+	- ###
 - ## Glossary of System Design Basics
+  collapsed:: true
 	- ### System Design Basics
 		- Whenever we are designing a large system, we need to consider a few things:
 			- What are the different architectural pieces that can be used?
