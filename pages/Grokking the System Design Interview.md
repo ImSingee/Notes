@@ -74,14 +74,15 @@
 			- **Pull or Push?**
 				- **Hybrid:** We can adopt a hybrid approach. We can move all the users who have a high number of followers to a pull-based model and only push data to those who have a few hundred (or thousand) follows. Another approach could be that the server pushes updates to all the users not more than a certain frequency and letting users with a lot of followers/updates to pull data regularly.
 - ## Glossary of System Design Basics
-  collapsed:: true
 	- ### System Design Basics
+	  collapsed:: true
 		- Whenever we are designing a large system, we need to consider a few things:
 			- What are the different architectural pieces that can be used?
 			- How do these pieces work with each other?
 			- How can we best utilize these pieces: what are the right tradeoffs?
 		- Investing in scaling before it is needed is generally not a smart business proposition
 	- ### SQL vs. NoSQL
+	  collapsed:: true
 		- Relational databases are structured and have predefined schemas like phone books that store phone numbers and addresses.
 		- Non-relational databases are unstructured, distributed, and have a dynamic schema like file folders that hold everything from a person’s address and phone number to their Facebook ‘likes’ and online shopping preferences.
 		- **SQL**
@@ -116,4 +117,5 @@
 				- Storing large volumes of data that often have little to no structure.
 				- Making the most of cloud computing and storage.
 				- Rapid development.
--
+	- ### Consistent Hashing
+		- David Karger et al. first introduced Consistent Hashing in their  and suggested its use in distributed caching.
