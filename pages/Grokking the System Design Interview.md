@@ -65,6 +65,7 @@
 	- ### Designing Instagram
 		- High Availability
 		- The acceptable latency of the system is 200ms for News Feed generation.
+		- We may need to use SQL database, but relational databases come with their challenges, especially when we need to scale them.
 - ## Glossary of System Design Basics
   collapsed:: true
 	- ### System Design Basics
@@ -108,3 +109,4 @@
 				- Storing large volumes of data that often have little to no structure.
 				- Making the most of cloud computing and storage.
 				- Rapid development.
+-
