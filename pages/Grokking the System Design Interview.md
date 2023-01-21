@@ -66,6 +66,7 @@
 		- High Availability
 		- The acceptable latency of the system is 200ms for News Feed generation.
 		- We may need to use SQL database, but relational databases come with their challenges, especially when we need to scale them.
+		- In data stores, deletes don’t get applied instantly; data is retained for certain days (to support undeleting) before getting removed from the system permanently.
 - ## Glossary of System Design Basics
   collapsed:: true
 	- ### System Design Basics
