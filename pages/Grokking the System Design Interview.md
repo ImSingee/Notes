@@ -123,4 +123,4 @@
 			- How do we know on which node a particular piece of data will be stored?
 			- When we add or remove nodes, how do we know what data will be moved from existing nodes to the new nodes? Additionally, how can we minimize data movement when nodes join or leave?
 		- Consistent Hashing maps data to physical nodes and ensures that **only a small set of keys move when servers are added or removed.**
-		-
+		- Vnodes are **randomly distributed** across the cluster and are generally **non-contiguous** so that no two neighboring Vnodes are assigned to the same physical node or rack.
