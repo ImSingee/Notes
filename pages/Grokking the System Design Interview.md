@@ -110,6 +110,9 @@
 					- just transmit the difference between two versions of a file
 					- dividing our files into 4MB chunks
 					- calculate a hash (e.g., SHA-256) to see whether to update the local copy of a chunk or not
+				- The messaging middleware should provide scalable message queuing and change notifications to support a high number of clients using pull or push strategies.
+			- **Message Queuing Service**
+				- An important part of our architecture is a messaging middleware that should be able to handle a substantial number of requests. A scalable Message Queuing Service that supports asynchronous message-based communication between clients and the Synchronization Service best fits the requirements of our application.
 		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
