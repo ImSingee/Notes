@@ -186,4 +186,6 @@
 	- **Long-Polling vs WebSockets vs Server-Sent Events**
 		- **HTTP Long-Polling**
 			- With Long-Polling, the client requests information from the server exactly as in normal polling, but with the expectation that the server may not respond immediately. That’s why this technique is sometimes referred to as a “Hanging GET”.
+		- **WebSockets**
+			- WebSocket provides [Full duplex](https://en.wikipedia.org/wiki/Duplex_(telecommunications)#Full_duplex) communication channels over a single TCP connection.
 			-
