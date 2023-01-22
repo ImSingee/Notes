@@ -104,7 +104,12 @@
 					- a consistent view
 					- ACID!
 			- **Synchronization Service**
-				-
+				- The Synchronization Service is the component that processes file updates made by a client and applies these changes to other subscribed clients.
+				- The Synchronization Service is the most important part of the system architecture due to its critical role in managing the metadata and synchronizing users’ files.
+				- The Synchronization Service should be designed to transmit less data between clients and the Cloud Storage to achieve a better response time.
+					- just transmit the difference between two versions of a file
+					- dividing our files into 4MB chunks
+					- calculate a hash (e.g., SHA-256) to see whether to update the local copy of a chunk or not
 		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
