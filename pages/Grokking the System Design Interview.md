@@ -90,7 +90,13 @@
 					- Chunk: divide each file into fixed sizes of 4MB chunks.
 				- **Should we keep a copy of metadata with Clients?**
 					- YES. Keeping a local copy of metadata not only enables us to do offline updates but also saves a lot of round trips to update remote metadata.
-				-
+				- **How can clients efficiently listen to changes happening with other clients?**
+					- periodically check
+					- HTTP long polling
+				- **divide our client into four parts**
+					- **Internal Metadata Database**
+					- **Chunker**
+					- **Watcher**
 		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
