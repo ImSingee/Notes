@@ -84,6 +84,7 @@
 		- **High Level Design**
 			- ![](https://lwfiles.mycourse.app/systemdesign-public/a754f17f56ef778b4bfb9fc9dc44b1cc.png)
 		- **Component Design**
+			- ![](https://lwfiles.mycourse.app/systemdesign-public/be5db77680fed602be8334e2ab24f9a6.png)
 			- **Client**
 				- The Client Application monitors the workspace folder on the user’s machine and syncs all files/folders in it with the remote Cloud Storage.
 				- **How do we handle file transfer efficiently?**
@@ -113,6 +114,9 @@
 				- The messaging middleware should provide scalable message queuing and change notifications to support a high number of clients using pull or push strategies.
 			- **Message Queuing Service**
 				- An important part of our architecture is a messaging middleware that should be able to handle a substantial number of requests. A scalable Message Queuing Service that supports asynchronous message-based communication between clients and the Synchronization Service best fits the requirements of our application.
+				- ![](https://lwfiles.mycourse.app/systemdesign-public/5f5dd592905d3126b83b8a05d57fc9ae.png)
+			- **Cloud/Block Storage**
+				- Cloud/Block Storage stores chunks of files uploaded by the users.
 		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
