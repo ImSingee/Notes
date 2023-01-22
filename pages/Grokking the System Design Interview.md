@@ -97,6 +97,7 @@
 					- **Internal Metadata Database**
 					- **Chunker**
 					- **Watcher**
+					- **Indexer**
 		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
