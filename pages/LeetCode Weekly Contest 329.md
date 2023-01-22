@@ -1,4 +1,4 @@
-- #Leetcode-Weekly-Contest
+- #Leetcode-Weekly-Contest #2023LCWT
 -
 - DONE [[交替数字和]]
 - DONE [[根据第 K 场考试的分数排序]]
