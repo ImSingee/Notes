@@ -184,4 +184,6 @@
 		- Vnodes are **randomly distributed** across the cluster and are generally **non-contiguous** so that no two neighboring Vnodes are assigned to the same physical node or rack.
 		- **Dynamo** and **Cassandra** use Consistent Hashing to distribute their data across nodes.
 	- **Long-Polling vs WebSockets vs Server-Sent Events**
-		-
+		- **HTTP Long-Polling**
+			- With Long-Polling, the client requests information from the server exactly as in normal polling, but with the expectation that the server may not respond immediately. That’s why this technique is sometimes referred to as a “Hanging GET”.
+			-
