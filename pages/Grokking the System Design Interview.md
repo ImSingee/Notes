@@ -130,8 +130,6 @@
 			- **In-line deduplication**
 		- **Metadata Partitioning**
 			- To scale out metadata DB, we need to partition it so that it can store information about millions of users and billions of files/chunks.
-		- **Caching**
-		-
 		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
