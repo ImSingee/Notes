@@ -75,7 +75,8 @@
 			- **Pull or Push?**
 				- **Hybrid:** We can adopt a hybrid approach. We can move all the users who have a high number of followers to a pull-based model and only push data to those who have a few hundred (or thousand) follows. Another approach could be that the server pushes updates to all the users not more than a certain frequency and letting users with a lot of followers/updates to pull data regularly.
 	- ### Designing Dropbox
-		-
+		- **Availability:** The motto of cloud storage services is to have data availability anywhere, anytime. Users can access their files/photos from any device whenever and wherever they like.
+		- **Reliability and Durability:** Another benefit of cloud storage is that it offers 100% reliability and durability of data. Cloud storage ensures that users will never lose their data by keeping multiple copies of the data stored on different geographically located servers.
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
