@@ -117,6 +117,15 @@
 				- ![](https://lwfiles.mycourse.app/systemdesign-public/5f5dd592905d3126b83b8a05d57fc9ae.png)
 			- **Cloud/Block Storage**
 				- Cloud/Block Storage stores chunks of files uploaded by the users.
+		- **File Processing Workflow**
+			- The sequence below shows the interaction between the components of the application in a scenario when Client A updates a file that is shared with Client B and C, so they should receive the update too. If the other clients are not online at the time of the update, the Message Queuing Service keeps the update notifications in separate response queues for them until they come online later.
+			- **Procedure**
+				- Client A uploads chunks to cloud storage.
+				- Client A updates metadata and commits changes.
+				- Client A gets confirmation and notifications are sent to Clients B and C about the changes.
+				- Client B and C receive metadata changes and download updated chunks.
+		- **Data Deduplication**
+			-
 		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
