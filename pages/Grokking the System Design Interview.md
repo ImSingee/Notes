@@ -63,6 +63,7 @@
 		- ‘ContentKey’ is a reference to an external object storing the contents of the paste
 		- Since we are generating a random key, there is a possibility that the newly generated key could match an existing one. In that case, we should regenerate a new key and try again. We should keep retrying until we don’t see failure due to the duplicate key.
 	- ### Designing Instagram
+	  collapsed:: true
 		- High Availability
 		- The acceptable latency of the system is 200ms for News Feed generation.
 		- We may need to use SQL database, but relational databases come with their challenges, especially when we need to scale them.
@@ -73,6 +74,8 @@
 		- **Pre-generating the News Feed:** We can have dedicated servers that are continuously generating users’ News Feeds and storing them in a ‘UserNewsFeed’ table. So whenever any user needs the latest photos for their News-Feed, we will simply query this table and return the results to the user.
 			- **Pull or Push?**
 				- **Hybrid:** We can adopt a hybrid approach. We can move all the users who have a high number of followers to a pull-based model and only push data to those who have a few hundred (or thousand) follows. Another approach could be that the server pushes updates to all the users not more than a certain frequency and letting users with a lot of followers/updates to pull data regularly.
+	- ### Designing Dropbox
+		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
