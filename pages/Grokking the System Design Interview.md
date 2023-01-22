@@ -125,7 +125,13 @@
 				- Client A gets confirmation and notifications are sent to Clients B and C about the changes.
 				- Client B and C receive metadata changes and download updated chunks.
 		- **Data Deduplication**
-			-
+			- For each new incoming chunk, we can calculate a hash of it and compare that hash with all the hashes of the existing chunks to see if we already have the same chunk present in our storage.
+			- **Post-process deduplication**
+			- **In-line deduplication**
+		- **Metadata Partitioning**
+			- To scale out metadata DB, we need to partition it so that it can store information about millions of users and billions of files/chunks.
+		- **Caching**
+		-
 		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
