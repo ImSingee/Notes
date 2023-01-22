@@ -99,6 +99,11 @@
 					- **Watcher**
 					- **Indexer** (events handler)
 			- **Metadata Database**
+				- The Metadata Database is responsible for maintaining the versioning and metadata information about files/chunks, users, and workspaces.
+				- SQL or NoSQL?
+					- a consistent view
+					- ACID!
+			- **Synchronization Service**
 				-
 		-
 - ## Glossary of System Design Basics
