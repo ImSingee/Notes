@@ -1,6 +1,6 @@
 - #Leetcode-Weekly-Contest
 -
 - TODO [[交替数字和]]
-- TODO [[根据第 K 场考试的分数排序]]
+- DONE [[根据第 K 场考试的分数排序]]
 - TODO [[执行逐位运算使字符串相等]]
 - TODO [[拆分数组的最小代价]]

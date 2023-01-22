@@ -31,4 +31,12 @@ alias:: Sort the Students by Their Kth Score
 		- `score` 由 **不同** 的整数组成
 		- `0 <= k < n`
 - # 解
-	- #TODO
+	- ```go
+	  func sortTheStudents(score [][]int, k int) [][]int {
+	      sort.Slice(score, func(i, j int) bool {
+	          return score[i][k] > score[j][k]
+	      })
+	      
+	      return score
+	  }
+	  ```
