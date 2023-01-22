@@ -86,6 +86,10 @@
 		- **Component Design**
 			- **Client**
 				- The Client Application monitors the workspace folder on the user’s machine and syncs all files/folders in it with the remote Cloud Storage.
+				- **How do we handle file transfer efficiently?**
+					- Chunk: divide each file into fixed sizes of 4MB chunks.
+				- **Should we keep a copy of metadata with Clients?**
+					- YES. Keeping a local copy of metadata not only enables us to do offline updates but also saves a lot of round trips to update remote metadata.
 				-
 		-
 - ## Glossary of System Design Basics
