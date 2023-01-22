@@ -77,6 +77,11 @@
 	- ### Designing Dropbox
 		- **Availability:** The motto of cloud storage services is to have data availability anywhere, anytime. Users can access their files/photos from any device whenever and wherever they like.
 		- **Reliability and Durability:** Another benefit of cloud storage is that it offers 100% reliability and durability of data. Cloud storage ensures that users will never lose their data by keeping multiple copies of the data stored on different geographically located servers.
+		- **Requirements**
+		- We should expect huge read and write volumes. Read to write ratio is expected to be nearly the same.
+		- Keeping a local copy of the metadata (file name, size, etc.) with the client can save us a lot of round trips to the server.
+		- For small changes, clients can intelligently upload the diffs instead of the whole chunk.
+		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
