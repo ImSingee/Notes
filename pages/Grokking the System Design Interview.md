@@ -81,7 +81,12 @@
 			- We should expect huge read and write volumes. Read to write ratio is expected to be nearly the same.
 			- Keeping a local copy of the metadata (file name, size, etc.) with the client can save us a lot of round trips to the server.
 			- For small changes, clients can intelligently upload the diffs instead of the whole chunk.
-		-
+		- **High Level Design**
+			- ![](https://lwfiles.mycourse.app/systemdesign-public/a754f17f56ef778b4bfb9fc9dc44b1cc.png)
+		- **Component Design**
+			- **Client**
+				- The Client Application monitors the workspace folder on the user’s machine and syncs all files/folders in it with the remote Cloud Storage.
+				-
 		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
