@@ -147,7 +147,12 @@
 				- If the receiver has disconnected, the server can notify the sender about the delivery failure. However, if it is a temporary disconnect, e.g., the receiver’s long-poll request just timed out, then we should expect a reconnect from the user. In that case, we can ask the sender to retry sending the message. This retry could be embedded in the client’s logic so that users don’t have to retype the message. The server can also store the message for a while and retry sending it once the receiver reconnects.
 			- **How many chat servers do we need?**
 				- Let’s plan for 500 million connections at any time. Assuming **a modern server can handle 50K concurrent connections** at any time, we would need 10K such servers.
-			-
+			- **How should the server process a ‘deliver message’ request?**
+				- 1) Store the message in the database
+				- 2) Send the message to the receiver
+				- 3) Send an acknowledgment to the sender.
+			- **How does the messenger maintain the sequencing of the messages?**
+				-
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
