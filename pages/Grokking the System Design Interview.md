@@ -138,7 +138,11 @@
 		-
 	- ### Designing Facebook Messenger
 		- Messenger’s high availability is desirable; we can tolerate lower availability in the interest of consistency.
-		-
+		- **Messages Handling**
+			- **How would we efficiently send/receive messages?**
+				- **Pull model:** Users can periodically ask the server if there are any new messages for them.
+				- **Push model:** Users can keep a connection open with the server and can depend upon the server to notify them whenever there are new messages.
+			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
