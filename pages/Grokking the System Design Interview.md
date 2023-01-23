@@ -137,6 +137,7 @@
 			- To scale out metadata DB, we need to partition it so that it can store information about millions of users and billions of files/chunks.
 		-
 	- ### Designing Facebook Messenger
+		- Messenger’s high availability is desirable; we can tolerate lower availability in the interest of consistency.
 		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
