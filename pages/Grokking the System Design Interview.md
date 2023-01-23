@@ -140,8 +140,9 @@
 		- Messenger’s high availability is desirable; we can tolerate lower availability in the interest of consistency.
 		- **Messages Handling**
 			- **How would we efficiently send/receive messages?**
-				- **Pull model:** Users can periodically ask the server if there are any new messages for them.
 				- **Push model:** Users can keep a connection open with the server and can depend upon the server to notify them whenever there are new messages.
+			- **How can the server keep track of all the opened connections to efficiently redirect messages to the users?**
+				- The server can maintain a hash table, where “key” would be the UserID and “value” would be the connection object. So whenever the server receives a message for a user, it looks up that user in the hash table to find the connection object and sends the message on the open request.
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
