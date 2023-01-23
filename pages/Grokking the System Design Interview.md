@@ -154,6 +154,11 @@
 			- **How does the messenger maintain the sequencing of the messages?**
 				- We need to keep a sequence number with every message for each client. This sequence number will determine the exact ordering of messages for EACH user.
 		- **Storing and retrieving the messages from the database**
+			- We have to keep certain things in mind while designing our database:
+				- How to efficiently work with the database connection pool.
+				- How to retry failed requests.
+				- Where to log those requests that failed even after some retries.
+				- How to retry these logged requests (that failed after the retry) when all the issues have been resolved.
 			-
 			-
 - ## Glossary of System Design Basics
