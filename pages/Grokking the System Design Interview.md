@@ -159,7 +159,8 @@
 				- How to retry failed requests.
 				- Where to log those requests that failed even after some retries.
 				- How to retry these logged requests (that failed after the retry) when all the issues have been resolved.
-			-
+			- **Which storage system should we use?**
+				-
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
