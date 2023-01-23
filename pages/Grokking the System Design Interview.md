@@ -152,7 +152,9 @@
 				- 2) Send the message to the receiver
 				- 3) Send an acknowledgment to the sender.
 			- **How does the messenger maintain the sequencing of the messages?**
-				-
+				- We need to keep a sequence number with every message for each client. This sequence number will determine the exact ordering of messages for EACH user.
+		- **Storing and retrieving the messages from the database**
+			-
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
