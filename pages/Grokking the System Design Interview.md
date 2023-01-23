@@ -143,6 +143,10 @@
 				- **Push model:** Users can keep a connection open with the server and can depend upon the server to notify them whenever there are new messages.
 			- **How can the server keep track of all the opened connections to efficiently redirect messages to the users?**
 				- The server can maintain a hash table, where “key” would be the UserID and “value” would be the connection object. So whenever the server receives a message for a user, it looks up that user in the hash table to find the connection object and sends the message on the open request.
+			- **What will happen when the server receives a message for a user who has gone offline?**
+				- If the receiver has disconnected, the server can notify the sender about the delivery failure. However, if it is a temporary disconnect, e.g., the receiver’s long-poll request just timed out, then we should expect a reconnect from the user. In that case, we can ask the sender to retry sending the message. This retry could be embedded in the client’s logic so that users don’t have to retype the message. The server can also store the message for a while and retry sending it once the receiver reconnects.
+			- **How many chat servers do we need?**
+				- Let’s plan for 500 million connections at any time. Assuming a modern server can handle 50K concurrent connections at any time, we would need 10K such servers.
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
