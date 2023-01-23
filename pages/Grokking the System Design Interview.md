@@ -163,7 +163,7 @@
 				- We need to have a database that can support a very high rate of small updates and also fetch a range of records quickly.
 				- We cannot use RDBMS like MySQL or NoSQL like MongoDB because we cannot afford to read/write a row from the database every time a user receives/sends a message. This will not only make the basic operations of our service run with high latency but also create a huge load on databases.
 				- Both of our requirements can be easily met with a wide-column database solution like .
-		- **Managing user’s status**
+		-
 			-
 			-
 - ## Glossary of System Design Basics
