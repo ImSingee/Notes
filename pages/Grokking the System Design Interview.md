@@ -1,7 +1,9 @@
 - [课程链接](https://designgurus.org/path-player?courseid=grokking-the-system-design-interview)
 -
 - ## System Design Guide
+  collapsed:: true
 	- ### System Design Interviews: A step by step guide
+	  collapsed:: true
 		- **Step 1: Requirements clarifications**
 			- It is always a good idea to ask questions about the exact scope of the problem we are trying to solve. Candidates who spend enough time to define the end goals of the system always have a better chance to be successful in the interview.
 		- **Step 2: Back-of-the-envelope estimation**
@@ -27,6 +29,7 @@
 				- monitoring the performance, get alerts whenever critical components fail or their performance degrades
 		- Preparation and being organized during the interview are the keys to success in system design interviews.
 	- ### Designing a URL Shortening service like TinyURL
+	  collapsed:: true
 		- **1. Why do we need URL shortening?**
 		- **2. Requirements and Goals of the System**
 			- You should always clarify requirements at the beginning of the interview. Be sure to ask questions to find the exact scope of the system that the interviewer has in mind.
@@ -56,6 +59,7 @@
 			- permission level (public/private)
 - ## System Design Problems
 	- ### Designing Pastebin
+	  collapsed:: true
 		- We can assume a 5:1 ratio between the read and write.
 		- Users can upload maximum 10MB of data; commonly Pastebin like services are used to share source code, configs, or logs. Such texts are not huge, so let’s assume that each paste on average contains 10KB.
 		- To keep some margin, we will assume a 70% capacity model (meaning we don’t want to use more than 70% of our total storage capacity at any point),
@@ -75,6 +79,7 @@
 			- **Pull or Push?**
 				- **Hybrid:** We can adopt a hybrid approach. We can move all the users who have a high number of followers to a pull-based model and only push data to those who have a few hundred (or thousand) follows. Another approach could be that the server pushes updates to all the users not more than a certain frequency and letting users with a lot of followers/updates to pull data regularly.
 	- ### Designing Dropbox
+	  collapsed:: true
 		- **Availability:** The motto of cloud storage services is to have data availability anywhere, anytime. Users can access their files/photos from any device whenever and wherever they like.
 		- **Reliability and Durability:** Another benefit of cloud storage is that it offers 100% reliability and durability of data. Cloud storage ensures that users will never lose their data by keeping multiple copies of the data stored on different geographically located servers.
 		- **Requirements**, **Some Design Considerations**
@@ -131,6 +136,7 @@
 		- **Metadata Partitioning**
 			- To scale out metadata DB, we need to partition it so that it can store information about millions of users and billions of files/chunks.
 		-
+	- ### **Designing Facebook Messenger
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
@@ -176,6 +182,7 @@
 				- Making the most of cloud computing and storage.
 				- Rapid development.
 	- ### Consistent Hashing
+	  collapsed:: true
 		- David Karger et al. first introduced Consistent Hashing in their [1997 paper](https://dl.acm.org/doi/10.1145/258533.258660) and suggested its use in distributed caching.
 		- The act of distributing data across a set of nodes is called data partitioning.
 			- How do we know on which node a particular piece of data will be stored?
@@ -184,6 +191,7 @@
 		- Vnodes are **randomly distributed** across the cluster and are generally **non-contiguous** so that no two neighboring Vnodes are assigned to the same physical node or rack.
 		- **Dynamo** and **Cassandra** use Consistent Hashing to distribute their data across nodes.
 	- **Long-Polling vs WebSockets vs Server-Sent Events**
+	  collapsed:: true
 		- **HTTP Long-Polling**
 			- With Long-Polling, the client requests information from the server exactly as in normal polling, but with the expectation that the server may not respond immediately. That’s why this technique is sometimes referred to as a “Hanging GET”.
 		- **WebSockets**
