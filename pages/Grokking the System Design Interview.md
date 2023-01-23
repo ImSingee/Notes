@@ -163,7 +163,8 @@
 				- We need to have a database that can support a very high rate of small updates and also fetch a range of records quickly.
 				- We cannot use RDBMS like MySQL or NoSQL like MongoDB because we cannot afford to read/write a row from the database every time a user receives/sends a message. This will not only make the basic operations of our service run with high latency but also create a huge load on databases.
 				- Both of our requirements can be easily met with a wide-column database solution like .
-		- **Data partitioning**
+		- **Cache**
+			- We can cache a few recent messages (say last 15) in a few recent conversations that are visible in a user’s viewport (say last 5). Since we decided to store all of the user’s messages on one shard, the cache for a user should entirely reside on one machine too.
 			-
 			-
 			-
