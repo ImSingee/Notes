@@ -174,6 +174,10 @@
 			-
 	- ### Designing Twitter
 		- **Requirements**
+			- The service should be able to create and display a user’s timeline consisting of top tweets from all the people the user follows.
+			- Our service needs to be highly available.
+			- Acceptable latency of the system is 200ms for timeline generation.
+			- Consistency can take a hit (in the interest of availability); if a user doesn’t see a tweet for a while, it should be fine.
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
