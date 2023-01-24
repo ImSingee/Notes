@@ -210,7 +210,14 @@
 				- a read request for recently written data will create a “cache miss” and must be read from slower back-end storage and experience higher latency.
 			- **Write-back cache:** Under this scheme, data is written to cache alone, and completion is immediately confirmed to the client.
 				- low-latency and high-throughput for write-intensive applications
-				-
+				- risk of data loss
+		- **Cache eviction policies**
+			- First In First Out (FIFO)
+			- Last In First Out (LIFO)
+			- Least Recently Used (LRU)
+			- Most Recently Used (MRU):
+			- Least Frequently Used (LFU)
+			- Random Replacement (RR)
 	- ### SQL vs. NoSQL
 	  collapsed:: true
 		- Relational databases are structured and have predefined schemas like phone books that store phone numbers and addresses.
