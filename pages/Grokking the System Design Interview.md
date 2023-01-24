@@ -204,6 +204,12 @@
 		- **Content Delivery (or Distribution) Network (CDN)**
 		- **Cache Invalidation**
 			- **Write-through cache:** Under this scheme, data is written into the cache and the corresponding database simultaneously.
+				- minimizes the risk of data loss
+				- higher latency for write operations
+			- **Write-around cache:** This technique is similar to write-through cache, but data is written directly to permanent storage, bypassing the cache.
+				- a read request for recently written data will create a “cache miss” and must be read from slower back-end storage and experience higher latency.
+			- **Write-back cache:** Under this scheme, data is written to cache alone, and completion is immediately confirmed to the client.
+				- low-latency and high-throughput for write-intensive applications
 				-
 	- ### SQL vs. NoSQL
 	  collapsed:: true
