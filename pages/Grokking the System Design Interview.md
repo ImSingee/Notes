@@ -203,7 +203,8 @@
 			- Placing a cache directly on a request layer node enables the local storage of response data.
 		- **Content Delivery (or Distribution) Network (CDN)**
 		- **Cache Invalidation**
-			-
+			- **Write-through cache:** Under this scheme, data is written into the cache and the corresponding database simultaneously.
+				-
 	- ### SQL vs. NoSQL
 	  collapsed:: true
 		- Relational databases are structured and have predefined schemas like phone books that store phone numbers and addresses.
