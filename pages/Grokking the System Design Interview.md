@@ -182,6 +182,7 @@
 			- **Sharding based on UserID**
 				- What if a user becomes hot? There could be a lot of queries on the server holding the user. This high load will affect the performance of our service.
 				- Over time some users can end up storing a lot of tweets or having a lot of follows compared to others. Maintaining a uniform distribution of growing user data is quite difficult.
+			- **Sharding based on TweetID** or
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
