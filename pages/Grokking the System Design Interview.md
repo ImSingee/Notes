@@ -185,6 +185,9 @@
 			- **Sharding based on TweetID**
 				- We have to query all database partitions to find tweets of a user, which can result in higher latencies.
 			- **Sharding based on Tweet creation time**
+				- While writing, all new tweets will be going to one server and the remaining servers will be sitting idle.
+				- Similarly, while reading, the server holding the latest data will have a very high load as compared to servers holding old data.
+			- **combine sharding by TweetID and Tweet creation time**
 				-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
