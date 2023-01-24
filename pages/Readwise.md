@@ -52,3 +52,4 @@ title: Readwise
 - On [[2023-01-24]] at 5:58 AM Readwise synced 1304 highlights from 347 books.
 - On [[2023-01-24]] at 10:47 AM Readwise synced 1304 highlights from 347 books.
 - On [[2023-01-24]] at 12:34 PM Readwise synced 1304 highlights from 347 books.
+- On [[2023-01-24]] at 1:42 PM Readwise synced 1304 highlights from 347 books.
