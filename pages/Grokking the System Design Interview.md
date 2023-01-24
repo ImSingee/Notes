@@ -188,6 +188,7 @@
 				- While writing, all new tweets will be going to one server and the remaining servers will be sitting idle.
 				- Similarly, while reading, the server holding the latest data will have a very high load as compared to servers holding old data.
 			- **combine sharding by TweetID and Tweet creation time**
+				- our TweetID will have two parts: the first part will be representing epoch seconds and the second part will be an auto-incrementing sequence. So, to make a new TweetID, we can take the current epoch time and append an auto-incrementing number to it.
 				-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
