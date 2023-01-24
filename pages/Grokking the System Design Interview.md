@@ -200,6 +200,9 @@
 		- Investing in scaling before it is needed is generally not a smart business proposition
 	- ### Caching
 		- **Application server cache**
+			- Placing a cache directly on a request layer node enables the local storage of response data.
+		- **Content Delivery (or Distribution) Network (CDN)**
+		- **Cache Invalidation**
 			-
 	- ### SQL vs. NoSQL
 	  collapsed:: true
