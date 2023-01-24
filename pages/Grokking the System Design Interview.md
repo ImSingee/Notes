@@ -198,6 +198,9 @@
 			- How do these pieces work with each other?
 			- How can we best utilize these pieces: what are the right tradeoffs?
 		- Investing in scaling before it is needed is generally not a smart business proposition
+	- ### Caching
+		- **Application server cache**
+			-
 	- ### SQL vs. NoSQL
 	  collapsed:: true
 		- Relational databases are structured and have predefined schemas like phone books that store phone numbers and addresses.
