@@ -178,6 +178,7 @@
 			- Our service needs to be highly available.
 			- Acceptable latency of the system is 200ms for timeline generation.
 			- Consistency can take a hit (in the interest of availability); if a user doesn’t see a tweet for a while, it should be fine.
+		- **Data Sharding**
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
