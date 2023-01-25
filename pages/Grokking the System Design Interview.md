@@ -241,7 +241,11 @@
 			- Scalability is the capability of a system, process, or a network to grow and manage increased demand.
 			- **Horizontal vs. Vertical Scaling:** Horizontal scaling means that you scale by adding more servers into your pool of resources whereas Vertical scaling means that you scale by adding more power (CPU, RAM, Storage, etc.) to an existing server.
 		- **Reliability**
-			-
+			- By definition, reliability is the probability a system will fail in a given period. In simple terms, a distributed system is considered reliable if it keeps delivering its services even when one or several of its software or hardware components fail.
+		- **Availability**
+			- By definition, availability is the time a system remains operational to perform its required function in a specific period.
+			- Reliability is availability over time considering the full range of possible real-world conditions that can occur.
+		-
 	- ### Caching
 	  collapsed:: true
 		- **Application server cache**
