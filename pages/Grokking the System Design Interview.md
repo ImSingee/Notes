@@ -191,7 +191,9 @@
 			- **combine sharding by TweetID and Tweet creation time**
 				- our TweetID will have two parts: the first part will be representing epoch seconds and the second part will be an auto-incrementing sequence. So, to make a new TweetID, we can take the current epoch time and append an auto-incrementing number to it.
 				-
-	-
+	- ### Designing Youtube or Netflix
+		- **Requirements**
+			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
