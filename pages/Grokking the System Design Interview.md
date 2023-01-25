@@ -236,6 +236,9 @@
 			- How can we best utilize these pieces: what are the right tradeoffs?
 		- Investing in scaling before it is needed is generally not a smart business proposition
 	- ### Key Characteristics of Distributed Systems
+		- Key characteristics of a distributed system include **Scalability**, **Reliability**, **Availability**, **Efficiency**, and **Manageability**.
+		- **Scalability**
+			-
 		-
 	- ### Caching
 	  collapsed:: true
