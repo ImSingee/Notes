@@ -208,7 +208,13 @@
 			- **How should we efficiently manage read traffic?**
 				- We should segregate our read traffic from write traffic.
 			- **Where would thumbnails be stored?**
-				-
+				- There will be a lot more thumbnails than videos.
+				- If we assume that every video will have five thumbnails, we need to have a very efficient storage system that can serve huge read traffic.
+				- Thumbnails are small files, say, a maximum of 5KB each.
+				- Read traffic for thumbnails will be huge compared to videos. Users will be watching one video at a time, but they might be looking at a page with 20 thumbnails of other videos.
+				- [Bigtable](https://en.wikipedia.org/wiki/Bigtable) can be a reasonable choice here as it combines multiple files into one block to store on the disk and is very efficient in reading a small amount of data. Both of these are the two most significant requirements for our service.
+			- **Video Uploads:** Since videos could be huge, if while uploading, the connection drops, we should support resuming from the same point.
+			-
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
