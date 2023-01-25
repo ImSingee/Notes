@@ -214,6 +214,8 @@
 				- Read traffic for thumbnails will be huge compared to videos. Users will be watching one video at a time, but they might be looking at a page with 20 thumbnails of other videos.
 				- [Bigtable](https://en.wikipedia.org/wiki/Bigtable) can be a reasonable choice here as it combines multiple files into one block to store on the disk and is very efficient in reading a small amount of data. Both of these are the two most significant requirements for our service.
 			- **Video Uploads:** Since videos could be huge, if while uploading, the connection drops, we should support resuming from the same point.
+		- **Video Deduplication**
+			- Duplicate videos often differ in aspect ratios or encodings, contain overlays or additional borders, or be excerpts from a longer original video.
 			-
 			-
 - ## Glossary of System Design Basics
