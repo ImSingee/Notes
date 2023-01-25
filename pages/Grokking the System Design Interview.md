@@ -200,6 +200,8 @@
 			- uploadVideo
 			- searchVideo: page_token
 				- page_token (string): This token will specify a page in the result set that should be returned.
+		- **High Level Design**
+			- ![](https://lwfiles.mycourse.app/systemdesign-public/00dcb64c2c3e55355afce8bc1447fffe.png)
 			-
 			-
 - ## Glossary of System Design Basics
