@@ -204,7 +204,11 @@
 			- ![](https://lwfiles.mycourse.app/systemdesign-public/00dcb64c2c3e55355afce8bc1447fffe.png)
 			- **Thumbnails generator:** To generate a few thumbnails for each video.
 		- **Detailed Component Design**
-			- **Where would videos be stored?** Videos can be stored in a distributed file storage system like HDFS or .
+			- **Where would videos be stored?** Videos can be stored in a distributed file storage system like HDFS or [GlusterFS](https://en.wikipedia.org/wiki/Gluster#GlusterFS).
+			- **How should we efficiently manage read traffic?**
+				- We should segregate our read traffic from write traffic.
+			- **Where would thumbnails be stored?**
+				-
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
