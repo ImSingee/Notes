@@ -238,8 +238,10 @@
 	- ### Key Characteristics of Distributed Systems
 		- Key characteristics of a distributed system include **Scalability**, **Reliability**, **Availability**, **Efficiency**, and **Manageability**.
 		- **Scalability**
+			- Scalability is the capability of a system, process, or a network to grow and manage increased demand.
 			- **Horizontal vs. Vertical Scaling:** Horizontal scaling means that you scale by adding more servers into your pool of resources whereas Vertical scaling means that you scale by adding more power (CPU, RAM, Storage, etc.) to an existing server.
-		-
+		- **Reliability**
+			-
 	- ### Caching
 	  collapsed:: true
 		- **Application server cache**
