@@ -190,7 +190,7 @@
 			- **combine sharding by TweetID and Tweet creation time**
 				- our TweetID will have two parts: the first part will be representing epoch seconds and the second part will be an auto-incrementing sequence. So, to make a new TweetID, we can take the current epoch time and append an auto-incrementing number to it.
 		- **Monitoring**
-			-
+			- By monitoring these counters, we will realize if we need more replication, load balancing, or caching.
 	- ### Designing Youtube or Netflix
 		- **Requirements**
 			- The system should be highly reliable, any video uploaded should not be lost.
