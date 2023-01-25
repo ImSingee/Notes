@@ -202,7 +202,9 @@
 				- page_token (string): This token will specify a page in the result set that should be returned.
 		- **High Level Design**
 			- ![](https://lwfiles.mycourse.app/systemdesign-public/00dcb64c2c3e55355afce8bc1447fffe.png)
-			-
+			- **Thumbnails generator:** To generate a few thumbnails for each video.
+		- **Detailed Component Design**
+			- **Where would videos be stored?** Videos can be stored in a distributed file storage system like HDFS or .
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
