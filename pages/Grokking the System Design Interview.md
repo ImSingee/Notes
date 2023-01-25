@@ -196,6 +196,11 @@
 			- The system should be highly reliable, any video uploaded should not be lost.
 			- Consistency can take a hit (in the interest of availability); if a user doesn’t see a video for a while, it should be fine.
 			- Users should have a real-time experience while watching videos and should not feel any lag.
+		- **System APIs**
+			- uploadVideo
+			- searchVideo: page_token
+				- page_token (string): This token will specify a page in the result set that should be returned.
+			-
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
