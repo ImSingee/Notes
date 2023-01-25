@@ -218,8 +218,15 @@
 			- Duplicate videos often differ in aspect ratios or encodings, contain overlays or additional borders, or be excerpts from a longer original video.
 			- For our service, deduplication makes most sense early; when a user is uploading a video as compared to post-processing it to find duplicate videos later. Inline deduplication will save us a lot of resources that can be used to encode, transfer, and store the duplicate copy of the video.
 			- As soon as any user starts uploading a video, our service can run video matching algorithms (e.g., [Block Matching](https://en.wikipedia.org/wiki/Block-matching_algorithm), [Phase correlation](https://en.wikipedia.org/wiki/Phase_correlation), etc.) to find duplications.
-			-
-			-
+		- **Load Balancing**
+			- Since we will be using a static hash-based scheme to map videos to hostnames, it can lead to an uneven load on the logical replicas due to each video’s different popularity.
+			- For instance, if a video becomes popular, the logical replica corresponding to that video will experience more traffic than other servers. These uneven loads for logical replicas can then translate into uneven load distribution on corresponding physical servers.
+			- To resolve this issue, any busy server in one location can redirect a client to a less busy server in the same cache location. We can use dynamic HTTP redirections for this scenario.
+			- However, the use of redirections also has its drawbacks.
+				- First, since our service tries to load balance locally, it leads to multiple redirections if the host that receives the redirection can't serve the video.
+				- Also, each redirection requires a client to make an additional HTTP request; it also leads to higher delays before the video starts playing back.
+				- Moreover, inter-tier (or cross data-center) redirections lead a client to a distant cache location because the higher tier caches are only present at a small number of locations.
+			- ##
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
