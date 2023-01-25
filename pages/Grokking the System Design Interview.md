@@ -216,7 +216,8 @@
 			- **Video Uploads:** Since videos could be huge, if while uploading, the connection drops, we should support resuming from the same point.
 		- **Video Deduplication**
 			- Duplicate videos often differ in aspect ratios or encodings, contain overlays or additional borders, or be excerpts from a longer original video.
-			-
+			- For our service, deduplication makes most sense early; when a user is uploading a video as compared to post-processing it to find duplicate videos later. Inline deduplication will save us a lot of resources that can be used to encode, transfer, and store the duplicate copy of the video.
+			- As soon as any user starts uploading a video, our service can run video matching algorithms (e.g., [Block Matching](https://en.wikipedia.org/wiki/Block-matching_algorithm), , etc.) to find duplications.
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
