@@ -245,7 +245,11 @@
 		- **Availability**
 			- By definition, availability is the time a system remains operational to perform its required function in a specific period.
 			- Reliability is availability over time considering the full range of possible real-world conditions that can occur.
-		-
+		- **Efficiency**
+			- wo standard measures of its efficiency are the response time (or latency) that denotes the delay to obtain the first item and the throughput (or bandwidth) which denotes the number of items delivered in a given time unit (e.g., a second).
+		- **Serviceability** or **Manageability**
+			-
+			-
 	- ### Caching
 	  collapsed:: true
 		- **Application server cache**
