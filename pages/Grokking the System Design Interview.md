@@ -173,7 +173,6 @@
 			-
 			-
 	- ### Designing Twitter
-	  collapsed:: true
 		- **Requirements**
 			- The service should be able to create and display a user’s timeline consisting of top tweets from all the people the user follows.
 			- Our service needs to be highly available.
@@ -190,7 +189,8 @@
 				- Similarly, while reading, the server holding the latest data will have a very high load as compared to servers holding old data.
 			- **combine sharding by TweetID and Tweet creation time**
 				- our TweetID will have two parts: the first part will be representing epoch seconds and the second part will be an auto-incrementing sequence. So, to make a new TweetID, we can take the current epoch time and append an auto-incrementing number to it.
-				-
+		- **Monitoring**
+			-
 	- ### Designing Youtube or Netflix
 		- **Requirements**
 			- The system should be highly reliable, any video uploaded should not be lost.
