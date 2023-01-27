@@ -291,6 +291,12 @@
 			- ![](https://lwfiles.mycourse.app/systemdesign-public/d6012052bfa02126e35a7b04df1cd800.png?client_id=60da7e92ee99a6342460f6f2&width=677&height=330)
 			- ![](https://lwfiles.mycourse.app/systemdesign-public/8b99bdb0eb3359a4bb16173655c6b70b.png)
 		- **Benefits of Load Balancing**
+			- Users experience faster, uninterrupted service. Users won’t have to wait for a single struggling server to finish its previous tasks. Instead, their requests are immediately passed on to a more readily available resource.
+			- Service providers experience less downtime and higher throughput. Even a full server failure won’t affect the end user experience as the load balancer will simply route around it to a healthy server.
+			- Load balancing makes it easier for system administrators to handle incoming requests while decreasing wait time for users.
+			- Smart load balancers provide benefits like predictive analytics that determine traffic bottlenecks before they happen. As a result, the smart load balancer gives an organization actionable insights. These are key to automation and can help drive business decisions.
+			- System administrators experience fewer failed or stressed components. Instead of a single device performing a lot of work, load balancing has several devices perform a little bit of work.
+		- **Load Balancing Algorithms**
 			-
 	- ### Caching
 	  collapsed:: true
