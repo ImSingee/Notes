@@ -414,6 +414,8 @@
 			- **Consistency ( C ):** All nodes see the same data at the same time. This means users can read or write from/to any node in the system and will receive the same data. It is equivalent to having a single up-to-date copy of the data.
 			- **Availability ( A ):** Availability means every request received by a non-failing node in the system must result in a response. Even when severe network failures occur, every request must terminate. In simple terms, availability refers to a system’s ability to remain accessible even if one or more nodes in the system go down.
 			- **Partition tolerance ( P ):** A partition is a communication break (or a network failure) between any two nodes in the system, i.e., both nodes are up but cannot communicate with each other. A partition-tolerant system continues to operate even if there are partitions in the system. Such a system can sustain any network failure that does not result in the failure of the entire network. Data is sufficiently replicated across combinations of nodes and networks to keep the system up through intermittent outages.
+			- **In the presence of a network partition, a distributed system must choose either Consistency or Availability.**
+			-
 	- ### Consistent Hashing
 	  collapsed:: true
 		- David Karger et al. first introduced Consistent Hashing in their [1997 paper](https://dl.acm.org/doi/10.1145/258533.258660) and suggested its use in distributed caching.
