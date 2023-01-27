@@ -287,7 +287,8 @@
 		- **What are different types of algorithms used for Rate Limiting?**
 			- **Fixed Window Algorithm:** In this algorithm, the time window is considered from the start of the time-unit to the end of the time-unit.
 			- **Rolling Window Algorithm:** In this algorithm, the time window is considered from the fraction of the time at which the request is made plus the time window length.
-			-
+			- ![](https://lwfiles.mycourse.app/systemdesign-public/dc173b9d8e6c8b4b24a4293355ca3107.png?client_id=60da7e92ee99a6342460f6f2&width=722&height=217)
+		-
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
