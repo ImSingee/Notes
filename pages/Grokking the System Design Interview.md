@@ -230,6 +230,8 @@
 				- Moreover, inter-tier (or cross data-center) redirections lead a client to a distant cache location because the higher tier caches are only present at a small number of locations.
 			- ##
 	- ### Designing Typeahead Suggestion
+		- **Requirements**
+			- **Non-function**: The suggestions should appear in real-time. The user should be able to see the suggestions within 200ms.
 		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
