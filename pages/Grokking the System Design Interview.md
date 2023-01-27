@@ -284,7 +284,14 @@
 			- Early detection of faults can decrease or avoid system downtime. For example, some enterprise systems can automatically call a service center (without human intervention) when the system experiences a system fault.
 			-
 	- ### Load Balancing
-		- ![](https://lwfiles.mycourse.app/systemdesign-public/d6012052bfa02126e35a7b04df1cd800.png?client_id=60da7e92ee99a6342460f6f2&width=677&height=330)
+		- To utilize full scalability and redundancy, we can try to balance the load at each layer of the system. We can add LBs at three places:
+			- Between the user and the web server
+			- Between web servers and an internal platform layer, like application servers or cache servers
+			- Between internal platform layer and database.
+			- ![](https://lwfiles.mycourse.app/systemdesign-public/d6012052bfa02126e35a7b04df1cd800.png?client_id=60da7e92ee99a6342460f6f2&width=677&height=330)
+			- ![](https://lwfiles.mycourse.app/systemdesign-public/8b99bdb0eb3359a4bb16173655c6b70b.png)
+		- **Benefits of Load Balancing**
+			-
 	- ### Caching
 	  collapsed:: true
 		- **Application server cache**
