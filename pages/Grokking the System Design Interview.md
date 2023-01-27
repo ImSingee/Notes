@@ -260,9 +260,10 @@
 			- Establishing an early connection with the server turns out to be one of the most important factors. As soon as the user opens the search engine website, the client can open a connection with the server. So when a user types in the first character, the client doesn’t waste time in establishing the connection.
 			- The server can push some part of their cache to CDNs and Internet Service Providers (ISPs) for efficiency.
 	- ### Designing an API Rate Limiter
-		- Imagine we have a service which is receiving a huge number of requests, but it can only serve a limited number of requests per second.
-		- To handle this problem we would need some kind of throttling or rate limiting mechanism that would allow only a certain number of requests so our service can respond to all of them.
-		- A rate limiter, at a high-level, limits the number of events an entity (user, device, IP, etc.) can perform in a particular time window.
+		- **What is**
+			- Imagine we have a service which is receiving a huge number of requests, but it can only serve a limited number of requests per second.
+			- To handle this problem we would need some kind of throttling or rate limiting mechanism that would allow only a certain number of requests so our service can respond to all of them.
+			- A rate limiter, at a high-level, limits the number of events an entity (user, device, IP, etc.) can perform in a particular time window.
 		- **Why do we need**
 			- to protect services against abusive behaviors
 				- attacks
@@ -275,6 +276,11 @@
 				- To keep costs and resource usage under control
 				- Revenue
 				- To eliminate spikiness in traffic
+		- **How to**
+			- **Rate Limiting** is a process that is used to define the rate and speed at which consumers can access APIs.
+			- **Throttling** is the process of controlling the usage of the APIs by customers during a given period.
+				- Throttling can be defined at the application level and/or API level. When a throttle limit is crossed, the server returns HTTP status “429 - Too many requests".
+			- ##
 		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
