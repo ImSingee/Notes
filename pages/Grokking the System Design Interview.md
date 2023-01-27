@@ -230,6 +230,7 @@
 				- Moreover, inter-tier (or cross data-center) redirections lead a client to a distant cache location because the higher tier caches are only present at a small number of locations.
 			- ##
 	- ### Designing Typeahead Suggestion
+	  collapsed:: true
 		- **Requirements**
 			- **Non-function**: The suggestions should appear in real-time. The user should be able to see the suggestions within 200ms.
 		- **Basic System Design and Algorithm**
@@ -258,6 +259,10 @@
 			- Clients can store the recent history of suggestions locally. Recent history has a very high rate of being reused.
 			- Establishing an early connection with the server turns out to be one of the most important factors. As soon as the user opens the search engine website, the client can open a connection with the server. So when a user types in the first character, the client doesn’t waste time in establishing the connection.
 			- The server can push some part of their cache to CDNs and Internet Service Providers (ISPs) for efficiency.
+	- ### Designing an API Rate Limiter
+		- Imagine we have a service which is receiving a huge number of requests, but it can only serve a limited number of requests per second.
+		- To handle this problem we would need some kind of throttling or rate limiting mechanism that would allow only a certain number of requests so our service can respond to all of them.
+		- A rate limiter, at a high-level, limits the number of events an entity (user, device, IP, etc.) can perform in a particular time window.
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
