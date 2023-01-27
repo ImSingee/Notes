@@ -294,7 +294,9 @@
 		- **Algorithm**
 		- **Data Sharding and Caching**
 			- We can shard based on the ‘UserID’ to distribute the user’s data.
-			-
+				- If we want to have different throttling limits for different APIs, we can choose to shard per user per API.
+			- Our system can get huge benefits from caching recent active users.
+			- Our rate limiter can significantly benefit from the **Write-back cache** by updating all counters and timestamps in cache only. The write to the permanent storage can be done at fixed intervals.
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
