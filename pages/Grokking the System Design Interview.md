@@ -242,7 +242,14 @@
 				- The main problem with this approach is that it can lead to unbalanced servers.
 			- **Partition based on the maximum capacity of the server**
 				- We can keep storing data on a server as long as it has memory available.
-				-
+				- We can keep a hash table to quickly access this partitioning scheme
+				- We can have a load balancer in front of our trie servers which can store this mapping and redirect traffic. Also, if we are querying from multiple servers, either we need to merge the results on the server-side to calculate the overall top results or make our clients do that.
+					- If we prefer to do this on the server-side, we need to introduce another layer of servers between load balancers and trie severs (let’s call them aggregator). These servers will aggregate results from multiple trie servers and return the top results to the client.
+				- Partitioning based on the maximum capacity can still lead us to hotspots
+			- **Partition based on the hash of the term**
+				- The disadvantage of this scheme is, to find typeahead suggestions for a term we have to ask all the servers and then aggregate the results.
+		- **Cache**
+			- We can have separate cache servers in front of the trie servers holding the most frequently searched terms and their typeahead suggestions.
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
