@@ -292,6 +292,8 @@
 			- Once a new request arrives, the Web Server first asks the Rate Limiter to decide if it will be served or throttled. If the request is not throttled, then it’ll be passed to the API servers.
 			- ![](https://lwfiles.mycourse.app/systemdesign-public/8dda5b2899a98b62ec83a46589b821cb.png)
 		- **Algorithm**
+		- **Data Sharding and Caching**
+			- We can shard based on the ‘UserID’ to distribute the user’s data.
 			-
 			-
 - ## Glossary of System Design Basics
