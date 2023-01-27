@@ -280,8 +280,10 @@
 			- **Rate Limiting** is a process that is used to define the rate and speed at which consumers can access APIs.
 			- **Throttling** is the process of controlling the usage of the APIs by customers during a given period.
 				- Throttling can be defined at the application level and/or API level. When a throttle limit is crossed, the server returns HTTP status “429 - Too many requests".
-			- ##
-		-
+		- **What are different types of throttling?**
+			- **Hard Throttling:** The number of API requests cannot exceed the throttle limit.
+				-
+				-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
