@@ -250,7 +250,14 @@
 				- The disadvantage of this scheme is, to find typeahead suggestions for a term we have to ask all the servers and then aggregate the results.
 		- **Cache**
 			- We can have separate cache servers in front of the trie servers holding the most frequently searched terms and their typeahead suggestions.
-			-
+		- **Typeahead Client**
+			- The client should only try hitting the server if the user has not pressed any key for 50ms. (debounce)
+			- If the user is constantly typing, the client can cancel the in-progress requests.
+			- Initially, the client can wait until the user enters a couple of characters.
+			- Clients can pre-fetch some data from the server to save future requests.
+			- Clients can store the recent history of suggestions locally. Recent history has a very high rate of being reused.
+			- Establishing an early connection with the server turns out to be one of the most important factors. As soon as the user opens the search engine website, the client can open a connection with the server. So when a user types in the first character, the client doesn’t waste time in establishing the connection.
+			- The server can push some part of their cache to CDNs and Internet Service Providers (ISPs) for efficiency.
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
