@@ -289,6 +289,8 @@
 			- **Rolling Window Algorithm:** In this algorithm, the time window is considered from the fraction of the time at which the request is made plus the time window length.
 			- ![](https://lwfiles.mycourse.app/systemdesign-public/dc173b9d8e6c8b4b24a4293355ca3107.png?client_id=60da7e92ee99a6342460f6f2&width=722&height=217)
 		- **High level design for Rate Limiter**
+			- Once a new request arrives, the Web Server first asks the Rate Limiter to decide if it will be served or throttled. If the request is not throttled, then it’ll be passed to the API servers.
+			- ![](https://lwfiles.mycourse.app/systemdesign-public/8dda5b2899a98b62ec83a46589b821cb.png)
 			-
 			-
 - ## Glossary of System Design Basics
