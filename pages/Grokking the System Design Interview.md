@@ -239,6 +239,9 @@
 		- **Permanent Storage**
 		- **Data Partition**
 			- **Range Based Partitioning**: based on their first letter
+				- The main problem with this approach is that it can lead to unbalanced servers.
+			- **Partition based on the maximum capacity of the server**
+				- We can keep storing data on a server as long as it has memory available.
 				-
 			-
 - ## Glossary of System Design Basics
