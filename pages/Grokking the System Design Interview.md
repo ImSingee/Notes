@@ -232,7 +232,11 @@
 	- ### Designing Typeahead Suggestion
 		- **Requirements**
 			- **Non-function**: The suggestions should appear in real-time. The user should be able to see the suggestions within 200ms.
+		- **Basic System Design and Algorithm**
+			- As we have to serve a lot of queries with minimum latency, we need to come up with a scheme that can efficiently store our data such that it can be queried quickly.
+			- We can't depend upon some database for this; we need to store our index in memory in a highly efficient data structure.
 		-
+			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
