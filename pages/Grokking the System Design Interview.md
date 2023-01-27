@@ -282,8 +282,13 @@
 				- Throttling can be defined at the application level and/or API level. When a throttle limit is crossed, the server returns HTTP status “429 - Too many requests".
 		- **What are different types of throttling?**
 			- **Hard Throttling:** The number of API requests cannot exceed the throttle limit.
-				-
-				-
+			- **Soft Throttling:** In this type, we can set the API request limit to exceed a certain percentage. For example, if we have rate-limit of 100 messages a minute and 10% exceed-limit, our rate limiter will allow up to 110 messages per minute.
+			- **Elastic or Dynamic Throttling**: Under Elastic throttling, the number of requests can go beyond the threshold if the system has some resources available. For example, if a user is allowed only 100 messages a minute, we can let the user send more than 100 messages a minute when there are free resources available in the system.
+		- **What are different types of algorithms used for Rate Limiting?**
+			- **Fixed Window Algorithm:** In this algorithm, the time window is considered from the start of the time-unit to the end of the time-unit.
+			- **Rolling Window Algorithm:** In this algorithm, the time window is considered from the fraction of the time at which the request is made plus the time window length.
+			-
+			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
