@@ -235,8 +235,9 @@
 		- **Basic System Design and Algorithm**
 			- As we have to serve a lot of queries with minimum latency, we need to come up with a scheme that can efficiently store our data such that it can be queried quickly.
 			- We can't depend upon some database for this; we need to store our index in memory in a highly efficient data structure.
-		-
+			- One of the most appropriate data structures that can serve our purpose is the Trie.
 			-
+				-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
