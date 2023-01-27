@@ -268,7 +268,14 @@
 				- attacks
 				- brute-force password attempts
 				- brute-force credit card transactions
-			-
+			- to make a service (or API) more reliable
+				- Misbehaving clients/scripts
+				- Security
+				- To prevent abusive behavior and bad design practices
+				- To keep costs and resource usage under control
+				- Revenue
+				- To eliminate spikiness in traffic
+		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
