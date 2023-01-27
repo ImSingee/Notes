@@ -237,7 +237,9 @@
 			- We can't depend upon some database for this; we need to store our index in memory in a highly efficient data structure.
 			- One of the most appropriate data structures that can serve our purpose is the Trie.
 		- **Permanent Storage**
-			-
+		- **Data Partition**
+			- **Range Based Partitioning**: based on their first letter
+				-
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
