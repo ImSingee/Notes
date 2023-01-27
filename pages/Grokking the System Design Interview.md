@@ -267,6 +267,7 @@
 			- How can we best utilize these pieces: what are the right tradeoffs?
 		- Investing in scaling before it is needed is generally not a smart business proposition
 	- ### Key Characteristics of Distributed Systems
+	  collapsed:: true
 		- Key characteristics of a distributed system include **Scalability**, **Reliability**, **Availability**, **Efficiency**, and **Manageability**.
 		- **Scalability**
 			- Scalability is the capability of a system, process, or a network to grow and manage increased demand.
@@ -282,6 +283,8 @@
 			- Another important consideration while designing a distributed system is how easy it is to operate and maintain. Serviceability or manageability is the simplicity and speed with which a system can be repaired or maintained; if the time to fix a failed system increases, then availability will decrease. Things to consider for manageability are the ease of diagnosing and understanding problems when they occur, ease of making updates or modifications, and how simple the system is to operate (i.e., does it routinely operate without failure or exceptions?).
 			- Early detection of faults can decrease or avoid system downtime. For example, some enterprise systems can automatically call a service center (without human intervention) when the system experiences a system fault.
 			-
+	- ### Load Balancing
+		- ![](https://lwfiles.mycourse.app/systemdesign-public/d6012052bfa02126e35a7b04df1cd800.png?client_id=60da7e92ee99a6342460f6f2&width=677&height=330)
 	- ### Caching
 	  collapsed:: true
 		- **Application server cache**
