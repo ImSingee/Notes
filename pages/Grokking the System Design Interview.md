@@ -260,6 +260,7 @@
 			- Establishing an early connection with the server turns out to be one of the most important factors. As soon as the user opens the search engine website, the client can open a connection with the server. So when a user types in the first character, the client doesn’t waste time in establishing the connection.
 			- The server can push some part of their cache to CDNs and Internet Service Providers (ISPs) for efficiency.
 	- ### Designing an API Rate Limiter
+	  collapsed:: true
 		- **What is**
 			- Imagine we have a service which is receiving a huge number of requests, but it can only serve a limited number of requests per second.
 			- To handle this problem we would need some kind of throttling or rate limiting mechanism that would allow only a certain number of requests so our service can respond to all of them.
@@ -408,6 +409,11 @@
 				- Storing large volumes of data that often have little to no structure.
 				- Making the most of cloud computing and storage.
 				- Rapid development.
+	- ### CAP Theorem
+		- CAP theorem states that it is **impossible** for a distributed system to simultaneously provide all three of the following desirable properties
+			- **Consistency ( C ):** All nodes see the same data at the same time. This means users can read or write from/to any node in the system and will receive the same data. It is equivalent to having a single up-to-date copy of the data.
+			- **Availability ( A ):** Availability means every request received by a non-failing node in the system must result in a response. Even when severe network failures occur, every request must terminate. In simple terms, availability refers to a system’s ability to remain accessible even if one or more nodes in the system go down.
+			- **Partition tolerance ( P ):** A partition is a communication break (or a network failure) between any two nodes in the system, i.e., both nodes are up but cannot communicate with each other. A partition-tolerant system continues to operate even if there are partitions in the system. Such a system can sustain any network failure that does not result in the failure of the entire network. Data is sufficiently replicated across combinations of nodes and networks to keep the system up through intermittent outages.
 	- ### Consistent Hashing
 	  collapsed:: true
 		- David Karger et al. first introduced Consistent Hashing in their [1997 paper](https://dl.acm.org/doi/10.1145/258533.258660) and suggested its use in distributed caching.
