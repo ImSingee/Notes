@@ -297,7 +297,11 @@
 			- Smart load balancers provide benefits like predictive analytics that determine traffic bottlenecks before they happen. As a result, the smart load balancer gives an organization actionable insights. These are key to automation and can help drive business decisions.
 			- System administrators experience fewer failed or stressed components. Instead of a single device performing a lot of work, load balancing has several devices perform a little bit of work.
 		- **Load Balancing Algorithms**
-			-
+			- **How does the load balancer choose the backend server?**
+				- **Health Checks**
+				- **load balancing algorithms**
+					- **Least Connection Method** — This method directs traffic to the server with the fewest active connections. This approach is quite useful when there are a large number of persistent client connections which are unevenly distributed between the servers.
+					-
 	- ### Caching
 	  collapsed:: true
 		- **Application server cache**
