@@ -173,6 +173,7 @@
 			-
 			-
 	- ### Designing Twitter
+	  collapsed:: true
 		- **Requirements**
 			- The service should be able to create and display a user’s timeline consisting of top tweets from all the people the user follows.
 			- Our service needs to be highly available.
@@ -192,6 +193,7 @@
 		- **Monitoring**
 			- By monitoring these counters, we will realize if we need more replication, load balancing, or caching.
 	- ### Designing Youtube or Netflix
+	  collapsed:: true
 		- **Requirements**
 			- The system should be highly reliable, any video uploaded should not be lost.
 			- Consistency can take a hit (in the interest of availability); if a user doesn’t see a video for a while, it should be fine.
@@ -227,6 +229,8 @@
 				- Also, each redirection requires a client to make an additional HTTP request; it also leads to higher delays before the video starts playing back.
 				- Moreover, inter-tier (or cross data-center) redirections lead a client to a distant cache location because the higher tier caches are only present at a small number of locations.
 			- ##
+	- ### Designing Typeahead Suggestion
+		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
