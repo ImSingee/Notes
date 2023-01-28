@@ -444,4 +444,6 @@
 		-
 		-
 	- ### Quorum
+		- Once a system decides to maintain multiple copies of data, another problem arises: how to make sure that all replicas are consistent?
+		- In a distributed environment, a quorum is the minimum number of servers on which a distributed operation needs to be performed successfully before declaring the operation’s overall success.
 		-
