@@ -446,4 +446,9 @@
 	- ### Quorum
 		- Once a system decides to maintain multiple copies of data, another problem arises: how to make sure that all replicas are consistent?
 		- In a distributed environment, a quorum is the minimum number of servers on which a distributed operation needs to be performed successfully before declaring the operation’s overall success.
+		- **What value should we choose for a quorum?** More than half of the number of nodes in the cluster: (*N*/2+1) where *N* is the total number of nodes in the cluster
+		- Quorum is achieved when nodes follow the below protocol: *R*+*W*>*N*
+			- *N* = nodes in the quorum group
+			  *W* = minimum write nodes
+			  *R* = minimum read nodes
 		-
