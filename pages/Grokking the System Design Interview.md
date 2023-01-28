@@ -413,6 +413,7 @@
 				- Making the most of cloud computing and storage.
 				- Rapid development.
 	- ### CAP Theorem
+	  collapsed:: true
 		- CAP theorem states that it is **impossible** for a distributed system to simultaneously provide all three of the following desirable properties
 			- **Consistency ( C ):** All nodes see the same data at the same time. This means users can read or write from/to any node in the system and will receive the same data. It is equivalent to having a single up-to-date copy of the data.
 			- **Availability ( A ):** Availability means every request received by a non-failing node in the system must result in a response. Even when severe network failures occur, every request must terminate. In simple terms, availability refers to a system’s ability to remain accessible even if one or more nodes in the system go down.
@@ -438,6 +439,7 @@
 		- **Server-Sent Events (SSEs)**
 			- Under SSEs the client establishes a persistent and long-term connection with the server. The server uses this connection to send data to a client. If the client wants to send data to the server, it would require the use of another technology/protocol to do so.
 	- ### Bloom Filters
+	  collapsed:: true
 		- The Bloom filter data structure tells whether an element **may be in a set, or definitely is not**.
 		-
 		-
