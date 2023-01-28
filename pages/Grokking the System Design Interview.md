@@ -300,6 +300,7 @@
 			- Our rate limiter can significantly benefit from the **Write-back cache** by updating all counters and timestamps in cache only. The write to the permanent storage can be done at fixed intervals.
 			-
 	- ### Designing Twitter Search
+		- ![](https://lwfiles.mycourse.app/systemdesign-public/49466721dfb137a5bd56711167217c2e.png?client_id=60da7e92ee99a6342460f6f2&width=600&height=280)
 		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
