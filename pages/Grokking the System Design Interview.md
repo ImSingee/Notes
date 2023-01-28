@@ -452,4 +452,8 @@
 			  *W* = minimum write nodes
 			  *R* = minimum read nodes
 		- If a distributed system follows R+W>N rule, then every read will see at least one copy of the latest value written.
-		-
+			- a common configuration could be (N=3, W=2, R=2) to ensure strong consistency
+			- (N=3, W=1, R=3): fast write, slow read, not very durable
+			- (N=3, W=3, R=1): slow write, fast read, durable
+			- R=1 and W=N ⇒ full replication (write-all, read-one): undesirable when servers can be unavailable because writes are not guaranteed to complete.
+			- B when 1<r<w<n, because reads are more frequent than writes in most applications.est performance (throughput/availability)
