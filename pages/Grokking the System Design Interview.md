@@ -451,4 +451,5 @@
 			- *N* = nodes in the quorum group
 			  *W* = minimum write nodes
 			  *R* = minimum read nodes
+		- If a distributed system follows R+W>N rule, then every read will see at least one copy of the latest value written.
 		-
