@@ -1,6 +1,6 @@
 - #Leetcode-Weekly-Contest #2023LCWT
 -
-- count-distinct-numbers-on-board
-- count-collisions-of-monkeys-on-a-polygon
-- put-marbles-in-bags
-- count-increasing-quadruplets
+- TODO [[统计桌面上的不同数字]]
+- TODO [[猴子碰撞的方法数]]
+- TODO [[将珠子放入背包中]]
+- TODO [[统计上升四元组]]
