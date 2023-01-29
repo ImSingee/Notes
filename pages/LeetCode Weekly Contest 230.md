@@ -1,4 +1,4 @@
-- #Leetcode-Weekly-Contest #2023LCWT
+- #Leetcode-Weekly-Contest
 -
 - TODO [[统计匹配检索规则的物品数量]]
 - TODO [[最接近目标价格的甜点成本]]
