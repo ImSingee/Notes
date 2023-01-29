@@ -379,7 +379,12 @@
 			- Random Replacement (RR)
 	- ### Indexes
 		- The goal of creating an index on a particular table in a database is to make it faster to search through the table and find the row or rows that we want.
-		-
+		- Indexes can be created using one or more columns of a database table, providing the basis for both rapid random lookups and efficient access of ordered records.
+		- **How do Indexes decrease write performance?**
+			- An index can dramatically speed up data retrieval but may itself be large due to the additional keys, which slow down data insertion & update.
+			- When adding rows or making updates to existing rows for a table with an active index, we not only have to write the data but also have to update the index. This will decrease the write performance.
+				- performance degradation applies to all insert, update, and delete operations for the table.
+			-
 	- ### SQL vs. NoSQL
 	  collapsed:: true
 		- Relational databases are structured and have predefined schemas like phone books that store phone numbers and addresses.
