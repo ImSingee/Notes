@@ -384,6 +384,12 @@
 			- An index can dramatically speed up data retrieval but may itself be large due to the additional keys, which slow down data insertion & update.
 			- When adding rows or making updates to existing rows for a table with an active index, we not only have to write the data but also have to update the index. This will decrease the write performance.
 				- performance degradation applies to all insert, update, and delete operations for the table.
+	- ### Proxies
+		- A proxy server is an intermediate piece of software or hardware that sits between the client and the server.
+		- Typically, forward proxies are used to cache data, filter requests, log requests, or transform requests (by adding/removing headers, encrypting/decrypting, or compressing a resource).
+			- A forward proxy can hide the identity of the client from the server by sending requests on behalf of the client.
+		- Proxies can combine the same data access requests into one request and then return the result to the user; this technique is called **collapsed forwarding**.
+		- **Reverse Proxy**
 			-
 	- ### SQL vs. NoSQL
 	  collapsed:: true
