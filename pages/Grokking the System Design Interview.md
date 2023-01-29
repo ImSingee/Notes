@@ -377,6 +377,9 @@
 			- Most Recently Used (MRU):
 			- Least Frequently Used (LFU)
 			- Random Replacement (RR)
+	- ### Indexes
+		- The goal of creating an index on a particular table in a database is to make it faster to search through the table and find the row or rows that we want.
+		-
 	- ### SQL vs. NoSQL
 	  collapsed:: true
 		- Relational databases are structured and have predefined schemas like phone books that store phone numbers and addresses.
