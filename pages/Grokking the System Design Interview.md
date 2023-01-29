@@ -386,10 +386,16 @@
 				- performance degradation applies to all insert, update, and delete operations for the table.
 	- ### Proxies
 		- A proxy server is an intermediate piece of software or hardware that sits between the client and the server.
-		- Typically, forward proxies are used to cache data, filter requests, log requests, or transform requests (by adding/removing headers, encrypting/decrypting, or compressing a resource).
-			- A forward proxy can hide the identity of the client from the server by sending requests on behalf of the client.
-		- Proxies can combine the same data access requests into one request and then return the result to the user; this technique is called **collapsed forwarding**.
+		- **Forward Proxy**
+			- Typically, forward proxies are used to cache data, filter requests, log requests, or transform requests (by adding/removing headers, encrypting/decrypting, or compressing a resource).
+				- A forward proxy can hide the identity of the client from the server by sending requests on behalf of the client.
+			- Proxies can combine the same data access requests into one request and then return the result to the user; this technique is called **collapsed forwarding**.
+			- ![](https://lwfiles.mycourse.app/systemdesign-public/826d78641d58c32682df280dba803a8f.png)
 		- **Reverse Proxy**
+			- A reverse proxy retrieves resources from one or more servers on behalf of a client. These resources are then returned to the client, appearing as if they originated from the proxy server itself, thus anonymizing the server.
+			- A reverse proxy, just like a forward proxy, can be used for caching, load balancing, or routing requests to the appropriate servers.
+			- ![](https://lwfiles.mycourse.app/systemdesign-public/2e33bf42fbcd7ac05a7031f39475e201.png)
+		-
 			-
 	- ### SQL vs. NoSQL
 	  collapsed:: true
