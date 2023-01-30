@@ -305,6 +305,9 @@
 		-
 	- ### Designing Facebook's Newsfeed
 		- **Requirements**
+			- Our system should be able to generate any user's newsfeed in real-time - maximum latency seen by the end user would be 2s.
+			- A post shouldn't take more than 5s to make it to a user's feed assuming a new newsfeed request comes in.
+		- **System APIs**
 			-
 	-
 - ## Glossary of System Design Basics
