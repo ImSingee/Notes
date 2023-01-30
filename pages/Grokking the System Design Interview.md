@@ -307,7 +307,10 @@
 		- **Requirements**
 			- Our system should be able to generate any user's newsfeed in real-time - maximum latency seen by the end user would be 2s.
 			- A post shouldn't take more than 5s to make it to a user's feed assuming a new newsfeed request comes in.
-		- **System APIs**
+		- **Database Design**
+			- ![](https://lwfiles.mycourse.app/systemdesign-public/6177f836fcf3af7d92c7935efdbd0736.png)
+		- **High Level System Design**
+			-
 			-
 	-
 - ## Glossary of System Design Basics
