@@ -324,7 +324,9 @@
 				- The process of pushing a post to all the followers is called fanout.
 				- By analogy, the push approach is called fanout-on-write, while the pull approach is called fanout-on-load.
 		- **Feed Ranking**
-			-
+		- **Data Partitioning**
+			- **Sharding posts and metadata**
+			- **Sharding feed data**
 			-
 	-
 - ## Glossary of System Design Basics
