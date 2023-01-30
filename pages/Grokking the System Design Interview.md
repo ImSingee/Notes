@@ -474,7 +474,10 @@
 		- **ACID** (Atomicity, Consistency, Isolation, Durability)
 			- such as RDBMSs like MySQL, Oracle, and Microsoft SQL Server, chose consistency (refuse response if it cannot check with peers)
 		- **BASE** (Basically Available, Soft-state, Eventually consistent)
-			-
+			- such as NoSQL databases like MongoDB, Cassandra, and Redis, chose availability (respond with local data without ensuring it is the latest with its peers).
+		- **One place where the CAP theorem is silent is what happens when there is no network partition?** What choices does a distributed system have when there is no partition?
+		- ![](https://lwfiles.mycourse.app/systemdesign-public/395a9138f33f0b83976d82db632f5cb2.png)
+			- i;, a distributed system can tradeoff between availability and consistency (i.e., ‘A’ and ‘C’)f there is a partition (‘P’)
 	- ### Consistent Hashing
 	  collapsed:: true
 		- David Karger et al. first introduced Consistent Hashing in their [1997 paper](https://dl.acm.org/doi/10.1145/258533.258660) and suggested its use in distributed caching.
