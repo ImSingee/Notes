@@ -317,7 +317,8 @@
 			- ![](https://lwfiles.mycourse.app/systemdesign-public/744b417e70f0a146bdd5a40fb24c06db.png)
 		- **Detailed Component Design**
 			- **Feed generation**
-				-
+				- **Offline generation for newsfeed:** We can have dedicated servers that are continuously generating users’ newsfeed and storing them in memory. So, whenever a user requests for the new posts for their feed, we can simply serve it from the pre-generated, stored location. Using this scheme, user’s newsfeed is not compiled on load, but rather on a regular basis and returned to users whenever they request for it.
+				- **How many feed items should we store in memory for a user’s feed?** Initially, we can decide to store 500 feed items per user, but this number can be adjusted later based on the usage pattern. For example, if we assume that one page of a user’s feed has 20 posts and most of the users never browse more than ten pages of their feed, we can decide to store only 200 posts per user. For any user who wants to see more posts (more than what is stored in memory), we can always query backend servers.
 			-
 	-
 - ## Glossary of System Design Basics
