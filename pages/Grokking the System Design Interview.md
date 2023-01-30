@@ -310,7 +310,10 @@
 		- **Database Design**
 			- ![](https://lwfiles.mycourse.app/systemdesign-public/6177f836fcf3af7d92c7935efdbd0736.png)
 		- **High Level System Design**
-			-
+			- **Feed generation**
+				- Newsfeed is generated from the posts (or feed items) of users and entities (pages and groups) that a user follows.
+			- **Feed publishing**
+				-
 			-
 	-
 - ## Glossary of System Design Basics
