@@ -479,7 +479,10 @@
 		- ![](https://lwfiles.mycourse.app/systemdesign-public/395a9138f33f0b83976d82db632f5cb2.png)
 			- if there is a partition (‘P’), a distributed system can tradeoff between availability and consistency (i.e., ‘A’ and ‘C’);
 			  else (‘E’), when the system is running normally in the absence of partitions, the system can tradeoff between latency (‘L’) and consistency (‘C’).
-		-
+		- **Examples**
+			- **Dynamo and Cassandra** are ***PA/EL*** systems
+			- **BigTable and HBase** are ***PC/EC***
+			- **MongoDB** can be considered ***PA/EC***
 	- ### Consistent Hashing
 	  collapsed:: true
 		- David Karger et al. first introduced Consistent Hashing in their [1997 paper](https://dl.acm.org/doi/10.1145/258533.258660) and suggested its use in distributed caching.
