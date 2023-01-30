@@ -322,6 +322,9 @@
 				- **Should we generate (and keep in memory) newsfeeds for all users?** There will be a lot of users that don’t log-in frequently. Here are a few things we can do to handle this; 1) a more straightforward approach could be, to use an LRU based cache that can remove users from memory that haven’t accessed their newsfeed for a long time 2) a smarter solution can figure out the login pattern of users to pre-generate their newsfeed, e.g., at what time of the day a user is active and which days of the week does a user access their newsfeed? etc.
 			- **Feed publishing**
 				- The process of pushing a post to all the followers is called fanout.
+				- By analogy, the push approach is called fanout-on-write, while the pull approach is called fanout-on-load.
+		- **Feed Ranking**
+			-
 			-
 	-
 - ## Glossary of System Design Basics
