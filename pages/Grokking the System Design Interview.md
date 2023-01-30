@@ -313,6 +313,10 @@
 			- **Feed generation**
 				- Newsfeed is generated from the posts (or feed items) of users and entities (pages and groups) that a user follows.
 			- **Feed publishing**
+				- Whenever Jane loads her newsfeed page, she has to request and pull feed items from the server.
+			- ![](https://lwfiles.mycourse.app/systemdesign-public/744b417e70f0a146bdd5a40fb24c06db.png)
+		- **Detailed Component Design**
+			- **Feed generation**
 				-
 			-
 	-
