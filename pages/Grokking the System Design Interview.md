@@ -404,6 +404,7 @@
 			- Least Frequently Used (LFU)
 			- Random Replacement (RR)
 	- ### Indexes
+	  collapsed:: true
 		- The goal of creating an index on a particular table in a database is to make it faster to search through the table and find the row or rows that we want.
 		- Indexes can be created using one or more columns of a database table, providing the basis for both rapid random lookups and efficient access of ordered records.
 		- **How do Indexes decrease write performance?**
@@ -411,6 +412,7 @@
 			- When adding rows or making updates to existing rows for a table with an active index, we not only have to write the data but also have to update the index. This will decrease the write performance.
 				- performance degradation applies to all insert, update, and delete operations for the table.
 	- ### Proxies
+	  collapsed:: true
 		- A proxy server is an intermediate piece of software or hardware that sits between the client and the server.
 		- **Forward Proxy**
 			- Typically, forward proxies are used to cache data, filter requests, log requests, or transform requests (by adding/removing headers, encrypting/decrypting, or compressing a resource).
@@ -468,6 +470,11 @@
 			- **In the presence of a network partition, a distributed system must choose either Consistency or Availability.**
 			- ![](https://lwfiles.mycourse.app/systemdesign-public/2218b6b152cc5cb134ee0489d1f0c9a2.png)
 		-
+	- ### PACELC Theorem
+		- **ACID** (Atomicity, Consistency, Isolation, Durability)
+			- such as RDBMSs like MySQL, Oracle, and Microsoft SQL Server, chose consistency (refuse response if it cannot check with peers)
+		- **BASE** (Basically Available, Soft-state, Eventually consistent)
+			-
 	- ### Consistent Hashing
 	  collapsed:: true
 		- David Karger et al. first introduced Consistent Hashing in their [1997 paper](https://dl.acm.org/doi/10.1145/258533.258660) and suggested its use in distributed caching.
@@ -491,6 +498,7 @@
 		-
 		-
 	- ### Quorum
+	  collapsed:: true
 		- Once a system decides to maintain multiple copies of data, another problem arises: how to make sure that all replicas are consistent?
 		- In a distributed environment, a quorum is the minimum number of servers on which a distributed operation needs to be performed successfully before declaring the operation’s overall success.
 		- **What value should we choose for a quorum?** More than half of the number of nodes in the cluster: (*N*/2+1) where *N* is the total number of nodes in the cluster
