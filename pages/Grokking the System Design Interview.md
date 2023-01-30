@@ -303,6 +303,10 @@
 	  collapsed:: true
 		- ![](https://lwfiles.mycourse.app/systemdesign-public/49466721dfb137a5bd56711167217c2e.png?client_id=60da7e92ee99a6342460f6f2&width=600&height=280)
 		-
+	- ### Designing Facebook's Newsfeed
+		- **Requirements**
+			-
+	-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
