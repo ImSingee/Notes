@@ -336,6 +336,8 @@
 		- **What is ‘RobotsExclusion’ and how should we deal with it?**
 			- Courteous Web crawlers implement the Robots Exclusion Protocol, which allows Webmasters to declare parts of their sites off-limits to crawlers.
 			- The Robots Exclusion Protocol requires a Web crawler to fetch a special document called robot.txt which contains these declarations from a Web site before downloading any real content from it.
+		- **High Level Design**
+			- ![](https://lwfiles.mycourse.app/systemdesign-public/e8e799302138bc915cddad34be3a082a.png)
 		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
