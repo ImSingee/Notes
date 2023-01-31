@@ -304,6 +304,7 @@
 		- ![](https://lwfiles.mycourse.app/systemdesign-public/49466721dfb137a5bd56711167217c2e.png?client_id=60da7e92ee99a6342460f6f2&width=600&height=280)
 		-
 	- ### Designing Facebook's Newsfeed
+	  collapsed:: true
 		- **Requirements**
 			- Our system should be able to generate any user's newsfeed in real-time - maximum latency seen by the end user would be 2s.
 			- A post shouldn't take more than 5s to make it to a user's feed assuming a new newsfeed request comes in.
@@ -328,7 +329,7 @@
 			- **Sharding posts and metadata**
 			- **Sharding feed data**
 			-
-	-
+	- ###
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
@@ -471,6 +472,7 @@
 			- ![](https://lwfiles.mycourse.app/systemdesign-public/2218b6b152cc5cb134ee0489d1f0c9a2.png)
 		-
 	- ### PACELC Theorem
+	  collapsed:: true
 		- **ACID** (Atomicity, Consistency, Isolation, Durability)
 			- such as RDBMSs like MySQL, Oracle, and Microsoft SQL Server, chose consistency (refuse response if it cannot check with peers)
 		- **BASE** (Basically Available, Soft-state, Eventually consistent)
@@ -520,3 +522,4 @@
 			- (N=3, W=3, R=1): slow write, fast read, durable
 			- R=1 and W=N ⇒ full replication (write-all, read-one): undesirable when servers can be unavailable because writes are not guaranteed to complete.
 			- B when 1<r<w<n, because reads are more frequent than writes in most applications.est performance (throughput/availability)
+	- ### Heartbeat
