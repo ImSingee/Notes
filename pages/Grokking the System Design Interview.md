@@ -338,7 +338,9 @@
 			- The Robots Exclusion Protocol requires a Web crawler to fetch a special document called robot.txt which contains these declarations from a Web site before downloading any real content from it.
 		- **High Level Design**
 			- ![](https://lwfiles.mycourse.app/systemdesign-public/e8e799302138bc915cddad34be3a082a.png)
-		-
+		- **Detail**
+			- **Can we use bloom filters for deduping?**
+				-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
