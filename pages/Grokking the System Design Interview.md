@@ -329,7 +329,10 @@
 			- **Sharding posts and metadata**
 			- **Sharding feed data**
 			-
-	- ###
+	- ### Designing a Web Crawler
+		- **Requirements and Goals**
+			- **Scalability:** Our service needs to be scalable such that it can crawl the entire Web and can be used to fetch hundreds of millions of Web documents.
+			- **Extensibility:** Our service should be designed in a modular way with the expectation that new functionality will be added to it. There could be newer document types that need to be downloaded and processed in the future.
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
