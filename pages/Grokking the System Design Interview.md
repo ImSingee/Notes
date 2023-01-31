@@ -523,3 +523,4 @@
 			- R=1 and W=N ⇒ full replication (write-all, read-one): undesirable when servers can be unavailable because writes are not guaranteed to complete.
 			- B when 1<r<w<n, because reads are more frequent than writes in most applications.est performance (throughput/availability)
 	- ### Heartbeat
+		-
