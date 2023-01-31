@@ -340,7 +340,9 @@
 			- ![](https://lwfiles.mycourse.app/systemdesign-public/e8e799302138bc915cddad34be3a082a.png)
 		- **Detail**
 			- **Can we use bloom filters for deduping?**
-				-
+				- The disadvantage of using a bloom filter for the URL seen test is that each false positive will cause the URL not to be added to the frontier and, therefore, the document will never be downloaded. The chance of a false positive can be reduced by making the bit vector larger.
+			- **Checkpointing**
+				- A crawl of the entire Web takes weeks or months to complete. To guard against failures, our crawler can write regular snapshots of its state to the disk. An interrupted or aborted crawl can easily be restarted from the latest checkpoint.
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
