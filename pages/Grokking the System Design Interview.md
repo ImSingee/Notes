@@ -346,6 +346,9 @@
 				- A crawl of the entire Web takes weeks or months to complete. To guard against failures, our crawler can write regular snapshots of its state to the disk. An interrupted or aborted crawl can easily be restarted from the latest checkpoint.
 	- ### Designing Yelp or Nearby Friends
 		- > 大众点评国际版
+		- **Requirements**
+			- Users should have a real-time search experience with minimum latency
+			- Our service should support a heavy search load. There will be a lot of search requests compared to adding a new place
 		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
