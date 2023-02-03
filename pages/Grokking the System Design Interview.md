@@ -357,9 +357,10 @@
 		- **Requirements**
 			- Passengers get to see all the nearby available drivers. Customer can request a ride; nearby drivers are notified that a customer is ready to be picked up.
 			- Once a customer puts in a request for a ride, the system should be able to contact drivers in real-time.
-			- Once a driver and a customer accept a ride, they can constantly see each other’s current location until the trip finishes.
+			- Once a driver and a customer accept a ride, they can constantly see each other's current location until the trip finishes.
 		- **Capacity Estimation**
 			- Let's assume that all active drivers notify their current location every three seconds.
+		-
 		-
 		-
 			-
