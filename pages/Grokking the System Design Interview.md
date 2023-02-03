@@ -351,6 +351,8 @@
 			- Our service should support a heavy search load. There will be a lot of search requests compared to adding a new place
 		- **What if both primary and secondary servers die at the same time?**
 			- We have to allocate a new server and rebuild the same QuadTree on it. How can we do that, since we don’t know what places were kept on this server? The brute-force solution would be to iterate through the whole database and filter LocationIDs using our hash function to figure out all the required places that will be stored on this server. This would be inefficient and slow; also, during the time when the server is being rebuilt, we will not be able to serve any query from it, thus missing some places that should have been seen by users.
+		- **How can we return most popular places within a given radius?**
+			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
