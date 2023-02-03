@@ -362,7 +362,6 @@
 			- Let's assume that all active drivers notify their current location every three seconds.
 		-
 		-
-		-
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
