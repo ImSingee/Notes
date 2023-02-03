@@ -330,6 +330,7 @@
 			- **Sharding feed data**
 			-
 	- ### Designing a Web Crawler
+	  collapsed:: true
 		- **Requirements and Goals**
 			- **Scalability:** Our service needs to be scalable such that it can crawl the entire Web and can be used to fetch hundreds of millions of Web documents.
 			- **Extensibility:** Our service should be designed in a modular way with the expectation that new functionality will be added to it. There could be newer document types that need to be downloaded and processed in the future.
@@ -343,6 +344,9 @@
 				- The disadvantage of using a bloom filter for the URL seen test is that each false positive will cause the URL not to be added to the frontier and, therefore, the document will never be downloaded. The chance of a false positive can be reduced by making the bit vector larger.
 			- **Checkpointing**
 				- A crawl of the entire Web takes weeks or months to complete. To guard against failures, our crawler can write regular snapshots of its state to the disk. An interrupted or aborted crawl can easily be restarted from the latest checkpoint.
+	- ### Designing Yelp or Nearby Friends
+		- > 大众点评国际版
+		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
