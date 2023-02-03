@@ -355,6 +355,7 @@
 			- Let’s assume we keep track of the overall popularity of each place. An aggregated number can represent this popularity in our system, e.g., how many stars a place gets out of ten (this would be an average of different rankings given by users)? We will store this number in the database as well as in the QuadTree. While searching for the top 100 places within a given radius, we can ask each partition of the QuadTree to return the top 100 places with maximum popularity. Then the aggregator server can determine the top 100 places among all the places returned by different partitions.
 	- ### Designing Uber backend
 		- **Requirements**
+			- Passengers get to see all the nearby available drivers.
 			-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
