@@ -362,8 +362,9 @@
 			- Let's assume that all active drivers notify their current location every three seconds.
 		- **Do we need to distribute DriverLocationHT onto multiple servers?**
 			- For **scalability, performance, and fault tolerance**, we should distribute DriverLocationHT onto multiple servers.
+	- ### Design Ticketmaster
 		-
-			-
+		-
 - ## Glossary of System Design Basics
 	- ### System Design Basics
 	  collapsed:: true
