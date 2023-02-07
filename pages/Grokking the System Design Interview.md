@@ -364,6 +364,11 @@
 			- For **scalability, performance, and fault tolerance**, we should distribute DriverLocationHT onto multiple servers.
 	- ### Design Ticketmaster
 		- **Requirements**
+			- The system would need to be highly concurrent. There will be multiple booking requests for the same seat at any particular point in time. The service should handle this gracefully and fairly.
+			- The core thing of the service is ticket booking, which means financial transactions. This means that the system should be secure and the database ACID compliant.
+			- The system will not handle partial ticket orders. Either user gets all the tickets they want or they get nothing.
+			- Fairness is mandatory for the system.
+			- We can assume that traffic would spike on popular/much-awaited movie releases and the seats would fill up pretty fast. The system should be scalable and highly available to keep up with the surge in traffic.
 			-
 		-
 - ## Glossary of System Design Basics
