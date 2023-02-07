@@ -360,7 +360,8 @@
 			- Once a driver and a customer accept a ride, they can constantly see each other's current location until the trip finishes.
 		- **Capacity Estimation**
 			- Let's assume that all active drivers notify their current location every three seconds.
-		-
+		- **Do we need to distribute DriverLocationHT onto multiple servers?**
+			- For **scalability, performance, and fault tolerance**, we should distribute DriverLocationHT onto multiple servers.
 		-
 			-
 - ## Glossary of System Design Basics
