@@ -592,6 +592,11 @@
 			- R=1 and W=N ⇒ full replication (write-all, read-one): undesirable when servers can be unavailable because writes are not guaranteed to complete.
 			- B when 1<r<w<n, because reads are more frequent than writes in most applications.est performance (throughput/availability)
 	- ### Leader and Follower
+		- Distributed systems keep multiple copies of data for fault tolerance and higher availability.
+		- A system can use quorum to ensure data consistency between replicas.
+			- However, using quorum can lead to another problem, that is, lower availability; at any time, the system needs to ensure that at least a majority of replicas are up and available, otherwise the operation will fail.
+			- Quorum is also not sufficient, as in certain failure scenarios, the client can still see inconsistent data.
+		- **Definition**: Allow only a single server (called leader) to be responsible for data replication and to coordinate work.
 		-
 	- ### Heartbeat
 	  collapsed:: true
