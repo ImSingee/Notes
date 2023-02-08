@@ -447,7 +447,12 @@
 			- Least Frequently Used (LFU)
 			- Random Replacement (RR)
 	- ### Data Partitioning
-		-
+		- **Partitioning Methods**
+			- **Horizontal Partitioning**
+				- In this scheme, we put different rows into different tables.
+				- For example, if we store different places in a table, we can decide that locations with ZIP codes less than 10000 are stored in one table and places with ZIP codes greater than 10000 are stored in a separate table.
+				- This is also called **range-based Partitioning** as we are storing different ranges of data in separate tables. Horizontal Partitioning is also known as **Data Sharding**.
+			-
 	- ### Indexes
 	  collapsed:: true
 		- The goal of creating an index on a particular table in a database is to make it faster to search through the table and find the row or rows that we want.
