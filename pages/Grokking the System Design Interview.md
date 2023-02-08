@@ -452,6 +452,11 @@
 				- In this scheme, we put different rows into different tables.
 				- For example, if we store different places in a table, we can decide that locations with ZIP codes less than 10000 are stored in one table and places with ZIP codes greater than 10000 are stored in a separate table.
 				- This is also called **range-based Partitioning** as we are storing different ranges of data in separate tables. Horizontal Partitioning is also known as **Data Sharding**.
+				- The key problem with this approach is that if the value whose range is used for Partitioning isn’t chosen carefully, then the partitioning scheme will lead to unbalanced servers.
+			- **Vertical Partitioning**
+				- In this scheme, we divide our data to store tables related to a specific feature in their own server.
+				- For example, if we are building an Instagram-like application - where we need to store data related to users, photos they upload, and people they follow - we can decide to place user profile information on one DB server, friend lists on another, and photos on a third server.
+				- The main problem with this approach is that if our application experiences additional growth, then it may be necessary to further partition a feature specific DB across various servers (e.g. it would not be possible for a single server to handle all the metadata queries for 10 billion photos by 140 million users).
 			-
 	- ### Indexes
 	  collapsed:: true
