@@ -469,8 +469,6 @@
 			- **Joins and Denormalization**
 			- **Referential integrity**
 			- **Rebalancing**
-			-
-			-
 	- ### Indexes
 	  collapsed:: true
 		- The goal of creating an index on a particular table in a database is to make it faster to search through the table and find the row or rows that we want.
@@ -492,6 +490,10 @@
 			- A reverse proxy, just like a forward proxy, can be used for caching, load balancing, or routing requests to the appropriate servers.
 			- ![](https://lwfiles.mycourse.app/systemdesign-public/2e33bf42fbcd7ac05a7031f39475e201.png)
 		-
+			-
+	- ### Redundancy and Replication
+		- Redundancy plays a key role in removing the single points of failure in the system and provides backups if needed in a crisis
+		- Replication is widely used in many database management systems (DBMS), usually with a primary-replica relationship between the original and the copies.
 			-
 	- ### SQL vs. NoSQL
 	  collapsed:: true
@@ -590,6 +592,7 @@
 			- R=1 and W=N ⇒ full replication (write-all, read-one): undesirable when servers can be unavailable because writes are not guaranteed to complete.
 			- B when 1<r<w<n, because reads are more frequent than writes in most applications.est performance (throughput/availability)
 	- ### Heartbeat
+	  collapsed:: true
 		- To efficiently route requests in such a setup, servers need to know what other servers are part of the system. Furthermore, servers should know if other servers are alive and working.
 		- **Solution**
 			- If there is a central server, all servers periodically send a heartbeat message to it. If there is no central server, all servers randomly choose a set of servers and send them a heartbeat message every few seconds.
