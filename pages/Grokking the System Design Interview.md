@@ -606,4 +606,8 @@
 			- If there is no heartbeat within a configured timeout period, the system can conclude that the server is not alive anymore and stop sending requests to it and start working on its replacement.
 	- ### Checksum
 		- In a distributed system, while moving data between components, it is possible that the data fetched from a node may arrive corrupted.
-		-
+			- his corruption can occur because of faults in a storage device, network, software
+		- **Solution**
+			- When a system is storing some data, it computes a checksum of the data, and stores the checksum with the data. When a client retrieves data, it verifies that the data it received from the server matches the checksum stored. If not, then the client can opt to retrieve that data from another replica.
+		- **Algorithm**
+			- hash functions: MD5, SHA-1, SHA-256, SHA-512 and so on
