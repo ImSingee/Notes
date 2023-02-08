@@ -58,6 +58,7 @@
 		- **12. Security and Permissions**
 			- permission level (public/private)
 - ## System Design Problems
+  collapsed:: true
 	- ### Designing Pastebin
 	  collapsed:: true
 		- We can assume a 5:1 ratio between the read and write.
@@ -445,6 +446,8 @@
 			- Most Recently Used (MRU):
 			- Least Frequently Used (LFU)
 			- Random Replacement (RR)
+	- ### Data Partitioning
+		-
 	- ### Indexes
 	  collapsed:: true
 		- The goal of creating an index on a particular table in a database is to make it faster to search through the table and find the row or rows that we want.
