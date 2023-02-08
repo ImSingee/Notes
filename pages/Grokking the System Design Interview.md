@@ -494,7 +494,7 @@
 	- ### Redundancy and Replication
 		- Redundancy plays a key role in removing the single points of failure in the system and provides backups if needed in a crisis
 		- Replication is widely used in many database management systems (DBMS), usually with a primary-replica relationship between the original and the copies.
-			-
+			- The primary server gets all the updates, which then ripple through to the replica servers. Each replica outputs a message stating that it has received the update successfully, thus allowing the sending of subsequent updates.
 	- ### SQL vs. NoSQL
 	  collapsed:: true
 		- Relational databases are structured and have predefined schemas like phone books that store phone numbers and addresses.
@@ -591,6 +591,8 @@
 			- (N=3, W=3, R=1): slow write, fast read, durable
 			- R=1 and W=N ⇒ full replication (write-all, read-one): undesirable when servers can be unavailable because writes are not guaranteed to complete.
 			- B when 1<r<w<n, because reads are more frequent than writes in most applications.est performance (throughput/availability)
+	- ### Leader and Follower
+		-
 	- ### Heartbeat
 	  collapsed:: true
 		- To efficiently route requests in such a setup, servers need to know what other servers are part of the system. Furthermore, servers should know if other servers are alive and working.
