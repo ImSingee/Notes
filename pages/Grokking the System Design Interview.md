@@ -467,7 +467,9 @@
 		- **Common Problems**
 			- Below are some of the constraints and additional complexities introduced by Partitioning
 			- **Joins and Denormalization**
-				-
+			- **Referential integrity**
+			- **Rebalancing**
+			-
 			-
 	- ### Indexes
 	  collapsed:: true
