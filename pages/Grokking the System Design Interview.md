@@ -463,6 +463,12 @@
 			- **Key or Hash-based partitioning**
 			- **List partitioning**
 			- **Round-robin partitioning**
+			- **Composite partitioning**
+		- **Common Problems**
+			- Below are some of the constraints and additional complexities introduced by Partitioning
+			- **Joins and Denormalization**
+				-
+			-
 	- ### Indexes
 	  collapsed:: true
 		- The goal of creating an index on a particular table in a database is to make it faster to search through the table and find the row or rows that we want.
