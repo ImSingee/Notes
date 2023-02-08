@@ -597,10 +597,13 @@
 			- However, using quorum can lead to another problem, that is, lower availability; at any time, the system needs to ensure that at least a majority of replicas are up and available, otherwise the operation will fail.
 			- Quorum is also not sufficient, as in certain failure scenarios, the client can still see inconsistent data.
 		- **Definition**: Allow only a single server (called leader) to be responsible for data replication and to coordinate work.
-		-
+			- ![](https://lwfiles.mycourse.app/systemdesign-public/2b089232126f93700aed4f79187b2a6c.png)
 	- ### Heartbeat
 	  collapsed:: true
 		- To efficiently route requests in such a setup, servers need to know what other servers are part of the system. Furthermore, servers should know if other servers are alive and working.
 		- **Solution**
 			- If there is a central server, all servers periodically send a heartbeat message to it. If there is no central server, all servers randomly choose a set of servers and send them a heartbeat message every few seconds.
 			- If there is no heartbeat within a configured timeout period, the system can conclude that the server is not alive anymore and stop sending requests to it and start working on its replacement.
+	- ### Checksum
+		- In a distributed system, while moving data between components, it is possible that the data fetched from a node may arrive corrupted.
+		-
