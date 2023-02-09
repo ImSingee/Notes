@@ -1,4 +1,4 @@
--
+- [link](https://github.com/Vonng/ddia/blob/master/ch3.md)
 # 第三章：存储与检索
 	- 一个数据库在最基础的层次上需要完成两件事情
 		- 当你把数据交给数据库时，它应当把数据存储起来；
