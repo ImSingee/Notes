@@ -7,4 +7,7 @@
 	- ```bash
 	  gem install rails # Rails 需要独立安装
 	  ```
--
+- ## 启动
+	- ```bash
+	  bin/rails server
+	  ```
