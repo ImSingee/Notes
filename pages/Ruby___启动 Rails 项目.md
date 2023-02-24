@@ -4,4 +4,7 @@
 	- ```bash
 	  bundle install
 	  ```
+	- ```bash
+	  gem install rails # Rails 需要独立安装
+	  ```
 -
