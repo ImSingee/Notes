@@ -1,3 +1,5 @@
+- [主页](http://www.super-memory.com/) | [Store](https://super-memo.com/supermemo18.html) | [Manual](https://help.supermemo.org/wiki/Main_Page) | [Guru](https://supermemo.guru/wiki/SuperMemo_Guru)
+-
 - 将一组元素标记为「暂停学习」
 	- 使用 [Forget]([[SuperMemo/Forget]]) / [Dismiss]([[SuperMemo/Dismiss]])
 		- Forget 会将元素加入至 [[SuperMemo/PendingQueue]] 的末尾

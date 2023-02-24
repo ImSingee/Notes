@@ -33,4 +33,210 @@ alias:: Find Kth Largest XOR Coordinate Value
 		- `0 <= matrix[i][j] <= 106`
 		- `1 <= k <= m * n`
 - # 解
-	- #TODO
+	- ## 暴力
+		- ```go
+		  func kthLargestValue(matrix [][]int, k int) int {
+		      m, n := len(matrix), len(matrix[0])
+		      
+		      rowPrefix := new2dSlice(m, n)
+		      for i := 0; i < m; i++ {
+		          rowPrefix[i][0] = matrix[i][0]
+		          for j := 1; j < n; j++ {
+		              rowPrefix[i][j] = rowPrefix[i][j-1] ^ matrix[i][j]
+		          }
+		      }
+		      columnPrefix := new2dSlice(m, n)
+		      for j := 0; j < n; j++ {
+		          columnPrefix[0][j] = matrix[0][j]
+		          for i := 1; i < m; i++ {
+		              columnPrefix[i][j] = columnPrefix[i-1][j] ^ matrix[i][j]
+		          }
+		      }
+		      
+		      coordinates := new2dSlice(m, n)
+		      
+		      for i := 0; i < m; i++ {
+		          coordinates[i][0] = columnPrefix[i][0]
+		      }
+		      for j := 0; j < n; j++ {
+		          coordinates[0][j] = rowPrefix[0][j]
+		      }
+		      
+		      for i := 1; i < m; i++ {
+		          for j := 1; j < n; j++ {
+		              coordinates[i][j] = coordinates[i-1][j-1] ^ rowPrefix[i][j-1] ^ columnPrefix[i-1][j] ^ matrix[i][j]
+		          }
+		      }
+		      
+		      nums := make([]int, 0, m*n)
+		      for i := 0; i < m; i++ {
+		          for j := 0; j < n; j++ {
+		              nums = append(nums, coordinates[i][j])
+		          }
+		      }
+		      sort.Ints(nums)
+		      
+		      return nums[m*n-k]
+		  }
+		  
+		  // generate a m*n grid slice
+		  func new2dSlice(m, n int) [][]int {
+		      matrix := make([][]int, m)
+		      for i := range matrix {
+		          matrix[i] = make([]int, n)
+		      }
+		      return matrix
+		  }
+		  ```
+	- ## 优化前缀和
+		- ```go
+		  func kthLargestValue(matrix [][]int, k int) int {
+		      m, n := len(matrix), len(matrix[0])
+		      
+		      coordinates := new2dSlice(m, n)
+		      coordinates[0][0] = matrix[0][0]
+		      for j := 1; j < n; j++ {
+		          coordinates[0][j] = coordinates[0][j-1] ^ matrix[0][j]
+		      }
+		      for i := 1; i < m; i++ {
+		          coordinates[i][0] = coordinates[i-1][0] ^ matrix[i][0]
+		      }
+		      
+		      for i := 1; i < m; i++ {
+		          for j := 1; j < n; j++ {
+		              coordinates[i][j] = coordinates[i-1][j] ^ coordinates[i][j-1] ^ coordinates[i-1][j-1] ^ matrix[i][j]
+		          }
+		      }
+		      
+		      nums := make([]int, 0, m*n)
+		      for i := 0; i < m; i++ {
+		          for j := 0; j < n; j++ {
+		              nums = append(nums, coordinates[i][j])
+		          }
+		      }
+		      sort.Ints(nums)
+		      
+		      return nums[m*n-k]
+		  }
+		  
+		  // generate a m*n grid slice
+		  func new2dSlice(m, n int) [][]int {
+		      matrix := make([][]int, m)
+		      for i := range matrix {
+		          matrix[i] = make([]int, n)
+		      }
+		      return matrix
+		  }
+		  ```
+	- ## 堆优化
+		- ```go
+		  func kthLargestValue(matrix [][]int, k int) int {
+		      m, n := len(matrix), len(matrix[0])
+		      
+		      coordinates := new2dSlice(m, n)
+		      coordinates[0][0] = matrix[0][0]
+		      for j := 1; j < n; j++ {
+		          coordinates[0][j] = coordinates[0][j-1] ^ matrix[0][j]
+		      }
+		      for i := 1; i < m; i++ {
+		          coordinates[i][0] = coordinates[i-1][0] ^ matrix[i][0]
+		      }
+		      
+		      for i := 1; i < m; i++ {
+		          for j := 1; j < n; j++ {
+		              coordinates[i][j] = coordinates[i-1][j] ^ coordinates[i][j-1] ^ coordinates[i-1][j-1] ^ matrix[i][j]
+		          }
+		      }
+		      
+		      h := make(Heap, 0, k+1)
+		      for i := 0; i < m; i++ {
+		          for j := 0; j < n; j++ {
+		              heap.Push(&h, coordinates[i][j])
+		              if len(h) > k {
+		                  heap.Pop(&h)
+		              }
+		          }
+		      }
+		      
+		      return h[0]
+		  }
+		  
+		  // generate a m*n grid slice
+		  func new2dSlice(m, n int) [][]int {
+		      matrix := make([][]int, m)
+		      for i := range matrix {
+		          matrix[i] = make([]int, n)
+		      }
+		      return matrix
+		  }
+		  
+		  type Heap []int // Min Heap
+		  
+		  func (h Heap) Len() int            { return len(h) }
+		  func (h Heap) Less(i, j int) bool  { return h[i] < h[j] }
+		  func (h Heap) Swap(i, j int)       { h[i], h[j] = h[j], h[i] }
+		  func (h *Heap) Push(x interface{}) { *h = append(*h, x.(int)) }
+		  func (h *Heap) Pop() interface{} {
+		  	old := *h
+		  	n := len(old)
+		  	x := old[n-1]
+		  	*h = old[0 : n-1]
+		  	return x
+		  }
+		  ```
+	- ## 二分
+		- ```go
+		  func kthLargestValue(matrix [][]int, k int) int {
+		      m, n := len(matrix), len(matrix[0])
+		      
+		      coordinates := new2dSlice(m, n)
+		      coordinates[0][0] = matrix[0][0]
+		      for j := 1; j < n; j++ {
+		          coordinates[0][j] = coordinates[0][j-1] ^ matrix[0][j]
+		      }
+		      for i := 1; i < m; i++ {
+		          coordinates[i][0] = coordinates[i-1][0] ^ matrix[i][0]
+		      }
+		      
+		      for i := 1; i < m; i++ {
+		          for j := 1; j < n; j++ {
+		              coordinates[i][j] = coordinates[i-1][j] ^ coordinates[i][j-1] ^ coordinates[i-1][j-1] ^ matrix[i][j]
+		          }
+		      }
+		      
+		      count := func(x int) int {
+		          ret := 0
+		          for i := 0; i < m; i++ {
+		              for j := 0; j < n; j++ {
+		                  if coordinates[i][j] >= x {
+		                      ret++
+		                  }
+		              }
+		          }
+		          return ret
+		      }
+		      
+		      L, R := 0, math.MaxInt32
+		      for L < R {
+		          mid := R - (R-L)/2
+		          
+		          if count(mid) < k {
+		              R = mid-1
+		          } else {
+		              L = mid
+		          }
+		      }
+		      return L
+		  }
+		  
+		  // generate a m*n grid slice
+		  func new2dSlice(m, n int) [][]int {
+		      matrix := make([][]int, m)
+		      for i := range matrix {
+		          matrix[i] = make([]int, n)
+		      }
+		      return matrix
+		  }
+		  
+		  ```
+		- 最后的二分时间复杂度为 O(32 *m*n)

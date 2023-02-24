@@ -1,3 +1,18 @@
 alias:: go
 
 -
+- ## 框架
+	- [Go Frame](https://goframe.org/)
+	- [go-zero](https://go-zero.dev/)
+	- ## 网站开发
+		- [GFast](http://g-fast.cn/)
+			- Gfast 前后分离管理系统，基于 GoFrame 开发的后台管理系统
+		- [QuarkGo](https://www.quarkcms.com/quark-go/)
+			- QuarkGo 是一个可以帮你快速搭建管理后台的工具；它提供的丰富组件，能帮助您使用很少的代码就能搭建出功能完善的管理后台。
+- ## 深度博客
+	- [Go Recipes🦩](https://github.com/nikolaydubina/go-recipes)
+	- [Go Recipes](https://go-recipes.dev/)
+	- [Go 语言设计与实现](https://draveness.me/golang/)
+	- [Go 语言原本](https://golang.design/under-the-hood/)
+	-
+	-

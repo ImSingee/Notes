@@ -36,4 +36,12 @@ alias:: Find Xor-Beauty of Array
 		- `1 <= nums.length <= 105`
 		- `1 <= nums[i] <= 109`
 - # 解
-	- #TODO
+	- ```go
+	  func xorBeauty(nums []int) int {
+	      result := 0
+	      for _, x := range nums {
+	          result ^= x
+	      }
+	      return result
+	  }
+	  ```

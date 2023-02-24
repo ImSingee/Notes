@@ -1,0 +1,25 @@
+- #Go
+- ### 工具一：nm + go-binsize-treemap
+	- ```bash
+	  go tool nm -size <binary finename> | go-binsize-treemap > binsize.svg
+	  ```
+	- 利用 [go-binsize-treemap](https://github.com/nikolaydubina/go-binsize-treemap) 将 `go nm -size` 可视化
+	- 但是 `go nm -size` 的输出似乎缺失了一些内容，例如不存在 embed 的文件，因此可能造成分析结果不够有用
+- ### 工具二：goweight
+	- [goweight](https://github.com/jondot/goweight) 工具，可以有效分析二进制的文件大小，展示出各个包所占的文件大小
+-
+-
+- # 查看包依赖关系
+	- ### [GoPkgDep](https://github.com/XUJiahua/GoPkgDep)
+		- 仅支持查看直接被引用，包括项目内引用和外部包引用
+	- ### go mod why
+		- `go mod why -m <module-name>` 可查看被引用原因，支持直接和间接依赖，只支持查看外部包引用
+		- 该命令仅返回最近的一条引用链，而不返回所有的引用关系（仅返回最短路径）
+	- ### [goda](https://github.com/loov/goda)
+		- 瑞士军刀，但是用起来麻烦一丢丢
+		- 主要用于查看包的依赖
+			- `goda list "MODULE...:import"` 查看直接依赖
+			- `goda list "MODULE...:all"` 查看所有依赖
+	- ### [gomod](https://github.com/Helcaraxan/gomod)
+		- 瑞士军刀
+-
