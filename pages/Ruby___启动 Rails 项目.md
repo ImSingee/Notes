@@ -4,10 +4,8 @@
 	- ```bash
 	  bundle install
 	  ```
-	- ```bash
-	  gem install rails # Rails 需要独立安装
-	  ```
 - ## 启动
+	- > [使用 `bin/rails` 而不是 `rails`](https://stackoverflow.com/questions/25334160/what-is-the-difference-between-rails-vs-bin-rails)
 	- ```bash
 	  bin/rails server
 	  ```
