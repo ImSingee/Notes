@@ -30,4 +30,44 @@ alias:: Kth Largest Sum in a Binary Tree
 		- `1 <= Node.val <= 106`
 		- `1 <= k <= n`
 - # 解
-	- #TODO
+	- ```go
+	  /**
+	   * Definition for a binary tree node.
+	   * type TreeNode struct {
+	   *     Val int
+	   *     Left *TreeNode
+	   *     Right *TreeNode
+	   * }
+	   */
+	  func kthLargestLevelSum(root *TreeNode, k int) int64 {
+	      
+	      queue := make([]*TreeNode, 0, k)
+	      queue = append(queue, root)
+	      
+	      sums := make([]int, 0, 64)
+	      
+	      for len(queue) > 0 {
+	          n := len(queue)
+	          s := 0
+	          for i := 0; i < n; i++ {
+	              s += queue[i].Val
+	              if queue[i].Left != nil {
+	                  queue = append(queue, queue[i].Left)
+	              }
+	              if queue[i].Right != nil {
+	                  queue = append(queue, queue[i].Right)
+	              }
+	          }
+	          sums = append(sums, s)
+	          queue = queue[n:]
+	      }
+	      
+	      if len(sums) < k {
+	          return -1
+	      }
+	      
+	      sort.Ints(sums)
+	      
+	      return int64(sums[len(sums)-k])
+	  }
+	  ```

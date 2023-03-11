@@ -1,6 +1,6 @@
 - #Leetcode-Weekly-Contest #2023LCWT
 -
-- TODO [[递枕头]]
-- TODO [[二叉树中的第 K 大层和]]
+- DONE [[递枕头]]
+- DONE [[二叉树中的第 K 大层和]]
 - TODO [[分割数组使乘积互质]]
 - TODO [[获得分数的方法数]]
