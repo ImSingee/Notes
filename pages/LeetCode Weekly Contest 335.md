@@ -2,5 +2,5 @@
 -
 - TODO [[递枕头]]
 - TODO [[二叉树中的第 K 大层和]]
-- split-the-array-to-make-coprime-products
-- number-of-ways-to-earn-points
+- TODO [[分割数组使乘积互质]]
+- TODO [[获得分数的方法数]]
