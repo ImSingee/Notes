@@ -1,1 +1,3 @@
 - #CruelFundamental #[[2023-03-13]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202303/13) #计算机网络
+-
+- 2MSL 是一个来回的时间，即发送消息过去 + 对端 ACK 的时间
