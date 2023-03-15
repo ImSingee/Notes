@@ -2,7 +2,7 @@
 	- 我的博客 [Origin](https://blog.singee.me) | [RSS 订阅](https://blog.singee.me/atom.xml)
 	- 我的碎碎念 [Memos](https://x.singee.me/) | [Twitter @imsingee](https://twitter.com/imsingee)
 	- 我的动态 [Singee 的日常](https://t.singee.me/) | [订阅](https://rsshub.app/telegram/channel/singee_daily)
-	- 我的知识库 [Singee's 知识库](https://base.singee.me)
+	- 我的知识库 [Singee's 知识库](https://base.singee.me) | [[工具箱]]
 	- 我的阅读 [[每日阅读]] | [精选分享](https://pinfive.today/@bryan) | [订阅](https://pinfive.today/@bryan/feed/)
 	- 我的笔记 [Singee's Notes](https://notes.singee.me) | [内容讨论](https://github.com/ImSingee/Notes/discussions) | [反馈错误](https://github.com/ImSingee/Notes/issues/new)（其实就是现在这个页面）
 	- 我的高亮 [Bryan's Highlights](https://highlights.singee.me) | [订阅](https://readwise.io/@singee)
