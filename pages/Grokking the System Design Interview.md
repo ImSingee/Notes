@@ -78,6 +78,7 @@
 			- **Pull or Push?**
 				- **Hybrid:** We can adopt a hybrid approach. We can move all the users who have a high number of followers to a pull-based model and only push data to those who have a few hundred (or thousand) follows. Another approach could be that the server pushes updates to all the users not more than a certain frequency and letting users with a lot of followers/updates to pull data regularly.
 	- ### Designing Dropbox
+	  collapsed:: true
 		- **Availability:** The motto of cloud storage services is to have data availability anywhere, anytime. Users can access their files/photos from any device whenever and wherever they like.
 		- **Reliability and Durability:** Another benefit of cloud storage is that it offers 100% reliability and durability of data. Cloud storage ensures that users will never lose their data by keeping multiple copies of the data stored on different geographically located servers.
 		- **Requirements**, **Some Design Considerations**
@@ -135,6 +136,7 @@
 			- To scale out metadata DB, we need to partition it so that it can store information about millions of users and billions of files/chunks.
 		-
 	- ### Designing Facebook Messenger
+	  collapsed:: true
 		- Messenger’s high availability is desirable; we can tolerate lower availability in the interest of consistency.
 		- **Messages Handling**
 			- **How would we efficiently send/receive messages?**
@@ -351,6 +353,7 @@
 		- **How can we return most popular places within a given radius?**
 			- Let’s assume we keep track of the overall popularity of each place. An aggregated number can represent this popularity in our system, e.g., how many stars a place gets out of ten (this would be an average of different rankings given by users)? We will store this number in the database as well as in the QuadTree. While searching for the top 100 places within a given radius, we can ask each partition of the QuadTree to return the top 100 places with maximum popularity. Then the aggregator server can determine the top 100 places among all the places returned by different partitions.
 	- ### Designing Uber backend
+	  collapsed:: true
 		- **Requirements**
 			- Passengers get to see all the nearby available drivers. Customer can request a ride; nearby drivers are notified that a customer is ready to be picked up.
 			- Once a customer puts in a request for a ride, the system should be able to contact drivers in real-time.

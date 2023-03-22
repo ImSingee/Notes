@@ -1,0 +1,3 @@
+- #CruelFundamental #2023-03-18 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202303/18) #计算机网络
+-
+- 多个连续的包可以被 TCP 自由的重组

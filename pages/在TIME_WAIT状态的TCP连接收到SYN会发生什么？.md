@@ -1,0 +1,4 @@
+- #CruelFundamental #2023-03-22 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202303/22) #计算机网络
+-
+- 如果源端口和 ISN 相同，则忽略
+- 如有任何一个不同，则创建新连接

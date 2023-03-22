@@ -1,0 +1,3 @@
+- #CruelFundamental #2023-03-19 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202303/19) #计算机网络
+-
+- 如果序列号是固定或可预测的，攻击者可能会更容易进行会话劫持或欺骗攻击。例如，攻击者可能通过预测序列号插入伪造的数据包或者中断已有的 TCP 连接。使用随机化的初始序列号可以降低这种风险。

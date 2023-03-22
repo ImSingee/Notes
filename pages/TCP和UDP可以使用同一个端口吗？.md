@@ -1,0 +1,5 @@
+- #CruelFundamental #2023-03-20 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202303/20) #计算机网络
+-
+- 可以
+-
+- Linux 使用三元组来决定 Listen 是否冲突：Protocol、IP、Port，当 Protocol 不同时，可以使用同一个端口
