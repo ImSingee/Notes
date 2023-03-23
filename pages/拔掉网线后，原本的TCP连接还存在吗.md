@@ -1,1 +1,5 @@
 - #CruelFundamental #2023-03-23 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202303/23) #计算机网络
+-
+- 存在。所谓的「TCP 连接」实际上并非物理概念，只是一个五元组。
+-
+- 拔掉网线后，一切均不影响，TCP 连接仍然存在
