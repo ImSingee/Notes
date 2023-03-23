@@ -1,3 +1,5 @@
 - #CruelFundamental #2022-11-01 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202211/01) #计算机网络
 -
-- TCP 中双方通过使用序列号来跟踪他们发送的内容，接收方需要确认
+- TCP 中双方通过使用序列号来跟踪他们发送的内容，接收方需要确认发送方随机生成的 ISN
+-
+- 如果是两次握手，请求接收方的 ISN 就无法被确认了
