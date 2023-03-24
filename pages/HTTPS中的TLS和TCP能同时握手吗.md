@@ -1,3 +1,5 @@
 - #CruelFundamental #2023-03-24 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202303/24) #计算机网络
 -
-- 可以，TLS 1.3 引入了 0-
+- 严格意义上不可以，因为 TLS 是在 TCP 之下的，需要建立好 TCP 连接后才能进行 TLS 握手。
+-
+- 但是，为了降低 TLS 的开销，一个聪明的手段是利用 TCPTLS 1.3 引入了 0-RTT 模式就是将 TLS 的握手信息融入了 TCP 中
