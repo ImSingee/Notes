@@ -70,4 +70,5 @@ collapsed:: true
 	- Avro 也使用模式来指定正在编码的数据的结构。
 	- 它有两种模式语言：一种（Avro IDL）用于人工编辑，一种（基于 JSON）更易于机器读取。
 	- 模式中没有标签号码
-	-
+	- **Writer模式与Reader模式**
+		- #TODO https://github.com/Vonng/ddia/blob/master/ch4.md#writer%E6%A8%A1%E5%BC%8F%E4%B8%8Ereader%E6%A8%A1%E5%BC%8F
