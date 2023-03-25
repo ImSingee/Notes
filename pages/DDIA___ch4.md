@@ -54,5 +54,10 @@ collapsed:: true
 		- 编码与 JSON/XML 的二进制变体相比，最大的区别是**没有字段名**，相反，编码数据**包含字段标签**（定义中出现的数字）
 		- Thrift
 			- 包括 BinaryProtocol 和 CompactProtocol
-			- CompactProtocol 相比于
+			- CompactProtocol 相比于 BinaryProtocol 编码结果更短
+				- 将字段类型和标签号打包到单个字节中（BinaryProtocol 是分开的）
+				- 并使用可变长度整数（BinaryProtocol 是定长的）
+		- Protocol Buffers
+			- 与 Thrift CompactProtocol 类似
+			-
 ### Avro
