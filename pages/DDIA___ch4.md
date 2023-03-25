@@ -64,5 +64,7 @@ collapsed:: true
 				- 注：required 和 optional 定义是 PB2 中的，在 PB3 中一切都是 optional，另外在 PB3 中引入了另外一种单独的 optional 关键字（称为 experimental optional）
 		- 字段变更
 			- 添加字段：向前兼容需注意 required
-			- 删除字段：不能删除 required
+			- 删除字段：向前兼容需注意不能删除 required，同时需注意不能使用和旧标签相同的字段标签
+			- **改变数据类型**：**也许**可能，具体要看协议和编码实现
+			-
 ### Avro
