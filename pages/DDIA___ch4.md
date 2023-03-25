@@ -3,6 +3,7 @@
 - 从内存中表示到字节序列的转换称为 **编码（Encoding）** （也称为 **序列化（serialization）** 或 **编组（marshalling）**），反过来称为 **解码（Decoding）**（**解析（Parsing）**，**反序列化（deserialization）**，**反编组 (unmarshalling）**）。
 -
 ### 语言特定的格式
+collapsed:: true
 	- 许多编程语言都内建了将内存对象编码为字节序列的支持
 		- Java 有 `java.io.Serializable`
 		- Ruby 有 `Marshal`
@@ -14,6 +15,7 @@
 		- 效率（编码或解码所花费的 CPU 时间，以及编码结构的大小）往往也是事后才考虑的。
 	- 除非临时使用，采用语言内置编码通常是一个**坏主意**。\
 ### JSON、XML和二进制变体
+collapsed:: true
 	- JSON，XML 和 CSV 属于文本格式，因此具有人类可读性（尽管它们的语法是一个热门争议话题）
 		- **数字（numbers）** 编码有很多模糊之处。在 XML 和 CSV 中，无法区分数字和碰巧由数字组成的字符串（除了引用外部模式）。 JSON 虽然区分字符串与数字，但并不区分整数和浮点数，并且不能指定精度。
 		- JSON 和 XML 对 Unicode 字符串（即人类可读的文本）有很好的支持，但是它们不支持二进制数据（即不带 **字符编码（character encoding）** 的字节序列）。
@@ -31,5 +33,7 @@
 			- 因为无法省略字段名称，因此实际上压缩比例相当有限
 				- 空间节省了一丁点（以及解析加速）是否能弥补可读性的损失，谁也说不准。
 ### Thrift与Protocol Buffers
-	-
+	- Apache Thrift 和 Protocol Buffers（protobuf）是基于相同原理的二进制编码库。
+	- Protocol Buffers 最初是在 Google 开发的，Thrift 最初是在 Facebook 开发的。
+	- Thrift 和 Protocol Buffers 都需要一个模式来编码任何数据，都需要提前
 ### Avro
