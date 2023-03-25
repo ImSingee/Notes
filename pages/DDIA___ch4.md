@@ -52,5 +52,7 @@ collapsed:: true
 		  ```
 		- Thrift 和 Protocol Buffers 每一个都带有一个代码生成工具，它采用了类似于这里所示的模式定义，并且生成了以各种编程语言实现模式的类。你的应用程序代码可以调用此生成的代码来对模式的记录进行编码或解码。
 		- 编码与 JSON/XML 的二进制变体相比，最大的区别是**没有字段名**，相反，编码数据**包含字段标签**（定义中出现的数字）
-		-
+		- Thrift
+			- 包括 BinaryProtocol 和 CompactProtocol
+			- CompactProtocol 相比于
 ### Avro
