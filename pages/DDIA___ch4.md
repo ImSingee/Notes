@@ -59,5 +59,8 @@ collapsed:: true
 				- 并使用可变长度整数（BinaryProtocol 是定长的）
 		- Protocol Buffers
 			- 与 Thrift CompactProtocol 类似
+			- required 和 optional 对于二进制编码没有影响
+				- 采用运行时检查
+				- 注：required 和 optional 定义是 PB2 中的，在 PB3 中一切都是 optional，另外在 PB3 中引入了另外一种单独的 optional 关键字（称为 experimental optional）
 			-
 ### Avro
