@@ -35,5 +35,21 @@ collapsed:: true
 ### Thrift与Protocol Buffers
 	- Apache Thrift 和 Protocol Buffers（protobuf）是基于相同原理的二进制编码库。
 	- Protocol Buffers 最初是在 Google 开发的，Thrift 最初是在 Facebook 开发的。
-	- Thrift 和 Protocol Buffers 都需要一个模式来编码任何数据，都需要提前
+	- Thrift 和 Protocol Buffers 都需要一个模式来编码任何数据，都需要提前使用**接口定义语言（IDL）** 来描述模式。
+		- ```thrift
+		  struct Person {
+		      1: required string       userName,
+		      2: optional i64          favoriteNumber,
+		      3: optional list<string> interests
+		  }
+		  ```
+		- ```protobuf
+		  message Person {
+		      required string user_name       = 1;
+		      optional int64  favorite_number = 2;
+		      repeated string interests       = 3;
+		  }
+		  ```
+		- Thrift 和 Protocol Buffers 每一个都带有一个代码生成工具，它采用了类似于这里所示的模式定义，并且生成了以各种编程语言实现模式的类。你的应用程序代码可以调用此生成的代码来对模式的记录进行编码或解码。
+	-
 ### Avro
