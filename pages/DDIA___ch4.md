@@ -33,6 +33,7 @@ collapsed:: true
 			- 因为无法省略字段名称，因此实际上压缩比例相当有限
 				- 空间节省了一丁点（以及解析加速）是否能弥补可读性的损失，谁也说不准。
 ### Thrift与Protocol Buffers
+collapsed:: true
 	- Apache Thrift 和 Protocol Buffers（protobuf）是基于相同原理的二进制编码库。
 	- Protocol Buffers 最初是在 Google 开发的，Thrift 最初是在 Facebook 开发的。
 	- Thrift 和 Protocol Buffers 都需要一个模式来编码任何数据，都需要提前使用**接口定义语言（IDL）** 来描述模式。
