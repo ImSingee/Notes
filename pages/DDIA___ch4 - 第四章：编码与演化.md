@@ -1,3 +1,5 @@
+alias:: DDIA/ch4
+
 - [link](https://github.com/Vonng/ddia/blob/master/ch4.md)
 -
 - 从内存中表示到字节序列的转换称为 **编码（Encoding）** （也称为 **序列化（serialization）** 或 **编组（marshalling）**），反过来称为 **解码（Decoding）**（**解析（Parsing）**，**反序列化（deserialization）**，**反编组 (unmarshalling）**）。
