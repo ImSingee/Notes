@@ -93,5 +93,9 @@ collapsed:: true
 		- ![](https://github.com/Vonng/ddia/raw/master/img/fig4-5.png)
 		- 这是我们所见过的所有编码中最紧凑的
 		- 没有什么可以识别字段或其数据类型，编码只是由连在一起的值组成
-	- **Writer模式与Reader模式**
-		- #TODO https://github.com/Vonng/ddia/blob/master/ch4.md#writer%E6%A8%A1%E5%BC%8F%E4%B8%8Ereader%E6%A8%A1%E5%BC%8F
+			- 一个字符串只是一个长度前缀，后跟 UTF-8 字节；但是在被包含的数据中没有任何内容告诉你它是一个字符串
+		- 如果读取数据的代码使用与写入数据的代码完全相同的模式，才能正确解码二进制数据。Reader 和 Writer 之间的模式不匹配意味着错误地解码数据。
+	- 模式演变
+		- Avro 的关键思想是 Writer 模式和 Reader 模式不必是相同的 - 他们只需要兼容。
+		- **Writer模式与Reader模式**
+			- #TODO https://github.com/Vonng/ddia/blob/master/ch4.md#writer%E6%A8%A1%E5%BC%8F%E4%B8%8Ereader%E6%A8%A1%E5%BC%8F
