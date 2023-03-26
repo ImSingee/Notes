@@ -1,3 +1,3 @@
 - #CruelFundamental #2023-03-26 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202303/26) #计算机网络
 -
-- 可以：accept 时只是从系统中取出一条已经建立好的连接，而
+- 可以：accept 时只是从系统中取出一条已经建立好的连接，而 TCP 连接的建立过程完全处于内核中完成，与是否 accept 无关
