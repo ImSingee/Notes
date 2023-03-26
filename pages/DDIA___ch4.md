@@ -2,130 +2,133 @@
 -
 - 从内存中表示到字节序列的转换称为 **编码（Encoding）** （也称为 **序列化（serialization）** 或 **编组（marshalling）**），反过来称为 **解码（Decoding）**（**解析（Parsing）**，**反序列化（deserialization）**，**反编组 (unmarshalling）**）。
 -
-### 语言特定的格式
-collapsed:: true
-	- 许多编程语言都内建了将内存对象编码为字节序列的支持
-		- Java 有 `java.io.Serializable`
-		- Ruby 有 `Marshal`
-		- Python 有 `pickle`
-	- 这些编码库非常方便。但是有一些深层次的问题
-		- 通常与特定的编程语言深度绑定，其他语言很难读取这种数据
-		- 为了恢复相同对象类型的数据，解码过程需要 **实例化任意类** 的能力，这通常是安全问题的一个来源
-		- 在这些库中，数据版本控制通常是事后才考虑的。因为它们旨在快速简便地对数据进行编码，所以往往忽略了前向后向兼容性带来的麻烦问题。
-		- 效率（编码或解码所花费的 CPU 时间，以及编码结构的大小）往往也是事后才考虑的。
-	- 除非临时使用，采用语言内置编码通常是一个**坏主意**。\
-### JSON、XML和二进制变体
-collapsed:: true
-	- JSON，XML 和 CSV 属于文本格式，因此具有人类可读性（尽管它们的语法是一个热门争议话题）
-		- **数字（numbers）** 编码有很多模糊之处。在 XML 和 CSV 中，无法区分数字和碰巧由数字组成的字符串（除了引用外部模式）。 JSON 虽然区分字符串与数字，但并不区分整数和浮点数，并且不能指定精度。
-		- JSON 和 XML 对 Unicode 字符串（即人类可读的文本）有很好的支持，但是它们不支持二进制数据（即不带 **字符编码（character encoding）** 的字节序列）。
-			- 人们通过使用 Base64 将二进制数据编码为文本来绕过此限制。其特有的模式标识着这个值应当被解释为 Base64 编码的二进制数据。这种方案虽然管用，但比较 Hacky，并且会增加三分之一的数据大小。
-		- 模式（可以理解为类型定义）
-			- XML 【11】和 JSON 【12】都有可选的模式支持。
-			- 这些模式语言相当强大，所以学习和实现起来都相当复杂。
-			- XML 模式的使用相当普遍，但许多基于 JSON 的工具才不会去折腾模式。对数据的正确解读（例如区分数值与二进制串）取决于模式中的信息，因此不使用 XML/JSON 模式的应用程序可能需要对相应的编码 / 解码逻辑进行硬编码。
-			- CSV 没有任何模式，因此每行和每列的含义完全由应用程序自行定义。如果应用程序变更添加了新的行或列，那么这种变更必须通过手工处理。 CSV 也是一个相当模糊的格式（如果一个值包含逗号或换行符，会发生什么？）。尽管其转义规则已经被正式指定【13】，但并不是所有的解析器都正确的实现了标准。
-	- 二进制编码
-		- 对于仅在组织内部使用的数据，使用最小公约数式的编码格式压力较小。例如，可以选择更紧凑或更快的解析格式。虽然对小数据集来说，收益可以忽略不计；但一旦达到 TB 级别，数据格式的选型就会产生巨大的影响。
-		- JSON 比 XML 简洁，但与二进制格式相比还是太占空间。这一事实导致大量二进制编码版本 JSON（MessagePack、BSON、BJSON、UBJSON、BISON 和 Smile 等） 和 XML（例如 WBXML 和 Fast Infoset）的出现。
-			- 这些格式中的一些扩展了一组数据类型（例如，区分整数和浮点数，或者增加对二进制字符串的支持）
-			- 另一方面，它们没有改变 JSON / XML 的数据模型。特别是由于它们没有规定模式，所以它们需要在编码数据中包含所有的对象字段名称
-			- 因为无法省略字段名称，因此实际上压缩比例相当有限
-				- 空间节省了一丁点（以及解析加速）是否能弥补可读性的损失，谁也说不准。
-### Thrift与Protocol Buffers
-collapsed:: true
-	- Apache Thrift 和 Protocol Buffers（protobuf）是基于相同原理的二进制编码库。
-	- Protocol Buffers 最初是在 Google 开发的，Thrift 最初是在 Facebook 开发的。
-	- Thrift 和 Protocol Buffers 都需要一个模式来编码任何数据，都需要提前使用**接口定义语言（IDL）** 来描述模式。
-		- ```thrift
-		  struct Person {
-		      1: required string       userName,
-		      2: optional i64          favoriteNumber,
-		      3: optional list<string> interests
-		  }
-		  ```
-		- ```protobuf
-		  message Person {
-		      required string user_name       = 1;
-		      optional int64  favorite_number = 2;
-		      repeated string interests       = 3;
-		  }
-		  ```
-		- Thrift 和 Protocol Buffers 每一个都带有一个代码生成工具，它采用了类似于这里所示的模式定义，并且生成了以各种编程语言实现模式的类。你的应用程序代码可以调用此生成的代码来对模式的记录进行编码或解码。
-		- 编码与 JSON/XML 的二进制变体相比，最大的区别是**没有字段名**，相反，编码数据**包含字段标签**（定义中出现的数字）
-		- Thrift
-			- 包括 BinaryProtocol 和 CompactProtocol
-			- CompactProtocol 相比于 BinaryProtocol 编码结果更短
-				- 将字段类型和标签号打包到单个字节中（BinaryProtocol 是分开的）
-				- 并使用可变长度整数（BinaryProtocol 是定长的）
-		- Protocol Buffers
-			- 与 Thrift CompactProtocol 类似
-			- required 和 optional 对于二进制编码没有影响
-				- 采用运行时检查
-				- 注：required 和 optional 定义是 PB2 中的，在 PB3 中一切都是 optional，另外在 PB3 中引入了另外一种单独的 optional 关键字（称为 experimental optional）
-		- 字段变更
-			- 添加字段：向前兼容需注意 required
-			- 删除字段：向前兼容需注意不能删除 required，同时需注意不能使用和旧标签相同的字段标签
-			- **改变数据类型**：**也许**可能，具体要看协议和编码实现
-### Avro
-collapsed:: true
-	- Avro 也使用模式来指定正在编码的数据的结构。
-	- 它有两种模式语言：一种（Avro IDL）用于人工编辑，一种（基于 JSON）更易于机器读取。
-	- 模式中没有标签号码
-		- ```avro
-		  record Person {
-		      string                userName;
-		      union { null, long }  favoriteNumber = null;
-		      array<string>         interests;
-		  }
-		  ```
-		- ```json
-		  {
-		      "type": "record",
-		      "name": "Person",
-		      "fields": [
-		          {"name": "userName", "type": "string"},
-		          {"name": "favoriteNumber", "type": ["null", "long"], "default": null},
-		          {"name": "interests", "type": {"type": "array", "items": "string"}}
-		      ]
-		  }
-		  ```
-	- 编解码
-		- ![](https://github.com/Vonng/ddia/raw/master/img/fig4-5.png)
-		- 这是我们所见过的所有编码中最紧凑的
-		- 没有什么可以识别字段或其数据类型，编码只是由连在一起的值组成
-			- 一个字符串只是一个长度前缀，后跟 UTF-8 字节；但是在被包含的数据中没有任何内容告诉你它是一个字符串
-		- 如果读取数据的代码使用与写入数据的代码完全相同的模式，才能正确解码二进制数据。Reader 和 Writer 之间的模式不匹配意味着错误地解码数据。
-	- 模式演变
-		- Avro 的关键思想是 Writer 模式和 Reader 模式不必是相同的 - 他们只需要兼容。
-		- 当数据解码（读取）时，Avro 库通过**并排查看 Writer 模式和 Reader 模式**并**将数据从 Writer 模式转换到 Reader 模式**来解决差异
-			- ![](https://github.com/Vonng/ddia/raw/master/img/fig4-6.png)
-			- 如果 Writer 模式和 Reader 模式的字段顺序不同，这是没有问题的，因为模式解析通过字段名匹配字段
-			- 如果读取数据的代码遇到出现在 Writer 模式中但不在 Reader 模式中的字段，则忽略它
-			- 如果读取数据的代码需要某个字段，但是 Writer 模式不包含该名称的字段，则使用在 Reader 模式中声明的默认值填充。
-		- **模式演变规则**
-			- 兼容性
-				- 向前兼容性意味着你可以将新版本的模式作为 Writer，并将旧版本的模式作为 Reader
-				- 向后兼容意味着你可以有一个作为 Reader 的新版本模式和作为 Writer 的旧版本模式
-			- 为了保持兼容性，你只能添加或删除具有默认值的字段
-				- 如果你要添加一个没有默认值的字段，新的 Reader 将无法读取旧 Writer 写的数据，所以你会破坏向后兼容性
-				- 如果你要删除没有默认值的字段，旧的 Reader 将无法读取新 Writer 写入的数据，因此你会打破向前兼容性
-			- 改变字段的数据类型
-				- 只要 Avro 可以支持相应的类型转换，就可以改变字段的数据类型
-			- 更改字段的名称
-				- Reader 模式可以包含字段名称的别名，所以它可以匹配旧 Writer 的模式字段名称与别名
-				- 这意味着更改字段名称是向后兼容的，但不能向前兼容
-		- 如何记录 Writer 模式？
-			- TL;DR：存储在外部，与 Avro 编码无关
-			- 有很多记录的大文件：
-				- 可以在文件的开头只包含一次 Writer 模式
-			- 数据库：
-				- 增加版本号字段
-			- RPC：
-				- 利用 RPC Meta
-### 模式的优点
-	- 保持了与 JSON 数据库提供的无模式 / 读时模式相同的灵活性，同时还可以更好地保证你的数据并提供更好的工具
-		- 它们可以比各种 “二进制 JSON” 变体更紧凑，因为它们可以省略编码数据中的字段名称。
-		- 模式是一种有价值的文档形式，因为模式是解码所必需的，所以可以确定它是最新的（而手动维护的文档可能很容易偏离现实）。
-		- 维护一个模式的数据库允许你在部署任何内容之前检查模式更改的向前和向后兼容性。
-		- 对于静态类型编程语言的用户来说，从模式生成代码的能力是有用的，因为它可以在编译时进行类型检查。
+## 编码数据的格式
+	- ### 语言特定的格式
+	  collapsed:: true
+		- 许多编程语言都内建了将内存对象编码为字节序列的支持
+			- Java 有 `java.io.Serializable`
+			- Ruby 有 `Marshal`
+			- Python 有 `pickle`
+		- 这些编码库非常方便。但是有一些深层次的问题
+			- 通常与特定的编程语言深度绑定，其他语言很难读取这种数据
+			- 为了恢复相同对象类型的数据，解码过程需要 **实例化任意类** 的能力，这通常是安全问题的一个来源
+			- 在这些库中，数据版本控制通常是事后才考虑的。因为它们旨在快速简便地对数据进行编码，所以往往忽略了前向后向兼容性带来的麻烦问题。
+			- 效率（编码或解码所花费的 CPU 时间，以及编码结构的大小）往往也是事后才考虑的。
+		- 除非临时使用，采用语言内置编码通常是一个**坏主意**。\
+	- ### JSON、XML和二进制变体
+	  collapsed:: true
+		- JSON，XML 和 CSV 属于文本格式，因此具有人类可读性（尽管它们的语法是一个热门争议话题）
+			- **数字（numbers）** 编码有很多模糊之处。在 XML 和 CSV 中，无法区分数字和碰巧由数字组成的字符串（除了引用外部模式）。 JSON 虽然区分字符串与数字，但并不区分整数和浮点数，并且不能指定精度。
+			- JSON 和 XML 对 Unicode 字符串（即人类可读的文本）有很好的支持，但是它们不支持二进制数据（即不带 **字符编码（character encoding）** 的字节序列）。
+				- 人们通过使用 Base64 将二进制数据编码为文本来绕过此限制。其特有的模式标识着这个值应当被解释为 Base64 编码的二进制数据。这种方案虽然管用，但比较 Hacky，并且会增加三分之一的数据大小。
+			- 模式（可以理解为类型定义）
+				- XML 【11】和 JSON 【12】都有可选的模式支持。
+				- 这些模式语言相当强大，所以学习和实现起来都相当复杂。
+				- XML 模式的使用相当普遍，但许多基于 JSON 的工具才不会去折腾模式。对数据的正确解读（例如区分数值与二进制串）取决于模式中的信息，因此不使用 XML/JSON 模式的应用程序可能需要对相应的编码 / 解码逻辑进行硬编码。
+				- CSV 没有任何模式，因此每行和每列的含义完全由应用程序自行定义。如果应用程序变更添加了新的行或列，那么这种变更必须通过手工处理。 CSV 也是一个相当模糊的格式（如果一个值包含逗号或换行符，会发生什么？）。尽管其转义规则已经被正式指定【13】，但并不是所有的解析器都正确的实现了标准。
+		- 二进制编码
+			- 对于仅在组织内部使用的数据，使用最小公约数式的编码格式压力较小。例如，可以选择更紧凑或更快的解析格式。虽然对小数据集来说，收益可以忽略不计；但一旦达到 TB 级别，数据格式的选型就会产生巨大的影响。
+			- JSON 比 XML 简洁，但与二进制格式相比还是太占空间。这一事实导致大量二进制编码版本 JSON（MessagePack、BSON、BJSON、UBJSON、BISON 和 Smile 等） 和 XML（例如 WBXML 和 Fast Infoset）的出现。
+				- 这些格式中的一些扩展了一组数据类型（例如，区分整数和浮点数，或者增加对二进制字符串的支持）
+				- 另一方面，它们没有改变 JSON / XML 的数据模型。特别是由于它们没有规定模式，所以它们需要在编码数据中包含所有的对象字段名称
+				- 因为无法省略字段名称，因此实际上压缩比例相当有限
+					- 空间节省了一丁点（以及解析加速）是否能弥补可读性的损失，谁也说不准。
+	- ### Thrift与Protocol Buffers
+	  collapsed:: true
+		- Apache Thrift 和 Protocol Buffers（protobuf）是基于相同原理的二进制编码库。
+		- Protocol Buffers 最初是在 Google 开发的，Thrift 最初是在 Facebook 开发的。
+		- Thrift 和 Protocol Buffers 都需要一个模式来编码任何数据，都需要提前使用**接口定义语言（IDL）** 来描述模式。
+			- ```thrift
+			  struct Person {
+			      1: required string       userName,
+			      2: optional i64          favoriteNumber,
+			      3: optional list<string> interests
+			  }
+			  ```
+			- ```protobuf
+			  message Person {
+			      required string user_name       = 1;
+			      optional int64  favorite_number = 2;
+			      repeated string interests       = 3;
+			  }
+			  ```
+			- Thrift 和 Protocol Buffers 每一个都带有一个代码生成工具，它采用了类似于这里所示的模式定义，并且生成了以各种编程语言实现模式的类。你的应用程序代码可以调用此生成的代码来对模式的记录进行编码或解码。
+			- 编码与 JSON/XML 的二进制变体相比，最大的区别是**没有字段名**，相反，编码数据**包含字段标签**（定义中出现的数字）
+			- Thrift
+				- 包括 BinaryProtocol 和 CompactProtocol
+				- CompactProtocol 相比于 BinaryProtocol 编码结果更短
+					- 将字段类型和标签号打包到单个字节中（BinaryProtocol 是分开的）
+					- 并使用可变长度整数（BinaryProtocol 是定长的）
+			- Protocol Buffers
+				- 与 Thrift CompactProtocol 类似
+				- required 和 optional 对于二进制编码没有影响
+					- 采用运行时检查
+					- 注：required 和 optional 定义是 PB2 中的，在 PB3 中一切都是 optional，另外在 PB3 中引入了另外一种单独的 optional 关键字（称为 experimental optional）
+			- 字段变更
+				- 添加字段：向前兼容需注意 required
+				- 删除字段：向前兼容需注意不能删除 required，同时需注意不能使用和旧标签相同的字段标签
+				- **改变数据类型**：**也许**可能，具体要看协议和编码实现
+	- ### Avro
+	  collapsed:: true
+		- Avro 也使用模式来指定正在编码的数据的结构。
+		- 它有两种模式语言：一种（Avro IDL）用于人工编辑，一种（基于 JSON）更易于机器读取。
+		- 模式中没有标签号码
+			- ```avro
+			  record Person {
+			      string                userName;
+			      union { null, long }  favoriteNumber = null;
+			      array<string>         interests;
+			  }
+			  ```
+			- ```json
+			  {
+			      "type": "record",
+			      "name": "Person",
+			      "fields": [
+			          {"name": "userName", "type": "string"},
+			          {"name": "favoriteNumber", "type": ["null", "long"], "default": null},
+			          {"name": "interests", "type": {"type": "array", "items": "string"}}
+			      ]
+			  }
+			  ```
+		- 编解码
+			- ![](https://github.com/Vonng/ddia/raw/master/img/fig4-5.png)
+			- 这是我们所见过的所有编码中最紧凑的
+			- 没有什么可以识别字段或其数据类型，编码只是由连在一起的值组成
+				- 一个字符串只是一个长度前缀，后跟 UTF-8 字节；但是在被包含的数据中没有任何内容告诉你它是一个字符串
+			- 如果读取数据的代码使用与写入数据的代码完全相同的模式，才能正确解码二进制数据。Reader 和 Writer 之间的模式不匹配意味着错误地解码数据。
+		- 模式演变
+			- Avro 的关键思想是 Writer 模式和 Reader 模式不必是相同的 - 他们只需要兼容。
+			- 当数据解码（读取）时，Avro 库通过**并排查看 Writer 模式和 Reader 模式**并**将数据从 Writer 模式转换到 Reader 模式**来解决差异
+				- ![](https://github.com/Vonng/ddia/raw/master/img/fig4-6.png)
+				- 如果 Writer 模式和 Reader 模式的字段顺序不同，这是没有问题的，因为模式解析通过字段名匹配字段
+				- 如果读取数据的代码遇到出现在 Writer 模式中但不在 Reader 模式中的字段，则忽略它
+				- 如果读取数据的代码需要某个字段，但是 Writer 模式不包含该名称的字段，则使用在 Reader 模式中声明的默认值填充。
+			- **模式演变规则**
+				- 兼容性
+					- 向前兼容性意味着你可以将新版本的模式作为 Writer，并将旧版本的模式作为 Reader
+					- 向后兼容意味着你可以有一个作为 Reader 的新版本模式和作为 Writer 的旧版本模式
+				- 为了保持兼容性，你只能添加或删除具有默认值的字段
+					- 如果你要添加一个没有默认值的字段，新的 Reader 将无法读取旧 Writer 写的数据，所以你会破坏向后兼容性
+					- 如果你要删除没有默认值的字段，旧的 Reader 将无法读取新 Writer 写入的数据，因此你会打破向前兼容性
+				- 改变字段的数据类型
+					- 只要 Avro 可以支持相应的类型转换，就可以改变字段的数据类型
+				- 更改字段的名称
+					- Reader 模式可以包含字段名称的别名，所以它可以匹配旧 Writer 的模式字段名称与别名
+					- 这意味着更改字段名称是向后兼容的，但不能向前兼容
+			- 如何记录 Writer 模式？
+				- TL;DR：存储在外部，与 Avro 编码无关
+				- 有很多记录的大文件：
+					- 可以在文件的开头只包含一次 Writer 模式
+				- 数据库：
+					- 增加版本号字段
+				- RPC：
+					- 利用 RPC Meta
+	- ### 模式的优点
+		- 保持了与 JSON 数据库提供的无模式 / 读时模式相同的灵活性，同时还可以更好地保证你的数据并提供更好的工具
+			- 它们可以比各种 “二进制 JSON” 变体更紧凑，因为它们可以省略编码数据中的字段名称。
+			- 模式是一种有价值的文档形式，因为模式是解码所必需的，所以可以确定它是最新的（而手动维护的文档可能很容易偏离现实）。
+			- 维护一个模式的数据库允许你在部署任何内容之前检查模式更改的向前和向后兼容性。
+			- 对于静态类型编程语言的用户来说，从模式生成代码的能力是有用的，因为它可以在编译时进行类型检查。
+## 数据流的类型
+	- #TODO https://github.com/Vonng/ddia/blob/master/ch4.md#%E6%95%B0%E6%8D%AE%E6%B5%81%E7%9A%84%E7%B1%BB%E5%9E%8B
