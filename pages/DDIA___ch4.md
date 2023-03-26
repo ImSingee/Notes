@@ -89,5 +89,9 @@ collapsed:: true
 		      ]
 		  }
 		  ```
+	- 编解码
+		- ![](https://github.com/Vonng/ddia/raw/master/img/fig4-5.png)
+		- 这是我们所见过的所有编码中最紧凑的
+		- 没有什么可以识别字段或其数据类型，编码只是由连在一起的值组成
 	- **Writer模式与Reader模式**
 		- #TODO https://github.com/Vonng/ddia/blob/master/ch4.md#writer%E6%A8%A1%E5%BC%8F%E4%B8%8Ereader%E6%A8%A1%E5%BC%8F
