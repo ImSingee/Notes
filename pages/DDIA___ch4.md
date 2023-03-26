@@ -97,6 +97,10 @@ collapsed:: true
 		- 如果读取数据的代码使用与写入数据的代码完全相同的模式，才能正确解码二进制数据。Reader 和 Writer 之间的模式不匹配意味着错误地解码数据。
 	- 模式演变
 		- Avro 的关键思想是 Writer 模式和 Reader 模式不必是相同的 - 他们只需要兼容。
-		- 当数据解码（读取）时，Avro 库通过并排查看 Writer 模式和 Reader 模式并将数据从 Writer 模式转换到 Reader 模式来解决差异
-		- Writer模式与Reader模式的相关性
-			-
+		- 当数据解码（读取）时，Avro 库通过**并排查看 Writer 模式和 Reader 模式**并**将数据从 Writer 模式转换到 Reader 模式**来解决差异
+			- ![](https://github.com/Vonng/ddia/raw/master/img/fig4-6.png)
+			- 如果 Writer 模式和 Reader 模式的字段顺序不同，这是没有问题的，因为模式解析通过字段名匹配字段
+			- 如果读取数据的代码遇到出现在 Writer 模式中但不在 Reader 模式中的字段，则忽略它
+			- 如果读取数据的代码需要某个字段，但是 Writer 模式不包含该名称的字段，则使用在 Reader 模式中声明的默认值填充。
+				-
+				-
