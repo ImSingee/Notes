@@ -1,2 +1,3 @@
 - #CruelFundamental #2023-03-27 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202303/27) #计算机网络
 -
+- 协议层可以保证，应用层当然不可以
