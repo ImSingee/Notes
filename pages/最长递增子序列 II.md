@@ -1,0 +1,35 @@
+alias:: Longest Increasing Subsequence II
+
+- #CruelCoding #2023-03-27 #Hard #[[Segment Tree]] [讲解](https://youtu.be/0ZzLjZ9eUR4) Rating-2280
+- #Algorithm #Hard #[[线段树]] #[[动态规划]] #[[分治]] #[[树状数组]] #[[数组]] #[[队列]] #[[单调队列]]
+- #Leetcode #Leetcode-2407 [LC国际](https://leetcode.com/problems/longest-increasing-subsequence-ii/) [LC中国](https://leetcode.cn/problems/longest-increasing-subsequence-ii/)
+- # 题目
+	- 给你一个整数数组 `nums` 和一个整数 `k` 。
+	- 找到 `nums` 中满足以下要求的最长子序列：
+	- 子序列 **严格递增**
+	- 子序列中相邻元素的差值 **不超过** `k` 。
+	- 请你返回满足上述要求的 **最长子序列** 的长度。
+	- **子序列** 是从一个数组中删除部分元素后，剩余元素不改变顺序得到的数组。
+	-
+	- **示例 1：**
+		- **输出：**5
+		- **解释：**
+		- 满足要求的最长子序列是 [1,3,4,5,8] 。
+		- 子序列长度为 5 ，所以我们返回 5 。
+		- 注意子序列 [1,3,4,5,8,15] 不满足要求，因为 15 - 8 = 7 大于 3 。
+	- **示例 2：**
+		- **输出：**4
+		- **解释：**
+		- 满足要求的最长子序列是 [4,5,8,12] 。
+		- 子序列长度为 4 ，所以我们返回 4 。
+	- **示例 3：**
+		- **输出：**1
+		- **解释：**
+		- 满足要求的最长子序列是 [1] 。
+		- 子序列长度为 1 ，所以我们返回 1 。
+		-
+	- **提示：**
+		- `1 <= nums.length <= 105`
+		- `1 <= nums[i], k <= 105`
+- # 解
+	- #TODO
