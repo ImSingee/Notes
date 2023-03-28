@@ -26,4 +26,5 @@ alias:: DDIA/ch2
 			- 像 ActiveRecord 和 Hibernate 这样的 **对象关系映射（ORM object-relational mapping）** 框架可以减少这个转换层所需的样板代码的数量，但是它们不能完全隐藏这两个模型之间的差异
 		- JSON 模型*可能*减少了应用程序代码和存储层之间的阻抗不匹配
 			- 缺乏一个模式可能也是一个优势
+			- JSON 表示比多表模式具有更好的 **局部性（locality）**
 			-
