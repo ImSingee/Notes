@@ -1,0 +1,8 @@
+- #CruelFundamental #2023-03-30 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202303/30) #计算机网络
+-
+- 完整问题：**既然打开 net.ipv4.tcp_tw_reuse 参数可以快速复用处于 TIME_WAIT 状态的 TCP 连接，那为什么 Linux 默认是关闭状态呢**
+	- 其实这题在变相问「**如果 TIME_WAIT 状态持续时间过短或者没有，会有什么问题？**」
+	- 因为开启 tcp_tw_reuse 参数可以快速复用处于 TIME_WAIT 状态的 TCP 连接时，相当于缩短了 TIME_WAIT 状态的持续时间。
+-
+-
+-
