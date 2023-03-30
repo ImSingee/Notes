@@ -1,3 +1,7 @@
 - #CruelFundamental #2023-03-29 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202303/29) #计算机网络
 -
 - 乱序队列
+-
+- 如果 FIN 报文比数据包先抵达客户端，此时 FIN 报文其实是一个乱序的报文，此时客户端的 TCP 连接**并不会**从 FIN_WAIT_2 状态转换到 TIME_WAIT 状态
+	- 数据包的 Seq 可以标识乱序的发生
+-
