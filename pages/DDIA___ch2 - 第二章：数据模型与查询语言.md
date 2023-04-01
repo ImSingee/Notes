@@ -74,6 +74,12 @@ alias:: DDIA/ch2
 				- Oracle 类似地允许使用一个称为 **多表索引集群表（multi-table index cluster tables）** 的类似特性
 				- Bigtable 数据模型（用于 Cassandra 和 HBase）中的 **列族（column-family）** 概念与管理局部性的目的类似
 		- **文档和关系数据库的融合**
+			- 越来越多的关系数据库增加了对于文档数据库的支持
+				- 大多数关系数据库系统（MySQL 除外）都已支持 XML
+				- 从 9.3 版本开始的 PostgreSQL ，从 5.7 版本开始的 MySQL 以及从版本 10.5 开始的 IBM DB2也对 JSON 文档提供了类似的支持级别
+			- 某些文档数据库也支持关系
+				- RethinkDB 在其查询语言中支持类似关系的连接
+				- 一些 MongoDB 驱动程序可以自动解析数据库引用（有效地执行客户端连接，尽管这可能比在数据库中执行的连接慢，需要额外的网络往返，并且优化更少）
 			-
 		- #TODO https://github.com/Vonng/ddia/blob/master/ch2.md#%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8E%E6%96%87%E6%A1%A3%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9C%A8%E4%BB%8A%E6%97%A5%E7%9A%84%E5%AF%B9%E6%AF%94
 		-
