@@ -62,5 +62,8 @@ alias:: DDIA/ch2
 					- 速度很慢，而且要求停运
 						- 大多数关系数据库系统可在几毫秒内执行 `ALTER TABLE` 语句。MySQL 是一个值得注意的例外，它执行 `ALTER TABLE` 时会复制整个表
 						- 大型表上运行 `UPDATE` 语句在任何数据库上都可能会很慢，因为每一行都需要重写
+			- 当由于某种原因（例如，数据是异构的）集合中的项目并不都具有相同的结构时，读时模式更具优势
+		- **查询的数据局部性**
+			-
 		- #TODO https://github.com/Vonng/ddia/blob/master/ch2.md#%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8E%E6%96%87%E6%A1%A3%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9C%A8%E4%BB%8A%E6%97%A5%E7%9A%84%E5%AF%B9%E6%AF%94
 		-
