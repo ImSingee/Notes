@@ -59,6 +59,8 @@ alias:: DDIA/ch2
 			- **模式变更**
 				- 文档数据库：写入新的模式数据、在读取时兼容旧的模式
 				- 关系数据库：SQL Migration
-					-
+					- 速度很慢，而且要求停运
+						- 大多数关系数据库系统可在几毫秒内执行 `ALTER TABLE` 语句。MySQL 是一个值得注意的例外，它执行 `ALTER TABLE` 时会复制整个表
+						- 大型表上运行 `UPDATE` 语句在任何数据库上都可能会很慢，因为每一行都需要重写
 		- #TODO https://github.com/Vonng/ddia/blob/master/ch2.md#%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8E%E6%96%87%E6%A1%A3%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9C%A8%E4%BB%8A%E6%97%A5%E7%9A%84%E5%AF%B9%E6%AF%94
 		-
