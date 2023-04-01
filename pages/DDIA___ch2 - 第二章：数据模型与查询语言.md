@@ -115,6 +115,7 @@ alias:: DDIA/ch2
 			- Gremlin 图查询语言
 			- Pregel 图处理框架（第十章）
 	- ### 属性图
+	  collapsed:: true
 		- 在属性图模型中
 			- 每个顶点（vertex）包括
 				- 唯一的标识符
@@ -128,6 +129,24 @@ alias:: DDIA/ch2
 				- 描述两个顶点之间关系类型的标签
 				- 一组属性（键值对）
 		- 可以将图存储看作由两个关系表组成：一个存储顶点，另一个存储边
-	- 利用 Postgres 的 JSON 扩展存储
-		- ```sql
-		  ```
+			- 利用 Postgres 的 JSON 扩展存储
+				- ```sql
+				  CREATE TABLE vertices (
+				    vertex_id  INTEGER PRIMARY KEY,
+				    properties JSON
+				  );
+				  
+				  CREATE TABLE edges (
+				    edge_id     INTEGER PRIMARY KEY,
+				    tail_vertex INTEGER REFERENCES vertices (vertex_id),
+				    head_vertex INTEGER REFERENCES vertices (vertex_id),
+				    label       TEXT,
+				    properties  JSON
+				  );
+				  
+				  CREATE INDEX edges_tails ON edges (tail_vertex);
+				  CREATE INDEX edges_heads ON edges (head_vertex);
+				  ```
+	- ### Cypher 查询语言
+		- Cypher 是属性图的声明式查询语言，为 Neo4j 图形数据库而发明
+		-
