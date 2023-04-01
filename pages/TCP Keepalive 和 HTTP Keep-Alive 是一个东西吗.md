@@ -1,3 +1,6 @@
 - #CruelFundamental #2023-03-31 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202303/31) #计算机网络
 -
+- 不是
 -
+- TCP Keep Alive 是 TCP 的一种自动保活机制，防止长时间的空闲连接实际上已经在一方被异常断开了
+- 而 HTTP Keep-Alive 是 HTTP 的一个机制，
