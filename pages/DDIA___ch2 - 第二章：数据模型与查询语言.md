@@ -105,4 +105,13 @@ alias:: DDIA/ch2
 		- 公路或铁路网络
 	- 有几种不同但相关的方法用来构建和查询图表中的数据
 		- 构建
-			-
+			- 属性图模型（由 Neo4j，Titan 和 InfiniteGraph 实现）
+			- 三元组存储（triple-store）模型（由 Datomic、AllegroGraph 等实现）
+		- 声明式查询语言
+			- Cypher
+			- SPARQL
+			- Datalog
+		- 其他
+			- Gremlin 图查询语言
+			- Pregel 图处理框架（第十章）
+	-
