@@ -235,4 +235,15 @@ alias:: DDIA/ch2
 			- 当谓语表示边时，该宾语是一个顶点，如 `_:idaho :within _:usa.`。当谓语是一个属性时，该宾语是一个字符串，如 `_:usa :name"United States"`
 			- 可以使用分号来说明关于同一主语的多个事情
 				- ```turtle
+				  @prefix : <urn:example:>.
+				  _:lucy      a :Person;   :name "Lucy";          :bornIn _:idaho.
+				  _:idaho     a :Location; :name "Idaho";         :type "state";   :within _:usa
+				  _:usa       a :Loaction; :name "United States"; :type "country"; :within _:namerica.
+				  _:namerica  a :Location; :name "North America"; :type "continent".
 				  ```
+		- **语义网**
+			- 如果你深入了解关于三元组存储的信息，可能会陷入关于**语义网**的讨论漩涡中
+			- 三元组存储模型其实是完全独立于语义网存在的；但是，由于在很多人眼中这两者紧密相连
+			- 语义网是一个简单且合理的想法：网站已经将信息发布为文字和图片供人类阅读，为什么不将信息作为机器可读的数据也发布给计算机呢？（基于三元组模型的）**资源描述框架**（**RDF**），被用作不同网站以统一的格式发布数据的一种机制，允许来自不同网站的数据自动合并成 **一个数据网络** —— 成为一种互联网范围内的 “通用语义网数据库”。
+			- #### RDF 数据模型
+			-
