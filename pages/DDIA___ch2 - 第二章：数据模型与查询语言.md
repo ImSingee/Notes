@@ -160,3 +160,6 @@ alias:: DDIA/ch2
 			    (Lucy)  -[:BORN_IN]-> (Idaho)
 			  ```
 			- ![](https://github.com/Vonng/ddia/raw/master/img/fig2-5.png)
+		- 查询（示例）：查找所有从美国移民到欧洲的人
+			- ```cypher
+			  ```
