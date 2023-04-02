@@ -213,4 +213,26 @@ alias:: DDIA/ch2
 			- 宾语
 				- 原始数据类型中的值，例如字符串或数字。在这种情况下，三元组的谓语和宾语相当于主语顶点上的属性的键和值。例如，`(lucy, age, 33)` 就像属性 `{“age”：33}` 的顶点 lucy。
 				- 图中的另一个顶点。在这种情况下，谓语是图中的一条边，主语是其尾部顶点，而宾语是其头部顶点。例如，在 `(lucy, marriedTo, alain)` 中主语和宾语 `lucy` 和 `alain` 都是顶点，并且谓语 `marriedTo` 是连接他们的边的标签。
-			-
+		- 表示（示例）
+			- ```turtle
+			  @prefix : <urn:example:>.
+			  _:lucy     a       :Person.
+			  _:lucy     :name   "Lucy".
+			  _:lucy     :bornIn _:idaho.
+			  _:idaho    a       :Location.
+			  _:idaho    :name   "Idaho".
+			  _:idaho    :type   "state".
+			  _:idaho    :within _:usa.
+			  _:usa      a       :Location
+			  _:usa      :name   "United States"
+			  _:usa      :type   "country".
+			  _:usa      :within _:namerica.
+			  _:namerica a       :Location
+			  _:namerica :name   "North America"
+			  _:namerica :type   :"continent"
+			  ```
+			- 图的顶点被写为：`_：someName`。这个名字并不意味着这个文件以外的任何东西。它的存在只是帮助我们明确哪些三元组引用了同一顶点。
+			- 当谓语表示边时，该宾语是一个顶点，如 `_:idaho :within _:usa.`。当谓语是一个属性时，该宾语是一个字符串，如 `_:usa :name"United States"`
+			- 可以使用分号来说明关于同一主语的多个事情
+				- ```turtle
+				  ```
