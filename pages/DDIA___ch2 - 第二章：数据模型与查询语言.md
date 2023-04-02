@@ -150,6 +150,7 @@ alias:: DDIA/ch2
 	- ### Cypher 查询语言
 		- Cypher 是属性图的声明式查询语言，为 Neo4j 图形数据库而发明
 		- 插入（示例）
+		  collapsed:: true
 			- ```cypher
 			  CREATE
 			    (NAmerica:Location {name:'North America', type:'continent'}),
@@ -161,5 +162,49 @@ alias:: DDIA/ch2
 			  ```
 			- ![](https://github.com/Vonng/ddia/raw/master/img/fig2-5.png)
 		- 查询（示例）：查找所有从美国移民到欧洲的人
+		  collapsed:: true
 			- ```cypher
+			  MATCH
+			    (person) -[:BORN_IN]->  () -[:WITHIN*0..]-> (us:Location {name:'United States'}),
+			    (person) -[:LIVES_IN]-> () -[:WITHIN*0..]-> (eu:Location {name:'Europe'})
+			  RETURN person.name
 			  ```
+		- 等价的 sql 查询
+		  collapsed:: true
+			- ```sql
+			  WITH RECURSIVE
+			    -- in_usa 包含所有的美国境内的位置 ID
+			      in_usa(vertex_id) AS (
+			      SELECT vertex_id FROM vertices WHERE properties ->> 'name' = 'United States'
+			      UNION
+			      SELECT edges.tail_vertex FROM edges
+			        JOIN in_usa ON edges.head_vertex = in_usa.vertex_id
+			        WHERE edges.label = 'within'
+			    ),
+			    -- in_europe 包含所有的欧洲境内的位置 ID
+			      in_europe(vertex_id) AS (
+			      SELECT vertex_id FROM vertices WHERE properties ->> 'name' = 'Europe'
+			      UNION
+			      SELECT edges.tail_vertex FROM edges
+			        JOIN in_europe ON edges.head_vertex = in_europe.vertex_id
+			        WHERE edges.label = 'within' ),
+			  
+			    -- born_in_usa 包含了所有类型为 Person，且出生在美国的顶点
+			      born_in_usa(vertex_id) AS (
+			        SELECT edges.tail_vertex FROM edges
+			          JOIN in_usa ON edges.head_vertex = in_usa.vertex_id
+			          WHERE edges.label = 'born_in' ),
+			  
+			    -- lives_in_europe 包含了所有类型为 Person，且居住在欧洲的顶点。
+			      lives_in_europe(vertex_id) AS (
+			        SELECT edges.tail_vertex FROM edges
+			          JOIN in_europe ON edges.head_vertex = in_europe.vertex_id
+			          WHERE edges.label = 'lives_in')
+			  
+			    SELECT vertices.properties ->> 'name'
+			    FROM vertices
+			      JOIN born_in_usa ON vertices.vertex_id = born_in_usa.vertex_id
+			      JOIN lives_in_europe ON vertices.vertex_id = lives_in_europe.vertex_id;
+			  ```
+		- 同一个查询，用某一个查询语言可以写成 4 行，而用另一个查询语言需要 29 行，这恰恰说明了不同的数据模型是为不同的应用场景而设计的。选择适合应用程序的数据模型非常重要。
+	-
