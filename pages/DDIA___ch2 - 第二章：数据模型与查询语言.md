@@ -208,6 +208,7 @@ alias:: DDIA/ch2
 			  ```
 		- 同一个查询，用某一个查询语言可以写成 4 行，而用另一个查询语言需要 29 行，这恰恰说明了不同的数据模型是为不同的应用场景而设计的。选择适合应用程序的数据模型非常重要。
 	- ### 三元组存储和 SPARQL
+	  collapsed:: true
 		- 在三元组存储中，所有信息都以非常简单的三部分表示形式存储（**主语**，**谓语**，**宾语**）。例如，三元组 **(吉姆, 喜欢, 香蕉)** 中，**吉姆** 是主语，**喜欢** 是谓语（动词），**香蕉** 是对象。
 			- 主语相当于图中的一个顶点
 			- 宾语
@@ -245,5 +246,33 @@ alias:: DDIA/ch2
 			- 如果你深入了解关于三元组存储的信息，可能会陷入关于**语义网**的讨论漩涡中
 			- 三元组存储模型其实是完全独立于语义网存在的；但是，由于在很多人眼中这两者紧密相连
 			- 语义网是一个简单且合理的想法：网站已经将信息发布为文字和图片供人类阅读，为什么不将信息作为机器可读的数据也发布给计算机呢？（基于三元组模型的）**资源描述框架**（**RDF**），被用作不同网站以统一的格式发布数据的一种机制，允许来自不同网站的数据自动合并成 **一个数据网络** —— 成为一种互联网范围内的 “通用语义网数据库”。
-			- #### RDF 数据模型
-			-
+			- **数据模型**
+				- Turtle 语言是一种用于 RDF 数据的人类可读格式。有时候，RDF 也可以以 XML 格式编写，不过完成同样的事情会相对啰嗦
+				- ```xml
+				  <rdf:RDF xmlns="urn:example:"
+				           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+				      <Location rdf:nodeID="idaho">
+				          <name>Idaho</name>
+				          <type>state</type>
+				          <within>
+				              <Location rdf:nodeID="usa">
+				                  <name>United States</name>
+				                  <type>country</type>
+				                  <within>
+				                      <Location rdf:nodeID="namerica">
+				                          <name>North America</name>
+				                          <type>continent</type>
+				                      </Location>
+				                  </within>
+				              </Location>
+				          </within>
+				      </Location>
+				      <Person rdf:nodeID="lucy">
+				          <name>Lucy</name>
+				          <bornIn rdf:nodeID="idaho"/>
+				      </Person>
+				  </rdf:RDF>
+				  ```
+				- RDF 有一些奇怪之处，因为它是为了在互联网上交换数据而设计的。三元组的主语，谓语和宾语通常是 URI。例如，谓语可能是一个 URI，如 `<http://my-company.com/namespace#within>` 或 `<http://my-company.com/namespace#lives_in>`，而不仅仅是 `WITHIN` 或 `LIVES_IN`。这个设计背后的原因为了让你能够把你的数据和其他人的数据结合起来，如果他们赋予单词 `within` 或者 `lives_in` 不同的含义，两者也不会冲突，因为它们的谓语实际上是 `<http://other.org/foo#within>` 和 `<http://other.org/foo#lives_in>`。
+	- ### SPARQL 查询语言
+		-
