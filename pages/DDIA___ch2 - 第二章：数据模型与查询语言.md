@@ -149,4 +149,14 @@ alias:: DDIA/ch2
 				  ```
 	- ### Cypher 查询语言
 		- Cypher 是属性图的声明式查询语言，为 Neo4j 图形数据库而发明
-		-
+		- 插入（示例）
+			- ```cypher
+			  CREATE
+			    (NAmerica:Location {name:'North America', type:'continent'}),
+			    (USA:Location      {name:'United States', type:'country'  }),
+			    (Idaho:Location    {name:'Idaho',         type:'state'    }),
+			    (Lucy:Person       {name:'Lucy' }),
+			    (Idaho) -[:WITHIN]->  (USA)  -[:WITHIN]-> (NAmerica),
+			    (Lucy)  -[:BORN_IN]-> (Idaho)
+			  ```
+			- ![](https://github.com/Vonng/ddia/raw/master/img/fig2-5.png)
