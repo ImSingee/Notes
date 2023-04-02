@@ -95,3 +95,37 @@ alias:: Number of Ways to Paint N × 3 Grid
 		      return temp1[0] != temp2[0] && temp1[1] != temp2[1] && temp1[2] != temp2[2]
 		  }
 		  ```
+	- ## 推导
+		- ```go
+		  const MOD = 1_000_000_000 + 7
+		  
+		  func numOfWays(n int) int {
+		      c2, c3 := 6, 6
+		      
+		      for i := 1; i < n; i++ {
+		          c2, c3 = ((c2*3)%MOD+(c3*2)%MOD)%MOD, ((c2*2)%MOD)+((c3*2)%MOD)%MOD
+		      }
+		      
+		      return (c2+c3)%MOD
+		  }
+		  
+		  func sum(arr []int) int {
+		      s := 0
+		      for _, x := range arr {
+		          s = (s + x) % MOD
+		      }
+		      return s
+		  }
+		  
+		  //   颜色推导
+		  //   [ABA] => [BAB] [CAC] [CBC]       2->2
+		  //         => [BAC] [CAB]             2->3
+		  //   [ABC] => [BAB] [BCB]             3->2
+		  //         => [BCA] [CAB]             3->3
+		  
+		  
+		  // 初始情况
+		  //   c2: A,B=R,Y,G  -> 6
+		  //   c3: 3! = 6
+		  
+		  ```
