@@ -74,7 +74,7 @@ alias:: Number of Ways to Paint N × 3 Grid
 		      i := 0
 		      
 		      for p != 0 {
-		          result[i] = p % k
+		          result[i] = p % 3
 		          p /= 3
 		          i++
 		      }
