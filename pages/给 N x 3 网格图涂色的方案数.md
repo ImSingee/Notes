@@ -44,6 +44,8 @@ alias:: Number of Ways to Paint N × 3 Grid
 		          prev := dp
 		          
 		          for p := 0; p < 27; p++ {
+		              dp[p] = 0
+		              
 		              if !selfOK(p) {
 		                  continue
 		              }
