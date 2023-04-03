@@ -3,7 +3,10 @@ alias:: DDIA,数据密集型应用系统设计
 - [中文](https://github.com/Vonng/ddia/tree/master)
 -
 - ### 第一部分：数据系统基础
-	- TODO [[DDIA/ch1 - 第一章：可靠性、可伸缩性和可维护性]]
+	- DOING [[DDIA/ch1 - 第一章：可靠性、可伸缩性和可维护性]]
+	  :LOGBOOK:
+	  CLOCK: [2023-04-03 Mon 21:17:06]
+	  :END:
 	- [[DDIA/ch2 - 第二章：数据模型与查询语言]]
 	- [[DDIA/ch3 - 第三章：存储与检索]]
 	- [[DDIA/ch4 - 第四章：编码与演化]]
