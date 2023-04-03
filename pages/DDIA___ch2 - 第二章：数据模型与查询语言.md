@@ -274,4 +274,6 @@ alias:: DDIA/ch2
 				  ```
 				- RDF 有一些奇怪之处，因为它是为了在互联网上交换数据而设计的。三元组的主语，谓语和宾语通常是 URI。例如，谓语可能是一个 URI，如 `<http://my-company.com/namespace#within>` 或 `<http://my-company.com/namespace#lives_in>`，而不仅仅是 `WITHIN` 或 `LIVES_IN`。这个设计背后的原因为了让你能够把你的数据和其他人的数据结合起来，如果他们赋予单词 `within` 或者 `lives_in` 不同的含义，两者也不会冲突，因为它们的谓语实际上是 `<http://other.org/foo#within>` 和 `<http://other.org/foo#lives_in>`。
 	- ### SPARQL 查询语言
-		- **SPARQL** 是一种用于三元组存储的面向 RDF 数据模型的查询语言
+		- **SPARQL** 是一种用于三元组存储的面向 RDF 数据模型的查询语言（它是 SPARQL 协议和 RDF 查询语言的缩写，发音为 “sparkle”）
+		- SPARQL 是一种很好的查询语言 —— 尽管它构想的语义网从未实现，但它仍然是一种可用于应用程序内部的强大工具。
+		-
