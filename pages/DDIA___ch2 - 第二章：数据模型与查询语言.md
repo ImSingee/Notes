@@ -276,4 +276,7 @@ alias:: DDIA/ch2
 	- ### SPARQL 查询语言
 		- **SPARQL** 是一种用于三元组存储的面向 RDF 数据模型的查询语言（它是 SPARQL 协议和 RDF 查询语言的缩写，发音为 “sparkle”）
 		- SPARQL 是一种很好的查询语言 —— 尽管它构想的语义网从未实现，但它仍然是一种可用于应用程序内部的强大工具。
-		-
+	- ### 基础：Datalog
+		- **Datalog** 是比 SPARQL、Cypher 更古老的语言
+		- 实践中，Datalog 在有限的几个数据系统中使用：例如，它是 Datomic 的查询语言，Cascalog 是一种用于查询 Hadoop 大数据集的 Datalog 实现
+		- Datalog 的数据模型类似于三元组模式，但进行了一点泛化。把三元组写成 **谓语**（**主语，宾语**），而不是写三元语（**主语，谓语，宾语**）
