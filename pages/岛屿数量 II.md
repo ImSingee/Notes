@@ -1,4 +1,4 @@
-- #Algorithm #Leetcode [#Leetcode-305](https://leetcode-cn.com/problems/number-of-islands-ii/) #Lintcode [#Lintcode-434](https://www.lintcode.com/problem/434/) #Hard
+- #算法 #Leetcode [#Leetcode-305](https://leetcode-cn.com/problems/number-of-islands-ii/) #Lintcode [#Lintcode-434](https://www.lintcode.com/problem/434/) #Hard
 -
 - ## 解答思路
 	- 利用 #并查集 完成

@@ -1,7 +1,7 @@
 alias:: Take K of Each Character From Left and Right
 
 - #CruelCoding #2023-01-06 #Medium #[[Two Pointers]] [讲解](https://youtu.be/KvQK3RXuTFc)
-- #Algorithm #Medium #[[滑动窗口]] #[[字符串]] #[[哈希表]]
+- #算法 #Medium #[[滑动窗口]] #[[字符串]] #[[哈希表]]
 - #Leetcode #Leetcode-2516 [LC国际](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/) [LC中国](https://leetcode.cn/problems/take-k-of-each-character-from-left-and-right/)
 - # 题目
 	- 给你一个由字符 `'a'`、`'b'`、`'c'` 组成的字符串 `s` 和一个非负整数 `k` 。每分钟，你可以选择取走 `s` **最左侧** 还是 **最右侧** 的那个字符。

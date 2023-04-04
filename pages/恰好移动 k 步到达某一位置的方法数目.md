@@ -1,7 +1,7 @@
 alias:: Number of Ways to Reach a Position After Exactly k Steps
 
 - #CruelCoding #2022-11-22 #Medium #[[Combinatorics]] [讲解](https://youtu.be/1OdZ5lrdHPY) Rating-1751
-- #Algorithm #Medium #[[组合数学]] #[[数学]] #[[动态规划]]
+- #算法 #Medium #[[组合数学]] #[[数学]] #[[动态规划]]
 - #Leetcode #Leetcode-2400 [LC国际](https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/) [LC中国](https://leetcode.cn/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/)
 - # 题目
 	- 给你两个 **正** 整数 `startPos` 和 `endPos` 。最初，你站在 **无限** 数轴上位置 `startPos` 处。在一步移动中，你可以向左或者向右移动一个位置。

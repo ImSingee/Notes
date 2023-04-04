@@ -1,7 +1,7 @@
 alias:: Kth Smallest Instructions
 
 - #CruelCoding #2022-11-17 #Medium #[[Combinatorics]] #[[Greedy]] [讲解](https://youtu.be/uAL9gfZr55Q) Rating-2079
-- #Algorithm #Hard #[[数学]] #[[组合数学]] #[[数组]] #[[动态规划]]
+- #算法 #Hard #[[数学]] #[[组合数学]] #[[数组]] #[[动态规划]]
 - #Leetcode #Leetcode-1643 [LC国际](https://leetcode.com/problems/kth-smallest-instructions/) [LC中国](https://leetcode.cn/problems/kth-smallest-instructions/)
 - # 题目
 	- Bob 站在单元格 `(0, 0)` ，想要前往目的地 `destination` ：`(row, column)` 。他只能向 **右** 或向 **下** 走。你可以为 Bob 提供导航 **指令** 来帮助他到达目的地 `destination` 。

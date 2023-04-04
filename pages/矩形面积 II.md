@@ -1,7 +1,7 @@
 alias:: Rectangle Area II
 
 - #CruelCoding #2023-02-02 #Medium #[[2D Diff Array]] [讲解](https://youtu.be/f8pRFDWFp54) Rating-2236
-- #Algorithm #Hard #[[有序集合]] #[[线段树]] #[[扫描线]] #[[数组]]
+- #算法 #Hard #[[有序集合]] #[[线段树]] #[[扫描线]] #[[数组]]
 - #Leetcode #Leetcode-850 [LC国际](https://leetcode.com/problems/rectangle-area-ii/) [LC中国](https://leetcode.cn/problems/rectangle-area-ii/)
 - #lintcode #Lintcode-1450 [LintCode](https://www.lintcode.com/problem/1450/)
 - # 题目

@@ -1,7 +1,7 @@
 title:: 算法/题目/课程表 III
 
 - alias:: Course Schedule III
-- #Algorithm #Hard #[[堆（优先队列）]] #[[贪心]] #[[数组]]
+- #算法 #Hard #[[堆（优先队列）]] #[[贪心]] #[[数组]]
 - #Leetcode #Leetcode-630 [LC国际](https://leetcode.com/problems/course-schedule-iii/) [LC中国](https://leetcode-cn.com/problems/course-schedule-iii/)
 - #lintcode #Lintcode-696 [LintCode](https://www.lintcode.com/problem/696/)
 - # 题目

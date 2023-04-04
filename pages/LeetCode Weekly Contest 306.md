@@ -1,4 +1,4 @@
-- #Algorithm #2022 #Week-34 #Leetcode-Weekly-Contest #[[2022-08-14]] [US](https://leetcode.com/contest/weekly-contest-306/) [CN](https://leetcode.cn/contest/weekly-contest-306/)
+- #算法 #2022 #Week-34 #Leetcode-Weekly-Contest #[[2022-08-14]] [US](https://leetcode.com/contest/weekly-contest-306/) [CN](https://leetcode.cn/contest/weekly-contest-306/)
 -
 - 比赛结果
 	- 4997 / 24853

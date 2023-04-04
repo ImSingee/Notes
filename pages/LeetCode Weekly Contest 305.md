@@ -1,4 +1,4 @@
-- #Algorithm #2022 #Week-33 #Leetcode-Weekly-Contest #[[2022-08-07]] [US](https://leetcode.com/contest/weekly-contest-305/) [CN](https://leetcode.cn/contest/weekly-contest-305/)
+- #算法 #2022 #Week-33 #Leetcode-Weekly-Contest #[[2022-08-07]] [US](https://leetcode.com/contest/weekly-contest-305/) [CN](https://leetcode.cn/contest/weekly-contest-305/)
 -
 - 比赛结果
 	- 5484 / 25939

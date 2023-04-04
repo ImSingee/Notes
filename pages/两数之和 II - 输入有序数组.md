@@ -1,7 +1,7 @@
 alias:: Two Sum II - Input Array Is Sorted
 
 - #CruelCoding #2023-01-01 #Hard #[[Two Pointers]] [讲解](https://youtu.be/stXRx71prEE) Rating-1749
-- #Algorithm #Medium #[[二分查找]] #[[数组]] #[[双指针]]
+- #算法 #Medium #[[二分查找]] #[[数组]] #[[双指针]]
 - #Leetcode #Leetcode-167 [LC国际](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) [LC中国](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/)
 - #lintcode #Lintcode-608 [LintCode](https://www.lintcode.com/problem/608/)
 - # 题目

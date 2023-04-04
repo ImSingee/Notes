@@ -1,7 +1,7 @@
 alias:: 4Sum II
 
 - #CruelCoding #2023-01-01 #Hard #[[Two Pointers]] [讲解](https://youtu.be/stXRx71prEE) Rating-1749
-- #Algorithm #Medium #[[哈希表]] #[[数组]]
+- #算法 #Medium #[[哈希表]] #[[数组]]
 - #Leetcode #Leetcode-454 [LC国际](https://leetcode.com/problems/4sum-ii/) [LC中国](https://leetcode.cn/problems/4sum-ii/)
 - # 题目
 	- 给你四个整数数组 `nums1`、`nums2`、`nums3` 和 `nums4` ，数组长度都是 `n` ，请你计算有多少个元组 `(i, j, k, l)` 能满足：

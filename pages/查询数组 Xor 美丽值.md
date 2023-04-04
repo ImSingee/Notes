@@ -1,7 +1,7 @@
 alias:: Find Xor-Beauty of Array
 
 - #CruelCoding #2023-02-01 #Hard #[[Bit Manipulation]] #[[XOR]] [讲解](https://youtu.be/luCMwYL3_K4) Rating-1549
-- #Algorithm #Medium #[[数学]] #[[位运算]] #[[数组]]
+- #算法 #Medium #[[数学]] #[[位运算]] #[[数组]]
 - #Leetcode #Leetcode-2527 [LC国际](https://leetcode.com/problems/find-xor-beauty-of-array/) [LC中国](https://leetcode.cn/problems/find-xor-beauty-of-array/)
 - # 题目
 	- 给你一个下标从 **0** 开始的整数数组 `nums` 。

@@ -1,7 +1,7 @@
 alias:: Number of Ways to Rearrange Sticks With K Sticks Visible
 
 - #CruelCoding #2022-11-19 #Hard #[[Combinatorics]] #[[DP]] [讲解](https://youtu.be/y4Pn4jxCw7E) Rating-2333
-- #Algorithm #Hard #[[数学]] #[[组合数学]] #[[动态规划]]
+- #算法 #Hard #[[数学]] #[[组合数学]] #[[动态规划]]
 - #Leetcode #Leetcode-1866 [LC国际](https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/) [LC中国](https://leetcode.cn/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
 - # 题目
 	- 有 `n` 根长度互不相同的木棍，长度为从 `1` 到 `n` 的整数。请你将这些木棍排成一排，并满足从左侧 **可以看到** **恰好** `k` 根木棍。从左侧 **可以看到** 木棍的前提是这个木棍的 **左侧** 不存在比它 **更长的** 木棍。

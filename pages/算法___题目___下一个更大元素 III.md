@@ -1,7 +1,7 @@
 title:: 算法/题目/下一个更大元素 III
 
 - alias:: Next Greater Element III
-- #Algorithm #Medium #[[双指针]] #[[数学]] #[[字符串]]
+- #算法 #Medium #[[双指针]] #[[数学]] #[[字符串]]
 - #Leetcode #Leetcode-556 [LC国际](https://leetcode.com/problems/next-greater-element-iii/) [LC中国](https://leetcode-cn.com/problems/next-greater-element-iii/)
 - #lintcode #Lintcode-1174 [LintCode](https://www.lintcode.com/problem/1174/)
 - # 题目

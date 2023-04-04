@@ -1,7 +1,7 @@
 alias:: Course Schedule III
 
 - #CruelCoding #2023-02-12 #Hard #[[Greedy]] #[[Sort+PQ]] [讲解](https://youtu.be/PTD5SaqqE-w)
-- #Algorithm #Hard #[[数组]] #[[堆（优先队列）]] #[[贪心]]
+- #算法 #Hard #[[数组]] #[[堆（优先队列）]] #[[贪心]]
 - #Leetcode #Leetcode-630 [LC国际](https://leetcode.com/problems/course-schedule-iii/) [LC中国](https://leetcode.cn/problems/course-schedule-iii/)
 - #lintcode #Lintcode-696 [LintCode](https://www.lintcode.com/problem/696/)
 - # 题目

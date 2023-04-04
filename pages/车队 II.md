@@ -1,6 +1,6 @@
 alias:: Car Fleet II
 
-- #Algorithm #Hard #[[数组]] #[[单调栈]] #[[堆（优先队列）]] #[[数学]] #[[栈]]
+- #算法 #Hard #[[数组]] #[[单调栈]] #[[堆（优先队列）]] #[[数学]] #[[栈]]
 - #Leetcode #Leetcode-1776 [LC国际](https://leetcode.com/problems/car-fleet-ii/) [LC中国](https://leetcode.cn/problems/car-fleet-ii/)
 - # 题目
 	- 在一条单车道上有 `n` 辆车，它们朝着同样的方向行驶。给你一个长度为 `n` 的数组 `cars` ，其中 `cars[i] = [positioni, speedi]` ，它表示：

@@ -1,7 +1,7 @@
 alias:: Find Kth Largest XOR Coordinate Value
 
 - #CruelCoding #2023-01-30 #Medium #[[Bit Manipulation]] #[[XOR]] [讲解](https://youtu.be/lTF3ilFtbyw) Rating-1671
-- #Algorithm #Medium #[[矩阵]] #[[快速选择]] #[[前缀和]] #[[数组]] #[[位运算]] #[[分治]] #[[堆（优先队列）]]
+- #算法 #Medium #[[矩阵]] #[[快速选择]] #[[前缀和]] #[[数组]] #[[位运算]] #[[分治]] #[[堆（优先队列）]]
 - #Leetcode #Leetcode-1738 [LC国际](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/) [LC中国](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value/)
 - # 题目
 	- 给你一个二维矩阵 `matrix` 和一个整数 `k` ，矩阵大小为 `m x n` 由非负整数组成。

@@ -1,7 +1,7 @@
 alias:: Find the String with LCP
 
 - #CruelCoding #2023-03-17 #Hard #[[Greedy]] #[[Constructive]] [讲解](https://youtu.be/07KRNyie-Lk) Rating-2681
-- #Algorithm #Hard #[[贪心]] #[[动态规划]] #[[并查集]] #[[字符串]]
+- #算法 #Hard #[[贪心]] #[[动态规划]] #[[并查集]] #[[字符串]]
 - #Leetcode #Leetcode-2573 [LC国际](https://leetcode.com/problems/find-the-string-with-lcp/) [LC中国](https://leetcode.cn/problems/find-the-string-with-lcp/)
 - # 题目
 	- 对任一由 `n` 个小写英文字母组成的字符串 `word` ，我们可以定义一个 `n x n` 的矩阵，并满足：

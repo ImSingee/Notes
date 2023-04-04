@@ -1,7 +1,7 @@
 alias:: Longest Increasing Subsequence II
 
 - #CruelCoding #2023-03-27 #Hard #[[Segment Tree]] [讲解](https://youtu.be/0ZzLjZ9eUR4) Rating-2280
-- #Algorithm #Hard #[[线段树]] #[[动态规划]] #[[分治]] #[[树状数组]] #[[数组]] #[[队列]] #[[单调队列]]
+- #算法 #Hard #[[线段树]] #[[动态规划]] #[[分治]] #[[树状数组]] #[[数组]] #[[队列]] #[[单调队列]]
 - #Leetcode #Leetcode-2407 [LC国际](https://leetcode.com/problems/longest-increasing-subsequence-ii/) [LC中国](https://leetcode.cn/problems/longest-increasing-subsequence-ii/)
 - # 题目
 	- 给你一个整数数组 `nums` 和一个整数 `k` 。

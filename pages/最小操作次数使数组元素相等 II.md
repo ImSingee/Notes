@@ -1,7 +1,7 @@
 alias:: Minimum Moves to Equal Array Elements II
 
 - #CruelCoding #2022-10-28 #Easy #[[Math]] #[[Median Distance]] Rating-1692
-- #Algorithm #Medium #[[排序]] #[[数组]] #[[数学]]
+- #算法 #Medium #[[排序]] #[[数组]] #[[数学]]
 - #Leetcode #Leetcode-462 [LC国际](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) [LC中国](https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/)
 - #lintcode #Lintcode-1226 [LintCode](https://www.lintcode.com/problem/1226/)
 - # 题目

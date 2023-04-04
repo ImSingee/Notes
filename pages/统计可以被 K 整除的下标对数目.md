@@ -1,7 +1,7 @@
 alias:: Count Array Pairs Divisible by K
 
 - #CruelCoding #2022-10-25 #Medium #[[Math]] #[[GCD]] [讲解](https://youtu.be/QDJya-uywDE) Rating-2246
-- #Algorithm #Hard #[[数学]] #[[数组]] #[[数论]]
+- #算法 #Hard #[[数学]] #[[数组]] #[[数论]]
 - #Leetcode #Leetcode-2183 [LC国际](https://leetcode.com/problems/count-array-pairs-divisible-by-k/) [LC中国](https://leetcode.cn/problems/count-array-pairs-divisible-by-k/)
 - # 题目
 	- 给你一个下标从 **0** 开始、长度为 `n` 的整数数组 `nums` 和一个整数 `k` ，返回满足下述条件的下标对 `(i, j)` 的数目：
