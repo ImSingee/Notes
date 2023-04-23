@@ -1,7 +1,9 @@
 alias:: DDIA/ch8
 
 - [link](https://github.com/Vonng/ddia/blob/master/ch8.md)
--
+- 系统如何处理错误
+	- **副本故障切换**
+	-
 ## 故障与部分失效
 	- ### 云计算与超级计算机
 ## 不可靠的网络
