@@ -1,0 +1,3 @@
+- #CruelFundamental #2023-04-18 [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202304/18) #操作系统
+-
+- select, poll, epoll!!
