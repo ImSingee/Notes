@@ -26,8 +26,14 @@ alias:: DDIA,数据密集型应用系统设计
 	  :LOGBOOK:
 	  CLOCK: [2023-04-14 Fri 19:55:52]--[2023-04-23 Sun 19:56:30] =>  216:00:38
 	  :END:
-	- TODO [[DDIA/ch8 - 第八章：分布式系统的麻烦]]
-	- TODO [[DDIA/ch9 - 第九章：一致性与共识]]
+	- DOING [[DDIA/ch8 - 第八章：分布式系统的麻烦]]
+	  :LOGBOOK:
+	  CLOCK: [2023-04-23 Sun 19:58:07]
+	  :END:
+	- DOING [[DDIA/ch9 - 第九章：一致性与共识]]
+	  :LOGBOOK:
+	  CLOCK: [2023-04-23 Sun 19:58:08]
+	  :END:
 - ### 第三部分：衍生数据
 	- TODO [[DDIA/ch10 - 第十章：批处理]]
 	- TODO [[DDIA/ch11 - 第十一章：流处理]]
