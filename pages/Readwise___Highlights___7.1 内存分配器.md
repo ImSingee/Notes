@@ -4,6 +4,9 @@ full-title:: 7.1 内存分配器
 category:: #articles
 url:: https://draveness.me/golang/docs/part3-runtime/ch07-memory/golang-memory-allocator/
 
+- 内存管理一般包含三个不同的组件，分别是用户程序（Mutator）、分配器（Allocator）和收集器（Collector）[1](https://draveness.me/golang/docs/part3-runtime/ch07-memory/golang-memory-allocator#fn:1)，当用户程序申请内存时，它会通过内存分配器申请新内存，而分配器会负责从堆中初始化相应的内存区域。
+  
+  ![mutator-allocator-collector](https://img.draveness.me/2020-02-29-15829868066411-mutator-allocator-collector.png) ([View Highlight](https://read.readwise.io/read/01g9cjqjwz02qd23ba3aey4dh2)) #Highlight #[[2022-08-01]]
 - 编程语言的内存分配器一般包含两种分配方法，一种是线性分配器（ Sequential Allocator，Bump Allocator），另一种是空闲链表分配器（Free-List Allocator） ([View Highlight](https://read.readwise.io/read/01g9cjth3htkhcsczj8ev9037d)) #Highlight #[[2022-08-01]]
 - 线性分配（Bump Allocator）是一种高效的内存分配方法，但是有较大的局限性。当我们使用线性分配器时，只需要在内存中维护一个指向内存特定位置的指针，如果用户程序向分配器申请内存，分配器只需要检查剩余的空闲内存、返回分配的内存区域并修改指针在内存中的位置，即移动下图中的指针：
   

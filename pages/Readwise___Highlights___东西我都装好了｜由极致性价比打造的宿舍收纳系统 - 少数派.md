@@ -6,4 +6,3 @@ url:: https://sspai.com/post/66917
 
 - 新型组合式结构床 #Highlight #[[2021-06-07]]
 - 箱体式结构 #Highlight #[[2021-06-07]]
-- 餐垫 #Highlight #[[2021-06-07]]

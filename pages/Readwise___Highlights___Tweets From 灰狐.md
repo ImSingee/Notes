@@ -6,8 +6,8 @@ url:: https://twitter.com/huihoo
 
 - Terence Tao 陶哲轩 的个人主页和博客
   
-  https://t.co/AlKtdp3gwR
-  https://t.co/sRgrhdjpT1
+  https://www.math.ucla.edu/~tao/
+  https://terrytao.wordpress.com/
   
   大家可以学习参考，也开启自己英文博客。
   

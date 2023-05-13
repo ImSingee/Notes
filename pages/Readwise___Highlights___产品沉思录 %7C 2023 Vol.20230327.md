@@ -10,6 +10,7 @@ category:: #articles
 - 当你醒来时，尽量不要查看社交媒体、电子邮件或其他任何东西。不要从背包里拿出任何东西 ([View Highlight](https://read.readwise.io/read/01gwhfq6x54trjhqrp8z574af1)) #Highlight #[[2023-03-27]]
 - 穿好衣服，带上你的东西，去图书馆，咖啡馆，或者其他任何你想去的地方 ([View Highlight](https://read.readwise.io/read/01gwhfq9338vcsayememkvj61v)) #Highlight #[[2023-03-27]]
 - 每个生产力系统的宿命最终都会停止工作，而你对此无能为力。 ([View Highlight](https://read.readwise.io/read/01gwhfqkks8tpart1x9nfy4fmv)) #Highlight #[[2023-03-27]]
+- 即使你可以在家工作，你可能也不应该在家工作 ([View Highlight](https://read.readwise.io/read/01gwhfrcy7j0bbrgf6krm5w00n)) #Highlight #[[2023-03-27]]
 - •   如果你一天只有很多事情要做，那么试着使用 [Random.org](http://random.org/) 来决定你的任务顺序。
     
     •   不允许你先做最简单的任务

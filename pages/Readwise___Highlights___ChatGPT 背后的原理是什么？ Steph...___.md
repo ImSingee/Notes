@@ -1,8 +1,8 @@
 title:: Readwise/Highlights/ChatGPT 背后的原理是什么？ Steph...
-author:: [[@Tisoga on Twitter]]\
-full-title:: ChatGPT 背后的原理是什么？ Steph...\
-category:: #tweets\
-url:: https://twitter.com/Tisoga/status/1626995068027695104\
+author:: [[@Tisoga on Twitter]]
+full-title:: ChatGPT 背后的原理是什么？ Steph...
+category:: #tweets
+url:: https://twitter.com/Tisoga/status/1626995068027695104
 
 - ChatGPT 背后的原理是什么？
   

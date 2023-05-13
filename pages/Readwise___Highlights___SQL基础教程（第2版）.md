@@ -51,5 +51,6 @@ category:: #books
 - INSERT语句的SELECT语句中，可以使用WHERE子句或者GROUP BY子句等任何SQL语法（但使用ORDER BY子句并不会产生任何效果）。 #Highlight #[[2021-05-01]]
 	- **Note**: 对于使用自增主键的表效果还是有的
 - INSERT语句的SELECT语句中，可以使用WHERE子句或者GROUP BY子句等任何SQL语法（但使用ORDER BY子句并不会产生任何效果）。 #Highlight #[[2021-05-01]]
+	- **Note**: 对于使用自增主键的表效果还是有的
 - 作为EXIST参数的子查询中经常会使用SELECT ＊。 #Highlight #[[2021-05-02]]
 - COALESCE是SQL特有的函数。该函数会返回可变参数￼中左侧开始第1个不是NULL的值。参数个数是可变的，因此可以根据需要无限增加。 #Highlight #[[2021-05-02]]

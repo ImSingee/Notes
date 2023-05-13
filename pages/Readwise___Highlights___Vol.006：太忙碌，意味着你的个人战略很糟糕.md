@@ -1,8 +1,8 @@
 title:: Readwise/Highlights/Vol.006：太忙碌，意味着你的个人战略很糟糕
-author:: [[xiaobot.net]]\
-full-title:: Vol.006：太忙碌，意味着你的个人战略很糟糕\
-category:: #articles\
-url:: https://xiaobot.net/post/d7969e5e-474e-49c0-9ba1-a9831b5f59e0\
+author:: [[xiaobot.net]]
+full-title:: Vol.006：太忙碌，意味着你的个人战略很糟糕
+category:: #articles
+url:: https://xiaobot.net/post/d7969e5e-474e-49c0-9ba1-a9831b5f59e0
 
 - 时间表是对未来的控制。控制时间表，因为时间是有限的。而不是控制事情，事情是无限的。 #Highlight #[[2023-02-22]]
 - 自己最近又感觉忙碌与失控，是总站在事情的角度想问题 —— 总感觉还有许多事情未完成。 但如果站在时间的角度看，无论有再多事情，自己的时间依旧是每天 24 小时，能做的就是把这些可支配的时间「投资」到有价值的地方去，而不是试图完成所有事务。 #Highlight #[[2023-02-22]]

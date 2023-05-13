@@ -16,4 +16,5 @@ category:: #articles
 - 我们的头脑最初是“空的”。
   
   我们所有的知识都来自外部，我们必须观察外部世界。 ([View Highlight](https://read.readwise.io/read/01h00rgfbx8gy9eg5qnhw26gc8)) #Highlight #[[2023-05-10]]
+- 归纳思维不是基于理性，而是基于一种未来与过去相似的感觉 ([View Highlight](https://read.readwise.io/read/01h00rj0w533s82cfqmbb95w7c)) #Highlight #[[2023-05-10]]
 - 好奇心是跨学科的（其中大部分是在你的专业之外） ([View Highlight](https://read.readwise.io/read/01h00rjng78d92wtwad4s42zt4)) #Highlight #[[2023-05-10]]

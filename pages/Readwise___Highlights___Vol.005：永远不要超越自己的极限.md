@@ -1,8 +1,8 @@
 title:: Readwise/Highlights/Vol.005：永远不要超越自己的极限
-author:: [[xiaobot.net]]\
-full-title:: Vol.005：永远不要超越自己的极限\
-category:: #articles\
-url:: https://xiaobot.net/post/3dcdeff7-acf9-419d-a0ed-56449ce8a78c\
+author:: [[xiaobot.net]]
+full-title:: Vol.005：永远不要超越自己的极限
+category:: #articles
+url:: https://xiaobot.net/post/3dcdeff7-acf9-419d-a0ed-56449ce8a78c
 
 - 应用程序激发基础设施，然后基础设施启动新应用 #Highlight #[[2023-02-22]]
 - 我们看到的模型应该是：应用程序 → 基础架构 → 应用程序 → 基础架构的循环迭代，而非在一个真空中构建。 #Highlight #[[2023-02-22]]

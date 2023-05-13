@@ -1,8 +1,8 @@
 title:: Readwise/Highlights/为什么待办清单总是完不成？试试用价值观来规划时间
-author:: [[mp.weixin.qq.com]]\
-full-title:: 为什么待办清单总是完不成？试试用价值观来规划时间\
-category:: #articles\
-url:: https://mp.weixin.qq.com/s/BdRolOmEhJwMEEpjqH5otA\
+author:: [[mp.weixin.qq.com]]
+full-title:: 为什么待办清单总是完不成？试试用价值观来规划时间
+category:: #articles
+url:: https://mp.weixin.qq.com/s/BdRolOmEhJwMEEpjqH5otA
 
 - 分心的定义是：让我们远离我们打算做的事情的行为。分心的反面不是「专注」，而是「牵引力」。 #Highlight #[[2023-02-22]]
 - 待办清单的问题就在于此，因为我们会为那个 ✔️ 来强化自己的行为，只要今天的十个勾点掉，就是卓有成效的一天。所以当遇到那些难啃的任务时，看一眼待办清单 —— 哦，上面好像还有很多简单 / 紧急的事情，要么先搞那个吧，反正今天都是要做的。完成之后发现大事还是没做，而且时间也不充分了，就继续拖到明天 —— 毕竟今天也是有一些 成果的 —— 除了最重要的那件事。然后不断重复这样的循环，度过「富有成效」的一天又一天。我们以完成工作名义跑得越来越快，却没意识到在向错误的方向前进。 #Highlight #[[2023-02-22]]

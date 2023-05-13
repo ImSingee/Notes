@@ -1,8 +1,8 @@
 title:: Readwise/Highlights/孩子应该学编程还是艺术？ 尊重她们的兴趣是一方...
-author:: [[@coolXiao on Twitter]]\
-full-title:: 孩子应该学编程还是艺术？ 尊重她们的兴趣是一方...\
-category:: #tweets\
-url:: https://twitter.com/coolXiao/status/1627450878327402496\
+author:: [[@coolXiao on Twitter]]
+full-title:: 孩子应该学编程还是艺术？ 尊重她们的兴趣是一方...
+category:: #tweets
+url:: https://twitter.com/coolXiao/status/1627450878327402496
 
 - 孩子应该学编程还是艺术？
   

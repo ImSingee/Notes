@@ -3,7 +3,9 @@ author:: [[斌卡]]
 full-title:: 硬派健身：极简、实用的新手健身指导
 category:: #books
 
-- ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_182549/0e56ed72-b751-483a-aea5-6b2e6ce386ac.jpg)
+
+![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_182549/0e56ed72-b751-483a-aea5-6b2e6ce386ac.jpg)
+
 - 人体的肌肉是由大肌群和小肌群构成的。大肌群有胸、背、臀、腿，小肌群则有肩、胳膊、腹、小腿。 #Highlight #[[2021-12-09]]
 - 给训练入门者一个诚心诚意的忠告：
   放弃大多数小肌群训练，从今天起，每天做一次大肌群训练（胸、背、臀、腿）6~10组，搭配核心肌群训练（腹部、 下背部）1~3组，最后做 HIIT(高强度间歇训练）15到30分钟。不到半年，你就会惊喜地看到自己的改变。到那时，你一开始担心的小问题，可能也就随风而逝了。

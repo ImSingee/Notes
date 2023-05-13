@@ -10,4 +10,5 @@ url:: https://courses.joshwcomeau.com/css-for-js/08-animations/01-transforms
 - elements are flattened into a texture. All of these transforms essentially treat our element like a flat image, warping and contorting it as you might in Photoshop. #Highlight #[[2022-06-25]]
 - The turn unit represents how many turns the element should make. 1 turn is equal to 360 degrees. #Highlight #[[2022-06-25]]
 - Every element has an origin, the anchor that the transform functions execute from. #Highlight #[[2022-06-25]]
+- The transform functions are applied from right to left, like composition in functional programming. #Highlight #[[2022-12-17]]
 - One common gotcha with transforms is that they don't work with inline elements in Flow layout. #Highlight #[[2022-06-25]]

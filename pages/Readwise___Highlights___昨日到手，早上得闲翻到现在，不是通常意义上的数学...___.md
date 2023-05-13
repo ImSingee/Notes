@@ -10,3 +10,4 @@ url:: https://twitter.com/syhily/status/1554619723794460672
   
   ![](https://pbs.twimg.com/media/FZMeZPEUUAA3tP6.jpg) ([View Tweet](https://twitter.com/syhily/status/1554619723794460672)) #Highlight #[[2022-08-06]]
 - 上一本能让我有如此阅读观感的书是《那些年你没学明白的数学》，但那本书对于知识的串联，远不如这本书一样，让我惊叹。 ([View Tweet](https://twitter.com/syhily/status/1554621214621986816)) #Highlight #[[2022-08-06]]
+	- **Tags**: #[[favorite]]

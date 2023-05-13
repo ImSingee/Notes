@@ -4,6 +4,7 @@ full-title:: Glossika: 我终于开始用这个多语言学家们都推荐的软
 category:: #articles
 url:: https://zhuanlan.zhihu.com/p/67672674
 
+- 应该**通过学语言去学习语法**，而**不是通过语法去学习语言** ([View Highlight](https://read.readwise.io/read/01ggepf8nk5rj1c8b6qv2mbpah)) #Highlight #[[2022-10-28]]
 - 应该**多学习句子、短句以及词组，少学习单独的单词** ([View Highlight](https://read.readwise.io/read/01ggepfe1fcjr8p8agdzs7x8m8)) #Highlight #[[2022-10-28]]
 - **用 Glossika 的过程很简单。**
   
