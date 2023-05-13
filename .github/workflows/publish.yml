@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Support long filename
         run: git config --global core.longpaths true
+      - name: Debug
+        uses: lhotari/action-upterm@v1
       - uses: actions/checkout@v3
       - name: Add Home Page
         run: |
