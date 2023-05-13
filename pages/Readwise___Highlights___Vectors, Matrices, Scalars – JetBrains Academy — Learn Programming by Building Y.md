@@ -1,4 +1,4 @@
-title:: Readwise/Highlights/Vectors, Matrices, Scalars – JetBrains Academy — Learn Programming by Building Your Own Apps
+title:: Readwise/Highlights/Vectors, Matrices, Scalars – JetBrains Academy — Learn Programming by Building Y
 author:: [[hyperskill.org]]
 full-title:: Vectors, Matrices, Scalars – JetBrains Academy — Learn Programming by Building Your Own Apps
 category:: #articles

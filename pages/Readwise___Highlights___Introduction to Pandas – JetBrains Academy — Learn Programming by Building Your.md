@@ -1,4 +1,4 @@
-title:: Readwise/Highlights/Introduction to Pandas – JetBrains Academy — Learn Programming by Building Your Own Apps
+title:: Readwise/Highlights/Introduction to Pandas – JetBrains Academy — Learn Programming by Building Your
 author:: [[hyperskill.org]]
 full-title:: Introduction to Pandas – JetBrains Academy — Learn Programming by Building Your Own Apps
 category:: #articles

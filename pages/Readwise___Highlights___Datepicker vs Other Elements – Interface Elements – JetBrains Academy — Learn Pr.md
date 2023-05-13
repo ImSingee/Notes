@@ -1,4 +1,4 @@
-title:: Readwise/Highlights/Datepicker vs Other Elements – Interface Elements – JetBrains Academy — Learn Programming by Building Your Own Apps
+title:: Readwise/Highlights/Datepicker vs Other Elements – Interface Elements – JetBrains Academy — Learn Pr
 author:: [[hyperskill.org]]
 full-title:: Datepicker vs Other Elements – Interface Elements – JetBrains Academy — Learn Programming by Building Your Own Apps
 category:: #articles

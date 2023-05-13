@@ -1,4 +1,4 @@
-title:: Readwise/Highlights/Inline Elements – Inline Elements – JetBrains Academy — Learn Programming by Building Your Own Apps
+title:: Readwise/Highlights/Inline Elements – Inline Elements – JetBrains Academy — Learn Programming by Bui
 author:: [[hyperskill.org]]
 full-title:: Inline Elements – Inline Elements – JetBrains Academy — Learn Programming by Building Your Own Apps
 category:: #articles
