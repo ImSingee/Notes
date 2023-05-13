@@ -17,6 +17,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Support long filename
+        run: git config --global core.longpaths true
       - uses: actions/checkout@v3
       - name: Add Home Page
         run: |
