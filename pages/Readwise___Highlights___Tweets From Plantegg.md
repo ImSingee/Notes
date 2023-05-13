@@ -17,3 +17,8 @@ url:: https://twitter.com/plantegg
   ![](https://pbs.twimg.com/media/Fjdp8axUUAA8Et9.jpg) 
   
   ![](https://pbs.twimg.com/media/FjdqG-IXEAI0Yrx.jpg) ([View Tweet](https://twitter.com/plantegg/status/1600864876901339136)) #Highlight #[[2022-12-10]]
+- 超线程(Hyper-Threading)原理
+  一个物理核还可以进一步分成几个逻辑核，来执行多个控制流程，这样可以进一步>提高并行程度，这一技术就叫超线程，有时叫做 simultaneous multi-threading（
+  SMT） https://t.co/FHTpfdJ7p4
+  
+  ![](https://pbs.twimg.com/media/Fo1GEQCacAAWRGs.jpg) ([View Tweet](https://twitter.com/plantegg/status/1626843960810569731)) #Highlight #[[2023-05-04]]

@@ -21,3 +21,33 @@ url:: https://twitter.com/nishuang
   ![](https://pbs.twimg.com/media/FJtkghiX0AMDhxL.jpg) 
   
   ![](https://pbs.twimg.com/media/FJtkgiAWUAMiNtD.jpg) ([View Tweet](https://twitter.com/nishuang/status/1484891015853101066)) #Highlight #[[2022-01-23]]
+- 推友分享的色彩的故事，特意把普通颜色名改成更有特色的颜色名，最后结果很 sorry，“但是结果非常糟糕，消费者完全不感冒，转换率大减，只好改回去”
+  
+  实际上消费者对颜色的感知、对颜色名称的理解，都受文化、性别、年龄的影响，科学研究就说女性因为进化，天然能识别更多颜色
+  
+  1/
+  
+  #设计入门 https://t.co/m6PeiWe74F https://t.co/Am6gH51i8W
+  
+  ![](https://pbs.twimg.com/media/Fr3MeALXwAIdO5f.jpg) ([View Tweet](https://twitter.com/nishuang/status/1638690660336431104)) #Highlight #[[2023-05-04]]
+- 利用 ChatGPT 轻松校对和提升英文书面表达
+  
+  https://t.co/ZYFKoih8UV 是翻译类浏览器插件，改善了以往 grammarly 擅长的语法校对、改善书面表达功能
+  
+  以我的弱鸡英文写作能力和中上英文阅读能力，我自己测试下来效果挺好的，可能跟美国人写的还有点不同（指习惯，不是说写作能力），但已经够强大了👏 https://t.co/KgIAvR9Qkx ([View Tweet](https://twitter.com/nishuang/status/1632516243696627712)) #Highlight #[[2023-05-04]]
+- 怎么设计一个设计师作品集？
+  
+  有很多种方法，这位设计师选择以“真实”为主线
+  
+  一般设计师在设计作品集时，会有意无意地过度包装（装逼），其实效果并不好 - 面试官、未来上司阅人无数，一眼能看出好坏，而且多数包装都搞错方向了、并不诱人
+  
+  不常见到设计师分享设计作品集的思路👍
+  
+  #设计师使用手册 https://t.co/4j2uKFBads ([View Tweet](https://twitter.com/nishuang/status/1656309752513675266)) #Highlight #[[2023-05-10]]
+- 想不起来那个单词？AI 来帮你
+  
+  Word Genie 单词精灵是个很有趣的小工具，它把 ChatGPT 们善于翻译、能理解自然语言的两大能力，结合成一个学习和使用英文单词的实用工具
+  
+  https://t.co/vjBy2NMvGd
+  
+  使用方法很灵活，效果也非常好
