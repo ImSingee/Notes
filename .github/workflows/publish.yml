@@ -24,6 +24,8 @@ jobs:
           sed -i 's#:feature/enable-journals\? true#:feature/enable-journals? false#g' logseq/config.edn
       - name: Logseq Publish 🚩
         uses: pengx17/logseq-publish@main
+        with:
+          trace: false
       - name: add a nojekyll file
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
       - name: Deploy 🚀
