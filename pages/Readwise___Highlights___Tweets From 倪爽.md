@@ -51,3 +51,19 @@ url:: https://twitter.com/nishuang
   https://t.co/vjBy2NMvGd
   
   使用方法很灵活，效果也非常好
+- 挑战一下中高阶英语到底有多难？
+  
+  “经济学人”商论/中文版的新播客节目，每期节目里翻译者亲自给你介绍经济学人一篇英语文章里的英语、商业和八卦，这期说的是硅谷独角兽公司的苦恼
+  
+  这是我听过的最困难、最累、最难以坚持的播客节目… https://t.co/OikjBPo07s https://t.co/PbAdnI5LJ2 ([View Tweet](https://twitter.com/nishuang/status/1658076421275754500)) #Highlight #[[2023-05-16]]
+- 为什么要用剑桥大学的 AI 机器人提高英语听力和口语
+  
+  https://t.co/VlTHWM4J2x
+  
+  Sandi 是剑桥大学开发的 AI，用法很简单：它用语音问你问题、你用语音回答它的问题，而后它会利用 AI 来判断你的英语水平
+  
+  和其他各种 AI 英语陪练不同在于，Sandi… https://t.co/Xk0SaD7Gpi https://t.co/dc7iGx62Pg
+  
+  ![](https://pbs.twimg.com/media/FxWi1GuWIAIh2hJ.jpg)
+  
+  ![](https://pbs.twimg.com/media/FxWi1GtWwAAUa2u.jpg) ([View Tweet](https://twitter.com/nishuang/status/1663414678871998465)) #Highlight #[[2023-05-30]]
