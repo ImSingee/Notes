@@ -20,3 +20,4 @@ url:: https://twitter.com/disksing
   
   我们决定不发布GPT-2的训练模型数据，也不发布预训练后的参数，因为如此强力的模型有遭到恶意滥用的风险。
   —— OpenAI，2019… https://t.co/SNE6muMx7V ([View Tweet](https://twitter.com/disksing/status/1625339729330999297)) #Highlight #[[2023-05-04]]
+- 写给后端程序员的前端开发攻略：

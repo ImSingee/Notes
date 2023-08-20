@@ -13,3 +13,7 @@ url:: https://twitter.com/hemashushu
   （续 https://t.co/ycnNjWNEBD
   
   ![](https://pbs.twimg.com/media/F0ztxcVaEAAOcKY.jpg) ([View Tweet](https://twitter.com/hemashushu/status/1678986265587507200)) #Highlight #[[2023-07-13]]
+- 上一推提到的进程的内存空间的布局，以及函数调用过程中栈的变化，以及从堆（heap）里分配内存等原理，这里有一个带动画的讲解视频，如果没耐性看长篇大论的文字，看这个视频也不错：
+  《Visualizing memory layout of Rust's data types》
+  
+  https://t.co/3TyA1TFtoE ([View Tweet](https://twitter.com/hemashushu/status/1692477842230263882)) #Highlight #[[2023-08-18]]

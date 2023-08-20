@@ -26,3 +26,14 @@ url:: https://twitter.com/Barret_China
   这篇文章介绍得较为详细，看起来也还比较靠谱，可以参考参考：https://t.co/DzHCFPnqdl
   
   以上是个人玩法，看推友留言，似乎直接注册公司会简单一些，很多中介服务会打包解决各项耗时问题，等我再去研究研究，对比下哪个更省心。 ([View Tweet](https://twitter.com/Barret_China/status/1682018264539602945)) #Highlight #[[2023-07-21]]
+- 关于独立开发者进行海外收款，在网上搜到了一些注册 Stripe 账号的教程，主要得解决三个问题：
+  
+  1. 去 Fiverr 找人代办 EIN，会提供 147C
+  2. 在 Wise/Payoneer 上开通美国银行账户
+  3. 使用 Google Voice 搞定美国手机号码问题
+  
+  还需要一个美国地址，可以用生成器，但是风险似乎有点高？另外，只有 EIN 没有 SSN 是不是也是个风险。
+  
+  除了第一步可以直接花钱解决，后面两步折腾半天都没搞定，Wise 上中国区用户貌似不支持？Google Voice 淘宝上也没买到。看到最后还有一个养号指南，对登录 IP、转账金额、交易频度等各种限制，好担心真的申请下来又被风控。
+  
+  有靠谱的渠道或者教程搞定这事儿么😂 ([View Tweet](https://twitter.com/Barret_China/status/1681881698848604161)) #Highlight #[[2023-08-07]]

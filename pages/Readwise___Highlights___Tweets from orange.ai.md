@@ -10,3 +10,4 @@ url:: https://twitter.com/oran_ge
 - 微信早期的工程师都是什么人… https://t.co/wHoUCmx0ky
   
   ![](https://pbs.twimg.com/media/FrJOQduacAUc7aw.jpg) ([View Tweet](https://twitter.com/oran_ge/status/1635455671289397248)) #Highlight #[[2023-05-04]]
+- OpenAI 的新实践《使用GPT4用于内容审核》GPT4这么贵，怎么用于内容审核呢？
