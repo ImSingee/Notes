@@ -24,3 +24,6 @@ url:: https://twitter.com/plantegg
   ![](https://pbs.twimg.com/media/Fo1GEQCacAAWRGs.jpg) ([View Tweet](https://twitter.com/plantegg/status/1626843960810569731)) #Highlight #[[2023-05-04]]
 - 挺好的文章，推荐配合这篇中文的一起阅读效果更好：https://t.co/86kpwWxsjR https://t.co/nb62JrlbVG ([View Tweet](https://twitter.com/plantegg/status/1667821557614354434)) #Highlight #[[2023-06-11]]
 - 本文将演示 OpenResty XRay 如何使用“智能抓包”功能，只抓取慢速的（或有其他错误的）TCP 连接上的数据包而不影响生产服务器的性能。——怎么实现呢？看完我觉得有点囧，客户端发请求慢，服务端怎么会记录出来响应慢的？上行时延、下行时延！https://t.co/fXUVIisq1H ([View Tweet](https://twitter.com/plantegg/status/1679071098577510400)) #Highlight #[[2023-07-13]]
+- 这方法好，三小时速通内核发包流程，再花三小时收包流程也速通了。内核这么复杂看代码几乎不可能，那些拿着代码讲的大佬都是对内核已经很熟悉的情况下，要不这么多代码你根本搞不清逻辑，还是这方法好 https://t.co/iyI3Jcqynd
+  
+  ![](https://pbs.twimg.com/media/F4dw-_UagAAAx7Z.jpg) ([View Tweet](https://twitter.com/plantegg/status/1695448230396592242)) #Highlight #[[2023-08-27]]
