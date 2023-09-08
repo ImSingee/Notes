@@ -1,7 +1,6 @@
 ---
 title: Contiguous vs. Continuous: What’s the Difference?
 ---
-
 - > https://writingexplained.org/contiguous-vs-continuous-difference
 - Contiguous vs. Continuous: What’s the Difference?
 	- [Home](https://writingexplained.org/) » Contiguous vs. Continuous: What’s the Difference?

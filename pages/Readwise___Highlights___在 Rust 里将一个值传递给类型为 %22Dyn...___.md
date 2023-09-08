@@ -3,7 +3,6 @@ author:: [[@hemashushu on Twitter]]
 full-title:: 在 Rust 里将一个值传递给类型为 "Dyn...
 category:: #tweets
 url:: https://twitter.com/hemashushu/status/1694273704245809512
-
 - 在 Rust 里将一个值传递给类型为 "dyn trait" 的变量或者参数时（情况跟在java里将一个对象实例传递给一个接口时），会被包裹为 “trait 对象”——一个“胖指针”，后续调用这个对象的方法时会调用其中的vtable（虚拟函数表），这种特性叫“动态分派”
   https://t.co/M2ALcwiYdN
   

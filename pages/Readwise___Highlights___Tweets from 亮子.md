@@ -3,7 +3,6 @@ author:: [[@henry_huhu on Twitter]]
 full-title:: Tweets from 亮子
 category:: #tweets
 url:: https://twitter.com/henry_huhu
-
 - 《UNIX/Linux系统管理手册》（第五版），这是最全面的、与时俱进的Linux系统管理书籍了，使用Linux的强烈推荐，亚马逊上600+人打分4.7星。
   
   中英文下载 https://t.co/59LB1Jm1LN https://t.co/SKhDP91ylS

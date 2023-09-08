@@ -3,7 +3,6 @@ author:: [[draveness.me]]
 full-title:: 为什么流媒体直播的延迟很高 - 面向信仰编程
 category:: #articles
 url:: https://draveness.me/draveness.me/whys-the-design-live-streaming-latency
-
 - 目前主流的音频和视频编码方式是高级音频编码（Advanced Audio Coding，AAC）1 和高级视频编码（Advanced Video Coding，AVC）2，AVC 常被称作 H.264 #Highlight #[[2022-07-17]]
 - H.264 是用于视频压缩的业界标准，因为视频是由一帧一帧的图片组成的，而不同的图片之间有较强的连续性，H.264 使用关键帧（Intra-coded picture，I 帧）作为视频的全量数据，不断使用向前参考帧（Predicted picture，P 帧）和双向参考帧（
         

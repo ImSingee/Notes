@@ -3,7 +3,6 @@ author:: [[@Tisoga on Twitter]]
 full-title:: 1/ 把 Meta 前两天发布的这篇论文读了一遍...
 category:: #tweets
 url:: https://twitter.com/Tisoga/status/1624543837745192960
-
 - 1/ 把 Meta 前两天发布的这篇论文读了一遍，mind blowing
   
   这篇论文被近期 ChatGPT & Bing Chat 的风头盖过去了，不过我感觉论文中提到的内容可能是未来 Language Model 发展的一个重要的分支。

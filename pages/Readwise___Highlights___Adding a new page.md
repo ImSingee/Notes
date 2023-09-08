@@ -3,7 +3,6 @@ author:: [[hexdocs.pm]]
 full-title:: Adding a new page
 category:: #articles
 url:: https://hexdocs.pm/phoenix/request_lifecycle.html
-
 - At this moment, you may be thinking this can be a lot of steps to simply render a page. However, as our application grows in complexity, we will see that each layer serves a distinct purpose:
   
   •   endpoint ([`Phoenix.Endpoint`](https://hexdocs.pm/phoenix/request_lifecycle.html/Phoenix.Endpoint.html)) - the endpoint contains the common and initial path that all requests go through. If you want something to happen on all requests, it goes to the endpoint.

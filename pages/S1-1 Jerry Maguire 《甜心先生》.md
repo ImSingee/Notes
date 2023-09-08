@@ -1,7 +1,6 @@
 ---
 title: S1-1 Jerry Maguire 《甜心先生》
 ---
-
 - #[[看电影学单词]] #[[中级]] #[[Season 1]] [[2021-06-11]]
 -
 - https://www.notion.so/singee/S1-1-Jerry-Maguire-3d2f3f9a97164d92a903544e83e23a97

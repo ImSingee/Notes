@@ -3,7 +3,6 @@ author:: [[@coolXiao on Twitter]]
 full-title:: 对我而言，Telegram 是必不可少的工具...
 category:: #tweets
 url:: https://twitter.com/coolXiao/status/1600772761504227329
-
 - 对我而言，Telegram 是必不可少的工具
   
   随着对 Telegram 的了解

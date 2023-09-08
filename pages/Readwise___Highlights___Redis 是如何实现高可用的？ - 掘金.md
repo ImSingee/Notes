@@ -3,7 +3,6 @@ author:: [[juejin.cn]]
 full-title:: Redis 是如何实现高可用的？ - 掘金
 category:: #articles
 url:: https://juejin.cn/post/6997944007812710414
-
 - 在 Redis 4.0 之前数据持久化方式有两种：AOF 方式和 RDB 方式。 #Highlight #[[2023-02-19]]
 - RDB（Redis DataBase，快照方式）是将某一个时刻的内存数据，以二进制的方式写入磁盘。AOF（Append Only File，文件追加方式）是指将所有的操作命令，以文本的形式追加到文件中。 #Highlight #[[2023-02-19]]
 - RDB 默认的保存文件为 

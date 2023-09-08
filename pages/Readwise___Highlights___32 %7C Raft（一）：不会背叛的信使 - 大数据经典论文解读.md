@@ -3,7 +3,6 @@ author:: [[徐文浩]]
 full-title:: 32 | Raft（一）：不会背叛的信使 - 大数据经典论文解读
 category:: #articles
 url:: https://time.geekbang.org/column/article/471905
-
 - Leader，本质上是通过一个两阶段提交，来做到同步复制的。一方面，它会先把日志写在本地，同时也发送给 Follower，这个时候，日志还没有提交，也就没有实际生效。Follower 会返回 Leader，是否可以提交日志。当 Leader 接收到超过一半的 Follower 可以提交日志的响应之后，它会再次发送一个提交的请求给到 Follower，完成实际的日志提交，并把写入结果返回给客户端。 #Highlight #[[2023-04-26]]
 - 在 Leader 挂掉，切换新 Leader 之后，我们会遇到一个挑战，新的 Leader 可能没有同步到最新的日志写入。而这可能会导致，新的 Leader 会尝试覆盖之前 Leader 已经写入的数据。这个问题就是我们需要解决的第三个问题，也就是“安全性”问题。 #Highlight #[[2023-04-26]]
 - 我们只需要确保两点，第一个是系统里始终有 Leader 可用；第二个，是基于 Leader 向其他节点复制数据，始终能确保一致性 #Highlight #[[2023-04-26]]

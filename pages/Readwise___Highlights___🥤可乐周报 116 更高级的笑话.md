@@ -2,7 +2,6 @@ title:: Readwise/Highlights/🥤可乐周报 116 更高级的笑话
 author:: [[happy xiao]]
 full-title:: 🥤可乐周报 116 更高级的笑话
 category:: #articles
-
 - 如果一个事物包含超过 4 个新的概念，我们的大脑便无法理解它 ([View Highlight](https://read.readwise.io/read/01gm25qpvgqkv8kvbq1808qh2c)) #Highlight #[[2022-12-12]]
 - 通过写作发表看法，有可能让读者忘记自己去思考，从而习惯性地接受。 ([View Highlight](https://read.readwise.io/read/01gm25tekdhjxqdc61kt73qga1)) #Highlight #[[2022-12-12]]
 - 如果忙碌的人喜欢和你一起工作，你的事业就会快速上升。这里有一个提示：当你有一个问题需要解决时，请准备好建议的下一步行动。如果你有一个问题，用一种他们可以回答是 / 否的方式来表述它。如果有多种选择，就把它们摆出来，让他们选择一个。尽量避免提出宽泛的、开放式的问题。 ([View Highlight](https://read.readwise.io/read/01gm25vg69nkkw1w2h95yvqmd0)) #Highlight #[[2022-12-12]]

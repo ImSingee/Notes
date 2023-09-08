@@ -3,7 +3,6 @@ author:: [[@FinanceYF5 on Twitter]]
 full-title:: 微软刚刚投下了重磅炸弹。    所有免费的 C...
 category:: #tweets
 url:: https://twitter.com/FinanceYF5/status/1661218610159951873
-
 - 微软刚刚投下了重磅炸弹。   
   
   所有免费的 ChatGPT 用户很快就可以使用“Browsing with Bing”插件浏览实时互联网。   

@@ -1,5 +1,4 @@
 alias:: Count Subarrays With Median K
-
 - #算法 #Hard #[[前缀和]] #[[数组]] #[[哈希表]]
 - #Leetcode #Leetcode-2488 [LC国际](https://leetcode.com/problems/count-subarrays-with-median-k/) [LC中国](https://leetcode.cn/problems/count-subarrays-with-median-k/)
 - # 题目

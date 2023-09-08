@@ -3,7 +3,6 @@ author:: [[juejin.cn]]
 full-title:: SwiftUI 视图的生命周期研究
 category:: #articles
 url:: https://juejin.cn/post/7035770548915273759
-
 - 在 WWDC 2020 的 [Data Essentials in SwiftUI](Data Essentials in SwiftUI) 专题中，苹果特别指出：**视图的生命的周期与定义它的结构的生命周期是分开的**。 ([View Highlight](https://read.readwise.io/read/01h6x9vcjke9xrzy8s3wv7qz5p)) #Highlight #[[2023-08-03]]
 - 通过在结构体的构造函数中添加打印命令，我们很容易就可以获知 SwiftUI 创建了某个结构体的实例。如果你仔细分析构造函数的打印结果，你会发现创建结构体实例的时机和频率远超你的预期。
   

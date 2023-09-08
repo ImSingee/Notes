@@ -3,7 +3,6 @@ author:: [[@samijaber_ on Twitter]]
 full-title:: Tweets From Sami 🏃🏽‍♂️👹
 category:: #tweets
 url:: https://twitter.com/samijaber_
-
 - TL;DR I'm really disappointed in the JS ecosystem and that it is this much of a gut-wrenching process to create a package that works.
   
   Y'all have NO idea how much wilder it's gonna be to publish your packages when serverless runtimes become more popular.

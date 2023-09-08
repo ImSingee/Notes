@@ -3,7 +3,6 @@ author:: [[@penberg on Twitter]]
 full-title:: I've Been Diving Into Th...
 category:: #tweets
 url:: https://twitter.com/penberg/status/1695681909227913448
-
 - I've been diving into the SQLite read path and on-disk format recently. @benbjohnson's blog post (https://t.co/0sE9x4f2Ik) is great starting point, but it doesn't cover some topics that are important to understand what happens when you read from SQLite database file.
   
   🧵 1/ ([View Tweet](https://twitter.com/penberg/status/1695681909227913448)) #Highlight #[[2023-08-28]]

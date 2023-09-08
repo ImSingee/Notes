@@ -3,7 +3,6 @@ author:: [[mp.weixin.qq.com]]
 full-title:: 用 C 语言理解 Linux 软件库 | Linux 中国
 category:: #articles
 url:: http://mp.weixin.qq.com/s?__biz=MjM5NjQ4MjYwMQ==&mid=2664634590&idx=1&sn=78ea19fee41e3435f0f38b4fe325987f&chksm=bdcf23988ab8aa8ee1f3900a3959909f80018097e7e5e01a384a69377696a7c2a0331df26f85#rd
-
 - 每个在 C 语言中的函数都有一个存储类，它决定了函数的范围 ([View Highlight](https://instapaper.com/read/1415016267/16515840)) #Highlight #[[2021-05-28]]
 - 存储类 static 将一个函数的的范围限制到函数被定义的文件中 ([View Highlight](https://instapaper.com/read/1415016267/16515841)) #Highlight #[[2021-05-28]]
 - 函数默认的存储类是 extern，它给了函数一个全局域 ([View Highlight](https://instapaper.com/read/1415016267/16515844)) #Highlight #[[2021-05-28]]

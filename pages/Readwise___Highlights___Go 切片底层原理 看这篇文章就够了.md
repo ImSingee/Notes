@@ -3,7 +3,6 @@ author:: [[kert]]
 full-title:: Go 切片底层原理 看这篇文章就够了
 category:: #articles
 url:: https://mp.weixin.qq.com/s/GXxjNjNIyvEbAAGrD_gJGw
-
 - 要弄明白 Go 中的切片是如何实现扩容的，这就需要关注一下 Go 的版本。
   
   **在 Go 的 1.18 版本以前，是按照如下的规则来进行扩容：**

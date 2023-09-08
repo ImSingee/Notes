@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 19 | 深入理解StatefulSet（二）：存储状态 - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/41154
-
 - Kubernetes 中 PVC 和 PV 的设计，实际上类似于“接口”和“实现”的思想。开发者只要知道并会使用“接口”，即：PVC；而运维人员则负责给“接口”绑定具体的实现，即：PV。 #Highlight #[[2023-06-09]]
 - 凡是被这个 StatefulSet 管理的 Pod，都会声明一个对应的 PVC；而这个 PVC 的定义，就来自于 volumeClaimTemplates 这个模板字段。更重要的是，这个 PVC 的名字，会被分配一个与这个 Pod 完全一致的编号。 #Highlight #[[2023-06-09]]
 - PVC 其实就是一种特殊的 Volume。只不过一个 PVC 具体是什么类型的 Volume，要在跟某个 PV 绑定之后才知道 #Highlight #[[2023-06-09]]

@@ -3,7 +3,6 @@ author:: [[蒋宏伟]]
 full-title:: 21｜混合应用：如何从零开始集成 React Native？ - React Native 新架构实战课
 category:: #articles
 url:: https://time.geekbang.org/column/article/518965
-
 - 一个简单的载体页只需要初始化、加载渲染、生命周期管理、组件注册能力即可 #Highlight #[[2023-04-16]]
 - 一个可用于商业上线的载体页，需要提供初始化、加载渲染 React Native 页面、热更新、缓存管理、生命周期管理、Native & JavaScript 通信、错误处理、错误上报、内置基础组件、组件注册等能力。 #Highlight #[[2023-04-16]]
 - 但在实际开发中，我们使用 React Native，除了看中它跨平台的优势外，还需要它的热更新能力。并且，为了进行 Bug 调试和分析，需要具备错误处理、上报能力，以及复杂业务中，Native & JavaScript 通信还需要提供通信能力。甚至，根据业务需求，还需要提供一些通用内置组件、组件注册能力，等等。 #Highlight #[[2023-04-16]]

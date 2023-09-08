@@ -3,7 +3,6 @@ author:: [[mp.weixin.qq.com]]
 full-title:: 女朋友问小灰：什么是数据仓库？什么是数据湖？什么是智能湖仓？
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw%3D%3D&mid=2653227506&idx=1&sn=e0a196d31dfdf9d65f4731c69a3e39fb&chksm=8c987b28bbeff23e62c761b05aadf0c98993899b01c24ae0500d0160ba46392a4881610f70c2&cmdid=L1NYE5BOEJBWZN#rd
-
 - 无论是哪一种数据库，它们所存储的都是结构化数据，主要应用的领域是联机事务处理（OLTP），也就是我们程序员所熟悉的增删改查业务。 #Highlight #[[2021-05-29]]
 - 这些数据不但可以支撑业务的运行，也可以用于生成商业报表，进行数据分析，提供有价值的决策参考。这些数据分析和生成报表的处理操作，被称为联机分析处理（OLAP）。 #Highlight #[[2021-05-29]]
 - 传统数据库擅长的是快速地对小规模数据进行增删改查，并不擅长大规模数据的快速读取。

@@ -5,7 +5,6 @@ category:: #articles
 url:: https://xiaolincoding.com/network/1_base/what_happen_url.html#%E4%B8%A4%E7%82%B9%E4%BC%A0%E8%BE%93-mac
 
 ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_182549/icon.webp)
-
 - 一般在 TCP/IP 通信里，MAC 包头的**协议类型**只使用：
   
   •   `0800` ： IP 协议

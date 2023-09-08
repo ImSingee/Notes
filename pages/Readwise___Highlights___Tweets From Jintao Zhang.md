@@ -3,7 +3,6 @@ author:: [[@zhangjintao9020 on Twitter]]
 full-title:: Tweets From Jintao Zhang
 category:: #tweets
 url:: https://twitter.com/zhangjintao9020
-
 - #Azure 免费账号有效期 12 个月，用于近期各种 类 chatGPT 或 OpenAI 相关的应用中，对于个人而言足够了。 
   
   Azure OpenAI Service 尚未全面放开，可使用如下地址进行开通

@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 15 | 深入解析Pod对象（二）：使用进阶 - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/40466
-
 - 在 Kubernetes 中，有几种特殊的 Volume，它们存在的意义不是为了存放容器里的数据，也不是用来进行容器和宿主机之间的数据交换。这些特殊 Volume 的作用，是为容器提供预先定义好的数据。所以，从容器的角度来看，这些 Volume 里的信息就是仿佛是被 Kubernetes“投射”（Project）进入容器当中的。这正是 Projected Volume 的含义。
   到目前为止，Kubernetes 支持的 Projected Volume 一共有四种：
   Secret；

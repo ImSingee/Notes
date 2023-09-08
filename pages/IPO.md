@@ -1,5 +1,4 @@
 alias:: IPO
-
 - #CruelCoding #2023-02-05 #Medium #[[Greedy]] #[[Sort+PQ]] [讲解](https://youtu.be/ivcS8qFfq6g)
 - #算法 #Hard #[[排序]] #[[贪心]] #[[堆（优先队列）]] #[[数组]]
 - #Leetcode #Leetcode-502 [LC国际](https://leetcode.com/problems/ipo/) [LC中国](https://leetcode.cn/problems/ipo/)

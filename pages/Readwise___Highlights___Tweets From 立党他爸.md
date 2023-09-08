@@ -3,7 +3,6 @@ author:: [[@bboczeng on Twitter]]
 full-title:: Tweets From 立党他爸
 category:: #tweets
 url:: https://twitter.com/bboczeng
-
 - 咱们政府的确是足够心狠手辣的
   
   一个代表“工农阶层”的无产阶级政党

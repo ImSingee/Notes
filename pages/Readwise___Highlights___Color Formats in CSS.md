@@ -4,7 +4,6 @@ full-title:: Color Formats in CSS
 category:: #articles
 url:: https://www.joshwcomeau.com/css/color-formats/
 tags:: #[[inoreader]] #[[josh comeau\'s blog]] #[[博客]]
-
 - It probably goes without saying, but we generally don't use named colors in production applications. 140 colors just isn't enough—it's even less than the 8-bit color palette available on the original NES console! ([View Highlight](https://read.readwise.io/read/01gk0yjgr4qkre7ax737x2qttc)) #Highlight #[[2022-11-29]]
 - “darkgray” is actually a *lighter* color than “gray”??
   

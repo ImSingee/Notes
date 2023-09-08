@@ -2,7 +2,6 @@ title:: Readwise/Highlights/产品沉思录 | 2023 Vol.20230403
 author:: [[shaonan × fonter]]
 full-title:: 产品沉思录 | 2023 Vol.20230403
 category:: #articles
-
 - 真正推动世界的技术，是改变人们的思维方式 ([View Highlight](https://read.readwise.io/read/01gxjqt73p0emnqe5zw6exj82g)) #Highlight #[[2023-04-09]]
 - 做你喜欢的事是在未来。爱你所做的就是现在 ([View Highlight](https://read.readwise.io/read/01gxjqxwac07dej460hetz7asr)) #Highlight #[[2023-04-09]]
 - 没有人能够看到真相。其他人都在努力隐藏真相， **因为真相是他们害怕自己的真实身份** 。所以他们都在作秀，他们假装是一个好人 ([View Highlight](https://read.readwise.io/read/01gxk6ky5702ykk093wp08tdfz)) #Highlight #[[2023-04-09]]

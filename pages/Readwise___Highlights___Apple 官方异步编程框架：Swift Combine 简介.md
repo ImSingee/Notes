@@ -3,7 +3,6 @@ author:: [[xiaozhuanlan.com]]
 full-title:: Apple 官方异步编程框架：Swift Combine 简介
 category:: #articles
 url:: https://xiaozhuanlan.com/topic/9683417052
-
 - Combine 作用是将异步事件通过组合**事件处理操作符**进行自定义处理。
   
   关注如何处理变化的值，正是响应式编程所考虑的。也可以说，Combine 是一个苹果官方的 Swift **响应式**框架。 ([View Highlight](https://read.readwise.io/read/01h6tmbayytw4104e8re110r84)) #Highlight #[[2023-08-02]]

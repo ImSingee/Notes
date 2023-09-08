@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 32 | 浅谈容器网络 - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/64948
-
 - 所谓“网络栈”，就包括了：网卡（Network Interface）、回环设备（Loopback Device）、路由表（Routing Table）和 iptables 规则。对于一个进程来说，这些要素，其实就构成了它发起和响应网络请求的基本环境。 #Highlight #[[2023-06-13]]
 - 在 Linux 中，能够起到虚拟交换机作用的网络设备，是网桥（Bridge）。它是一个工作在数据链路层（Data Link）的设备，主要功能是根据 MAC 地址学习来将数据包转发到网桥的不同端口（Port）上 #Highlight #[[2023-06-13]]
 - Docker 项目会默认在宿主机上创建一个名叫 docker0 的网桥，凡是连接在 docker0 网桥上的容器，就可以通过它来进行通信 #Highlight #[[2023-06-13]]

@@ -3,7 +3,6 @@ author:: [[@coolXiao on Twitter]]
 full-title:: Tweets From Happy Xiao 🎙
 category:: #tweets
 url:: https://twitter.com/coolXiao
-
 - JR 昨天要写《鲁滨逊漂流记》读后感，我给了几点建议：
   
   • 第一段三句话：你读了这本书，它说了什么，你将分享三个故事

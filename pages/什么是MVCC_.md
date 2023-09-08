@@ -1,5 +1,4 @@
 title:: 什么是MVCC?
-
 - #CruelFundamental #[[2022-01-25]] #MySQL [讨论](https://github.com/Monsooooon/CruelFundamental/tree/main/homework/202201/25)
 - 同一条记录在系统中可以存在多个版本，就是数据库的多版本并发控制（MVCC, Multiversion Concurrency control)）
 -

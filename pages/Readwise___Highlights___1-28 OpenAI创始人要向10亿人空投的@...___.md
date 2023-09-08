@@ -3,7 +3,6 @@ author:: [[@jason_chen998 on Twitter]]
 full-title:: 1/28 OpenAI创始人要向10亿人空投的@...
 category:: #tweets
 url:: https://twitter.com/jason_chen998/status/1637845333056294913
-
 - 1/28 OpenAI创始人要向10亿人空投的@worldcoin是什么？
   随着OpenAI的ChatGPT发布后掀起一波AI热潮，但同时OpenAI创始人Sam正在谋划另一个同样划时代项目：WorldCoin
   

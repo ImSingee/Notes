@@ -3,7 +3,6 @@ author:: [[@GPTDAOCN on Twitter]]
 full-title:: Tweets From GPTDAOCN
 category:: #tweets
 url:: https://twitter.com/GPTDAOCN
-
 - OpenAI秘密内测新平台✔️
   
   “当使用过它之后，我对Midjourney已经再也提不起一点兴趣了。”这句“虎狼之词”出自一位OpenAI新图像生成平台的内测用户之口。显然，OpenAI已经再一次做好了掀桌子的准备，而这次他们所瞄准的，正是AI图像生成领域。  

@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 14 | 深入解析Pod对象（一）：基本概念 - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/40366
-
 - 凡是调度、网络、存储，以及安全相关的属性，基本上是 Pod 级别的。
   这些属性的共同特征是，它们描述的是“机器”这个整体，而不是里面运行的“程序”。比如，配置这个“机器”的网卡（即：Pod 的网络定义），配置这个“机器”的磁盘（即：Pod 的存储定义），配置这个“机器”的防火墙（即：Pod 的安全定义）。更不用说，这台“机器”运行在哪个服务器之上（即：Pod 的调度）。 #Highlight #[[2022-08-12]]
 - NodeSelector：是一个供用户将 Pod 与 Node 进行绑定的字段 #Highlight #[[2022-08-12]]

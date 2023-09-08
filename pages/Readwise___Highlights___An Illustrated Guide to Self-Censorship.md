@@ -4,7 +4,6 @@ full-title:: An Illustrated Guide to Self-Censorship
 category:: #articles
 url:: https://www.thefp.com/p/an-illustrated-guide-to-self-censorship
 tags:: #[[star]]
-
 - Without the confidence that everyone will join them in their treason, no one will want to risk speaking out. If someone does speak out, no one will want to join them out of fear that *they’ll* be the only one to join in, which would spell their own doom. So even if *every single citizen* wants to overthrow the king, and even if everyone *knows* everyone else wants to overthrow the king, the censorship policies prevent the *overall society* from being able to act. ([View Highlight](https://read.readwise.io/read/01gzg9t200hftadc1hnaftcy41)) #Highlight #[[2023-05-03]]
 - But for each citizen, what others are thinking is hidden from sight. So if you’re this person—
   

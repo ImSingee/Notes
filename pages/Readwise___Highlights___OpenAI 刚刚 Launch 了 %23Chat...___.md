@@ -3,7 +3,6 @@ author:: [[@Tisoga on Twitter]]
 full-title:: OpenAI 刚刚 Launch 了 \#Chat...
 category:: #tweets
 url:: https://twitter.com/Tisoga/status/1598268476296417282
-
 - OpenAI 刚刚 launch 了 #ChatGPT ，可以说是一款划时代的产品，这个 thread 记录一下都可以使用 ChatGPT 做哪些事情。 ([View Tweet](https://twitter.com/Tisoga/status/1598268476296417282)) #Highlight #[[2022-12-04]]
 - 用来写项目的 pitch deck 和产品文案，基本上可以覆盖 https://t.co/4FwMLA19Nu, https://t.co/rfk6WgIfRx, https://t.co/mQzyLVcYsv 这些服务提供的功能。
   

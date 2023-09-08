@@ -4,7 +4,6 @@ full-title:: Cloudflare Is Deprecating Railgun
 category:: #articles
 url:: https://blog.cloudflare.com/deprecating-railgun/
 tags:: #[[cloudflare]] #[[go inbox]] #[[inoreader]] #[[博客]]
-
 - products should not be deprecated just because active development stops ([View Highlight](https://read.readwise.io/read/01h25qbg9qdettaxh82yxxjf6a)) #Highlight #[[2023-06-05]]
 - We believe that a company should retire a product only when:
   

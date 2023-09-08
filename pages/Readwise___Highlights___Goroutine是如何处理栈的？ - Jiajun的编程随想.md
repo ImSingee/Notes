@@ -3,7 +3,6 @@ author:: [[jiajunhuang.com]]
 full-title:: Goroutine是如何处理栈的？ - Jiajun的编程随想
 category:: #articles
 url:: https://jiajunhuang.com/articles/2020_08_26-goroutine_stack.md.html
-
 - 栈里的地址，只被栈内使用，而堆里没有使用 ([View Highlight](https://instapaper.com/read/1414457057/16517103)) #Highlight #[[2021-05-28]]
 - 函数内，变量如果没有被传到函数外，就没有逃逸，否则，则逃逸。对于逃逸的变量，分配到堆上，否则，分配到栈上。 ([View Highlight](https://instapaper.com/read/1414457057/16517113)) #Highlight #[[2021-05-28]]
 - Go在1.3以前，是使用一种叫做 segmented stacks 的栈策略。而1.3时，换成了 contiguous stacks ([View Highlight](https://instapaper.com/read/1414457057/16517118)) #Highlight #[[2021-05-28]]

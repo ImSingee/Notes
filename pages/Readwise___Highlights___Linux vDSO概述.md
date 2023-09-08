@@ -3,7 +3,6 @@ author:: [[zhuanlan.zhihu.com]]
 full-title:: Linux vDSO概述
 category:: #articles
 url:: https://zhuanlan.zhihu.com/p/436454953
-
 - __kernel_vsyscall 是一个特殊的页，其位于内核地址空间，但也是唯一允许用户访问的区域，该区域的地址固定为 0xffffffffff600000（64 位系统），大小固定为 4K #Highlight #[[2023-05-06]]
 - vsyscall 机制支持的系统调用有 3 个：gettimeofday()time()getcpu() #Highlight #[[2023-05-07]]
 - 但由于一些原因，开发人员又抛弃了 vsyscall 机制：vsyscall 的映射地址是固定不变的（从 vsyscall.h 的定义就可以看出），因此很容易成为 ret2libc 攻击的跳板。vsyscall 能支持的系统调用数有限，无法很方便地进行扩展。 #Highlight #[[2023-05-07]]

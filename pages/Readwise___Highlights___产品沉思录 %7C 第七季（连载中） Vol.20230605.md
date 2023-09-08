@@ -2,7 +2,6 @@ title:: Readwise/Highlights/产品沉思录 | 第七季（连载中） Vol.20230
 author:: [[shaonan × fonter]]
 full-title:: 产品沉思录 | 第七季（连载中） Vol.20230605
 category:: #articles
-
 - 不要雇人来增长业务，而是雇人来解放你的时间 ([View Highlight](https://read.readwise.io/read/01h288ppwjn1nvx95fxnpd7ydt)) #Highlight #[[2023-06-06]]
 - 创始人都有非常强烈的完成任务心态，以为自己工作的越多，企业就会越有效率，成长就会越快。所以会投入大量精力在工作，而忽略招聘、培训等其他事情。
   

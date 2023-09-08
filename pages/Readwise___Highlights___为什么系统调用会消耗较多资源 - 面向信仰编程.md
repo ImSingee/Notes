@@ -3,7 +3,6 @@ author:: [[draveness.me]]
 full-title:: 为什么系统调用会消耗较多资源 - 面向信仰编程
 category:: #articles
 url:: https://draveness.me/draveness.me/whys-the-design-syscall-overhead
-
 - 使用 SYSCALL 指定执行系统调用消耗的时间是 C 函数调用的几十倍 #Highlight #[[2022-07-02]]
 - vDSO 全称是虚拟动态链接对象（Virtual Dynamically Shared Object、vDSO），它可以减少系统调用的消耗的时间 #Highlight #[[2022-07-02]]
 - 不使用 vSDO 加速的系统调用需要的时间是普通函数调用的几十倍 #Highlight #[[2022-07-02]]

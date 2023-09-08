@@ -3,7 +3,6 @@ author:: [[juejin.cn]]
 full-title:: 浏览器的执行机制
 category:: #articles
 url:: https://juejin.cn/post/6966773253557714980
-
 - Node中的事件循环和浏览器中的事件循环有什么区别？
   
   宏任务的执行顺序：

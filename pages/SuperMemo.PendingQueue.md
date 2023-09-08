@@ -1,5 +1,4 @@
 title:: SuperMemo/PendingQueue
-
 - http://supermemopedia.com/wiki/Pending_queue
 -
 - Pending Queue 的作用是将一系列[元素]([[SuperMemo/Element]])标记为「等待学习」，代表着  [pending 状态](((622eb6bc-9773-40a5-9165-c8fbff4d856d)))

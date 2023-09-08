@@ -1,5 +1,4 @@
 alias:: Count Array Pairs Divisible by K
-
 - #CruelCoding #2022-10-25 #Medium #[[Math]] #[[GCD]] [讲解](https://youtu.be/QDJya-uywDE) Rating-2246
 - #算法 #Hard #[[数学]] #[[数组]] #[[数论]]
 - #Leetcode #Leetcode-2183 [LC国际](https://leetcode.com/problems/count-array-pairs-divisible-by-k/) [LC中国](https://leetcode.cn/problems/count-array-pairs-divisible-by-k/)

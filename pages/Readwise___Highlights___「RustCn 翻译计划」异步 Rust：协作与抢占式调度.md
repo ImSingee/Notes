@@ -3,7 +3,6 @@ author:: [[知乎专栏]]
 full-title:: 「RustCn 翻译计划」异步 Rust：协作与抢占式调度
 category:: #articles
 url:: https://zhuanlan.zhihu.com/p/499791233
-
 - 抢占式调度有很多优点
   
   •   更易于学习：对于开发者来说，异步和同步代码是一样的。

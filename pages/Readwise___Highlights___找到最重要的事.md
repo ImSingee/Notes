@@ -3,7 +3,6 @@ author:: [[mp.weixin.qq.com]]
 full-title:: 找到最重要的事
 category:: #articles
 url:: https://mp.weixin.qq.com/s/1T8r7HIX8NAQqUowFOV0rg
-
 - OKR 是一种思考和沟通的方式，无论是你去用它思考个人今年最重要的三件事，还是用它来管理公司、团队甚至家庭的重要事项，相信都会有所启发和帮助。 #Highlight #[[2022-01-06]]
 - 员工对不确定世界的预判能力差别很大，企业家的超额利润都来自识别任用判断力更优的员工。 #Highlight #[[2022-01-06]]
 - 在任何一个组织中，不管沟通得有多好，它总是最薄弱的环节之一。 #Highlight #[[2022-01-06]]

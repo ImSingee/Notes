@@ -4,7 +4,6 @@ full-title:: 工作日就只能有工作吗？大厂三年程序员的生活规�
 category:: #articles
 url:: https://sspai.com/post/80509
 tags:: #[[go inbox]] #[[inoreader]] #[[interest]] #[[read]] #[[少数派]]
-
 - 我很羡慕那些能够几年几十年如一日坚持某件事情的人，并曾对自己三分钟热度而感到厌弃。我总是很容易突然对某些东西感兴趣，而热度又很容易散去，这导致我很不愿意再开启新的活动，害怕自己又三分钟热度浪费时间。
   
   但是，三分钟热度，就有三分钟收获，人家是深度优先的人，你可能是广度优先的，属于那种万事通或者百晓生型人才，亦或者你还没找到能让自己深挖下去的爱好。 ([View Highlight](https://read.readwise.io/read/01h3y5yzme4nq8jw0rhy2jd2j7)) #Highlight #[[2023-06-27]]

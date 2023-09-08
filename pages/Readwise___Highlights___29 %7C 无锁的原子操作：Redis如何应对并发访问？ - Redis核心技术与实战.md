@@ -3,7 +3,6 @@ author:: [[蒋德钧]]
 full-title:: 29 | 无锁的原子操作：Redis如何应对并发访问？ - Redis核心技术与实战
 category:: #articles
 url:: https://time.geekbang.org/column/article/299806
-
 - Redis 会把整个 Lua 脚本作为一个整体执行，在执行的过程中不会被其他命令打断，从而保证了 Lua 脚本中操作的原子性。 #Highlight #[[2022-08-11]]
 - 为了实现并发控制要求的临界区代码互斥执行，Redis 的原子操作采用了两种方法：
   把多个操作在 Redis 中实现成一个操作，也就是单命令操作；

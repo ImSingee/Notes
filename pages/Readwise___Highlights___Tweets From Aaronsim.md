@@ -3,7 +3,6 @@ author:: [[@aaronsiim on Twitter]]
 full-title:: Tweets From Aaronsim
 category:: #tweets
 url:: https://twitter.com/aaronsiim
-
 - ultra-modern generative ai🗨️: 
   
   • AI2

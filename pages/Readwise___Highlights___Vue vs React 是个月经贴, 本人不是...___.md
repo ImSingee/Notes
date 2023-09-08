@@ -3,7 +3,6 @@ author:: [[@hylarucoder on Twitter]]
 full-title:: Vue vs React 是个月经贴, 本人不是...
 category:: #tweets
 url:: https://twitter.com/hylarucoder/status/1675908065575698432
-
 - Vue vs React 是个月经贴, 本人不是专业的前端, 两个都仅仅是熟练使用. 
   先说结论: #Nuxt3 和 #Vue3 目前给我的开发体验是最好的. 
   个人排名: nuxt 3 (vue 3) > next 13 (react FC) > vue 2 > react class component

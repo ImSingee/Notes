@@ -3,7 +3,6 @@ author:: [[@Love_grill_cat on Twitter]]
 full-title:: \#语言学习 ①看视频永远不要开字幕：最多三天，你...
 category:: #tweets
 url:: https://twitter.com/Love_grill_cat/status/1688245412811902981
-
 - #语言学习
   ①看视频永远不要开字幕：最多三天，你就会习惯。如果听不懂，就想象”在这种情况下，用中文我会说什么“，把听到的和看到的事物联系起来
   ②每次学习仅仅12-15min，然后休息1-2min，否则效率会变低，甚至变成负数，日积月累这个负数会越来越严重

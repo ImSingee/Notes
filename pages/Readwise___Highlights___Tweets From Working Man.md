@@ -3,7 +3,6 @@ author:: [[@workingman1994 on Twitter]]
 full-title:: Tweets From Working Man
 category:: #tweets
 url:: https://twitter.com/workingman1994
-
 - 普通人快速出境→新加坡普工 
   大学生或IT人士→日本（可永居）
   门槛低→日本普工

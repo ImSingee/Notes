@@ -3,7 +3,6 @@ author:: [[@indigo11 on Twitter]]
 full-title:: SemiAnalysis 今早发布了一份 Goo...
 category:: #tweets
 url:: https://twitter.com/indigo11/status/1654263706006552584
-
 - SemiAnalysis 今早发布了一份 Google 内部泄露的文件，其实 Google 针对 OpenAI 做了很多审视自己的工作：“谁会跨越下一个里程碑？令人不安的事实是，我们没有能力赢得这场军备竞赛，OpenAI也是，就在我们争吵不休的时候，第三个派别一直在悄悄地吃我们的午餐” 那就是开源🧵 https://t.co/egsYv2BS0v 
   
   ![](https://pbs.twimg.com/media/FvUbMQYaYAA8Fyj.jpg) ([View Tweet](https://twitter.com/indigo11/status/1654263706006552584)) #Highlight #[[2023-05-05]]

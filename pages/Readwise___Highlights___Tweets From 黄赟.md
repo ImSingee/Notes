@@ -3,7 +3,6 @@ author:: [[@huangyun_122 on Twitter]]
 full-title:: Tweets From 黄赟
 category:: #tweets
 url:: https://twitter.com/huangyun_122
-
 - 是的，OpenAI 发新品的原因，大概也就是微软老大哥发力了
   
   使用 Azure OpenAI API, 相比 OpenAI API， 有三方面的提升：

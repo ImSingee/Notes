@@ -3,7 +3,6 @@ author:: [[bmpi.dev]]
 full-title:: OKR + GTD + Note -- Logseq · 构建我的被动收入
 category:: #articles
 url:: https://www.bmpi.dev/self/okr-gtd-note-logseq/
-
 - OKR 的流程是将个人愿景拆解成多个 Objectives，之后将每个 Objective 拆解成多个 Key Result，最终每个 Key Result 变成了一个个 TODO 事项（从 OKR 到 GTD） #Highlight #[[2022-01-06]]
 - 我们的工作和生活中会遇到很多机会和需要决策的地方，但我们的精力有限，如何筛选那些值得自己去做的事情是一件很难且耗费时间的事情。 #Highlight #[[2022-01-06]]
 - 从个人愿景出发我设定了四个长期关注的纬度：健康、能力、收入与影响力。这四个纬度又可以设定以下的 Objectives：

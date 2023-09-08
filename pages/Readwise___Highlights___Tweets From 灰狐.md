@@ -3,7 +3,6 @@ author:: [[@huihoo on Twitter]]
 full-title:: Tweets From 灰狐
 category:: #tweets
 url:: https://twitter.com/huihoo
-
 - Terence Tao 陶哲轩 的个人主页和博客
   
   https://www.math.ucla.edu/~tao/

@@ -3,7 +3,6 @@ author:: [[徐文浩]]
 full-title:: 33 | Raft（二）：服务器增减的“自举”实现 - 大数据经典论文解读
 category:: #articles
 url:: https://time.geekbang.org/column/article/472597
-
 - 在整个集群处于 C_{old},C_{new} 这个过渡共识的过程中，整个 Raft 集群会做到以下几点：
   所有的日志追加写入，都会复制到新老配置里所有的服务器上。
   新老配置里的任何一个服务器，都有可能被选举成 Leader 节点。

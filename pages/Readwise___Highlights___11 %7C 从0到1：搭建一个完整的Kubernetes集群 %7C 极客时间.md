@@ -3,7 +3,6 @@ author:: [[time.geekbang.org]]
 full-title:: 11 | 从0到1：搭建一个完整的Kubernetes集群 | 极客时间
 category:: #articles
 url:: https://time.geekbang.org/column/article/39724
-
 - Pod 这个看似复杂的 API 对象，实际上就是对容器的进一步抽象和封装而已。 #Highlight #[[2022-06-24]]
 - 如果通过容器镜像，我们能够保证应用本身在开发与部署环境里的一致性的话，那么现在，Kubernetes 项目通过这些 YAML 文件，就保证了应用的“部署参数”在开发与部署环境中的一致性。 #Highlight #[[2022-06-24]]
 - Kubernetes 的 Worker 节点跟 Master 节点几乎是相同的，它们运行着的都是一个 kubelet 组件。唯一的区别在于，在 kubeadm init 的过程中，kubelet 启动后，Master 节点上还会自动运行 kube-apiserver、kube-scheduler、kube-controller-manger 这三个系统 Pod。 #Highlight #[[2022-06-24]]

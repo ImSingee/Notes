@@ -1,6 +1,5 @@
 title:: SuperMemo/OutstandingQueue
 url:: https://help.supermemo.org/wiki/Glossary:Outstanding_queue
-
 - 优先级队列中的元素是「当前要学习的内容」，包括三种元素
 	- 过期的元素（Outstanding Element）
 	- 今天到期的元素（Outstanding Element）

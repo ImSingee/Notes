@@ -1,5 +1,4 @@
 alias:: DDIA/ch7
-
 - [link](https://github.com/Vonng/ddia/blob/master/ch7.md)
 -
 - 在数据系统的残酷现实中，很多事情都可能出错：

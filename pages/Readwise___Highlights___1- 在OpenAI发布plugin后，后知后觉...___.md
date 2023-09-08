@@ -3,7 +3,6 @@ author:: [[@realrenmin on Twitter]]
 full-title:: 1/ 在OpenAI发布plugin后，后知后觉...
 category:: #tweets
 url:: https://twitter.com/realrenmin/status/1639396245524324353
-
 - 1/ 在OpenAI发布plugin后，后知后觉地意识到了toolformer这篇论文的重要性，于是重读了论文，把一些读后感做个thread
   
   看到其他推友如@Tisoga 也写过类似的总结，深入浅出的分析了toolfomer可以干什么。

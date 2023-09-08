@@ -3,7 +3,6 @@ author:: [[@Tisoga on Twitter]]
 full-title:: 与 Sam Altman 关于创业的 10 次对...
 category:: #tweets
 url:: https://twitter.com/Tisoga/status/1628634389516288005
-
 - 与 Sam Altman 关于创业的 10 次对话
   
   从 YC 的 president 到 OpenAI 的创始人，Sam 对于创业有着自己独特的理解，在 Copilot Hub 上基于 Sam 所写的一些文字训练了一个 Ask Sam Altman 的 AI，并与他进行了 10 次关于创业的对话。

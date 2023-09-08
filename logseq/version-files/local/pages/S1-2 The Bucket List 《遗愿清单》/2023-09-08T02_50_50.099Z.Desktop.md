@@ -1,0 +1,41 @@
+---
+title: S1-2 The Bucket List 《遗愿清单》
+---
+
+- #[[看电影学单词]] #[[中级]] #[[Season 1]] [[2021-06-08]]
+-
+- https://www.notion.so/singee/S1-2-The-Bucket-List-e80ee4c1347542faa5d8e57007e7c80b
+-
+- 电影片段
+	- It’s difficult to understand the sum of a person’s life. Some people will tell you it’s measured by the ones left behind. Some believe it can be measured in faith. Some say by love. Other folks say life has no meaning at all. Me? I believe that you measure yourself by the people who measured themselves by you.
+	- （人生的意义是什么？答案众说纷纭。有人要说看你留下了什么。有人认为要靠他的信仰。有人说要用爱来评判。还有人说人生根本就没有意义。我？我觉得你可以从那些以你为镜衡量自身的人身上衡量你自己生命的意义。）
+	- 【文】生命的意义，是我们要花一生去探求的东西。这是片中一位癌症患者在生命的最后阶段领悟到的人生意义，也许会给我们一些启示。
+- 词汇讲解
+	- [[the bucket list]]  遗愿清单
+		- Definition: A list of things that one has not done before but wants to do before dying.
+		- (一个人从来没有做过，但在死之前想做的事情的清单。 )
+		- [[bucket]] 桶
+	- It’s difficult to understand the [[sum]] of a person’s life.（人生的意义是什么很难说得清。）
+		- [[sum]] [sʌm] n. 总数，总和；**意义，真谛**
+	-
+	- Some believe it can be measured in [[faith]].（有人认为要靠他的信仰来衡量。）
+		- [[faith]] [feiθ] n. 信任，信念，信仰
+			- 【固】have faith in sb./ sth.  对某人/某事有信心
+			- 【例】I have faith in you. You can do it.
+			- （我们对你有信心，你可以做到的。  ）
+			- 【引】[[faithful]] [ˈfeiθful] adj. 忠诚的 (信念上的坚信)
+			- 【引】[[loyal]] ['lɒɪəl] adj.忠诚的 (坚定的支持，不会轻易背叛)
+	-
+	- Other [[folk]]s say life has no meaning at all.（还有人说人生根本就没有意义。）
+		- [[folk]] (或folks) [fəuk] n. 人们，家属，亲属
+	-
+	- I believe that you measure yourself by the people who measured themselves by you.
+		- (我觉得你可以从那些以你为镜衡量自身的人身上衡量你自己生命的意义。）
+-
+- 词汇快速回顾
+	- the bucket list  遗愿清单
+	- sum [sʌm] n. 总数，总和 ；意义，真谛
+	- faith [feiθ] n. 信任，信念，信仰
+	- faithful [ˈfeiθful] adj. 忠诚的 (信念上的坚信)
+	- loyal ['lɒɪəl] adj.忠诚的 (坚定的支持，不会轻易背叛)
+	- folk (或folks) [fəuk] n. 人们，家属，亲属

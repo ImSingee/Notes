@@ -3,7 +3,6 @@ author:: [[kegel.com]]
 full-title:: The C10K Problem
 category:: #articles
 url:: http://www.kegel.com/c10k.html
-
 - The name 'level triggered' comes from computer hardware
   design; it's the opposite of 'edge triggered'.
   Jonathon Lemon introduced the terms in his 

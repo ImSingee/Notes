@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 36 | 为什么说Kubernetes只有soft multi-tenancy？ - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/68316
-
 - 一旦 Pod 被 NetworkPolicy 选中，那么这个 Pod 就会进入“拒绝所有”（Deny All）的状态，即：这个 Pod 既不允许被外界访问，也不允许对外界发起访问。 #Highlight #[[2023-07-11]]
 - 在具体实现上，凡是支持 NetworkPolicy 的 CNI 网络插件，都维护着一个 NetworkPolicy Controller，通过控制循环的方式对 NetworkPolicy 对象的增删改查做出响应，然后在宿主机上完成 iptables 规则的配置工作。 #Highlight #[[2023-07-11]]
 - iptables 只是一个操作 Linux 内核 Netfilter 子系统的“界面” #Highlight #[[2023-07-11]]

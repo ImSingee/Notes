@@ -4,7 +4,6 @@ full-title:: Cpu 利用率的错误理解
 category:: #articles
 url:: https://juejin.cn/post/7243724596863221820
 tags:: #[[inoreader]] #[[read]] #[[掘金 - 后端]]
-
 - 停滞 "stalled" 意味着处理器没有在指令上取得进展，通常是因为它正在等待内存输入 / 输出 ([View Highlight](https://read.readwise.io/read/01h2smw33faca3e16ewsmtypry)) #Highlight #[[2023-06-13]]
 - CPU 利用率的指标实际上是 “非空闲时间”：CPU 没有运行空闲线程的时间 ([View Highlight](https://read.readwise.io/read/01h2smxsf9c5c14478kyp14n03)) #Highlight #[[2023-06-13]]
 - 如今，CPU 已经变得比内存（ main memory）快得多，等待内存仍然主导着所谓的 “CPU 利用率” ([View Highlight](https://read.readwise.io/read/01h2smxxd1096x1zfkcjtgbsz8)) #Highlight #[[2023-06-13]]

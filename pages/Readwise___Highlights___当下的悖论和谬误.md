@@ -3,7 +3,6 @@ author:: [[Λ-Reading]]
 full-title:: 当下的悖论和谬误
 category:: #articles
 url:: https://rizime.substack.com/p/6e5?utm_source=substack&utm_medium=email
-
 - 解读是最不可取的分享方式，因为每个人的价值观和思维不同，解读的东西残存着他人的体味，直接影响您的阅读体验和价值判断 ([View Highlight](https://read.readwise.io/read/01gygz9n9cpefgpxjj7waajk3f)) #Highlight #[[2023-04-21]]
 - 我们可能生活在一种巨大的错觉、悖论和谬误当中而不自知 ([View Highlight](https://read.readwise.io/read/01gyh1dhd0g3tdxd26ask32j7a)) #Highlight #[[2023-04-21]]
 - 许多事情不总是看起来的那样，从逻辑上看似正确，但实际上却与预期相反 ([View Highlight](https://read.readwise.io/read/01gyh1dsqde4vwjyw0wdpw0rj7)) #Highlight #[[2023-04-21]]

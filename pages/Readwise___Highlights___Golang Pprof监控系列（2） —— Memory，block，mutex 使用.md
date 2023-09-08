@@ -4,7 +4,6 @@ full-title:: Golang Pprof监控系列（2） —— Memory，block，mutex 使�
 category:: #articles
 url:: https://juejin.cn/post/7215523663217737786
 tags:: #[[inoreader]] #[[read]] #[[掘金 - 后端]]
-
 - allocs ,heap
   
   这两个值都是记录程序内存分配的情况。 ([View Highlight](https://read.readwise.io/read/01gxmhr7k4ge77za9tarhkyv4e)) #Highlight #[[2023-04-10]]

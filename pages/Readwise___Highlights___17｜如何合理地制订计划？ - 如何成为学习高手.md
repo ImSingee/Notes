@@ -3,7 +3,6 @@ author:: [[高冷冷]]
 full-title:: 17｜如何合理地制订计划？ - 如何成为学习高手
 category:: #articles
 url:: https://time.geekbang.org/column/article/385120
-
 - 计划应该有明确的截止期限。 #Highlight #[[2022-09-23]]
 - 计划和你的大目标要有一定的相关性。 #Highlight #[[2022-09-23]]
 - 计划应该是可达到的。 #Highlight #[[2022-09-23]]

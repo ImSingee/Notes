@@ -3,7 +3,6 @@ author:: [[彭东]]
 full-title:: 42｜性能调优：性能调优工具eBPF和调优方法 - 计算机基础实战课
 category:: #articles
 url:: https://time.geekbang.org/column/article/600912
-
 - BPF 程序的类型包括：kprobes、uprobes、tracepoint、perf_events 几种，具体含义如下：
   kprobes：是一种在内核中实现动态追踪的机制，可以跟踪 Linux 内核中的函数入口或返回点，但这套 ABI 接口并不稳定。不同的内核版本的变化带来的 ABI 差异，有可能会导致跟踪失败。
   uprobes：用来实现用户态程序动态追踪的机制。与 kprobes 类似，区别在于跟踪的函数是用户程序中的函数而已。

@@ -1,7 +1,6 @@
 ---
 title: sys.PtrSize
 ---
-
 - #Golang #go1.16
 -
 - Go 中使用 [sys.PtrSize](https://github.com/golang/go/blob/release-branch.go1.16/src/runtime/internal/sys/stubs.go#L9:7) 代表 [[指针长度]]（单位为字节）

@@ -3,7 +3,6 @@ author:: [[@raycat2021 on Twitter]]
 full-title:: WSJ有篇独家报道披露了OpenAI是如何从非赢...
 category:: #tweets
 url:: https://twitter.com/raycat2021/status/1642510568614694912
-
 - WSJ有篇独家报道披露了OpenAI是如何从非赢利机构180度转弯成为商业机构的，有些细节挺有意思。
   创业不易啊，理想面对现实还是要折腰的。
   这也是正确的决定，否则就不会有ChatGPT这么快的诞生。

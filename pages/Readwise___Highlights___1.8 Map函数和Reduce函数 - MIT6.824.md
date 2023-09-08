@@ -3,7 +3,6 @@ author:: [[mit-public-courses-cn-translatio.gitbook.io]]
 full-title:: 1.8 Map函数和Reduce函数 - MIT6.824
 category:: #articles
 url:: https://mit-public-courses-cn-translatio.gitbook.io/mit6-824/lecture-01-introduction/1.8-mapreduce-han-shu
-
 - emit由MapReduce框架提供，并且这里的emit属于Map函数。emit会接收两个参数，其中一个是key，另一个是value #Highlight #[[2022-03-07]]
 - Reduce函数的入参是某个特定key的所有实例（Map输出中的key-value对中，出现了一次特定的key就可以算作一个实例）。所以Reduce函数也是使用一个key和一个value作为参数，其中value是一个数组，里面每一个元素是Map函数输出的key的一个实例的value。对于单词计数器来说，key就是单词，value就是由字符串“1”组成的数组，所以，我们不需要关心value的内容是什么，我们只需要关心value数组的长度。Reduce函数也有一个属于自己的emit函数。这里的emit函数只会接受一个参数value，这个value会作为Reduce函数入参的key的最终输出。 #Highlight #[[2022-03-07]]
 - 有关输入和输出文件的存放位置，这是我之前没有提到的，它们都存放在文件中，但是因为我们想要灵活的在任意的worker上读取任意的数据，这意味着我们需要某种网络文件系统（network file system）来存放输入数据。 #Highlight #[[2022-03-07]]

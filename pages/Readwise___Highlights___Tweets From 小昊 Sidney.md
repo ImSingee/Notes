@@ -3,7 +3,6 @@ author:: [[@cloxnu on Twitter]]
 full-title:: Tweets From 小昊 Sidney
 category:: #tweets
 url:: https://twitter.com/cloxnu
-
 - GPT-4 真的让我感受到划时代的变化！
   
   （1/2）这次 ChatGPT 真的能够 code 一个完整的工程，只需一句话就能获得一个 web 端五子棋游戏。更神奇的是，再根据进一步的修改建议，它真的能够在短短15分钟之内编码一个可以战胜我的对手！

@@ -2,7 +2,6 @@ title:: Readwise/Highlights/产品沉思录 | 2023 Vol.20230410
 author:: [[shaonan × fonter]]
 full-title:: 产品沉思录 | 2023 Vol.20230410
 category:: #articles
-
 - 淘系在很早以前就明确了核心的 KPI 并只是 GMV，还包括了用户停留时长，尤其是做 C 端业务的同事们，关注的就是用户的「关注」本身 ([View Highlight](https://read.readwise.io/read/01gy22gr8r1wph24jctv924y06)) #Highlight #[[2023-04-15]]
 - 如何能留住用户的注意力，就是大多数产品所要关注的终极目标。从更底层来说，注意力的转移，也就意味着经济生态的大变革 ([View Highlight](https://read.readwise.io/read/01gy22hjgaezp9mvnxdhhhztrp)) #Highlight #[[2023-04-15]]
 - API 应该提供重要但并不是核心的功能 ([View Highlight](https://read.readwise.io/read/01gy22k46j586ktegxtqqk458x)) #Highlight #[[2023-04-15]]

@@ -1,5 +1,4 @@
 alias:: Number of Ways to Rearrange Sticks With K Sticks Visible
-
 - #CruelCoding #2022-11-19 #Hard #[[Combinatorics]] #[[DP]] [讲解](https://youtu.be/y4Pn4jxCw7E) Rating-2333
 - #算法 #Hard #[[数学]] #[[组合数学]] #[[动态规划]]
 - #Leetcode #Leetcode-1866 [LC国际](https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/) [LC中国](https://leetcode.cn/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)

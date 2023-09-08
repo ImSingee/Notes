@@ -3,7 +3,6 @@ author:: [[xiaozhuanlan.com]]
 full-title:: WWDC21 - 认识 Swift 中的异步与并发
 category:: #articles
 url:: https://xiaozhuanlan.com/topic/8627905413
-
 - `async` / `await` 实际上的意思：
   
   1.  `async` 允许一个函数被挂起；

@@ -1,6 +1,5 @@
 id:: 6357e6f5-4954-4e4c-bfbe-8d0dc9df1f6e
 alias:: 组合数学
-
 - 组合数 C
 	- C(n, k) 在 n 个数中取 k 个有多少种取法
 	- C(n, k) = A(n, k) / k! = n! / (k! * (n-k)!)

@@ -3,7 +3,6 @@ author:: [[@Tisoga on Twitter]]
 full-title:: 真的想要入门编程并打下一个坚实的基础，好好学一下...
 category:: #tweets
 url:: https://twitter.com/Tisoga/status/1554766827502202881
-
 - 真的想要入门编程并打下一个坚实的基础，好好学一下 UC Berkeley 的 3 门课就可以了。
 - CS 61A: Structure and Interpretation of Computer Programs
   

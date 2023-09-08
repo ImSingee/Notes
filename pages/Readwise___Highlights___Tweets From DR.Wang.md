@@ -3,7 +3,6 @@ author:: [[@HotmailfromSH on Twitter]]
 full-title:: Tweets From DR.Wang
 category:: #tweets
 url:: https://twitter.com/HotmailfromSH
-
 - 「就医科普窍门」
   在国内就医如何选择才能事半功倍？
   

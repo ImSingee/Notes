@@ -3,7 +3,6 @@ author:: [[zsxq.com]]
 full-title:: 必读必读 星球成长路径
 category:: #articles
 url:: https://articles.zsxq.com/id_01ewh6nltzxn.html
-
 - **慢就是快，做会而不是看会，无招胜有招**
   
   慢就是快指的是不要贪多，而是要彻底搞懂一个问题、一个知识点，让这个点成为一个支柱长成体系，贪多往往啥都没有掌握

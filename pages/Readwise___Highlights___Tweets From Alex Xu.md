@@ -3,7 +3,6 @@ author:: [[@alexxubyte on Twitter]]
 full-title:: Tweets From Alex Xu
 category:: #tweets
 url:: https://twitter.com/alexxubyte
-
 - HTTP 1.0 -> HTTP 1.1 -> HTTP 2.0 -> HTTP 3.0 (QUIC).
   
   What problem does each generation of HTTP solve?

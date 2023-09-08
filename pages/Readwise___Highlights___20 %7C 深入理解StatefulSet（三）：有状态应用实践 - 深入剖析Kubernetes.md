@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 20 | 深入理解StatefulSet（三）：有状态应用实践 - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/41217
-
 - 部署这样一个主从模式的 MySQL 集群的主要难点在于：如何让从节点能够拥有主节点的数据，即：如何配置主（Master）从（Slave）节点的复制与同步 #Highlight #[[2023-06-09]]
 - 将部署 MySQL 集群的流程迁移到 Kubernetes 项目上，需要能够“容器化”地解决下面的“三座大山”：
   Master 节点和 Slave 节点需要有不同的配置文件（即：不同的 my.cnf）；

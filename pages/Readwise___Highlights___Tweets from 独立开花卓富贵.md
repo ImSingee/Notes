@@ -3,7 +3,6 @@ author:: [[@bestlacklock on Twitter]]
 full-title:: Tweets from 独立开花卓富贵
 category:: #tweets
 url:: https://twitter.com/bestlacklock
-
 - 独立开发死亡加速三步走：
   1.在笔（日）记、记账、Todo主流三件套里挑一个。第一个版本 app 打开就要有内购弹窗。
   2.找一个设计师做一张好看的宣传海报发社交平台，说是为了自己或者为了自己女朋友开发的。说第一个版本开发、上架多么难可以获得额外加速。 https://t.co/fx99NfMMEE

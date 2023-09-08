@@ -1,6 +1,5 @@
 title:: SuperMemo/Outstanding
 url:: https://help.supermemo.org/wiki/Glossary:Outstanding_element
-
 -
 - Outstanding 元素可以认为是「当天要学习的元素」
 -

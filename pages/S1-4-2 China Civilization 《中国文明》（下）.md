@@ -1,7 +1,6 @@
 ---
 title: S1-4-2 China Civilization 《中国文明》（下）
 ---
-
 - #[[看电影学单词]] #[[中级]] #[[Season 1]] [[2021-06-10]]
 -
 - https://www.notion.so/singee/S1-4-2-China-Civilization-b8f9a8fe280e45a8b03703402167f742

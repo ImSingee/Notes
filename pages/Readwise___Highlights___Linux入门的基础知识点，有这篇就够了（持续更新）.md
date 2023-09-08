@@ -3,7 +3,6 @@ author:: [[juejin.cn]]
 full-title:: Linux入门的基础知识点，有这篇就够了（持续更新）
 category:: #articles
 url:: https://juejin.cn/post/6964347950495596551
-
 - 磁盘文件系统：NTFS,EXT3
   闪存文件系统：JFFS2,YAFFS
   数据库文件系统：BFFS,WINFS

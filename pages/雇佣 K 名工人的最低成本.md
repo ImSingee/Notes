@@ -1,5 +1,4 @@
 alias:: Minimum Cost to Hire K Workers
-
 - #CruelCoding #2023-02-06 #Hard #[[Greedy]] #[[Sort+PQ]] [讲解](https://youtu.be/ZHFRB58hlQw) Rating-2259
 - #算法 #Hard #[[数组]] #[[贪心]] #[[堆（优先队列）]] #[[排序]]
 - #Leetcode #Leetcode-857 [LC国际](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) [LC中国](https://leetcode.cn/problems/minimum-cost-to-hire-k-workers/)

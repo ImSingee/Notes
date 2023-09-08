@@ -3,7 +3,6 @@ author:: [[@hasantoxr on Twitter]]
 full-title:: GPT-4 Is a Game-Changer...
 category:: #tweets
 url:: https://twitter.com/hasantoxr/status/1656269535131959296
-
 - GPT-4 is a game-changer for AI-powered tools.
   
   But it comes at a price of $20 a month. 

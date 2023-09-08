@@ -3,7 +3,6 @@ author:: [[@javarevisited on Twitter]]
 full-title:: Tweets From Javarevisited
 category:: #tweets
 url:: https://twitter.com/javarevisited
-
 - Best Kafka courses for 2023 
   1.Learn Apache Kafka - https://t.co/7A8iVmZNry
   2.Kafka Streams for Data Processing - https://t.co/xCExaFKnvu

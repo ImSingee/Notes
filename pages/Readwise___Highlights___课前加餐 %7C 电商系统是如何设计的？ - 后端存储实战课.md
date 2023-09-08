@@ -3,7 +3,6 @@ author:: [[李玥]]
 full-title:: 课前加餐 | 电商系统是如何设计的？ - 后端存储实战课
 category:: #articles
 url:: https://time.geekbang.org/column/article/204667
-
 - 不要一上来就设计功能，而是先要回答下面这两个问题：
   这个系统（或者是功能）是给哪些人用的？
   这些人使用这个系统来解决什么问题？ #Highlight #[[2022-08-05]]

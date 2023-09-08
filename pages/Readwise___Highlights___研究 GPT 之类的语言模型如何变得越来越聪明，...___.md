@@ -3,7 +3,6 @@ author:: [[@Svwang1 on Twitter]]
 full-title:: 研究 GPT 之类的语言模型如何变得越来越聪明，...
 category:: #tweets
 url:: https://twitter.com/Svwang1/status/1630797872127180801
-
 - 研究 gpt 之类的语言模型如何变得越来越聪明，就可以帮助自己变得越来越聪明 ;
   
   分析这些语言模型的缺点，为什么会顽固不化的重复一下弱智的错误，也可以用来更好的提醒自己，及早避开这些缺点。 ([View Tweet](https://twitter.com/Svwang1/status/1630797872127180801)) #Highlight #[[2023-03-10]]

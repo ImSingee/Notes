@@ -2,7 +2,6 @@ title:: Readwise/Highlights/低智商犯罪
 author:: [[紫金陈]]
 full-title:: 低智商犯罪
 category:: #books
-
 - 如果人遇到了一件倒霉事，先不要抱怨，因为接下去的事往往更倒霉。 #Highlight #[[2023-04-29]]
 - “我凭什么信你们？” 
   “这——”方超一时也找不到理由让他相信。 

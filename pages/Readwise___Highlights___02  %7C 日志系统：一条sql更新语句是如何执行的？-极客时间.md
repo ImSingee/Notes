@@ -3,7 +3,6 @@ author:: [[time.geekbang.org]]
 full-title:: 02  | 日志系统：一条sql更新语句是如何执行的？-极客时间
 category:: #articles
 url:: https://time.geekbang.org/column/article/68633
-
 - 一条查询语句的执行过程一般是经过连接器、分析器、优化器、执行器等功能模块，最后到达存储引擎 #Highlight #[[2022-01-23]]
 - MySQL 可以恢复到半个月内任意一秒的状态 #Highlight #[[2022-01-23]]
 - InnoDB 引擎就会先把记录写到 redo log（粉板）里面，并更新内存，这个时候更新就算完成了。同时，InnoDB 引擎会在适当的时候，将这个操作记录更新到磁盘里面，而这个更新往往是在系统比较空闲的时候做，这就像打烊以后掌柜做的事。 #Highlight #[[2022-01-23]]

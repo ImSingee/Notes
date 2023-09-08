@@ -4,7 +4,6 @@ full-title:: 理解unsafe-Assume-No-Moving-Gc包
 category:: #articles
 url:: https://tonybai.com/2023/04/16/understanding-unsafe-assume-no-moving-gc/
 tags:: #[[go inbox]] #[[inoreader]] #[[tony bai]] #[[博客]]
-
 - go4的来历：**gopher的谐音** ([View Highlight](https://read.readwise.io/read/01gydakwwpceqnaz8gfqb8f31y)) #Highlight #[[2023-04-20]]
 - 如果你的代码中使用了Go中的unsafe tip，那么**你的程序可以正常工作的前提是Go运行时垃圾回收器不是一个带迁移机制的回收器(collector)**。
   

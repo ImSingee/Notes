@@ -2,7 +2,6 @@ title:: Readwise/Highlights/SwiftUI 编程思想
 author:: [[未知]]
 full-title:: SwiftUI 编程思想
 category:: #books
-
 - Group 所得到的结果是拥有两个元素的多元组视图，所以边框将会被应⽤到每个视图上去。如果我们想在每个视图上都应⽤同样的修饰器，我们可以利⽤这个技巧 #Highlight #[[2023-07-29]]
 - HStack 的初始化⽅法接受⼀个闭包作为参数，这个闭包被标记为了
   @ViewBuilder。这个特性允许我们在闭包⾥书写多个表达式，每个表达式代表⼀个视图。从本质来说，传递给 HStack 的闭包将构建出⼀个视图的列表，这些视图将会成为 HStack 的⼦视图。 #Highlight #[[2023-07-29]]

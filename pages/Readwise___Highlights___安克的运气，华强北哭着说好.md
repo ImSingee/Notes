@@ -4,7 +4,6 @@ full-title:: 安克的运气，华强北哭着说好
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=MzI2MzE2NDczMw==&mid=2649761165&idx=1&sn=8c7d74a9d3362e5acd0d4ec7a0e98d77&chksm=f24483dfc5330ac9f9da6aee65b7c94c37e1c812a9122ce1053d3ffbc04c7d7570385269e1b0#rd
 tags:: #[[inoreader]] #[[公众号「半佛仙人」]] #[[微信公众号]]
-
 - 在快充、数据线领域同时能卖到100元以上的，除了苹果，就只有安克。 ([View Highlight](https://read.readwise.io/read/01gy255r76bydfbrwdvf5qcsm1)) #Highlight #[[2023-04-15]]
 - 零碎的小市场，容不下太多选手。
   

@@ -1,5 +1,4 @@
 alias:: Single-Threaded CPU
-
 - #CruelCoding #2023-02-10 #Medium #[[Greedy]] #[[Sort+PQ]] [讲解](https://youtu.be/42_UeqnvM2Y) Rating-1797
 - #算法 #Medium #[[堆（优先队列）]] #[[数组]] #[[排序]]
 - #Leetcode #Leetcode-1834 [LC国际](https://leetcode.com/problems/single-threaded-cpu/) [LC中国](https://leetcode.cn/problems/single-threaded-cpu/)

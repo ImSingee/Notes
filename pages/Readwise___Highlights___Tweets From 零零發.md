@@ -3,7 +3,6 @@ author:: [[@linglingfa on Twitter]]
 full-title:: Tweets From 零零發
 category:: #tweets
 url:: https://twitter.com/linglingfa
-
 - 看了今天国内网信办发布的《生成式人工智能服务管理办法（征求意见稿）》
   https://t.co/ou6oxrd2c8
   感觉就一句话：我们的征途是片帆不得下海。

@@ -3,7 +3,6 @@ author:: [[@Penny777_eth on Twitter]]
 full-title:: Tweets From Penny777.eth
 category:: #tweets
 url:: https://twitter.com/Penny777_eth
-
 - 一人血书！！按头安利！！
   推荐英语口语神器：Aboboo，我发誓这是我用过最好的学英文软件，没有之一！！混币圈，立志要学好英语的，一定一定要下载，每个功能都超级实用！
   

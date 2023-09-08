@@ -3,7 +3,6 @@ author:: [[Rust Embedded]]
 full-title:: 2022-30: 如何维护一个开源项目
 category:: #articles
 url:: https://xuanwo.io/reports/2022-30/
-
 - 开源项目的发展也大体遵循着强者恒强的马太定律：一个特定的垂直领域往往只能容下一到两个广泛使用的项目。 ([View Highlight](https://read.readwise.io/read/01g9c0cy19q0zzr5jdq3c6xjcd)) #Highlight #[[2022-08-01]]
 - 如果我们不能够比现有项目做的更好，不如直接放弃加入现有项目。否则我们就需要进一步对领域进行细分，找到自己的差异化优势。 ([View Highlight](https://read.readwise.io/read/01g9c0d86qbe3ncvbkv3tqx9ac)) #Highlight #[[2022-08-01]]
 - 文章合为时而著，代码合为事而写。开源项目必须要能够解决实际的问题，否则就无法形成一个可靠的开源共同体。 ([View Highlight](https://read.readwise.io/read/01g9c0dygsbv8xtm4vpw02chmb)) #Highlight #[[2022-08-01]]

@@ -3,7 +3,6 @@ author:: [[@lai_jia_wei on Twitter]]
 full-title:: 历时两周把海外公司、银行账户、Stripe 都注...
 category:: #tweets
 url:: https://twitter.com/lai_jia_wei/status/1689633714358378496
-
 - 历时两周把海外公司、银行账户、Stripe 都注册下来了，从此实现全球收款国内到账，无论是美元还是 USDT。
   
   银行账户发行的员工卡可以绑定支付宝消费，同时也可以无障碍享受海外服务，再也不用担心 OpenAI 扣费失败了。

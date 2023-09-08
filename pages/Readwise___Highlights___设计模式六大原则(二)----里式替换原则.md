@@ -3,7 +3,6 @@ author:: [[juejin.cn]]
 full-title:: 设计模式六大原则(二)----里式替换原则
 category:: #articles
 url:: https://juejin.cn/post/6967281624044011551?cmdid=MITRR5R9NK0TFL
-
 - 里式替换原则是用来帮助我们在继承关系中进行父子类的设计 #Highlight #[[2021-05-29]]
 - 里式替换原则有两层定义: 定义1
   

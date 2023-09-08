@@ -5,7 +5,6 @@ category:: #articles
 url:: https://www.coursera.org/learn/create-the-user-interface-with-swiftui/supplement/4yPpQ/observable-observed-state-and-binding
 
 ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_182549/Grid_Coursera_Partners_updated.png)
-
 - State and Binding work in pairs, inside SwiftUI views, in the form @State and @Binding.
   
   All SwiftUI views are structures, also known as structs. Once initialized, structs don't allow their internal variables to change. @State elements remove this restriction, allowing variables to be stored outside the structure itself in an area that can be changed. As a plus, they serve as control variables.

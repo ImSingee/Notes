@@ -1,5 +1,4 @@
 title:: 算法/题目/最少移动次数使数组元素相等 II
-
 - alias:: Minimum Moves to Equal Array Elements II
 - #算法 #Medium #[[排序]] #[[数学]] #[[数组]]
 - #Leetcode #Leetcode-462 [LC国际](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) [LC中国](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements-ii/)

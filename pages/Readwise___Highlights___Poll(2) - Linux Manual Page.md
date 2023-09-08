@@ -3,7 +3,6 @@ author:: [[man7.org]]
 full-title:: Poll(2) - Linux Manual Page
 category:: #articles
 url:: https://man7.org/linux/man-pages/man2/poll.2.html
-
 - The field fd contains a file descriptor for an open file.  If
        this field is negative, then the corresponding events field is
        ignored and the revents field returns zero. #Highlight #[[2021-07-03]]

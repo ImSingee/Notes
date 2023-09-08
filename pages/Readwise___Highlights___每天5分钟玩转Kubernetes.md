@@ -2,7 +2,6 @@ title:: Readwise/Highlights/每天5分钟玩转Kubernetes
 author:: [[CloudMan]]
 full-title:: 每天5分钟玩转Kubernetes
 category:: #books
-
 - kubelet运行在Cluster所有节点上，负责启动Pod和容器。
   •  kubeadm用于初始化Cluster。
   •  kubectl是Kubernetes命令行工具。通过kubectl可以部署和管理应用，查看各种资源，创建、删除和更新各种组件。

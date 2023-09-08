@@ -3,7 +3,6 @@ author:: [[draveness.me]]
 full-title:: 为什么 Linux 需要 Swapping - 面向信仰编程
 category:: #articles
 url:: https://draveness.me/draveness.me/whys-the-design-linux-swapping
-
 - 在 SSD 中随机访问 4KB 数据所需要的时间是访问主存的 1,500 倍，机械磁盘的寻道时间是访问主存的 100,000 倍 #Highlight #[[2022-07-18]]
 - 触发 Swapping 的进程可能会遇到性能损失，同一个页面的频繁换入换出会导致极其明显的性能抖动 #Highlight #[[2022-07-18]]
 - Linux 提供了两种不同的方法启用 Swapping，分别是 Swap 分区（Swap 

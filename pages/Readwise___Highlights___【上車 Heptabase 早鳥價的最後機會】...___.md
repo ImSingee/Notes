@@ -3,7 +3,6 @@ author:: [[@WuPingJu on Twitter]]
 full-title:: 【上車 Heptabase 早鳥價的最後機會】...
 category:: #tweets
 url:: https://twitter.com/WuPingJu/status/1687389304912543744
-
 - 【上車 Heptabase 早鳥價的最後機會】
   
   前幾天 @Heptabase 團隊發布了一則重要的公告，裡面提到， 八月的某個時間點將會正式發佈 1.0 的版本。同時，定價也會隨之調整。

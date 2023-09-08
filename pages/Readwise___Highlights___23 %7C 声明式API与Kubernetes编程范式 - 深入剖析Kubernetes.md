@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 23 | 声明式API与Kubernetes编程范式 - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/41769
-
 - kubectl replace 的执行过程，是使用新的 YAML 文件中的 API 对象，替换原有的 API 对象；而 kubectl apply，则是执行了一个对原有 API 对象的 PATCH 操作 #Highlight #[[2023-06-09]]
 - Istio 最根本的组件，是运行在每一个应用 Pod 里的 Envoy 容器。
   这个 Envoy 项目是 Lyft 公司推出的一个高性能 C++ 网络代理，也是 Lyft 公司对 Istio 项目的唯一贡献。

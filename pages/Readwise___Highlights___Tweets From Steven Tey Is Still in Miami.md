@@ -3,7 +3,6 @@ author:: [[@steventey on Twitter]]
 full-title:: Tweets From Steven Tey Is Still in Miami
 category:: #tweets
 url:: https://twitter.com/steventey
-
 - It's insane how much you can build with @reactjs + @tailwindcss in 2023:
   
   ◆ Websites: https://t.co/NV1rvONuas

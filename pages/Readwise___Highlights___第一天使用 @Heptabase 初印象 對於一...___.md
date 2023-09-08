@@ -3,7 +3,6 @@ author:: [[@Irena_Yuan on Twitter]]
 full-title:: 第一天使用 @Heptabase 初印象 對於一...
 category:: #tweets
 url:: https://twitter.com/Irena_Yuan/status/1688165221163307008
-
 - 第一天使用 @Heptabase 初印象
   對於一路用過 Obsidia Roam Notion Logseq RemNote Crafts MarginNote 的用戶來說
   真的打到點上的恰到好處

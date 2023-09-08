@@ -3,7 +3,6 @@ author:: [[Colin Bartlett]]
 full-title:: Time Travel in Vim
 category:: #articles
 url:: https://vimtricks.com/p/vimtrick-time-travel-in-vim/?utm_campaign=VimTricks&utm_medium=email&utm_source=Revue%20newsletter
-
 - You can undo and redo changes in bulk or even with time based commands, allowing you to travel back and forth in time through your change history. Here’s a short summary of commands:
   
   •   `:earlier 3` – Undo the last 3 changes

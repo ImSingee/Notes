@@ -3,7 +3,6 @@ author:: [[王沛]]
 full-title:: 16 | 按需加载：如何提升应用打开速度？ - React Hooks 核心原理与实战
 category:: #articles
 url:: https://time.geekbang.org/column/article/390121
-
 - 在实际的项目中，使用 Service Worker 其实还有更多的考虑因素，比如何时删掉旧版本缓存，如何处理请求失败等等 #Highlight #[[2022-09-23]]
 - 要使用 Service Worker，基本上分为注册、初始化、拦截请求等步骤 #Highlight #[[2022-09-23]]
 - Service Worker 是一段独立于页面之外的 JavaScript 脚本，它并不在 Web 页面中运行，但是会在 Web 页面加载时，由一段代码去触发注册、下载和激活。一旦安装完成之后，Service Worker 就会拦截所有当前域名下的所有请求，由代码逻辑决定应该如何处理。 #Highlight #[[2022-09-23]]

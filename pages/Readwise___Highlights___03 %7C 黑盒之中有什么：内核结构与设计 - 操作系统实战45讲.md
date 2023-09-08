@@ -3,7 +3,6 @@ author:: [[彭东]]
 full-title:: 03 | 黑盒之中有什么：内核结构与设计 - 操作系统实战45讲
 category:: #articles
 url:: https://time.geekbang.org/column/article/372609
-
 - 首先大致将我们的操作系统内核分为三个大层，分别是：
   1. 内核接口层。
   2. 内核功能层。

@@ -3,7 +3,6 @@ author:: [[@argyleink on Twitter]]
 full-title:: Tweets From Adam Argyle
 category:: #tweets
 url:: https://twitter.com/argyleink
-
 - View Transition powered drag n' drop!
   
   just drag events then swappin DOM, 

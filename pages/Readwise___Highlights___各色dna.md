@@ -3,7 +3,6 @@ author:: [[gesedna.com]]
 full-title:: 各色dna
 category:: #articles
 url:: https://www.gesedna.com/function/
-
 - 随着 BMI 和腰围增加，糖尿病患病风险会不断提高。超重、肥胖 1 级和肥胖 2 级的人患糖尿病的风险依次是正常体重人群的 1.9、2.9 及 5.5 倍；中心性肥胖前期和中心性肥胖者的患病风险是正常人群的 2.0 和 3.4 倍。 #Highlight #[[2022-01-06]]
 - 经常焦虑或情绪低落，患病风险高 
         影响程度

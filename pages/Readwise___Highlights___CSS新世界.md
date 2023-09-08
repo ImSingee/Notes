@@ -2,7 +2,6 @@ title:: Readwise/Highlights/CSS新世界
 author:: [[张鑫旭]]
 full-title:: CSS新世界
 category:: #books
-
 - column-width表示每一栏/列的最佳宽度，注意，是“最佳宽度”，实际渲染宽度多半和指定的宽度是有出入的 #Highlight #[[2023-04-25]]
 - column-width和传统的width属性不同，column-width更像是一个期望尺寸，浏览器会根据这个期望尺寸确定分栏数目，一旦分栏数目确定了，column-width属性的使命也就完成了，接下来根据分栏数目对容器进行的分栏布局就和column-width属性没有任何关系了。 #Highlight #[[2023-04-25]]
 - 在分栏布局中，最终分栏的数量是由column-count与column-width属性共同决定的，不对，不能称为“共同决定”，应该叫作“互相制约”。 #Highlight #[[2023-04-25]]

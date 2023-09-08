@@ -1,5 +1,4 @@
 alias:: Kth Smallest Instructions
-
 - #CruelCoding #2022-11-17 #Medium #[[Combinatorics]] #[[Greedy]] [讲解](https://youtu.be/uAL9gfZr55Q) Rating-2079
 - #算法 #Hard #[[数学]] #[[组合数学]] #[[数组]] #[[动态规划]]
 - #Leetcode #Leetcode-1643 [LC国际](https://leetcode.com/problems/kth-smallest-instructions/) [LC中国](https://leetcode.cn/problems/kth-smallest-instructions/)

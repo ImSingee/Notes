@@ -3,7 +3,6 @@ author:: [[@Blankwonder on Twitter]]
 full-title:: Tweets From Yachen Liu
 category:: #tweets
 url:: https://twitter.com/Blankwonder
-
 - 这套 PC 配置还有啥改进建议吗？ https://t.co/a470ogWItn
   
   ![](https://pbs.twimg.com/media/Fu9QuGhaAAE5Y9p.jpg) ([View Tweet](https://twitter.com/Blankwonder/status/1652628349204963330)) #Highlight #[[2023-05-04]]

@@ -3,7 +3,6 @@ author:: [[@ProgramerJohann on Twitter]]
 full-title:: Tweets From Johann
 category:: #tweets
 url:: https://twitter.com/ProgramerJohann
-
 - 我老婆最近在考雅思，客观题都有标准答案，比较好评分，但是雅思作文找外教评分和批改要 99 元一次，我用 GPT 4 给她写了个工具来批改作文和评分，期间基于 GPT3 用大量的雅思作文做了一次微调，也开放出来免费给大家使用。
   https://t.co/zbZiSeABkc
   

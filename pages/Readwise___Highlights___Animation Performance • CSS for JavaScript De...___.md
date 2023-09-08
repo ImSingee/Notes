@@ -3,7 +3,6 @@ author:: [[courses.joshwcomeau.com]]
 full-title:: Animation Performance • CSS for JavaScript Developers
 category:: #articles
 url:: https://courses.joshwcomeau.com/css-for-js/08-animations/08-animation-performance
-
 - it's best to try and avoid animating any properties that affect 
         
           layout

@@ -1,7 +1,6 @@
 ---
 title: S1-3 Knowing《先知》
 ---
-
 - #[[看电影学单词]] #[[中级]] #[[Season 1]] [[2021-06-09]]
 -
 - https://www.notion.so/singee/S1-3-371e9de3bfcb47e3a4388af4b58e5014

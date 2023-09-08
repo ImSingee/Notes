@@ -3,7 +3,6 @@ author:: [[Λ-Reading]]
 full-title:: 如何 “不劳而获” 和十大逆向定律
 category:: #articles
 url:: https://rizime.substack.com/p/135?utm_source=substack&utm_medium=email
-
 - 当我们努力想找寻某样东西时，我们往往会陷入 “隧道视野”，只见树木不见森林，而错过目标 ([View Highlight](https://read.readwise.io/read/01gyee47fnprmxkff8r7cwpd0n)) #Highlight #[[2023-04-20]]
 - 这种意志力的悖论和心理现象被英国作家、哲学家（有争议）[艾伦・瓦茨](https://en.wikipedia.org/wiki/Alan_Watts)（Alan Watts）称之为 “逆向法则（The Backwards Law）”，即你越是想感觉良好，就越得不到满足；你越是热切追求某样东西，就意味着你越缺乏这样东西。简单的说，就是你越努力，成功的可能性越小。另一方面，当您停止这种思想时，我们就会得到我们想要的 ([View Highlight](https://read.readwise.io/read/01gyee4rbkf1t9s3zp85emvb0p)) #Highlight #[[2023-04-20]]
 - “努力而不得” 并不是说放弃努力，原地躺平，而是不要一直想着那头 “粉色大象”，Just do it ([View Highlight](https://read.readwise.io/read/01gyee5a5dz16a10wm0ak8rrga)) #Highlight #[[2023-04-20]]

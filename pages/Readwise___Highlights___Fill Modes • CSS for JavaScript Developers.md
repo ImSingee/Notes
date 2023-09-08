@@ -3,7 +3,6 @@ author:: [[courses.joshwcomeau.com]]
 full-title:: Fill Modes • CSS for JavaScript Developers
 category:: #articles
 url:: https://courses.joshwcomeau.com/css-for-js/08-animations/04-fill-modes
-
 - According to the 
         
           specification

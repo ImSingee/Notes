@@ -3,7 +3,6 @@ author:: [[@realEmperorPooh on Twitter]]
 full-title:: Tweets From 维尼大帝
 category:: #tweets
 url:: https://twitter.com/realEmperorPooh
-
 - 淄博一中 
   
   「中学生爱国情感的名词调查」问卷

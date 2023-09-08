@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 16 | 编排其实很简单：谈谈“控制器”模型 - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/40583
-
 - Pod 这个看似复杂的 API 对象，实际上就是对容器的进一步抽象和封装而已 #Highlight #[[2023-06-08]]
 - 控制器之所以被统一放在 pkg/controller 目录下，就是因为它们都遵循 Kubernetes 项目中的一个通用编排模式，即：控制循环（control loop） #Highlight #[[2023-06-08]]
 - 以 Deployment 为例，我和你简单描述一下它对控制器模型的实现：

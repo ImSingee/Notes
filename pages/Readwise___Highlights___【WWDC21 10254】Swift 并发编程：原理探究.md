@@ -3,7 +3,6 @@ author:: [[xiaozhuanlan.com]]
 full-title:: 【WWDC21 10254】Swift 并发编程：原理探究
 category:: #articles
 url:: https://xiaozhuanlan.com/topic/7604819352
-
 - 当我们向一个异步队列加入任务时（调用 `DispatchQueue.sync()` 或者 `DispatchQueue.asnyc()`），CPU 会创建若干个线程来执行这些任务，直到所有的 CPU 核心都被占用 ([View Highlight](https://read.readwise.io/read/01h5vr36dpdnynn918dbht9agt)) #Highlight #[[2023-07-21]]
 - 通过 Swift 的并发模型，我们可以完全避免线程数量过多的问题，理论上使得线程数保持与 CPU 核心数量相同 ([View Highlight](https://read.readwise.io/read/01h5vr3ynb28djkt2rw2hnzwxs)) #Highlight #[[2023-07-21]]
 - Swift 引入了延续点（Continuation）的概念，来保证线程的可持续使用，避免了由于线程阻塞导致的线程数量膨胀和线程上下文切换带来的额外开销，从而达到 Swift 并发模型的极致目标：**线程数量等同于 CPU 核心数量。** ([View Highlight](https://read.readwise.io/read/01h5vr5nq4xkr6mda8d7gw6qmv)) #Highlight #[[2023-07-21]]

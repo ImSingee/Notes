@@ -3,7 +3,6 @@ author:: [[对比测试Intel NUMA 性能]]
 full-title:: 十年后数据库还是不敢拥抱numa？
 category:: #articles
 url:: https://plantegg.github.io/2021/05/14/%E5%8D%81%E5%B9%B4%E5%90%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%98%E6%98%AF%E4%B8%8D%E6%95%A2%E6%8B%A5%E6%8A%B1NUMA/
-
 - 跨 NUMA 访问内存的延迟是本 Node 延迟的将近 2 倍 ([View Highlight](https://read.readwise.io/read/01h1rzz5maepef330fp4tyaxf7)) #Highlight #[[2023-05-31]]
 - 开启 NUMA 会优先就近使用内存，在本 NUMA 上的内存不够的时候可以选择回收本地的 PageCache 还是到其它 NUMA 上分配内存，这是可以通过 Linux 参数 zone_reclaim_mode 来配置的，默认是到其它 NUMA 上分配内存，也就是跟关闭 NUMA 是一样的 ([View Highlight](https://read.readwise.io/read/01h1rzzs6s36w8mb1dmd6vmdhk)) #Highlight #[[2023-05-31]]
 - 在开启 NUMA 和 zone_reclaim_mode 默认在内存不够的如果去其它 NUMA 上分配内存，比关闭 NUMA 要快很多而没有任何害处 ([View Highlight](https://read.readwise.io/read/01h1s0tw239yv801nmpm8vkw53)) #Highlight #[[2023-05-31]]

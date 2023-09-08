@@ -3,7 +3,6 @@ author:: [[@bearbig on Twitter]]
 full-title:: Tweets From Bear Liu
 category:: #tweets
 url:: https://twitter.com/bearbig
-
 - 四个你不容错过的AI工具：
   https://t.co/do5hz0R6lj— 人工智能内容生成器
   https://t.co/eqQSijbYnc— 使用ChatGPT进行批量处理

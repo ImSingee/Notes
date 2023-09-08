@@ -3,7 +3,6 @@ author:: [[王沛]]
 full-title:: 04｜内置 Hooks（2）：为什么要避免重复定义回调函数？ - React Hooks 核心原理与实战
 category:: #articles
 url:: https://time.geekbang.org/column/article/380210
-
 - 在 React 的开发中，除了像 Theme、Language 等一目了然的需要全局设置的变量外，我们很少会使用 Context 来做太多数据的共享。需要再三强调的是，Context 更多的是提供了一个强大的机制，让 React 应用具备定义全局的响应式数据的能力。 #Highlight #[[2022-09-22]]
 - 当这个 Context 的数据发生变化时，使用这个数据的组件就能够自动刷新。 #Highlight #[[2022-09-22]]
 - 使用 useRef 保存的数据一般是和 UI 的渲染无关的，因此当 ref 的值发生变化时，是不会触发组件的重新渲染的，这也是 useRef 区别于 useState 的地方 #Highlight #[[2022-09-22]]

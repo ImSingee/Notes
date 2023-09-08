@@ -3,7 +3,6 @@ author:: [[mp.weixin.qq.com]]
 full-title:: 我用 Apple Watch，3 个月减了 20 斤
 category:: #articles
 url:: https://mp.weixin.qq.com/s/mMDzCinVBkh5s6rar3LVHw?cmdid=XTBUDUYLPLF483
-
 - 超重会导致各种身体疾病，比如胃癌、肝癌；
   超重日常生活受限，爬楼梯、赶公交都很辛苦；
   超重亲戚朋友会嘲笑；

@@ -3,7 +3,6 @@ author:: [[cxyxiaowu.com]]
 full-title:: @SuppressWarnings 用法-吴师兄学编程
 category:: #articles
 url:: https://www.cxyxiaowu.com/17184.html?cmdid=GFB0SUZSB3EWX2
-
 - @SuppressWarning 中的属性介绍以及属性说明
   
   all，抑制所有警告

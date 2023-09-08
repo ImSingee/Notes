@@ -2,7 +2,6 @@ title:: Readwise/Highlights/SwiftUI 和 Combine 编程
 author:: [[王 巍]]
 full-title:: SwiftUI 和 Combine 编程
 category:: #books
-
 - 在 SwiftUI 里，用户界面是严格被数据驱动的：在运行时，任何对于界面的修改，都只能通过修改数据来达成，而不能直接对界面进行调整和操作。 #Highlight #[[2023-07-30]]
 - 在 SwiftUI 中，View 提供了 environmentObject(_:) 方法，来把某个 ObservableObject 的值注入到当前 View 层级及其子层级中去。在这个 View 的子层级中，可以使用 @EnvironmentObject 来直接获取这个绑定的环境值 #Highlight #[[2023-07-30]]
 - 在对应的 View 生成时，我们不需要手动为被标记为 @EnvironmentObject 的值进行指定，它们会自动去查询 View 的 Environment 中是否有符合的类型的值，如果有则使用它们，如没有则抛出运行时的错误。 #Highlight #[[2023-07-30]]

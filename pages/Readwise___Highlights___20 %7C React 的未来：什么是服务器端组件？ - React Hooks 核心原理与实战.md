@@ -3,7 +3,6 @@ author:: [[王沛]]
 full-title:: 20 | React 的未来：什么是服务器端组件？ - React Hooks 核心原理与实战
 category:: #articles
 url:: https://time.geekbang.org/column/article/393688
-
 - 我们可以把 Server Components 看作 SSR 的进阶版本。传统的 SSR，每次只能 render 整个页面，而现在则可以在组件级别 render 了，大大提升了灵活性。 #Highlight #[[2022-09-23]]
 - Server Components 为我们开发具有极致性能的前端应用，提供了一个良好的基础。一方面，它能够让我们通过用服务器端渲染更多的组件，把前端包的大小控制得很小，从而提升加载性能。
   另一方面，它能让页面中的一部分能够在服务器端渲染。不但能够简化前端异步请求的逻辑，而且在组件内需要多个数据请求时，也会提升渲染速度。 #Highlight #[[2022-09-23]]

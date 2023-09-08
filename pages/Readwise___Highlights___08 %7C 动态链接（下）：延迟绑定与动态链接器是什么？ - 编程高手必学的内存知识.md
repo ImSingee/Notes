@@ -3,7 +3,6 @@ author:: [[海纳]]
 full-title:: 08 | 动态链接（下）：延迟绑定与动态链接器是什么？ - 编程高手必学的内存知识
 category:: #articles
 url:: https://time.geekbang.org/column/article/440471
-
 - 好，我是海纳 #Highlight #[[2023-05-09]]
 - 动态链接会把不同模块之间，符号重定位的操作，推迟到程序运行的时候，而 ld-linux.so 就负责这个工作。所以我们经常称 ld.so 为动态链接器，又因为它还负责加载动态库文件，所以我们有时也叫它 loader，或者加载器。 #Highlight #[[2023-05-07]]
 - ld-linux.so 的源码实际上是在 glibc 里边，主要实现都是在 glibc 的 elf 文件夹下。 #Highlight #[[2023-05-07]]

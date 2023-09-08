@@ -3,7 +3,6 @@ author:: [[@hemashushu on Twitter]]
 full-title:: 分享一篇不错的讲解字节对齐的文章： 《Struc...
 category:: #tweets
 url:: https://twitter.com/hemashushu/status/1692403194150928630
-
 - 分享一篇不错的讲解字节对齐的文章：
   《Structure Member Alignment, Padding and Data Packing》
   https://t.co/tDwzBTxreo

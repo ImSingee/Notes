@@ -3,7 +3,6 @@ author:: [[courses.joshwcomeau.com]]
 full-title:: Transforms • CSS for JavaScript Developers
 category:: #articles
 url:: https://courses.joshwcomeau.com/css-for-js/08-animations/01-transforms
-
 - We can use translate to shift an item along in either axis: x moves side to side, y moves up and down. Positive values move down and to the right. Negative values move up and to the left.Critically, the item's in-flow position doesn't change. As far as our layout algorithms are concerned, from Flow to Flexbox to Grid, this property has no effect. #Highlight #[[2022-06-25]]
 - When we use a percentage value in translate, that percentage refers to the element's own size, instead of the available space in the parent container #Highlight #[[2022-06-25]]
 - Scale uses a unitless value that represents a multiple, similar to line-height. scale(2) means that the element should be 2x as big as it would normally be. #Highlight #[[2022-06-25]]

@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 25 | 深入解析声明式API（二）：编写自定义控制器 - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/42076
-
 - 编写自定义控制器代码的过程包括：编写 main 函数、编写自定义控制器的定义，以及编写控制器里的业务逻辑三个部分 #Highlight #[[2023-06-09]]
 - 控制器要做的第一件事，是从 Kubernetes 的 APIServer 里获取它所关心的对象，也就是我定义的 Network 对象。
   这个操作，依靠的是一个叫作 Informer（可以翻译为：通知器）的代码库完成的。Informer 与 API 对象是一一对应的，所以我传递给自定义控制器的，正是一个 Network 对象的 Informer（Network Informer）。 #Highlight #[[2023-06-13]]

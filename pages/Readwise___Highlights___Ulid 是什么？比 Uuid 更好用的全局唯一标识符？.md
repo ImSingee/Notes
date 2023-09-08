@@ -4,7 +4,6 @@ full-title:: Ulid 是什么？比 Uuid 更好用的全局唯一标识符？
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=MzU3MDc3OTI1NA==&mid=2247495414&idx=1&sn=1a52afa10b359dcf7d5be04d50ed2ada&chksm=fce89defcb9f14f967153fad80710fbca98550cc7d896cd0ddb4b6337891a619191bd2609945#rd
 tags:: #[[inoreader]] #[[公众号「java技术江湖」]] #[[微信公众号]]
-
 - UUID 目前有 5 个版本：
   
   版本1：在许多环境中是不切实际的，因为它需要访问唯一的，稳定的MAC地址，容易被攻击；

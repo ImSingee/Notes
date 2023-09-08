@@ -3,7 +3,6 @@ author:: [[@YosefBlockchain on Twitter]]
 full-title:: 最近很多粉丝来问我，公司股权结构该怎么做？今天给...
 category:: #tweets
 url:: https://twitter.com/YosefBlockchain/status/1692067651550695563
-
 - 最近很多粉丝来问我，公司股权结构该怎么做？今天给大家简单科普一下，供参考：
   股权分三类：人力股、资金股、资源股
   

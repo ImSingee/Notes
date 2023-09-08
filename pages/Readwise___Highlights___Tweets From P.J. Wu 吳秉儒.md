@@ -3,7 +3,6 @@ author:: [[@WuPingJu on Twitter]]
 full-title:: Tweets From P.J. Wu 吳秉儒
 category:: #tweets
 url:: https://twitter.com/WuPingJu
-
 - 昨天嘗試用 ChatGPT 製作了一個 Midjourney Prompt Generator 。
   
   測試後覺得效果不錯，就訂閱了 MJ，開始扮演 text-to-image 的詠唱初學者。

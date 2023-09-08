@@ -3,7 +3,6 @@ author:: [[ebp.gesedna.com]]
 full-title:: 暂停实验室
 category:: #articles
 url:: https://ebp.gesedna.com/EBPModule/guide.1?rd=/EBPTask
-
 - 广义上，冥想是一种修养身心的精神活动，正念练习也是冥想的一种类型。 #Highlight #[[2022-05-31]]
 - 尽管如此，不同背景的心理学研究者仍然尝试提炼出冥想的定义。我将介绍几个主流的理论，也许对你会有所启发：
   

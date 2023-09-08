@@ -3,7 +3,6 @@ author:: [[segmentfault.com]]
 full-title:: 美国如果把根域名服务器封了，中国会从网络上消失？
 category:: #articles
 url:: https://segmentfault.com/a/1190000023696737
-
 - 权威DNS：负责对请求作出权威的回答。权威DNS中存储着记录，最常见的3种：A记录（记录某域名和其IP的对应），NS记录（记录某域名和负责解析该域的权威DNS），CNAME记录（负责记录某域名及其别名）。权威能直接回答的，就回A记录；需要其他权威DNS回答的，就回NS记录，然后LDNS再去找其他权威DNS问；如果该记录是别名类型的，就回CNAME，LDNS就会再去解析别名 #Highlight #[[2022-07-14]]
 - 递归DNS：通常就是LDNS，它接受终端的域名查询请求，负责在网上问一圈后，将答案返回终端 #Highlight #[[2022-07-14]]
 - LDNS问根DNS的时候，他是怎么知道根DNS的IP的？这13个IP通常是预先配置在LDNS里面的。在LDNS初始化DNS缓存或者缓存失效的时候，LDNS向自己被预先配置的这些IP中的一个，发起对根的查询（也即询问.的NS记录），获得最新的根DNS的信息 #Highlight #[[2022-07-14]]

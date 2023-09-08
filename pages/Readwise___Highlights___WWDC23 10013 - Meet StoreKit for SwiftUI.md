@@ -3,7 +3,6 @@ author:: [[作者：]]
 full-title:: WWDC23 10013 - Meet StoreKit for SwiftUI
 category:: #articles
 url:: https://xiaozhuanlan.com/topic/0579631284
-
 - IAP 可付费购买的内容，一共有四种类型：
   
   •   Consumable：消耗型项目。购买后一次性使用的，比如游戏中的金币

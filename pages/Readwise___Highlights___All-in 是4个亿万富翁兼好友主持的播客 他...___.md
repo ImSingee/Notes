@@ -3,7 +3,6 @@ author:: [[@coolXiao on Twitter]]
 full-title:: All-in 是4个亿万富翁兼好友主持的播客 他...
 category:: #tweets
 url:: https://twitter.com/coolXiao/status/1619470416522936321
-
 - All-In 是4个亿万富翁兼好友主持的播客
   他们至今仍是美国商业领域的巨头
   据说华盛顿核心决策者们也常听 All-In

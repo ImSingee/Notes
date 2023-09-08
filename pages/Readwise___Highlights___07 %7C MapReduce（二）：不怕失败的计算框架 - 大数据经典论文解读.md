@@ -3,7 +3,6 @@ author:: [[徐文浩]]
 full-title:: 07 | MapReduce（二）：不怕失败的计算框架 - 大数据经典论文解读
 category:: #articles
 url:: https://time.geekbang.org/column/article/423598
-
 - map 和 reduce 的任务都是在分布式集群上运行的，这个就给我们对程序 debug 带来了很大的挑战。 #Highlight #[[2022-03-15]]
 - Combiner 函数，会对在同一个服务器上所有 map 输出的结果运行一次，然后进行数据合并 #Highlight #[[2022-03-15]]
 - GFS 是知道每一个 Block 的数据是在哪台服务器上的。而 MapReduce，会找到同样服务器上的 worker，来分配对应的 map 任务。如果那台服务器上没有，那么它就会找离这台服务器最近的、有 worker 的服务器，来分配对应的任务。 #Highlight #[[2022-03-15]]

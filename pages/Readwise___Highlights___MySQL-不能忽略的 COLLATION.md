@@ -3,7 +3,6 @@ author:: [[juejin.cn]]
 full-title:: MySQL-不能忽略的 COLLATION
 category:: #articles
 url:: https://juejin.cn/post/6959466033082007559
-
 - CHAR(N) 用来保存固定长度的字符，N 的范围是 0 ~ 255，请牢记，N 表示的是字符，而不是字节。VARCHAR(N) 用来保存变长字符，N 的范围为 0 ~ 65536， N 同样表示字符。
   
   在超出 65536 个字节的情况下，可以考虑使用更大的字符类型 TEXT 或 BLOB，两者最大存储长度为 4G，其区别是 BLOB 没有字符集属性，纯属二进制存储。 ([View Highlight](https://instapaper.com/read/1410114232/16308502)) #Highlight #[[2021-05-08]]

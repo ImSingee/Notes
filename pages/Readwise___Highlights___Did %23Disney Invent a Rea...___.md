@@ -3,7 +3,6 @@ author:: [[@benridout on Twitter]]
 full-title:: Did \#Disney Invent a Rea...
 category:: #tweets
 url:: https://twitter.com/benridout/status/1381412831707422721
-
 - Did #Disney invent a real working #lightsaber? 
   
   Yes they did. 

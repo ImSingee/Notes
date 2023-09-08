@@ -3,7 +3,6 @@ author:: [[xn2001.com]]
 full-title:: JVM的内存模型 - 乐心湖's Blog | 技术小白的技术博客
 category:: #articles
 url:: https://www.xn2001.com/archives/566.html
-
 - jdk1.8的内存模型是由2部分组成，年轻代 + 年老代。
   年轻代：Eden + 2*Survivor
   年老代：OldGen #Highlight #[[2021-05-28]]

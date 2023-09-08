@@ -3,7 +3,6 @@ author:: [[@tindingtin on Twitter]]
 full-title:: Tweets From 叮叮
 category:: #tweets
 url:: https://twitter.com/tindingtin
-
 - 其实昨天去香港就是开银行账户，本来想等几天账户申请成功之后再写分享，没想到今天就申请下来了。简单分享下大陆人在香港虚拟银行开户经验。
   
   之前大陆人去香港银行开户，只能选择几家传统银行。开户门槛高，还有最低存款要求万元起，低于就收每月高额管理费，而且传统银行开户需要预约排队审核各种麻烦。

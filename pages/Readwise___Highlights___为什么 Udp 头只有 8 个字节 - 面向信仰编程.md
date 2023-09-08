@@ -3,7 +3,6 @@ author:: [[draveness.me]]
 full-title:: 为什么 Udp 头只有 8 个字节 - 面向信仰编程
 category:: #articles
 url:: https://draveness.me/draveness.me/whys-the-design-udp-minimum-header
-
 - UDP 是能够传输数据的最简单的协议，它的协议首部（也称作协议头）只有 8 个字节 #Highlight #[[2022-07-16]]
 - UDP 协议头中只包含 4 个字段，分别是源端口、目的端口、长度和校验码，其中每一个字段都占 16 比特，即 2 字节 #Highlight #[[2022-07-16]]
 - 真正在主机间完成『数据传输』工作的是 IP 协议，UDP 协议只起到了定位具体进程的作用 #Highlight #[[2022-07-16]]

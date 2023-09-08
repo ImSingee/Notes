@@ -4,7 +4,6 @@ full-title:: 减脂最快的运动，不是跑步也不是跳绳
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=MzU4Mjg2OTI2MA==&mid=2248138889&idx=1&sn=1abc8165a5ac12c4c8eb59535fe3535f&chksm=fdba88eacacd01fcf0f0c30cef5fecd40396603496edf05cf934789c3e14f4ad56bed84faec4#rd
 tags:: #[[inoreader]] #[[公众号「浪潮工作室」]] #[[微信公众号]]
-
 - 根据运动强度，我们可以将能够有效减脂的运动分为 MOD（中等强度连续训练）、HIIT（高强度间歇训练）、SIT（冲刺间歇训练）。 ([View Highlight](https://read.readwise.io/read/01gv8r0yhpc1x5vvtg7mzprjqm)) #Highlight #[[2023-03-12]]
 - 同样是跑步，先全力跑步冲刺，然后进行一段时间的低强度运动或休息，比以中等强度持续跑步要有效率得多 ([View Highlight](https://read.readwise.io/read/01gv8r1mgch5agte7gha8jx9st)) #Highlight #[[2023-03-12]]
 - 非要选一项运动推荐的话，可能是动感单车 / 健身车。虽然从理论上而言，在运动强度和运动时间相同的情况下，跑步运动的燃脂效果要优于自行车运动（可能与跑步运动时神经动员范围更广、参与运动的肌纤维数量多有关）；但自行车运动的局部减脂效果更佳，且安全性更高，过往实验中采用的最为广泛 ([View Highlight](https://read.readwise.io/read/01gv8r39348yx713tr0kga43s4)) #Highlight #[[2023-03-12]]

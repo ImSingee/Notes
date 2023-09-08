@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 17 | 经典PaaS的记忆：作业副本与水平扩展 - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/40906
-
 - Deployment 看似简单，但实际上，它实现了 Kubernetes 项目中一个非常重要的功能：Pod 的“水平扩展 / 收缩”（horizontal scaling out/in）。这个功能，是从 PaaS 时代开始，一个平台级项目就必须具备的编排能力。 #Highlight #[[2022-08-12]]
 - 一个 ReplicaSet 对象，其实就是由副本数目的定义和一个 Pod 模板组成的。不难发现，它的定义其实是 Deployment 的一个子集。 #Highlight #[[2022-08-12]]
 - Deployment 控制器实际操纵的，正是这样的 ReplicaSet 对象，而不是 Pod 对象。 #Highlight #[[2022-08-12]]

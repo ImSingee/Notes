@@ -3,7 +3,6 @@ author:: [[蒋宏伟]]
 full-title:: 08｜List：如何实现高性能的无限列表？ - React Native 新架构实战课
 category:: #articles
 url:: https://time.geekbang.org/column/article/506825
-
 - React Native 的 ScrollView 组件在 Android 的底层实现用的是 ScrollView 和 HorizontalScrollView，在 iOS 的底层实现用的是 UIScrollView。 #Highlight #[[2023-04-17]]
 - 通常评判列表卡顿的指标是 UI 线程的帧率和 JavaScript 线程的帧率。 #Highlight #[[2023-04-17]]
 - FlatList 性能还过得去，但我不推荐你优先使用它，只有在你的列表项内容高度不能事先确定，或者不可枚举的情况下使用它；

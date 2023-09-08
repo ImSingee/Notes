@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 22 | 撬动离线业务：Job与CronJob - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/41607
-
 - 早在 Borg 项目中，Google 就已经对作业进行了分类处理，提出了 LRS（Long Running Service）和 Batch Jobs 两种作业形态，对它们进行“分别管理”和“混合调度”。 #Highlight #[[2023-06-09]]
 - Job 对象在创建后，它的 Pod 模板，被自动加上了一个 controller-uid=< 一个随机字符串 > 这样的 Label。而这个 Job 对象本身，则被自动加上了这个 Label 对应的 Selector，从而 保证了 Job 与它所管理的 Pod 之间的匹配 #Highlight #[[2023-06-09]]
 - Job Controller 之所以要使用这种携带了 UID 的 Label，就是为了避免不同 Job 对象所管理的 Pod 发生重合。需要注意的是，这种自动生成的 Label 对用户来说并不友好，所以不太适合推广到 Deployment 等长作业编排对象上。 #Highlight #[[2023-06-09]]

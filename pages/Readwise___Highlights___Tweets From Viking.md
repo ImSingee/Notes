@@ -3,7 +3,6 @@ author:: [[@vikingmute on Twitter]]
 full-title:: Tweets From Viking
 category:: #tweets
 url:: https://twitter.com/vikingmute
-
 - 前端很卷的一个轮子应该是和时间处理的工具库：
   
   这几天刚接触到 date-fns，有点孤陋寡闻了。

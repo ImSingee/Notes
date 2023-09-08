@@ -3,7 +3,6 @@ author:: [[courses.joshwcomeau.com]]
 full-title:: Grid Flow and Layout Modes • CSS for JavaScript Developers
 category:: #articles
 url:: https://courses.joshwcomeau.com/css-for-js/07-css-grid/04-grid-flow
-
 - We can change the flow direction for implicit grids with the grid-auto-flow property: #Highlight #[[2022-12-12]]
 - CSS Grid has rows and columns. The rows are always arranged along the "block" axis. In English and other horizontal languages, this is the vertical axis. Rows are always stacked one on top of the other. Columns are always arranged along the "inline" axis (horizontally) #Highlight #[[2022-12-12]]
 - When we change grid-auto-flow from row to column, we're not fundamentally changing the orientation of our grid; everything stays the same, except for the fact that our grid will have multiple columns instead of multiple rows. #Highlight #[[2022-12-12]]

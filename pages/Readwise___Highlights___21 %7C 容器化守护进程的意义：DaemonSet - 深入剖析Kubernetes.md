@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 21 | 容器化守护进程的意义：DaemonSet - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/41366
-
 - StatefulSet Controller 就会按照与 Pod 编号相反的顺序，从最后一个 Pod 开始，逐一更新这个 StatefulSet 管理的每个 Pod。而如果更新发生了错误，这次“滚动更新”就会停止。此外，StatefulSet 的“滚动更新”还允许我们进行更精细的控制，比如金丝雀发布（Canary Deploy）或者灰度发布，这意味着应用的多个实例中被指定的一部分不会被更新到最新的版本。 #Highlight #[[2023-06-09]]
 - DaemonSet 的主要作用，是让你在 Kubernetes 集群里，运行一个 Daemon Pod。 所以，这个 Pod 有如下三个特征：
   这个 Pod 运行在 Kubernetes 集群里的每一个节点（Node）上；

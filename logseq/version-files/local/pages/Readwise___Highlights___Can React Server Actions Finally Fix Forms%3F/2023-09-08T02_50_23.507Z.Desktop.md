@@ -1,0 +1,7 @@
+title:: Readwise/Highlights/Can React Server Actions Finally Fix Forms?
+author:: [[mux.com]]
+full-title:: Can React Server Actions Finally Fix Forms?
+category:: #articles
+url:: https://www.mux.com/blog/what-are-react-server-actions?ck_subscriber_id=2178814708&utm_source=convertkit&utm_medium=email&utm_campaign=%E2%9A%9B%EF%B8%8F+This+Week+In+React+%23156%3A+Server+Actions%2C+Stale+Closures%2C+React+Falls+Behind%2C+Expo+Builds%2C+Suspense+Throttling%2C+React-Aria%2C+Natuerlich%2C+Obsidiosaurus%2C+Expo-SQLite%2C+Expo+DevTools...%20-%2011492974
+
+- Notice that our form has ”use client” at the top. For the unfamiliar, this is what tells React Server Components to ship a component to the client. Also notice that our Server Action has ”use server” up top. This is React Server Action’s new directive that says “you can call this function on the client, but it’s going to run on the server.” Any function declared in a file that opens with ”use server” becomes a Server Action. ([View Highlight](https://read.readwise.io/read/01h817fqdzrc26stvmdhsgb4b6)) #Highlight #[[2023-08-17]]

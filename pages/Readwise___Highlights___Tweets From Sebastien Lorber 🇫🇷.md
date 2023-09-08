@@ -3,7 +3,6 @@ author:: [[@sebastienlorber on Twitter]]
 full-title:: Tweets From Sebastien Lorber 🇫🇷
 category:: #tweets
 url:: https://twitter.com/sebastienlorber
-
 - 💡 JavaScript - Promise.all() tip
   
   Use ES2022 Error Cause

@@ -2,7 +2,6 @@ title:: Readwise/Highlights/产品沉思录 | 第七季（连载中） Vol.20230
 author:: [[shaonan × fonter]]
 full-title:: 产品沉思录 | 第七季（连载中） Vol.20230424
 category:: #articles
-
 - 在搞明白某个概念是什么之前，我们就先学会了怎么使用这个概念 ([View Highlight](https://read.readwise.io/read/01gyyh4tp0a87ntv2swzcbtg5y)) #Highlight #[[2023-04-26]]
 - 这就是我们最为普遍的学习方式 —— **学习使用概念，然后用概念来说事，但很少去考察概念** ([View Highlight](https://read.readwise.io/read/01gyyh52m1hjf551c7bxxbyrar)) #Highlight #[[2023-04-26]]
 - •   普通人使用概念；

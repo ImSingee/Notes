@@ -4,7 +4,6 @@ full-title:: 从多个问题出发，浅谈Go Interface
 category:: #articles
 url:: https://juejin.cn/post/7170675527429128199
 tags:: #[[inoreader]] #[[read]] #[[掘金 - 后端]]
-
 - iface和eface都为Go中接口的底层结构体，它们的区别是iface表示的接口类型变量包含方法，而eface表示的接口是不包含任何方法的空接口。 ([View Highlight](https://read.readwise.io/read/01gjygtzhjp49zh221etwww151)) #Highlight #[[2022-11-28]]
 - iface包含两个指针`tab`以及`data`。
   

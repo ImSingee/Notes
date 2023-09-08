@@ -3,7 +3,6 @@ author:: [[Rancher Labs]]
 full-title:: Minikube vs. kind vs. k3s - What should I use?
 category:: #articles
 url:: https://shipit.dev/posts/minikube-vs-kind-vs-k3s.html
-
 - Below you can find a table that lists a few key facts of each tool.
   
   minikube	kind	k3s

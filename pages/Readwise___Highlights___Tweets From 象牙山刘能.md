@@ -3,7 +3,6 @@ author:: [[@disksing on Twitter]]
 full-title:: Tweets From 象牙山刘能
 category:: #tweets
 url:: https://twitter.com/disksing
-
 - 科学研究表明，一个人的智商和情商没有显著的相关性。
   
   但是为什么很多人印象中都觉得智商高的人普遍情商不太行呢？

@@ -3,7 +3,6 @@ author:: [[man7.org]]
 full-title:: Epoll(7) - Linux Manual Page
 category:: #articles
 url:: https://man7.org/linux/man-pages/man7/epoll.7.html
-
 - The epoll event distribution interface is able to behave both as
        edge-triggered (ET) and as level-triggered (LT). #Highlight #[[2021-07-03]]
 - edge-triggered mode

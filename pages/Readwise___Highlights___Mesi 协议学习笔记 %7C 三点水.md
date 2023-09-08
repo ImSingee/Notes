@@ -3,7 +3,6 @@ author:: [[lotabout.me]]
 full-title:: Mesi 协议学习笔记 | 三点水
 category:: #articles
 url:: https://lotabout.me/2022/MESI-Protocol-Introduction/
-
 - The MESI protocol is an **Invalidate-based** cache coherence protocol, and is one of the most common protocols that support write-back caches. ([View Highlight](https://read.readwise.io/read/01h2fdf21asey1rbhrzmcjxw0q)) #Highlight #[[2023-06-09]]
 - 当一份内存的数据存储在缓存时，我们有必要保证两者是一致的。假设我们修改了缓存上的数据，这份数据要如何同步回内存呢？常见的有两种方法 [[1]](https://lotabout.me/2022/MESI-Protocol-Introduction#fn1)：
   

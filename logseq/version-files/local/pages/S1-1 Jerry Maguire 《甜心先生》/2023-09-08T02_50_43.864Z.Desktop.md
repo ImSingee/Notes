@@ -1,0 +1,39 @@
+---
+title: S1-1 Jerry Maguire 《甜心先生》
+---
+
+- #[[看电影学单词]] #[[中级]] #[[Season 1]] [[2021-06-11]]
+-
+- https://www.notion.so/singee/S1-1-Jerry-Maguire-3d2f3f9a97164d92a903544e83e23a97
+-
+- 电影片段
+- I love getting up in the morning! I clap my hands and say, “This is gonna be a great day! ”
+	- （我最爱早起，我拍拍手说:“今天将会很棒！”）
+	- 【注】 gonna=going to  将要（口语中的普遍用法）
+-
+- 词汇讲解
+	- [[clap]] [klæp] vi. 拍手 vt. 拍 n. 拍手
+		- 【固】**clap your hands** 拍手
+		- 形近词：[[clap]] & [[slap]] & [[flap]] && [[overlap]]
+	- [[applause]] [ə'plɔːz] n. 欢呼，喝采；鼓掌欢迎
+		- **Definition**: Applause is the noise made by a group of people clapping their hands to show approval.
+		- （掌声是一帮人为了表示认可和赞同而拍手，从而发出的声音/噪音。）
+		- 【固】**give sb. a big hand** 给某人报以热烈的掌声
+		- 【例】Oh my God！Let’s give him a big hand.
+		- （天呐！让我们给他报以热烈的掌声。）
+	-
+	- [[clap]] 和 [[applause]] 属于近义词
+		- clap your hands 拍手
+		- applause 鼓掌
+	- [[slap]] [slæp] vt./n. 掌击；扇
+		- **Definition**: If you **slap** someone, you hit them with the [[palm]] of your hand.
+		- （扇就是用手掌击打。）
+	- [[flap]] [flæp] v. 拍动，扇动
+		- **Definition**: If a bird or [[insect]] flaps its wings or if its wings flap, the wings move quickly up and down.
+		- （如果一只鸟或昆虫拍动自己的翅膀，翅膀就会上下快速移动。）
+		- 【例】flap wings 扇动翅膀
+	- [[overlap]] [ˈəuvəlæp] vi. 重叠；vt. 与……重叠 n. 重叠(的区域/内容)
+		- **Definition**: If one thing overlaps another, or if you overlap them, a part of the first thing occupies the same area as a part of the other thing. You can also say that two things overlap.
+		- （两物体重叠时，一个物体的一部分会占领另一物体的同样区域。）
+		- 【例】let two hands overlap 让双手重叠
+		- 【例】There is a little overlap between the two departments.

@@ -3,7 +3,6 @@ author:: [[郑建勋]]
 full-title:: 07｜冰川之下：深入Go高并发网络模型 - Go进阶 · 分布式爬虫实战
 category:: #articles
 url:: https://time.geekbang.org/column/article/596287
-
 - Go 语言在初始化时会启动一个特殊的线程来执行系统监控任务 sysmon。系统监控在一个独立的线程上运行，不用绑定逻辑处理器 P。系统监控每隔 10ms 会检测是否有准备就绪的网络协程，若有，就放置到全局队列中。 #Highlight #[[2023-04-18]]
 - Go 运行时只会全局调用一次 netpollinit 函数。而我们之前看到的 conn.Read、conn.Write 等读取和写入函数底层都会调用 netpollopen 将对应 Socket 放入到 epoll 中进行监听。 #Highlight #[[2023-04-18]]
 - 而 Go 语言中的协程栈大小默认为 2KB，并且是动态扩容的。因此在实践中，经常会看到成千上万的协程存在。 #Highlight #[[2023-04-18]]

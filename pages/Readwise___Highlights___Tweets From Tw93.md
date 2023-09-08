@@ -3,7 +3,6 @@ author:: [[@HiTw93 on Twitter]]
 full-title:: Tweets From Tw93
 category:: #tweets
 url:: https://twitter.com/HiTw93
-
 - #工程师学习 看到一个 ChatGPT 学习指南「The Ultimate GPT-4 Guide」，提供了 100 多个资料来帮助你学习和了解 GPT 的方方面面，包括基础、商业、效率、赚钱、各类工具、Prompts 等，值得系统性一看。
   🤖 https://t.co/byMJud3rz3 https://t.co/0DopJPiv6C
   
@@ -43,3 +42,7 @@ url:: https://twitter.com/HiTw93
   🤖 https://t.co/CTcwn7JZxv https://t.co/GUVHAzQfyG
   
   ![](https://pbs.twimg.com/media/F32lCDtbsAAmIyK.jpg) ([View Tweet](https://twitter.com/HiTw93/status/1692871533377806548)) #Highlight #[[2023-08-20]]
+- #工程师学习 在 B 站看到一个特别不错的讲经济学课「诺贝尔经济奖得主保罗.克鲁格曼Paul Krugman大师课」，一共 2 个半小时的样子，浅显易懂，很值得静下心来一看。
+  🤖 https://t.co/qTbTlK44xa https://t.co/oyL5y84pjp
+  
+  ![](https://pbs.twimg.com/media/F4iRD4TaIAAqmQx.jpg) ([View Tweet](https://twitter.com/HiTw93/status/1696673585769717814)) #Highlight #[[2023-08-30]]

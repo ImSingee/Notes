@@ -1,5 +1,4 @@
 alias:: Sort the Students by Their Kth Score
-
 - #算法 #Medium
 - #Leetcode #Leetcode-2545 [LC国际](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) [LC中国](https://leetcode.cn/problems/sort-the-students-by-their-kth-score/)
 - # 题目

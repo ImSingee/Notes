@@ -1,5 +1,4 @@
 alias:: Kth Largest Sum in a Binary Tree
-
 - #算法 #Medium #[[树]] #[[广度优先搜索]] #[[二分查找]]
 - #Leetcode #Leetcode-2583 [LC国际](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) [LC中国](https://leetcode.cn/problems/kth-largest-sum-in-a-binary-tree/)
 - # 题目

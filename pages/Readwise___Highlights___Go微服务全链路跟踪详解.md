@@ -3,7 +3,6 @@ author:: [[mp.weixin.qq.com]]
 full-title:: Go微服务全链路跟踪详解
 category:: #articles
 url:: http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTgwNw==&mid=2247488235&idx=1&sn=0a77652a2113a607a36d1310813f228a&chksm=9b0e08fbac7981ed770010a38059de76e88452931babafaf38181c4e44989e97f8ba53bb984d#rd
-
 - 现在有许多开源的分布式跟踪库可供选择，其中最受欢迎的库可能是Zipkin和Jaeger。 ([View Highlight](https://instapaper.com/read/1415372690/16509877)) #Highlight #[[2021-05-27]]
 - OpenTracing
   可以帮你解决这个问题。它建立了一套跟踪库的通用接口，这样你的程序只需要调用这些接口而不被具体的跟踪库绑定，将来可以切换到不同的跟踪库而无需更改代码。Zipkin和Jaeger都支持OpenTracing。 ([View Highlight](https://instapaper.com/read/1415372690/16509881)) #Highlight #[[2021-05-27]]

@@ -3,7 +3,6 @@ author:: [[李智慧]]
 full-title:: 05丨文件系统原理：如何用1分钟遍历一个100TB的文件？ - 后端技术面试 38 讲
 category:: #articles
 url:: https://time.geekbang.org/column/article/169533
-
 - 有了 HDFS，可以实现单一文件存储几百 T 的数据，再配合大数据计算框架 MapReduce 或者 Spark，可以对这个文件的数据块进行并发计算。也可以使用 Impala 这样的 SQL 引擎对这个文件进行结构化查询，在数千台服务器上并发遍历 100T 的数据，1 分钟都是绰绰有余的。 #Highlight #[[2023-01-03]]
 - HDFS 的关键组件有两个，一个是 DataNode，一个是 NameNode。 #Highlight #[[2023-01-03]]
 - 实践中，使用最多的是 RAID 5，数据被分成 N-1 片并发写入 N-1 块硬盘，这样既可以得到较好的硬盘利用率，也能得到很好的读写速度，同时还能保证较好的数据可用性。使用 RAID 5 的文件系统比简单的文件系统文件容量和读写速度都提高了 N-1 倍 #Highlight #[[2023-01-03]]

@@ -3,7 +3,6 @@ author:: [[zhuanlan.zhihu.com]]
 full-title:: 一个白学家眼里的 WebAssembly
 category:: #articles
 url:: https://zhuanlan.zhihu.com/p/102692865
-
 - WASM 里的 Assembly 并不意味着真正的汇编码，而只是种新约定的字节码，也是需要解释器运行 ([View Highlight](https://instapaper.com/read/1415666578/16516050)) #Highlight #[[2021-05-28]]
 - JS 上了 JIT 后整体性能大致是机器码 1/20 的水平，而 WASM 则可以跑到机器码 1/3 的量级 ([View Highlight](https://instapaper.com/read/1415666578/16516051)) #Highlight #[[2021-05-28]]
 - WASM 并不能在所有应用场景都显示出压倒性的性能优势 ([View Highlight](https://instapaper.com/read/1415666578/16516053)) #Highlight #[[2021-05-28]]

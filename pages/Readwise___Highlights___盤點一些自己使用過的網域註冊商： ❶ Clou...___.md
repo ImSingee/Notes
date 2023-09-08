@@ -3,7 +3,6 @@ author:: [[@hsins_ on Twitter]]
 full-title:: 盤點一些自己使用過的網域註冊商： ❶ Clou...
 category:: #tweets
 url:: https://twitter.com/hsins_/status/1672484709308440577
-
 - 盤點一些自己使用過的網域註冊商：
   
   ❶ Cloudflare 標榜續約不會溢價，但目前在上面註冊的網域，只能使用 CF 提供的 Nameserver 不能變更；另外支持的網域並不多

@@ -3,7 +3,6 @@ author:: [[geekbang.org]]
 full-title:: 15 | 调度（上）：如何制定项目管理流程？
 category:: #articles
 url:: https://time.geekbang.org/column/article/93251
-
 - 在 Linux 里面，进程大概可以分成两种。
   
   一种称为实时进程，也就是需要尽快执行返回结果的那种。这就好比我们是一家公司，接到的客户项目需求就会有很多种。有些客户的项目需求比较急，比如一定要在一两个月内完成的这种，客户会加急加钱，那这种客户的优先级就会比较高。

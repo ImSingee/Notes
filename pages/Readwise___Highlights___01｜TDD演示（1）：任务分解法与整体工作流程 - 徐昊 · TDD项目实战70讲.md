@@ -3,7 +3,6 @@ author:: [[徐昊]]
 full-title:: 01｜TDD演示（1）：任务分解法与整体工作流程 - 徐昊 · TDD项目实战70讲
 category:: #articles
 url:: https://time.geekbang.org/column/article/494207
-
 - 任务分解法的步骤如下：
   大致构思软件被使用的方式，把握对外接口的方向；
   大致构思功能的实现方式，划分所需的组件（Component）以及组件间的关系（所谓的架构）。当然，如果没思路，也可以不划分；

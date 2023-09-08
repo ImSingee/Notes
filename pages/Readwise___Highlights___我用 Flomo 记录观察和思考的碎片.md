@@ -3,7 +3,6 @@ author:: [[刘飞]]
 full-title:: 我用 Flomo 记录观察和思考的碎片
 category:: #articles
 url:: https://mp.weixin.qq.com/s/rldnZ96ABRHooACD_Jomfg
-
 - 说到读书笔记，就得说到书摘。因为 flomo 有很方便的接口，可以把微信读书等阅读器的划线内容和笔粘贴过来。我之前读《苏东坡新传》的时候，就写了 200 多条，发现 flomo 的接口有每天 100 条的限制，还去找少楠吐槽过：
   
   那时候我还不懂什么是「滥用」。只觉得这些笔记一股脑放到 flomo 没啥问题。

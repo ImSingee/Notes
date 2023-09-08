@@ -3,7 +3,6 @@ author:: [[@corvuschen1211 on Twitter]]
 full-title:: Tweets From 陈尔冬是你大爷
 category:: #tweets
 url:: https://twitter.com/corvuschen1211
-
 - 有多喜欢闻献呢？
   
   是恨不得抓住每一个遇到的人，按头安利的那种喜欢，连他们线下门店的手提袋和快闪店的小水瓶，我都超级喜欢的那种喜欢。

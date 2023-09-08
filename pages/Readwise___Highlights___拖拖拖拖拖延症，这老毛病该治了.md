@@ -3,7 +3,6 @@ author:: [[Tim Urban]]
 full-title:: 拖拖拖拖拖延症，这老毛病该治了
 category:: #articles
 url:: http://mp.weixin.qq.com/s?__biz=MzU1OTg4MDc1MA==&mid=2247483735&idx=1&sn=c780ea5963750a1e09b52dae92f8847b&chksm=fc11ce16cb6647007d2650407f52d1a7ca253f60578ae7235cc34a70f99d9d7dc2cd2237e4d5#rd
-
 - 拖延症患者的坏习惯是让猴子赢，这个行为已经近乎上瘾。他想继续用他多年失败的经验和方法来控制猴子，很明显这毫无意义……而且在他内心深处，他知道猴子会赢。尽管他总是发誓要改变，但这套机制是不变的。那么，一个本来有能力的人，为什么会一次又一次做出这样毫无意义的努力呢？
   
   “及时行乐最终会让你丧到爆炸”

@@ -4,7 +4,6 @@ full-title:: 高考后的暑假，要不要打工？
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=MzI5MTE2NDI2OQ==&mid=2247519319&idx=1&sn=75bb803e14c383fb74c4b007f77ffab8&chksm=ec161555db619c430dd6c3bab7bf11180befeb6684ca026c4b74fdf3b504b1ea4fe229bc5527#rd
 tags:: #[[go inbox]] #[[inoreader]] #[[公众号「仙人jump」]] #[[微信公众号]]
-
 - 我建议每一个准大学生都该趁着暑假去打一次工。
   
   不为赚钱。

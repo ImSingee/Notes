@@ -3,7 +3,6 @@ author:: [[@_vicwong on Twitter]]
 full-title:: Tweets From Vic Wong 黄维克
 category:: #tweets
 url:: https://twitter.com/_vicwong
-
 - 魔高一尺，道高一丈
   
   GPTZero真是ChatGPT的剋星。

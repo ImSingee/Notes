@@ -3,7 +3,6 @@ author:: [[@createwithplay on Twitter]]
 full-title:: We're Back With Another...
 category:: #tweets
 url:: https://twitter.com/createwithplay/status/1650993280136667137
-
 - We're back with another best practice! Let's talk about native iOS pickers 👇 
   
   ![](https://pbs.twimg.com/media/FumAOlIaUAAcWrJ.jpg) ([View Tweet](https://twitter.com/createwithplay/status/1650993280136667137)) #Highlight #[[2023-04-27]]

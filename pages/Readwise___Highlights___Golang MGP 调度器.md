@@ -3,7 +3,6 @@ author:: [[mp.weixin.qq.com]]
 full-title:: Golang MGP 调度器
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=MzAwNjMxMTgwNw==&mid=2247490447&idx=1&sn=6b9d3acfa7c86a04dab3fc54eedabca7&chksm=9b0e019fac798889170b189d7476ec382b5bc19ebfc9c7ceabe6b4322d3323dc7d2ab4bdd359
-
 - Runtime 所担任的职责：goroutines 调度，垃圾回收，当然还提供goroutines 执行的环境 #Highlight #[[2022-02-04]]
 - go 的可执行程序可以分成两个层：用户代码和运行时 #Highlight #[[2022-02-04]]
 - 线程这里可以创建不止一个，可以按需不断地创建，而活跃的线程（处于非阻塞状态的线程）的最大个数存储在变量GOMAXPROCS中 #Highlight #[[2022-02-04]]

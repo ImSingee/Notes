@@ -3,7 +3,6 @@ author:: [[@luck_hacking on Twitter]]
 full-title:: Tweets From Adventurer
 category:: #tweets
 url:: https://twitter.com/luck_hacking
-
 - 我的团队都是严格按照这个标准执行，乍一看还以为是我团队的人写的，除了一下内容
   
   还有物理机必须是断网状态的，防火墙阻断所有出入端口，虚拟机桥接香港盒子网络（关闭所有位置服务）

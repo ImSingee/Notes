@@ -4,7 +4,6 @@ full-title:: Golang Pprof 监控系列(1) —— Go Trace 统计原理与使用
 category:: #articles
 url:: https://juejin.cn/post/7214024762855260215
 tags:: #[[inoreader]] #[[read]] #[[掘金 - 后端]]
-
 - 在分析延迟性问题的时候，go tool trace 能起到很重要的作用，因为它会记录各种延迟事件并且对其进行时长分析，连关键代码位置也能找出来。 ([View Highlight](https://read.readwise.io/read/01gxmfydrc77w7w106d6j4rrbv)) #Highlight #[[2023-04-10]]
 - 在使用 prometheus 对应用服务进行监控时，我们主要还是采用埋点的方式，同样，go runtime 内部也是采用这样的方式对代码运行过程中的各种事件进行埋点，最后读取 整理后的埋点数据，形成我们在网页上看的 trace 监控图 ([View Highlight](https://read.readwise.io/read/01gxmg0yz6qkxzsm73mx5d1wdk)) #Highlight #[[2023-04-10]]
 - 拿计算系统调用耗时来说，系统调用相关的事件有 GoSysExit,GoSysCall 分别是系统调用退出事件和系统调用开始事件，所以 GoSysExit.Ts - GoSysCall.Ts 就是系统调用的耗时。 ([View Highlight](https://read.readwise.io/read/01gxmg49beg5vmjhggs0r4xewq)) #Highlight #[[2023-04-10]]

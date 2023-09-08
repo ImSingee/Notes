@@ -1,0 +1,59 @@
+---
+title: S1-5-1 The Incredibles《超人总动员》
+---
+
+- #[[看电影学单词]] #[[中级]] #[[Season 1]] [[2021-06-14]]
+-
+- https://www.notion.so/singee/S1-5-1-The-Incredibles-a62aba17d9fc48f28a2771a7be50e3a2
+-
+- 电影片段
+	- A: Your boy’s suit…I designed to [[withstand]] [[enormous]] [[friction]] without heating up or wearing out. (It is) a useful feature.
+	- （你儿子的外套能承受剧烈的摩擦，而且不会升温及磨损，这是非常有用的功能。）
+	- A: Your daughter's suit was tricky. But I finally created a sturdy material that will disappear completely as she does. Your suit can stretch as far as you can without injuring yourself and still retain its shape. Virtually indestructible... yet it breathes like Egyptian cotton.
+	- （你女儿的外套令人很费脑筋，可我最终发明了一种结实的材料，能在她隐形的时候随之隐形。你的外套可以像你一样伸展自如，不让你受到伤害，并且仍然能保持它的形状。实质上无坚不摧，而且像埃及棉一样透气。）
+	- 【文】A 是超人制服制造专家，正在向超人世家女主人展示她设计的超人服。
+	- 【注】【文化】 Egyptian cotton: 埃及棉，就是埃及长绒棉，透气性好，其在世界上久负盛名，被誉为“白金”。
+- 词汇讲解
+- A: Your boy’s suit…I designed to [[withstand]] [[enormous]] [[friction]] without heating up or wearing out.
+	- （你儿子的外套能承受剧烈的摩擦，而且不会升温及磨损。）
+	- 【固】enormous friction  剧烈的摩擦
+	- [[enormous]] [ɪ'nɔ:məs] adj. 巨大的，极大的（指在程度，规模上非常之大）
+		- **Definition**: Something that is enormous is extremely large in **size** or **amount**.
+		- （如果某物非常巨大，那么它的尺寸或数量非常之大。）
+		- 【同】[[gigantic]] [dʒai'gæntik] adj. 无比巨大的；巨人般的
+		- 【程度对比】**big < large < enormous < gigantic**
+		- 【例】There is a [[gigantic]] bottle.
+		- 【同】[[massive]] ['mæsɪv] adj. 巨大的；结实的
+	- [[friction]] ['frikʃən] n. 摩擦，摩擦力
+		- **Definition**: Friction is the force that makes it difficult for things to move freely when they are touching each other.
+		- （摩擦力是一种当物体相互接触时致使物体难以自由移动的力。）
+	- [[withstand]] [wɪð'stænd] v. 承受；经受；抵住（外部因素/ 压力）
+		- 【根】with=against  逆着
+		- 【联想】with（一起）+ stand（站立）
+			- withstand  一起站着来承受风雨
+		- 【固】withstand high temperature  承受高温
+		- 【爆破练习】这种材料可以抗高温。
+			- This kind of material can withstand high temperature.
+		- 【固】withstand high pressure  承受高压
+			- 【例】The structure can withstand high pressure.
+		- 【固】withstand earthquake  抗震
+		- [[endure]] [ɪn'djʊər] v. 忍受；容忍（苦难）
+			- **Definition**: If you endure **a painful or difficult situation** you experience it and do not avoid it or give up, usually because you can not.
+			- （如果你经受或忍受某种非常**痛苦或者艰难**的境遇，你经历它，并不逃避也不放弃。通常是因为你**无法放弃也无法逃避**。）
+			- 【例】If you want to succeed you have to [[endure hardship]].（想要成功必须经历痛苦。）
+		- 【引】[[withhold]] [wɪð'həʊld] v. 保留；不给；拒绝
+			- 【联想】with（往回）+ hold（拿）
+			- **Definition**: If you withhold something that someone wants, you do not let them have it.
+			- （如果你拒绝别人想要的东西，你不让别人拥有它们。）
+			- 【例】**withhold the information**  拒绝透露信息
+	- 【固】wear out   穿坏；磨损
+- A: (It is) a useful feature.（这是非常有用的功能。）
+	- 【一词多义】[[feature]] ['fiːtʃə] n. 特征；容貌
+-
+- 词汇快速回顾
+	- withstand [wɪð'stænd] v. 承受；经受；抵住
+	- endure  [ɪn'djʊər] v. 忍受；容忍
+	- withhold [wɪð'həʊld] v. 保留；不给；拒绝
+	- enormous [ɪ'nɔ:məs] adj. 巨大的，极大的
+	- gigantic [dʒai'gæntik] adj. 无比巨大的；巨人般的
+	- friction ['frikʃən] n. 摩擦，摩擦力

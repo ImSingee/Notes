@@ -3,7 +3,6 @@ author:: [[@iguangzhengli on Twitter]]
 full-title:: [1/N] 目前大多数基于 LLM + Embe...
 category:: #tweets
 url:: https://twitter.com/iguangzhengli/status/1656285307900432384
-
 - [1/n] 目前大多数基于 LLM + Embedding 方案做语料库检索都会遇到文本块上下文的限制。
   @gpt_index 的作者写了一篇博客介绍可以通过为每个文档索引非结构化文本摘要发送给 LLM 来增强检索能力。
   

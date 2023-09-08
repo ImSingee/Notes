@@ -3,7 +3,6 @@ author:: [[@sxyazi on Twitter]]
 full-title:: （1/3）为什么说 Tmux 这类 Multip...
 category:: #tweets
 url:: https://twitter.com/sxyazi/status/1692161818289160554
-
 - （1/3）为什么说 tmux 这类 multiplexer 是性能杀手？除了 CSI 序列需要被翻译两遍外，我还找到另外一个原因：
   
   昨天翻 wezterm 代码，发现为了适配 tmux 和 ConPty 被逼的只能加 sleep。ConPty 是 Windows 为了向后兼容在真实 TTY 和 Terminal emulator 加得一个兼容层，原理和 screen/tmux 类似。 

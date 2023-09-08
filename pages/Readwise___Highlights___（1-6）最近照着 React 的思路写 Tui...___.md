@@ -3,7 +3,6 @@ author:: [[@sxyazi on Twitter]]
 full-title:: （1/6）最近照着 React 的思路写 Tui...
 category:: #tweets
 url:: https://twitter.com/sxyazi/status/1688692887968796672
-
 - （1/6）最近照着 React 的思路写 tui，有点新体会。
   
   ratatui 作为一个 Rust 的纯 UI 库，只负责渲染，状态完全自己管理，这使得状态/逻辑和 UI 分离很容易，以后迁移到其它 UI 库很简单，没有强绑定，no strings attached。 https://t.co/dXcs50DUyF ([View Tweet](https://twitter.com/sxyazi/status/1688692887968796672)) #Highlight #[[2023-08-09]]

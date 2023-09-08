@@ -3,7 +3,6 @@ author:: [[@GcZsmkv on Twitter]]
 full-title:: Tweets From 阿尼欧Tiffany
 category:: #tweets
 url:: https://twitter.com/GcZsmkv
-
 - ▫️研究了漂亮国另外一家虚拟运营商“Red Pocket”，用的T-Mobile的网络和服务器，其中实体SIM eBay Phone Plans是比Ultra/T-Mobile还要便宜，每月2.5刀，自带30刀余额，包含200分钟通话和1000条短信，最高网速200MB，不过只支持GSMT，因实体SIM与另外两家一样需要转运国内， https://t.co/aFq7ahcHxg
   
   ![](https://pbs.twimg.com/media/FqdrXUVaMAEv9Tq.jpg) ([View Tweet](https://twitter.com/GcZsmkv/status/1632391445297655808)) #Highlight #[[2023-05-04]]

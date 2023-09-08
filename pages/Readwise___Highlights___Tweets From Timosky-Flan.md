@@ -3,7 +3,6 @@ author:: [[@timoskyflan on Twitter]]
 full-title:: Tweets From Timosky-Flan
 category:: #tweets
 url:: https://twitter.com/timoskyflan
-
 - 墙内言论管控离谱到了什么程度：
   
   第一次，我在视频《学习猪头的做法》评论区（看起来有意控评过）下面回复了一句“看起来好好吃”，当时觉得没事，3天后永久禁言。

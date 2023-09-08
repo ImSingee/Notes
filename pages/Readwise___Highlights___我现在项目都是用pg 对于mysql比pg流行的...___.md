@@ -3,7 +3,6 @@ author:: [[@changwei1006 on Twitter]]
 full-title:: 我现在项目都是用pg 对于mysql比pg流行的...
 category:: #tweets
 url:: https://twitter.com/changwei1006/status/1680887161359568896
-
 - 我现在项目都是用pg
   对于mysql比pg流行的原因 我个人粗浅理解:很多互联网产品都是只用单表查询然后代码业务层再做连表 字段的域完整性检查也都是做在业务层 所以pg的外键约束 unique和exclude约束 rule表达式约束等特性根本用不上
   其次是json mongodb已经很流行并且原生分片用起来很方便 所以pg在nosql https://t.co/v8ljykmyzO ([View Tweet](https://twitter.com/changwei1006/status/1680887161359568896)) #Highlight #[[2023-07-17]]

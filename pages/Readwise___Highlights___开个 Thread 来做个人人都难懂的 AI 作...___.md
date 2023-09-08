@@ -3,7 +3,6 @@ author:: [[@haoel on Twitter]]
 full-title:: 开个 Thread 来做个人人都难懂的 AI 作...
 category:: #tweets
 url:: https://twitter.com/haoel/status/1632211302356783104
-
 - 开个 thread 来做个人人都难懂的 AI 作画科普。目前主要流行的AI作画有，OpenAI的Dall-E2, Google 的 Imagen，Midjourney，有还Stability AI 公司开的 Stable Diffusion 等等。它们都是2022年才出来的，无一例外，全部都是基于 Diffusion 算法模型，这个算法的原理其实并不复杂，简单地说一下…… 1/7 ([View Tweet](https://twitter.com/haoel/status/1632211302356783104)) #Highlight #[[2023-03-07]]
 - Diffisution算法需要先找一堆高质量的图片，训练就是对每张图片一步一步的按一种公式（高斯噪声公式）来加噪点，直到整张图片变成一个完全噪点的图像（就像电视的雪花点），把所有的步骤都保存下来，然后用神经网络的方式来反向学习如何从一个完全是噪点的图像变成一张高清的图……2/7 
   

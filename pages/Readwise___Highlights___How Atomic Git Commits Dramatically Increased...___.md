@@ -3,7 +3,6 @@ author:: [[DEV Community]]
 full-title:: How Atomic Git Commits Dramatically Increased My Productivity - And Will Increase Yours Too
 category:: #articles
 url:: https://dev.to/samuelfaure/how-atomic-git-commits-dramatically-increased-my-productivity-and-will-increase-yours-too-4a84
-
 - What's an atomic git commit?
   
   Working with atomic git commits means your commits are of the smallest possible size. Each commit does one, and only one simple thing, that can be summed up in a simple sentence.

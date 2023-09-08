@@ -3,7 +3,6 @@ author:: [[@nishuang on Twitter]]
 full-title:: Tweets From 倪爽
 category:: #tweets
 url:: https://twitter.com/nishuang
-
 - 我来了美国才知道： 杯/CUP 是个标准的容积单位，美国人烘焙、做汤时说的1 CUP等于236 ml
   
   后来发现家里买的日本电饭煲，附带量杯1杯等于180ml☹️

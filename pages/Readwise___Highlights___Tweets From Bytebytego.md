@@ -3,7 +3,6 @@ author:: [[@bytebytego on Twitter]]
 full-title:: Tweets From Bytebytego
 category:: #tweets
 url:: https://twitter.com/bytebytego
-
 - How to diagnose a mysterious process that’s taking too much CPU, memory, IO, etc?
   
   The diagram below illustrates helpful tools in a Linux system.

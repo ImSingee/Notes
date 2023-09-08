@@ -3,7 +3,6 @@ author:: [[Λ-Reading]]
 full-title:: ✔记忆力终极手册
 category:: #articles
 url:: https://rizime.substack.com/p/f2e
-
 - 在记笔记这件事情上，许多人都走偏了。好的读书笔记，被喻为第二大脑（或外脑），这是结果论；如果从过程论来看，记笔记这一行为，和大脑对信息的处理方式极其相似 ([View Highlight](https://read.readwise.io/read/01gyeeb1cd0z6sdsxsnszgvh57)) #Highlight #[[2023-04-20]]
 - **记忆有两种基本类型：回顾性记忆和前瞻性记忆。** 回顾性记忆是记住过去发生的事情，而前瞻性记忆则是提醒自己在未来做一些事情 ([View Highlight](https://read.readwise.io/read/01gyeebcvyv0xfb12emn83yw8b)) #Highlight #[[2023-04-20]]
 - 回顾性记忆按记忆东西种类分内隐记忆和陈述性记忆。内隐记忆本质上是技能记忆，做任务的能力。 如果你的隐性记忆失效，你将无法刷牙、洗澡、开车或骑自行车。陈述性记忆则是对事实和意义的记忆（语义性）或对事件的记忆（情节）。 如果没有语义记忆，你将无法理解同事或朋友所说的内容。 如果没有情节性记忆，你以后就很难向别人讲述你的一天。 ([View Highlight](https://read.readwise.io/read/01gyeec0j5s41tftsz9w4kma41)) #Highlight #[[2023-04-20]]

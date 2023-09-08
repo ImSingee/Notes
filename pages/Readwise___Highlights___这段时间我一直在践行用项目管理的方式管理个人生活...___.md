@@ -3,7 +3,6 @@ author:: [[@wizhmomo on Twitter]]
 full-title:: 这段时间我一直在践行用项目管理的方式管理个人生活...
 category:: #tweets
 url:: https://twitter.com/wizhmomo/status/1689795520582299648
-
 - 这段时间我一直在践行用项目管理的方式管理个人生活以及 side projects。起因是在 Zoplay 深度体验过 Linear 后意外的发现自己很喜欢这种理念。
   
   我本身每天有各种想法，喜欢顺手写在任何当下能看见的地方，但之后就忘记写在哪个角落，永远丢失。1/3 

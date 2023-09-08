@@ -3,7 +3,6 @@ author:: [[@wanglei001 on Twitter]]
 full-title:: Tweets From Kenshin
 category:: #tweets
 url:: https://twitter.com/wanglei001
-
 - 有朋友问我，下面的图都是怎么做的？
   
   https://t.co/6xTgToS2UW → 制图

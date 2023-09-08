@@ -1,7 +1,6 @@
 ---
 title: S1-5-1 The Incredibles《超人总动员》
 ---
-
 - #[[看电影学单词]] #[[中级]] #[[Season 1]] [[2021-06-14]]
 -
 - https://www.notion.so/singee/S1-5-1-The-Incredibles-a62aba17d9fc48f28a2771a7be50e3a2

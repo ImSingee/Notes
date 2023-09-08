@@ -1,5 +1,4 @@
 alias:: DDIA,数据密集型应用系统设计
-
 - [中文](https://github.com/Vonng/ddia/tree/master)
 -
 - ### 第一部分：数据系统基础

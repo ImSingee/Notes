@@ -3,7 +3,6 @@ author:: [[@jarodise on Twitter]]
 full-title:: 2023年如何从零开始学习一门外语：🧵 Http...
 category:: #tweets
 url:: https://twitter.com/jarodise/status/1616741194863902720
-
 - 2023年如何从零开始学习一门外语：🧵 
   
   ![](https://pbs.twimg.com/media/Fm_RiFIakAEUCl_.jpg) ([View Tweet](https://twitter.com/jarodise/status/1616741194863902720)) #Highlight #[[2023-01-22]]

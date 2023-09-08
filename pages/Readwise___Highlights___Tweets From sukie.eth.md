@@ -3,7 +3,6 @@ author:: [[@sukie234 on Twitter]]
 full-title:: Tweets From sukie.eth
 category:: #tweets
 url:: https://twitter.com/sukie234
-
 - 在机场候机写一下关于在Crypto找工作的帖子
   ，很多人问我，年轻人如何0基础找到Crypto的工作？
   

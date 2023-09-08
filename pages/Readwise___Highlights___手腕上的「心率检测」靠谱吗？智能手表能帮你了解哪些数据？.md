@@ -3,7 +3,6 @@ author:: [[阿帅的健康笔记]]
 full-title:: 手腕上的「心率检测」靠谱吗？智能手表能帮你了解哪些数据？
 category:: #articles
 url:: https://sspai.com/post/74805
-
 - 若静息心率超过 100 次则称为心动过速，低于 60 次则为心动过缓，不规律的跳动则称为心率不齐。 ([View Highlight](https://read.readwise.io/read/01g8xp4pbwe3psm3vw9c90097x)) #Highlight #[[2022-07-27]]
 - 静息心率大于 80，健康风险就会增加。有研究发现，静息心率大于 80bpm，心血管死亡率就会增加 33%，而全因死亡风险会增加 45% ([View Highlight](https://read.readwise.io/read/01g8xp4yyb7jxqyv07g8ncv9fe)) #Highlight #[[2022-07-27]]
 - 静息心率小于 60 并不一定有健康风险，也可能是训练适应的表现。经常运动的人静息心率可能会低于 60bpm，因为他们的心肌更有力量，每次心跳可以泵出更多的血液，因此以较低的心跳次数就能满足全身的血液循环。比如有些精英游泳运动运静息心率甚至会低至 38 次，可谓是名副其实的「大心脏」 ([View Highlight](https://read.readwise.io/read/01g8xp5a4zwqjf51ke6hccepr3)) #Highlight #[[2022-07-27]]

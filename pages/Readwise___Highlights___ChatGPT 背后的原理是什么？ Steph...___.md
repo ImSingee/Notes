@@ -3,7 +3,6 @@ author:: [[@Tisoga on Twitter]]
 full-title:: ChatGPT 背后的原理是什么？ Steph...
 category:: #tweets
 url:: https://twitter.com/Tisoga/status/1626995068027695104
-
 - ChatGPT 背后的原理是什么？
   
   Stephen Wolfram 花了大概 3 个多小时的时间解释了 ChatGPT 背后涉及的原理，从最基础的模型概念一直到如何构造一个神经网络，深入浅出，对于没有深度学习背景的人也能够很好地理解。

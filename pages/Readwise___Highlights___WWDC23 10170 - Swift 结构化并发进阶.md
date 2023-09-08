@@ -3,7 +3,6 @@ author:: [[作者：]]
 full-title:: WWDC23 10170 - Swift 结构化并发进阶
 category:: #articles
 url:: https://xiaozhuanlan.com/topic/3249081765
-
 - 在 Swift 并发框架中，使用 `async let` ，`task group` 任务组，或创建执行独立 (`detached`) 或普通 `Task` 任务来触发并发任务执行。但使用 `async let` 和任务组创建的任务是结构化的，而直接执行 `Task` 和独立 `Task.detached` 任务并非结构化并发。 ([View Highlight](https://read.readwise.io/read/01h5vrnfhkwc3r1d2w2pyt8wxc)) #Highlight #[[2023-07-21]]
 - 结构化任务会在执行完毕前一直存在，并当任务超出作用域时自动被取消，这些特性使得结构化任务能够让你非常清晰的理解任务会存在多久，以及在何处结束 ([View Highlight](https://read.readwise.io/read/01h5vrr53xrnm3twhf838ca6dy)) #Highlight #[[2023-07-21]]
 - 建议在必要时，优先选择结构化并发任务 ([View Highlight](https://read.readwise.io/read/01h5vrrh2xjmtkd0mq8ws3dh6r)) #Highlight #[[2023-07-21]]

@@ -1,7 +1,6 @@
 ---
 title: S1-2 The Bucket List 《遗愿清单》
 ---
-
 - #[[看电影学单词]] #[[中级]] #[[Season 1]] [[2021-06-08]]
 -
 - https://www.notion.so/singee/S1-2-The-Bucket-List-e80ee4c1347542faa5d8e57007e7c80b

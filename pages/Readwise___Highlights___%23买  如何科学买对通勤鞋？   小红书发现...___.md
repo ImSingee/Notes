@@ -3,7 +3,6 @@ author:: [[@anqirocks on Twitter]]
 full-title:: \#买  如何科学买对通勤鞋？   小红书发现...
 category:: #tweets
 url:: https://twitter.com/anqirocks/status/1689608062091542528
-
 - #买 
   
   如何科学买对通勤鞋？  

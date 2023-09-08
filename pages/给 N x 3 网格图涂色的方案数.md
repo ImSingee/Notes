@@ -1,5 +1,4 @@
 alias:: Number of Ways to Paint N × 3 Grid
-
 - #CruelCoding #2023-04-01 #Medium #[[DP]] #[[BitMask]] [讲解](https://youtu.be/LwD9UIDIvHE)
 - #算法 #Hard #[[动态规划]]
 - #Leetcode #Leetcode-1411 [LC国际](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/) [LC中国](https://leetcode.cn/problems/number-of-ways-to-paint-n-3-grid/)

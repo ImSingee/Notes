@@ -3,7 +3,6 @@ author:: [[mp.weixin.qq.com]]
 full-title:: 万字长文说透什么是 Web 3.0，为什么它需要区块链
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=Mzg2MTEwNDQxMg==&mid=2247506857&idx=1&sn=2a478931d3a924cbf401231b925a2f34&scene=21
-
 - 当太多权力掌握在少数营利性人类机构手中时，就会抑制创新，进入一个令人警惕的状态 #Highlight #[[2022-02-01]]
 - 我们如何从「Don’ be evil」（Google 已经放弃）去到 「Can’t be evil」。从不去做恶，进化到无法做恶。 #Highlight #[[2022-02-01]]
 - Web 2.0 让平台成为最有钱有势的一方，所有人都在给平台打工。这种平台模式，不大可能从内部突破 #Highlight #[[2022-02-01]]

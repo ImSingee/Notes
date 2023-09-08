@@ -3,7 +3,6 @@ author:: [[@isukkaw on Twitter]]
 full-title:: （1/8）不管大部分人怎么评价 React Ho...
 category:: #tweets
 url:: https://twitter.com/isukkaw/status/1688077064359079936
-
 - （1/8）不管大部分人怎么评价 React Hooks、React Concurrent Rendering、RSC 的心智模型多么复杂和难以理解，从我过去五个月的经历来看，Vue 的 Everyday DX 是远远不如 React 的 —— 不至于 Bad，但是非常 Annoying。开个串聊一下（千字长文预警） ([View Tweet](https://twitter.com/isukkaw/status/1688077064359079936)) #Highlight #[[2023-08-06]]
 - （2/8）楔子：五个月前，公司让我接手维护一个 Vue 3 based 的项目。接手前，公司给了我一周时间学习 Vue 3。在花了一周从零开始学习 Vue 3 后，我至少已经学到「在组件生命周期外的 module level 声明的 ref 虽然也可以在多个组件中共享状态，但是在 SSR 中是 thread unsafe 的」这一步了。（待续） ([View Tweet](https://twitter.com/isukkaw/status/1688077206176899072)) #Highlight #[[2023-08-06]]
 - （3/8）首先就是 VSCode 上一塌糊涂的 Vue TypeScript 支持。自从接手这个 Vue 项目以来，我每天需要 Command + P 然后 Reload Window 三次以上。每当我 import 完一个 module，发现 Intellisense 不能自动提示和补全导出时，我就知道需要 Reload VSCode Window 了。（待续） ([View Tweet](https://twitter.com/isukkaw/status/1688077318882050048)) #Highlight #[[2023-08-06]]

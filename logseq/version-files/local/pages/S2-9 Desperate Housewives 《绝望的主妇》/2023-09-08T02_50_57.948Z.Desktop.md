@@ -1,0 +1,50 @@
+---
+title: S2-9 Desperate Housewives 《绝望的主妇》
+---
+
+- #[[看电影学单词]] #[[中级]] #[[Season 2]] [[2021-08-02]]
+-
+- 电影片段
+	- A : Bree, the idea was for me to spend a typical day with you. So this is legit? You’re really this Donna Reed housewife from the 50s?（Bree，我是来和你们度过寻常的一天的。所以，你们平时就这样吗？你真的就是个50年代 Donna Reed 那样的完美主妇吗？）
+	- B : You say that like it’s a bad thing. I think that decade had a lot to recommend it.（你说的好像这是件坏事一样。那个年代这样的家庭是很值得推崇的。）
+	- C : Mm, people had values then–values this family strives to uphold.（那个年代的人们有自己的价值观—这个家庭竭力维护的价值观念。）
+	-
+	- 【文化】 Donna Reed：美国50年代著名的女演员，美国传统女性的代表；
+	- legit a. 正统的
+	- decade n. 十年
+- 词汇讲解
+	- A : Bree, the idea was for me to spend a [[typical]] day with you.（Bree，我是来和你们度过寻常的一天的。）
+		- [[typical]] [ˈtipik(ə)l] adj. 典型的，有代表性的
+			- Definition: You use [[typical]] to describe someone or something that shows the most usual [[characteristic]]s of a particular type of person or thing, and is therefore a good example of that type.
+			- （你用**典型**来描述某个人或某物显示某一特定类型的人或物最常见的特征，因此是该类型的好例子。）
+			- 【例】Would you please describe a typical day at school?  （你可以描述一下你在学校里的典型一天吗？）
+			- 【固】[[typical]] day 典型的一天
+	- A : So this is [[legit]]? You’re really this Donna Reed housewife from the 50s? （所以，你们平时就这样吗？你真的就是个50年代 Donna Reed 那样的完美主妇吗？）
+		- [[legit]] [lə'dʒɪt] adj. 正统的
+	- B : You say that like it’s a bad thing. I think that [[decade]] had a lot to recommend it.（你说的好像这是件坏事一样。那个年代这样的家庭是很值得推崇的。）
+		- [[decade]] ['dekeɪd] n. 十年
+		- [[recommend]] [ˌrekəˈmend] vt. 推荐；劝告
+			- Definition: If someone [[recommend]]s a person or thing to you, they [suggest](https://www.collinsdictionary.com/dictionary/english/suggest) that you would [find](https://www.collinsdictionary.com/dictionary/english/find) that person or thing good or [useful](https://www.collinsdictionary.com/dictionary/english/useful).（如果有人向你推荐一个人或一件事，他们的意思是你会发现那个人或那件事是好的或有用的。）
+			- 【例1】I wouldn’t recommend. （我不推荐）
+			- 【例2】I highly recommend.  （我强烈推荐）
+			- 【形】re+[[commend]]（再 + 表扬）→ re+commend+ation
+			- recommendation [ˌrekəmenˈdeiʃən] n. 推荐（信）；建议
+			- [[commend]] [kəˈmend] vt. 表扬，称赞
+	- C : Mm, people had [[value]]s then – values this family [[strive]]s to [[uphold]].（那个年代的人们有自己的价值观—这个家庭竭力维护的价值观念。）
+		- [[strive]] [straiv] vi. 努力，奋斗，力求
+			- Definition: If you [[strive]] to do something or strive for something, you make a great effort to do it or get it. （如果你努力做某件事或为某件事而奋斗，你会努力去做或得到它。）
+			- 【例】I [[strive]] to learn something new every day.（我奋力每一天都要学点新知识）
+			- 【固】[[strive]] to do sth. 努力做某事
+		- [[uphold]] [ʌp'hoʊld] vt.  支持，维护
+			- Definition: If you [[uphold]] something such as a [law](https://www.collinsdictionary.com/dictionary/english/law), a principle, or a decision, you support and maintain it. （如果你支持法律、原则或决定之类的东西，你就支持并维护它。）
+			- 【固】[[uphold]] the value 维护价值观
+- 词汇回顾
+	- typical [ˈtipik(ə)l] a. 典型的，有代表性的
+	- recommend [ˌrekəˈmend] vt. 推荐；劝告
+	- commend [kəˈmend] vt. 表扬，称赞
+	- recommendation [ˌrekəmenˈdeiʃən] n. 推荐（信）；建议
+	- legit [lə'dʒɪt] adj. 正统的
+	- strive [straiv] vi. 努力，奋斗，力求
+	- uphold [ʌp'hoʊld] vt. 支持，维护
+	- decade ['dekeɪd] n. 十年
+	- uphold the value 维护价值观

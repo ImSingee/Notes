@@ -3,7 +3,6 @@ author:: [[Kiririn]]
 full-title:: 第一次独居？我们为你准备了一份「租房攻略合订本」
 category:: #articles
 url:: https://sspai.com/post/74285
-
 - 我们建议**每天花在通勤上的时间最多不超过 2 小时，以单程低于 20 分钟，且有备选路线为最佳** ([View Highlight](https://read.readwise.io/read/01g82b15vjqp00vp5ermnnf7yr)) #Highlight #[[2022-07-16]]
 - 尽量避开边缘化的老旧住宅区、缺乏管理的闹市、以及人员流动大且成分复杂的城际交通枢纽 ([View Highlight](https://read.readwise.io/read/01g82b221yy36360g83qgwc1xe)) #Highlight #[[2022-07-16]]
 - 与传统认知相悖的是，生活品质的改善不一定会增加生活成本，因为这并不关乎消费水平的提升，而是生活方式的转变。住宅周边完善的配套设施建设往往是「走出去」的第一步，居住在一个有活力的街区也会让你更有拥抱生活的好心情。 ([View Highlight](https://read.readwise.io/read/01g82b37y0ztcce7h8m48ch37j)) #Highlight #[[2022-07-16]]

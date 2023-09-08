@@ -3,7 +3,6 @@ author:: [[@WuPingJu on Twitter]]
 full-title:: 昨天嘗試用 ChatGPT 製作了一個 Midj...
 category:: #tweets
 url:: https://twitter.com/WuPingJu/status/1643276223211278338
-
 - 昨天嘗試用 ChatGPT 製作了一個 Midjourney Prompt Generator 。
   
   測試後覺得效果不錯，就訂閱了 MJ，開始扮演 text-to-image 的詠唱初學者。

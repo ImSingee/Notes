@@ -3,7 +3,6 @@ author:: [[freedesktop.org]]
 full-title:: systemd.unit
 category:: #articles
 url:: https://www.freedesktop.org/software/systemd/man/systemd.unit.html
-
 - If an
     option or section name is prefixed with X-, it is
     ignored completely by systemd. #Highlight #[[2021-06-28]]

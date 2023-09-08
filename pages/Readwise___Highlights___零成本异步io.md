@@ -3,7 +3,6 @@ author:: [[gteng.org]]
 full-title:: 零成本异步io
 category:: #articles
 url:: https://gteng.org/2021/01/30/zero-cost-async-io/
-
 - 零成本抽象有两个方面：
   
   该功能不会给不使用该功能的用户增加成本，因此我们不能为了增加新的特性而增加那些会减慢所有程序运行的全局性开销。

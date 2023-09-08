@@ -3,7 +3,6 @@ author:: [[@dotey on Twitter]]
 full-title:: Tweets From 宝玉
 category:: #tweets
 url:: https://twitter.com/dotey
-
 - 这些优势都对，但对于刚毕业的学生，还是尽可能去大厂。
   1. 养成好的做事的习惯，比如程序员要学会做系统设计再写代码，要写测试集成CI等
   2. 开阔视野，去看看大团队是怎么组织的，大项目怎么推进的

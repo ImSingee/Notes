@@ -3,7 +3,6 @@ author:: [[海纳]]
 full-title:: 07 | 动态链接（上）：地址无关代码是如何生成的？ - 编程高手必学的内存知识
 category:: #articles
 url:: https://time.geekbang.org/column/article/437653
-
 - 其中 LIBRARY_PATH 是由链接器来使用的，一般系统默认是 gnu ld。对于大部分开发者来讲，如果 LIBRARY_PATH 没有设置好，在使用 gcc 或者 clang 这些编译器（其实它们都调用了 ld 这个链接器，真正做事情的是 ld）的时候，会碰到类似/usr/bin/ld: cannot find -lfoo的错误。LIBRARY_PATH 的一个等价的选项就是上文讲的 -L 指定路径的选项。
   而另一个 LD_LIBRARY_PATH 的环境变量是由动态链接器来使用的，即我们通过 ldd 看到的 ld-linux-x86-64.so.2 这个库。动态链接器的知识我们会在下一节课中详细展开。 #Highlight #[[2023-05-07]]
 - LIBRARY_PATH 的使用时机是链接器在做链接的时候，LD_LIBRARY_PATH 的使用时机是在程序运行时。 #Highlight #[[2023-05-07]]

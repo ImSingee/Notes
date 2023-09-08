@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 26 | 基于角色的权限控制：RBAC - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/42154
-
 - Kubernetes 中所有的 API 对象，都保存在 Etcd 里。可是，对这些 API 对象的操作，却一定都是通过访问 kube-apiserver 实现的。其中一个非常重要的原因，就是你需要 APIServer 来帮助你做授权工作 #Highlight #[[2023-06-13]]
 - 在 Kubernetes 项目中，负责完成授权（Authorization）工作的机制，就是 RBAC：基于角色的访问控制（Role-Based Access Control） #Highlight #[[2023-06-13]]
 - Role：角色，它其实是一组规则，定义了一组对 Kubernetes API 对象的操作权限。

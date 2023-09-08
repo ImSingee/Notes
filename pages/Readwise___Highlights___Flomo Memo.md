@@ -2,7 +2,6 @@ title:: Readwise/Highlights/Flomo Memo
 author:: [[Bryan]]
 full-title:: Flomo Memo
 category:: #books
-
 - 在这个时代，写作需要为社交网络传播「优化」已经成为了许多写作者的共识，甚至变成了肌肉记忆。但喧闹的社交网络本来就不是认真阅读的好地方，这些认真创作出来的文字要适应这个环境，要做出许多不应该的妥协。 ([View Highlight](https://flomoapp.com/mine/?memo_id=MzY4NDgzNzg)) #Highlight #[[2022-08-30]]
 - 何谓 flomo？flomo = flow + memo
   

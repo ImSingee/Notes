@@ -3,7 +3,6 @@ author:: [[鸿苓]]
 full-title:: 「空调救命」不是玩笑话，聊聊中暑的预防、发现与救治
 category:: #articles
 url:: https://sspai.com/post/74761
-
 - 轻微的中暑症状当然很快就能恢复，但最严重的中暑症状，也就是「热射病」，致死率高达 50%。它往往发生在体温超过正常范围区间过多的时候，体内的热量足以对许多重要的身体器官造成伤害，从而导致种种并发症，甚至死亡。1 ([View Highlight](https://read.readwise.io/read/01g8yw5xez9baba9d91r8nc9eq)) #Highlight #[[2022-07-27]]
 - 人体的正常体温通常落在 36.5℃ 和 37.5 ℃ 之间。体温超过 37.5℃ 时，就会开始出现种种中暑的症状；体温超过 38℃ 时，高温开始影响心脏的功能；当身体内的核心温度到达 40 度以上时，高温就会对神经系统造成伤害，从而引发一系列严重的中暑症状，最有代表性的就是「**热射病**」。 ([View Highlight](https://read.readwise.io/read/01g8yw6eqrnfyeyrg934bahtgb)) #Highlight #[[2022-07-27]]
 - 需要注意的是，中暑不仅可能在炎热天气下出现，运动时体内产生的热量比日常活动中更多。如果在环境温度高的地方运动，仍然有可能出现中暑的症状。 ([View Highlight](https://read.readwise.io/read/01g8yw6w77qfk9ypzcg7z51d3f)) #Highlight #[[2022-07-27]]

@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 12 | 牛刀小试：我的第一个容器化应用 - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/40008
-
 - Kubernetes 跟 Docker 等很多项目最大的不同，就在于它不推荐你使用命令行的方式直接运行容器（虽然 Kubernetes 项目也支持这种方式，比如：kubectl run），而是希望你用 YAML 文件的方式，即：把容器的定义、参数、配置，统统记录在一个 YAML 文件中 #Highlight #[[2023-06-07]]
 - 所谓 Deployment，是一个定义多副本应用（即多个副本 Pod）的对象，我在前面的文章中（也是第 9 篇文章《从容器到容器云：谈谈 Kubernetes 的本质》）曾经简单提到过它的用法。此外，Deployment 还负责在 Pod 定义发生变化时，对每个副本进行滚动更新（Rolling Update）。 #Highlight #[[2023-06-07]]
 - Pod 就是 Kubernetes 世界里的“应用”；而一个应用，可以由多个容器组成。 #Highlight #[[2023-06-07]]

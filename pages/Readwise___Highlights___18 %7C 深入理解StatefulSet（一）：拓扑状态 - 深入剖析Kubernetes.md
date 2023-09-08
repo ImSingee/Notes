@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 18 | 深入理解StatefulSet（一）：拓扑状态 - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/41017
-
 - Deployment 对应用做了一个简单化假设。
   它认为，一个应用的所有 Pod，是完全一样的。所以，它们互相之间没有顺序，也无所谓运行在哪台宿主机上。需要的时候，Deployment 就可以通过 Pod 模板创建新的 Pod；不需要的时候，Deployment 就可以“杀掉”任意一个 Pod。
   但是，在实际的场景中，并不是所有的应用都可以满足这样的要求。 #Highlight #[[2023-06-08]]

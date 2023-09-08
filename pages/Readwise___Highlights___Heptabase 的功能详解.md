@@ -3,7 +3,6 @@ author:: [[Spike112]]
 full-title:: Heptabase 的功能详解
 category:: #articles
 url:: https://sspai.com/post/76704
-
 - Heptabase 从组织层面，建立了一个能完整保存和追踪知识生产脉络的工作流。围绕知识的生命周期，Heptabase 目前提供了包括 Journal 日志、Map 地图、Card Library 卡片库、Tags 标签这四种模块。其中，
   
   •   Journal 是知识收集的入口，对应知识生产的**初步收集**阶段。

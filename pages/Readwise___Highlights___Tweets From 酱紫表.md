@@ -3,7 +3,6 @@ author:: [[@pengchujin on Twitter]]
 full-title:: Tweets From 酱紫表
 category:: #tweets
 url:: https://twitter.com/pengchujin
-
 - 分享下当前「Apple TV 代理工具」和获取方法，正式版 tvOS 17 还有一个月左右，不急的可以等等，苹果官方 beta ：https://t.co/KWyo32nWsC
   『Surge』 购买了手机版的用户可以直接免费申请 testfligt 使用：https://t.co/4Ne0eqW1e6
   Surge 在 tvOS 的完成度算较高，支持作为网关，直接同步手机上的配置文件一键就能代理，手机也能遥控切换，缺点是：目前 TV 上不能切换节点。

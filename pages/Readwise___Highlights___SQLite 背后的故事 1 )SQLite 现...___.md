@@ -3,7 +3,6 @@ author:: [[@leyafo on Twitter]]
 full-title:: SQLite 背后的故事 1 )SQLite 现...
 category:: #tweets
 url:: https://twitter.com/leyafo/status/1553752242540257283
-
 - SQLite 背后的故事
   1 )SQLite 现在已经是全球用户最多的数据库产品。它非常小巧以及单文件无单独操作系统进程，就像病毒一样依附在宿主程序的进程里运行，你看不到它，但它却无处不在。汽车，手机，浏览器，以及各类 app 里都能见到 .db 结尾的 SQLite 数据库文件。 假如 SQLite 出现重大bug，或像平常 ([View Tweet](https://twitter.com/leyafo/status/1553752242540257283)) #Highlight #[[2022-08-01]]
 - 2)的数据库那样无法连接，整个地球都会乱套。你身边用的几乎所有电子产品（手机，电脑，ipad，笔记本）和嵌入式设备全部都会出问题。它的诞生到大范围全球流行的过程和一般软件有着不太一样的发展历程。 ([View Tweet](https://twitter.com/leyafo/status/1553752244939399169)) #Highlight #[[2022-08-01]]

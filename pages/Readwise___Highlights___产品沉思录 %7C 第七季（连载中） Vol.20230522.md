@@ -2,7 +2,6 @@ title:: Readwise/Highlights/产品沉思录 | 第七季（连载中） Vol.20230
 author:: [[shaonan × fonter]]
 full-title:: 产品沉思录 | 第七季（连载中） Vol.20230522
 category:: #articles
-
 - 每个人都在谈论的东西其实才半年之久——互联网上没有专家，只有扮演专家的人 ([View Highlight](https://read.readwise.io/read/01h1n3kferdj98baatcznkx0w7)) #Highlight #[[2023-05-30]]
 - 企业的首要任务是生存，所以企业不在于获得最大利润，而在于如何充分利用利润；赚取利润，才能应对未来的风险，避免亏损 ([View Highlight](https://read.readwise.io/read/01h1n3ksqy4yj1026wc4t9h9vk)) #Highlight #[[2023-05-30]]
 - 在设计任何功能时，都可通过问一下： **知不知、会不会、愿不愿** ([View Highlight](https://read.readwise.io/read/01h1n3rhma9gnq6pbe895vft6w)) #Highlight #[[2023-05-30]]

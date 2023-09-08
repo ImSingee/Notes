@@ -1,5 +1,4 @@
 alias:: Find the String with LCP
-
 - #CruelCoding #2023-03-17 #Hard #[[Greedy]] #[[Constructive]] [讲解](https://youtu.be/07KRNyie-Lk) Rating-2681
 - #算法 #Hard #[[贪心]] #[[动态规划]] #[[并查集]] #[[字符串]]
 - #Leetcode #Leetcode-2573 [LC国际](https://leetcode.com/problems/find-the-string-with-lcp/) [LC中国](https://leetcode.cn/problems/find-the-string-with-lcp/)

@@ -4,7 +4,6 @@ full-title:: 被人薅羊毛？其实别在意。
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=MzI0MjA1Mjg2Ng==&mid=2649871367&idx=1&sn=5c782e9d363dcea38246e4af9b2856f8&chksm=f1074e6ac670c77c3aec7a2e94896437573673ddced9f5c2286023ae38615a45c983fd0ed94a#rd
 tags:: #[[inoreader]] #[[公众号「caoz的梦呓」]] #[[微信公众号]]
-
 - 支持无条件退款，可以让付费的信任成本极大降低，其实是提高了付费率。用户对你不了解，对你的社群不了解，对你输出的价值不了解，一个退款保障，实际上可以增加对方尝试的信心。 ([View Highlight](https://read.readwise.io/read/01gxg71rnvge24t88jsk7vcy22)) #Highlight #[[2023-04-08]]
 - 你要构建的是长期的竞争力，我对自己的社群，自己的公众号文章，我经常说的一句话，**要经得起时间的检验** ([View Highlight](https://read.readwise.io/read/01gxg721q655a70edk4t3pss7a)) #Highlight #[[2023-04-08]]
 - 经过时间的检验，才会知道，谁在提供持续的价值，而谁只是追逐一时的利益。 ([View Highlight](https://read.readwise.io/read/01gxg727tdew27fw5b8x8cde12)) #Highlight #[[2023-04-08]]

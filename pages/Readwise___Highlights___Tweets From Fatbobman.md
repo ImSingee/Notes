@@ -3,7 +3,6 @@ author:: [[@fatbobman on Twitter]]
 full-title:: Tweets From Fatbobman
 category:: #tweets
 url:: https://twitter.com/fatbobman
-
 - SwiftData 采用了创建 Actor 的方式来保证私有上下文以及 PersistentModel 之间的线程一致性
   
   @kharrison 的这篇文章介绍了 SwiftData 如何在后台任务中进行数据操作

@@ -4,7 +4,6 @@ full-title:: Unix 终端系统（TTY）是如何工作的
 category:: #articles
 url:: https://waynerv.com/posts/how-tty-system-works/
 tags:: #[[star]]
-
 - 本文内容主要以 Linux 系统的具体实现为基础，但因为其遵循 SUSv3（***Single UNIX Specification Version 3***）规范，因此也适用于其他 Unix 系统（如 macOS）。 ([View Highlight](https://read.readwise.io/read/01h3ra1z96jg5zzxk6rxh681gc)) #Highlight #[[2023-06-25]]
 - 电传打字机是早期的计算机输入输出设备，其英文 **teletype** 的缩写也是 tty 这一名称的由来。终端和 tty 实际上是可相互替代的同义术语 ([View Highlight](https://read.readwise.io/read/01h3ra2qhw2fbw65yw4t1y0r9f)) #Highlight #[[2023-06-25]]
 - 电传打字机通过两条线缆连接到计算机的 UART（Universal Asynchronous Receiver and Transmitter）接口，一条线缆传输从电传打字机按下键盘触发的输入信号到计算机，一条线缆传输从计算机回到电传打字机的输出信号。计算机操作系统提供 UART 驱动程序来管理字节的物理传输，包括奇偶校验和流量控制。 ([View Highlight](https://read.readwise.io/read/01h3ra36edbs0qjtxc2z120jek)) #Highlight #[[2023-06-25]]

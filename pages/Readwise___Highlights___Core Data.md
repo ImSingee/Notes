@@ -2,7 +2,6 @@ title:: Readwise/Highlights/Core Data
 author:: [[王 巍]]
 full-title:: Core Data
 category:: #books
-
 - Core Data 其实并不是一个传统意义上的数据库，而是一套对象图管理系统。这套系统默认使用 SQLite 作为底层存储，通过由低向高地将相关的管理组件构建为一个栈，来提供缓存和对象管理机制。这让我们对于数据对象的存储和访问都能够高效而有序地进行 #Highlight #[[2023-07-24]]
 - 修改数据模型会导致 app 在下次运行时崩溃 #Highlight #[[2023-07-25]]
 - 如果把 Core Data 当成一个对象图管理系统来正确使用的时候，得益于内建的缓存和对象管理机制，它在很多方面实际上反而更快 #Highlight #[[2023-07-24]]

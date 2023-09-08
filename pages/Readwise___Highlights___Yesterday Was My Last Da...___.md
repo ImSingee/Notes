@@ -3,7 +3,6 @@ author:: [[@VoltarCH on Twitter]]
 full-title:: Yesterday Was My Last Da...
 category:: #tweets
 url:: https://twitter.com/VoltarCH/status/1554075352359657474
-
 - Yesterday was my last day of working at Google. Perhaps this comes as surprise to you twitter folks, as I haven't widely announced that I left academia to try something new. Here's what I learned in 9 months as a Data Analyst who (temporarily) left Astronomy for Big Tech. 1/n 
   
   ![](https://pbs.twimg.com/media/FZEe3wBWIAItecX.jpg) ([View Tweet](https://twitter.com/VoltarCH/status/1554075352359657474)) #Highlight #[[2022-09-12]]

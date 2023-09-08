@@ -3,7 +3,6 @@ author:: [[draveness.me]]
 full-title:: 为什么 TCP/Ip 协议会拆分数据 - 面向信仰编程
 category:: #articles
 url:: https://draveness.me/draveness.me/whys-the-design-tcp-segment-ip-packet
-
 - IP 协议会分片传输过大的数据包（Packet）避免物理设备的限制；TCP 协议会分段传输过大的数据段（Segment）保证传输的性能； #Highlight #[[2022-07-24]]
 - IP 数据包的大小上限，即最大传输单元（Maximum transmission unit，即 MTU），MTU 是 IP 数据包能够传输的数据上限 #Highlight #[[2022-07-24]]
 - MTU 的值不是越大越好，更大的 MTU 意味着更低的额外开销，更小的 MTU 意味着更低的网络延迟。每一个物理设备都有自己的 MTU，两个主机之间的 MTU 依赖于底层的网络能力，它由整个链路上 MTU 最小的物理设备决定 #Highlight #[[2022-07-24]]

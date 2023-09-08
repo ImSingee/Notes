@@ -3,7 +3,6 @@ author:: [[@JourneymanChina on Twitter]]
 full-title:: Tweets From Journeyman
 category:: #tweets
 url:: https://twitter.com/JourneymanChina
-
 - 就我经历而言，小公司比大厂有什么优势？
   
   1. 一专多能:  

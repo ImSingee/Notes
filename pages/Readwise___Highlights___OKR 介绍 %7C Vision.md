@@ -3,7 +3,6 @@ author:: [[okr.vision]]
 full-title:: OKR 介绍 | Vision
 category:: #articles
 url:: https://okr.vision/zh/docs/okr-guide/okr-introduction
-
 - OKR 与任务管理最大的区别在于，OKR 关注的是结果，而任务管理仅仅关心具体的事有没有完成 #Highlight #[[2022-01-06]]
 - 在你开始使用 OKR 前，你需要理解什么是过程导向和结果导向。OKR 是一个框架，但它也包含了人们对于如何量化工作的认知的最基本的转换 —— 从专注于量化他们的输出转移到量化他们输出最终产生的结果。 #Highlight #[[2022-01-06]]
 - 在制定你的个人 OKR 前，一定要仔细思考自己的个人愿景，并将自己的目标与愿景对齐。 #Highlight #[[2022-01-06]]

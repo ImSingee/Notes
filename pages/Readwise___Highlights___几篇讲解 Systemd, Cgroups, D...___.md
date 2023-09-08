@@ -3,7 +3,6 @@ author:: [[@hemashushu on Twitter]]
 full-title:: 几篇讲解 Systemd, Cgroups, D...
 category:: #tweets
 url:: https://twitter.com/hemashushu/status/1682325446585909248
-
 - 几篇讲解 systemd, cgroups, dbus 不错的文章：
   
   注：#systemd 是内核启动后第一个执行的程序，取代了sysvinit几乎成为所有发行版默认的init程序（除了alpine和gentoo，它们用openrc），所以要了解系统的构成，systemd 就绕不过了。然而它的内容非常多，想彻底搞清楚需要好几篇/系列文章。

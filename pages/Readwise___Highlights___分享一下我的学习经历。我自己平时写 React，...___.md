@@ -3,7 +3,6 @@ author:: [[@noworkforsixian on Twitter]]
 full-title:: 分享一下我的学习经历。我自己平时写 React，...
 category:: #tweets
 url:: https://twitter.com/noworkforsixian/status/1660921543390527489
-
 - 分享一下我的学习经历。我自己平时写 React，所以对 SwiftUI 的 declarative syntax 比较适应。不过，过段时间我们的 PM 也要开始学习 iOS 开发了。她有计算机基础，但没有工程经验，我正在写一份精确到天的学习计划，看她体验如何，到时候可以分享出来。
   
   1. Swift 语言基础：https://t.co/2Gu5ZgV8mp ([View Tweet](https://twitter.com/noworkforsixian/status/1660921543390527489)) #Highlight #[[2023-05-23]]

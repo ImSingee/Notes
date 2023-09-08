@@ -3,7 +3,6 @@ author:: [[@xfli5 on Twitter]]
 full-title:: Tweets From Xfli5
 category:: #tweets
 url:: https://twitter.com/xfli5
-
 - 【人性】
   1、你去洗脚的时候，你同技师聊得越亲近，她的服务就越差。
   2、家里装修，你对装修工越好，他装修的质量越差。

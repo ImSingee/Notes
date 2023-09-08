@@ -1,5 +1,4 @@
 alias:: DDIA/ch6
-
 - [link](https://github.com/Vonng/ddia/blob/master/ch6.md)
 -
 - 对于非常大的数据集，或非常高的吞吐量，仅仅进行复制是不够的：我们需要将数据进行 **分区（partitions）**，也称为 **分片（sharding）**

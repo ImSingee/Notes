@@ -3,7 +3,6 @@ author:: [[@coolXiao on Twitter]]
 full-title:: 写作是可以改变人生的超级技能 但学校从没有好好...
 category:: #tweets
 url:: https://twitter.com/coolXiao/status/1554667451203276801
-
 - 写作是可以改变人生的超级技能
   
   但学校从没有好好教过我如何写作

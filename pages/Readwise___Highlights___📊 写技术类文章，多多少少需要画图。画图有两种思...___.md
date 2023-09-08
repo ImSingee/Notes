@@ -3,7 +3,6 @@ author:: [[@glazecl on Twitter]]
 full-title:: 📊 写技术类文章，多多少少需要画图。画图有两种思...
 category:: #tweets
 url:: https://twitter.com/glazecl/status/1540902679500787713
-
 - 📊 写技术类文章，多多少少需要画图。画图有两种思路：
   
   1️⃣ 设计优先

@@ -20,7 +20,6 @@ title:: Readwise/Highlights/Tweets from 勃勃OC
 灭亡之后我会带着我全家好好纪念你的
 
 伟大的，反科学的，中国共产党！ ([View Tweet](https://twitter.com/bboczeng/status/1693805914728603722)) #Highlight #[[2023-08-23]]
-
 - 其实我有一点点没懂咱们党现在在经济上的做法
   
   如果说我们的目的就是共同富裕，外国人被我们吓跑了，资本家被我们打趴下了。

@@ -2,7 +2,6 @@ title:: Readwise/Highlights/产品沉思录 | 第七季（连载中） Vol.20230
 author:: [[shaonan × fonter]]
 full-title:: 产品沉思录 | 第七季（连载中） Vol.20230529
 category:: #articles
-
 - 构建个人品牌的核心，在于能做出令人印象深刻的事情，而非只是把做的事情告诉他人 ([View Highlight](https://read.readwise.io/read/01h1n5q7qazmw2gpnshqwhg17z)) #Highlight #[[2023-05-30]]
 - 品牌并不代表最高的质量，而是你知道对他们应该有什么期望，以及会得到什么结果。这就是品牌的本质 ([View Highlight](https://read.readwise.io/read/01h1n5qh6fxh8cckgqkb8r1jx4)) #Highlight #[[2023-05-30]]
 - 品牌的关键组成部分不是做到品质上卓越，而是始终保持一致性 ([View Highlight](https://read.readwise.io/read/01h1n5qm9sfbxxcaq9z2a5z2ep)) #Highlight #[[2023-05-30]]

@@ -3,7 +3,6 @@ author:: [[@plantegg on Twitter]]
 full-title:: Tweets From Plantegg
 category:: #tweets
 url:: https://twitter.com/plantegg
-
 - 一语惊醒梦中人的感觉最爽，我是做了10年性能优化后碰到了一次醍醐灌顶般的醒悟
   这之后，无数次只需要看一眼服务的RT、CPU状态就能很快给出服务的极限QPS是多少。
   

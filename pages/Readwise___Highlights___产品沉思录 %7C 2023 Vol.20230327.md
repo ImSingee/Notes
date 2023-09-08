@@ -2,7 +2,6 @@ title:: Readwise/Highlights/产品沉思录 | 2023 Vol.20230327
 author:: [[shaonan × fonter]]
 full-title:: 产品沉思录 | 2023 Vol.20230327
 category:: #articles
-
 - 现代人做的很多事情，都是处理信息并采取行动。GPT-4 能加速做这些事情的能力，并扩大自己的能力范围。很快就能看到，许多人都会拥有一个这样的副驾驶。
   
   GPT-4 能增强人类的平均水平，因此它对于任何请求都可以返回一个介于良好和优秀之间的答案。 ([View Highlight](https://read.readwise.io/read/01gwhfhxfrnspg0krdzp6c8ys0)) #Highlight #[[2023-03-27]]

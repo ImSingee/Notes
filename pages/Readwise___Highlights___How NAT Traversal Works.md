@@ -3,7 +3,6 @@ author:: [[tailscale.com]]
 full-title:: How NAT Traversal Works
 category:: #articles
 url:: https://tailscale.com/blog/how-nat-traversal-works/
-
 - Direct socket access may be tough depending on your situation. One
   workaround is to run a local proxy. Your protocol speaks to this
   proxy, and the proxy does both NAT traversal and relaying of your

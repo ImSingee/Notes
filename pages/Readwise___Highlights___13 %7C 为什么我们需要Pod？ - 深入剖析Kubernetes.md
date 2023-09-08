@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 13 | 为什么我们需要Pod？ - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/40092
-
 - Pod，是 Kubernetes 项目中最小的 API 对象。如果换一个更专业的说法，我们可以这样描述：Pod，是 Kubernetes 项目的原子调度单位。 #Highlight #[[2022-08-12]]
 - 他们部署的应用，往往都存在着类似于“进程和进程组”的关系。更具体地说，就是这些应用之间有着密切的协作关系，使得它们必须部署在同一台机器上。 #Highlight #[[2022-08-12]]
 - 资源囤积带来了不可避免的调度效率损失和死锁的可能性；而乐观调度的复杂程度，则不是常规技术团队所能驾驭的。 #Highlight #[[2022-08-12]]

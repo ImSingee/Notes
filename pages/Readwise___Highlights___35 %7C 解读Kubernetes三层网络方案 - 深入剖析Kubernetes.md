@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 35 | 解读Kubernetes三层网络方案 - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/67775
-
 - host-gw 模式的工作原理，其实就是将每个 Flannel 子网（Flannel Subnet，比如：10.244.1.0/24）的“下一跳”，设置成了该子网对应的宿主机的 IP 地址。 #Highlight #[[2023-06-13]]
 - host-gw 模式能够正常工作的核心，就在于 IP 包在封装成帧发送出去的时候，会使用路由表里的“下一跳”来设置目的 MAC 地址。这样，它就会经过二层网络到达目的宿主机。
   所以说，Flannel host-gw 模式必须要求集群宿主机之间是二层连通的。 #Highlight #[[2023-06-13]]

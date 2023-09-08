@@ -3,7 +3,6 @@ author:: [[cs.umd.edu]]
 full-title:: http://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.html
 category:: #articles
 url:: http://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.html
-
 - For example, if a thread writes to field
   a and then to field b, and the value of b
   does not depend on the value of a, then the compiler is free

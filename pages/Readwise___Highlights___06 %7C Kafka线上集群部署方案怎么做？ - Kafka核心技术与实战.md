@@ -3,7 +3,6 @@ author:: [[胡夕]]
 full-title:: 06 | Kafka线上集群部署方案怎么做？ - Kafka核心技术与实战
 category:: #articles
 url:: https://time.geekbang.org/column/article/101107
-
 - 在规划磁盘容量时你需要考虑下面这几个元素：
   新增消息数
   消息留存时间

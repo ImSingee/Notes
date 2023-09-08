@@ -3,7 +3,6 @@ author:: [[draveness.me]]
 full-title:: 为什么 MySQL 的自增主键不单调也不连续 - 面向信仰编程
 category:: #articles
 url:: https://draveness.me/draveness.me/whys-the-design-mysql-auto-increment
-
 - MySQL 中默认的 AUTO_INCREMENT 属性在多数情况下可以保证主键的连续性，我们通过 show create table 命令可以在表的定义中能够看到 AUTO_INCREMENT 属性的当前值，当我们向当前表中插入数据时，它会使用该属性的值作为插入记录的主键，而每次获取该值也都会将它加一 #Highlight #[[2022-07-23]]
 - 较早版本的 MySQL 将 AUTO_INCREMENT 存储在内存中，实例重启后会根据表中的数据重新设置该值；获取 AUTO_INCREMENT 时不会使用事务锁，并发的插入事务可能出现部分字段冲突导致插入失败； #Highlight #[[2022-07-23]]
 - 在 MySQL 8.0 中，AUTO_INCREMENT 计数器的初始化行为发生了改变，每次计数器的变化都会写入到系统的重做日志（Redo log）并在每个检查点存储在引擎私有的系统表中 #Highlight #[[2022-07-23]]

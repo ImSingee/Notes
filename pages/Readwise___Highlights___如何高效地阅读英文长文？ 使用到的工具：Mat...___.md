@@ -3,7 +3,6 @@ author:: [[@Tisoga on Twitter]]
 full-title:: 如何高效地阅读英文长文？ 使用到的工具：Mat...
 category:: #tweets
 url:: https://twitter.com/Tisoga/status/1576576521354956800
-
 - 如何高效地阅读英文长文？
   
   使用到的工具：Matter、彩云小译、iPad。

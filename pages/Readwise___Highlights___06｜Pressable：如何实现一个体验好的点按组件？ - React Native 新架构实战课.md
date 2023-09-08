@@ -3,7 +3,6 @@ author:: [[蒋宏伟]]
 full-title:: 06｜Pressable：如何实现一个体验好的点按组件？ - React Native 新架构实战课
 category:: #articles
 url:: https://time.geekbang.org/column/article/504527
-
 - 第一代点按组件 Touchable，功能丰富但学习成本太高；
   第二代点按组件 Button，简单易用但带了默认样式和反馈效果，通用性太差；
   第三代点按组件 Pressable，同时满足了简单易用和复杂效果可扩展的特性。 #Highlight #[[2023-04-25]]

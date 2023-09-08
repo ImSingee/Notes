@@ -1,5 +1,4 @@
 title:: 算法/题目/N 叉树的前序遍历
-
 - alias:: N-ary Tree Preorder Traversal
 - #算法 #Easy #[[栈]] #[[树]] #[[深度优先搜索]]
 - #Leetcode #Leetcode-589 [LC国际](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) [LC中国](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/)

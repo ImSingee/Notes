@@ -3,7 +3,6 @@ author:: [[mp.weixin.qq.com]]
 full-title:: 当产品经理开始思考做一个好人的代价
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=MzUxMzY4NTE2MQ==&mid=2247485039&idx=1&sn=9853d3685e00ea67e720268d662fa0ee&chksm=f95025a9ce27acbff61ef112193d27b04522df95fde6f720960241f0457acd7d68caaa41d10e&scene=132
-
 - 本以为会有很多人挂念，但除了一些营销短信，并没有人真的在找她 #Highlight #[[2022-01-26]]
 - 在很多危急时刻，我们看到了犹豫的、担心惹上麻烦的陌生人，甚至眼见很多“好人”付出过代价，并且因此变得更加疏离 #Highlight #[[2022-01-26]]
 - 世界就是这样子，既没有一塌糊涂，也没有完全可爱 #Highlight #[[2022-01-26]]

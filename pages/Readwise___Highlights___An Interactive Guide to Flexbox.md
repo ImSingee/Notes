@@ -3,7 +3,6 @@ author:: [[joshwcomeau.com]]
 full-title:: An Interactive Guide to Flexbox
 category:: #articles
 url:: https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
-
 - We can change how children are distributed along the primary axis using the justify-content property #Highlight #[[2022-11-23]]
 - In Flexbox, items are distributed along the primary axis. #Highlight #[[2022-11-23]]
 - The cross axis is different, though. A straight vertical line will only ever intersect one of the children. #Highlight #[[2022-11-23]]

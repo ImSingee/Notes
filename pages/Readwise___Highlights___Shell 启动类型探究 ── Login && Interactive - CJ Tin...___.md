@@ -3,7 +3,6 @@ author:: [[cjting.me]]
 full-title:: Shell 启动类型探究 ── Login && Interactive - CJ Ting's Blog
 category:: #articles
 url:: https://cjting.me/2020/08/16/shell-init-type/
-
 - 我们先来看字典对 Shell 的释义：
   
   the hard outer covering of something, especially nuts, eggs, and some animals.

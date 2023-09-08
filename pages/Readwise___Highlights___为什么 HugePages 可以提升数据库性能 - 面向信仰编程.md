@@ -3,7 +3,6 @@ author:: [[draveness.me]]
 full-title:: 为什么 HugePages 可以提升数据库性能 - 面向信仰编程
 category:: #articles
 url:: https://draveness.me/draveness.me/whys-the-design-linux-hugepages
-
 - 虽然 HugePages 的申请方式与默认的内存相差不多，但是它实际上是操作系统单独管理的特殊资源，Linux 会在 /proc/meminfo 中单独展示 HugePages 的相关数据，而容器编排系统 Kubernetes 也会认为大页是不同于内存的独立资源 #Highlight #[[2022-07-19]]
 - 作为 Linux 从 2.6.32 引入的新特性，HugePages 能够提升数据库、Hadoop 全家桶等占用大量内存的服务的性能，该特性对于常见的 Web 服务以及后端服务没有太多的帮助，反而可能会影响服务的性能 #Highlight #[[2022-07-19]]
 - HugePages 可以降低内存页面的管理开销；HugePages 可以锁定内存，禁止操作系统的内存交换和释放 #Highlight #[[2022-07-19]]

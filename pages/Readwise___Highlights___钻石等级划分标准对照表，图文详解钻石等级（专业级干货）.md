@@ -3,7 +3,6 @@ author:: [[我爱钻石网]]
 full-title:: 钻石等级划分标准对照表，图文详解钻石等级（专业级干货）
 category:: #articles
 url:: https://zhuanlan.zhihu.com/p/173910758
-
 - 国际上评定钻石等级，主要以钻石重量、钻石颜色、钻石净度、钻石切工为标准，除此之外，钻石荧光、奶咖等也在钻石好坏的判断标准之内，对钻石价格有一定影响。 ([View Highlight](https://read.readwise.io/read/01h77jpsxmha45exhbjdqdndnk)) #Highlight #[[2023-08-07]]
 - 钻石重量以克拉 (又称卡) 计算，1 克拉 = 200 毫克 = 0.2 克。钻石重量是影响钻石等级的一大因素，随着钻石重量的增加，其价值甚至会呈几何级增长。在钻石的其他参数等级相同的情况下，钻石重量越大价值越大。 ([View Highlight](https://read.readwise.io/read/01h77jq7frdebwyhmvqc0fz436)) #Highlight #[[2023-08-07]]
 - 常见钻石的颜色从完全无色到黄、褐色，其中完全无色的钻石非常罕见，是常见钻石的最高颜色级别。

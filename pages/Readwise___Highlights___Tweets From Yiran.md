@@ -3,7 +3,6 @@ author:: [[@zdyxry on Twitter]]
 full-title:: Tweets From Yiran
 category:: #tweets
 url:: https://twitter.com/zdyxry
-
 - 这篇文章让我想起平时没少被 DNS 坑：
   ssh 中的 UseDNS；文中提到的 socket.getaddrinfo； libvirt 热迁移；时钟同步。。。
   

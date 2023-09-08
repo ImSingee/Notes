@@ -1,5 +1,4 @@
 title:: 单列索引 a和b select *  where a= and b= 先查哪个
-
 - #CruelFundamental #[[2022-10-12]] [讨论](https://github.com/CYZH1307/CruelFundamental/tree/main/homework/202210/12) #SQL
 -
 - TL;DR: 不一定（索引选择和编写 SQL 时的字段顺序无关）

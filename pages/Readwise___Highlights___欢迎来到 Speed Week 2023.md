@@ -3,7 +3,6 @@ author:: [[Sam Marsh]]
 full-title:: 欢迎来到 Speed Week 2023
 category:: #articles
 url:: https://blog.cloudflare.com/zh-cn/welcome-to-speed-week-2023-zh-cn/
-
 - 仅像素本身并不能保证更好的图像质量。影响相机性能的因素包括传感器尺寸、镜头质量、图像处理算法以及低光性能。 ([View Highlight](https://read.readwise.io/read/01h3bx5839m4n5f9zvczrkn376)) #Highlight #[[2023-06-20]]
 - “使家庭互联网更快与速度几乎毫无关系”，结论是 “尽管带宽起到一定作用，但连接的延迟 —— 真正的互联网 “速度”—— 更为重要***”*** ([View Highlight](https://read.readwise.io/read/01h3bx5vb8m69b10k1gwg15f6y)) #Highlight #[[2023-06-20]]
 - 当带宽达到 20 Mbps 左右时，增加带宽并不能大幅提高网页加载速度 ([View Highlight](https://read.readwise.io/read/01h3bx5zt3maczccffphqr93xt)) #Highlight #[[2023-06-20]]

@@ -3,7 +3,6 @@ author:: [[王沛]]
 full-title:: 03｜内置 Hooks（1）：如何保存组件状态和使用生命周期？ - React Hooks 核心原理与实战
 category:: #articles
 url:: https://time.geekbang.org/column/article/379299
-
 - Hooks 不能在循环、条件判断或者嵌套函数内执行，而必须是在顶层。同时 Hooks 在组件的多次渲染之间，必须按顺序被执行。 #Highlight #[[2022-09-22]]
 - Hooks 的使用规则包括以下两个：只能在函数组件的顶级作用域使用；只能在函数组件或者其他 Hooks 中使用 #Highlight #[[2022-09-22]]
 - React 会使用浅比较来对比依赖项是否发生了变化，所以要特别注意数组或者对象类型。如果你是每次创建一个新对象，即使和之前的值是等价的，也会被认为是依赖项发生了变化。这是一个刚开始使用 Hooks 时很容易导致 Bug 的地方。 #Highlight #[[2022-09-22]]

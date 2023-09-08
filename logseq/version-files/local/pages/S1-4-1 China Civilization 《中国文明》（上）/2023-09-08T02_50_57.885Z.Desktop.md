@@ -1,0 +1,48 @@
+---
+title: S1-4-1 China Civilization 《中国文明》（上）
+---
+
+- #[[看电影学单词]] #[[中级]] #[[Season 1]] [[2021-06-10]]
+-
+- https://www.notion.so/singee/S1-4-1-China-Civilization-4806822726894979be6ae32b815ad89f
+-
+- 电影片段
+- [PART-1] After a few days of digging, the archaeologists had to acknowledge the obvious awaiting them was an entire army in battle order. Shi Huangdi had not embarked alone on his last journey.
+	- （挖掘进行了几天以后，考古学家不得不承认，很明显的事实是，等待他们的是一整个听候战令的军队。始皇帝不是一个人踏上最后的征程的。）
+- [PART-2] Apart from the slaves sacrificed to serve him in the afterlife, he was accompanied by a terracotta army of 8,000 infantrymen, plus horses. Spearmen, archers, charioteers and officers were keeping watch for all eternity. Each figure was different... every face had individual features. The emperor's personal guards seemed to have been frozen for 2,000 years awaiting orders to move into battle. The archaeologists could only wonder, "What else might the emperor's tomb contain?"
+	- （除了陪葬的来世侍奉他的奴隶们，还有 8000 名兵马俑陪伴着他，此外还有战马。持矛兵，弓箭手，驾驭二轮战车的官员永远都在守护着皇陵。每个形象都是不同的，每张脸都有着各异的特征。皇帝的卫士们似乎被凝固了2000年，还在等待着战斗的号令。考古学家们只会好奇皇陵中究竟还藏着别的什么。）
+- 词汇讲解
+- N: After a few days of digging, the [[archaeologist]]s had to [[acknowledge]] the obvious [[await]]ing them was an entire army in [[battle]] order.（挖掘进行了几天以后，考古学家不得不承认，很明显的事实是，等待他们的是一整个听候战令的军队。）
+	- [[archaeologist]] [ˌɑ:kiˈɔlədʒist] n. 考古学家
+		- 【引】[[archaeology]] [ˌɑ:kiˈɔlədʒi] n. 考古学
+		- 【根】[[-ology]] 学科     [[-ist]]  …家
+			- [[psychology]] [saɪ'kɒlədʒɪ] n. 心理学           [[psychologist]] [saɪ'kɒlədʒɪst] n. 心理医生
+			- [[criminology]] [,krɪmɪ'nɒlədʒɪ] n. 犯罪学
+	- [[acknowledge]] [əkˈnɔlidʒ] vt. 承认（存在，真相）；告知收到
+		- **Definition**: If you [[acknowledge]] a fact or a situation, you accept or [[admit]] that it is true or that it exists. （如果你承认一个事实或一个局势，就代表你接受或**承认**它是真实的或存在的。）
+		- 【试试表达】我不得不承认时间就是金钱。
+			- I have to acknowledge that time is money.
+		- 【试试表达】我不得不承认家庭非常重要。
+			- I have to acknowledge that family is very important.
+		- 【辨】acknowledge v.s. confess
+			- acknowledge：承认某一现实（含承担责任）
+			- [[confess]] : 认罪，承认错事
+				- [[confess]] [kənˈfes] v. 供认；承认
+				- Definition: If someone [[confess]]es to doing something **wrong**, they admit that they did it. （如果某人承认做了错事，就是承认确实做了。）
+	- [[await]] [əˈweit] vt. 等候，期待
+		- Definition: If you **await someone** or something, you **wait for them**. （如果你等待某人或某事，你等着他们。）
+		- 【辨】await v.s. wait
+			- await [əˈweit] **vt.**     await sb./sth.
+			- wait [weit] **vi.**           wait **for** sb./sth.
+		- 【例】I am awaiting your reply. （我在等你回复。）
+- N: Shi Huangdi had not [[embark]]ed alone on his last [[journey]]. （始皇帝不是一个人踏上最后的征程的。）
+	- [[embark]] [imˈbɑ:k] vi. 上船（或飞机等）；着手，从事
+		- embark on 登上（船/飞机）
+		- embark on a new career  开启新事业
+- 词汇回顾
+	- **archaeologist **[ˌɑ:kiˈɔlədʒist] n. 考古学家
+	- **archaeology **[ˌɑ:kiˈɔlədʒi] n. 考古学
+	- **acknowledge**** **[əkˈnɔlidʒ] vt. 承认（存在，真相）；告知收到
+	- **confess** [kənˈfes] v. 供认 ；承认
+	- **await**** **[əˈweit] vt. 等候，期待
+	- **embark** [imˈbɑ:k] vi. 上船（或飞机等）；着手，从事

@@ -4,7 +4,6 @@ full-title:: 海外多区下的流量分发
 category:: #articles
 url:: https://www.chenshaowen.com/blog/traffic-distribution-cross-multi-region.html
 tags:: #[[inoreader]] #[[star]] #[[博客]]
-
 - 接入层能承载的流量通常很大，如果需要扩展，可以根据业务进行水平拆分，比如 a.chenshaowen.com 一个 LB、b.chenshaowen.com 一个 LB ([View Highlight](https://read.readwise.io/read/01gxkgzfhsd5e6c355dd9bzztx)) #Highlight #[[2023-04-10]]
 - 服务层无状态，通过增加副本数即可实现扩展，无论是加 VM，还是增加 Kubernetes Pod 数量都能较快实现。 ([View Highlight](https://read.readwise.io/read/01gxkgzmmaxsjyhspatztqdpzz)) #Highlight #[[2023-04-10]]
 - DB 层通常最容易遇到瓶颈，也是较难扩展的部分 ([View Highlight](https://read.readwise.io/read/01gxkh08t6tzhhmsgectbpqg7q)) #Highlight #[[2023-04-10]]

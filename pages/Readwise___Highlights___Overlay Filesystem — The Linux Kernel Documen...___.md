@@ -3,7 +3,6 @@ author:: [[kernel.org]]
 full-title:: Overlay Filesystem — The Linux Kernel Documentation
 category:: #articles
 url:: https://docs.kernel.org/filesystems/overlayfs.html
-
 - While directories will report an st_dev from the overlay-filesystem, non-directory objects may report an st_dev from the lower filesystem or upper filesystem that is providing the object. ([View Highlight](https://read.readwise.io/read/01h2a7hh5bqg76wymswafdnwb4)) #Highlight #[[2023-06-07]]
 - In the special case of all overlay layers on the same underlying(基础) filesystem, all objects will report an st_dev from the overlay filesystem and st_ino from the underlying(基础) filesystem ([View Highlight](https://read.readwise.io/read/01h2a7m7qavbjdrsjby43qjn5x)) #Highlight #[[2023-06-07]]
 - The upper filesystem will normally be writable and if it is it must support the creation of trusted.* and/or user.* extended attributes, and must provide valid d_type in readdir responses, so NFS is not suitable. ([View Highlight](https://read.readwise.io/read/01h2a8bttw9d9c2mbjc2vxfmwb)) #Highlight #[[2023-06-07]]

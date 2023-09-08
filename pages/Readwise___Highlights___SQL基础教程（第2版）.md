@@ -2,7 +2,6 @@ title:: Readwise/Highlights/SQL基础教程（第2版）
 author:: [[MICK]]
 full-title:: SQL基础教程（第2版）
 category:: #books
-
 - 从SQL的角度来看，视图和表是相同的，两者的区别在于表中保存的是实际的数据，而视图中保存的是SELECT语句（视图本身并不存储数据）。 #Highlight #[[2021-05-01]]
 - 事务是需要在同一个处理单元中执行的一系列更新处理的集合。通过使用事务，可以对数据库中的数据更新处理的提交和取消进行管理。 #Highlight #[[2021-05-01]]
 - 查询就是一次性视图（SELECT语句）。与视图不同，子查询在SELECT语句执行完毕之后就会消失 #Highlight #[[2021-05-01]]

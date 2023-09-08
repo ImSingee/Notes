@@ -3,7 +3,6 @@ author:: [[@jike_collection on Twitter]]
 full-title:: 聊聊最近火出圈的“淄博烧烤”吧。 淄博最近有多...
 category:: #tweets
 url:: https://twitter.com/jike_collection/status/1645738003074015233
-
 - 聊聊最近火出圈的“淄博烧烤”吧。
   
   淄博最近有多火？

@@ -3,7 +3,6 @@ author:: [[juejin.cn]]
 full-title:: 论证：iOS安全性，为什么需要审核？
 category:: #articles
 url:: https://juejin.cn/post/6967199105541996575
-
 - 设备内部安全(ON-DEVICE SECURIY)：（操作系统），分为：
   
   Digital Signature Validation（数字签名验证）

@@ -3,7 +3,6 @@ author:: [[lotabout.me]]
 full-title:: Kubernetes 快速入门 | 三点水
 category:: #articles
 url:: https://lotabout.me/2020/Kubernetes-Introduction/
-
 - 我们知道每个 pod 有自己的 IP，在更新版本或增减副本数时，一些 pod 可能被杀死，新的 pod 会被启动，那么其它服务如何决定连接到哪个 pod 呢？
   
   [Service](https://kubernetes.io/docs/concepts/services-networking/service/) 就是针对这种需求创建的抽象，对使用方屏蔽内部 pod 变化。使用方将流量发到 Service，而 Service 需要将流量转发到底层的 pod ([View Highlight](https://read.readwise.io/read/01h2fdmtm7dcyz2s84nb1833vz)) #Highlight #[[2023-06-09]]

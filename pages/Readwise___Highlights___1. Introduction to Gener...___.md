@@ -3,7 +3,6 @@ author:: [[@dotey on Twitter]]
 full-title:: 1. Introduction to Gener...
 category:: #tweets
 url:: https://twitter.com/dotey/status/1665812510832730120
-
 - 1. Introduction to Generative AI 生成式人工智能简介
   
   这堂课解释什么是生成性AI、如何使用生成性AI，以及生成性AI与传统机器学习方法的区别。  

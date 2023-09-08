@@ -3,7 +3,6 @@ author:: [[@jike_collection on Twitter]]
 full-title:: 最近发现了一个现象：山姆会员店的水果，居然比专做...
 category:: #tweets
 url:: https://twitter.com/jike_collection/status/1623747925355671554
-
 - 最近发现了一个现象：山姆会员店的水果，居然比专做水果的百果园好吃！又好吃又便宜！可是山姆凭什么能做到呢？
   
   就找了接触过山姆供应链的小伙伴聊了聊。

@@ -3,7 +3,6 @@ author:: [[@arielmichaeli on Twitter]]
 full-title:: Tweets From Ariel From Appfigures
 category:: #tweets
 url:: https://twitter.com/arielmichaeli
-
 - 🚨 ASO tip for iOS apps: Your app's name and subtitle are the most important places for keywords. Most use them incorrectly and ruin their chances at getting downloads.
   
   I spent too much time reverse engineering the App Store's search algorithm and here are the top 5️⃣ things you have to know - do these right now to get more downloads.

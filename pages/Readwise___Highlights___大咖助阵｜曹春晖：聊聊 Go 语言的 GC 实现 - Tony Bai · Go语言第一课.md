@@ -3,7 +3,6 @@ author:: [[Tony Bai]]
 full-title:: 大咖助阵｜曹春晖：聊聊 Go 语言的 GC 实现 - Tony Bai · Go语言第一课
 category:: #articles
 url:: https://time.geekbang.org/column/article/484271
-
 - renas 是 Go 向操作系统申请内存时的最小单位，每个 arena 为 64MB 大小，在内存中可以部分连续，但整体是个稀疏结构。
   单个 arena 会被切分成以 8KB 为单位的 page，由 page allocator 管理，一个或多个 page 可以组成一个 mspan，每个 mspan 可以按照 sizeclass 再划分成多个 element。同样大小的 mspan 又分为 scan 和 noscan 两种，分别对应内部有指针的 object 和内部没有指针的 object。 #Highlight #[[2022-08-05]]
 - 页分配器在 Go 语言中迭代了多个版本，从简单的 freelist 结构，到 treap 结构，再到现在最新版本的 radix 结构，它的查找时间复杂度也从 O(N) -> O(log(n)) -> O(1)。

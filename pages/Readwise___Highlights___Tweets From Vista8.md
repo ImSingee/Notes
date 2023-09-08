@@ -3,7 +3,6 @@ author:: [[@vista8 on Twitter]]
 full-title:: Tweets From Vista8
 category:: #tweets
 url:: https://twitter.com/vista8
-
 - Twitter上看到不少朋友推荐范伟和秦昊主演的犯罪悬疑剧《漫长的季节》，豆瓣9.5分。
   
   假期花几个小时一口气看完：

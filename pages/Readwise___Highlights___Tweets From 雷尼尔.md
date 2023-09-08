@@ -3,7 +3,6 @@ author:: [[@mtrainier2020 on Twitter]]
 full-title:: Tweets From 雷尼尔
 category:: #tweets
 url:: https://twitter.com/mtrainier2020
-
 - 对。我查了一下，以前写的一个关于upwork的介绍的长微博找不到了。其实这是一批网站，除了upwork还有fiverr。 
   都是一批freelancer的网站。
   比如我以前一些小活找外包就会去这些网站去找。

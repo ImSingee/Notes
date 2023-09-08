@@ -1,5 +1,4 @@
 alias:: Permutations
-
 - #算法 #Medium #[[回溯]] #[[数组]]
 - #Leetcode #Leetcode-46 [LC国际](https://leetcode.com/problems/permutations/) [LC中国](https://leetcode.cn/problems/permutations/)
 - #lintcode #Lintcode-15 [LintCode](https://www.lintcode.com/problem/15/)

@@ -3,7 +3,6 @@ author:: [[@llennchan2003 on Twitter]]
 full-title:: Tweets From 奈奈
 category:: #tweets
 url:: https://twitter.com/llennchan2003
-
 - 要是我毕业了找不到年薪200k的工作，只能找到年薪80k的工作，那要不要回国呢？
   
   还是继续熬着想办法冲击大厂/升职。

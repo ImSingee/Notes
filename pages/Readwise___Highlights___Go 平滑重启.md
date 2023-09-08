@@ -3,7 +3,6 @@ author:: [[mp.weixin.qq.com]]
 full-title:: Go 平滑重启
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=MzAwNjMxMTgwNw%3D%3D&mid=2247488246&idx=1&sn=94580ae9943e3c099af61cc5e9d51be3&chksm=9b0e08e6ac7981f034e983b41207b921f58d632c249142c7e76287d80f003bf338d1c7ad115f&cmdid=4C9UZCOHD285Z3#rd
-
 - 信号的默认行为：
   term：信号终止进程
   core：产生核心转储文件并退出

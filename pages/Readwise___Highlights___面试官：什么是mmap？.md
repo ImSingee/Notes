@@ -3,7 +3,6 @@ author:: [[mp.weixin.qq.com]]
 full-title:: 面试官：什么是mmap？
 category:: #articles
 url:: http://mp.weixin.qq.com/s?__biz=MzU3NDE0NjMwNw==&mid=2247495372&idx=1&sn=2e5d6fa0e16e79bc3f0e431485c8e645&chksm=fd347ca0ca43f5b6e0c1eccd45e6ee04aec3f4e74dfb05c1fa12b5f3f34371654341d94991ed#rd
-
 - RocketMQ 和 Kafka 都使用到了零拷贝的技术。
   
   对于 MQ 而言，无非就是生产者发送数据到 MQ 然后持久化到磁盘，之后消费者从 MQ 读取数据。

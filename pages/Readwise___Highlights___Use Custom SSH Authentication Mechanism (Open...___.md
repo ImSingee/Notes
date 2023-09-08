@@ -3,7 +3,6 @@ author:: [[superuser.com]]
 full-title:: Use Custom SSH Authentication Mechanism (OpenSSH) - Super User
 category:: #articles
 url:: https://superuser.com/questions/792804/use-custom-ssh-authentication-mechanism-openssh/792842?cmdid=4BF32PSUCFFS2N#792842
-
 - If you just want to implement your own way of checking the entered password, then write a PAM module. It is a simple .so library that contains a pam_sm_authenticate() function. (It can also provide functions for authorization, password-change, etc.)
   
   Start with something like this (in C), compile it as a .so library using -shared, copy to /lib/security/pam_foobar.so, and finally add it to the server's PAM config (/etc/pam.d/sshd) – possibly replacing the standard pam_unix module.

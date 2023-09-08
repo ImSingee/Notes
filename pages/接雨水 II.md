@@ -1,5 +1,4 @@
 alias:: Trapping Rain Water II
-
 - #CruelCoding #2022-12-15 #Hard #[[BFS+PQ]] #[[Dijkstra]] [讲解](https://youtu.be/uupOnJJxPbI)
 - #算法 #Hard #[[矩阵]] #[[数组]] #[[堆（优先队列）]] #[[广度优先搜索]]
 - #Leetcode #Leetcode-407 [LC国际](https://leetcode.com/problems/trapping-rain-water-ii/) [LC中国](https://leetcode.cn/problems/trapping-rain-water-ii/)

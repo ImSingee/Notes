@@ -3,7 +3,6 @@ author:: [[DEV Community]]
 full-title:: 📈 Productivity and Well-Being: A Summary of What Works.
 category:: #articles
 url:: https://dev.to/samuelfaure/productivity-and-well-being-a-summary-of-what-works-55og
-
 - **Your productivity is a direct byproduct of your well-being;**
   
   **Your well-being tend to increase when you're productive** (up to a point) ([View Highlight](https://read.readwise.io/read/01gyxy6nj5jyax1m01fsd7jy1t)) #Highlight #[[2023-04-26]]

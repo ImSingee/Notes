@@ -3,7 +3,6 @@ author:: [[@thinkingjimmy on Twitter]]
 full-title:: Tweets From JimmyWang
 category:: #tweets
 url:: https://twitter.com/thinkingjimmy
-
 - 2023-05-09 每日论文：
   
   今天不读论文，读一篇 Twitter 上关于 Embedding 的分享(https://t.co/bxkM7Vwnss)。或者你也可以看看 @dotey 宝玉老师的总结也写得很不错（https://t.co/djY4hUgFba）

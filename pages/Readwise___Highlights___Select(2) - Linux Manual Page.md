@@ -3,7 +3,6 @@ author:: [[man7.org]]
 full-title:: Select(2) - Linux Manual Page
 category:: #articles
 url:: https://man7.org/linux/man-pages/man2/select.2.html
-
 - select() can monitor only file descriptors numbers that
        are less than FD_SETSIZE (1024)—an unreasonably low limit for
        many modern applications—and this limitation will not change.

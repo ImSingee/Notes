@@ -3,7 +3,6 @@ author:: [[张磊]]
 full-title:: 10 | Kubernetes一键部署利器：kubeadm - 深入剖析Kubernetes
 category:: #articles
 url:: https://time.geekbang.org/column/article/39712
-
 - kubeadm 选择了一种妥协方案：
   把 kubelet 直接运行在宿主机上，然后使用容器部署其他的 Kubernetes 组件。 #Highlight #[[2023-06-07]]
 - 到目前为止，在容器里运行 kubelet，依然没有很好的解决办法，我也不推荐你用容器去部署 Kubernetes 项目 #Highlight #[[2023-06-07]]

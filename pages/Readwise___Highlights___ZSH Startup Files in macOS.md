@@ -4,7 +4,6 @@ full-title:: ZSH Startup Files in macOS
 category:: #articles
 url:: https://jdhao.github.io/2023/06/16/zsh_startup_file/
 tags:: #[[inoreader]] #[[jdhao\'s blog]] #[[博客]]
-
 - In different mode, zsh will source different startup files when it is started. In Zsh, to test if the shell is login shell, we can test `login` option:
   
     if [[ -o login ]]; then

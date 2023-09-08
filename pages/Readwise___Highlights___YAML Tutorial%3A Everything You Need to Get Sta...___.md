@@ -3,7 +3,6 @@ author:: [[cloudbees.com]]
 full-title:: YAML Tutorial: Everything You Need to Get Started in Minutes
 category:: #articles
 url:: https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started
-
 - YAML will not escape strings with single 
           
             quotes #Highlight #[[2023-03-20]]

@@ -3,7 +3,6 @@ author:: [[@Crypto_QianXun on Twitter]]
 full-title:: MidJourney 作为一个可以扩展想象力的...
 category:: #tweets
 url:: https://twitter.com/Crypto_QianXun/status/1676093937365266432
-
 - MidJourney 作为一个可以扩展想象力的 AI 图像生成器，唯一美中不足的是它每月支付 10 美元的费用
   
   以下我将为你提供 7 种免费使用它的方法： ([View Tweet](https://twitter.com/Crypto_QianXun/status/1676093937365266432)) #Highlight #[[2023-08-03]]

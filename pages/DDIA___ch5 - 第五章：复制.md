@@ -1,5 +1,4 @@
 alias:: DDIA/ch5
-
 - [link](https://github.com/Vonng/ddia/blob/master/ch5.md)
 -
 - 复制意味着在通过网络连接的多台机器上保留相同数据的副本

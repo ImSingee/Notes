@@ -4,7 +4,6 @@ full-title:: 聊一聊systemd
 category:: #articles
 url:: https://watermelonwater.tech/%e8%81%8a%e4%b8%80%e8%81%8asystemd/
 tags:: #[[inoreader]] #[[wmw blog]] #[[博客]]
-
 - 查看所有已启动的服务列表：systemctl list-units --type service
   
   查看所有的服务：systemctl list-units --type service --all

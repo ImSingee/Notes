@@ -3,7 +3,6 @@ author:: [[王沛]]
 full-title:: 07｜全局状态管理：如何在函数组件中使用 Redux？ - React Hooks 核心原理与实战
 category:: #articles
 url:: https://time.geekbang.org/column/article/382459
-
 - 异步 Action 并不是一个具体的概念，而可以把它看作是 Redux 的一个使用模式。它通过组合使用同步 Action ，在没有引入新概念的同时，用一致的方式提供了处理异步逻辑的方案。 #Highlight #[[2022-09-22]]
 - Redux 中的 Action 不仅仅可以是一个 Object，它可以是任何东西，也可以是一个函数。利用这个机制，Redux 提供了 redux-thunk 这样一个中间件，它如果发现接受到的 action 是一个函数，那么就不会传递给 Reducer，而是执行这个函数，并把 dispatch 作为参数传给这个函数，从而在这个函数中你可以自由决定何时，如何发送 Action #Highlight #[[2022-09-22]]
 - Redux 中提供了 middleware 这样一个机制，让我们可以巧妙地实现所谓异步 Action 的概念。

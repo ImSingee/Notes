@@ -3,7 +3,6 @@ author:: [[vonng.com]]
 full-title:: 第一章：可靠性、可伸缩性和可维护性
 category:: #articles
 url:: http://ddia.vonng.com/#/ch1
-
 - [DDIA](http://ddia.vonng.com/)
   
   •   [序言](http://ddia.vonng.com#/preface)

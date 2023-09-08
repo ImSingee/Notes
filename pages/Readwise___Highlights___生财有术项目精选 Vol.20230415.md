@@ -2,7 +2,6 @@ title:: Readwise/Highlights/生财有术项目精选 Vol.20230415
 author:: [[生财有术]]
 full-title:: 生财有术项目精选 Vol.20230415
 category:: #articles
-
 - 经常有生财有术的圈友提问：“亦仁，我情况是这样的，我应该找什么样的赚钱项目？”
   
   这个问题本质上是想问：如何在约定的自身条件下，找到最好的选项？

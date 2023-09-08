@@ -4,7 +4,6 @@ full-title:: 只看李佳琦，永远看不懂李佳琦
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=MzI2MzE2NDczMw==&mid=2649765944&idx=1&sn=9fe2d1b1ea5e565c2476fe1b451d8516&chksm=f2449e6ac533177cea5e245a467569e19bbac33b8571817df561e21d07143c71f144dda561af#rd
 tags:: #[[go inbox]] #[[inoreader]] #[[公众号「半佛仙人」]] #[[微信公众号]]
-
 - 很多人说直播有啥难的，也没啥门槛，对着镜头开始不就行么？
   
   对，就是如此。

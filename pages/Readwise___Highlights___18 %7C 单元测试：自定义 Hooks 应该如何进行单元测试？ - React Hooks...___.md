@@ -3,7 +3,6 @@ author:: [[王沛]]
 full-title:: 18 | 单元测试：自定义 Hooks 应该如何进行单元测试？ - React Hooks 核心原理与实战
 category:: #articles
 url:: https://time.geekbang.org/column/article/391977
-
 - 只有对那些可重用的 Hooks，才需要单独的单元测试。 #Highlight #[[2022-09-23]]
 - 有了 @testing-library/react-hooks 这个包，我们就能更加语义化地去创建自定义 Hooks 的单元测试。虽然使用这个包的原理还是通过一个组件去调用 Hooks，但是测试代码中，你就不需要自己创建多余的测试组件了。 #Highlight #[[2022-09-23]]
 - 我们使用 了 act 这样一个函数来封装对 Hook 返回值的方法调用。这个其实是 React 提供的一个测试用的函数，用于模拟一个真实的 React 组件的执行步骤，从而保证在 act 的回调函数执行完成后，还会等 React 组件的生命周期都执行完毕，比如 useEffect。这样才能在随后对组件的渲染结果进行验证。 #Highlight #[[2022-09-23]]

@@ -3,7 +3,6 @@ author:: [[Kevin Blog]]
 full-title:: Swift on Server Tour 0: 为什么这可能是你的好选择
 category:: #articles
 url:: https://blog.kevinzhow.com/posts/why-swift-on-server/zh
-
 - 在单机的情况下，模型更新完全依赖于用户是否更新了 App，因此，我无法保证每个用户都能及时使用上最新的模型，获得最好的体验，除此之外，用户会逐渐积累很多学习数据，如果不提供云同步功能，用户难以跨设备使用，更是容易产生丢失数据的问题。 ([View Highlight](https://read.readwise.io/read/01h2se7gxtrcjyp5jt5sjkgdzs)) #Highlight #[[2023-06-13]]
 - Ruby on Rails 的优缺点
   

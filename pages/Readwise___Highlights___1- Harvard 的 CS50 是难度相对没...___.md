@@ -3,7 +3,6 @@ author:: [[@Tisoga on Twitter]]
 full-title:: 1/ Harvard 的 CS50 是难度相对没...
 category:: #tweets
 url:: https://twitter.com/Tisoga/status/1555508928846241792
-
 - 1/ Harvard 的 CS50 是难度相对没那么大的编程入门课，也是以 Python 作为教学语言。
   
   2022 年的版本已经完全是线上的了（我之前看过的那个版本还是在哈佛大讲堂中拍摄的），并且配套资料也非常齐全。
