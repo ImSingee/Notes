@@ -1,0 +1,8 @@
+title:: Readwise/Highlights/飞书，见证B端陷阱
+author:: [[少数派13516622]]
+full-title:: 飞书，见证B端陷阱
+category:: #articles
+url:: https://sspai.com/post/82238
+tags:: #[[go inbox]] #[[inoreader]] #[[interest]] #[[read]] #[[少数派]]
+- 企业愿意花钱的，一定是跟业务匹配度高的，满足这几个预期：第一是立马提高业绩，第二是安全合规不得不买，第三是有增值服务。效率协同，一定是排在最后一位的 ([View Highlight](https://read.readwise.io/read/01ha8rjse8tskz75apmg7s16dw)) #Highlight #[[2023-09-14]]
+- 跟老板谈理念，跟管理者谈效益，跟员工谈体验 ([View Highlight](https://read.readwise.io/read/01ha8rk70emwd1xwdzvfq9ndx6)) #Highlight #[[2023-09-14]]
