@@ -3,6 +3,7 @@ author:: [[@pengchujin on Twitter]]
 full-title:: Tweets From 酱紫表
 category:: #tweets
 url:: https://twitter.com/pengchujin
+
 - 分享下当前「Apple TV 代理工具」和获取方法，正式版 tvOS 17 还有一个月左右，不急的可以等等，苹果官方 beta ：https://t.co/KWyo32nWsC
   『Surge』 购买了手机版的用户可以直接免费申请 testfligt 使用：https://t.co/4Ne0eqW1e6
   Surge 在 tvOS 的完成度算较高，支持作为网关，直接同步手机上的配置文件一键就能代理，手机也能遥控切换，缺点是：目前 TV 上不能切换节点。
@@ -16,3 +17,5 @@ url:: https://twitter.com/pengchujin
   『ShadowRocket』暂无任何消息
   
   Apple TV 作为网关要求 6代和 7 代有网口版，并且在设置里打开了 homekit 功能。开启代理软件后，将其它设备网关和 DNS 都指向 Apple TV 的 IP 即可。 ([View Tweet](https://twitter.com/pengchujin/status/1691846009197056126)) #Highlight #[[2023-08-17]]
+- 接了个人体工学椅的合作，一千多的椅子比我预想的要好很多。人体工学椅最重要的因素其实是网面，中高端的基本都是进口的 matrex 和 wintex，Herman Miller 用的就是这两家的，口碑不错的保友金豪系列也是，便宜点的椅子还真用不起。
+  这个 Hookay 好嘉缘之前是 ergomax 的代工厂，应该是专利到期了？基本相同的设计、用料、便宜了很多，工厂也有给国内一些大的企业供货，最开始推自己的品牌了。 ([View Tweet](https://twitter.com/pengchujin/status/1704032336881361270)) #Highlight #[[2023-09-20]]
