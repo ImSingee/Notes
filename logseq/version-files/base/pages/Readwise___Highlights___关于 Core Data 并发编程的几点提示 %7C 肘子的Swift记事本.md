@@ -3,7 +3,6 @@ author:: [[fatbobman.com]]
 full-title:: 关于 Core Data 并发编程的几点提示 | 肘子的Swift记事本
 category:: #articles
 url:: https://www.fatbobman.com/posts/concurrencyOfCoreData/
-
 - 为了将因违反 Core Data 并发规则导致的问题尽量扼杀在开发阶段，在使用 Core Data 框架时，务必在启动参数上添加`-com.apple.CoreData.ConcurrencyDebug 1`。该标志将迫使程序执行到理论上会导致并发异常的 Core Data 代码时，立刻抛出错误。做到及时发现，尽早解决。 ([View Highlight](https://read.readwise.io/read/01harm441e5tjynhdc2d9pp83x)) #Highlight #[[2023-09-20]]
 - 在 Core Data 中，我们可以创建两种类型的托管对象上下文（NSManagedObjectContext）——主队列上下文和私有队列上下文 ([View Highlight](https://read.readwise.io/read/01harm5t33mqfdvn5vx788cppr)) #Highlight #[[2023-09-20]]
 - Core Data 是为多线程开发而设计的。然而，Core Data 框架下的对象并非都是线程安全的。其中，开发者接触最频繁、使用量最大的托管对象上下文（NSManagedObjectContext）和托管对象（NSManagedObject）恰好都不是线程安全的。
