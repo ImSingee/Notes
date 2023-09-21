@@ -3,7 +3,6 @@ author:: [[Antoine van der Lee]]
 full-title:: Nonisolated and Isolated Keywords: Understanding Actor Isolation
 category:: #articles
 url:: https://www.avanderlee.com/swift/nonisolated-isolated/
-
 - It’s typical to run into errors with actors like the ones below:
   
   •   Actor-isolated property ‘balance’ can not be referenced from a non-isolated context
