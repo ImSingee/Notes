@@ -4,7 +4,6 @@ full-title:: Concurrent vs Serial DispatchQueue: Concurrency in Swift Explained
 category:: #articles
 url:: https://www.avanderlee.com/swift/concurrent-serial-dispatchqueue/
 tags:: #[[favorite]] #[[Swift]]
-
 - A concurrent dispatch queue can be created by passing in an attribute as a parameter to the `DispatchQueue` initializer ([View Highlight](https://read.readwise.io/read/01havd2cd0ymhky8xa69y67qx8)) #Highlight #[[2023-09-21]]
 - A `DispatchQueue` task can be run synchronously or asynchronously. The main difference occurs when you create the task.
   
