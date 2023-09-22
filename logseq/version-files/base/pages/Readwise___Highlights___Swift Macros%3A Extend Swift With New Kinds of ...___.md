@@ -4,7 +4,6 @@ full-title:: Swift Macros: Extend Swift With New Kinds of Expressions
 category:: #articles
 url:: https://www.avanderlee.com/swift/macros/
 tags:: #[[favorite]] #[[Swift]]
-
 - there are two main types of macros:
   
   •   Freestanding: declared using the hashtag  
