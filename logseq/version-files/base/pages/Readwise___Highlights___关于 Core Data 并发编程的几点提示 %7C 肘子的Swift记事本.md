@@ -3,6 +3,7 @@ author:: [[fatbobman.com]]
 full-title:: 关于 Core Data 并发编程的几点提示 | 肘子的Swift记事本
 category:: #articles
 url:: https://www.fatbobman.com/posts/concurrencyOfCoreData/
+
 - 为了将因违反 Core Data 并发规则导致的问题尽量扼杀在开发阶段，在使用 Core Data 框架时，务必在启动参数上添加`-com.apple.CoreData.ConcurrencyDebug 1`。该标志将迫使程序执行到理论上会导致并发异常的 Core Data 代码时，立刻抛出错误。做到及时发现，尽早解决。 ([View Highlight](https://read.readwise.io/read/01harm441e5tjynhdc2d9pp83x)) #Highlight #[[2023-09-20]]
 - 在 Core Data 中，我们可以创建两种类型的托管对象上下文（NSManagedObjectContext）——主队列上下文和私有队列上下文 ([View Highlight](https://read.readwise.io/read/01harm5t33mqfdvn5vx788cppr)) #Highlight #[[2023-09-20]]
 - Core Data 是为多线程开发而设计的。然而，Core Data 框架下的对象并非都是线程安全的。其中，开发者接触最频繁、使用量最大的托管对象上下文（NSManagedObjectContext）和托管对象（NSManagedObject）恰好都不是线程安全的。
@@ -24,3 +25,34 @@ url:: https://www.fatbobman.com/posts/concurrencyOfCoreData/
   
   如果确有将 ID 归档的需要，可以将 NSManagedObjectID 转换成 URI 表示 ([View Highlight](https://read.readwise.io/read/01harmm69s3tzmgdj97vzdvma4)) #Highlight #[[2023-09-20]]
 - ![image-20211104211037413](https://cdn.fatbobman.com/image-20211104211037413.png) ([View Highlight](https://read.readwise.io/read/01harmmxqqep8zerq896vaswzk)) #Highlight #[[2023-09-20]]
+- 在 Core Data 中，我们可以创建两种类型的托管对象上下文（NSManagedObjectContext）——主队列上下文和私有队列上下文。
+  
+  •   主队列上下文（NSManagedObjectContextConcurrencyType.mainQueueConcurrencyType ）
+  
+  定义于且只能用于主队列上的托管对象上下文。从事同界面（UI）有关的工作，主要用来从持久化存储中获取 UI 显示所需数据。使用 NSPersistentContainer 来创建 Core Data Stack 时，container 的 viewContext 属性对应的便是主队列上下文。
+  
+  •   私有队列上下文（NSManagedObjectContextConcurrencyType.privateQueueConcurrencyType）
+  
+  顾名思义，私有队列上下文在创建时将创建它自己的队列，且只能在它自己创建的队列上使用。主要适用于执行时间较长，如果运行在主队列可能会影响 UI 响应的操作。 ([View Highlight](https://read.readwise.io/read/01hb8ah4d33ns7gvqt79he5yf5)) #Highlight #[[2023-09-26]]
+- 通过使用 `DispatchQueue.main.async`、`MainActor.run`都可以确保操作是在主线程上进行 ([View Highlight](https://read.readwise.io/read/01hb8ajks879x1589nqtym6vzf)) #Highlight #[[2023-09-26]]
+- 对于私有上下文，由于队列是私有的，只存在于 NSManagedObjectContext 实例的内部，因此只能通过`perform`或`performAndwait`方法来调用它。`perform`和`performAndwait`两者之间的区别为执行指定代码块的方式，异步或同步 ([View Highlight](https://read.readwise.io/read/01hb8ajz4r92gm2petjrzvt4k8)) #Highlight #[[2023-09-26]]
+- 因为托管对象是同托管它的上下文绑定在同一个队列上，因此，无法在不同队列的上下文之间传递 NSManageObject。
+  
+  对于需要在不同的队列中对同一个数据记录进行操作情况，解决方式是使用 NSManagedObjectID。 ([View Highlight](https://read.readwise.io/read/01hb8an0c9wyy5x26n9yjmm6bn)) #Highlight #[[2023-09-26]]
+- Core Data 预设了四种合并冲突策略，分别为：
+  
+  •   NSMergeByPropertyStoreTrumpMergePolicy
+  
+  逐属性比较，如果持久化数据和内存数据都改变且冲突，持久化数据胜出
+  
+  •   NSMergeByPropertyObjectTrumpMergePolicy
+  
+  逐属性比较，如果持久化数据和内存数据都改变且冲突，内存数据胜出
+  
+  •   NSOverwriteMergePolicy
+  
+  内存数据永远胜出
+  
+  •   NSRollbackMergePolicy
+  
+  持久化数据永远胜出 ([View Highlight](https://read.readwise.io/read/01hb8ap05a54cqyh6bja7srzxe)) #Highlight #[[2023-09-26]]
