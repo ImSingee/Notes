@@ -11,3 +11,10 @@ url:: https://twitter.com/Fenng
   ![](https://pbs.twimg.com/media/F7GQUFlaIAAALRb.jpg)
   
   ![](https://pbs.twimg.com/media/F7GQUFfbMAA4o2G.jpg) ([View Tweet](https://twitter.com/Fenng/status/1707304417652007197)) #Highlight #[[2023-09-29]]
+- 恒大内部给高管标注的住宿细节，震了不少人。那套信息以前流出来过，当初也没火。其实房地产公司基本上在这方面，都是赶超比拼，不遑多让。
+  
+  来看看万达的。这是当年高群耀空降万达时的亲身经历，可见一斑。 https://t.co/87pxAdLeVo
+  
+  ![](https://pbs.twimg.com/media/F7VFeJHaYAAEmHX.jpg)
+  
+  ![](https://pbs.twimg.com/media/F7VFeJEbgAAzh0Q.jpg) ([View Tweet](https://twitter.com/Fenng/status/1708348030074994928)) #Highlight #[[2023-10-01]]
