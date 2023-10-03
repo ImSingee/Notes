@@ -3,6 +3,7 @@ author:: [[@vikingmute on Twitter]]
 full-title:: Tweets From Viking
 category:: #tweets
 url:: https://twitter.com/vikingmute
+
 - 前端很卷的一个轮子应该是和时间处理的工具库：
   
   这几天刚接触到 date-fns，有点孤陋寡闻了。
@@ -50,3 +51,13 @@ url:: https://twitter.com/vikingmute
   React,Vue,Angluar,Preact,Svelte 等等。
   
   Stars：8.8K ([View Tweet](https://twitter.com/vikingmute/status/1695248357885870363)) #Highlight #[[2023-08-26]]
+- 今天继续推荐超棒的计算机科普文章，是 HackerNews 当日最佳文章：
+  
+  **The Absolute Minimum Every Software Developer Must Know About Unicode in 2023**
+  
+  2023年程序员的 Unicode 简明指南
+  https://t.co/iBqofzC9dz
+  
+  从 Unicode 的历史娓娓道来，到 Unicode 的大小，不同版本的差异，一些和 emoji 相关的趣闻，配上非常生动的图表，是一篇超棒的科普文章，值得每位程序员读一下。
+  
+  PS：这篇文章的背景有各种鼠标箭头飘来飘去，彰显了作者的恶趣味 😄 ([View Tweet](https://twitter.com/vikingmute/status/1709018871817273751)) #Highlight #[[2023-10-03]]
