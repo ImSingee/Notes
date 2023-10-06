@@ -54,3 +54,12 @@ url:: https://twitter.com/dotey
   虽然图一翻译的也不错，但是图二第二次翻译的效果明显要更好一些。
   
   建议你也可以试试。 ([View Tweet](https://twitter.com/dotey/status/1707478347553395105)) #Highlight #[[2023-09-29]]
+- #开源项目推荐：turndown
+  
+  一个效果非常好的HTML转Markdown的JS库，复杂的HTML转出来的Markdown效果都很不错，并且有在线转换网页可以直接使用。
+  
+  在线试用：https://t.co/OxZgjaUFKw
+  
+  https://t.co/hnkf3CG8L1 
+  
+  ![](https://pbs.twimg.com/media/F7u4by0WkAAiIRE.jpg) ([View Tweet](https://twitter.com/dotey/status/1710163537300005351)) #Highlight #[[2023-10-06]]
