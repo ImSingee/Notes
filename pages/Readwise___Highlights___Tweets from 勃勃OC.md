@@ -51,3 +51,13 @@ title:: Readwise/Highlights/Tweets from 勃勃OC
   3）完全依靠欧美支持或偷盗外国技术走到今天。华为的交换机，基站技术，5G芯片，半导体生产和技术授权全都来自英美。中国的发展则完全来自于wto，早期的化肥厂都来自欧美援助
   
   4）因为利益冲突而翻脸不认人，但冲突的过错方往往就是自己。华为是和伊朗做违法生意。中国是在区域霸权扩张上歧途搞自由、人权大倒退。 ([View Tweet](https://twitter.com/bboczeng/status/1708795580129182162)) #Highlight #[[2023-10-02]]
+- 汉字很厉害，他充满了歧义，也可以被反复地重新定义
+  
+  可以任人打扮
+  所以
+  说“没断代”，就“没断代”
+  说“遥遥领先”，就“遥遥领先”
+  
+  不要拘泥于字面意思 https://t.co/4Jo2kJuxYf
+  
+  ![](https://pbs.twimg.com/media/F7ybEWbaEAAFQXA.jpg) ([View Tweet](https://twitter.com/bboczeng/status/1710412461244117317)) #Highlight #[[2023-10-08]]
