@@ -3,7 +3,6 @@ author:: [[@dotey on Twitter]]
 full-title:: Tweets From 宝玉
 category:: #tweets
 url:: https://twitter.com/dotey
-
 - 这些优势都对，但对于刚毕业的学生，还是尽可能去大厂。
   1. 养成好的做事的习惯，比如程序员要学会做系统设计再写代码，要写测试集成CI等
   2. 开阔视野，去看看大团队是怎么组织的，大项目怎么推进的
@@ -63,3 +62,15 @@ url:: https://twitter.com/dotey
   https://t.co/hnkf3CG8L1 
   
   ![](https://pbs.twimg.com/media/F7u4by0WkAAiIRE.jpg) ([View Tweet](https://twitter.com/dotey/status/1710163537300005351)) #Highlight #[[2023-10-06]]
+- 我也测试了一下，确实可以让 ChatGPT 打印出在 DALL-E 3 中用的完整的提示词。
+  
+  从提示词可以看出，DALL-E 有点类似于 ChatGPT 的一个插件或者外接工具，如果你们了解过 AI Agent 或者 Function Calling 应该很容易理解。
+  
+  它将用户的提示词，转换成 DALL-E 的指令，并且它没有用Function Calling，直接用的 TypeScript 来描述 DALL-E 的接口。（我以前也用过这招 https://t.co/8W3lpM1OB2 ）
+  
+  以下是完整的提示词：
+  
+  ---
+  你正在与ChatGPT对话，这是基于OpenAI的GPT-4架构训练的大型语言模型。
+  知识截止日期：2022-01
+  当前日期：2023-10-15

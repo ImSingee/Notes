@@ -2,7 +2,6 @@ title:: Readwise/Highlights/SwiftUI 和 Combine 编程
 author:: [[王 巍]]
 full-title:: SwiftUI 和 Combine 编程
 category:: #books
-
 - 在 SwiftUI 里，用户界面是严格被数据驱动的：在运行时，任何对于界面的修改，都只能通过修改数据来达成，而不能直接对界面进行调整和操作。 #Highlight #[[2023-07-30]]
 - 在 SwiftUI 中，View 提供了 environmentObject(_:) 方法，来把某个 ObservableObject 的值注入到当前 View 层级及其子层级中去。在这个 View 的子层级中，可以使用 @EnvironmentObject 来直接获取这个绑定的环境值 #Highlight #[[2023-07-30]]
 - 在对应的 View 生成时，我们不需要手动为被标记为 @EnvironmentObject 的值进行指定，它们会自动去查询 View 的 Environment 中是否有符合的类型的值，如果有则使用它们，如没有则抛出运行时的错误。 #Highlight #[[2023-07-30]]
@@ -38,3 +37,28 @@ category:: #books
 - 类 Redux 的架构并不是 SwiftUI 所必要的架构，也不是唯一的处理复杂数据的架构。它只不过是前端领域里类似范畴中一个较成熟，也很适合 SwiftUI 的方案。Apple 以及开发者社区中，现在对处理 SwiftUI 数据流应该采用怎样的架构，还并没一个统一的结论。 #Highlight #[[2023-09-27]]
 - SwiftUI 的 Image 提供了 Image(systemName:) 来通过符号名生成对应图片。这种“图片”相对特殊，它的行为更接近于字体 (实际上 SF Symbols 就是 San Francisco 字体的一部分)，我们可以用 .font 和 .foregroundColor 等来对它进行设置。 #Highlight #[[2023-09-27]]
 - font(.system(size: 25)) 虽然可以控制图片的显示尺寸，但是它并不会改变 Image 本身的 frame。默认情况下的 frame.size 非常小，这会使按钮的可点击范围过小，因此我们使用 .frame(width:height:) 来指定尺寸。因为加载后的 SF Symbol 是 Image，配合 frame 使用上面处理图像时提到的 resizable 和 padding 来指定显示范围和可点击范围也是可以的，但直接设置 font 和 frame 会更简单一些。 #Highlight #[[2023-09-27]]
+- 客户端开发的第一原则是不能让用户界面卡住，在处理这些耗时操作时，我们绝不能让 UI 去等待操作完成，它们需要和程序的其他部分“和平相处” #Highlight #[[2023-10-20]]
+- 异步操作完成时，可以通过 NotificationCenter 的相关 API 发送一个通知 (Notification)，如果有观察者注册想要接收该通知，那么这个通知将被传递给观察者并调用相关代码。这是 Cocoa 中的另一种常见模式 — 观察者 (observer) 模式。大部分 UI 相关的事件，比如键盘显示或消失、文本框中内容的变更等，都提供了可订阅的通知。 #Highlight #[[2023-10-20]]
+- 如果事件比较单纯，不需要关心过程细节，只需要响应结果的话，闭包回调提供了最简单的异步方案；如果希望能控制更多细节，或者需要关心多种异步事件时，闭包 API 会存在一些设计上的困难，这时选择 delegate 会更方便；对于那些触发时机不确定的，可能长期存在的行为所对应的事件，使用监听通知的方式最为合适。 #Highlight #[[2023-10-20]]
+- 通过对事件处理的操作进行组合 (combine) ，来对异步事件进行自定义处理 (这也正是 Combine 框架的名字的由来)。Combine 提供了一组声明式的 Swift API，来处理随时间变化的值。这些值可以代表用户界面的事件，网络的响应，计划好的事件，或者很多其他类型的异步数据。 #Highlight #[[2023-10-20]]
+- 在响应式异步编程中，一个事件及其对应的数据被发布出来，最后被订阅者消化和使用。期间这些事件和数据需要通过一系列操作变形，成为我们最终需要的事件和数据。 #Highlight #[[2023-10-20]]
+- Combine 中最重要的角色有三种，恰好对应了这三种操作：负责发布事件的 Publisher，负责订阅事件的 Subscriber，以及负责转换事件和数据的 Operator。 #Highlight #[[2023-10-20]]
+- 相比于新建一个顶级的 PokemonInfoPanelHeader，将 Header 定义在 PokemonInfoPanel 的 extension 中，可以利用上下文获得更简洁明确的命名。 #Highlight #[[2023-10-20]]
+- Swift 提倡使用面向协议编程的方式，Combine 中包括 Publisher 在内的一系列角色都使用协议来进行定义，也正是这一思想的具体体现 #Highlight #[[2023-10-21]]
+- 随着时间的推移，事件流也会逐渐向前发展。对应 Output 及 Failure，Publisher 可以发布三种事件：
+  1.  类型为 Output 的新值：这代表事件流中出现了新的值。
+  2.  类型为 Failure 的错误：这代表事件流中发生了问题，事件流到此终止。
+  3.  完成事件：表示事件流中所有的元素都已经发布结束，事件流到此终止。 #Highlight #[[2023-10-21]]
+- 在 Combine 中，我们可以使用 scan 来完成累加的工作。scan 让我们提供一个暂存值，每次事件发生时我们有机会执行一个闭包来更新这个暂存值，并准备好在下一次事件时使用它。同时，这个暂存值也将被作为新的 Publisher 事件被发送出去 #Highlight #[[2023-10-21]]
+- sink 可以充当一座桥梁，将响应函数式的 Publisher 链式代码，终结并桥接到基于闭包的指令式世界中来。如果你不得不在指令式的世界中进行一些操作，或者只是以学习和验证为目的，那么使用 sink 无可厚非。但是如果你是想要让数据继续在 SwiftUI 的声明式的世界中来驱动 UI 的话，另一个 Subscriber 可能会更为简洁常用，那就是 assign。
+  和通过 sink 提供闭包，可以执行任意操作不同，assign 接受一个 class 对象以及对象类型上的某个键路径 (key path)。每当 output 事件到来时，其中包含的值就将被设置到对应的属性上去 #Highlight #[[2023-10-21]]
+- Empty 是一个最简单的发布者，它只在被订阅的时候发布一个完成事件 (receive finished)。这个 publisher 不会输出任何的 output 值，只能用于表示某个事件已经发生。 #Highlight #[[2023-10-22]]
+- Publisher 在接收到订阅，并且接受到请求要求提供若干个事件后，才开始对外发布事件 #Highlight #[[2023-10-22]]
+- 如果我们说 sink 提供了由函数响应式向指令式编程转变的路径的话，Subject 则补全了这条通路的另一侧：它让你可以将传统的指令式异步 API 里的事件和信号转换到响应式的世界中去 #Highlight #[[2023-10-22]]
+- PassthroughSubject 并不会对接受到的值进行保留，当订阅开始后，它将监听并响应接下来的事件 #Highlight #[[2023-10-22]]
+- CurrentValueSubject 则会包装和持有一个值，并在设置该值时发送事件并保留新的值。在订阅发生的瞬间，CurrentValueSubject 会把当前保存的值发送给订阅者 #Highlight #[[2023-10-22]]
+- 如果没有 receive(on: RunLoop.main) 的话，sink 的闭包将会在后台线程执行，这在更新 UI 时将带来问题 #Highlight #[[2023-10-22]]
+- 默认情况下，被订阅的 Publisher 将尽可能快地把事件传递给后续的处理流程，不过有些情况下，我们会希望改变事件链的传递时间，比如加入延迟或者等待空闲时再进行传递，这些延时也是由 Scheduler 负责调度的。 #Highlight #[[2023-10-22]]
+- 对 Publisher 进行 map 操作的结果看起来和 Array 的 map 很类似，它们都具有“对元素进行某种方式的变形操作”这一共性，因此它们使用了同样的方法名。Array 存储的是当前存在的一组元素，对它们进行 map 将同步地把这些元素进行变形。而 Publisher “存储的”是未来的一组元素，map 操作则是异步地在未来 output 事件发生时再进行变形。 #Highlight #[[2023-10-23]]
+- 实际上对于 Array Publisher 来说，map 并不是在“未来”才进行变形。所以严格来说，这里在 Array Publicher 语境下，“在未来 output 事件发生时再进行变形”这一说法并不准确。但是对于一般性的 Publisher，这个结论是正确的。 #Highlight #[[2023-10-23]]
+- 实践中，scan 一个最常见的使用场景是在某个下载任务执行期间，接受 URLSession 的数据回调，将已接收到的数据量做累加来提供一个下载进度条的界面。 #Highlight #[[2023-10-23]]

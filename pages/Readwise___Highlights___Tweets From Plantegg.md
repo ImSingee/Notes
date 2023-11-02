@@ -3,7 +3,6 @@ author:: [[@plantegg on Twitter]]
 full-title:: Tweets From Plantegg
 category:: #tweets
 url:: https://twitter.com/plantegg
-
 - 一语惊醒梦中人的感觉最爽，我是做了10年性能优化后碰到了一次醍醐灌顶般的醒悟
   这之后，无数次只需要看一眼服务的RT、CPU状态就能很快给出服务的极限QPS是多少。
   
@@ -36,3 +35,6 @@ url:: https://twitter.com/plantegg
   ![](https://pbs.twimg.com/media/F5tmvJmacAA5eiP.jpg)
   
   ![](https://pbs.twimg.com/media/F5tnPfmbAAAEUVi.png) ([View Tweet](https://twitter.com/plantegg/status/1701066986648899722)) #Highlight #[[2023-09-11]]
+- 最近看了几个业务毛刺的问题，莫名其妙内核卡12ms、8ms，看他们一通分析下来基本都是内核 CFS 调度的锅。分析如图，我啥也没学会只是现在对8/12/16/20ms这些卡顿很敏感了https://t.co/bxmupeYawt https://t.co/FmIrlZmWBP
+  
+  ![](https://pbs.twimg.com/media/F7A1MhnasAAZC3O.png) ([View Tweet](https://twitter.com/plantegg/status/1711226730172822006)) #Highlight #[[2023-10-09]]
