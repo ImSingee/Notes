@@ -2,6 +2,7 @@ title:: Readwise/Highlights/SwiftUI 和 Combine 编程
 author:: [[王 巍]]
 full-title:: SwiftUI 和 Combine 编程
 category:: #books
+
 - 在 SwiftUI 里，用户界面是严格被数据驱动的：在运行时，任何对于界面的修改，都只能通过修改数据来达成，而不能直接对界面进行调整和操作。 #Highlight #[[2023-07-30]]
 - 在 SwiftUI 中，View 提供了 environmentObject(_:) 方法，来把某个 ObservableObject 的值注入到当前 View 层级及其子层级中去。在这个 View 的子层级中，可以使用 @EnvironmentObject 来直接获取这个绑定的环境值 #Highlight #[[2023-07-30]]
 - 在对应的 View 生成时，我们不需要手动为被标记为 @EnvironmentObject 的值进行指定，它们会自动去查询 View 的 Environment 中是否有符合的类型的值，如果有则使用它们，如没有则抛出运行时的错误。 #Highlight #[[2023-07-30]]
@@ -62,3 +63,11 @@ category:: #books
 - 对 Publisher 进行 map 操作的结果看起来和 Array 的 map 很类似，它们都具有“对元素进行某种方式的变形操作”这一共性，因此它们使用了同样的方法名。Array 存储的是当前存在的一组元素，对它们进行 map 将同步地把这些元素进行变形。而 Publisher “存储的”是未来的一组元素，map 操作则是异步地在未来 output 事件发生时再进行变形。 #Highlight #[[2023-10-23]]
 - 实际上对于 Array Publisher 来说，map 并不是在“未来”才进行变形。所以严格来说，这里在 Array Publicher 语境下，“在未来 output 事件发生时再进行变形”这一说法并不准确。但是对于一般性的 Publisher，这个结论是正确的。 #Highlight #[[2023-10-23]]
 - 实践中，scan 一个最常见的使用场景是在某个下载任务执行期间，接受 URLSession 的数据回调，将已接收到的数据量做累加来提供一个下载进度条的界面。 #Highlight #[[2023-10-23]]
+- Combine 中提供了 Fail 这个内建的基础 Publisher，它所做的事情就是在被订阅时发送一个错误事件 #Highlight #[[2023-10-31]]
+- Subscriber 在订阅上游 Publisher 时，不仅需要保证 Publisher.Output 的类型和 Subscriber.Input 的类型一致，也要保证两者所接受的 Failure 也具有相同类型 #Highlight #[[2023-10-31]]
+- 我们可以通过使用 mapError 来将 Publisher 的 Failure 转换成 Subscriber 所需要的 Failure 类型 #Highlight #[[2023-10-31]]
+- 在 Combine 里，有一些 Operator 是专门帮助事件流从错误中恢复的，最简单的是 replaceError，它会把错误替换成一个给定的值，并且立即发送 finished 事件 #Highlight #[[2023-10-31]]
+- replaceError 在错误时接受单个值，另一个操作 catch 则略有不同，它接受的是一个新的 Publisher，当上游 Publisher 发生错误时，catch 操作会使用新的 Publisher 来把原来的 Publisher 替换掉 #Highlight #[[2023-10-31]]
+- Operator 其实是 Publisher 的 extesnion 中所提供的一些方法，比如 flatMap 或者 map，它们都作用于 Publisher。如果你注意观察，会发现这些方法返回的也是 Publisher，不过类型不尽相同 #Highlight #[[2023-10-31]]
+- flatMap，map，以及其他各种我们称之为 Operator 的方法，其实都只是对应的 Publishers 类型初始化方法的简便调用方式。除此之外，它们作用于 Publisher，也返回 Publisher 的特性，让我们最终能够通过简洁易读的链式连续调用来构建发布者转换逻辑。 #Highlight #[[2023-10-31]]
+- Publishers.Sequence 和 Just 在各自的扩展中对默认的 Publisher 的 map 操作进行了重写。由于 Publishers.Sequence 和 Just 这样的类型在编译期间我们就能确定它们在被订阅时就会同步地发送所有事件，所以可以将 map 的操作直接作用在输入上，而不需要等待每次事件发生时再去操作。这种将操作符的作用时机提前到创建 Publisher 时的方式，被称为操作符熔合 (operator fusion) #Highlight #[[2023-10-31]]
