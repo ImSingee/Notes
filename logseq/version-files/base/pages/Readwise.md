@@ -172,3 +172,4 @@
 - On [[2023-11-06]] at 11:39 AM Readwise synced 23 highlights from 4 books.
 - On [[2023-11-07]] at 5:40 AM Readwise synced 1 highlight from 1 book.
 - On [[2023-11-07]] at 10:31 AM Readwise synced 34 highlights from 10 books.
+- On [[2023-11-07]] at 11:31 AM Readwise synced 12 highlights from 6 books.
