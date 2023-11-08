@@ -12,3 +12,4 @@ url:: https://twitter.com/noworkforsixian
   ![](https://pbs.twimg.com/media/F7fNdKrbgAAoWxW.jpg)
   
   ![](https://pbs.twimg.com/media/F7fNdKwbsAA78Jw.jpg) ([View Tweet](https://twitter.com/noworkforsixian/status/1709060494366281892)) #Highlight #[[2023-10-03]]
+- 请问各位 iOS 开发者，你们是怎么稳定地从经纬度获取地名的？
