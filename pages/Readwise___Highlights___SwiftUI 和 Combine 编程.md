@@ -78,3 +78,4 @@ category:: #books
 - Combine 内部预先已经定义了很多常用的 Publisher，比如 Publishers.Map 和 Just 等。和 Publisher 一样，框架里也预先定义了两种最常用的 Subject，它们分别是 PassthroughSubject 及 CurrentValueSubject #Highlight #[[2023-11-06]]
 - PassthroughSubject 简单地将 send 输入的内容如实反馈，而 CurrentValueSubject 则保留一个最后的值，并在被订阅时将这个值作为事件发送 #Highlight #[[2023-11-06]]
 - Subject 严格遵守时序的特性，让我们有机会同时验证那些对时序敏感的多个 Publisher 的组合。 #Highlight #[[2023-11-06]]
+- 对于一个异步操作，一般来说我们比较关注两个时间点。首先是异步操作开始的时候，我们可能希望在此时显示像是“正在加载”的界面，让用户知道正在进行一项耗时操作。另一个时间点是操作完成时，这时候我们可以使用异步操作的结果 (比如网络请求返回的数据) 来更新界面。因此，一个异步操作一般会对应两个 State：一个代表操作开始，app 进入等待状态；另一个代表操作结束，可以按照需要更新 UI。Reducer 负责返回新的 State，对于像网络请求这种耗时的异步操作，我们不可能阻塞线程去等待请求完成再返回新状态，因此，我们需要一种另外的方式来处理异步操作，让它在一次请求中拥有两次更新状态的机会。 #Highlight #[[2023-11-09]]
