@@ -5,7 +5,6 @@ category:: #articles
 url:: https://juejin.cn/post/7173965896656879630
 tags:: #[[inoreader]] #[[read]] #[[掘金 - 后端]]  
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png)
-
 - `interface{}` 类型在底层实际上是 `eface` 类型，而 `Flyable` 类型在底层实际上是 `iface` 类型 ([View Highlight](https://read.readwise.io/read/01hg2c0q9dgg9hkes3hqc0gzqs)) #Highlight #[[2023-11-25]]
 - o 中的接口变量其实是用 `iface` 和 `eface` 这两个结构体来表示的：
   

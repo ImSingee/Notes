@@ -5,7 +5,6 @@ category:: #articles
 url:: https://daily.zhihu.com/story/9746078
 tags:: #[[inoreader]] #[[read]] #[[star]]  
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png)
-
 - HCT 是 Hue、Chroma、Tone 三个单词的缩写。显然，Google 这一套新的色彩空间，主要由色相、色度和色调来定义 ([View Highlight](https://read.readwise.io/read/01hhecqzze0ggybvd84rsy09r3)) #Highlight #[[2023-12-12]]
 - 校正原则：  
   \- 色相必须保持是同类色（色相环中 15°夹角内的颜色）

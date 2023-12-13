@@ -5,7 +5,6 @@ category:: #tweets
 url:: https://twitter.com/Tisoga/status/1731478506465636749
 
 ![](https://pbs.twimg.com/profile_images/1578459356500152321/7qWD4yJO.jpg)
-
 - https://t.co/AgfDhVEASK 是如何构建高效的 RAG 系统的 🔎
   
   之前答应过要分享一下 https://t.co/AgfDhVEASK 底层涉及到的技术，这个系列 thread 会分享我们在这个项目上的具体实践，这是第一篇。

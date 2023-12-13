@@ -5,7 +5,6 @@ category:: #articles
 
 
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png)
-
 - 在 2021 年的沉思录中，提到过一个概念「[高级用户陷阱](https://www.xiaoyuzhoufm.com/episode/63c15778fabece0ce80c4c15)」，即不断围绕高级用户研究，很容易把产品带到坑里，比如：
   
   •   过度复杂导致新人无法进入：Photoshop 有太多专业功能，但许多人只想用 Canva 做个贺卡而已；

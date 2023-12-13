@@ -5,7 +5,6 @@ category:: #articles
 url:: https://program-think.blogspot.com/2020/11/Game-Theory.html
 tags:: #[[favorite]]  
 ![](https://lh6.googleusercontent.com/5Fw6zHF2pQSOz2zJmxHXxt1jWAiGWnamOjRA6FIYT5te71IwvNACdhvo5aJ-TuIEEtbXDS8EKyvu8TrScLBrNsrqcEJuwiNUXunCCVAcLfbwVrTzKZbx7waBHEPs3CueMhoAGYRTpbY=w1200-h630-p-k-no-nu)
-
 - 不论是“合作博弈”or“非合作博弈”，在博弈过程中都可能会出现“合作”的现象。差别在于——  
   对于“合作博弈”，存在某种【外部约束力】，使得“背叛”的行为会受到这种外部约束力的惩罚。  
   对于“非合作博弈”，【没有】上述这种“外部约束力”，对“背叛”的惩罚只能依靠博弈过程的其它参与者。 ([View Highlight](https://read.readwise.io/read/01hg2esx96gv24dhkb0xwbcc61)) #Highlight #[[2023-11-25]]

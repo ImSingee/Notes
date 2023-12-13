@@ -5,7 +5,6 @@ category:: #articles
 url:: https://juejin.cn/post/7108382941897556004
 
 ![](https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web//static/favicons/apple-touch-icon.png)
-
 - Prometheus有四个指标类型
   
   •   **Counter**：计数器，单调递增；

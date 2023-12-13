@@ -5,7 +5,6 @@ category:: #tweets
 url:: https://twitter.com/real_kai42/status/1732280926233866750
 
 ![](https://pbs.twimg.com/profile_images/1706347168393764864/DoRcb3kd.jpg)
-
 - 前天我们上线了 Web Worker 对尤雨溪（Evan）的专访，Evan 作为 Vue/Vite 两个顶流开源项目作者，从自己的视角回答了前端领域讨论度比较高的一些问题，这里以文字形式记录其中的一部分。
   
   Evan 的分享不局限于 vue，包含了很多对技术、开发、独立开发有价值的观点和思考，回答风格也非常坦诚和深刻

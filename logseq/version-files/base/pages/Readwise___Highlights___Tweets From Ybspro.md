@@ -5,7 +5,6 @@ category:: #tweets
 url:: https://twitter.com/ybspro_official
 
 ![](https://pbs.twimg.com/profile_images/1453589897323835393/bZAy4GeF.jpg)
-
 - 挖src（漏洞赏金）的初学者可以看看，希望有帮助。
   
   挖不到洞的主要原因就是思路问题，你可以多看一些漏洞赏金报告学会归纳总结，构建你自己的测试树。

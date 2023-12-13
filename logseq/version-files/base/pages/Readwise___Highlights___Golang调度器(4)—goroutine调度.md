@@ -5,7 +5,6 @@ category:: #articles
 url:: https://juejin.cn/post/7215967453929799740
 tags:: #[[inoreader]] #[[read]] #[[掘金 - 后端]]  
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png)
-
 - 调度中获取`goroutine`的规则是：
   
   •   每调度61次就需要从全局队列中获取`goroutine`；

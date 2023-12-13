@@ -5,7 +5,6 @@ category:: #articles
 url:: https://taoshu.in/unix/loop-virt-disk.html
 tags:: #[[inoreader]] #[[star]] #[[博客]]  
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png)
-
 - loop 设备是 Linux 下一种虚拟设备。它广泛应用于跟虚拟磁盘、ISO镜像等文件的处理领域 ([View Highlight](https://read.readwise.io/read/01hg2fj8n6sv9a01xndad4t6e1)) #Highlight #[[2023-11-25]]
 - Linux 以文件的形式管理磁盘。一般第一块设备对应的文件是`/dev/sda`。大家可能不知道，我们是可以直接读写这个文件的。在 Linux 系统中，这就是一个普通的文件。唯一的不同点就是文件的大小是固定的，也就是磁盘的容量。我们没法在这个文件结尾处追加数据。但整个文件所有数据都可以读写 ([View Highlight](https://read.readwise.io/read/01hg2fk5b6her6cbqf7kx5yp3j)) #Highlight #[[2023-11-25]]
 - 所谓分区就是把磁盘划分成几块不同的空间。每一块的类型和开始结束位置等信息都保存硬盘开头的某段空间内。这一段也叫分区表。主流的分区表有 DOS 和 GPT 两种。Linux 下常见的分区工具是`fdisk`和`gdisk`，都支持两种分区表。 ([View Highlight](https://read.readwise.io/read/01hg2fm2nae1fgscxwvbqprnnv)) #Highlight #[[2023-11-25]]

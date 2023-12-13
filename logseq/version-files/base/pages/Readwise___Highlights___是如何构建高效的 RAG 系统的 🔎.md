@@ -5,7 +5,6 @@ category:: #articles
 url:: https://twitter.com/Tisoga/status/1731478506465636749
 
 ![](https://pbs.twimg.com/profile_images/1578459356500152321/7qWD4yJO_normal.jpg)
-
 - 一个最小的 RAG 系统就是由 3 个部分组成的：
   
   1. 语言模型  

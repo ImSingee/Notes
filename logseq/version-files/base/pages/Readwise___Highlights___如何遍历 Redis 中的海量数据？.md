@@ -5,7 +5,6 @@ category:: #articles
 url:: https://www.cxyxiaowu.com/21459.html
 tags:: #[[favorite]] #[[inoreader]] #[[redis]] #[[star]] #[[博客]]  
 ![](https://cxyxiaowu-1257126549.cos.ap-guangzhou.myqcloud.com/2021/07/20210730161749946.jpg)
-
 - 那我们如何去遍历大数据量呢？这个也是面试经常问的。我们可以采用redis的另一个命令scan。我们看一下scan的特点：
   
   1、复杂度虽然也是 O(n)，但是它是通过游标分步进行的，不会阻塞线程

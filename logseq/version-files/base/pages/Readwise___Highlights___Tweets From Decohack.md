@@ -5,7 +5,6 @@ category:: #tweets
 url:: https://twitter.com/decohack
 
 ![](https://pbs.twimg.com/profile_images/1531286887356194816/Z_NT7V5U.jpg)
-
 - 前两周我用 ChatGPT  和 DALL·E 图像生成给 Decohack 重新设计了品牌 LOGO，下面是我设计的整体流程，借助 AI 确实可以帮助设计提升效率👇🏻
   
   🤖 Step 01：借助 ChatGPT 快速获得灵感

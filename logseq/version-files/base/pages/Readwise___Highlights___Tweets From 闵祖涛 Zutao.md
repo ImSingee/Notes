@@ -5,7 +5,6 @@ category:: #tweets
 url:: https://twitter.com/taoshenga19
 
 ![](https://pbs.twimg.com/profile_images/1701821141126651904/IezA0U83.jpg)
-
 - 不理解超线性回报，就无法理解这个世界。超线性回报归结为两大基本原因：指数增长和阈值（thresholds）。
   
   下面是超线性回报的一般法则：

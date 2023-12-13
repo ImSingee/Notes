@@ -5,7 +5,6 @@ category:: #articles
 url:: https://twitter.com/real_kai42/status/1732280926233866750
 
 ![](https://pbs.twimg.com/profile_images/1706347168393764864/DoRcb3kd_normal.jpg)
-
 - 对于开源项目来说需要解决用户的核心痛点，而不仅仅是自嗨。  
   比如 volar 就真实解决了痛点，几乎所有 vue 用户都在用。不只是你觉得用更牛逼的方式实现了一个东西，就一定会有人用，需求是第一位的。  
   例如做一个框架去挑战 react/vue，如果想要有用户，必须要有一些本质上跟现在方案完全不一样的东西来吸引用户，才能平衡掉在生态和成熟度的劣势。 ([View Highlight](https://read.readwise.io/read/01hhbtprkw1gar7htgvhe3qtn7)) #Highlight #[[2023-12-11]]

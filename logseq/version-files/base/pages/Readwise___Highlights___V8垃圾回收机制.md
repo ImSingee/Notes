@@ -5,7 +5,6 @@ category:: #articles
 url:: https://juejin.cn/post/6959817876094058533
 tags:: #[[ifttt]] #[[instapaper]]  
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png)
-
 - 在 V8 中会把堆分为新生代和老生代两个区域，新生代中存放的是生存时间短的对象，老生代中存放的生存时间久的对象。新生区通常只支持 1～8M 的容量，而老生区支持的容量就大很多了。对于这两块区域，V8 分别使用两个不同的垃圾回收器，以便更高效地实施垃圾回收。副垃圾回收器，主要负责新生代的垃圾回收。主垃圾回收器，主要负责老生代的垃圾回收。 ([View Highlight](https://read.readwise.io/read/01hhe7qq9x7jp26ef6d6bhhpnm)) #Highlight #[[2023-12-12]]
 - 新生代中用 Scavenge 算法来处理 ([View Highlight](https://read.readwise.io/read/01hhe7qy564j94jrhvqmcjzhct)) #Highlight #[[2023-12-12]]
 - 由于新生代中采用的 Scavenge 算法，所以每次执行清理操作时，都需要将存活的对象从对象区域复制到空闲区域。但复制操作需要时间成本，如果新生区空间设置得太大了，那么每次清理的时间就会过久，所以为了执行效率，一般新生区的空间会被设置得比较小。 ([View Highlight](https://read.readwise.io/read/01hhe7rgg4vwsh9zwh4dcfdt49)) #Highlight #[[2023-12-12]]
