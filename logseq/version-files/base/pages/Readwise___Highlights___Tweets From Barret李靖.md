@@ -3,6 +3,7 @@ author:: [[@Barret_China on Twitter]]
 full-title:: Tweets From Barret李靖
 category:: #tweets
 url:: https://twitter.com/Barret_China
+
 - 使用 ChatGPT 之后，主动提问和学习好像变多了。
   
   以前在 Google 是这么学习的：根据关键词点开 3~5 篇文章，读完之后，如果发现了新的关键词，会继续 Google 搜索，如此递归。这个过程现在想一想，很长也很繁琐，经常需要在一大堆的文章中，过滤出最核心的内容，浏览器上开满了 tabs。
@@ -74,3 +75,20 @@ url:: https://twitter.com/Barret_China
   利用这个框架可以做的事情非常多，它提供的能力也十分完善，可以在项目的 notebook 中找到很多最佳实践：https://t.co/X9jkLGdORi
   
   P.S. 为了确保安全，还是建议你在 Docker 环境中执行程序，UserProxy 有一个 code_execution_config 配置，将 use_docker 配置为 True 即可；另外，它还有一个 human_input_mode 参数，设置为 NEVER，表示整个过程都不需要人参与，也可以设置为其他值，它会等待人的输入后再进行下一步操作，这个设计可以让人参与到任务执行过程，避免跑偏。 ([View Tweet](https://twitter.com/Barret_China/status/1712408323851788505)) #Highlight #[[2023-10-12]]
+- pdf2htmlEX 是一个值得推荐的 PDF 转 HTML 工具，但是它背后并不是用的 Chrome Headless。
+  
+  我去扒了下这个项目的历史，https://t.co/i2i9xnNsaA，作者因朋友抱怨没有一个在线 PDF viewer，于是他就撸了一个将 PDF 转成 HTML 的“玩具”，时间是 2013 年，也有十年历史了。
+  
+  pdf2htmlEX 背后使用的是 poppler 这个渲染库，而 poppler 背后使用的是  xpdf-3.0，它是一个免费的 PDF 查看器和工具包，包括文本提取器、图像转换器、HTML 转换器等。Chrome 自家也撸了一个 PDF 渲染引擎，叫做 pdfium，项目地址在这里：https://t.co/UqnEZOH8cZ
+  
+  项目在 2018 年就被作者归档了，为了可以让社区更好地贡献代码，新开了一个 repo 延续，在这个 repo 中，作者对打包过程做了封装，并且锁定了两个重要依赖的版本（poppler 和 Fontforge）。
+  
+  我在 Mac 下一直没有成功安装，看到有人提了一个兼容的 PR，状态还是 work in progress：https://t.co/VrgNylBIfJ，都五年了，应该是没有下文了😂 ([View Tweet](https://twitter.com/Barret_China/status/1730075530735829093)) #Highlight #[[2023-12-01]]
+- GPT4ALL，https://t.co/Rsb1xeWetb，是一个可以在本地运行且无需联网的大模型客户端软件，它的特点是在低配如 4G~8G 内存的消费级电脑上也能跑，无 GPU 要求，模型文件的大小在 3G~8G 左右，都是经过定制微调的可插拔 LLMs，效果优于 GPT-3，媲美 GPT-3.5。
+  其实这样的模型非常多，基本思路跟斯坦福开源的 Alpaca 是一致的。Alpaca，https://t.co/yPzjhSf3E1，是一个基于 LLaMa-7B 的微调模型，微调指令是使用 175 条种子任务通过 GPT-3.5 泛化生成的，共 5.2w 条，训练后的基准测试效果堪比 GPT-3.5，当然也存在很多缺陷，但瑕不掩瑜。
+  GPT4ALL 同样也是基于 LLaMa-7B 微调的，只不过它用到的微调指令集更庞大，有 80w+ 数据样本，在数据的多样性上做的非常好，这一点可以从这张可视化的图中看到效果：https://t.co/2rHY1jFTBW，从数据的分布来看，已经适配了多语言。
+  同时，它也支持索引本地文档语料，例如 PDF、docx 等 40+ 种文件格式，你可以直接与这些文件进行 Chat，对于个人私密场景或者企业来说，可以尝试下。
+  
+  如果你有自己的数据集，并且具备微调设备和编码能力，当然也可以选择自己来微调 LLMs 来满足需求，但对于大部分不具备条件的人来说，使用 GPT4ALL 来体验开源免费的大模型，还是非常方便的，私密性也可以得到保障。在官网看到不少微调过的大模型可供选择，目前还在持续更新中。
+  
+  对应的项目源码在这里：https://t.co/jBGUXTvnVb<img src='https://pbs.twimg.com/media/GAqX3pNaMAAIQs2.jpg'/><img src='https://pbs.twimg.com/media/GAqYPVsbcAAwm_w.jpg'/><img src='https://pbs.twimg.com/media/GAqYakNaYAAUIuo.jpg'/> ([View Tweet](https://twitter.com/Barret_China/status/1732365354943553917)) #Highlight #[[2023-12-07]]

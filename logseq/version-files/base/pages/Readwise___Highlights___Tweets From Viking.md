@@ -3,6 +3,7 @@ author:: [[@vikingmute on Twitter]]
 full-title:: Tweets From Viking
 category:: #tweets
 url:: https://twitter.com/vikingmute
+
 - 前端很卷的一个轮子应该是和时间处理的工具库：
   
   这几天刚接触到 date-fns，有点孤陋寡闻了。
@@ -60,3 +61,33 @@ url:: https://twitter.com/vikingmute
   从 Unicode 的历史娓娓道来，到 Unicode 的大小，不同版本的差异，一些和 emoji 相关的趣闻，配上非常生动的图表，是一篇超棒的科普文章，值得每位程序员读一下。
   
   PS：这篇文章的背景有各种鼠标箭头飘来飘去，彰显了作者的恶趣味 😄 ([View Tweet](https://twitter.com/vikingmute/status/1709018871817273751)) #Highlight #[[2023-10-03]]
+- 今天HackerNews 上讨论最火的一个帖子：
+  **《Ask HN: Best UI design courses for hackers?》 程序员学 UI design 最好的课程是啥？**
+  https://t.co/YEcUUrS3D5
+  
+  回复很多，值得各位想学UI设计的程序员看看，在我看来，一个好看的 UI 对于你的产品是非常重要的，它能在一定程度上提升产品的竞争力，就像简单简历 https://t.co/xMu5JFIGnr 中《隆重推出》这个模版 https://t.co/PBccA30Isv，有一部分付费用户都是为了这个模版。
+  
+  归纳一下其中提到的课程：
+  
+  **Refactoring UI**
+  https://t.co/L95Vl66APf 来自 Tailwind.css 的作者，收费 99 - 149刀
+  
+  Refactoring UI 免费配套的youtube 视频列表（很多人推荐）：
+  https://t.co/5hDC6ITPbk
+  
+  **Apple Human Interface Guideline：**
+  https://t.co/MMMe1Ws2w1 免费，网页文字
+  
+  **Designing Interfaces, 3rd Edition：**
+  https://t.co/LkZEwisgEw 图书
+  中文版：https://t.co/rXrtb4SdN6
+  80元
+  
+  **ParticalUI**
+  https://t.co/cZssDIDILE
+  79刀
+  
+  **EveryLayout**
+  https://t.co/BAIuVuolpq 专注于程序员怎样提升 css 水平 69刀
+  
+  还有更多，大家可以自己探索这个帖子，我在想好像国内没有类似的课程，假如有的话，应该还是很多人愿意买的。<img src='https://pbs.twimg.com/media/GBCBgKtbQAAyPov.jpg'/><img src='https://pbs.twimg.com/media/GBCBgKrbkAA7Rux.jpg'/> ([View Tweet](https://twitter.com/vikingmute/status/1734028358076535279)) #Highlight #[[2023-12-11]]
