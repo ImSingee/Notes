@@ -4,4 +4,6 @@ title:: Readwise/Highlights/Tweets from Geek
 -全球节点监测，可测量目标IP的丢包率和延迟。
 -N个监测点，支持ICMP/TCP端口检查以及MTR/DNS。
 -测试全球各地的IP:Port端口连通性。 https://t.co/DqbvqtBurJ ([View Tweet](https://twitter.com/geekbb/status/1702820590384714200)) #Highlight #[[2023-09-16]]
--
+
+- V 友《家庭服务器已经装好了，看配置该跑啥服务呢？》，让我瞅瞅你们都在 NAS 上安装些啥。嗯，下一步折腾：
+  \- MoviePilot (追剧必备 Nastool 新版)
