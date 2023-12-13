@@ -4,7 +4,6 @@ full-title:: Rust中Future执行底层探秘
 category:: #articles
 url:: https://rustcc.cn/article?id=720e246e-4378-47c2-ad7d-76ba05a1b05e
 tags:: #[[favorite]] #[[inoreader]] #[[read]] #[[rust.cc]]
-
 - Rust中的异步`async/.await`代码在编译时会被转换为Future+Waker+Executor的事件状态机的执行 ([View Highlight](https://read.readwise.io/read/01hdeenabpk5751d48gnhr9fdr)) #Highlight #[[2023-10-23]]
 - 对于一个 Async 系统而言，主要分为这么几个部分：
   

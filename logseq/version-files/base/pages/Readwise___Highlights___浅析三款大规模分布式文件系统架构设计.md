@@ -4,7 +4,6 @@ full-title:: 浅析三款大规模分布式文件系统架构设计
 category:: #articles
 url:: https://juejin.cn/post/7208380301024952378
 tags:: #[[favorite]] #[[inoreader]] #[[read]] #[[掘金 - 后端]]
-
 - ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e4d5776142bf4d4dab6eb0b375462b85~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp) ([View Highlight](https://read.readwise.io/read/01hdkerpw5sdyp4km88hzgnxhg)) #Highlight #[[2023-10-25]]
 - 日常使用 Linux 的时候，所有的系统调用请求都会先到达 VFS，然后才会由 VFS 向下请求实际使用的文件系统。文件系统的设计者需要遵守 VFS 的接口协议来设计文件系统，接口是共享的，但是文件系统具体实现是不同的，每个文件系统都可以有自己的实现方式。文件系统再往下是存储介质，会根据不同的存储介质再去组织存储的数据形式。 ([View Highlight](https://read.readwise.io/read/01hdkes1q5f57mbrn8mekhkz0n)) #Highlight #[[2023-10-25]]
 - **GFS 证明了我们可以用相对廉价的通用计算机，来组建一个足够强大、可扩展、可靠的分布式存储**，完全基于软件来定义一个文件系统，而不需要依赖很多专有或者高昂的硬件资源，才能去搭建一套分布式存储系统。 ([View Highlight](https://read.readwise.io/read/01hdketsgccpzv98efef5yv2m8)) #Highlight #[[2023-10-25]]

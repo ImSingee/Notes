@@ -4,7 +4,6 @@ full-title:: TCA - SwiftUI 的救星？
 category:: #articles
 url:: https://onevcat.com/2021/12/tca-1/
 tags:: #[[favorite]] #[[swift]] #[[Swift]]
-
 - 发送消息，而非直接改变状态
   
   任何用户操作，我们都通过向 `viewStore` 发送一个 `Action` 来表达。在这里，当用户按下 “-” 或 “+” 按钮时，我们发送对应的 `CounterAction`。选择将 Action 定义为 enum，可以带来更清晰地表达意图。但不仅如此，它还能在合并 reducer 时带来很多便利的特性，在后续文章中我们会涉及相关话题。虽然并不是强制，但是如果没有特殊理由，我们最好跟随这一实践，用 enum 来表达 Action ([View Highlight](https://read.readwise.io/read/01hdzpp1dcmqzpm395chrbgg84)) #Highlight #[[2023-10-30]]

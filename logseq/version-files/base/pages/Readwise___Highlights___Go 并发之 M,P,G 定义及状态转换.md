@@ -4,7 +4,6 @@ full-title:: Go 并发之 M,P,G 定义及状态转换
 category:: #articles
 url:: http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTgwNw==&mid=2247491361&idx=1&sn=37b55494305ceda2f8c9dead8f510270&chksm=9b0e0531ac798c27c8f3dca0f768b29d6b5d23d4a91355d9b12569f0c8d304f96aca5c473a28#rd
 tags:: #[[favorite]] #[[golang]]
-
 - go语言并发模型调度器的源码大多集中在/runtime/文件夹之下。此文件夹之下有很多文件。包括 .s 类型的汇编码和 .go 类型的go语言源码。
   
   首先编译器通过rt0_linux_arm64.s文件开启Go语言调度器。此文件名后半部分对应着不同的系统版本。 ([View Highlight](https://read.readwise.io/read/01hdg95jem9e2a4yttrq2ex2r8)) #Highlight #[[2023-10-24]]

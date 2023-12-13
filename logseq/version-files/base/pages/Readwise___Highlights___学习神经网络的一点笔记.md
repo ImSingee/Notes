@@ -4,7 +4,6 @@ full-title:: 学习神经网络的一点笔记
 category:: #articles
 url:: https://blog.codingnow.com/2023/03/feedforward_nn.html
 tags:: #[[favorite]] #[[inoreader]] #[[云风的 blog]] #[[博客]]
-
 - 虽然神经网络到底怎么工作的，人类恐怕还无法弄清楚每个神经元传递的信号的意义。这会导致程序出了 bug 很容易被掩盖起来，但有了数据库里的数据，我们还是可以从结果的正确率推测自己有没有实现对 ([View Highlight](https://read.readwise.io/read/01he5w4jb0kdkd73z2fx8tn9v5)) #Highlight #[[2023-11-02]]
 - 我所理解的神经网络，就是模拟大脑的工作方式，用非常简单的神经单元，相互连接起来，通过传递非常简单的信号，最后可以从网络的一端输入信息，另一端得到预期的结果 ([View Highlight](https://read.readwise.io/read/01he5w4yt79fbp991skm8tbhjt)) #Highlight #[[2023-11-02]]
 - 模拟神经网络，尤其是实现单个神经元的代码肯定是异常简单的。起作用的不是单个神经元多么奇妙，能思考问题；而起作用的是网络结构本身 ([View Highlight](https://read.readwise.io/read/01he5w5gqt1j1ghpqcmzgpqsfa)) #Highlight #[[2023-11-02]]

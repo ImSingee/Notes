@@ -4,7 +4,6 @@ full-title:: 【Go 语言原理与实践学习资料（下）】第三届字节�
 category:: #articles
 url:: https://juejin.cn/post/7095977466094682148
 tags:: #[[favorite]] #[[golang]] #[[memory]]
-
 - •   自动内存管理：由程序语言的运行时系统管理动态内存
   
   •   避免手动内存管理，专注于实现业务逻辑

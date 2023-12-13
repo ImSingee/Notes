@@ -4,7 +4,6 @@ full-title:: 一文了解MySQL数据页
 category:: #articles
 url:: https://juejin.cn/post/7168822175427330062
 tags:: #[[database]] #[[favorite]] #[[inoreader]] #[[mysql]] #[[read]] #[[star]]
-
 - 为了避免一条一条读取磁盘数据，InnoDB采取**页**的方式，作为**磁盘**和**内存**之间**交互**的**基本单位**。一个页的大小一般是**16KB**。
   
   InnoDB为了不同的目的而设计了多种**不同类型的页**。

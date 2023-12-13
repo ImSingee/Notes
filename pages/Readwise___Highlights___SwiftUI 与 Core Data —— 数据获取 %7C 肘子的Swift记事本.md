@@ -3,7 +3,6 @@ author:: [[fatbobman.com]]
 full-title:: SwiftUI 与 Core Data —— 数据获取 | 肘子的Swift记事本
 category:: #articles
 url:: https://www.fatbobman.com/posts/modern-Core-Data-fetcher/
-
 - 对于采用单向数据流方式的开发者，@FetchRequest 就像悬挂在头顶的达摩克利斯之剑，始终让其介怀。类 Redux 框架通常都建议开发者将整个 app 的状态合成到一个单一的结构实例中（ State ，符合 Equatable 协议 ），视图通过观察状态的变化（ 有些框架支持切片式的观察以改善性能 ）而做出响应。而 @FetchRequest 将 app 中状态构成中的很大一部分从独立的结构实例中分拆出来，散落在多个视图之中 ([View Highlight](https://read.readwise.io/read/01hfa18aawe6mrhxpcb24s3y1y)) #Highlight #[[2023-11-16]]
 - 似乎 FetchRequest 仍是当前 SwiftUI 中的最优解 ([View Highlight](https://read.readwise.io/read/01hfa18mxqqa0ht0atab1reh4z)) #Highlight #[[2023-11-16]]
 - •   创建 NSFetchedResultsController 并获取首批数据的操作是从 onAppear 中发起的，由于 TCA 的 Action 处理机制，数据的首次显示有可感知的延迟（ 效果远不如在视图中通过 FetchRequest 获取 ）

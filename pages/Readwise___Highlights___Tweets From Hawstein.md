@@ -3,7 +3,6 @@ author:: [[@Hawstein on Twitter]]
 full-title:: Tweets From Hawstein
 category:: #tweets
 url:: https://twitter.com/Hawstein
-
 - 看到 @waylybaye 问美国公司的财税知识，我来贡献一个数据点。我在美国有一家公司，在美国报了 3 年税，请的当地的一个 CPA。和八爷一样，我并不想丢给 CPA 然后就什么都不管。所以，虽然是 CPA 帮我报税，但税表我都会详细看，不懂的就问 CPA 以及看美国国家税务局 IRS 的官网文档。所以对于人在中国公司在美国的报税缴税知识大概了解一些。
   
   声明：我不是专业的 CPA，以下只是我的个人经验，很可能不适合你。

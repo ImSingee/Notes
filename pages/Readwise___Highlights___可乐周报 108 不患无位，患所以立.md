@@ -2,7 +2,6 @@ title:: Readwise/Highlights/可乐周报 108 不患无位，患所以立
 author:: [[happy xiao]]
 full-title:: 可乐周报 108 不患无位，患所以立
 category:: #articles
-
 - [人生是一场单机游戏](http://l.main.getrevue.co/ls/click?upn=gVFUf18rutnxjaj5Ut67g8Rnadlw38woCf-2Fxu61dvkSssLXR7rPLL51PZoLqCSa-2F2T56oDRHs8IVNA9V2H9UGZYrBsoMTeQ-2BhRTNlVOe6VEcAOAibLx8dIuzg1MudlFGr1BA910YmbprChdD1ttCbGhS1-2BwHuxLDU8GKeQxzHm3aeFezFcMEdJ3xSeH2M2L3LGE9FoKJ9F5H-2FHENgnb6AQ-3D-3DJs58_8cHMdnBDzJgqQ5JaFlgiosaujKBD3POIkjMTExfmu6piucGikJhht63XoJYqQDwGwRdbAJtE1FLxFzc047Av8RAYYylifVKa6huemFPFwcqRmV-2Fkg8QVmV8fvkSJtdxdIa9atg0ge1cyktI7jC-2FBSdPLQq3qAJo6SJqqB7-2FN4MF7U7x9ar0Gnw-2F9K19VJAs8i5SiQdD3eufSEVK2fZp-2FwifITv2q7vkb6abCg4-2BT5J9Kn5v8KnyoQG8NnIZloJnd5-2BAnpSqTVFCxIqLT9qZ0Ntr2-2Frj5isPP6oyakMNTYShO8oA12llY6RHNEqMGQApZVwcP1v9xszSSkNPAxmzZqZ-2F0koptejq-2BoUncKzKPPloiC0nLvJ-2FKokYZLbNnelLFmTE6vfCeX8UiCgVWITL-2Bcw-3D-3D) 。我们不用去担心 NPC 的反应，最终 Boss 有多难打，是否有足够好的同伴与我们同行。我们只应该专注在升级自己上， 只去关心今天的自己有没有比昨天的自己更强大。 ([View Highlight](https://read.readwise.io/read/01hdja863j0s3smxveaz2hgns6)) #Highlight #[[2023-10-25]]
 - 当我让一个人给自己打分，他们通常说 6-9。接着我会问他们如何才能得到更高的分。这时他们会告诉你他们的弱点 ([View Highlight](https://read.readwise.io/read/01hdja8jc236d60ywkcnj0bvf7)) #Highlight #[[2023-10-25]]
 - 比如当他去一个豪宅做客，想知道这套房子值多少钱，他会先预估一个价，比如500万，然后他会和主人说，“哇哦，你的房子太棒了，你应该花了800万买下它吧！“ Sam 会故意说一个远高于可能价格的数字，这时主人一方面很高兴，一方面会说”没有那么高，实际上我只花了xxx万。“ ([View Highlight](https://read.readwise.io/read/01hdja9b5w9mffe37hkk2wctyq)) #Highlight #[[2023-10-25]]

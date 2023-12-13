@@ -4,7 +4,6 @@ full-title:: 如何在 Core Data 中使用 Derived 和 Transient 属性 | 肘子
 category:: #articles
 url:: https://www.fatbobman.com/posts/derivedAndTransient/
 tags:: #[[Core Data]] #[[favorite]] #[[swift]]
-
 - 派生数据的值是由 SQLite 直接计算并更新的。
   
   Derived 值的计算是 Core Data 中为数不多的几个直接使用 SQLite 内置机制来完成的操作，并非由 Swift（或 Objective - C） 代码计算而来。 ([View Highlight](https://read.readwise.io/read/01hdzrjxtweyeavvh7r88et01b)) #Highlight #[[2023-10-30]]

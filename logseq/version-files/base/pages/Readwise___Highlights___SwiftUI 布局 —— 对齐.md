@@ -3,7 +3,6 @@ author:: [[fatbobman.com]]
 full-title:: SwiftUI 布局 —— 对齐
 category:: #articles
 url:: https://www.fatbobman.com/posts/layout-alignment/
-
 - 对齐指南（ alignment guide）用来标识视图间进行对齐的依据 ... 在 SwiftUI 中，分别用 HorizontalAlignment 和 VerticalAlignment 来标识在视图纵轴和横轴方向的参考线，并且可以由两者共同构成对视图中的某个具体的参考点的标识。
   
   HorizontalAlignment.leading 、HorizontalAlignment.center 、HorizontalAlignment.trailing 分别标识了前沿、中心和后缘（ 沿视图水平轴 ）。

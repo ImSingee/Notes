@@ -4,7 +4,6 @@ full-title:: 记录一次数据库cpu被打满的排查过程
 category:: #articles
 url:: https://juejin.cn/post/7169027973352914975
 tags:: #[[favorite]] #[[inoreader]] #[[mysql]] #[[read]] #[[掘金 - 后端]]
-
 - 通过Explain查看执行计划时发现，possible_keys中包含上面的联合索引，而Key却选择了Primary主键索引 ([View Highlight](https://read.readwise.io/read/01he6y0a33wpms5whfx5p6yw73)) #Highlight #[[2023-11-02]]
 - 强制指定索引方式 force index (idx_test) ([View Highlight](https://read.readwise.io/read/01he6y1d7azyv7hmd1th2gvx4g)) #Highlight #[[2023-11-02]]
 - order by 导致查询分析器选择了主键索引，我们在Order by中增加排序字段，将Sql调整如下，同样可以命中我们之前的联合索引，查询时长为0.034s，由于先按照主键排序，结果是一致的。相比第四种方法多了一份filesort ([View Highlight](https://read.readwise.io/read/01he6y391g2veekmgc4mtt7nwb)) #Highlight #[[2023-11-02]]

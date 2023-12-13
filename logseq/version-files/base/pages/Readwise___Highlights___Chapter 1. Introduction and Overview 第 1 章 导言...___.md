@@ -3,7 +3,6 @@ author:: [[O'Reilly Online Learning]]
 full-title:: Chapter 1. Introduction and Overview 第 1 章 导言和概述导言和概述
 category:: #articles
 url:: https://learning.oreilly.com/library/view/database-internals/9781492040330/ch01.html
-
 - some sources group DBMSs into three major categories ... Online transaction processing (OLTP) databases ... Online analytical processing (OLAP) databases ... Hybrid transactional and analytical processing (HTAP) #Highlight #[[2023-11-09]]
 - ![dbin 0101](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781492040330/files/assets/dbin_0101.png)Figure 1-1. Architecture of a database management system  
   图 1-1.数据库管理系统的结构 ([View Highlight](https://read.readwise.io/read/01hesjdd2kfht4vj72vn24v8ky)) #Highlight #[[2023-11-09]]

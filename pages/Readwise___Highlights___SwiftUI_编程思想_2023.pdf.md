@@ -2,7 +2,6 @@ title:: Readwise/Highlights/SwiftUI_编程思想_2023.pdf
 author:: [[]]
 full-title:: SwiftUI_编程思想_2023.pdf
 category:: #books
-
 - Text 的宽度可能介于 0 到它的理想宽度之间，但是绝对不可能 超过理想宽度 (Page 78) #Highlight #[[2023-09-05]]
 - HStack 根据⼦视图的灵活性从低到⾼进⾏排序。它会跟踪所有的剩余⼦视 图和可⽤的剩余宽度。 → 只要还有剩余的⼦视图，HStack 就会把剩余的宽度除以⼦视图的数量，然 后把结果作为建议宽度提供给这个⼦视图。 (Page 78) #Highlight #[[2023-09-05]]
 - 使⽤ .layoutPriority 修饰器给 Text 设定⼀个布局优先级 (Page 79) #Highlight #[[2023-09-05]]

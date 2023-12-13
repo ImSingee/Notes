@@ -3,7 +3,6 @@ author:: [[Manjusaka]]
 full-title:: 关于用户态栈回溯（Unwind）的一些杂记和想法
 category:: #articles
 url:: https://www.manjusaka.blog/posts/2023/08/22/a-little-bit-idea-about-unwind/
-
 - .so 相比 executable 有几个优势：
   
   1.  它一定有动态符号表

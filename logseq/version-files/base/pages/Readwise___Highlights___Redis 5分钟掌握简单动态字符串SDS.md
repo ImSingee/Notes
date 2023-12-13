@@ -4,7 +4,6 @@ full-title:: Redis 5分钟掌握简单动态字符串SDS
 category:: #articles
 url:: https://juejin.cn/post/7193517801909747771
 tags:: #[[inoreader]] #[[read]] #[[掘金 - 后端]]
-
 - Redis 没有直接使用 C 语言传统的字符串表示（而是以空字符结尾的字符数组，以下简称 C 字符串），自己构建了一种名为**简单动态字符串（simple dynamic string，SDS）** 的抽象类型，并将 SDS 用作 Redis 的默认字符串表示。 ([View Highlight](https://read.readwise.io/read/01heksh26a6rjaapaydgg04pab)) #Highlight #[[2023-11-07]]
 - Redis 将在数据库中创建了一个新的键值对，其中：
   

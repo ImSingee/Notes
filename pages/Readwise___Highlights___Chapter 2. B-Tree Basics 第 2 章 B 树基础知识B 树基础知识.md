@@ -3,7 +3,6 @@ author:: [[O'Reilly Online Learning]]
 full-title:: Chapter 2. B-Tree Basics 第 2 章 B 树基础知识B 树基础知识
 category:: #articles
 url:: https://learning.oreilly.com/library/view/database-internals/9781492040330/ch02.html
-
 - In the previous chapter, we separated storage structures in two groups: *mutable* and *immutable* ones, and identified immutability as one of the core concepts influencing their design and implementation. Most of the mutable storage structures use an *in-place update* mechanism. During insert, delete, or update operations, data records are updated directly in their locations in the target file. ([View Highlight](https://read.readwise.io/read/01hf3cdz633gxn6xfjr8j6emhy)) #Highlight #[[2023-11-13]]
 - Storage engines often allow multiple versions of the same data record to be present in the database; for example, when using multiversion concurrency control (see [“Multiversion Concurrency Control”](https://learning.oreilly.com/library/view/database-internals/9781492040330/ch02.html/ch05.html#mvcc)) or slotted page organization (see [“Slotted Pages”](https://learning.oreilly.com/library/view/database-internals/9781492040330/ch02.html/ch03.html#slotted_pages)). ([View Highlight](https://read.readwise.io/read/01hf3cec0ze3b0ehbqk77v4f5m)) #Highlight #[[2023-11-13]]
 - even though it’s somewhat unlikely that all the items end up on one side of the tree, at least some of them certainly will, which will significantly slow down searches. ([View Highlight](https://read.readwise.io/read/01hf3ch56ahs92f09pxsd5jx8v)) #Highlight #[[2023-11-13]]

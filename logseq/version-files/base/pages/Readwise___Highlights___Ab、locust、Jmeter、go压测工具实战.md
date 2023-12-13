@@ -4,7 +4,6 @@ full-title:: Ab、locust、Jmeter、go压测工具实战
 category:: #articles
 url:: http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTgwNw==&mid=2247491311&idx=1&sn=1d89bc13a0081e306e22def8ea503f3a&chksm=9b0e04ffac798de9ecc12d92eb1b7b7497af04f867dfc6652cfbf05c59230b3af2242aea2965#rd
 tags:: #[[favorite]]
-
 - 压测类型解释
   
   压测类型

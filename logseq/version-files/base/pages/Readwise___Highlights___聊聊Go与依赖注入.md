@@ -4,7 +4,6 @@ full-title:: 聊聊Go与依赖注入
 category:: #articles
 url:: https://tonybai.com/2023/09/28/dependency-injection-with-go/
 tags:: #[[go inbox]] #[[inoreader]] #[[tony bai]] #[[博客]]
-
 - 依赖倒置原则实际上就是对控制反转(Inversion of Control，IoC)这一概念的阐述，而[依赖注入(Dependency Injection)](http://en.wikipedia.org/wiki/Dependency_injection)是实现控制反转的一种机制。所以可以说，依赖倒置原则是设计级的指导思想，它提出了正确的依赖关系；而依赖注入是实现级的具体设计模式，它将组件的依赖关系控制权移到了外部，实现了组件之间的解耦，是对依赖倒置原则的一种实现手段。 ([View Highlight](https://read.readwise.io/read/01hbcqbne3ev09crkrye2sn7q0)) #Highlight #[[2023-09-28]]
 - 依赖注入可以帮助你开发出松耦合的代码，**松耦合使代码更易于维护**。 ([View Highlight](https://read.readwise.io/read/01hbcqbrkjw6e95yh7gfmf762f)) #Highlight #[[2023-09-28]]
 - **往往代码库越庞大，引入DI的好处就越发明显**。松耦合带来的好处并不总是立竿见影，但随着时间的推移，随着代码库复杂性的增加，这些好处就会变得显而易见 ([View Highlight](https://read.readwise.io/read/01hbcqcrgxjpvqzsanhkvmwkcx)) #Highlight #[[2023-09-28]]

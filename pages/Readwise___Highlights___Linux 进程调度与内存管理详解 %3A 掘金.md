@@ -4,7 +4,6 @@ full-title:: Linux 进程调度与内存管理详解 : 掘金
 category:: #articles
 url:: https://juejin.cn/post/7116412907860000776
 tags:: #[[favorite]] #[[inoreader]] #[[linux]] #[[read]] #[[star]]
-
 - 我们常常提到的“僵尸进程”，就是进程的堆栈信息被回收了，但是其 task_struct 却依旧存活在操作系统中。 “僵尸进程”往往是因为父进程处理子进程的销毁信号错误导致的。也是因为 task_struct 留存在操作系统中，所以“僵尸进程”是会消耗操作系统资源的。 ([View Highlight](https://read.readwise.io/read/01he6xns0g2fpvr4703ptd4yfj)) #Highlight #[[2023-11-02]]
 - “孤儿进程”是父进程先于子进程销毁导致的，不过“孤儿进程”会进行“寻找养父”的过程，先找“亲生父亲”的进程组中的兄弟进程，找不到的话就会认“0”号进程为父亲，所以“孤儿进程”的销毁并不会受阻，不会消耗操作系统过多的资源。 ([View Highlight](https://read.readwise.io/read/01he6xp0nbkg2ajwcxf29qzgj4)) #Highlight #[[2023-11-02]]
 - 完全公平调度算法 CFS ... CFS 会根据权重为各进程尽量“公平”的分配时间片 ... 虽然叫做完全公平，但 CFS 算法并不是完全相同的未每个进程分配同样的时间片来运行，导致其不公平的原因有以下两点：

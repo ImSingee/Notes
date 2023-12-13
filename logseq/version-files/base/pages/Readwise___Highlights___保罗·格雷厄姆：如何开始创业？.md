@@ -4,7 +4,6 @@ full-title:: 保罗·格雷厄姆：如何开始创业？
 category:: #articles
 url:: https://usistem.com/zh/the-bay-area/how-to-start-a-startup-paul-graham/
 tags:: #[[inoreader]] #[[read]] #[[湾区周报 on 集合：构建你的个人系统]]
-
 - 创建成功的创业公司需要三个要素：开始和优秀的人合作、创造顾客真正需要的产品，以及尽可能少地花钱。大多数失败的创业公司之所以失败，是因为它们在其中一个方面失败了。一个创业公司如果三个方面都做得好，可能会成功。 ([View Highlight](https://read.readwise.io/read/01hes0sgfha0d8398rgb4bfdgq)) #Highlight #[[2023-11-09]]
 - 你不需要一个非常好的想法来开始创业公司。一家创业公司赚钱的方式是提供比人们现在拥有的更好的技术。但是，人们现在拥有的技术通常是如此糟糕，以至于不需要天才就能做得更好。 ([View Highlight](https://read.readwise.io/read/01hes0ssat1821kepd295mrjsg)) #Highlight #[[2023-11-09]]
 - 一个销售人员，他不会接受“不”的回答；一个黑客，宁愿熬到凌晨4点也不会上床睡觉，留下有漏洞的代码；一个公关人员，会冷静地打电话给《纽约时报》记者的手机；一个平面设计师，当东西错了两毫米时，会感到身体疼痛 ([View Highlight](https://read.readwise.io/read/01hes0tctny8qg1mbzg0zhk21q)) #Highlight #[[2023-11-09]]

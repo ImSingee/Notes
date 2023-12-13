@@ -4,7 +4,6 @@ full-title:: 后疫情时代下美国 CS Master 申请纪实
 category:: #articles
 url:: https://halfrost.com/halfrost_2021/
 tags:: #[[favorite]] #[[halfrost\'s field | 冰霜之地]] #[[inoreader]] #[[博客]]
-
 - 关于排行榜，有 2 个权威排行榜，一个是 [Qs](https://www.topuniversities.com/)，一个是 [USNews](https://www.usnews.com/)。在 Qs 榜单上，英国大学排名偏高，在 USNews 榜单上，美国大学排名偏高。 ([View Highlight](https://read.readwise.io/read/01hdz8ajm1cz4bvcz8z4c07mqj)) #Highlight #[[2023-10-30]]
 - 论排名，英美大学在 TOP10 上不分伯仲。但是再综合考虑毕业后就业环境，美国在 CS 这方面还是更胜一筹，因为有纽约和硅谷 ([View Highlight](https://read.readwise.io/read/01hdz8axvb1j4mt620e2j2tedz)) #Highlight #[[2023-10-30]]
 - 资金不充裕建议谨慎考虑美国，美国开销是最大的；如果你是双非出身，建议谨慎考虑英国和香港 ([View Highlight](https://read.readwise.io/read/01hdz8c0d2awmamy4d2bn8e1ts)) #Highlight #[[2023-10-30]]

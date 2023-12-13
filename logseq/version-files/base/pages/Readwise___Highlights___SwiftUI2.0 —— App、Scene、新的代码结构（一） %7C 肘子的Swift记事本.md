@@ -4,7 +4,6 @@ full-title:: SwiftUI2.0 —— App、Scene、新的代码结构（一） | 肘�
 category:: #articles
 url:: https://www.fatbobman.com/posts/swiftui2-new-feature-1/
 tags:: #[[favorite]] #[[swift]] #[[Swift]] #[[肘子的swift记事本]]
-
 - App
   
   SwiftUI2.0 提供的全新协议。通过声明一个符合 App 协议的结构来创建一个程序，并通过计算属性 body 来实现程序的内容。

@@ -4,7 +4,6 @@ full-title:: 数据在Elasticsearch的完整读写流程，掌握到这个程度
 category:: #articles
 url:: https://juejin.cn/post/7108550139974778894
 tags:: #[[elasticsearch]] #[[ElasticSearch]] #[[favorite]]
-
 - ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f2b13f5a11ee4f7587e20f8494758131~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp) ([View Highlight](https://read.readwise.io/read/01hf39ya5w1tzsh0x1temrkyqb)) #Highlight #[[2023-11-13]]
 - client写入数据时首先先连接到elasticsearch cluster的coordinator node（如果对elasticsearch的node不了解的话，可以参考下这篇文章），coordinator node根据需要写入数据的doc id字段（默认使用该字段，如果数据写入指定了routing的话，则使用routing进行分片路由）进行路由到对应的分片 ([View Highlight](https://read.readwise.io/read/01hf39zd3ebv8z8k0ymky2gbm7)) #Highlight #[[2023-11-13]]
 - 首先数据被写入到elasticsearch的index buffer中，该buffer在elasticsearch的heap中。写完index buffer后，数据才会写入到translog中，translog写入完毕后即可以返回客户端写入成功。 ([View Highlight](https://read.readwise.io/read/01hf3a3kmnec90eng3czwzrk1y)) #Highlight #[[2023-11-13]]

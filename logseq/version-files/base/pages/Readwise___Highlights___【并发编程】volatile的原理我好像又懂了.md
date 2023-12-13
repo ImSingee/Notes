@@ -4,7 +4,6 @@ full-title:: 【并发编程】volatile的原理我好像又懂了
 category:: #articles
 url:: https://juejin.cn/post/7209090173485350969
 tags:: #[[inoreader]] #[[read]] #[[掘金 - 后端]]
-
 - `volatile` 直译过来是“**不稳定的**”，意味着被其修饰的属性可能随时发生变化。该关键字为Java提供了一个轻量级的同步机制：**保证被volatile修饰的共享变量对所有线程总是可见的，也就是当一个线程修改了一个被 `volatile` 修饰共享变量的值，新值总是可以被其他线程立即得知**。相较于我们熟知的重量级锁 `synchronized`，`volatile` 更轻量级，因为它**不会引起上下文切换和线程调度**。 ([View Highlight](https://read.readwise.io/read/01hetktavz1j9zdwx91t5mwx0t)) #Highlight #[[2023-11-10]]
 - `volatile` 关键字的特性主要有以下几点：
   

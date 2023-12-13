@@ -3,7 +3,6 @@ author:: [[@Crypto_JCXX on Twitter]]
 full-title:: Tweets From Crypto_JC
 category:: #tweets
 url:: https://twitter.com/Crypto_JCXX
-
 - 中国人民潜意识里为什么一定要买房？
   
   因为我们是以资源匮乏恐惧驱动的社会，而且社会福利水平极低。

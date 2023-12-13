@@ -4,7 +4,6 @@ full-title:: 看起来很快的 Wi-Fi 看视频老是需要缓冲？家庭 Wi-Fi
 category:: #articles
 url:: https://sspai.com/post/72111
 tags:: #[[favorite]] #[[inoreader]] #[[read]] #[[star]]
-
 - 可以简单的把频宽想象成高速公路的车道数量，车道数量越多，单位时间可以行驶的流量也就越大 ([View Highlight](https://read.readwise.io/read/01he4sv3gybzhxgjy7vdxt926z)) #Highlight #[[2023-11-01]]
 - 国内划分给 2.4GHz 的信道划分了一共 13个信道，并依次标记为 1-13 ，每个信道之间相差 5Mhz，通过下图可以看到临近的频段是相互重叠的，也就是互相之间会产生干扰。因此在 2.4GHz 下最多可以容纳三个互不干扰的 20Mhz 频宽或者一个 40Mhz 频宽的的Wi-Fi 信号 ([View Highlight](https://read.readwise.io/read/01he4svcr9bn7azkq4ttc4nsrg)) #Highlight #[[2023-11-01]]
 - 而 5GHz Wi-Fi 下，5.2GHz 的可用信道为 36-64 ，5.8GHz 是 149-161 ([View Highlight](https://read.readwise.io/read/01he4svkvv33pq76s6492a81gg)) #Highlight #[[2023-11-01]]

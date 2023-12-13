@@ -4,7 +4,6 @@ full-title:: 看《艾米丽在巴黎》第2季学实用口语
 category:: #articles
 url:: http://mp.weixin.qq.com/s?__biz=MzA4MDYyMTcxOA==&mid=2651291643&idx=1&sn=161809295b820b049b9bebfcc1626bbb&chksm=8452a602b3252f149c194b21785267e039b1e32f534fbb3077e6c4874093de006226e53b53c0#rd
 tags:: #[[inoreader]] #[[star]] #[[微信公众号]]
-
 - table 在剧中至少出现过 3 次，作为动词它表示「搁置法案/措施/议案等（留到以后处理）」。当我们想说「这个项目等会儿再说」「稍后再讨论这个提议」时就可以用这个 table。 ([View Highlight](https://read.readwise.io/read/01hf8fv6m6z8g7kzadg63jg7v6)) #Highlight #[[2023-11-15]]
 - 这里的 deck 和 PowerPoint 一个意思，do a deck 相当于我们常说的 make a presentation。商业中经常能看到 sales deck，pitch deck，简单说就是为某种目的用幻灯片做演示。 ([View Highlight](https://read.readwise.io/read/01hf8fvvykpc0c41zpw3dnjg0w)) #Highlight #[[2023-11-15]]
 - All hands on deck 是个习语，可以理解为「齐心协力」「紧急状况，大家伙都都出一份儿力」。 ([View Highlight](https://read.readwise.io/read/01hf8fw1e1d82wnbdnvc95s53j)) #Highlight #[[2023-11-15]]

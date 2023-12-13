@@ -4,7 +4,6 @@ full-title:: 图解原理｜Linux I/O 神器之 Io_uring
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=MzA3NzYzODg1OA==&mid=2648467122&idx=1&sn=38abebe2705855f1ad80c0a81128dd9a&chksm=87663b17b011b201827c845f7d5c701f0100999203dc9e076c97c92c976c91b1fdd152682569#rd
 tags:: #[[inoreader]] #[[star]] #[[微信公众号]]
-
 - `io_uring` 通过用户态与内核态共享内存的方式，来免去了使用系统调用发起 I/O 操作的过程 ([View Highlight](https://read.readwise.io/read/01hdqer1phr6yjdvypxrppg6h7)) #Highlight #[[2023-10-27]]
 - `uring` 主要创建了 3 块共享内存：
   

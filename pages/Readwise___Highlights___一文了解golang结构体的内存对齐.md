@@ -4,7 +4,6 @@ full-title:: 一文了解golang结构体的内存对齐
 category:: #articles
 url:: https://juejin.cn/post/7176625697966784568
 tags:: #[[inoreader]] #[[read]] #[[掘金 - 后端]]
-
 - CPU获取内存数据：CPU通过地址总线（Address Bus）发送地址信号到内存，并将控制总线（Control Bus）信号设置为Enable信号，之后内存会将数据通过数据总线（Data Bus）返回给CPU。
   
   CPU写入内存数据：CPU通过地址总线（Address Bus）发送地址信号到内存，并将控制总线（Control Bus）信号设置为Set信号，最后将数据通过数据总线（data bus）发送到内存并进行写入。

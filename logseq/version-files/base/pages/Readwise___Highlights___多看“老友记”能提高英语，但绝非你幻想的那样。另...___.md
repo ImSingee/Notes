@@ -3,7 +3,6 @@ author:: [[@nishuang on Twitter]]
 full-title:: 多看“老友记”能提高英语，但绝非你幻想的那样。另...
 category:: #tweets
 url:: https://twitter.com/nishuang/status/1718973907145744662
-
 - 多看“老友记”能提高英语，但绝非你幻想的那样。另外推荐一本学英语的奇书“我在100天内自学英文翻转人生”
   
   https://t.co/ta23XgL32k

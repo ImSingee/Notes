@@ -4,7 +4,6 @@ full-title:: Linux之iptables防火墙 : 掘金
 category:: #articles
 url:: https://juejin.cn/post/7090181016135925796
 tags:: #[[favorite]] #[[inoreader]] #[[iptables]] #[[read]] #[[star]]
-
 - •   **netfilter**:属于“内核态”(Kernel Space， 又称为内核空间)的防火墙功能体系。 是内核的一部分，由一些数据包过滤表组成，这些表包含内核用来控制数据包过滤处理的规则集。(负责干活的)
     
   •   **iptables**:属于“用户态”(User Space，又称为(用户空间)的防火墙管理体系。 是一种用来管理Linux防火墙的命令程序，它使插入，修改和删除数据包过滤表中的规则变得容易，**通常位于/sbin/iptables目录下**。(负责指挥的)

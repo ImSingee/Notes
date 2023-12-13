@@ -4,7 +4,6 @@ full-title:: 容器网络｜深入理解Cilium
 category:: #articles
 url:: http://mp.weixin.qq.com/s?__biz=MzA3NzYzODg1OA==&mid=2648466538&idx=2&sn=4ad71a2e1b03b9cce6070b9fc81d12b3&chksm=876639cfb011b0d9ac61cf20a60cac2f328cbaf77f6c911aea399f1fa81b24b016b5a0db3497#rd
 tags:: #[[ebpf]] #[[favorite]]
-
 - eBPF 几乎总是比 iptables 快，这是有技术原因的。
   
   •   eBPF 程序本身并不比 iptables 快，但 eBPF 程序更短。

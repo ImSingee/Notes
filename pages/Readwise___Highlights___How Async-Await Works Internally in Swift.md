@@ -4,7 +4,6 @@ full-title:: How Async/Await Works Internally in Swift
 category:: #articles
 url:: https://swiftrocks.com/how-async-await-works-internally-in-swift
 tags:: #[[favorite]] #[[swift]]
-
 - One of the main focuses of Swift is making undefined behavior impossible, and today this is achieved via a combination of compiler features (like explicit initialization, type-safety, and optional types) and runtime features (like throwing an exception when an array is accessed at an index that doesn’t exist. It’s still a crash, but it’s not undefined behavior anymore because now we know what’s supposed to happen!). ([View Highlight](https://read.readwise.io/read/01hcy5etjd7x4yy9r7wpvhzdan)) #Highlight #[[2023-10-17]]
 - The primary reason why this was the case is because Grand Central Dispatch (GCD), Apple’s main concurrency solution for iOS apps, was not a feature of the Swift compiler itself, but rather a C library (libdispatch) that was shipped into iOS as part of Foundation. Just as expected of a C library, GCD gave you a lot of freedom in regard to concurrency work, making it challenging for Swift to prevent common concurrency issues like **data races, race conditions, deadlocks, priority inversions, and thread explosion.** ([View Highlight](https://read.readwise.io/read/01hcy5tmvqx2abz41xe2pt1vnh)) #Highlight #[[2023-10-17]]
 - •   Data Race: Two threads accessing shared data at the same time, leading to unpredictable results

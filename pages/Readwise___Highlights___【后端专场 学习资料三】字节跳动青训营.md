@@ -4,7 +4,6 @@ full-title:: 【后端专场 学习资料三】字节跳动青训营
 category:: #articles
 url:: https://juejin.cn/post/7193363381804335161
 tags:: #[[favorite]] #[[编译原理]]
-
 - 规则引擎是一种嵌入在应用服务中的组件，可以将灵活多变的业务决策从服务代码中分离出来。通过使用预定义的语义模块来编写业务逻辑规则。在执行时接受数据输入、解释业务规则，并做出决策。规则引擎能大大提高系统的灵活性和扩展性。 ([View Highlight](https://read.readwise.io/read/01hdg2djjn9bht34v7h08jfr2f)) #Highlight #[[2023-10-24]]
 - 规则引擎是一种嵌入在应用服务中的组件，可以将灵活多变的业务决策从服务代码中分离出来。通过使用预定义的语义模块来编写业务逻辑规则。在执行时接受数据输入、解释业务规则，并做出决策。规则引擎能大大提高系统的灵活性和扩展性。 ([View Highlight](https://read.readwise.io/read/01hdg2dmsbgy8znzn7v8f2bga7)) #Highlight #[[2023-10-24]]
 - 编译原理被誉为"程序员的三大浪漫"之一 ([View Highlight](https://read.readwise.io/read/01hdg2en6efhvk9sp2rf3b3kpc)) #Highlight #[[2023-10-24]]

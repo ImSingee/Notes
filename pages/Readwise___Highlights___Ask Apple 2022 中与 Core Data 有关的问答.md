@@ -4,7 +4,6 @@ full-title:: Ask Apple 2022 中与 Core Data 有关的问答
 category:: #articles
 url:: https://www.fatbobman.com/posts/Core-Data-of-Ask-Apple-2022/
 tags:: #[[swift]] #[[肘子的swift记事本]]
-
 - 在 Core Data 中开启 Allows External Storage 后，[二进制的读取效率是有保障的](https://www.sqlite.org/intern-v-extern-blob.html)。Core Data 会将大于一定尺寸（ 100KB ）的文件保存在文件系统中，并且仅在 BLOB 字段中保存该文件的文件名。文件被保存在与 SQLite 数据库同级创建的一个隐藏目录（ *EXTERNAL*DATA ）下。很遗憾， Core Data 并没有提供直接返回这些文件 URL 的 API（ 或将 BLOB 转换成以某种 URL 访问的方式 ），因此，当需要将数据以 URL 的方式进行传递时，就需要先将数据写到临时目录后才能进行。因此，是否保存在 Core Data 中，取决于你的具体使用场景。对于需要同步的应用来说，如果采用在 Core Data 中保存 URL 并将数据保存到目录的方式，需要自己实现外置数据的同步。 ([View Highlight](https://read.readwise.io/read/01hd4cbd57g4yhwer0yf1040ht)) #Highlight #[[2023-10-20]]
 - 在使用单 Container 的情况下，开发者可以通过 UserDefaults 的方式，控制应用程序在下次冷启动时，是否启用网络同步功能（ 通过设置 cloudKitContainerOptions 与否 ）。 ([View Highlight](https://read.readwise.io/read/01hd4ch0x4f8ec5006h79vbgdt)) #Highlight #[[2023-10-20]]
 - 在 SwiftUI 中，我们通常会使用 environment 为视图树注入视图上下文，一旦 loadPersistentStores 出现错误导致 container 无法正常创建，那么调用上下文的注入将会失败，导致无法进入 UI 界面。如需要处理这种情况，就需要在主视图（ 或使用 Core Data 功能的根视图 ）对 Container 的状态进行判断（ 通常是在 loadPersistentStores 闭包中修改状态 ），转入失败提示逻辑。 ([View Highlight](https://read.readwise.io/read/01hd4cj5t3m991z3wqmhz18rcc)) #Highlight #[[2023-10-20]]

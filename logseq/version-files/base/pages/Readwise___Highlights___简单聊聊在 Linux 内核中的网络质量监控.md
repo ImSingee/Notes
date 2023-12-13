@@ -3,7 +3,6 @@ author:: [[manjusaka.blog]]
 full-title:: 简单聊聊在 Linux 内核中的网络质量监控
 category:: #articles
 url:: https://www.manjusaka.blog/posts/2022/01/31/a-simple-introduction-about-network-monitoring-in-linux-kernel/index.html
-
 - 随着技术的发展，大家对于服务的稳定性要求越来越高，而保证服务质量的前提就是有着合格的监控的覆盖面（阿里对于服务稳定性的要求叫做 “1-5-10” 即，一分钟发现，五分钟处理，十分钟自愈，而这样一个对于稳定性的要求没有足够的覆盖面的监控的话，那么一切等于圈圈）。而在这其中，网络质量的监控是重中之重 #Highlight #[[2023-10-30]]
 - 在讨论网络质量的监控之前，我们需要来明确网络质量这个定义的覆盖范围。
   

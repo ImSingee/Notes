@@ -4,7 +4,6 @@ full-title:: 一文读懂 Linux 内存分配全过程
 category:: #articles
 url:: https://juejin.cn/post/6959754877400514574
 tags:: #[[favorite]] #[[ifttt]] #[[instapaper]] #[[linux]]
-
 - Linux 会把进程虚拟内存空间划分为多个分区，在 Linux 内核中使用 `vm_area_struct` 对象来表示 ([View Highlight](https://read.readwise.io/read/01he6wyzhb2f88wf9c03jtfrge)) #Highlight #[[2023-11-02]]
 - 内核就是使用 `vm_area_struct` 对象来记录一个内存分区（如 `代码段`、`数据段` 和 `堆空间` 等），下面介绍一下 `vm_area_struct` 对象各个字段的作用：
   

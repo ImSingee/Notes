@@ -3,7 +3,6 @@ author:: [[javier]]
 full-title:: Alignment Guides in SwiftUI SwiftUI 中的对齐向导
 category:: #articles
 url:: https://swiftui-lab.com/alignment-guides/
-
 - An alignment guide is basically a numeric value. It sets a point in a view, that determines how to position it in relation to the rest of its siblings. ([View Highlight](https://read.readwise.io/read/01hb89vhy3t9n6zh6qj16f7s63)) #Highlight #[[2023-09-26]]
 - **Container Alignment:** It has two purposes. It dictates which alignmentGuides() are to be ignored and which ones aren’t. But it also defines implicit alignment guides for all its contained views that do not have an explicit guide.  
   容器对齐：它有两个目的。它决定了要忽略哪些alignmentGuides()，以及哪些不要忽略。但它还为所有没有显式指南的包含视图定义了隐式对齐指南。  

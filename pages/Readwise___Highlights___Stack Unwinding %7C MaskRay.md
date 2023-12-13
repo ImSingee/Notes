@@ -4,7 +4,6 @@ full-title:: Stack Unwinding | MaskRay
 category:: #articles
 url:: https://maskray.me/blog/2020-11-08-stack-unwinding
 tags:: #[[binary]] #[[favorite]] #[[linux]] #[[os]] #[[OS]]
-
 - Stack unwinding主要有以下作用：
   
   •   获取stack trace，用于debugger、crash reporter、profiler、garbage collector等

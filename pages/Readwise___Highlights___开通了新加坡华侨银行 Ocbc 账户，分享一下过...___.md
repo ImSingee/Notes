@@ -3,7 +3,6 @@ author:: [[@plusyip on Twitter]]
 full-title:: 开通了新加坡华侨银行 Ocbc 账户，分享一下过...
 category:: #tweets
 url:: https://twitter.com/plusyip/status/1714897450077700170
-
 - 开通了新加坡华侨银行 OCBC 账户，分享一下过程和顺便赚点奖励 🤪
   需要准备的材料：
   1. 护照

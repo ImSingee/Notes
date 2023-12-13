@@ -3,7 +3,6 @@ author:: [[@jolestar on Twitter]]
 full-title:: Tweets From Jolestar
 category:: #tweets
 url:: https://twitter.com/jolestar
-
 - 看了下承德程序员的案子，用的是“计算机信息网络国际联网管理暂行规定”和“实施办法”。 19年的时候，我粗略调研过有司的翻墙案件案例，打击卖 VPN 主要用的是“提供侵入、非法控制计算机信息系统程序、工具罪”，部分用“非法经营罪”，依据也是上面的“国际联网管理暂行规定”。
   
   但你仔细看一下上面的规定以及实施办法。比如承德案子中引用的**“规定”的“第六条”**

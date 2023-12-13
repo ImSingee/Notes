@@ -4,7 +4,6 @@ full-title:: 深入理解iOS Jetsam机制，助力提升Flotsam召回率
 category:: #articles
 url:: https://mp.weixin.qq.com/s/vUMmQvZ1I91fhf8kFXY_mA
 tags:: #[[favorite]] #[[swift]] #[[Swift]]
-
 - Jetsam 机制负责在内存不足时终止进程以释放内存资源，了解 Jetsam 的工作原理和相关策略，可以帮助开发者优化应用程序的内存使用，提高 Flotsam 召回率。
   
   Flotsam 是快手定义的指标，是指 iOS 上未被监控捕获到的前台异常退出，包括但不限于由于内存溢出引起的退出。与 Jetsam 不同，Flotsam 更多地关注那些零碎、尚未明确归因的异常退出。了解 Jetsam 的工作原理和相关策略，对开发者来说，不仅有助于优化应用内存使用，还能显著提高 Flotsam 召回率，进一步提升应用的稳定性和用户体验。 ([View Highlight](https://read.readwise.io/read/01hcvpxhmg9twke6vgstkc55p0)) #Highlight #[[2023-10-16]]

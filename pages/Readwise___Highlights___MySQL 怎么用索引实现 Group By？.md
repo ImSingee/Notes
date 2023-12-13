@@ -4,7 +4,6 @@ full-title:: MySQL 怎么用索引实现 Group By？
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247508383&idx=2&sn=de9c5eeac094b6e78304f2ff059a0a5c&chksm=f98de535cefa6c23faa6d74bb7d7a74afbc9cd9da498b1cc0322c01279acfb518f4eeb8c50ec#rd
 tags:: #[[favorite]] #[[inoreader]] #[[mysql]] #[[star]] #[[微信公众号]]
-
 - 使用索引实现 group by，最简单的方式，大概就是这样了：
   
   •   存储引擎按顺序一条一条读取记录，返回给 server 层。

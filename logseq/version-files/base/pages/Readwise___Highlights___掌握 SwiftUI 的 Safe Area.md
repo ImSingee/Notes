@@ -4,7 +4,6 @@ full-title:: 掌握 SwiftUI 的 Safe Area
 category:: #articles
 url:: https://www.fatbobman.com/posts/safeArea
 tags:: #[[favorite]] #[[swift]] #[[肘子的swift记事本]]
-
 - 在 UIKit 中，开发者需要利用 safeAreaInsets 或 safeAreaLayoutGuide ，才能确保将视图放置在界面中的可见部分。
   
   SwiftUI 对上述过程进行了彻底的简化。除非开发者明确要求视图突破安全区域的限制，否则 SwfitUI 将尽力确保开发者创建的视图都被布局到安全区域当中。 ([View Highlight](https://read.readwise.io/read/01hd3ct1aq6j67ndh4r4j7630g)) #Highlight #[[2023-10-19]]

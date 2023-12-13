@@ -4,7 +4,6 @@ full-title:: HTTP/2 Rapid Reset：解构这场破纪录的攻击
 category:: #articles
 url:: https://blog.cloudflare.com/zh-cn/technical-breakdown-http2-rapid-reset-ddos-attack-zh-cn/
 tags:: #[[cloudflare]] #[[go inbox]] #[[inoreader]] #[[博客]]
-
 - 客户端半关闭状态意味着它不能再发送HEADERS或DATA，只能发送 [WINDOW_UPDATE](https://www.rfc-editor.org/rfc/rfc9113.html#section-6.9)、[PRIORITY](https://www.rfc-editor.org/rfc/rfc9113.html#section-6.3) 或 RST_STREAM 帧。然而，它可以接收任何帧。 ([View Highlight](https://read.readwise.io/read/01hdc04qaf3rw47p1ggqvk79dj)) #Highlight #[[2023-10-22]]
 - 服务器半关闭状态意味着它可以发送任何帧，但只能接收 WINDOW_UPDATE、PRIORITY 或 RST_STREAM 帧。 ([View Highlight](https://read.readwise.io/read/01hdc076q73h7kw72mevm68qkr)) #Highlight #[[2023-10-22]]
 - [HTTP/2](https://www.rfc-editor.org/rfc/rfc9113) 解决了 HTTP/1.1 的许多问题。每个 HTTP 消息都被序列化为一组 **HTTP/2 帧**，这些帧具有类型、长度、标志、流标识符 (ID) 和有效负载。流 ID 清楚地表明线路上的哪些字节适用于哪个消息，从而允许安全的多路复用和并发。流是双向的。客户端发送帧，服务器使用相同的 ID 回复帧。 ([View Highlight](https://read.readwise.io/read/01hdd4k59nh75m9vseaj5zc2qv)) #Highlight #[[2023-10-23]]

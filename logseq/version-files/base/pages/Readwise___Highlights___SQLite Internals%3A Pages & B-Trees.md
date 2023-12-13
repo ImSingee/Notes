@@ -3,7 +3,6 @@ author:: [[Ben Johnson]]
 full-title:: SQLite Internals: Pages & B-Trees
 category:: #articles
 url:: https://fly.io/blog/sqlite-internals-btree/
-
 - For our name column, the `0x1b` value specifies that it is a `TEXT` type and has a length of 7 bytes. Type values that are odd and are greater or equal to 13 are `TEXT` fields and can be calculated with the formula `(n*2) + 13`. So our 7-byte string is `(7*2) + 13` which is 27, or `0x1b` in hex. ([View Highlight](https://read.readwise.io/read/01hf4xnx4x89256fwswr5cc443)) #Highlight #[[2023-11-14]]
 - `BLOB` fields are similar except they’re even numbers calculated as `(n*2) + 12`. ([View Highlight](https://read.readwise.io/read/01hf4xpg2qy9zpz2s4btkqb87k)) #Highlight #[[2023-11-14]]
 - Once our types are all encoded, we just need to pack our data in. ([View Highlight](https://read.readwise.io/read/01hf4xvd70j9jqe7wg9nvc25dc)) #Highlight #[[2023-11-14]]

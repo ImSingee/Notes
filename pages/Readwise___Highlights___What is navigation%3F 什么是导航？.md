@@ -5,7 +5,6 @@ category:: #articles
 url:: https://pointfreeco.github.io/swift-composable-architecture/main/documentation/composablearchitecture/whatisnavigation
 tags:: #[[swift]] #[[Swift]]  
 ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_182549/developer-og.jpg)
-
 - Most real-world applications will use a mixture of tree-based and stack-based navigation. For example, the root of your application may use stack-based navigation with a `NavigationStack` view, but then each feature inside the stack may use tree-based navigation for showing sheets, popovers, alerts, etc. But, there are pros and cons to each form of navigation, and so it can be important to be aware of their differences when modeling your domains.  
   现实世界中的大多数应用程序都会混合使用树形导航和堆栈导航。例如，应用程序的根节点可能会使用基于堆栈的导航，并使用 `NavigationStack` 视图，但堆栈内的每个功能可能会使用基于树的导航来显示工作表、弹出窗口、警报等。但是，每种导航形式都有利弊，因此在对域进行建模时，一定要注意它们之间的区别。 ([View Highlight](https://read.readwise.io/read/01he4zpjjf708y0en30hb80ra2)) #Highlight #[[2023-11-01]]
 - If you modularize the features of your application, then those feature modules will be more self-contained when built with the tools of tree-based navigation. This means that Xcode previews and preview apps built for the feature will be fully functional.  

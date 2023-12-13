@@ -4,7 +4,6 @@ full-title:: 第一部分完结 进入内核前的苦力活
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=Mzk0MjE3NDE0Ng==&mid=2247499882&idx=1&sn=68fd16c5aeae15084be58afb1e5bd9e8&chksm=c2c5bac7f5b233d1c486fa57e9e3a2bc907a92ab69ff0344babab4d50bdaf76e7766b4b42914#rd
 tags:: #[[inoreader]] #[[star]] #[[微信公众号]]
-
 - ![Image](https://mmbiz.qpic.cn/mmbiz_png/GLeh42uInXSsqVrEibE9LXat88ha3emc5lAsIibL0uiaBjemPeeEpabrRuZmZQeTicWkQlr5OXDUPuticchZ6XMUmww/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1) ([View Highlight](https://read.readwise.io/read/01hf1wc5pkpnk6b5aqr1nb7myh)) #Highlight #[[2023-11-12]]
 - 当你按下开机键的那一刻，在主板上提前写死的固件程序 BIOS 会将硬盘中启动区的 512 字节的数据，原封不动复制到内存中的 0x7c00 这个位置，并跳转到那个位置进行执行，  
   

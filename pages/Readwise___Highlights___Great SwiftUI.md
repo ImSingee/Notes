@@ -3,7 +3,6 @@ author:: [[in.swiftui.wtf]]
 full-title:: Great SwiftUI
 category:: #articles
 url:: https://in.swiftui.wtf/great?utm_source=substack&utm_medium=email
-
 - When we want to apply an effect, show/hide a view under a condition, or change it’s layout, it’s much better to always build the same view hierarchy, and use values to visually apply the effect without actually changing the view tree, or the layout. This makes [animations better, and overall performance better](https://forums.swift.org/t/conditionally-apply-modifier-in-swiftui/32815/9) ([another example](https://twitter.com/chriseidhof/status/1541408390232023041?s=21&t=CTciV03XA6Ns9TQjUDs2hg)). #Highlight #[[2023-10-17]]
 - “Branches are great, and they exist in SwiftUI for a reason. But when used unnecessarily, they can cause poor performance, surprising animations, and \[…\] even loss of state.
   
