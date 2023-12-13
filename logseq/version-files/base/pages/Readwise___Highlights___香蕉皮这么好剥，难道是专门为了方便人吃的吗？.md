@@ -4,7 +4,6 @@ full-title:: 香蕉皮这么好剥，难道是专门为了方便人吃的吗？
 category:: #articles
 url:: https://daily.zhihu.com/story/9749412
 tags:: #[[inoreader]] #[[read]] #[[star]]
-
 - **再小的树，只要是由木质茎组成的，那就是树。**
   
   **再大的草，如果是由草质茎组成的，那也是草。** ([View Highlight](https://read.readwise.io/read/01hfb1ppmxsqf819t7ftveew8f)) #Highlight #[[2023-11-16]]

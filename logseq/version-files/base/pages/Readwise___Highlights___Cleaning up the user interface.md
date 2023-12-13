@@ -3,7 +3,6 @@ author:: [[Paul Hudson]]
 full-title:: Cleaning up the user interface
 category:: #articles
 url:: https://www.hackingwithswift.com/books/ios-swiftui/cleaning-up-the-user-interface
-
 - The last change we're going to make is small, but magical. Take a look at this code again, which shows how many cups of coffee the user has had:
   
     Stepper("\(coffeeAmount) cup(s)", value: $coffeeAmount, in: 1...20)

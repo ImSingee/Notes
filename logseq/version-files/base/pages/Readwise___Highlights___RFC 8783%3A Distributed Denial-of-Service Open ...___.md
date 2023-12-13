@@ -3,7 +3,6 @@ author:: [[rfc-editor.org]]
 full-title:: RFC 8783: Distributed Denial-of-Service Open Threat Signaling (DOTS) Data Channel Specification
 category:: #articles
 url:: https://www.rfc-editor.org/rfc/rfc9113
-
 - When set, the END_STREAM flag indicates that this frame is the last that the endpoint will send for
               the identified stream.  Setting this flag causes the stream to enter one of the "half-closed" states or the "closed" state (Section 5.1). #Highlight #[[2023-10-23]]
 - An endpoint that learns of stream closure after sending all data can close a

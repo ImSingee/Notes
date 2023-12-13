@@ -3,7 +3,6 @@ author:: [[pengx17.vercel.app]]
 full-title:: Electron：质疑，理解与成为
 category:: #articles
 url:: https://pengx17.vercel.app/posts/becoming-electron-fan
-
 - Tauri的出色之处在于，它利用了系统自带的网页渲染引擎作为自己的webview，这使得它的体积更小，性能更高，从而更适合于桌面端的应用开发和使用。
   
   尽管我们最初期望通过使用Tauri来解决一些Electron存在的问题，但我们也不可避免地遇到了一些Tauri自身的问题，例如：

@@ -4,7 +4,6 @@ full-title:: 什么是mysql脏页
 category:: #articles
 url:: https://juejin.cn/post/6966778167994351653
 tags:: #[[ifttt]] #[[instapaper]] #[[mysql]]
-
 - 缓冲区中包含这三大类列表。分别为：`LRUList`、`FreeList`、`FlushList`。
   
   在数据库刚启动时，LRUlist中`没有数据页`。FreeList存放空闲页。

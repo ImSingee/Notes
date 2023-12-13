@@ -4,7 +4,6 @@ full-title:: 使用 Gperftools 分析程序性能
 category:: #articles
 url:: https://luyuhuang.tech/2022/04/10/gperftools.html
 tags:: #[[inoreader]] #[[star]] #[[博客]]
-
 - [gperftools](https://github.com/gperftools/gperftools) 是谷歌推出的一套非常强大的性能分析工具集. 它主要有这三个功能:
   
   •   分析 CPU 性能, 能够统计出一段时间内各个函数的执行时间, 帮助我们找出耗时的代码;

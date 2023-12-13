@@ -4,7 +4,6 @@ full-title:: Linux进程间通信 : 掘金
 category:: #articles
 url:: https://juejin.cn/post/7031740212648607775
 tags:: #[[coding]] #[[inoreader]] #[[newspaper]]
-
 - 进程间通信的目的
   
   •   数据传输： 一个进程需要将它的数据发送给另一个进程。

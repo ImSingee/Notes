@@ -4,7 +4,6 @@ full-title:: What Are Email Headers?
 category:: #articles
 url:: https://proton.me/blog/what-are-email-headers
 tags:: #[[go inbox]] #[[inoreader]] #[[the proton blog]] #[[博客]]
-
 - Most emails typically contain many other fields, such as:
   
   •   **Subject**: the title as displayed in the Subject line

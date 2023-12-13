@@ -4,7 +4,6 @@ full-title:: Go内存逃逸 – 烟草的香味
 category:: #articles
 url:: https://hujingnb.com/archives/884
 tags:: #[[inoreader]] #[[博客]] #[[烟草的香味]]
-
 - 有没有办法在一个`Go`程序中检查哪里会发生内存逃逸呢? (逃逸是发生在编译期的呦). 就是`build`命令:
   
   `go build -gcflags '-m -l' main.go`

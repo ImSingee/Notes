@@ -4,7 +4,6 @@ full-title:: 一段因 @State 注入机制所产生的“灵异代码”
 category:: #articles
 url:: https://www.fatbobman.com/posts/bug-code-by-state-inject
 tags:: #[[inoreader]] #[[博客]] #[[肘子的swift记事本]]
-
 - 针对值类型的主要注入手段 @State，SwiftUI 则为其实现了高度的优化机制（ EnvironmentValue 没有提供优化，行为与引用类型注入行为一致 ）。这意味着，即使我们在定义视图的结构体中声明了使用 @State 标注的变量，但只要 body 中没有使用该属性（ 通过 ViewBuilder 支持的语法 ），即使该属性发生变化，视图也不会刷新。 ([View Highlight](https://read.readwise.io/read/01hd36kt9c59ecmkkcgb5gdahg)) #Highlight #[[2023-10-19]]
 - 与大多数的 View Extension 和 ViewModifier 不同，在视图中，通过 `.sheet` 或 `.fullScreenCover` 来声明的模态视图内容代码的闭包，只会在显示模态视图的时候才会被调用、解析（ 对闭包中的 View 进行求值 ）。
   

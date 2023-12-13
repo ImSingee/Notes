@@ -3,7 +3,6 @@ author:: [[rust-coding-guidelines.github.io]]
 full-title:: G.VAR.04 避免因局部变量过大而导致的大量栈分配 - Rust 编码规范 v 1.0 Beta
 category:: #articles
 url:: https://rust-coding-guidelines.github.io/rust-coding-guidelines-zh/safe-guides/coding_practice/variables/G.VAR.04.html
-
 - 采用Box<T>分配也可能出现栈溢出，参见issues #53827，因为目前 Box<T>的行为是先在栈上分配然后再复制到堆上。 #Highlight #[[2023-10-12]]
 - Rust 默认栈分配空间为：
   

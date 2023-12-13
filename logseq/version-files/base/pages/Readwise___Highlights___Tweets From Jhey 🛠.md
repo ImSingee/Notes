@@ -3,7 +3,6 @@ author:: [[@jh3yy on Twitter]]
 full-title:: Tweets From Jhey 🛠
 category:: #tweets
 url:: https://twitter.com/jh3yy
-
 - Reminder 📢
   
   If you're animating numbers, use this line of CSS 👇

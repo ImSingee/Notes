@@ -4,7 +4,6 @@ full-title:: Ceph简介与体系架构
 category:: #articles
 url:: https://juejin.cn/post/7176786232007983141
 tags:: #[[inoreader]] #[[read]] #[[掘金 - 后端]]
-
 - Ceph 独一无二地用统一的系统提供了**对象、块、和文件存储**功能，它可靠性高、管理简便、并且是自由软件。 ([View Highlight](https://read.readwise.io/read/01hdfzhtpq0n2axpeg8gzj1hqb)) #Highlight #[[2023-10-24]]
 - ceph是一种开源的分布式的存储系统 包含以下几种存储类型：
   

@@ -4,7 +4,6 @@ full-title:: Bash 基本运算
 category:: #articles
 url:: https://mathpretty.com/14592.html
 tags:: #[[inoreader]] #[[star]] #[[博客]]
-
 - •   `expr`, 可用于整数运算，为内置命令来自于 `Unix`；
   •   `$[ ]`, 简单算术运算，是较老版本；
   •   `(( ))`, 用于简单算术运算，`bash` 中的算术扩展，是 `$[]` 的升级版（**推荐使用**）；

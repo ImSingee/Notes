@@ -4,7 +4,6 @@ full-title:: 昨天和飞书总裁张楠有个交流。 我也想清楚了，什
 category:: #articles
 url:: https://m.okjike.com/originalPosts/62b53735057d8df28591ee99?s=ewoidSI6ICI1N2IxNTU4ZmZhZjkzOTEyMDAxNWIyNjIiCn0=
 tags:: #[[产品]]
-
 - 飞书与钉钉的本质差别：  
   “钉钉是以消息为中心。飞书不是，飞书是以文档为中心，加上了通讯。”  
   

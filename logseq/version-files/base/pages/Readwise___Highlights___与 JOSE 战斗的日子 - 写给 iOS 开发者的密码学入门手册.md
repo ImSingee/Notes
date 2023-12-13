@@ -3,7 +3,6 @@ author:: [[王巍 (onevcat)]]
 full-title:: 与 JOSE 战斗的日子 - 写给 iOS 开发者的密码学入门手册
 category:: #articles
 url:: https://onevcat.com/2018/12/jose-1/
-
 - JWT 有两种实现，分别是 JWS (JSON Web Signature) 和 JWE (JSON Web Encryption)。由于 JWS 的应用更为广泛，所以一般说起 JWT 大家默认会认为是 JWS。JWS 的 Payload 是 Base64Url 的明文，而 JWE 的数据则是经过加密的。相对地，相比于 JWS 的三个部分，JWE 有五个部分组成 ([View Highlight](https://read.readwise.io/read/01he1vwf36g2bh0syz2781y6xn)) #Highlight #[[2023-10-31]]
 - JWT 其实是 JOSE 这个更大的概念中的一个组成部分。JOSE (Javascript Object Signing and Encryption) 定义了一系列标准，用来规范在网络传输中使用 JSON 的方式。我们在上面介绍过了JWS 和 JWE，在这一系列概念中还有两个比较重要，而且相互关联的概念：JWK 和 JWA。它们一起组成了整个 JOSE 体系。
   

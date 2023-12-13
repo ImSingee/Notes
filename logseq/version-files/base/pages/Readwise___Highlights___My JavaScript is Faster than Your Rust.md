@@ -3,5 +3,4 @@ author:: [[Josh Urbane]]
 full-title:: My JavaScript is Faster than Your Rust
 category:: #articles
 url:: https://medium.com/@jbyj/my-javascript-is-faster-than-your-rust-5f98fe5db1bf
-
 - For my FaaS project, we ended up building a dynamic allocator that chooses the allocation algorithm based on usage and that choice persists between runs. For ‘low-usage’ functions (seemingly the majority of functions thus far), a naive stack allocator is used that just maintains a single pointer to the next free slot. When dealloc is called, if the unit is the last one on the stack it will just roll back the pointer, otherwise it is a noop. When the function has completed, the pointer is set to 0 (like Node.js exiting before GC). If the function hits a certain number of failed deallocs *and* a certain usage threshold, a different allocation algorithm is then used for the remainder of calls. The result is very fast memory allocation in the majority of cases. ([View Highlight](https://read.readwise.io/read/01hcy1tc6vs073s05knn41efd8)) #Highlight #[[2023-10-17]]

@@ -4,7 +4,6 @@ full-title:: 一文告诉你哪些map Element类型支持就地更新
 category:: #articles
 url:: https://tonybai.com/2023/04/02/map-element-types-support-in-place-update/
 tags:: #[[golang]] #[[inoreader]] #[[tony bai]] #[[博客]]
-
 - 地址是map在runtime层维护的内存地址，一旦暴露出来至少会有如下两个问题：
   
   •   并发访问时会导致该element数据的竞争问题；

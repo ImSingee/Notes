@@ -3,7 +3,6 @@ author:: [[@GoblinModeFish on Twitter]]
 full-title:: Tweets From 躺平胖头鱼
 category:: #tweets
 url:: https://twitter.com/GoblinModeFish
-
 - @madawei2699 SWIFT汇款常见坑
   
   费用承担三种方式：

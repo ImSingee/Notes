@@ -3,7 +3,6 @@ author:: [[@rajhraval on Twitter]]
 full-title:: Tweets From Raj Raval
 category:: #tweets
 url:: https://twitter.com/rajhraval
-
 - Creating a Vertical Pager using ScrollView is  jiff in SwiftUI.
   
   The new modifier in iOS 17 .scrollTargetBehaviour makes it easy.

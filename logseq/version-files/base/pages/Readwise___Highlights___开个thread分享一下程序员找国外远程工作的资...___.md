@@ -3,7 +3,6 @@ author:: [[@shengxj1 on Twitter]]
 full-title:: 开个thread分享一下程序员找国外远程工作的资...
 category:: #tweets
 url:: https://twitter.com/shengxj1/status/1632317733517004800
-
 - 开个thread分享一下程序员找国外远程工作的资源&网站，脱离国内卷的环境的手段之一 ([View Tweet](https://twitter.com/shengxj1/status/1632317733517004800)) #Highlight #[[2023-10-24]]
 - 电鸭社区，数字游民的聚集地，还有【程序员英语训练营】不定期有招聘机会
   https://t.co/aGyW0be7db ([View Tweet](https://twitter.com/shengxj1/status/1632317935816687616)) #Highlight #[[2023-10-24]]

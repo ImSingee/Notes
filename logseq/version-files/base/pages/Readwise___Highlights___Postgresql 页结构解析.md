@@ -4,7 +4,6 @@ full-title:: Postgresql 页结构解析
 category:: #articles
 url:: https://juejin.cn/post/7214254999907975226
 tags:: #[[inoreader]] #[[read]] #[[掘金 - 后端]]
-
 - 一般来说，数据表数据物理存储在非易失性存储设备上面，PG也不例外。如下图所示，数据表中的数据存储在N个数据文件中，每个数据文件有N个Page（大小默认为8K，可在编译安装时指定）组成。Page为PG的最小存取单元。
   
   ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/00947c7aaa974e4fade5a2d7141a12c6~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?) ([View Highlight](https://read.readwise.io/read/01hetm8a9a11abm6cbxp2q89f8)) #Highlight #[[2023-11-10]]

@@ -3,7 +3,6 @@ author:: [[@LuoSays on Twitter]]
 full-title:: Tweets From Luo说不啰嗦
 category:: #tweets
 url:: https://twitter.com/LuoSays
-
 - Lemon Squeezy 最近发布了一个 SaaS boilerplate，来帮助用户快速开发一个 SaaS 产品。
   
   这个框架使用的技术栈如下：

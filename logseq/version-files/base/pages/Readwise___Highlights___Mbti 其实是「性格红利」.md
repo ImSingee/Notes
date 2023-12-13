@@ -4,7 +4,6 @@ full-title:: Mbti 其实是「性格红利」
 category:: #articles
 url:: https://www.ixiqin.com/2022/04/12/mbti-is-actually-character-dividend-2/
 tags:: #[[inoreader]] #[[star]] #[[博客]]
-
 - 你提前预知了别人的MBTI类型（比如我公开了），那你就可以用他最舒服的方式和他沟通；相比于不知道的人来说，你会选择和你沟通起来更舒服，更同频的人。
   
   这才是 MBTI 的性格红利。

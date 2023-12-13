@@ -1,0 +1,20 @@
+title:: Readwise/Highlights/Great SwiftUI
+author:: [[in.swiftui.wtf]]
+full-title:: Great SwiftUI
+category:: #articles
+url:: https://in.swiftui.wtf/great?utm_source=substack&utm_medium=email
+- When we want to apply an effect, show/hide a view under a condition, or change it’s layout, it’s much better to always build the same view hierarchy, and use values to visually apply the effect without actually changing the view tree, or the layout. This makes [animations better, and overall performance better](https://forums.swift.org/t/conditionally-apply-modifier-in-swiftui/32815/9) ([another example](https://twitter.com/chriseidhof/status/1541408390232023041?s=21&t=CTciV03XA6Ns9TQjUDs2hg)). #Highlight #[[2023-10-17]]
+- “Branches are great, and they exist in SwiftUI for a reason. But when used unnecessarily, they can cause poor performance, surprising animations, and \[…\] even loss of state.
+  
+  When you introduce a branch, pause for a second and consider whether you're representing multiple views or two states of the same view.” #Highlight #[[2023-10-17]]
+- Sometimes we might find ourselves in a situation where we want to observe some ObservableObject. (Either via @StateObject, or some other published object like @EnvironmentObject, @ObservedObject), and that object is itself holding some other ObservableObject as a @Published variable. SwiftUI does not support this case - if the nested object changes, our view will not get notified, and won't be updated. #Highlight #[[2023-10-17]]
+- When adding properties to a view, they might be created by the view (like State, constants, AppStorage etc.) or be dependencies (like Binding, let, ObservedObject). Everything that is not passed to the view, should be private. Environment is a unique case since it is a dependency, but is injected by the framework, and therefore can be private as well.
+  
+  This makes it clear what external data the view depends on, versus what it creates by itself, and makes code auto completion of the generated initializer more accurate. #Highlight #[[2023-10-17]]
+- Views should lack any app/domain-specific knowledge. A view can have an extension, with convenience initializer, which injects any needed app/domain specific values/objects in a generic way. #Highlight #[[2023-10-17]]
+- Views should be able to be rendered in any context (inside another screen, as full cover modal, pushed in navigation, as a tab in tab bar, etc.). This means you should never use something like device screen for determining size. Instead - use and manipulate the given space. You can add Spacer() to fill in "gaps”, read the offered bounds with GeometryReader, etc. #Highlight #[[2023-10-17]]
+- Many times we use constants to align the layout with the design to be “pixel-perfect”, but the design is presenting a single screen, on a single device, in a single scenario. It doesn’t include different screens sizes, orientation, and state (eg, active phone call status bar on iPhone SE). Where possible, layout adjustments (for example, setting offset of views, or “nudging” them in some direction) should be done based on a calculation of the dynamic layout, and not a “magic number”.
+  
+  For example, offset for a view under the navigation bar should read and use its size instead of hardcoding the common value of 44. [GeometryReader](https://swiftui-lab.com/geometryreader-to-the-rescue/) and [AnchorPreferences](https://swiftui-lab.com/communicating-with-the-view-tree-part-2/) provide the needed info at runtime. #Highlight #[[2023-10-17]]
+- Custom views should own their "container" view if it’s a static list (Stack, Form, List), but not if it's lazy or repeatable (LazyStack, List with data, LazyGrid, ForEach). #Highlight #[[2023-10-17]]
+- As mentioned in the [Data Essentials talk](https://developer.apple.com/videos/play/wwdc2020-10040/?time=1506) from wwdc, making any side effects, including dispatching, will slow down the view's creation, and might cause frame drops. Try to make the body function be a pure structural representation of the view's state, without any extra work or logic. #Highlight #[[2023-10-17]]

@@ -3,7 +3,6 @@ author:: [[@fuergaosi on Twitter]]
 full-title:: Tweets From Holegots
 category:: #tweets
 url:: https://twitter.com/fuergaosi
-
 - GPT-4V System Prompt
   ----
   You are ChatGPT, a large language model trained by OpenAI, based on the GPT-4 architecture.

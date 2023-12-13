@@ -3,7 +3,6 @@ author:: [[Proton]]
 full-title:: What Is Authenticated Received Chain (ARC) and Why Does It Matter?
 category:: #articles
 url:: https://proton.me/blog/what-is-authenticated-received-chain-arc
-
 - Authenticated Received Chain (ARC) is an email authentication method that allows receiving mail servers to check the authentication results of an email when it’s forwarded or relayed by an intermediate server. ([View Highlight](https://read.readwise.io/read/01hf8f9pg6absj0616y8684nyp)) #Highlight #[[2023-11-15]]
 - When an email passes through a trusted intermediate server, the server [digitally signs(new window)](https://proton.me/blog/what-is-a-digital-signature) the message and adds this **ARC signature** to the [email header(new window)](https://proton.me/blog/what-are-email-headers). For each hop of a message’s journey from A to B, trusted intermediate servers add their signature, forming a chain of ARC signatures.
   

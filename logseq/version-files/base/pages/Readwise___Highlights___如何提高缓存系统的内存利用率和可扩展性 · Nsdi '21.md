@@ -3,7 +3,6 @@ author:: [[draveness.me]]
 full-title:: 如何提高缓存系统的内存利用率和可扩展性 · Nsdi '21
 category:: #articles
 url:: https://draveness.me//papers-segcache
-
 - Segcache 使用数据段（Segment）组织缓存中的数据，它会在固定大小的数据段中存储数据并提供以下三个特性：
   
   •   将创建时间和过期时间相似的对象分组存储；

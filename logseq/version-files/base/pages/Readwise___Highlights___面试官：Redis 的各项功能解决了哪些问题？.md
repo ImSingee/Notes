@@ -4,7 +4,6 @@ full-title:: 面试官：Redis 的各项功能解决了哪些问题？
 category:: #articles
 url:: https://www.cxyxiaowu.com/20485.html
 tags:: #[[coding]] #[[database]] #[[inoreader]] #[[博客]]
-
 - Redis 服务器毫无征兆的罢工是个麻烦事。那么怎办办？答曰：备份一台，你挂了它上。
   
   那么如何得知某一台 redis 服务器挂了，如何切换，如何保证备份的机器是原始服务器的完整备份呢？这时候就需要 Sentinel 和 Replication 出场了。

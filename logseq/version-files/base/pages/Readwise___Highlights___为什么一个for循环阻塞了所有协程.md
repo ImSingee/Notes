@@ -3,7 +3,6 @@ author:: [[封幼麟]]
 full-title:: 为什么一个for循环阻塞了所有协程
 category:: #articles
 url:: https://fengyoulin.com/for-block-all.html
-
 - 现在主流的协程实现，比如Go和Lua中的协程，运行时并不会主动抢占，都是以协程主动让出CPU的方式来进行调度的，所以如果某个协程很长时间不让出CPU，就会对整体调度造成影响。
   
   *注：Go1.14已经实现了真正意义上的抢占，不用再担心for循环阻塞GC了，这个以后再聊。*

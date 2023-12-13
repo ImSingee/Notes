@@ -3,7 +3,6 @@ author:: [[hackingwithswift.com]]
 full-title:: How to Limit Access to Internal Data Using Access Control - A Free Swift for Complete Beginners Tutorial
 category:: #articles
 url:: https://www.hackingwithswift.com/quick-start/beginners/how-to-limit-access-to-internal-data-using-access-control
-
 - Swift provides us with several options, but when you’re learning you’ll only need a handful: 
   
   Use private for “don’t let anything outside the struct use this.”

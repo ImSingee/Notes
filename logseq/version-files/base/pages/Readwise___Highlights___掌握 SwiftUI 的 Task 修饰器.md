@@ -4,7 +4,6 @@ full-title:: 掌握 SwiftUI 的 Task 修饰器
 category:: #articles
 url:: https://www.fatbobman.com/posts/mastering_SwiftUI_task_modifier/
 tags:: #[[favorite]] #[[swift]] #[[Swift]]
-
 - SwiftUI 为了判断视图的状态是否发生了改变，它会在视图的存续期内，反复地生成视图类型实例以达成此目的。因此，开发者应避免将一些会对性能造成影响的操作放置在视图类型的构造函数之中，而是在 onAppear 或 task 中进行该类型的操作 ([View Highlight](https://read.readwise.io/read/01hdzp8xtreazd11csqpdxy0kp)) #Highlight #[[2023-10-30]]
 - 我们还可以用 task 修饰器创建可以持续运行的异步任务 ([View Highlight](https://read.readwise.io/read/01hdzpc9q9r780nnqvj5w7c7g5)) #Highlight #[[2023-10-30]]
 - Swift 采用的是协作式任务取消机制，也就是说，SwiftUI 是无法直接停止掉我们通过 task 修饰器创建的异步任务的。当满足了需要停止由 task 修饰器创建的异步任务条件时，SwiftUI 会给该任务发送任务取消信号，任务必须自行响应该信号并停止作业。

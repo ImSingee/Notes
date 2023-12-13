@@ -5,7 +5,6 @@ category:: #articles
 url:: https://www.manjusaka.blog/posts/2023/03/12/a-simple-introduction-about-iac/#IaC-%E7%9A%84%E8%BF%87%E5%8E%BB
 tags:: #[[favorite]]  
 ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_182549/flower-7718952_1280.jpg)
-
 - 面对这样一套的问题的时候。更现代化的 IaC 设施应运而生。其中典型的一些产物是
   
   1.  Ansible

@@ -3,7 +3,6 @@ author:: [[tumutanzi.com]]
 full-title:: 学校教育为什么不教如何赚钱？
 category:: #articles
 url:: https://tumutanzi.com/archives/16794
-
 - **学校教学内容：**
   
   •   如何排队等候

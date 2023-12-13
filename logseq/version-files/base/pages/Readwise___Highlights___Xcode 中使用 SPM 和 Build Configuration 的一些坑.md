@@ -4,7 +4,6 @@ full-title:: Xcode 中使用 SPM 和 Build Configuration 的一些坑
 category:: #articles
 url:: https://onevcat.com/2022/10/spm-in-xcode/
 tags:: #[[favorite]] #[[Swift]]
-
 - 当 Xcode 选择使用 `.debug` 去编译 SPM 包时，它按照 Xcode 通用的编译条件，“自动地”传入 `DEBUG`。但是什么时候 Xcode 会去选择使用 `.debug`，什么时候它选择用 `.release` 呢？
   
   答案可能让人大跌眼镜。在 Xcode 环境下，Xcode 会基于 Build Configuration 的名字，来选择 SPM 包的所使用的编译配置。具体来说，暂时发现的规则有：

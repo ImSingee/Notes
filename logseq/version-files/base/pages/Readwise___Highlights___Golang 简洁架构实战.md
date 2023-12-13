@@ -4,7 +4,6 @@ full-title:: Golang 简洁架构实战
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649768313&idx=1&sn=110c893e73378e5ba88b079dd89fd210&chksm=beccd20289bb5b149f1a34f3f51f44371c6e293b397723556ba4703ef73602d3016cfc446788#rd
 tags:: #[[golang]] #[[inoreader]] #[[star]] #[[微信公众号]]
-
 - 对于简洁架构来说分为了四层：
   
   •   Entities：实体

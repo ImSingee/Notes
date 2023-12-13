@@ -5,7 +5,6 @@ category:: #articles
 url:: https://www.fatbobman.com/posts/layout-in-SwiftUI-way/
 tags:: #[[favorite]] #[[swift]] #[[肘子的swift记事本]]  
 ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_182549/layout-in-SwiftUI-way.png)
-
 - `Color.clear.ignoresSafeArea()` 将创建一个与屏幕尺寸一致的视图 ([View Highlight](https://read.readwise.io/read/01hd37kdjdtdcr2emadh6zrj0k)) #Highlight #[[2023-10-19]]
 - padding 是在布局层面进行的调整，添加 padding 后的视图，同时也会对其他视图的布局产生影响。offset 则是在渲染层面进行的位置调整，即使出现了位置变化，其他视图在布局时，并不会将其位移考虑在其中。 ([View Highlight](https://read.readwise.io/read/01hd37tg6y1eaymkdaghv1adrf)) #Highlight #[[2023-10-19]]
 - 无论为同一个视图添加多少层 overlay（ 或 background ），它们为子视图所提供的建议尺寸都是一致的（ 与原视图的尺寸一致 ） ([View Highlight](https://read.readwise.io/read/01hd37wd0djt45f0tgh9pdn773)) #Highlight #[[2023-10-19]]

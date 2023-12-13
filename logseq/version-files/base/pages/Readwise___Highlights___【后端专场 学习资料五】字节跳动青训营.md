@@ -4,7 +4,6 @@ full-title:: 【后端专场 学习资料五】字节跳动青训营
 category:: #articles
 url:: https://juejin.cn/post/7196322025114779703
 tags:: #[[favorite]]
-
 - •   定时任务是指系统为了**自动**完成特定任务，**实时、延时、周期**性完成任务调度的过程。
   •   分布式定时任务是把分散的、可靠性差的定时任务纳入统一的**平台**，并实现集群管理调度和**分布式部署**的一种定时任务的管理方式。 ([View Highlight](https://read.readwise.io/read/01hdg223ywv9q16kg3sp03f2an)) #Highlight #[[2023-10-24]]
 - 执行模式

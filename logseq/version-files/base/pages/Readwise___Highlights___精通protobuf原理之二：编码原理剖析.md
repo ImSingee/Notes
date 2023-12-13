@@ -4,7 +4,6 @@ full-title:: 精通protobuf原理之二：编码原理剖析
 category:: #articles
 url:: https://juejin.cn/post/7175805030191071293
 tags:: #[[inoreader]] #[[read]] #[[掘金 - 后端]]
-
 - 使用一个字节来表示 Tag 信息，高`5` 位表示 `field-number`，低 `3` 位表示 `wire-type`。
   
   css

@@ -3,7 +3,6 @@ author:: [[@tison1096 on Twitter]]
 full-title:: Tweets From Tison
 category:: #tweets
 url:: https://twitter.com/tison1096
-
 - 最近遇到的两个离谱的语言标准：
   
   1. 老朋友 JavaScript 表示 https://t.co/Lbz25KLRyI(0, -0) 是 false；jest 表示赞同 https://t.co/RV78XcEbDs

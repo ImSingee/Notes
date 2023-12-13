@@ -4,7 +4,6 @@ full-title:: 1link.fun 第 43 期: 全文搜索上线
 category:: #articles
 url:: https://1link.fun/blog/issue/issue43/
 tags:: #[[1link.fun]] #[[go inbox]] #[[inoreader]] #[[read]]
-
 - > 1.  激情是一把双刃剑, 激情+理性才可能做出成功的项目
   
   > 2.  独立开发并不意味着摆脱和人交往

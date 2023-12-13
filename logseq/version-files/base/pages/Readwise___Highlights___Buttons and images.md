@@ -3,7 +3,6 @@ author:: [[Paul Hudson]]
 full-title:: Buttons and images
 category:: #articles
 url:: https://www.hackingwithswift.com/books/ios-swiftui/buttons-and-images
-
 - SwiftUI has a dedicated `Image` type for handling pictures in your apps, and there are three main ways you will create them:
   
   •   `Image("pencil")` will load an image called “Pencil” that you have added to your project.

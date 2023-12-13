@@ -4,7 +4,6 @@ full-title:: 深度解读 Observation —— SwiftUI 性能提升的新途径
 category:: #articles
 url:: https://www.fatbobman.com/posts/mastering-Observation
 tags:: #[[favorite]] #[[inoreader]] #[[博客]] #[[肘子的swift记事本]]
-
 - Observation 框架从两方面改善了可观察对象在 SwiftUI 中的性能表现：
   
   •   通过观察视图中的可观察属性而不是可观察对象，可以减少大量无效的视图更新。

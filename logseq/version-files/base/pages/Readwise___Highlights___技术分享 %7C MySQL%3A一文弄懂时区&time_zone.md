@@ -3,7 +3,6 @@ author:: [[作者：胡呈清]]
 full-title:: 技术分享 | MySQL:一文弄懂时区&time_zone
 category:: #articles
 url:: https://opensource.actionsky.com/20211214-time_zone/
-
 - **NOW() 和 CURTIME() 系统函数的返回值受当前 session 的时区影响**
   
   不仅是select now()，包括insert .. values(now())、以及字段的 DEFAULT CURRENT_TIMESTAMP 属性也受此影响 ([View Highlight](https://read.readwise.io/read/01hc6ntmgq7j81zn8v3rdbd52r)) #Highlight #[[2023-10-08]]

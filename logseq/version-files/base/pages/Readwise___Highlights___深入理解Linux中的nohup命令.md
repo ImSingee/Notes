@@ -4,7 +4,6 @@ full-title:: 深入理解Linux中的nohup命令
 category:: #articles
 url:: https://juejin.cn/post/7215855138811150395
 tags:: #[[inoreader]] #[[read]] #[[掘金 - 后端]]
-
 - nohup命令的执行过程分为以下几个步骤：
   
   1.  nohup命令将当前shell的标准输入、标准输出和标准错误输出全部重定向到`/dev/null`设备中，避免被关闭终端的信号所中断。

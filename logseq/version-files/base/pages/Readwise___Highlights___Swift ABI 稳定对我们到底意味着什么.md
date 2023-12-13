@@ -3,7 +3,6 @@ author:: [[王巍 (onevcat)]]
 full-title:: Swift ABI 稳定对我们到底意味着什么
 category:: #articles
 url:: https://onevcat.com/2019/02/swift-abi/
-
 - 什么是 ABI 稳定？
   
   就是 binary 接口稳定，也就是在运行的时候只要是用 Swift 5 (或以上) 的编译器编译出来的 binary，就可以跑在任意的 Swift 5 (或以上) 的 runtime 上。这样，我们就不需要像以往那样在 app 里放一个 Swift runtime 了，Apple 会把它弄到 iOS 和 macOS 系统里。 ([View Highlight](https://read.readwise.io/read/01he1scehb3dyty082xzv56n63)) #Highlight #[[2023-10-31]]

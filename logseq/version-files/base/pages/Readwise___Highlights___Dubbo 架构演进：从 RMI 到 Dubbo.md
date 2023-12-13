@@ -4,7 +4,6 @@ full-title:: Dubbo 架构演进：从 RMI 到 Dubbo
 category:: #articles
 url:: https://juejin.cn/post/7193525150187257915
 tags:: #[[inoreader]] #[[read]] #[[掘金 - 后端]]
-
 - Dubbo 是从 RPC 起家，到现在则已经发展成为一个微服务的治理框架 ([View Highlight](https://read.readwise.io/read/01hdg03cvf4pa6dp3bqkds2t8r)) #Highlight #[[2023-10-24]]
 - 在 Dubbo 的核心领域模型中，可以看到 Protocol 和 Invocation 实际上也是围绕 Invoker 展开的：
   

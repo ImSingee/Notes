@@ -4,7 +4,6 @@ full-title:: 一文搞懂【零知识证明】技术
 category:: #articles
 url:: https://juejin.cn/post/7205839782382321724
 tags:: #[[inoreader]] #[[read]] #[[掘金 - 后端]]
-
 - —**零知识证明**，它可以让我们**向其他人证明某个陈述是真实的但不会泄露关于陈述本身的任何信息** ([View Highlight](https://read.readwise.io/read/01hdjeykgedbgwy4mf0ntc7srr)) #Highlight #[[2023-10-25]]
 - **零知识证明(Zero Knowledge Proof)** ，指的是**证明者能够在不向验证者提供任何有用的信息的情况下，使验证者相信某个论断是正确的**。 ([View Highlight](https://read.readwise.io/read/01hdjeytr9zrghgc32jbg6yezw)) #Highlight #[[2023-10-25]]
 - 关于零知识证明，有三条主要的**性质**：

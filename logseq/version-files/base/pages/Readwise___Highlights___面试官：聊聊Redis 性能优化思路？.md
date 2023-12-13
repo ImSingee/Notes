@@ -4,7 +4,6 @@ full-title:: 面试官：聊聊Redis 性能优化思路？
 category:: #articles
 url:: https://www.cxyxiaowu.com/20487.html
 tags:: #[[coding]] #[[database]] #[[inoreader]] #[[博客]]
-
 - Redis 的官方博客在几个地方都说，性能瓶颈更可能是**网络** ([View Highlight](https://read.readwise.io/read/01hdzbsa8yp8t4kpnhq8rqam52)) #Highlight #[[2023-10-30]]
 - 在大数据量的情况下，有些操作的执行时间会相对长，比如 `KEYS *`，`LRANGE mylist 0 -1`，以及其他算法复杂度为 O(n) 的指令。因为 Redis 只用一个线程来做数据查询，如果这些指令耗时很长，就会阻塞 Redis，造成大量延时。 ([View Highlight](https://read.readwise.io/read/01hdzbsny2cq5j7nrgfnpx70ty)) #Highlight #[[2023-10-30]]
 - Redis Essential 这本书建议利用 `rename-command KEYS ''` 来禁止使用这个耗时的指令。 ([View Highlight](https://read.readwise.io/read/01hdzbt9h9egrk8ypmmmw44v6n)) #Highlight #[[2023-10-30]]

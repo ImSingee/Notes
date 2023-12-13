@@ -3,7 +3,6 @@ author:: [[@Love_grill_cat on Twitter]]
 full-title:: \#语言学习 积累词汇量： 之前说到，永远不要看字...
 category:: #tweets
 url:: https://twitter.com/Love_grill_cat/status/1693068384445874182
-
 - #语言学习
   积累词汇量：
   之前说到，永远不要看字幕，那么当我听到一个不懂的词，怎么去查找呢？打开字幕去看，非常麻烦，而且违背了“永远不要看字幕”的初衷。

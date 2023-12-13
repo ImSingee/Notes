@@ -3,7 +3,6 @@ author:: [[juejin.cn]]
 full-title:: 【全观测系列】Elasticsearch应用性能监控最佳实践
 category:: #articles
 url:: https://juejin.cn/post/7058838119214219271
-
 - 应用性能监测APM
   
   APM定义：企业应用APM对自身复杂的软件及应用程序的运行状态进行监测、诊断和分析，从而缩短故障定位时间和提升故障的定位准确度，进而提升应用运行效益和优化用户的使用体验。

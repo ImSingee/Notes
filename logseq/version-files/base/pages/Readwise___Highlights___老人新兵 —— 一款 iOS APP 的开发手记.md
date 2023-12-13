@@ -4,7 +4,6 @@ full-title:: 老人新兵 —— 一款 iOS APP 的开发手记
 category:: #articles
 url:: https://www.fatbobman.com/posts/healthNote_development_log_2020/
 tags:: #[[Swift]]
-
 - 不要用数据库的思路使用 Core Data. ([View Highlight](https://read.readwise.io/read/01hdzrare82pq7jdv31ag33xt9)) #Highlight #[[2023-10-30]]
 - RelationShip 是一个好东西，系统会自动维护数据之间的关系。
   

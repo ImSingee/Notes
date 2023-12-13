@@ -3,7 +3,6 @@ author:: [[@zcwzhy on Twitter]]
 full-title:: Tweets From 小泳
 category:: #tweets
 url:: https://twitter.com/zcwzhy
-
 - 还真有女性性高潮时的脑电图的研究
   
   脑电图可反映性高潮时女性大脑活动的变化，即所谓高潮带来的短暂的恍惚或意识丧失

@@ -3,7 +3,6 @@ author:: [[@noworkforsixian on Twitter]]
 full-title:: Tweets From Sixian
 category:: #tweets
 url:: https://twitter.com/noworkforsixian
-
 - 我用 Readwise 生成了一个干净可读的版本，在这里分享给大家。
   https://t.co/LiQFhsLea8
   

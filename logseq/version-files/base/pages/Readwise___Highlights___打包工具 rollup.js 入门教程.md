@@ -4,7 +4,6 @@ full-title:: 打包工具 rollup.js 入门教程
 category:: #articles
 url:: http://www.ruanyifeng.com/blog/2022/05/rollup.html
 tags:: #[[inoreader]] #[[star]] #[[博客]]
-
 - rollup.js 的开发本意，是打造一款简单易用的 ES 模块打包工具，不必配置，直接使用。这一点，它确实做到了。
   
   后来经过不断发展，它也可以打包 CommonJS 模块。但是，这时需要经过复杂配置，实际上并没有比 Webpack 简单多少。

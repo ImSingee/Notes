@@ -3,7 +3,6 @@ author:: [[juejin.cn]]
 full-title:: 【后端专场 学习资料六】字节跳动青训营
 category:: #articles
 url:: https://juejin.cn/post/7197699689135210552
-
 - 2.  The Linux Programming Interface（第13章 FILE I/O BUFFERING）
   
   本书介绍了很多Linux内核子系统的实现，其中第13章着重讲了单机的文件IO。学习完Linux中的文件IO栈，对单机存储系统会有更深的认识。 ([View Highlight](https://read.readwise.io/read/01hdg1qx87v9k16yc03m6f9mkr)) #Highlight #[[2023-10-24]]

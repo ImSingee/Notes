@@ -4,7 +4,6 @@ full-title:: Golang调度器(7)—网络轮询器
 category:: #articles
 url:: https://juejin.cn/post/7219847723092738106
 tags:: #[[inoreader]] #[[read]] #[[掘金 - 后端]]
-
 - 磁盘IO并不支持非阻塞IO ([View Highlight](https://read.readwise.io/read/01herzergr7nmmvmhdkk1j3zak)) #Highlight #[[2023-11-09]]
 - select使用磁盘IO无意义，因为其永远是ready的 ([View Highlight](https://read.readwise.io/read/01herzf9m0qj91dcyq4x62qqgv)) #Highlight #[[2023-11-09]]
 - epoll直接不支持磁盘IO ([View Highlight](https://read.readwise.io/read/01herzfbtt5z9zjrawtjf1m94x)) #Highlight #[[2023-11-09]]

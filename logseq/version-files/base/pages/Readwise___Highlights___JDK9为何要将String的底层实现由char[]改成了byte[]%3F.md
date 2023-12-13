@@ -4,7 +4,6 @@ full-title:: JDK9为何要将String的底层实现由char[]改成了byte[]?
 category:: #articles
 url:: http://mp.weixin.qq.com/s?__biz=MzU3MDc3OTI1NA==&mid=2247494139&idx=1&sn=546fd94ee10dace6fb1b018666d3bb74&chksm=fce89ae2cb9f13f4a99640309259289e5fbb2ca822af5f1ff5a2a4dfc3459a78b25bc7ebfb82#rd
 tags:: #[[inoreader]] #[[star]] #[[微信公众号]]
-
 - 如果你不是 Java8 的钉子户，你应该早就发现了：String 类的源码已经由 `char[]` 优化为了 `byte[]` 来存储字符串内容，为什么要这样做呢？
   
   开门见山地说，从 `char[]` 到 `byte[]`，最主要的目的是**为了节省字符串占用的内存** 。内存占用减少带来的另外一个好处，就是 GC 次数也会减少。 ([View Highlight](https://read.readwise.io/read/01hekrsqmqwa62tpa08x0487f8)) #Highlight #[[2023-11-07]]

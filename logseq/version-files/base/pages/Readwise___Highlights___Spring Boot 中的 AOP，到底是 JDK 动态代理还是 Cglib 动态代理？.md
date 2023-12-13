@@ -4,7 +4,6 @@ full-title:: Spring Boot 中的 AOP，到底是 JDK 动态代理还是 Cglib 动
 category:: #articles
 url:: http://mp.weixin.qq.com/s?__biz=MzI1NDY0MTkzNQ==&mid=2247495520&idx=1&sn=57a608fcba723c1e64903b3816aa0d85&chksm=e9c0bd00deb73416eeaacd1dbc1fb70eec78ecb4340e1bc0b47d21effa5f799cce4906c48ed4#rd
 tags:: #[[inoreader]] #[[star]] #[[微信公众号]]
-
 - AOP 底层是动态代理，而 Java 中的动态代理有两种实现方式：
   
   •   基于 JDK 的动态代理

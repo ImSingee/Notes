@@ -4,7 +4,6 @@ full-title:: 什么叫经济学直觉？
 category:: #articles
 url:: https://daily.zhihu.com/story/9746369
 tags:: #[[inoreader]] #[[read]] #[[star]]
-
 - **结论 1：经济学直觉是一种默会知识，需要个人在学术训练和科研中自行体会。**
   
   **结论 2：经济学直觉很重要。**

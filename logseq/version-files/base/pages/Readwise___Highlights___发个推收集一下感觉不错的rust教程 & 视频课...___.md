@@ -3,7 +3,6 @@ author:: [[@shengxj1 on Twitter]]
 full-title:: 发个推收集一下感觉不错的rust教程 & 视频课...
 category:: #tweets
 url:: https://twitter.com/shengxj1/status/1721139075498074386
-
 - 发个推收集一下感觉不错的rust教程 & 视频课程，欢迎评论推荐，持续更新
   #大圣好物推荐
   1. Rust语言圣经，实战驱动我觉得能看进去 很棒

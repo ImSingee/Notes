@@ -4,7 +4,6 @@ full-title:: 低延迟架构体系初探：如何从硬件到应用开发提升�
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652978321&idx=1&sn=d3d028b97bd657261214d0ce94fe28e2&chksm=bd4aefb28a3d66a4d7610fe51309fceb4dd971c18dbaacffe55bfdf7a9e69757a757790addbd#rd
 tags:: #[[inoreader]] #[[star]] #[[微信公众号]]
-
 - 低延迟（low latency）(https://www.phodal.com/blog/explore-low-latency-architecture/）顾名思议是计算系统或网络以最小延迟提供响应的能力。从数据的角度来考虑，如果我们想最大程度降低延迟，那么就需要关注到每一个层次的数据处理。所以，它会涉及到一系列方方面面的领域，诸如于：
   
   •   网络传输与硬件

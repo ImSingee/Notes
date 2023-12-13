@@ -4,7 +4,6 @@ full-title:: Go Slice 扩容实现
 category:: #articles
 url:: https://juejin.cn/post/7179578237872242749
 tags:: #[[golang]] #[[inoreader]] #[[read]] #[[掘金 - 后端]]
-
 - 其实最新的扩容规则在 1.18 版本中就已经发生改变了，具体可以参考一下这个 `commit`： [runtime: make slice growth formula a bit smoother](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fgolang%2Fgo%2Fcommit%2F2dda92ff6f9f07eeb110ecbf0fc2d7a0ddd27f9d)。
   
   大概意思是：

@@ -4,7 +4,6 @@ full-title:: 为啥一点也不科学的mbti测试，有那么多人愿意信？
 category:: #articles
 url:: http://mp.weixin.qq.com/s?__biz=MzIzNDAxNjkxOA==&mid=2650752260&idx=3&sn=a2adeb1f29b742907eb0964090defbe0&chksm=f0f73cfdc780b5eb9a618c0d517c121c31773bb035c1d4c10003545e3cb5fc4ef2f30f87b5d1#rd
 tags:: #[[inoreader]] #[[star]] #[[微信公众号]]
-
 - MBTI 测试全称是迈尔斯 - 布里格斯性格分类法，是一种通过自我问答来确定自身心理偏好的问卷调查。 ([View Highlight](https://read.readwise.io/read/01hekscx28faxx00crrmp7ts9s)) #Highlight #[[2023-11-07]]
 - 问题在于， **MBTI 作为一个测量工具，本身在信度（ reliability ）和效度（ validity ）两方面都存在缺陷。** ([View Highlight](https://read.readwise.io/read/01hekse0jxexhv5hc4ktyp1mms)) #Highlight #[[2023-11-07]]
 - MBTI 的信度和效度只有象征意义 ([View Highlight](https://read.readwise.io/read/01heksej1rb5s23jje5wfs9zzn)) #Highlight #[[2023-11-07]]

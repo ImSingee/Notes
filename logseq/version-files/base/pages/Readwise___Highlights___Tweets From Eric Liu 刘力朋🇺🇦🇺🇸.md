@@ -3,7 +3,6 @@ author:: [[@EricLiu_USA on Twitter]]
 full-title:: Tweets From Eric Liu 刘力朋🇺🇦🇺🇸
 category:: #tweets
 url:: https://twitter.com/EricLiu_USA
-
 - 退出中国国籍后可能面对的后果：
   1. 无法使用中国护照；
   2. 护照免签国或多或少的增加，出国旅行面临选择困难焦虑；

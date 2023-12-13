@@ -5,7 +5,6 @@ category:: #articles
 url:: https://louiscard.com/2023/10/05/dont-use-deadline-to-make-a-wish/
 
 ![](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_182549/2019-08-06-160417.png-beta3.0)
-
 - 真正的「截止时间」，就是到了点，就算你紧张到台词全忘、浑身颤抖、满头大汗，也要迈步上台，撑满 30 分钟 ([View Highlight](https://read.readwise.io/read/01hc1xk5yyqpxv37q58c03qejm)) #Highlight #[[2023-10-06]]
 - 很多人沦为「自鸽选手」和重度拖延症的原因就是**滥用截止时间**。我发现很多人（包括我自己）对定计划这件事是成瘾的，而且特别喜欢设置截止时间，仿佛设置了截止时间，到时候我就一定会做完一样，完成之前内心就非常喜悦。
   

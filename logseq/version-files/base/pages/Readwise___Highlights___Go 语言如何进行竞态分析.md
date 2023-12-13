@@ -4,7 +4,6 @@ full-title:: Go 语言如何进行竞态分析
 category:: #articles
 url:: https://liqiang.io/post/how-golang-detect-data-race
 tags:: #[[inoreader]] #[[博客]] #[[格物致知]]
-
 - 编译器会为原子操作（如 atomic.AddInt32、atomic.LoadUint64 等）和同步原语（如 Mutex、RWMutex、Channel 等）插入特殊的检测代码。这些代码有助于 Race Detector 更准确地分析程序的同步行为，从而更可靠地检测数据竞争。 ([View Highlight](https://read.readwise.io/read/01hf3yhyv260cbdx9cdac2vd69)) #Highlight #[[2023-11-13]]
 - •   Stub Code：如前所述，Go 编译器会在内存访问和同步操作处插入额外的代码，以便与 Race Detector 通信。这些插入的代码在程序运行期间执行，直接在发生内存访问和同步操作的 Goroutine 中运行。
   •   Shadow Memory：Race Detector 使用 Shadow Memory 来存储内存访问的元数据。Shadow Memory 的管理和更新在发生内存访问操作的 Goroutine 中进行，以保证元数据的实时性。

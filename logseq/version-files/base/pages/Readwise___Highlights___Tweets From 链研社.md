@@ -3,7 +3,6 @@ author:: [[@lianyanshe on Twitter]]
 full-title:: Tweets From 链研社
 category:: #tweets
 url:: https://twitter.com/lianyanshe
-
 - 如果你担心程序员一样的事发生在你身上建议你
   1.卡里不要放大量现金
   2.不要生活在小城市

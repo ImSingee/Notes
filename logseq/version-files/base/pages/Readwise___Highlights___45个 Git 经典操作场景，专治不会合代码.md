@@ -4,7 +4,6 @@ full-title:: 45个 Git 经典操作场景，专治不会合代码
 category:: #articles
 url:: http://mp.weixin.qq.com/s?__biz=MzI1NDY0MTkzNQ==&mid=2247496717&idx=1&sn=27c057efe610dd47ce7a16a0fa0b7967&chksm=e9c0a66ddeb72f7b53812126065c2d399d3ddc0a89659e65a3dfb72c1bc8c3ca3076b07079f6#rd
 tags:: #[[favorite]] #[[git]] #[[inoreader]] #[[star]] #[[微信公众号]]
-
 - 删除任意提交(commit)
   
   同样的警告：不到万不得已的时候不要这么做.

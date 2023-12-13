@@ -4,7 +4,6 @@ full-title:: L16.Linux文件核心属性知识
 category:: #articles
 url:: https://juejin.cn/post/7170097783620239391
 tags:: #[[coding]] #[[inoreader]] #[[read]]
-
 - Inode本质上是一小块具备唯一数字编号的存储空间，主要用来存放文件（目录）属性（例如ls -l的结果）的数据信息，注意，Inode里面唯独不包含文件名本身（文件名不算文件的属性）。
   
   Block称为磁盘块，是用来存放实际数据的实体单元（ext文件系统一般最大为4KB），即用来存放真正的数据，例如，照片、视频等普通文件数据，单个的大文件需要 ([View Highlight](https://read.readwise.io/read/01hdefp4wns6994kf5e3vhnayq)) #Highlight #[[2023-10-23]]

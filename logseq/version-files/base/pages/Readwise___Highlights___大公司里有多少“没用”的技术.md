@@ -4,7 +4,6 @@ full-title:: 大公司里有多少“没用”的技术
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=MzI2MzE2NDczMw==&mid=2649753772&idx=1&sn=5453e9b106740ff598d329985c96684b&chksm=f244aefec53327e811ff73ef1d651a38eb4fbb4c895ee6043b3516ea298e2ae2a144fc28aebb#rd
 tags:: #[[inoreader]] #[[star]] #[[微信公众号]]
-
 - 什么叫【有用】？
   
   

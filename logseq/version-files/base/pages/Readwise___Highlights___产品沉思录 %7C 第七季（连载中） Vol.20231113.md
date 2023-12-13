@@ -2,7 +2,6 @@ title:: Readwise/Highlights/产品沉思录 | 第七季（连载中） Vol.20231
 author:: [[shaonan × fonter]]
 full-title:: 产品沉思录 | 第七季（连载中） Vol.20231113
 category:: #articles
-
 - 计算机算不上是一个领域，更像是一种流行文化；
   
   总是在追赶新潮，很少关注历史/根源，甚至是历史上一些有价值的内容。 ([View Highlight](https://read.readwise.io/read/01hf60vswwqd77t286ze7ybxc7)) #Highlight #[[2023-11-14]]

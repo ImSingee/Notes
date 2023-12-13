@@ -3,7 +3,6 @@ author:: [[juejin.cn]]
 full-title:: 【后端专场 学习资料七】字节跳动青训营
 category:: #articles
 url:: https://juejin.cn/post/7198982002304942138
-
 - •   大Key：Value大于10KB就是大Key，使用大Key将导致Redis系统不稳定
   •   热Key：一个Key的QPS特别高，将导致Redis实例出现负载突增，负责均衡流量不均的情况。导致单实例故障
   •   慢查询：大Key、热Kye的读写；一次操作过多的Key（mset/hmset/sadd/zadd） ([View Highlight](https://read.readwise.io/read/01hdg1de7jr4yfvpqwabvfn0nq)) #Highlight #[[2023-10-24]]

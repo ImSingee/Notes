@@ -3,7 +3,6 @@ author:: [[半佛仙人]]
 full-title:: 品牌们不会放过b站的
 category:: #articles
 url:: https://mp.weixin.qq.com/s?__biz=MzI5MTE2NDI2OQ==&mid=2247521554&idx=1&sn=5d7375faf3937270e228e4517851fb65&chksm=ec160c10db61850638dd41e0cdac2c759fc61cbc5ded4f47989b528809bab0550e833af4a388&scene=21#wechat_redirect
-
 - 可以投的内容平台有很多，为什么乌江偏偏选择了和B站联名“电子榨菜”？
   
   

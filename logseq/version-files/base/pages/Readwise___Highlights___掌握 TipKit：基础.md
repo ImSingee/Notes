@@ -4,7 +4,6 @@ full-title:: 掌握 TipKit：基础
 category:: #articles
 url:: https://www.fatbobman.com/posts/mastering-TipKit-basic
 tags:: #[[go inbox]] #[[inoreader]] #[[博客]] #[[肘子的swift记事本]]
-
 - TipKit 为 @Parameter 提供了一个 `@Parameter(.transient)` 选项。在开启后，TipKit 将在应用重启时，使用 Tip 定义中提供的默认值而不使用持久化的值。与 Core Data 或 SwiftData 中的 `transient` 选项性质略有不同，在 TipKit 中，即使开启 `transient` 选项，数据仍会被持久化。这主要是为了方便在使用同一个 TipKit 数据源的不同应用和组件之间保持该参数的动态同步。 ([View Highlight](https://read.readwise.io/read/01hdd49bcseqvrgrctra1f1pdp)) #Highlight #[[2023-10-23]]
 - 目前 TipKit 提供了三种 Tip 失效原因：
   

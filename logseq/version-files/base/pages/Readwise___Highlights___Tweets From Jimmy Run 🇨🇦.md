@@ -3,7 +3,6 @@ author:: [[@JimmyWan2023 on Twitter]]
 full-title:: Tweets From Jimmy Run 🇨🇦
 category:: #tweets
 url:: https://twitter.com/JimmyWan2023
-
 - Podcast里面有很多英语听力素材
   
   BBC Global News Podcasts

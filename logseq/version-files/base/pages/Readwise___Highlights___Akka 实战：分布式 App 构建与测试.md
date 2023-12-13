@@ -3,7 +3,6 @@ author:: [[首页]]
 full-title:: Akka 实战：分布式 App 构建与测试
 category:: #articles
 url:: https://juejin.cn/post/7095977527176331300
-
 - 论文《 A Node on Distributed Computing 》概括了从单机编程迁移到分布式编程时，不可忽略的四个方面：
   
   0.  延迟：使用网络意味着对消息的处理需要更多的时间。

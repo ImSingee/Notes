@@ -3,7 +3,6 @@ author:: [[juejin.cn]]
 full-title:: Linux命令拾遗-我的进程消失了
 category:: #articles
 url:: https://juejin.cn/post/7045133348175347743
-
 - ![jobs](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f8145a3f789b4e59b9df6f2e1b49d6b9~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
   
   1.  命令直接执行时，启动的是前台任务，而在命令后面添加`&`符号，可让进程启动为后台任务。

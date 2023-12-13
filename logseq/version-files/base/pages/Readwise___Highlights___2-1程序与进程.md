@@ -4,7 +4,6 @@ full-title:: 2-1程序与进程
 category:: #articles
 url:: https://w.toomore.us/posts/dev/liunx%E4%B8%8Bphp%E5%A4%9A%E8%BF%9B%E7%A8%8B%E7%BC%96%E7%A8%8B/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E8%BF%9B%E7%A8%8B%E7%8E%AF%E5%A2%83/2-1%E7%A8%8B%E5%BA%8F%E4%B8%8E%E8%BF%9B%E7%A8%8B/
 tags:: #[[inoreader]] #[[star]] #[[博客]]
-
 - ELF文件种类：[#](https://w.toomore.us/posts/dev/liunx%E4%B8%8Bphp%E5%A4%9A%E8%BF%9B%E7%A8%8B%E7%BC%96%E7%A8%8B/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E8%BF%9B%E7%A8%8B%E7%8E%AF%E5%A2%83/2-1%E7%A8%8B%E5%BA%8F%E4%B8%8E%E8%BF%9B%E7%A8%8B#elf文件种类)
   
   1.  EXEC 可执行文件
