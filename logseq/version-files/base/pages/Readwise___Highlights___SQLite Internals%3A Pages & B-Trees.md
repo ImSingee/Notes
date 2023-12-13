@@ -1,0 +1,18 @@
+title:: Readwise/Highlights/SQLite Internals: Pages & B-Trees
+author:: [[Ben Johnson]]
+full-title:: SQLite Internals: Pages & B-Trees
+category:: #articles
+url:: https://fly.io/blog/sqlite-internals-btree/
+
+- For our name column, the `0x1b` value specifies that it is a `TEXT` type and has a length of 7 bytes. Type values that are odd and are greater or equal to 13 are `TEXT` fields and can be calculated with the formula `(n*2) + 13`. So our 7-byte string is `(7*2) + 13` which is 27, or `0x1b` in hex. ([View Highlight](https://read.readwise.io/read/01hf4xnx4x89256fwswr5cc443)) #Highlight #[[2023-11-14]]
+- `BLOB` fields are similar except they’re even numbers calculated as `(n*2) + 12`. ([View Highlight](https://read.readwise.io/read/01hf4xpg2qy9zpz2s4btkqb87k)) #Highlight #[[2023-11-14]]
+- Once our types are all encoded, we just need to pack our data in. ([View Highlight](https://read.readwise.io/read/01hf4xvd70j9jqe7wg9nvc25dc)) #Highlight #[[2023-11-14]]
+- SQLite can optimize integer floating-point values by storing them as pure integer fields ([View Highlight](https://read.readwise.io/read/01hf4xy953f6cjd4dwrq1qvfpm)) #Highlight #[[2023-11-14]]
+- A naive approach to a database would just be to pack records in sequentially in a file. However, there’s no way to insert or update rows in the middle of the file without shifting and rewriting all the bytes after the new row. ([View Highlight](https://read.readwise.io/read/01hf4y0aq5nj1b6sxhczp25kz9)) #Highlight #[[2023-11-14]]
+- SQLite groups rows together into 4KB chunks called “pages”. Why 4KB? That’s what file systems typically use as their page size so keeping everything aligned reduces page fetches from disk. Disks are usually the slowest part of a database so limiting page fetches can have a huge performance win. ([View Highlight](https://read.readwise.io/read/01hf4y0rqt63p85bpyjvv58jkq)) #Highlight #[[2023-11-14]]
+- Page fetches are painfully slow in databases so we want to reduce that as much as possible. ([View Highlight](https://read.readwise.io/read/01hf4ya05ygrmgsgm1pts254c1)) #Highlight #[[2023-11-14]]
+- SQLite is structured as a b-tree, which is a data structure where each node can point to two or more child nodes and the values in these child nodes are all sorted. ([View Highlight](https://read.readwise.io/read/01hf4yae8m8a49jnakgbk8kfhh)) #Highlight #[[2023-11-14]]
+- SQLite will split the page into two leaf pages and add an interior page as the root of our b+tree that points to our child leaf pages. This interior page stores the key ranges for the leaf pages so that when you search, you can see what ranges each child page holds without having to actually read that child page. ([View Highlight](https://read.readwise.io/read/01hf4ybsh5s5dxqz1efsvz20tm)) #Highlight #[[2023-11-14]]
+- To find a given record, we only need to search the root interior page to find the correct leaf page ([View Highlight](https://read.readwise.io/read/01hf4yc94pm0dnpewqwzr3xzfg)) #Highlight #[[2023-11-14]]
+- Well, knowing about record formatting tells us that storing integers instead of floating-point numbers is wildly more efficient as SQLite doesn’t compress floats. ([View Highlight](https://read.readwise.io/read/01hf4ydchdtjr0tm2yz40w6kzw)) #Highlight #[[2023-11-14]]
+- Learning about the internals of our tools lets us feel comfortable with them and use them confidently. ([View Highlight](https://read.readwise.io/read/01hf4ye2re5ckh5w2km6vyvwbj)) #Highlight #[[2023-11-14]]

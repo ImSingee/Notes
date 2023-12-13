@@ -56,3 +56,13 @@ url:: https://www.fatbobman.com/posts/concurrencyOfCoreData/
   •   NSRollbackMergePolicy
   
   持久化数据永远胜出 ([View Highlight](https://read.readwise.io/read/01hb8ap05a54cqyh6bja7srzxe)) #Highlight #[[2023-09-26]]
+- 在 Core Data 中，我们可以创建两种类型的托管对象上下文（NSManagedObjectContext）——主队列上下文和私有队列上下文。
+  
+  •   主队列上下文（NSManagedObjectContextConcurrencyType.mainQueueConcurrencyType ）
+  
+  定义于且只能用于主队列上的托管对象上下文。从事同界面（UI）有关的工作，主要用来从持久化存储中获取 UI 显示所需数据。使用 NSPersistentContainer 来创建 Core Data Stack 时，container 的 viewContext 属性对应的便是主队列上下文。
+  
+  •   私有队列上下文（NSManagedObjectContextConcurrencyType.privateQueueConcurrencyType）
+  
+  顾名思义，私有队列上下文在创建时将创建它自己的队列，且只能在它自己创建的队列上使用。主要适用于执行时间较长，如果运行在主队列可能会影响 UI 响应的操作。 ([View Highlight](https://read.readwise.io/read/01hf3xxdtwra17qkf1byybrqnc)) #Highlight #[[2023-11-13]]
+- Core Data 是为多线程开发而设计的。然而，Core Data 框架下的对象并非都是线程安全的。其中，开发者接触最频繁、使用量最大的托管对象上下文（NSManagedObjectContext）和托管对象（NSManagedObject）恰好都不是线程安全的 ([View Highlight](https://read.readwise.io/read/01hf3xxr2c9dy43mh0pjers7s9)) #Highlight #[[2023-11-13]]
