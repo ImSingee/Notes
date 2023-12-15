@@ -5,7 +5,6 @@ category:: #articles
 url:: https://daily.zhihu.com/story/9749488
 tags:: #[[inoreader]] #[[read]] #[[star]]  
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png)
-
 - 一台设备的内存容量, 取决于:
   
   •   CPU/ 北桥数量
