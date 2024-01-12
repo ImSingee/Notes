@@ -5,7 +5,6 @@ category:: #tweets
 url:: https://twitter.com/qiufenghyf/status/1738856007491797196
 
 ![](https://pbs.twimg.com/profile_images/895162340202754049/Bw4yD4l3.jpg)
-
 - Stripe 和 水星银行都申请下来了。应之前的要求，给大家分享一下  193 刀 注册美国公司 + EIN + Stripe + 水星银行一整套流程，全流程大约 23天左右。 ([View Tweet](https://twitter.com/qiufenghyf/status/1738856007491797196)) #Highlight #[[2024-01-03]]
 - 1.美国银行注册: 
   我选择的是 wyoming 州注册, 因为 wyoming 免公司税和个人税，并且任何国籍也可以注册 https://t.co/dxlxjIIMOT 。关于增值付费部分，按照默认就好，增值部分在注册完毕后，都是可以额外购买的，需要担心选错了，导致注册失败，默认的选项就可以完成公司注册。花费 150 刀，耗时 1周 ([View Tweet](https://twitter.com/qiufenghyf/status/1738856092346798329)) #Highlight #[[2024-01-03]]

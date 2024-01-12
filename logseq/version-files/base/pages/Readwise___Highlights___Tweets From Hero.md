@@ -5,7 +5,6 @@ category:: #tweets
 url:: https://twitter.com/heroooooh
 
 ![](https://pbs.twimg.com/profile_images/583101789483859969/soayV1UA.jpg)
-
 - 如果你想冷启动你的出海产品，找到前100个种子用户，请利用好Reddit。
   
   https://t.co/AUADEP7gZk的创始团队分享了他们的产品获取种子用户的方法：**在Reddit上发帖获得了270k +观看，并为他们带来了50个种子用户，转化了20个付费。**

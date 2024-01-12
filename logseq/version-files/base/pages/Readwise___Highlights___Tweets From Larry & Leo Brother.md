@@ -5,7 +5,6 @@ category:: #tweets
 url:: https://twitter.com/xqliu
 
 ![](https://pbs.twimg.com/profile_images/1722439920680349696/inSddMkh.jpg)
-
 - 分享一些出海注册公司渠道
   
   1. Stripe Atlas <a href="https://twitter.com/stripe">@stripe</a>  上可以注册美国公司，500 美金。如果在 Tax ID 步骤选择 Standard (15 到35 天完成) 则无需美国 SSN 

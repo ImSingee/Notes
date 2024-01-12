@@ -5,7 +5,6 @@ category:: #articles
 url:: https://rustcc.cn/article?id=6b1d9149-b557-45ea-81f2-8bd4fd9c8e6f
 tags:: #[[favorite]] #[[Rust]]  
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png)
-
 - `Eq Trait` 实现了 [等价关系 Equivalence_relation](https://en.wikipedia.org/wiki/Equivalence_relation)，该数值关系具有以下特性：
   
   •   **对称性 (symmetric(对称))：如果 `a == b`，那么 `b == a`；**

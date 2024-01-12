@@ -5,7 +5,6 @@ category:: #tweets
 url:: https://twitter.com/yfx0202/status/1741152211495756048
 
 ![](https://pbs.twimg.com/profile_images/1732069638320570368/dSvUkDIa.jpg)
-
 - 张朝阳治好了我的拖延症  
   
   分享一个治疗拖延症的妙招，不经意间看到张朝阳推荐的方法，亲试有效  

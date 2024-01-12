@@ -5,7 +5,6 @@ category:: #tweets
 url:: https://twitter.com/shengxj1
 
 ![](https://pbs.twimg.com/profile_images/1688110986799271936/Pyt9pQSf.jpg)
-
 - 房车出游后才觉得podcast有用，最近学了很多独立开发的知识，明年多听一些英语博客，求推荐博客 开车陪娃的时候听 https://t.co/YeHY3ChY2s
   
   ![](https://pbs.twimg.com/media/GCVGGBpWIAA4MDn.jpg)

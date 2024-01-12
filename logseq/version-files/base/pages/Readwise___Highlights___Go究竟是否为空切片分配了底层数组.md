@@ -5,7 +5,6 @@ category:: #articles
 url:: https://tonybai.com/2022/02/15/whether-go-allocate-underlying-array-for-empty-slice/
 tags:: #[[inoreader]] #[[star]] #[[博客]]  
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png)
-
 - **空切片到底分没分配底层数组**？
   
   答案是肯定的：**没有分配**！ ([View Highlight](https://read.readwise.io/read/01hjfe4z7pv1gsks99108qa1c6)) #Highlight #[[2023-12-25]]
