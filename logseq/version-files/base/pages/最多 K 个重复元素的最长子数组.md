@@ -1,5 +1,6 @@
 alias:: Length of Longest Subarray With at Most K Frequency
-- #CruelCoding #2024-01-02 #Medium #[[Two Pointers]] [讲解](N/A) Rating-1535
+
+- #CruelCoding #2024-01-02 #Medium #[[Two Pointers]] Rating-1535
 - #Algorithm #Medium #[[滑动窗口]] #[[哈希表]] #[[数组]]
 - #Leetcode #Leetcode-2958 [LC国际](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) [LC中国](https://leetcode.cn/problems/length-of-longest-subarray-with-at-most-k-frequency/)
 - # 题目
