@@ -31,4 +31,23 @@ alias:: Length of Longest Subarray With at Most K Frequency
 		- `1 <= nums[i] <= 109`
 		- `1 <= k <= nums.length`
 - # 解
-	- #TODO
+	- ```go
+	  func maxSubarrayLength(nums []int, k int) int {
+	      counter := map[int]int{}
+	      maxLength := 0
+	      
+	      i := 0
+	      for j, num := range nums {
+	          counter[num] += 1
+	          
+	          for counter[num] > k {
+	              counter[nums[i]] -= 1
+	              i++
+	          }
+	          
+	          maxLength = max(maxLength, j-i+1)
+	      }
+	      
+	      return maxLength
+	  }
+	  ```
