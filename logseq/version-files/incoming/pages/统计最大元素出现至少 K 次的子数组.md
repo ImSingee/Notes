@@ -21,6 +21,8 @@ alias:: Count Subarrays Where Max Element Appears at Least K Times
 		- `1 <= nums.length <= 105`
 		- `1 <= nums[i] <= 106`
 		- `1 <= k <= 105`
+- # 关联
+	- 关联题目：[[算法/统计最大元素出现至少 K 次的子数组 II]]
 - # 解
 	- ```go
 	  func countSubarrays(nums []int, k int) int64 {
