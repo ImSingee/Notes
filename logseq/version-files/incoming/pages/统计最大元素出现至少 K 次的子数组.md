@@ -22,4 +22,36 @@ alias:: Count Subarrays Where Max Element Appears at Least K Times
 		- `1 <= nums[i] <= 106`
 		- `1 <= k <= 105`
 - # 解
-	- #TODO
+	- ```go
+	  func countSubarrays(nums []int, k int) int64 {
+	      maxElement := slices.Max(nums)
+	      
+	      c := int64(0)
+	      maxCount := 0
+	      l := 0
+	      
+	      // [1,3,2,3,2,3] k=2
+	      
+	      
+	      for r, num := range nums {
+	          if num == maxElement {
+	              maxCount++
+	          }
+	          
+	          for maxCount == k {
+	              if nums[l] == maxElement {
+	                  maxCount--
+	              }
+	              
+	              l++
+	          }
+	          
+	          fmt.Printf("l = %d, r = %d\n", l, r)
+	          
+	          c += int64(l)
+	      }
+	      
+	      
+	      return c
+	  }
+	  ```

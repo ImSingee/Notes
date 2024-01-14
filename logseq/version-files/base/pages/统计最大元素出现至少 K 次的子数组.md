@@ -1,4 +1,5 @@
 alias:: Count Subarrays Where Max Element Appears at Least K Times
+
 - #CruelCoding #2024-01-03 #Medium #[[Two Pointers]] Rating-1700
 - #Algorithm #Medium #[[数组]] #[[滑动窗口]]
 - #Leetcode #Leetcode-2962 [LC国际](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/) [LC中国](https://leetcode.cn/problems/count-subarrays-where-max-element-appears-at-least-k-times/)
@@ -21,4 +22,36 @@ alias:: Count Subarrays Where Max Element Appears at Least K Times
 		- `1 <= nums[i] <= 106`
 		- `1 <= k <= 105`
 - # 解
-	- #TODO
+	- ```go
+	  func countSubarrays(nums []int, k int) int64 {
+	      maxElement := slices.Max(nums)
+	      
+	      c := int64(0)
+	      maxCount := 0
+	      l := 0
+	      
+	      // [1,3,2,3,2,3] k=2
+	      
+	      
+	      for r, num := range nums {
+	          if num == maxElement {
+	              maxCount++
+	          }
+	          
+	          for maxCount == k {
+	              if nums[l] == maxElement {
+	                  maxCount--
+	              }
+	              
+	              l++
+	          }
+	          
+	          fmt.Printf("l = %d, r = %d\n", l, r)
+	          
+	          c += int64(l)
+	      }
+	      
+	      
+	      return c
+	  }
+	  ```
