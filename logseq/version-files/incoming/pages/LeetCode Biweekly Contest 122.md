@@ -1,0 +1,6 @@
+- #Leetcode-Weekly-Contest #2024LCBT
+-
+- DONE [[将数组分成最小总代价的子数组 I]]
+- DONE [[判断一个数组是否可以变为有序]]
+- DONE [[通过操作使数组长度最小]]
+- TODO [[将数组分成最小总代价的子数组 II]]

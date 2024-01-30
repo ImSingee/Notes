@@ -2,7 +2,7 @@
 - 请你统计有多少满足 「 子数组中的 **最大** 元素」至少出现 `k` 次的子数组，并返回满足这一条件的子数组的数目。
 - ## 注释
 	- 来源：灵神 [LeetCode 2962]([[统计最大元素出现至少 K 次的子数组]]) 题目的题解中给出的[思考题](https://leetcode.cn/problems/count-subarrays-where-max-element-appears-at-least-k-times/solutions/2560940/hua-dong-chuang-kou-fu-ti-dan-pythonjava-xvwg/comments/2192840/)
-	- 给出的提示：单调栈、[LeetCode 907]([[leetcode-907]])
+	- 给出的提示：单调栈、[[子数组的最小值之和]]
 	- 网友给出的答案： https://leetcode.cn/problems/count-subarrays-where-max-element-appears-at-least-k-times/solutions/2560940/hua-dong-chuang-kou-fu-ti-dan-pythonjava-xvwg/comments/2192840
 		- 维护一个单调不增队列 每次加入新元素nums[i]前 需要将小于当前元素的出队，不妨假设假设当前队列为q，其大小为siz，此时q[siz-1]被出队 说明nums[q[siz-1]的右边界（第一个大于）的下标就是i，如果q的大小siz是大于等于k的且 nums[q[siz-k]]==nums[q[siz-1]] 说明队列里倒数k个都的下标的值都是一样的 且他们一定是nums里下标从q[siz-k]~q[siz-1]的最大值 因为能在队列里 说明中间一定没有比他们大的 否则就被出队了！
 		  此时我们把q[siz-k]~q[siz-1]看成一个整体 已经包含了k个最大值了 那么其方案数是多少，其左边界就是第一个**大于等于**nums[q[siz-1]]的 回顾我们队列单调不增的特性，容易得到下标就是q[siz-k-1] 就是在队列里再向左一个（如果siz-k已经是第0个了 那么左边界是-1） 其右边界是一个**大于** nums[q[siz-1]]的下标 其实就是i，因为nums[i]要入队才导致他们要出队的 方案数其实就为 (q[siz-k] - q[siz-k-1]) * (i-q[siz-1])

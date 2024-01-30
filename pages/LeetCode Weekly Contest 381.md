@@ -1,0 +1,6 @@
+- #Leetcode-Weekly-Contest #2023LCWT
+-
+- minimum-number-of-pushes-to-type-word-i
+- count-the-number-of-houses-at-a-certain-distance-i
+- minimum-number-of-pushes-to-type-word-ii
+- count-the-number-of-houses-at-a-certain-distance-ii
