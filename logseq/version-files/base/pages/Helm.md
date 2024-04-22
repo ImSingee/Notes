@@ -1,2 +1,3 @@
 - [官网](https://helm.sh/)
 - Helm 是 k8s 的包管理器
+- Helm v3 是纯粹的客户端工具，原服务器 Tiller 已被移除
