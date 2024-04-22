@@ -52,4 +52,5 @@
 	  type: kubernetes.io/service-account-token
 	  ```
 		- 安装后利用 `kubectl get secret admin-user -n kubernetes-dashboard -o jsonpath={".data.token"} | base64 -d` 来获取 admin-user 的 token
+		- 临时使用也可以不去创建最后的 Secret，而是用 `kubectl -n kubernetes-dashboard create token admin-user -d 1h` 来生成 Token
 -
