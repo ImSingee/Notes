@@ -257,3 +257,6 @@
 - On [[2024-04-15]] at 2:07 PM Readwise synced 8 highlights from 1 book.
 - On [[2024-04-22]] at 4:15 PM Readwise synced 2 highlights from 2 books.
 - On [[2024-04-23]] at 10:57 AM Readwise synced 1 highlight from 1 book.
+- On [[2024-04-25]] at 3:47 PM Readwise synced 10 highlights from 1 book.
+- On [[2024-04-26]] at 1:52 PM Readwise synced 2 highlights from 1 book.
+- On [[2024-04-27]] at 11:59 PM Readwise synced 2 highlights from 1 book.
