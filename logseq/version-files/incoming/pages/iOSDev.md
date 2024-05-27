@@ -1,0 +1,3 @@
+- [Swift Concurrency (GCD) 英文](https://www.kodeco.com/books/concurrency-by-tutorials)
+- [Swift Concurrency (GCD) 中文](https://bytedance.larkoffice.com/docx/doxcnMYZcL7DvPKuE9IN0iJ4eKh)
+-
