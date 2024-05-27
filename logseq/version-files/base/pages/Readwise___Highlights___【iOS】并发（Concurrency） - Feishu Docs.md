@@ -107,3 +107,20 @@ None
 - 一旦屏障命中，队列就假装它是串行的，只有屏障任务可以运行直到完成。一旦完成，在屏障任务之后提交的所有任务都可以再次并发运行。 #Highlight #[[2024-05-27]]
 - BlockOperation 是并发运行的，而不是串行运行的，因此执行的顺序是不确定的 #Highlight #[[2024-05-27]]
 - 在使我们的应用程序并发时，我们将使用两个 API：GCD 和 Operations。这些既不是相互竞争的技术，也不是我们必须在其中选择的东西。事实上，Operations 是建立在 GCD 之上的！ #Highlight #[[2024-05-27]]
+- Thread Sanitizer 是运行时分析。这意味着，如果在执行期间没有出现问题，则不会被标记 #Highlight #[[2024-05-27]]
+- 我们应该尝试经常使用 Thread Sanitizer 运行——而不仅仅是一次。启用 sanitizer 会对性能产生相当大的影响，CPU 速度会降低 2 倍到 20 倍，但是，我们应该经常运行它，或者将其集成到我们的工作流程中，这样我们就不会错过所有这些鬼鬼祟祟的线程问题！ #Highlight #[[2024-05-27]]
+- 默认情况下，调度队列将运行我们的设备一次能够处理的尽可能多的作业。如果我们希望限制该数量，只需在 DispatchQueue 上设置 maxConcurrentOperationCount 属性。如果我们将 maxConcurrentOperationCount 设置为 1，那么我们实际上创建了一个串行队列。 #Highlight #[[2024-05-27]]
+- 在向 OperationQueue 添加任何操作之前，我们可以将现有的 DispatchQueue 指定为底层队列。如果这样做，请记住 DispatchQueue 的服务质量将覆盖我们为 OperationQueue 的 QoS 设置的任何值。​
+  
+  ​
+  
+  注意：不要将主队列指定为底层队列！​
+  
+  [https://developer.apple.com/documentation/foundation/nsoperationqueue/1415344-underlyingqueue](https://developer.apple.com/documentation/foundation/nsoperationqueue/1415344-underlyingqueue)​
+  
+  ​ #Highlight #[[2024-05-27]]
+- OperationQueue 的行为类似于 DispatchGroup，我们可以添加具有不同服务质量值的操作，并且它们将根据相应的优先级运行。​
+  
+  OperationQueue 的默认服务质量级别是 .background。虽然我们可以在操作队列上设置 qualityOfService 属性，但请记住，它可能会被我们在队列管理的各个 Operation 上设置的服务质量覆盖。 #Highlight #[[2024-05-27]]
+- 我们可以通过将 isSuspended 属性设置为 true 来暂停调度队列。已经添加的操作将继续运行，但在将 isSuspended 更改回 false 之前不会安排新添加的操作。 #Highlight #[[2024-05-27]]
+- 将Operation 添加到 OperationQueue 后，就不能再将相同的操作添加到任何其他 OperationQueue。Operation 实例是一次完成的任务，这就是为什么要将它们变成子类，以便在必要时可以多次执行它们。 #Highlight #[[2024-05-27]]
