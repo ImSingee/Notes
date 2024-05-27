@@ -1,3 +1,3 @@
 - [Swift Concurrency (GCD) 英文](https://www.kodeco.com/books/concurrency-by-tutorials)
-- [Swift Concurrency (GCD) 中文](https://bytedance.larkoffice.com/docx/doxcnMYZcL7DvPKuE9IN0iJ4eKh)
+- [Swift Concurrency (GCD) 中文](https://bytedance.larkoffice.com/docx/doxcnMYZcL7DvPKuE9IN0iJ4eKh) [笔记]([[Readwise/Highlights/【iOS】并发（Concurrency） - Feishu Docs]])
 -
