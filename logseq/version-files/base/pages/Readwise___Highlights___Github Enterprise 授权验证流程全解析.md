@@ -6,7 +6,6 @@ url:: https://mp.weixin.qq.com/s/uyMC0jqs3xv-v50zlxS70A
 
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png)
 None
-
 - 现在考考大家，体积最迷你的 Linux 发行版是什么？
   
   Arch Linux？

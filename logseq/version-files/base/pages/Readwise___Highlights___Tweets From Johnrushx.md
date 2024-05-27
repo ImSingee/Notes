@@ -6,7 +6,6 @@ url:: https://twitter.com/johnrushx
 
 ![](https://pbs.twimg.com/profile_images/1466385933612240901/qNMrMDlG.jpg)
 None
-
 - I built 30 startups in 20 years. 
   VC-backed, Bootstrapped, Apps, SaaS, B2B, B2C.
   

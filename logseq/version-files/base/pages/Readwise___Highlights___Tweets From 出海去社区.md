@@ -6,7 +6,6 @@ url:: https://twitter.com/chuhaiqu
 
 ![](https://pbs.twimg.com/profile_images/1768344720919691265/UjNCSoHL.jpg)
 None
-
 - 运营增长要重视宣传材料：
   
   • 一图胜千言，这是marketing的重要环节。
